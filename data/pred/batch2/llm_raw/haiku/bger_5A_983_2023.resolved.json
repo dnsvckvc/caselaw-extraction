@@ -1,0 +1,113 @@
+{
+ "decision_id": "bger_5A_983_2023",
+ "outcome": "dismissed",
+ "spans": [
+  {
+   "start": 288,
+   "end": 304,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 378,
+   "end": 396,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 2283,
+   "end": 2301,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 BGG"
+  },
+  {
+   "start": 2420,
+   "end": 2435,
+   "label": "BGE",
+   "text": "BGE 142 III 798"
+  },
+  {
+   "start": 2688,
+   "end": 2699,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 2738,
+   "end": 2757,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2846,
+   "end": 2863,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BV"
+  },
+  {
+   "start": 2910,
+   "end": 2927,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 2984,
+   "end": 2993,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 3529,
+   "end": 3543,
+   "label": "BGE",
+   "text": "BGE 141 III 28"
+  },
+  {
+   "start": 3554,
+   "end": 3565,
+   "label": "BGE",
+   "text": "142 III 433"
+  },
+  {
+   "start": 3576,
+   "end": 3586,
+   "label": "BGE",
+   "text": "143 III 65"
+  },
+  {
+   "start": 4432,
+   "end": 4449,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BV"
+  },
+  {
+   "start": 4861,
+   "end": 4880,
+   "label": "STATUTE",
+   "text": "Art. 273 Abs. 1 ZGB"
+  },
+  {
+   "start": 6148,
+   "end": 6160,
+   "label": "STATUTE",
+   "text": "Art. 104 BGG"
+  },
+  {
+   "start": 6851,
+   "end": 6869,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 7130,
+   "end": 7142,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_listed": 17,
+ "n_resolved": 17,
+ "n_backtracked": 0,
+ "unresolved": [],
+ "problems": []
+}

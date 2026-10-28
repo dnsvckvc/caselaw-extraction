@@ -1,0 +1,251 @@
+{
+ "decision_id": "bger_4A_553_2022",
+ "outcome": "dismissed",
+ "spans": [
+  {
+   "start": 609,
+   "end": 627,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 692,
+   "end": 708,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1896,
+   "end": 1909,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 2074,
+   "end": 2087,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 4639,
+   "end": 4658,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 4742,
+   "end": 4766,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 5056,
+   "end": 5070,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 5077,
+   "end": 5080,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 5653,
+   "end": 5667,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 5781,
+   "end": 5800,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 6020,
+   "end": 6034,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6226,
+   "end": 6237,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 6247,
+   "end": 6266,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 6328,
+   "end": 6343,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 6350,
+   "end": 6353,
+   "label": "BGE",
+   "text": "264"
+  },
+  {
+   "start": 6460,
+   "end": 6478,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 6561,
+   "end": 6580,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 6583,
+   "end": 6598,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 6802,
+   "end": 6816,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7074,
+   "end": 7088,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 7265,
+   "end": 7279,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7659,
+   "end": 7674,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 7683,
+   "end": 7693,
+   "label": "BGE",
+   "text": "140 III 16"
+  },
+  {
+   "start": 7702,
+   "end": 7712,
+   "label": "BGE",
+   "text": "135 II 356"
+  },
+  {
+   "start": 8046,
+   "end": 8061,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 8070,
+   "end": 8081,
+   "label": "BGE",
+   "text": "137 III 226"
+  },
+  {
+   "start": 8090,
+   "end": 8101,
+   "label": "BGE",
+   "text": "136 III 552"
+  },
+  {
+   "start": 8221,
+   "end": 8236,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 8245,
+   "end": 8255,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 8530,
+   "end": 8545,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 8876,
+   "end": 8890,
+   "label": "BGE",
+   "text": "BGE 133 IV 119"
+  },
+  {
+   "start": 8909,
+   "end": 8924,
+   "label": "BGE",
+   "text": "BGE 132 III 555"
+  },
+  {
+   "start": 9266,
+   "end": 9291,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 9299,
+   "end": 9314,
+   "label": "BGE",
+   "text": "BGE 143 III 578"
+  },
+  {
+   "start": 10295,
+   "end": 10335,
+   "label": "STATUTE",
+   "text": "Art. 336c Abs. 2 i.V.m. Abs. 1 lit. b OR"
+  },
+  {
+   "start": 15070,
+   "end": 15081,
+   "label": "DOCKET",
+   "text": "4A_640/2020"
+  },
+  {
+   "start": 16954,
+   "end": 16969,
+   "label": "BGE",
+   "text": "BGE 143 III 290"
+  },
+  {
+   "start": 23771,
+   "end": 23814,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 23945,
+   "end": 23957,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 24091,
+   "end": 24103,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  }
+ ],
+ "n_listed": 40,
+ "n_resolved": 40,
+ "n_backtracked": 0,
+ "unresolved": [],
+ "problems": []
+}

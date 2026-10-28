@@ -1,0 +1,275 @@
+{
+ "decision_id": "bger_4A_29_2022",
+ "outcome": "dismissed",
+ "spans": [
+  {
+   "start": 334,
+   "end": 352,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 446,
+   "end": 462,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 4001,
+   "end": 4026,
+   "label": "STATUTE",
+   "text": "Art. 24 Abs. 1 Ziff. 4 OR"
+  },
+  {
+   "start": 4238,
+   "end": 4248,
+   "label": "STATUTE",
+   "text": "Art. 23 OR"
+  },
+  {
+   "start": 4461,
+   "end": 4486,
+   "label": "STATUTE",
+   "text": "Art. 24 Abs. 1 Ziff. 4 OR"
+  },
+  {
+   "start": 4722,
+   "end": 4737,
+   "label": "BGE",
+   "text": "BGE 136 III 528"
+  },
+  {
+   "start": 4748,
+   "end": 4758,
+   "label": "BGE",
+   "text": "132 II 161"
+  },
+  {
+   "start": 4786,
+   "end": 4811,
+   "label": "STATUTE",
+   "text": "Art. 24 Abs. 1 Ziff. 4 OR"
+  },
+  {
+   "start": 4977,
+   "end": 4991,
+   "label": "BGE",
+   "text": "BGE 118 II 297"
+  },
+  {
+   "start": 5006,
+   "end": 5017,
+   "label": "DOCKET",
+   "text": "4A_166/2021"
+  },
+  {
+   "start": 5066,
+   "end": 5081,
+   "label": "BGE",
+   "text": "BGE 147 III 586"
+  },
+  {
+   "start": 5309,
+   "end": 5323,
+   "label": "BGE",
+   "text": "BGE 118 II 297"
+  },
+  {
+   "start": 5338,
+   "end": 5349,
+   "label": "DOCKET",
+   "text": "4A_335/2021"
+  },
+  {
+   "start": 5418,
+   "end": 5443,
+   "label": "STATUTE",
+   "text": "Art. 24 Abs. 1 Ziff. 4 OR"
+  },
+  {
+   "start": 5604,
+   "end": 5614,
+   "label": "DOCKET",
+   "text": "4A_92/2021"
+  },
+  {
+   "start": 5644,
+   "end": 5655,
+   "label": "DOCKET",
+   "text": "4A_217/2014"
+  },
+  {
+   "start": 5914,
+   "end": 5929,
+   "label": "BGE",
+   "text": "BGE 132 III 737"
+  },
+  {
+   "start": 5938,
+   "end": 5947,
+   "label": "BGE",
+   "text": "113 II 25"
+  },
+  {
+   "start": 6500,
+   "end": 6515,
+   "label": "BGE",
+   "text": "BGE 132 III 737"
+  },
+  {
+   "start": 6524,
+   "end": 6535,
+   "label": "BGE",
+   "text": "123 III 200"
+  },
+  {
+   "start": 6555,
+   "end": 6565,
+   "label": "STATUTE",
+   "text": "Art. 26 OR"
+  },
+  {
+   "start": 6626,
+   "end": 6651,
+   "label": "STATUTE",
+   "text": "Art. 24 Abs. 1 Ziff. 4 OR"
+  },
+  {
+   "start": 6978,
+   "end": 6988,
+   "label": "STATUTE",
+   "text": "Art. 26 OR"
+  },
+  {
+   "start": 7020,
+   "end": 7034,
+   "label": "BGE",
+   "text": "BGE 130 III 49"
+  },
+  {
+   "start": 7153,
+   "end": 7170,
+   "label": "STATUTE",
+   "text": "Art. 25 Abs. 1 OR"
+  },
+  {
+   "start": 7232,
+   "end": 7257,
+   "label": "STATUTE",
+   "text": "Art. 24 Abs. 1 Ziff. 4 OR"
+  },
+  {
+   "start": 7609,
+   "end": 7624,
+   "label": "BGE",
+   "text": "BGE 129 III 363"
+  },
+  {
+   "start": 7633,
+   "end": 7643,
+   "label": "BGE",
+   "text": "117 II 218"
+  },
+  {
+   "start": 8078,
+   "end": 8092,
+   "label": "BGE",
+   "text": "BGE 117 II 218"
+  },
+  {
+   "start": 8120,
+   "end": 8130,
+   "label": "DOCKET",
+   "text": "4A_92/2021"
+  },
+  {
+   "start": 8148,
+   "end": 8159,
+   "label": "DOCKET",
+   "text": "5A_497/2020"
+  },
+  {
+   "start": 15406,
+   "end": 15416,
+   "label": "STATUTE",
+   "text": "Art. 26 OR"
+  },
+  {
+   "start": 16772,
+   "end": 16797,
+   "label": "STATUTE",
+   "text": "Art. 24 Abs. 1 Ziff. 4 OR"
+  },
+  {
+   "start": 20521,
+   "end": 20546,
+   "label": "STATUTE",
+   "text": "Art. 24 Abs. 1 Ziff. 4 OR"
+  },
+  {
+   "start": 20639,
+   "end": 20664,
+   "label": "STATUTE",
+   "text": "Art. 24 Abs. 1 Ziff. 4 OR"
+  },
+  {
+   "start": 20768,
+   "end": 20778,
+   "label": "STATUTE",
+   "text": "Art. 26 OR"
+  },
+  {
+   "start": 20957,
+   "end": 20974,
+   "label": "STATUTE",
+   "text": "Art. 25 Abs. 1 OR"
+  },
+  {
+   "start": 21906,
+   "end": 21920,
+   "label": "BGE",
+   "text": "BGE 117 II 218"
+  },
+  {
+   "start": 21936,
+   "end": 21946,
+   "label": "DOCKET",
+   "text": "4A_92/2021"
+  },
+  {
+   "start": 21964,
+   "end": 21975,
+   "label": "DOCKET",
+   "text": "5A_497/2020"
+  },
+  {
+   "start": 22302,
+   "end": 22327,
+   "label": "STATUTE",
+   "text": "Art. 24 Abs. 1 Ziff. 4 OR"
+  },
+  {
+   "start": 22917,
+   "end": 22954,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 23059,
+   "end": 23072,
+   "label": "AMOUNT",
+   "text": "Fr. 15'000.--"
+  },
+  {
+   "start": 23218,
+   "end": 23231,
+   "label": "AMOUNT",
+   "text": "Fr. 17'000.--"
+  }
+ ],
+ "n_listed": 44,
+ "n_resolved": 44,
+ "n_backtracked": 1,
+ "unresolved": [],
+ "problems": []
+}

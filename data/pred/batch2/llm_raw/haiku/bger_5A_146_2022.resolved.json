@@ -1,0 +1,71 @@
+{
+ "decision_id": "bger_5A_146_2022",
+ "outcome": "inadmissible",
+ "spans": [
+  {
+   "start": 262,
+   "end": 278,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 2189,
+   "end": 2207,
+   "label": "STATUTE",
+   "text": "Art. 48 Abs. 3 BGG"
+  },
+  {
+   "start": 2332,
+   "end": 2407,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 2 lit. c,\nArt. 75,\nArt. 76,\nArt. 90 BGG"
+  },
+  {
+   "start": 3014,
+   "end": 3032,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 3 BGG"
+  },
+  {
+   "start": 3108,
+   "end": 3126,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3335,
+   "end": 3349,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 3365,
+   "end": 3376,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 5531,
+   "end": 5557,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5648,
+   "end": 5666,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5791,
+   "end": 5801,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_listed": 10,
+ "n_resolved": 10,
+ "n_backtracked": 0,
+ "unresolved": [],
+ "problems": []
+}

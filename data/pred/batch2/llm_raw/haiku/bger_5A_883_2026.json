@@ -1,0 +1,49 @@
+{
+ "outcome": "inadmissible",
+ "citations": [
+  {
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 2, Art. 75 Abs. 1 und Art. 90 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 und Art. 106 Abs. 2 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ]
+}

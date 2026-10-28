@@ -1,0 +1,281 @@
+{
+ "outcome": "dismissed",
+ "citations": [
+  {
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 24'465.24"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 3'932.--"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 220.--"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 220.--"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 Bst. b BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. a BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. b BGG"
+  },
+  {
+   "label": "BGE",
+   "text": "138 III 799"
+  },
+  {
+   "label": "BGE",
+   "text": "2"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4A_456/2021"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4A_458/2021"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 122 Abs. 1 lit. a ZPO"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 96 ZPO"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5D_11/2022"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4D_37/2018"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_10/2018"
+  },
+  {
+   "label": "BGE",
+   "text": "137 III 185"
+  },
+  {
+   "label": "BGE",
+   "text": "141 I 124"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5D_11/2022"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_10/2018"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_75/2017"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_868/2016"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_209/2016"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 122 Abs. 1 lit. a ZPO"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 122 Abs. 1 lit. a ZPO"
+  },
+  {
+   "label": "BGE",
+   "text": "141 I 124"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5D_118/2021"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4D_37/2018"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_209/2016"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_157/2015"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5D_11/2022"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_1002/2018"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4D_37/2018"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_10/2018"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5D_14/2017"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4A_382/2015"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4A_404/2015"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5D_11/2022"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4D_37/2018"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_10/2018"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4A_382/2015"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4A_404/2015"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5D_118/2021"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4D_37/2018"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4A_171/2017"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4A_382/2015"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4A_404/2015"
+  },
+  {
+   "label": "DOCKET",
+   "text": "8C_278/2020"
+  },
+  {
+   "label": "DOCKET",
+   "text": "8C_880/2018"
+  },
+  {
+   "label": "BGE",
+   "text": "122 I 203"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4A_492/2020"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 3'300.--"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 62.05"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 180.--"
+  },
+  {
+   "label": "BGE",
+   "text": "143 IV 453"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 220.--"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 122 Abs. 1 lit. a ZPO"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 180.--"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 und 3 BV"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 6 Ziff. 1 EMRK"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 190 BV"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 122 Abs. 1 lit. a ZPO"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 3'932.--"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und Art. 68 Abs. 3 BGG"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ]
+}

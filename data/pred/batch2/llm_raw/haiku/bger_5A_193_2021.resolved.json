@@ -1,0 +1,257 @@
+{
+ "decision_id": "bger_5A_193_2021",
+ "outcome": "dismissed",
+ "spans": [
+  {
+   "start": 666,
+   "end": 682,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1601,
+   "end": 1615,
+   "label": "AMOUNT",
+   "text": "Fr. 300'000.--"
+  },
+  {
+   "start": 1741,
+   "end": 1753,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  },
+  {
+   "start": 2380,
+   "end": 2394,
+   "label": "AMOUNT",
+   "text": "Fr. 134'661.--"
+  },
+  {
+   "start": 2485,
+   "end": 2497,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  },
+  {
+   "start": 3329,
+   "end": 3341,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  },
+  {
+   "start": 4172,
+   "end": 4185,
+   "label": "STATUTE",
+   "text": "Art. 19 SchKG"
+  },
+  {
+   "start": 4193,
+   "end": 4260,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 2 lit. c und\nArt. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 4313,
+   "end": 4339,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 4539,
+   "end": 4557,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a BGG"
+  },
+  {
+   "start": 4668,
+   "end": 4686,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4689,
+   "end": 4702,
+   "label": "BGE",
+   "text": "BGE 143 I 377"
+  },
+  {
+   "start": 4816,
+   "end": 4835,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4838,
+   "end": 4853,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 4970,
+   "end": 4989,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5134,
+   "end": 5149,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 5235,
+   "end": 5246,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 5253,
+   "end": 5270,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 5276,
+   "end": 5286,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 5453,
+   "end": 5471,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 5474,
+   "end": 5489,
+   "label": "BGE",
+   "text": "BGE 137 III 226"
+  },
+  {
+   "start": 5548,
+   "end": 5567,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5570,
+   "end": 5582,
+   "label": "BGE",
+   "text": "BGE 144 V 50"
+  },
+  {
+   "start": 5711,
+   "end": 5724,
+   "label": "BGE",
+   "text": "BGE 147 IV 73"
+  },
+  {
+   "start": 5735,
+   "end": 5745,
+   "label": "BGE",
+   "text": "141 IV 317"
+  },
+  {
+   "start": 5768,
+   "end": 5779,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 5974,
+   "end": 5987,
+   "label": "BGE",
+   "text": "BGE 146 I 240"
+  },
+  {
+   "start": 6003,
+   "end": 6014,
+   "label": "DOCKET",
+   "text": "5A_765/2021"
+  },
+  {
+   "start": 6319,
+   "end": 6339,
+   "label": "STATUTE",
+   "text": "Art. 92 Abs. 1 SchKG"
+  },
+  {
+   "start": 8848,
+   "end": 8859,
+   "label": "DOCKET",
+   "text": "5A_214/2018"
+  },
+  {
+   "start": 9350,
+   "end": 9369,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 9397,
+   "end": 9408,
+   "label": "DOCKET",
+   "text": "5A_108/2021"
+  },
+  {
+   "start": 9440,
+   "end": 9451,
+   "label": "DOCKET",
+   "text": "5A_885/2019"
+  },
+  {
+   "start": 9480,
+   "end": 9491,
+   "label": "DOCKET",
+   "text": "5A_446/2014"
+  },
+  {
+   "start": 10176,
+   "end": 10204,
+   "label": "STATUTE",
+   "text": "Art. 92 Abs. 1 Ziff. 9 SchKG"
+  },
+  {
+   "start": 12330,
+   "end": 12344,
+   "label": "AMOUNT",
+   "text": "Fr. 300'000.--"
+  },
+  {
+   "start": 12416,
+   "end": 12430,
+   "label": "AMOUNT",
+   "text": "Fr. 288'000.--"
+  },
+  {
+   "start": 16541,
+   "end": 16559,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 16766,
+   "end": 16784,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 16984,
+   "end": 16996,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 17008,
+   "end": 17024,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  }
+ ],
+ "n_listed": 41,
+ "n_resolved": 41,
+ "n_backtracked": 2,
+ "unresolved": [],
+ "problems": []
+}

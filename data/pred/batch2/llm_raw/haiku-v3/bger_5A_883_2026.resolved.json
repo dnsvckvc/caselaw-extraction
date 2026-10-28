@@ -1,0 +1,77 @@
+{
+ "decision_id": "bger_5A_883_2026",
+ "outcome": "inadmissible",
+ "spans": [
+  {
+   "start": 252,
+   "end": 268,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 351,
+   "end": 367,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 2276,
+   "end": 2337,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 2,\nArt. 75 Abs. 1 und\nArt. 90 BGG"
+  },
+  {
+   "start": 2373,
+   "end": 2392,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 2504,
+   "end": 2523,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 2650,
+   "end": 2688,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3071,
+   "end": 3089,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3183,
+   "end": 3198,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 4689,
+   "end": 4715,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4784,
+   "end": 4802,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 4914,
+   "end": 4926,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_listed": 11,
+ "n_resolved": 11,
+ "n_backtracked": 0,
+ "unresolved": [],
+ "problems": []
+}

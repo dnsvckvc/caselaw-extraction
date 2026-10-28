@@ -1,0 +1,77 @@
+{
+ "decision_id": "bger_5A_1049_2021",
+ "outcome": "inadmissible",
+ "spans": [
+  {
+   "start": 254,
+   "end": 270,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 1657,
+   "end": 1675,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2014,
+   "end": 2028,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 2044,
+   "end": 2055,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 2169,
+   "end": 2188,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 2276,
+   "end": 2294,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 2315,
+   "end": 2329,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 2346,
+   "end": 2357,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 4502,
+   "end": 4520,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 4993,
+   "end": 5019,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5106,
+   "end": 5124,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  }
+ ],
+ "n_listed": 11,
+ "n_resolved": 11,
+ "n_backtracked": 0,
+ "unresolved": [],
+ "problems": []
+}

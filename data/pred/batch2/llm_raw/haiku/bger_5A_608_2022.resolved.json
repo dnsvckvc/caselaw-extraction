@@ -1,0 +1,77 @@
+{
+ "decision_id": "bger_5A_608_2022",
+ "outcome": "inadmissible",
+ "spans": [
+  {
+   "start": 2558,
+   "end": 2571,
+   "label": "BGE",
+   "text": "BGE 135 II 38"
+  },
+  {
+   "start": 2580,
+   "end": 2590,
+   "label": "BGE",
+   "text": "139 II 233"
+  },
+  {
+   "start": 2763,
+   "end": 2781,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2860,
+   "end": 2875,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 2882,
+   "end": 2893,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 3589,
+   "end": 3602,
+   "label": "STATUTE",
+   "text": "Art. 99 SchKG"
+  },
+  {
+   "start": 4093,
+   "end": 4119,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4320,
+   "end": 4338,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 4451,
+   "end": 4469,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 4645,
+   "end": 4655,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  },
+  {
+   "start": 4667,
+   "end": 4683,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  }
+ ],
+ "n_listed": 11,
+ "n_resolved": 11,
+ "n_backtracked": 0,
+ "unresolved": [],
+ "problems": []
+}

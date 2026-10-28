@@ -1,0 +1,65 @@
+{
+ "decision_id": "bger_5A_75_2022",
+ "outcome": "dismissed",
+ "spans": [
+  {
+   "start": 284,
+   "end": 302,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 2049,
+   "end": 2068,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 2195,
+   "end": 2233,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2444,
+   "end": 2459,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 2475,
+   "end": 2485,
+   "label": "BGE",
+   "text": "141 IV 249"
+  },
+  {
+   "start": 2678,
+   "end": 2696,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2775,
+   "end": 2790,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 2804,
+   "end": 2815,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4617,
+   "end": 4635,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  }
+ ],
+ "n_listed": 9,
+ "n_resolved": 9,
+ "n_backtracked": 0,
+ "unresolved": [],
+ "problems": []
+}

@@ -1,0 +1,385 @@
+{
+ "outcome": "dismissed",
+ "citations": [
+  {
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 100'000.--"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 70 StGB"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 70 StGB"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 915'437.65"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 229'962.70"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 226'750.--"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 418'726.65"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 226'750.--"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 150'104.07"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 400'000.--"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 418'726.65"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 242 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 242 Abs. 2 SchKG"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 418'726.65"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 418'726.65"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 418'726.65"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 150'009.87"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 115'795.52"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a BGG"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_11/2009"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b und Art. 75 Abs. 1 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 105 BGG"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 115'759.52"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 302'967.13"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 115'759.52"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 5 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 242 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 44 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 44 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 70 StGB"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 126 I 97"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 70 Abs. 1 StGB"
+  },
+  {
+   "label": "STATUTE",
+   "text": "aArt. 59 Ziff. 1 Abs. 1 StGB"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 137 IV 33"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_221/2019"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 139 III 44"
+  },
+  {
+   "label": "BGE",
+   "text": "142 III 174"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 71 StGB"
+  },
+  {
+   "label": "BGE",
+   "text": "142 III 174"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 197 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 242 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 106 ff. SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 70 StGB"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 131 III 652"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 5 SchKG"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 68 III 21"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 70 StGB"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 44 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 44 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 197 ff. SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 44 SchKG"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 122 III 436"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 242 SchKG"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 122 III 436"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 197 ff. SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 242 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 202 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 202 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 242 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 202 SchKG"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 70 III 83"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 202 SchKG"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 70 III 81"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 202 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 401 Abs. 3 OR"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 242 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 400 OR"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 125 III 293"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 197 ff. ZPO"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 52 ZPO"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 58 ZPO"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 372 und Art. 373 StGB"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 70-72 StGB"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_221/2019"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 131 III 652"
+  },
+  {
+   "label": "BGE",
+   "text": "139 III 44"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_221/2019"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 17 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 44 SchKG"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 28 I 207"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 131 III 653"
+  },
+  {
+   "label": "DOCKET",
+   "text": "1B_388/2016"
+  },
+  {
+   "label": "BGE",
+   "text": "139 III 44"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 4, Art. 68 Abs. 1 BGG"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 7'500.--"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 7'500.--"
+  }
+ ]
+}

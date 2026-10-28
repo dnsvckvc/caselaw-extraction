@@ -1,0 +1,485 @@
+{
+ "decision_id": "bger_5A_827_2020",
+ "outcome": "approved",
+ "spans": [
+  {
+   "start": 674,
+   "end": 692,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 1124,
+   "end": 1139,
+   "label": "STATUTE",
+   "text": "Art. 80 ff. ZGB"
+  },
+  {
+   "start": 3137,
+   "end": 3149,
+   "label": "AMOUNT",
+   "text": "CHF 5,5 Mio."
+  },
+  {
+   "start": 3179,
+   "end": 3195,
+   "label": "AMOUNT",
+   "text": "CHF 2'450'000.00"
+  },
+  {
+   "start": 3223,
+   "end": 3237,
+   "label": "AMOUNT",
+   "text": "CHF 600'000.00"
+  },
+  {
+   "start": 4004,
+   "end": 4015,
+   "label": "DOCKET",
+   "text": "5A_955/2019"
+  },
+  {
+   "start": 4046,
+   "end": 4058,
+   "label": "STATUTE",
+   "text": "Art. 112 BGG"
+  },
+  {
+   "start": 5189,
+   "end": 5200,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 5235,
+   "end": 5253,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 5406,
+   "end": 5439,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 Bst. b Ziff. 4 BGG"
+  },
+  {
+   "start": 5533,
+   "end": 5548,
+   "label": "BGE",
+   "text": "BGE 144 III 264"
+  },
+  {
+   "start": 5567,
+   "end": 5592,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 Bst. b BGG"
+  },
+  {
+   "start": 5620,
+   "end": 5633,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 5827,
+   "end": 5845,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 5932,
+   "end": 5943,
+   "label": "DOCKET",
+   "text": "5A_955/2019"
+  },
+  {
+   "start": 5996,
+   "end": 6034,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 und\nArt. 45 Abs. 1 BGG"
+  },
+  {
+   "start": 6122,
+   "end": 6147,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 Bst. b BGG"
+  },
+  {
+   "start": 6369,
+   "end": 6384,
+   "label": "BGE",
+   "text": "BGE 143 III 578"
+  },
+  {
+   "start": 6513,
+   "end": 6527,
+   "label": "BGE",
+   "text": "BGE 140 III 92"
+  },
+  {
+   "start": 7145,
+   "end": 7156,
+   "label": "DOCKET",
+   "text": "5A_955/2019"
+  },
+  {
+   "start": 7566,
+   "end": 7580,
+   "label": "BGE",
+   "text": "BGE 143 IV 214"
+  },
+  {
+   "start": 7591,
+   "end": 7602,
+   "label": "BGE",
+   "text": "135 III 334"
+  },
+  {
+   "start": 7830,
+   "end": 7849,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 8032,
+   "end": 8046,
+   "label": "BGE",
+   "text": "BGE 137 II 313"
+  },
+  {
+   "start": 8055,
+   "end": 8066,
+   "label": "BGE",
+   "text": "133 III 489"
+  },
+  {
+   "start": 8181,
+   "end": 8192,
+   "label": "DOCKET",
+   "text": "5A_262/2019"
+  },
+  {
+   "start": 8224,
+   "end": 8235,
+   "label": "DOCKET",
+   "text": "2C_122/2019"
+  },
+  {
+   "start": 8555,
+   "end": 8569,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 8650,
+   "end": 8669,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 8823,
+   "end": 8841,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 9309,
+   "end": 9321,
+   "label": "BGE",
+   "text": "BGE 142 I 99"
+  },
+  {
+   "start": 9332,
+   "end": 9342,
+   "label": "BGE",
+   "text": "140 III 86"
+  },
+  {
+   "start": 9477,
+   "end": 9496,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 9653,
+   "end": 9662,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 9731,
+   "end": 9742,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 9764,
+   "end": 9781,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 9787,
+   "end": 9797,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 9949,
+   "end": 9987,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 und\nArt. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 10028,
+   "end": 10047,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 10255,
+   "end": 10269,
+   "label": "BGE",
+   "text": "BGE 141 IV 249"
+  },
+  {
+   "start": 10280,
+   "end": 10291,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 10425,
+   "end": 10439,
+   "label": "BGE",
+   "text": "BGE 144 II 313"
+  },
+  {
+   "start": 10448,
+   "end": 10458,
+   "label": "BGE",
+   "text": "143 II 283"
+  },
+  {
+   "start": 11892,
+   "end": 11910,
+   "label": "STATUTE",
+   "text": "Art. 84 Abs. 2 ZGB"
+  },
+  {
+   "start": 11927,
+   "end": 11945,
+   "label": "STATUTE",
+   "text": "Art. 84 Abs. 1 ZGB"
+  },
+  {
+   "start": 12101,
+   "end": 12119,
+   "label": "STATUTE",
+   "text": "Art. 84 Abs. 2 ZGB"
+  },
+  {
+   "start": 12339,
+   "end": 12352,
+   "label": "BGE",
+   "text": "BGE 111 II 97"
+  },
+  {
+   "start": 12359,
+   "end": 12369,
+   "label": "BGE",
+   "text": "108 II 497"
+  },
+  {
+   "start": 12512,
+   "end": 12527,
+   "label": "BGE",
+   "text": "BGE 126 III 499"
+  },
+  {
+   "start": 13074,
+   "end": 13085,
+   "label": "DOCKET",
+   "text": "5A_875/2018"
+  },
+  {
+   "start": 13114,
+   "end": 13125,
+   "label": "DOCKET",
+   "text": "5A_232/2010"
+  },
+  {
+   "start": 13159,
+   "end": 13170,
+   "label": "DOCKET",
+   "text": "5A_274/2008"
+  },
+  {
+   "start": 13259,
+   "end": 13275,
+   "label": "STATUTE",
+   "text": "Art. 5 Abs. 1 BV"
+  },
+  {
+   "start": 13339,
+   "end": 13357,
+   "label": "STATUTE",
+   "text": "Art. 84 Abs. 2 ZGB"
+  },
+  {
+   "start": 14013,
+   "end": 14027,
+   "label": "BGE",
+   "text": "BGE 108 II 497"
+  },
+  {
+   "start": 14080,
+   "end": 14091,
+   "label": "STATUTE",
+   "text": "Art. 84 ZGB"
+  },
+  {
+   "start": 14104,
+   "end": 14117,
+   "label": "BGE",
+   "text": "BGE 111 II 97"
+  },
+  {
+   "start": 14133,
+   "end": 14143,
+   "label": "DOCKET",
+   "text": "5A_15/2020"
+  },
+  {
+   "start": 14166,
+   "end": 14177,
+   "label": "DOCKET",
+   "text": "2C_684/2015"
+  },
+  {
+   "start": 14377,
+   "end": 14390,
+   "label": "BGE",
+   "text": "BGE 112 II 97"
+  },
+  {
+   "start": 14479,
+   "end": 14490,
+   "label": "STATUTE",
+   "text": "Art. 84 ZGB"
+  },
+  {
+   "start": 14624,
+   "end": 14641,
+   "label": "STATUTE",
+   "text": "Art. 1 Bst. a ZPO"
+  },
+  {
+   "start": 14776,
+   "end": 14795,
+   "label": "STATUTE",
+   "text": "Art. 6 Ziff. 1 EMRK"
+  },
+  {
+   "start": 14798,
+   "end": 14815,
+   "label": "STATUTE",
+   "text": "Art. 30 Abs. 1 BV"
+  },
+  {
+   "start": 14832,
+   "end": 14845,
+   "label": "BGE",
+   "text": "BGE 134 I 125"
+  },
+  {
+   "start": 15065,
+   "end": 15076,
+   "label": "DOCKET",
+   "text": "5A_955/2019"
+  },
+  {
+   "start": 15345,
+   "end": 15356,
+   "label": "DOCKET",
+   "text": "2C_440/2019"
+  },
+  {
+   "start": 15952,
+   "end": 15967,
+   "label": "BGE",
+   "text": "BGE 140 III 167"
+  },
+  {
+   "start": 17691,
+   "end": 17707,
+   "label": "STATUTE",
+   "text": "Art. 685a ff. OR"
+  },
+  {
+   "start": 18021,
+   "end": 18037,
+   "label": "STATUTE",
+   "text": "Art. 360 ff. ZGB"
+  },
+  {
+   "start": 18713,
+   "end": 18751,
+   "label": "STATUTE",
+   "text": "Art. 239 Abs. 1 und\nArt. 243 Abs. 1 OR"
+  },
+  {
+   "start": 18754,
+   "end": 18768,
+   "label": "BGE",
+   "text": "BGE 144 III 93"
+  },
+  {
+   "start": 18779,
+   "end": 18790,
+   "label": "BGE",
+   "text": "136 III 142"
+  },
+  {
+   "start": 20534,
+   "end": 20549,
+   "label": "BGE",
+   "text": "BGE 144 III 264"
+  },
+  {
+   "start": 21399,
+   "end": 21417,
+   "label": "STATUTE",
+   "text": "Art. 84 Abs. 2 ZGB"
+  },
+  {
+   "start": 22551,
+   "end": 22575,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 4 BGG"
+  },
+  {
+   "start": 22678,
+   "end": 22702,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 22934,
+   "end": 22959,
+   "label": "STATUTE",
+   "text": "Art. 67 und 68 Abs. 5 BGG"
+  },
+  {
+   "start": 23514,
+   "end": 23527,
+   "label": "AMOUNT",
+   "text": "Fr. 12'000.--"
+  }
+ ],
+ "n_listed": 79,
+ "n_resolved": 79,
+ "n_backtracked": 1,
+ "unresolved": [],
+ "problems": []
+}

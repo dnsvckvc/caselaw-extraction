@@ -1,0 +1,347 @@
+{
+ "decision_id": "bger_4A_473_2024",
+ "outcome": "dismissed",
+ "spans": [
+  {
+   "start": 339,
+   "end": 355,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 428,
+   "end": 446,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 502,
+   "end": 522,
+   "label": "STATUTE",
+   "text": "Art. 271a\n\nAbs. 2 OR"
+  },
+  {
+   "start": 1096,
+   "end": 1108,
+   "label": "AMOUNT",
+   "text": "Fr. 1'300.--"
+  },
+  {
+   "start": 3384,
+   "end": 3432,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 1 lit. e Ziff. 4 i.V.m. Abs. 2 OR"
+  },
+  {
+   "start": 4110,
+   "end": 4121,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 4154,
+   "end": 4165,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 4201,
+   "end": 4226,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 4281,
+   "end": 4294,
+   "label": "AMOUNT",
+   "text": "Fr. 15'000.--"
+  },
+  {
+   "start": 4345,
+   "end": 4383,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4493,
+   "end": 4511,
+   "label": "STATUTE",
+   "text": "Art. 95 und 96 BGG"
+  },
+  {
+   "start": 4723,
+   "end": 4741,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 5176,
+   "end": 5190,
+   "label": "BGE",
+   "text": "BGE 148 IV 205"
+  },
+  {
+   "start": 5199,
+   "end": 5209,
+   "label": "BGE",
+   "text": "140 III 86"
+  },
+  {
+   "start": 5334,
+   "end": 5353,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5573,
+   "end": 5587,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5779,
+   "end": 5790,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 5800,
+   "end": 5819,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 5995,
+   "end": 6009,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6267,
+   "end": 6281,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 6738,
+   "end": 6772,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 1 lit. e Ziff. 4 OR"
+  },
+  {
+   "start": 6996,
+   "end": 7015,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 2 OR"
+  },
+  {
+   "start": 7156,
+   "end": 7190,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 1 lit. e Ziff. 4 OR"
+  },
+  {
+   "start": 7480,
+   "end": 7506,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 1 lit. e OR"
+  },
+  {
+   "start": 7722,
+   "end": 7741,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 2 OR"
+  },
+  {
+   "start": 7772,
+   "end": 7791,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 2 OR"
+  },
+  {
+   "start": 8107,
+   "end": 8126,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 2 OR"
+  },
+  {
+   "start": 8143,
+   "end": 8154,
+   "label": "DOCKET",
+   "text": "4A_525/2009"
+  },
+  {
+   "start": 8622,
+   "end": 8637,
+   "label": "BGE",
+   "text": "BGE 130 III 563"
+  },
+  {
+   "start": 8682,
+   "end": 8701,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 2 OR"
+  },
+  {
+   "start": 8905,
+   "end": 8920,
+   "label": "BGE",
+   "text": "BGE 130 III 563"
+  },
+  {
+   "start": 8987,
+   "end": 8999,
+   "label": "STATUTE",
+   "text": "Art. 271a OR"
+  },
+  {
+   "start": 9070,
+   "end": 9118,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 1 lit. e Ziff. 4 i.V.m. Abs. 2 OR"
+  },
+  {
+   "start": 9294,
+   "end": 9305,
+   "label": "DOCKET",
+   "text": "4A_671/2012"
+  },
+  {
+   "start": 9468,
+   "end": 9480,
+   "label": "AMOUNT",
+   "text": "Fr. 9'490.--"
+  },
+  {
+   "start": 9505,
+   "end": 9517,
+   "label": "AMOUNT",
+   "text": "Fr. 1'300.--"
+  },
+  {
+   "start": 11386,
+   "end": 11404,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 12668,
+   "end": 12679,
+   "label": "DOCKET",
+   "text": "4A_671/2012"
+  },
+  {
+   "start": 14849,
+   "end": 14868,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 2 OR"
+  },
+  {
+   "start": 15111,
+   "end": 15126,
+   "label": "BGE",
+   "text": "BGE 130 III 563"
+  },
+  {
+   "start": 16304,
+   "end": 16338,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 1 lit. e Ziff. 4 OR"
+  },
+  {
+   "start": 16415,
+   "end": 16434,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 2 OR"
+  },
+  {
+   "start": 16552,
+   "end": 16592,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 1 lit. e i.V.m. Abs. 2 OR"
+  },
+  {
+   "start": 16701,
+   "end": 16741,
+   "label": "STATUTE",
+   "text": "Art. 271a Abs. 1 lit. e i.V.m. Abs. 2 OR"
+  },
+  {
+   "start": 17122,
+   "end": 17134,
+   "label": "STATUTE",
+   "text": "Art. 266a OR"
+  },
+  {
+   "start": 17316,
+   "end": 17334,
+   "label": "STATUTE",
+   "text": "Art. 271 Abs. 1 OR"
+  },
+  {
+   "start": 17747,
+   "end": 17758,
+   "label": "STATUTE",
+   "text": "Art. 272 OR"
+  },
+  {
+   "start": 17770,
+   "end": 17784,
+   "label": "BGE",
+   "text": "BGE 142 III 91"
+  },
+  {
+   "start": 17795,
+   "end": 17806,
+   "label": "BGE",
+   "text": "140 III 496"
+  },
+  {
+   "start": 17815,
+   "end": 17825,
+   "label": "BGE",
+   "text": "138 III 59"
+  },
+  {
+   "start": 18287,
+   "end": 18302,
+   "label": "BGE",
+   "text": "BGE 140 III 496"
+  },
+  {
+   "start": 18311,
+   "end": 18322,
+   "label": "BGE",
+   "text": "135 III 112"
+  },
+  {
+   "start": 18680,
+   "end": 18695,
+   "label": "BGE",
+   "text": "BGE 148 III 215"
+  },
+  {
+   "start": 23060,
+   "end": 23078,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 23146,
+   "end": 23164,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 23613,
+   "end": 23625,
+   "label": "AMOUNT",
+   "text": "Fr. 2'500.--"
+  }
+ ],
+ "n_listed": 56,
+ "n_resolved": 56,
+ "n_backtracked": 1,
+ "unresolved": [],
+ "problems": []
+}

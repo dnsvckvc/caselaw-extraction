@@ -1,0 +1,333 @@
+{
+ "outcome": "dismissed",
+ "citations": [
+  {
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 2,3 Mio."
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 534'287.--"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 526'450.55"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 2,3 Mio."
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 526'450.55"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 Bst. a BGG"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 Bst. b BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 278 Abs. 3 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_650/2011"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 135 III 232"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_261/2009"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 135 III 608"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 133 III 585"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 147 II 44"
+  },
+  {
+   "label": "BGE",
+   "text": "143 II 283"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 146 I 62"
+  },
+  {
+   "label": "BGE",
+   "text": "133 III 439"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 144 I 113"
+  },
+  {
+   "label": "BGE",
+   "text": "141 I 49"
+  },
+  {
+   "label": "BGE",
+   "text": "140 III 16"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 144 III 145"
+  },
+  {
+   "label": "BGE",
+   "text": "142 II 369"
+  },
+  {
+   "label": "BGE",
+   "text": "137 I 1"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 271 Abs. 1 Ziff. 2 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 271 Abs. 1 Ziff. 2 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 157 ZPO"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 272 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 29a BV"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 271 und 272 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 157 ZPO"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 135 III 670"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 135 I 187"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_560/2023"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 29a BV"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 143 III 193"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 271 Abs. 1 Ziff. 2 SchKG"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_672/2021"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 119 III 92"
+  },
+  {
+   "label": "BGE",
+   "text": "71 III 188"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_361/2021"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 271 Abs. 1 Ziff. 2 SchKG"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5P.256/2006"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 271 SchKG"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_672/2021"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 272 Abs. 1 Ziff. 2 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 150 Abs. 1 ZPO"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 132 III 715"
+  },
+  {
+   "label": "BGE",
+   "text": "130 III 321"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 138 III 232"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5P.95/2004"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 130 III 321"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_33/2021"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_341/2021"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_365/2012"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 138 III 636"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art 271 Abs. 1 Ziff. 2 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 272 Abs. 1 Ziff. 2 SchKG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 272 Abs. 1 Ziff. 1 SchKG"
+  },
+  {
+   "label": "DOCKET",
+   "text": "5A_406/2022"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 149 III 318"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 und Art. 29a BV"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "label": "BGE",
+   "text": "133 III 221"
+  },
+  {
+   "label": "BGE",
+   "text": "130 III 321"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 Satz 1 BGG"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 18'000.--"
+  }
+ ]
+}

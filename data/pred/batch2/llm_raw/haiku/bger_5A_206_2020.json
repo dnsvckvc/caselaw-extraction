@@ -1,0 +1,85 @@
+{
+ "outcome": "inadmissible",
+ "citations": [
+  {
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 300.--"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 138 Abs. 3 lit. a ZPO"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 44 Abs. 2 BGG"
+  },
+  {
+   "label": "DOCKET",
+   "text": "4A_53/2019"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 148 Abs. 1 ZPO"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 119 Abs. 6 ZPO"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 119 Abs. 6 ZPO"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 137 III 470"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ]
+}

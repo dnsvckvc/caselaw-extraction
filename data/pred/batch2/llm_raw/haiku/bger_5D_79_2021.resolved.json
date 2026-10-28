@@ -1,0 +1,107 @@
+{
+ "decision_id": "bger_5D_79_2021",
+ "outcome": "inadmissible",
+ "spans": [
+  {
+   "start": 261,
+   "end": 277,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 393,
+   "end": 409,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1689,
+   "end": 1702,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 1727,
+   "end": 1752,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 1828,
+   "end": 1853,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 1928,
+   "end": 1944,
+   "label": "STATUTE",
+   "text": "Art. 113 ff. BGG"
+  },
+  {
+   "start": 2026,
+   "end": 2038,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 2102,
+   "end": 2137,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2372,
+   "end": 2386,
+   "label": "BGE",
+   "text": "BGE 133 II 396"
+  },
+  {
+   "start": 2402,
+   "end": 2413,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 3884,
+   "end": 3902,
+   "label": "STATUTE",
+   "text": "Art. 69 Abs. 1 ZPO"
+  },
+  {
+   "start": 4046,
+   "end": 4058,
+   "label": "STATUTE",
+   "text": "Art. 145 ZPO"
+  },
+  {
+   "start": 4333,
+   "end": 4360,
+   "label": "STATUTE",
+   "text": "Art. 114 i.V.m.\nArt. 75 BGG"
+  },
+  {
+   "start": 4724,
+   "end": 4742,
+   "label": "STATUTE",
+   "text": "Art. 69 Abs. 2 ZPO"
+  },
+  {
+   "start": 5386,
+   "end": 5434,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 5535,
+   "end": 5553,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  }
+ ],
+ "n_listed": 16,
+ "n_resolved": 16,
+ "n_backtracked": 0,
+ "unresolved": [],
+ "problems": []
+}

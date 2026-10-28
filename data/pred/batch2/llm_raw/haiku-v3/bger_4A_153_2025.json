@@ -1,0 +1,53 @@
+{
+ "outcome": "inadmissible",
+ "citations": [
+  {
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 40 Abs. 1 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 5 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 40 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 40 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 44 Abs. 2 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 40 Abs. 1 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 3 BGG"
+  },
+  {
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ]
+}

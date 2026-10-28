@@ -1,0 +1,77 @@
+{
+ "decision_id": "bger_5A_579_2020",
+ "outcome": "inadmissible",
+ "spans": [
+  {
+   "start": 577,
+   "end": 593,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 706,
+   "end": 719,
+   "label": "STATUTE",
+   "text": "Art. 17 SchKG"
+  },
+  {
+   "start": 1983,
+   "end": 2001,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 5 BGG"
+  },
+  {
+   "start": 2109,
+   "end": 2127,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 2136,
+   "end": 2154,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2493,
+   "end": 2507,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 2523,
+   "end": 2534,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 4926,
+   "end": 4958,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 5249,
+   "end": 5275,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 5331,
+   "end": 5356,
+   "label": "STATUTE",
+   "text": "Art. 46 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5599,
+   "end": 5617,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  }
+ ],
+ "n_listed": 11,
+ "n_resolved": 11,
+ "n_backtracked": 0,
+ "unresolved": [],
+ "problems": []
+}

@@ -1,0 +1,69 @@
+{
+  "outcome": "inadmissible",
+  "citations": [
+    {
+      "label": "PARTY_ROLE",
+      "text": "Beschwerdeführer"
+    },
+    {
+      "label": "PARTY_ROLE",
+      "text": "Beschwerdegegnerin"
+    },
+    {
+      "label": "AMOUNT",
+      "text": "Fr. 2 Mio."
+    },
+    {
+      "label": "STATUTE",
+      "text": "Art. 85a SchKG"
+    },
+    {
+      "label": "STATUTE",
+      "text": "Art. 85a Abs. 2 SchKG"
+    },
+    {
+      "label": "STATUTE",
+      "text": "Art. 72 Abs. 1 BGG"
+    },
+    {
+      "label": "STATUTE",
+      "text": "Art. 75 Abs. 1 BGG"
+    },
+    {
+      "label": "STATUTE",
+      "text": "Art. 85a Abs. 2 SchKG"
+    },
+    {
+      "label": "STATUTE",
+      "text": "Art. 98 BGG"
+    },
+    {
+      "label": "STATUTE",
+      "text": "Art. 106 Abs. 2 BGG"
+    },
+    {
+      "label": "BGE",
+      "text": "BGE 134 II 244"
+    },
+    {
+      "label": "BGE",
+      "text": "142 II 369"
+    },
+    {
+      "label": "BGE",
+      "text": "142 III 364"
+    },
+    {
+      "label": "STATUTE",
+      "text": "Art. 64 Abs. 1 BGG"
+    },
+    {
+      "label": "STATUTE",
+      "text": "Art. 66 Abs. 1 und 5 BGG"
+    },
+    {
+      "label": "AMOUNT",
+      "text": "Fr. 5'000.--"
+    }
+  ]
+}
