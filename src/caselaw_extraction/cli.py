@@ -293,7 +293,11 @@ def train_transformer(
     otok, omdl = tx.train_outcome_classifier(tr, model, epochs=outcome_epochs, seed=seed)
     t_out = time.time() - t1
     tx.predict_outcome(otok, omdl, ev)
-    name = name or (f"{short}-s{seed}" + ("-outcome" if skip_spans else ""))
+    name = name or f"{short}-s{seed}"
+    omdl.save_pretrained(tx.MODELS / f"{name}-outcome")
+    otok.save_pretrained(tx.MODELS / f"{name}-outcome")
+    if skip_spans:
+        name = f"{name}-outcome"  # the prediction file then holds outcomes only
     out = write_predictions(eval, name, ev)
     tables, metrics = score_file(out, eval)
     print(tables)
@@ -374,6 +378,155 @@ def predict_transformer(
             lg.metrics({**metrics, "predict_seconds": t_pred})
             lg.text(tables, "scores.md")
             lg.artifact(str(out))
+
+
+RUN_MODEL_OPT = typer.Option(
+    None, help="gbert: saved token classifier, e.g. models/gbert-base-b13-s0-ner"
+)
+RUN_OUTCOME_OPT = typer.Option(
+    None, help="gbert: saved outcome classifier (default <model-dir> with -outcome)"
+)
+
+
+@app.command(name="run-corpus")
+def run_corpus_cmd(
+    name: str = typer.Option(..., help="run name -> data/runs/<name>/"),
+    extractor: str = typer.Option("regex", help="regex | gbert"),
+    limit: int = typer.Option(0, help="only the first N decisions of the corpus (0 = all)"),
+    workers: int = typer.Option(0, help="Dask workers for the regex (0 = one per core)"),
+    scheduler: str = typer.Option("distributed", help="distributed | processes | sync"),
+    model_dir: Path | None = RUN_MODEL_OPT,
+    outcome_dir: Path | None = RUN_OUTCOME_OPT,
+    decode: str = typer.Option("viterbi", help="gbert: argmax | viterbi"),
+    log: bool = typer.Option(True, help="log the run to MLflow"),
+) -> None:
+    """Week 3: run one extractor and the linking stage over the whole corpus (Dask for the
+    regex, one GPU process for gbert) and write decisions/spans/citations Parquet tables."""
+    from caselaw_extraction import corpus_run
+
+    if extractor == "gbert" and model_dir is not None and outcome_dir is None:
+        cand = model_dir.with_name(model_dir.name.removesuffix("-ner") + "-outcome")
+        outcome_dir = cand if cand.exists() else None
+    run = corpus_run.run_corpus(
+        name,
+        extractor,
+        limit=limit or None,
+        workers=workers or None,
+        scheduler=scheduler,
+        model_dir=model_dir,
+        outcome_dir=outcome_dir,
+        decode=decode,
+    )
+    print(corpus_run.format_run(run))
+    if log:
+        from caselaw_extraction import tracking
+
+        flat = {k: v for k, v in run.items() if not isinstance(v, dict)}
+        with tracking.run(f"corpus-{name}", flat, tags={"stage": "corpus"}) as lg:
+            lg.metrics(
+                {
+                    "n_decisions": run["n_decisions"],
+                    "n_spans_before_linking": run["n_spans_before_linking"],
+                    "n_spans": run["n_spans"],
+                    "wall_seconds": run["wall_seconds"],
+                    "extract_seconds": run["extract_seconds"],
+                    **{f"dropped_{k}": v for k, v in run["dropped"].items()},
+                    **{f"spans_{k}": v for k, v in run["spans_by_label"].items()},
+                    **{f"citations_{k}": v for k, v in run["citations_by_kind"].items()},
+                }
+            )
+            lg.text(corpus_run.format_run(run), "run.md")
+            lg.artifact(str(corpus_run.RUNS_DIR / name / "run.json"))
+        rprint(f"[green]logged[/green] corpus-{name}")
+
+
+@app.command(name="graph")
+def graph_cmd(
+    run: str = typer.Option("regex-v0.4", help="run name under data/runs/"),
+    html: bool = typer.Option(True, help="also write graph.html (top 150 nodes)"),
+) -> None:
+    """Week 3: build the citation graph of a run, write its centrality table and print the
+    three headline analyses (most-cited statutes, trend by year, most central decisions)."""
+    from caselaw_extraction import graph
+
+    a = graph.analyse_run(run, html=html)
+    print(graph.format_analyses(a))
+
+
+@app.command(name="compare-runs")
+def compare_runs_cmd(
+    a: str = typer.Argument(..., help="run name"),
+    b: str = typer.Argument(..., help="run name"),
+    examples: int = typer.Option(10, help="differing citations to list per side"),
+) -> None:
+    """Week 3: how far two runs over the same corpus agree, citation by citation."""
+    from caselaw_extraction import graph
+
+    c = graph.compare_runs(a, b, examples=examples)
+    print(graph.format_comparison(c))
+    out = corpus_run_dir(a) / f"compare-{b}.json"
+    out.write_text(json.dumps(c, indent=1, ensure_ascii=False, default=str))
+    rprint(f"[green]written[/green] {out}")
+
+
+def corpus_run_dir(name: str) -> Path:
+    from caselaw_extraction.corpus_run import RUNS_DIR
+
+    return RUNS_DIR / name
+
+
+@app.command(name="db-load")
+def db_load_cmd(
+    run: str = typer.Option("regex-v0.4", help="run name under data/runs/"),
+    dsn: str = typer.Option("", help="Postgres DSN (default: $CASELAW_DSN or the local compose)"),
+) -> None:
+    """Week 3: load a run (decisions, spans, citations, centrality) and the statute list into
+    Postgres (`make db-up` starts it)."""
+    import os
+
+    from caselaw_extraction import db
+    from caselaw_extraction.store import DEFAULT_DSN
+
+    dsn = dsn or os.environ.get("CASELAW_DSN") or DEFAULT_DSN
+    counts = db.load_run(run, dsn)
+    n_statutes = db.load_statutes(load_code_map(), dsn)
+    rprint(f"[green]loaded[/green] run {run}: " + ", ".join(f"{k} {v}" for k, v in counts.items()))
+    rprint(f"  statute table: {n_statutes} acts; database: {db.table_counts(dsn)}")
+
+
+@app.command(name="api")
+def api_cmd(
+    host: str = typer.Option("127.0.0.1"),
+    port: int = typer.Option(8000),
+    backend: str = typer.Option("", help="duckdb | postgres (default: $CASELAW_BACKEND)"),
+    run: str = typer.Option("", help="duckdb: run name (default: $CASELAW_RUN or regex-v0.4)"),
+) -> None:
+    """Week 3: serve the extracted records (FastAPI, OpenAPI at /docs)."""
+    import os
+
+    import uvicorn
+
+    if backend:
+        os.environ["CASELAW_BACKEND"] = backend
+    if run:
+        os.environ["CASELAW_RUN"] = run
+    uvicorn.run("caselaw_extraction.api:app", host=host, port=port)
+
+
+@app.command()
+def demo(
+    n: int = typer.Option(100, help="decisions in the sample"),
+    name: str = typer.Option("demo", help="run name"),
+) -> None:
+    """Run the pipeline on a sample without Postgres or cloud: regex + linking under Dask,
+    the citation graph and the three analyses, all from Parquet."""
+    from caselaw_extraction import corpus_run, graph
+
+    run = corpus_run.run_corpus(name, "regex", limit=n, scheduler="processes", workers=4)
+    print(corpus_run.format_run(run))
+    print()
+    print(graph.format_analyses(graph.analyse_run(name)))
+    rprint(f"\n[green]API over this sample:[/green] caselaw api --backend duckdb --run {name}")
 
 
 @app.command()

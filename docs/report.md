@@ -38,7 +38,29 @@ against a hand-labelled gold set, runs the best one over the corpus, and builds 
 
 ## 3. Architecture
 
-_Diagram TBD._ Ingest (DuckDB over HTTPS → Parquet) → extractors → MLflow → Postgres → API → graph.
+```
+ Hugging Face (CC0)        ingest (DuckDB)           gold set (Label Studio, agents, adjudication)
+ bger.parquet 920 MB  -->  corpus Parquet 7,999  -->  350 decisions, guideline v0.3, nine classes
+                                 |                               |
+                                 |              train / evaluate (MLflow, 125 runs)
+                                 v                               v
+                     corpus run (Dask or GPU)  <--  extractor: regex v0.4 | gbert-b13 | spaCy | LLM
+                       + entity linking (Fedlex, BGE key, file number)
+                                 |
+                                 v
+                  data/runs/<name>/  decisions | spans | citations  (Parquet)
+                        |                    |                   |
+                        v                    v                   v
+                   Postgres (COPY)     citation graph       make demo (DuckDB only)
+                        |             (NetworkX: centrality,
+                        v              trend, top statutes)
+                  FastAPI (/decisions, /statutes, /trends, /decisions/central)
+```
+
+Two stages are deliberately separate: extraction reads only the text; linking holds the
+knowledge that is not in the text (the Fedlex list, the decision's own file number) and
+applies to every extractor alike (section 6.8). Week 4 moves the Parquet to S3, the
+database to RDS and the API to Fargate without changing the tables.
 
 ## 4. Gold set
 
@@ -659,9 +681,186 @@ batch 3, whose pre-annotator was regex v0.4 plus the negative pre-annotator, bot
 model agents. Two seeds are the minimum; the spread between them (0.002 on spans, 0.11 on
 OTHER_LAW with 7 test spans) is the uncertainty to keep in mind.
 
-## 7. Full-corpus run and citation graph
+## 7. Full-corpus run and citation graph (week 3, 2026-10-28)
 
-_Dask run, cost table, headline analyses. TBD week 3._
+### 7.1 The run
+
+`caselaw run-corpus` sends every decision of the corpus through one extractor and the
+entity-linking stage and writes three tables, `decisions`, `spans` and `citations`, as Parquet
+into `data/runs/<name>/` (`src/caselaw_extraction/corpus_run.py`). A statute chain span yields
+one citation row per article; a docket citation whose file number is a decision of this corpus
+carries that decision's id as `target_decision_id`. The regex runs under Dask: the client
+splits the corpus into partition files once (72 files for 18 workers), each task reads its own
+file in the worker, and the task graph carries paths, not texts. The gbert model runs in one
+process on the GPU, because a token classifier gains nothing from CPU processes. Both
+extractors write the same tables, so the graph, the database loader and the API never know
+which extractor made a run.
+
+| run | extractor | decisions | spans before linking | spans after | dropped | wall time |
+|---|---|---|---|---|---|---|
+| `regex-v0.4` | regex v0.4, Dask, 18 worker processes | 7,999 | 294,885 | 294,884 | 1 own file number | 4.4 s (3.8 s from partitioning to results; partition files 0.3 s, the rest mostly cluster start) |
+| `regex-v0.4-8w` | same, 8 workers | 7,999 | 294,885 | 294,884 | 1 | 4.2 s |
+| `regex-v0.4-4w` | same, 4 workers | 7,999 | 294,885 | 294,884 | 1 | 5.3 s |
+| `regex-v0.4-1proc` | same, one process, no cluster | 7,999 | 294,885 | 294,884 | 1 | 11.1 s (9.7 s extraction) |
+| `gbert-b13-s0` | gbert on 260 decisions, Viterbi decoding, outcome head, Apple MPS | 7,999 | see 7.6 | | | see 7.6 |
+
+The regex is cheap enough that Dask does not pay off on this corpus: 9.7 seconds in one
+process, 3.8 seconds with 18 workers, and most of the parallel time is spent starting the
+cluster, not extracting. Dask is in the pipeline for the corpus that
+the posting has in mind (all courts, all languages, about 100 times this one) and for the
+extractors that cost seconds per decision; the gbert run below is the case in point.
+
+Spans of the regex run by class: STATUTE 125,566, BGE 80,703, AMOUNT 43,229, DOCKET 30,916,
+PARTY_ROLE 14,470; 36.9 spans per decision on average (median 22, maximum 437); one decision
+has no span at all. Linked citations: 138,143 statute citations to 3,413 distinct articles of
+145 acts, 80,703 BGE citations to 4,758 distinct leading cases, 30,916 file-number citations
+to 9,996 distinct decisions, of which 12,753 citations (3,131 distinct) point at decisions
+inside the corpus. The linking stage dropped one span in 294,885: the regex already removes
+the own file number and only emits codes from the Fedlex list, so there was nothing left to
+drop; the stage matters for the learned models (section 6.8).
+
+Outcomes of the regex run: dismissed 2,515, inadmissible 4,644, approved 256, partial approval
+196, moot 336, unknown 52. Where the dataset ships its own label (5,806 decisions), the two
+agree in 4,627 cases and disagree in 1,179; 975 of the disagreements are `dataset = dismissed`,
+`regex = inadmissible`, the pattern found in week 1 (section 2): the first ruling item is
+"nicht eingetreten" and a later item dismisses a legal-aid request. On the 350 gold decisions
+the regex outcome is right in 97 to 100 percent of the cases (sections 6.4, 6.11, 6.13), so
+the regex column is the one the graph uses, and the dataset column is kept beside it.
+
+### 7.2 Postgres
+
+`make db-up` starts Postgres 16 in Docker (port 5433; `infra/docker-compose.yml`), `make
+db-load` creates the schema (`db/schema.sql`: `extraction_run`, `decision`, `span`,
+`citation`, `centrality`, `statute`) and loads a run with COPY. Every record row carries its
+`run_id`, so several runs live side by side and a reload replaces a run instead of
+duplicating it. The regex run loads in 6 seconds: 7,999 decisions, 294,884 spans, 249,762
+citations, 19,622 centrality rows, 1,505 acts from the Fedlex list; the database is 130 MB.
+Decision texts stay in Parquet; the database holds offsets and span texts.
+
+### 7.3 The citation graph and the three headline analyses
+
+`caselaw graph` builds the decision-to-decision graph with NetworkX (`graph.py`): the nodes
+are the 7,999 corpus decisions, the 4,758 cited BGE and the 6,865 cited file numbers that are
+not in the corpus; an edge is "A cites B", one per pair. The regex graph has 19,622 nodes and
+86,365 edges. The centrality table (in-degree = number of citing decisions, PageRank) is
+written next to the run tables and loaded into Postgres, and `graph.html` shows the 150 most
+central nodes (pyvis). The analyses are SQL over the run tables through one store layer
+(`store.py`) that serves DuckDB over Parquet and Postgres with the same statements, which is
+what makes `make demo` work without a database.
+
+**Most-cited statute articles** (by number of citing decisions; `GET /statutes/top`):
+
+| article | decisions | mentions | | article | decisions | mentions |
+|---|---|---|---|---|---|---|
+| Art. 66 BGG (costs) | 7,791 | 8,020 | | Art. 97 BGG (facts, appeal ground) | 2,374 | 2,793 |
+| Art. 42 BGG (form of the appeal) | 5,325 | 7,438 | | Art. 95 BGG (law, appeal ground) | 2,158 | 3,323 |
+| Art. 106 BGG (application of law, duty to substantiate) | 4,528 | 7,412 | | Art. 100 BGG (deadline) | 2,027 | 2,128 |
+| Art. 108 BGG (summary inadmissibility) | 4,030 | 4,419 | | Art. 90 BGG (final decisions) | 2,010 | 2,090 |
+| Art. 68 BGG (party costs) | 3,980 | 4,311 | | Art. 76 BGG (standing) | 1,767 | 2,078 |
+| Art. 75 BGG (previous instance) | 2,926 | 3,425 | | Art. 64 BGG (legal aid) | 1,745 | 1,950 |
+| Art. 74 BGG (minimum amount) | 2,880 | 3,879 | | Art. 29 BV (procedural guarantees) | 1,733 | 3,340 |
+| Art. 72 BGG (civil matters) | 2,715 | 2,856 | | Art. 99 BGG (new facts) | 1,502 | 1,819 |
+| Art. 105 BGG (facts, binding) | 2,614 | 4,315 | | Art. 9 BV (arbitrariness) | 1,319 | 2,108 |
+
+The first substantive article outside the court's own procedure act and the constitution is
+Art. 18 OR (interpretation of contracts, 158 decisions), then Art. 257d OR (rent default, 50)
+and Art. 42 OR (damages, 45). By act: BGG is cited in 7,994 of 7,999 decisions (81,806
+mentions, 138 distinct articles), ZPO in 2,490 (365 articles), BV in 2,399, ZGB in 2,039 (687
+articles), SchKG in 1,172, OR in 1,037 (606 articles), EMRK in 552, StGB in 301, BZP in 287,
+IPRG in 238. The counts are what a reader of civil appeals expects: the court cites its own
+procedure in every decision, and the two civil chambers split between family and debt
+enforcement law (II) and contract law (I).
+
+**Trend by year** (`GET /trends/years`, `GET /trends/code-share`):
+
+| year | decisions | statute citations per decision | BGE per decision | file numbers per decision | distinct BGE cited | mean age of cited BGE volume (years) | share citing ZPO | share citing OR |
+|---|---|---|---|---|---|---|---|---|
+| 2020 | 1,165 | 17.3 | 9.5 | 3.9 | 1,735 | 10.8 | 35.0 % | 15.3 % |
+| 2021 | 1,084 | 17.7 | 10.2 | 4.4 | 1,809 | 11.4 | 34.6 % | 14.6 % |
+| 2022 | 1,139 | 17.6 | 10.2 | 4.1 | 1,749 | 11.2 | 35.2 % | 13.4 % |
+| 2023 | 1,143 | 17.2 | 10.1 | 3.5 | 1,719 | 12.0 | 31.3 % | 13.5 % |
+| 2024 | 1,075 | 19.6 | 12.2 | 4.1 | 1,788 | 11.9 | 32.8 % | 14.0 % |
+| 2025 | 1,347 | 16.4 | 9.4 | 3.5 | 1,606 | 12.2 | 25.0 % | 10.2 % |
+| 2026 | 1,046 | 15.3 | 9.3 | 3.7 | 1,428 | 12.8 | 24.7 % | 10.0 % |
+
+Three readings. The citation density is stable at about 17 statute and 10 BGE citations per
+decision; 2024 is the one denser year. The cited BGE volumes age by about two years over the
+period (volume 146 is 2020; the mean cited volume sits around 2009 to 2013), that is, the
+court keeps citing the same leading cases while the years pass. The share of decisions that
+cite the ZPO or the OR drops by ten and five points in 2025 and 2026, together with a jump in
+the number of decisions (1,347 in 2025) and a lower citation density: the last two years hold
+more short inadmissibility rulings, in which only the BGG is cited. The 2026 row covers
+January to early October.
+
+**Most central decisions** (`GET /decisions/central`; PageRank over the whole graph,
+in-degree in brackets):
+
+| rank | node | cited by | topic (from the court's standard formulas) |
+|---|---|---|---|
+| 1 | BGE 140 III 115 | 3,335 | duty to substantiate an appeal (Art. 42 Abs. 2 BGG) |
+| 2 | BGE 142 III 364 | 3,167 | duty to substantiate constitutional complaints (Art. 106 Abs. 2 BGG) |
+| 3 | BGE 140 III 86 | 2,750 | requirements on the statement of grounds |
+| 4 | BGE 140 III 264 | 1,900 | arbitrary assessment of facts |
+| 5 | BGE 133 II 396 | 584 | constitutional complaints, substantiation |
+| 6 | BGE 140 III 16 | 1,926 | arbitrariness standard |
+| 7 | BGE 134 II 244 | 1,156 | substantiation of appeal grounds |
+| 8 | BGE 135 II 38 | 341 | (topic not checked) |
+| 9 | BGE 139 II 233 | 349 | (topic not checked) |
+| 10 | BGE 143 II 283 | 995 | (topic not checked) |
+| 19 | 4A_20/2011 (not in the corpus) | 210 | the only file number in the top 20 |
+
+The top of the list is the court's own procedural case law, cited in roughly four of ten
+decisions; it is the list any Swiss litigator would predict, which is the point of the check.
+PageRank and in-degree disagree where a node is cited by decisions that are themselves much
+cited (BGE 133 II 396 is 9th by in-degree and 5th by PageRank). Inside the corpus, the most
+cited decisions are `5F_36/2022` (56 citing decisions) and `5F_12/2022` (49), two revision
+rulings of the II. chamber that a chain of later revision requests by the same party cites;
+`5A_85/2021` (46) and `5A_176/2023` (39) follow. The dataset's own citation graph covers the
+same decisions with 2,170 fewer BGE edges and 453 fewer file-number edges than the regex run
+(BGE: 59,687 edges in both, 2,994 regex only, 824 silver only; file numbers: 22,382 in both,
+1,302 regex only, 849 silver only; plus 4,040 silver edges to cantonal decisions outside this
+corpus). On the gold set the regex was the more precise of the two at entity level (section
+6.5, 0.994 against 0.948), so the differences are mostly the silver graph's.
+
+### 7.4 The API
+
+`caselaw api` serves the run through FastAPI (`api.py`; OpenAPI at `/docs`), read-only:
+
+| endpoint | what it returns |
+|---|---|
+| `GET /health`, `GET /runs` | backend, run id, loaded runs |
+| `GET /decisions/{id}` | one decision with its linked citations (kind, key, Fedlex SR number, article, target decision, span) and all spans |
+| `GET /decisions?statute=ZGB 8&bge=BGE 140 III 86&docket=4A_12/2020&year=&outcome=&chamber=` | decisions filtered by what they cite and by metadata, paginated |
+| `GET /statutes/top?limit=&year=&code=`, `GET /statutes/codes` | the most-cited articles and acts |
+| `GET /trends/years`, `GET /trends/code-share` | the trend tables above |
+| `GET /decisions/central?by=pagerank|in_degree&kind=` | the centrality table |
+
+The same app runs on Postgres (`CASELAW_BACKEND=postgres`) and on DuckDB over a run directory
+(`CASELAW_BACKEND=duckdb`, the default for `make demo`); the smoke run returned identical
+numbers on both. Single-decision lookups answer in 5 ms on Postgres and 140 ms on DuckDB
+(the Parquet scan); the aggregate endpoints answer in 10 to 100 ms on either. The contract
+test (`tests/test_api.py`) pins the set of paths, the response schemas and the filters on a
+synthetic three-decision corpus, so it runs without data and without a database.
+
+### 7.5 Cost of the full-corpus run
+
+Measured on the MacBook (M5 Pro, 18 cores, 48 GB). AWS prices, checked on 2026-10-28 on
+third-party price pages: Fargate Linux/x86 USD 0.04048 per vCPU-hour and 0.004445 per GB-hour
+in us-east-1 (the Frankfurt rate is a few percent higher; the AWS page shows it per region),
+g5.xlarge (one A10G) USD 1.258 per hour in eu-central-1. The AWS costs are estimates from the
+local times; week 4 measures them on the real deployment.
+
+| extractor | local time for 7,999 decisions | AWS target | estimated AWS cost per full run | cost per 1,000 decisions |
+|---|---|---|---|---|
+| regex v0.4 (one process) | 9.7 s | 1 Fargate task, 1 vCPU, 2 GB | < USD 0.01 | < USD 0.01 |
+| regex v0.4 (Dask, 18 processes) | 3.8 s | not worth a cluster at this size | | |
+| gbert-b13-s0 (GPU) | see 7.6 | 1 g5.xlarge | see 7.6 | |
+| LLM extractor (Claude Haiku, section 6.5) | not run on the corpus | API | about 100 M input tokens and 8 M output tokens at USD 1 / 5 per M: about USD 140 | about USD 17 |
+
+The regex is free at any corpus size that fits a laptop; the learned model costs cents per
+thousand decisions on a rented GPU; the LLM costs dollars per thousand and is, on the
+held-out batch, the least exact of the three at span level (section 6.5). Week 4 adds the
+monthly cost of keeping the API and the database up.
 
 ## 8. Deployment and monitoring
 
@@ -712,7 +911,23 @@ _Running log._
   independent annotators either; the pre-annotation anchors both. The human spot check (section
   4) is the only independent signal available; it found no error in 358 spans.
 
-## 10. Next steps (week 3)
+## 10. Next steps (week 4)
+
+1. Done 2026-10-28 (week 3): full-corpus run under Dask with regex v0.4 and the linking stage,
+   the same run with gbert on 260 decisions on the GPU, Postgres schema and loader, the
+   citation graph with the three headline analyses, the FastAPI service on both backends,
+   `make demo`, 19 new tests (section 7).
+2. Week 4 as planned: Terraform for S3 (the run Parquet), RDS Postgres (the schema of 7.2),
+   ECS Fargate for the API, CloudWatch dashboard and alarms, GitHub Actions for test and
+   deploy; a drift check that compares the entity-frequency distributions of two months of
+   decisions (the `citations` table by month gives it directly); the report and the recording.
+3. Open from week 3: the cost table (7.5) holds estimates for AWS; week 4 replaces them with
+   measured numbers. The graph HTML shows 150 nodes; a reader who wants the whole graph gets
+   the `centrality` table and the `citations` table instead.
+4. If time remains: a third gbert seed on 260 decisions; a CRF head; a human spot check of
+   batch 3; French and Italian decisions, which need their own regex and their own gold.
+
+### Previous next steps (week 3, done)
 
 1. Done 2026-10-22: human spot check of 10 batch-2 decisions, 0 errors in 358 spans
    (`data/gold/batch2/spot_check.md`).

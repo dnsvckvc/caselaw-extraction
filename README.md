@@ -71,3 +71,28 @@ all nine classes. The training commands take several batches: `--train batch1,ba
 `scripts/learning_curve.py` trains the span models on 15 to 105 decisions (several seeds) and
 logs span F1 per training size to MLflow; `scripts/learning_curve.py table` collects the
 results. See `docs/report.md`, section 6.12.
+
+## Full corpus, Postgres, citation graph, API (week 3)
+
+One extractor plus the linking stage runs over all 7,999 decisions and writes three Parquet
+tables (`decisions`, `spans`, `citations`) into `data/runs/<name>/`. The regex runs under
+Dask (one process per core; the workers read partition files, the task graph carries paths);
+the 260-decision gbert model runs in one GPU process. Both produce the same tables, so the
+graph, the database loader and the API do not know which extractor made a run:
+
+```bash
+make run-corpus                 # regex v0.4 -> data/runs/regex-v0.4/   (4 s on 18 cores)
+make run-corpus-gbert           # gbert-b13-s0 -> data/runs/gbert-b13-s0/ (GPU, ~25 min)
+make graph RUN=regex-v0.4       # centrality.parquet, graph.html, the three analyses
+make compare-runs A=regex-v0.4 B=gbert-b13-s0   # edge-level agreement of two runs
+make db-up && make db-load      # Postgres 16 in Docker (localhost:5433), COPY in ~6 s
+make api BACKEND=postgres       # FastAPI, http://127.0.0.1:8000/docs
+make demo                       # 100 decisions, graph and analyses from Parquet only
+```
+
+The three headline analyses are `caselaw graph`: most-cited statute articles and acts,
+citations per decision and the age of the cited BGE volumes by year, and the most central
+nodes of the decision-to-decision graph (PageRank and in-degree). The API serves decisions
+with their linked citations, decisions filtered by what they cite (`/decisions?statute=ZGB 8`,
+`?bge=BGE 140 III 86`, `?docket=4A_12/2020`), and the analyses. One SQL layer (`store.py`)
+serves both DuckDB over the Parquet run and Postgres. Results: `docs/report.md`, section 7.

@@ -1,4 +1,4 @@
-.PHONY: setup lint test ingest sample labelstudio-up labelstudio-down tasks predict-regex score score-silver train-spacy train-transformer llm-collect mlflow-ui gold-agreement gold-finalize link predict-transformer gold-round gold-round-agreement gold-round-finalize learning-curve
+.PHONY: setup lint test ingest sample labelstudio-up labelstudio-down tasks predict-regex score score-silver train-spacy train-transformer llm-collect mlflow-ui gold-agreement gold-finalize link predict-transformer gold-round gold-round-agreement gold-round-finalize learning-curve run-corpus run-corpus-gbert graph compare-runs db-up db-down db-load api demo
 
 setup:
 	uv sync --all-extras
@@ -88,3 +88,34 @@ gold-round-finalize:
 
 learning-curve:  ## usage: make learning-curve MODEL=spacy CURVE=main|extended ; then: uv run python scripts/learning_curve.py table
 	TOKENIZERS_PARALLELISM=false uv run python scripts/learning_curve.py $(MODEL) $(CURVE)
+
+# --- week 3: full corpus, Postgres, citation graph, API --------------------------------------
+RUN ?= regex-v0.4
+GBERT_MODEL ?= models/gbert-base-b13-s0-ner
+
+run-corpus:  ## regex + linking over the whole corpus under Dask -> data/runs/$(RUN)/
+	uv run caselaw run-corpus --name $(RUN) --extractor regex
+
+run-corpus-gbert:  ## the 260-decision gbert model over the whole corpus on the GPU -> data/runs/gbert-b13-s0/
+	TOKENIZERS_PARALLELISM=false uv run caselaw run-corpus --name gbert-b13-s0 --extractor gbert --model-dir $(GBERT_MODEL)
+
+graph:  ## citation graph, centrality table, graph.html and the three analyses of a run
+	uv run caselaw graph --run $(RUN)
+
+compare-runs:  ## usage: make compare-runs A=regex-v0.4 B=gbert-b13-s0
+	uv run caselaw compare-runs $(A) $(B)
+
+db-up:
+	docker compose -f infra/docker-compose.yml up -d --wait
+
+db-down:
+	docker compose -f infra/docker-compose.yml down
+
+db-load:  ## load a run into Postgres (localhost:5433, user/db caselaw)
+	uv run caselaw db-load --run $(RUN)
+
+api:  ## usage: make api BACKEND=postgres|duckdb  (http://127.0.0.1:8000/docs)
+	uv run caselaw api --backend $(or $(BACKEND),duckdb) --run $(RUN)
+
+demo:  ## the pipeline on a 100-decision sample without Postgres or cloud
+	uv run caselaw demo --n 100

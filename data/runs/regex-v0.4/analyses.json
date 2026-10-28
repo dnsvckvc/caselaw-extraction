@@ -1,0 +1,973 @@
+{
+ "graph": {
+  "nodes": 19622,
+  "edges": 86365,
+  "nodes_by_kind": {
+   "bge": 4758,
+   "decision": 7999,
+   "docket": 6865
+  }
+ },
+ "top_statutes": [
+  {
+   "key": "BGG 66",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "66",
+   "mentions": 8020,
+   "decisions": 7791
+  },
+  {
+   "key": "BGG 42",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "42",
+   "mentions": 7438,
+   "decisions": 5325
+  },
+  {
+   "key": "BGG 106",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "106",
+   "mentions": 7412,
+   "decisions": 4528
+  },
+  {
+   "key": "BGG 108",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "108",
+   "mentions": 4419,
+   "decisions": 4030
+  },
+  {
+   "key": "BGG 68",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "68",
+   "mentions": 4311,
+   "decisions": 3980
+  },
+  {
+   "key": "BGG 75",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "75",
+   "mentions": 3425,
+   "decisions": 2926
+  },
+  {
+   "key": "BGG 74",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "74",
+   "mentions": 3879,
+   "decisions": 2880
+  },
+  {
+   "key": "BGG 72",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "72",
+   "mentions": 2856,
+   "decisions": 2715
+  },
+  {
+   "key": "BGG 105",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "105",
+   "mentions": 4315,
+   "decisions": 2614
+  },
+  {
+   "key": "BGG 97",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "97",
+   "mentions": 2793,
+   "decisions": 2374
+  },
+  {
+   "key": "BGG 95",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "95",
+   "mentions": 3323,
+   "decisions": 2158
+  },
+  {
+   "key": "BGG 100",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "100",
+   "mentions": 2128,
+   "decisions": 2027
+  },
+  {
+   "key": "BGG 90",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "90",
+   "mentions": 2090,
+   "decisions": 2010
+  },
+  {
+   "key": "BGG 76",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "76",
+   "mentions": 2078,
+   "decisions": 1767
+  },
+  {
+   "key": "BGG 64",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "64",
+   "mentions": 1950,
+   "decisions": 1745
+  },
+  {
+   "key": "BV 29",
+   "code": "BV",
+   "sr": "101",
+   "article": "29",
+   "mentions": 3340,
+   "decisions": 1733
+  },
+  {
+   "key": "BGG 99",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "99",
+   "mentions": 1819,
+   "decisions": 1502
+  },
+  {
+   "key": "BV 9",
+   "code": "BV",
+   "sr": "101",
+   "article": "9",
+   "mentions": 2108,
+   "decisions": 1319
+  },
+  {
+   "key": "BGG 117",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "117",
+   "mentions": 2027,
+   "decisions": 1122
+  },
+  {
+   "key": "BGG 113",
+   "code": "BGG",
+   "sr": "173.110",
+   "article": "113",
+   "mentions": 1005,
+   "decisions": 985
+  }
+ ],
+ "top_codes": [
+  {
+   "code": "BGG",
+   "sr": "173.110",
+   "mentions": 81806,
+   "decisions": 7994,
+   "articles": 138
+  },
+  {
+   "code": "ZPO",
+   "sr": "272",
+   "mentions": 13542,
+   "decisions": 2490,
+   "articles": 365
+  },
+  {
+   "code": "BV",
+   "sr": "101",
+   "mentions": 7253,
+   "decisions": 2399,
+   "articles": 82
+  },
+  {
+   "code": "ZGB",
+   "sr": "210",
+   "mentions": 11287,
+   "decisions": 2039,
+   "articles": 687
+  },
+  {
+   "code": "SchKG",
+   "sr": "281.1",
+   "mentions": 6801,
+   "decisions": 1172,
+   "articles": 285
+  },
+  {
+   "code": "OR",
+   "sr": "220",
+   "mentions": 7081,
+   "decisions": 1037,
+   "articles": 606
+  },
+  {
+   "code": "EMRK",
+   "sr": "0.101",
+   "mentions": 1154,
+   "decisions": 552,
+   "articles": 26
+  },
+  {
+   "code": "StGB",
+   "sr": "311.0",
+   "mentions": 697,
+   "decisions": 301,
+   "articles": 71
+  },
+  {
+   "code": "BZP",
+   "sr": "273",
+   "mentions": 359,
+   "decisions": 287,
+   "articles": 15
+  },
+  {
+   "code": "IPRG",
+   "sr": "291",
+   "mentions": 2540,
+   "decisions": 238,
+   "articles": 131
+  },
+  {
+   "code": "LugÜ",
+   "sr": "0.275.12",
+   "mentions": 618,
+   "decisions": 85,
+   "articles": 39
+  },
+  {
+   "code": "VVG",
+   "sr": "221.229.1",
+   "mentions": 538,
+   "decisions": 77,
+   "articles": 40
+  },
+  {
+   "code": "VZG",
+   "sr": "281.42",
+   "mentions": 222,
+   "decisions": 53,
+   "articles": 49
+  },
+  {
+   "code": "UWG",
+   "sr": "241",
+   "mentions": 487,
+   "decisions": 52,
+   "articles": 11
+  },
+  {
+   "code": "MSchG",
+   "sr": "232.11",
+   "mentions": 631,
+   "decisions": 38,
+   "articles": 35
+  }
+ ],
+ "trend_by_year": [
+  {
+   "year": 2020,
+   "decisions": 1165,
+   "statute_per_decision": 17.25,
+   "bge_per_decision": 9.53,
+   "docket_per_decision": 3.91,
+   "distinct_bge": 1735,
+   "mean_bge_age": 10.8
+  },
+  {
+   "year": 2021,
+   "decisions": 1084,
+   "statute_per_decision": 17.72,
+   "bge_per_decision": 10.16,
+   "docket_per_decision": 4.36,
+   "distinct_bge": 1809,
+   "mean_bge_age": 11.4
+  },
+  {
+   "year": 2022,
+   "decisions": 1139,
+   "statute_per_decision": 17.56,
+   "bge_per_decision": 10.21,
+   "docket_per_decision": 4.11,
+   "distinct_bge": 1749,
+   "mean_bge_age": 11.2
+  },
+  {
+   "year": 2023,
+   "decisions": 1143,
+   "statute_per_decision": 17.19,
+   "bge_per_decision": 10.07,
+   "docket_per_decision": 3.5,
+   "distinct_bge": 1719,
+   "mean_bge_age": 12.0
+  },
+  {
+   "year": 2024,
+   "decisions": 1075,
+   "statute_per_decision": 19.56,
+   "bge_per_decision": 12.19,
+   "docket_per_decision": 4.11,
+   "distinct_bge": 1788,
+   "mean_bge_age": 11.9
+  },
+  {
+   "year": 2025,
+   "decisions": 1347,
+   "statute_per_decision": 16.42,
+   "bge_per_decision": 9.37,
+   "docket_per_decision": 3.48,
+   "distinct_bge": 1606,
+   "mean_bge_age": 12.2
+  },
+  {
+   "year": 2026,
+   "decisions": 1046,
+   "statute_per_decision": 15.34,
+   "bge_per_decision": 9.29,
+   "docket_per_decision": 3.68,
+   "distinct_bge": 1428,
+   "mean_bge_age": 12.8
+  }
+ ],
+ "code_share_by_year": [
+  {
+   "year": 2020,
+   "decisions": 1165,
+   "bgg": 99.9,
+   "zpo": 35.0,
+   "zgb": 27.2,
+   "or": 15.3,
+   "schkg": 14.4,
+   "bv": 29.4
+  },
+  {
+   "year": 2021,
+   "decisions": 1084,
+   "bgg": 100.0,
+   "zpo": 34.6,
+   "zgb": 28.0,
+   "or": 14.6,
+   "schkg": 14.9,
+   "bv": 30.0
+  },
+  {
+   "year": 2022,
+   "decisions": 1139,
+   "bgg": 100.0,
+   "zpo": 35.2,
+   "zgb": 28.4,
+   "or": 13.4,
+   "schkg": 14.2,
+   "bv": 31.6
+  },
+  {
+   "year": 2023,
+   "decisions": 1143,
+   "bgg": 99.9,
+   "zpo": 31.3,
+   "zgb": 24.0,
+   "or": 13.5,
+   "schkg": 14.7,
+   "bv": 30.2
+  },
+  {
+   "year": 2024,
+   "decisions": 1075,
+   "bgg": 99.9,
+   "zpo": 32.8,
+   "zgb": 26.4,
+   "or": 14.0,
+   "schkg": 16.4,
+   "bv": 32.6
+  },
+  {
+   "year": 2025,
+   "decisions": 1347,
+   "bgg": 100.0,
+   "zpo": 25.0,
+   "zgb": 22.6,
+   "or": 10.2,
+   "schkg": 14.0,
+   "bv": 27.7
+  },
+  {
+   "year": 2026,
+   "decisions": 1046,
+   "bgg": 99.8,
+   "zpo": 24.7,
+   "zgb": 22.2,
+   "or": 10.0,
+   "schkg": 14.1,
+   "bv": 29.1
+  }
+ ],
+ "central_pagerank": [
+  {
+   "node": "bge:BGE 140 III 115",
+   "kind": "bge",
+   "key": "BGE 140 III 115",
+   "decision_id": null,
+   "in_degree": 3335,
+   "out_degree": 0,
+   "pagerank": 0.023088706466949667,
+   "rank_pagerank": 1,
+   "rank_in_degree": 1
+  },
+  {
+   "node": "bge:BGE 142 III 364",
+   "kind": "bge",
+   "key": "BGE 142 III 364",
+   "decision_id": null,
+   "in_degree": 3167,
+   "out_degree": 0,
+   "pagerank": 0.023082711058095153,
+   "rank_pagerank": 2,
+   "rank_in_degree": 2
+  },
+  {
+   "node": "bge:BGE 140 III 86",
+   "kind": "bge",
+   "key": "BGE 140 III 86",
+   "decision_id": null,
+   "in_degree": 2750,
+   "out_degree": 0,
+   "pagerank": 0.014505613468461655,
+   "rank_pagerank": 3,
+   "rank_in_degree": 3
+  },
+  {
+   "node": "bge:BGE 140 III 264",
+   "kind": "bge",
+   "key": "BGE 140 III 264",
+   "decision_id": null,
+   "in_degree": 1900,
+   "out_degree": 0,
+   "pagerank": 0.0057308451430524866,
+   "rank_pagerank": 4,
+   "rank_in_degree": 5
+  },
+  {
+   "node": "bge:BGE 133 II 396",
+   "kind": "bge",
+   "key": "BGE 133 II 396",
+   "decision_id": null,
+   "in_degree": 584,
+   "out_degree": 0,
+   "pagerank": 0.005716725885460005,
+   "rank_pagerank": 5,
+   "rank_in_degree": 9
+  },
+  {
+   "node": "bge:BGE 140 III 16",
+   "kind": "bge",
+   "key": "BGE 140 III 16",
+   "decision_id": null,
+   "in_degree": 1926,
+   "out_degree": 0,
+   "pagerank": 0.005686934898643373,
+   "rank_pagerank": 6,
+   "rank_in_degree": 4
+  },
+  {
+   "node": "bge:BGE 134 II 244",
+   "kind": "bge",
+   "key": "BGE 134 II 244",
+   "decision_id": null,
+   "in_degree": 1156,
+   "out_degree": 0,
+   "pagerank": 0.004265439989298257,
+   "rank_pagerank": 7,
+   "rank_in_degree": 6
+  },
+  {
+   "node": "bge:BGE 135 II 38",
+   "kind": "bge",
+   "key": "BGE 135 II 38",
+   "decision_id": null,
+   "in_degree": 341,
+   "out_degree": 0,
+   "pagerank": 0.0025465546477493025,
+   "rank_pagerank": 8,
+   "rank_in_degree": 25
+  },
+  {
+   "node": "bge:BGE 139 II 233",
+   "kind": "bge",
+   "key": "BGE 139 II 233",
+   "decision_id": null,
+   "in_degree": 349,
+   "out_degree": 0,
+   "pagerank": 0.002482736142481773,
+   "rank_pagerank": 9,
+   "rank_in_degree": 24
+  },
+  {
+   "node": "bge:BGE 143 II 283",
+   "kind": "bge",
+   "key": "BGE 143 II 283",
+   "decision_id": null,
+   "in_degree": 995,
+   "out_degree": 0,
+   "pagerank": 0.0024288426944460767,
+   "rank_pagerank": 10,
+   "rank_in_degree": 7
+  },
+  {
+   "node": "bge:BGE 149 III 81",
+   "kind": "bge",
+   "key": "BGE 149 III 81",
+   "decision_id": null,
+   "in_degree": 358,
+   "out_degree": 0,
+   "pagerank": 0.0022303862229398857,
+   "rank_pagerank": 11,
+   "rank_in_degree": 22
+  },
+  {
+   "node": "bge:BGE 143 III 140",
+   "kind": "bge",
+   "key": "BGE 143 III 140",
+   "decision_id": null,
+   "in_degree": 611,
+   "out_degree": 0,
+   "pagerank": 0.0017816162059568804,
+   "rank_pagerank": 12,
+   "rank_in_degree": 8
+  },
+  {
+   "node": "bge:BGE 133 III 393",
+   "kind": "bge",
+   "key": "BGE 133 III 393",
+   "decision_id": null,
+   "in_degree": 532,
+   "out_degree": 0,
+   "pagerank": 0.001554206011753181,
+   "rank_pagerank": 13,
+   "rank_in_degree": 10
+  },
+  {
+   "node": "bge:BGE 141 III 80",
+   "kind": "bge",
+   "key": "BGE 141 III 80",
+   "decision_id": null,
+   "in_degree": 326,
+   "out_degree": 0,
+   "pagerank": 0.0014758422096639353,
+   "rank_pagerank": 14,
+   "rank_in_degree": 26
+  },
+  {
+   "node": "bge:BGE 133 III 439",
+   "kind": "bge",
+   "key": "BGE 133 III 439",
+   "decision_id": null,
+   "in_degree": 423,
+   "out_degree": 0,
+   "pagerank": 0.0014645419119398621,
+   "rank_pagerank": 15,
+   "rank_in_degree": 15
+  },
+  {
+   "node": "bge:BGE 135 III 232",
+   "kind": "bge",
+   "key": "BGE 135 III 232",
+   "decision_id": null,
+   "in_degree": 370,
+   "out_degree": 0,
+   "pagerank": 0.001403781409738477,
+   "rank_pagerank": 16,
+   "rank_in_degree": 21
+  },
+  {
+   "node": "bge:BGE 134 I 83",
+   "kind": "bge",
+   "key": "BGE 134 I 83",
+   "decision_id": null,
+   "in_degree": 446,
+   "out_degree": 0,
+   "pagerank": 0.0014006801901074967,
+   "rank_pagerank": 17,
+   "rank_in_degree": 14
+  },
+  {
+   "node": "bge:BGE 142 III 798",
+   "kind": "bge",
+   "key": "BGE 142 III 798",
+   "decision_id": null,
+   "in_degree": 290,
+   "out_degree": 0,
+   "pagerank": 0.0013980759674815878,
+   "rank_pagerank": 18,
+   "rank_in_degree": 29
+  },
+  {
+   "node": "docket:4A_20_2011",
+   "kind": "docket",
+   "key": "4A_20_2011",
+   "decision_id": null,
+   "in_degree": 210,
+   "out_degree": 0,
+   "pagerank": 0.0013888228936393568,
+   "rank_pagerank": 19,
+   "rank_in_degree": 44
+  },
+  {
+   "node": "bge:BGE 148 IV 155",
+   "kind": "bge",
+   "key": "BGE 148 IV 155",
+   "decision_id": null,
+   "in_degree": 414,
+   "out_degree": 0,
+   "pagerank": 0.0012680657779090875,
+   "rank_pagerank": 20,
+   "rank_in_degree": 16
+  }
+ ],
+ "central_in_degree": [
+  {
+   "node": "bge:BGE 140 III 115",
+   "kind": "bge",
+   "key": "BGE 140 III 115",
+   "decision_id": null,
+   "in_degree": 3335,
+   "out_degree": 0,
+   "pagerank": 0.023088706466949667,
+   "rank_pagerank": 1,
+   "rank_in_degree": 1
+  },
+  {
+   "node": "bge:BGE 142 III 364",
+   "kind": "bge",
+   "key": "BGE 142 III 364",
+   "decision_id": null,
+   "in_degree": 3167,
+   "out_degree": 0,
+   "pagerank": 0.023082711058095153,
+   "rank_pagerank": 2,
+   "rank_in_degree": 2
+  },
+  {
+   "node": "bge:BGE 140 III 86",
+   "kind": "bge",
+   "key": "BGE 140 III 86",
+   "decision_id": null,
+   "in_degree": 2750,
+   "out_degree": 0,
+   "pagerank": 0.014505613468461655,
+   "rank_pagerank": 3,
+   "rank_in_degree": 3
+  },
+  {
+   "node": "bge:BGE 140 III 16",
+   "kind": "bge",
+   "key": "BGE 140 III 16",
+   "decision_id": null,
+   "in_degree": 1926,
+   "out_degree": 0,
+   "pagerank": 0.005686934898643373,
+   "rank_pagerank": 6,
+   "rank_in_degree": 4
+  },
+  {
+   "node": "bge:BGE 140 III 264",
+   "kind": "bge",
+   "key": "BGE 140 III 264",
+   "decision_id": null,
+   "in_degree": 1900,
+   "out_degree": 0,
+   "pagerank": 0.0057308451430524866,
+   "rank_pagerank": 4,
+   "rank_in_degree": 5
+  },
+  {
+   "node": "bge:BGE 134 II 244",
+   "kind": "bge",
+   "key": "BGE 134 II 244",
+   "decision_id": null,
+   "in_degree": 1156,
+   "out_degree": 0,
+   "pagerank": 0.004265439989298257,
+   "rank_pagerank": 7,
+   "rank_in_degree": 6
+  },
+  {
+   "node": "bge:BGE 143 II 283",
+   "kind": "bge",
+   "key": "BGE 143 II 283",
+   "decision_id": null,
+   "in_degree": 995,
+   "out_degree": 0,
+   "pagerank": 0.0024288426944460767,
+   "rank_pagerank": 10,
+   "rank_in_degree": 7
+  },
+  {
+   "node": "bge:BGE 143 III 140",
+   "kind": "bge",
+   "key": "BGE 143 III 140",
+   "decision_id": null,
+   "in_degree": 611,
+   "out_degree": 0,
+   "pagerank": 0.0017816162059568804,
+   "rank_pagerank": 12,
+   "rank_in_degree": 8
+  },
+  {
+   "node": "bge:BGE 133 II 396",
+   "kind": "bge",
+   "key": "BGE 133 II 396",
+   "decision_id": null,
+   "in_degree": 584,
+   "out_degree": 0,
+   "pagerank": 0.005716725885460005,
+   "rank_pagerank": 5,
+   "rank_in_degree": 9
+  },
+  {
+   "node": "bge:BGE 133 III 393",
+   "kind": "bge",
+   "key": "BGE 133 III 393",
+   "decision_id": null,
+   "in_degree": 532,
+   "out_degree": 0,
+   "pagerank": 0.001554206011753181,
+   "rank_pagerank": 13,
+   "rank_in_degree": 10
+  },
+  {
+   "node": "bge:BGE 141 III 564",
+   "kind": "bge",
+   "key": "BGE 141 III 564",
+   "decision_id": null,
+   "in_degree": 509,
+   "out_degree": 0,
+   "pagerank": 0.0008183431685188691,
+   "rank_pagerank": 32,
+   "rank_in_degree": 11
+  },
+  {
+   "node": "bge:BGE 137 III 226",
+   "kind": "bge",
+   "key": "BGE 137 III 226",
+   "decision_id": null,
+   "in_degree": 493,
+   "out_degree": 0,
+   "pagerank": 0.0008182140831859183,
+   "rank_pagerank": 33,
+   "rank_in_degree": 12
+  },
+  {
+   "node": "bge:BGE 135 III 397",
+   "kind": "bge",
+   "key": "BGE 135 III 397",
+   "decision_id": null,
+   "in_degree": 460,
+   "out_degree": 0,
+   "pagerank": 0.0009517062999022112,
+   "rank_pagerank": 26,
+   "rank_in_degree": 13
+  },
+  {
+   "node": "bge:BGE 134 I 83",
+   "kind": "bge",
+   "key": "BGE 134 I 83",
+   "decision_id": null,
+   "in_degree": 446,
+   "out_degree": 0,
+   "pagerank": 0.0014006801901074967,
+   "rank_pagerank": 17,
+   "rank_in_degree": 14
+  },
+  {
+   "node": "bge:BGE 133 III 439",
+   "kind": "bge",
+   "key": "BGE 133 III 439",
+   "decision_id": null,
+   "in_degree": 423,
+   "out_degree": 0,
+   "pagerank": 0.0014645419119398621,
+   "rank_pagerank": 15,
+   "rank_in_degree": 15
+  },
+  {
+   "node": "bge:BGE 148 IV 155",
+   "kind": "bge",
+   "key": "BGE 148 IV 155",
+   "decision_id": null,
+   "in_degree": 414,
+   "out_degree": 0,
+   "pagerank": 0.0012680657779090875,
+   "rank_pagerank": 20,
+   "rank_in_degree": 16
+  },
+  {
+   "node": "bge:BGE 133 III 585",
+   "kind": "bge",
+   "key": "BGE 133 III 585",
+   "decision_id": null,
+   "in_degree": 411,
+   "out_degree": 0,
+   "pagerank": 0.0009055826825134878,
+   "rank_pagerank": 28,
+   "rank_in_degree": 17
+  },
+  {
+   "node": "bge:BGE 145 I 121",
+   "kind": "bge",
+   "key": "BGE 145 I 121",
+   "decision_id": null,
+   "in_degree": 401,
+   "out_degree": 0,
+   "pagerank": 0.0011612406841649359,
+   "rank_pagerank": 22,
+   "rank_in_degree": 18
+  },
+  {
+   "node": "bge:BGE 141 III 395",
+   "kind": "bge",
+   "key": "BGE 141 III 395",
+   "decision_id": null,
+   "in_degree": 386,
+   "out_degree": 0,
+   "pagerank": 0.0010542140012425548,
+   "rank_pagerank": 25,
+   "rank_in_degree": 19
+  },
+  {
+   "node": "bge:BGE 149 III 277",
+   "kind": "bge",
+   "key": "BGE 149 III 277",
+   "decision_id": null,
+   "in_degree": 385,
+   "out_degree": 0,
+   "pagerank": 0.001158969907382029,
+   "rank_pagerank": 23,
+   "rank_in_degree": 20
+  }
+ ],
+ "central_corpus_decisions": [
+  {
+   "node": "bger_5F_36_2022",
+   "kind": "decision",
+   "key": "bger_5F_36_2022",
+   "decision_id": "bger_5F_36_2022",
+   "in_degree": 56,
+   "out_degree": 4,
+   "pagerank": 0.0007615472735749811,
+   "rank_pagerank": 37,
+   "rank_in_degree": 166
+  },
+  {
+   "node": "bger_5F_12_2022",
+   "kind": "decision",
+   "key": "bger_5F_12_2022",
+   "decision_id": "bger_5F_12_2022",
+   "in_degree": 49,
+   "out_degree": 3,
+   "pagerank": 0.0006828400199331161,
+   "rank_pagerank": 42,
+   "rank_in_degree": 191
+  },
+  {
+   "node": "bger_5A_85_2021",
+   "kind": "decision",
+   "key": "bger_5A_85_2021",
+   "decision_id": "bger_5A_85_2021",
+   "in_degree": 46,
+   "out_degree": 52,
+   "pagerank": 9.976160607605037e-05,
+   "rank_pagerank": 379,
+   "rank_in_degree": 204
+  },
+  {
+   "node": "bger_5A_176_2023",
+   "kind": "decision",
+   "key": "bger_5A_176_2023",
+   "decision_id": "bger_5A_176_2023",
+   "in_degree": 39,
+   "out_degree": 38,
+   "pagerank": 7.781311703458785e-05,
+   "rank_pagerank": 589,
+   "rank_in_degree": 241
+  },
+  {
+   "node": "bger_4A_446_2020",
+   "kind": "decision",
+   "key": "bger_4A_446_2020",
+   "decision_id": "bger_4A_446_2020",
+   "in_degree": 32,
+   "out_degree": 44,
+   "pagerank": 7.437616196424813e-05,
+   "rank_pagerank": 659,
+   "rank_in_degree": 286
+  },
+  {
+   "node": "bger_5A_456_2020",
+   "kind": "decision",
+   "key": "bger_5A_456_2020",
+   "decision_id": "bger_5A_456_2020",
+   "in_degree": 31,
+   "out_degree": 28,
+   "pagerank": 8.881890081949151e-05,
+   "rank_pagerank": 466,
+   "rank_in_degree": 296
+  },
+  {
+   "node": "bger_5A_311_2019",
+   "kind": "decision",
+   "key": "bger_5A_311_2019",
+   "decision_id": "bger_5A_311_2019",
+   "in_degree": 27,
+   "out_degree": 69,
+   "pagerank": 0.0001154451119774688,
+   "rank_pagerank": 295,
+   "rank_in_degree": 331
+  },
+  {
+   "node": "bger_4A_412_2019",
+   "kind": "decision",
+   "key": "bger_4A_412_2019",
+   "decision_id": "bger_4A_412_2019",
+   "in_degree": 25,
+   "out_degree": 34,
+   "pagerank": 6.913824173762792e-05,
+   "rank_pagerank": 829,
+   "rank_in_degree": 356
+  },
+  {
+   "node": "bger_4A_180_2023",
+   "kind": "decision",
+   "key": "bger_4A_180_2023",
+   "decision_id": "bger_4A_180_2023",
+   "in_degree": 24,
+   "out_degree": 36,
+   "pagerank": 6.789828999727997e-05,
+   "rank_pagerank": 862,
+   "rank_in_degree": 369
+  },
+  {
+   "node": "bger_4A_446_2022",
+   "kind": "decision",
+   "key": "bger_4A_446_2022",
+   "decision_id": "bger_4A_446_2022",
+   "in_degree": 24,
+   "out_degree": 25,
+   "pagerank": 6.979047314293948e-05,
+   "rank_pagerank": 757,
+   "rank_in_degree": 368
+  }
+ ]
+}

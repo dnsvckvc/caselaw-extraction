@@ -22,6 +22,8 @@ from caselaw_extraction.schema import (
     StatuteCitation,
 )
 
+VERSION = "regex-v0.4"  # guideline v0.3 rules; see docs/report.md section 5
+
 SP = r"[  ]"  # texts mix normal and non-breaking spaces
 WS = r"[ \u00a0\n]"  # inside a citation the source often wraps onto a new line
 

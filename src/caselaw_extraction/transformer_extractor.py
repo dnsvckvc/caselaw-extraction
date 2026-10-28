@@ -179,6 +179,13 @@ def load_saved(model_dir: Path):
     )
 
 
+def load_saved_outcome(model_dir: Path):
+    """Tokenizer and outcome (sequence) classifier saved by `caselaw train-transformer`."""
+    return load_tokenizer(str(model_dir)), AutoModelForSequenceClassification.from_pretrained(
+        str(model_dir)
+    )
+
+
 def tag_names_of(model) -> list[str]:
     """The tag set the model was trained with (saved in its config), not the current TAGS."""
     id2label = getattr(model.config, "id2label", None)

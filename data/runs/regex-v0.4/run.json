@@ -1,0 +1,46 @@
+{
+ "name": "regex-v0.4",
+ "extractor": "regex",
+ "extractor_version": "regex-v0.4",
+ "started_at": "2026-10-28T10:32:50+00:00",
+ "corpus": "data/interim/bger_de_zivil_2020.parquet",
+ "n_decisions": 7999,
+ "n_spans_before_linking": 294885,
+ "n_spans": 294884,
+ "dropped": {
+  "unknown_code": 0,
+  "no_article": 0,
+  "no_bge_key": 0,
+  "own_docket": 1
+ },
+ "spans_by_label": {
+  "AMOUNT": 43229,
+  "BGE": 80703,
+  "DOCKET": 30916,
+  "PARTY_ROLE": 14470,
+  "STATUTE": 125566
+ },
+ "citations_by_kind": {
+  "statute": 138143,
+  "bge": 80703,
+  "docket": 30916
+ },
+ "docket_targets_in_corpus": 12753,
+ "outcomes": {
+  "dismissed": 2515,
+  "inadmissible": 4644,
+  "approved": 256,
+  "moot": 336,
+  "unknown": 52,
+  "partial_approval": 196
+ },
+ "wall_seconds": 4.37,
+ "cpu_count": 18,
+ "machine": "arm64",
+ "workers": 18,
+ "npartitions": 72,
+ "scheduler": "distributed",
+ "partition_seconds": 0.27,
+ "dashboard": "http://127.0.0.1:8787/status",
+ "extract_seconds": 3.75
+}

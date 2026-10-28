@@ -21,6 +21,12 @@ dependencies = [
     "accelerate>=1.0",
     "sentencepiece>=0.2.2",
     "protobuf>=7.36.2",
+    "dask[distributed]>=2024.10",
+    "psycopg[binary]>=3.2",
+    "fastapi>=0.115",
+    "uvicorn>=0.30",
+    "networkx>=3.3",
+    "pyvis>=0.3.2",
 ]
 
 [project.optional-dependencies]

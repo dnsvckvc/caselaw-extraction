@@ -16,3 +16,5 @@ models/
 mlflow.db
 .DS_Store
 labeling/tasks/
+data/runs/demo/
+data/runs/smoke20/
