@@ -1,0 +1,50 @@
+{
+ "name": "gbert-b13-s0",
+ "extractor": "gbert",
+ "extractor_version": "models/gbert-base-b13-s0-ner",
+ "started_at": "2026-10-28T10:58:39+00:00",
+ "corpus": "data/interim/bger_de_zivil_2020.parquet",
+ "n_decisions": 7999,
+ "n_spans_before_linking": 310538,
+ "n_spans": 307075,
+ "dropped": {
+  "unknown_code": 2264,
+  "no_article": 104,
+  "no_bge_key": 285,
+  "own_docket": 810
+ },
+ "spans_by_label": {
+  "AMOUNT": 44034,
+  "BARE_ARTICLE": 3539,
+  "BGE": 81518,
+  "CONTRACT_ARTICLE": 2693,
+  "DOCKET": 30969,
+  "JOURNAL_REF": 2383,
+  "OTHER_LAW": 1504,
+  "PARTY_ROLE": 14675,
+  "STATUTE": 125760
+ },
+ "citations_by_kind": {
+  "statute": 138310,
+  "bge": 81518,
+  "docket": 30969
+ },
+ "docket_targets_in_corpus": 12357,
+ "outcomes": {
+  "dismissed": 2455,
+  "inadmissible": 4717,
+  "approved": 265,
+  "moot": 341,
+  "partial_approval": 221
+ },
+ "wall_seconds": 1794.73,
+ "cpu_count": 18,
+ "machine": "arm64",
+ "model_dir": "models/gbert-base-b13-s0-ner",
+ "outcome_dir": "models/gbert-base-b13-s0-outcome",
+ "decode": "viterbi",
+ "device": "mps",
+ "workers": 1,
+ "scheduler": "single-process",
+ "extract_seconds": 1791.36
+}

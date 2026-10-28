@@ -1,0 +1,155 @@
+{
+ "runs": [
+  "regex-v0.4",
+  "gbert-b13-s0"
+ ],
+ "citations": {
+  "bge": {
+   "both": 62679,
+   "only_regex-v0.4": 2,
+   "only_gbert-b13-s0": 577,
+   "jaccard": 0.9908
+  },
+  "docket": {
+   "both": 23498,
+   "only_regex-v0.4": 186,
+   "only_gbert-b13-s0": 433,
+   "jaccard": 0.9743
+  },
+  "statute": {
+   "both": 90116,
+   "only_regex-v0.4": 243,
+   "only_gbert-b13-s0": 346,
+   "jaccard": 0.9935
+  }
+ },
+ "top20_statutes_shared": 20,
+ "top20_statutes_same_order": true,
+ "top20_central_shared": 20,
+ "examples": {
+  "only_regex-v0.4": [
+   [
+    "statute",
+    "FINMAG 29",
+    "bger_5A_508_2024"
+   ],
+   [
+    "docket",
+    "5D_115_2020",
+    "bger_5D_114_2020"
+   ],
+   [
+    "statute",
+    "BauAV 33",
+    "bger_4A_351_2025"
+   ],
+   [
+    "statute",
+    "BGG 66",
+    "bger_4A_43_2021"
+   ],
+   [
+    "statute",
+    "BGG 66",
+    "bger_4A_617_2021"
+   ],
+   [
+    "statute",
+    "OR 625",
+    "bger_4A_127_2021"
+   ],
+   [
+    "docket",
+    "5D_24_2021",
+    "bger_5D_25_2021"
+   ],
+   [
+    "docket",
+    "5A_593_2023",
+    "bger_4A_396_2023"
+   ],
+   [
+    "statute",
+    "BGG 66",
+    "bger_4A_171_2024"
+   ],
+   [
+    "statute",
+    "ZGB 8",
+    "bger_4A_84_2023"
+   ],
+   [
+    "docket",
+    "5A_804_2025",
+    "bger_5A_751_2025"
+   ],
+   [
+    "docket",
+    "5D_75_2023",
+    "bger_5D_74_2023"
+   ]
+  ],
+  "only_gbert-b13-s0": [
+   [
+    "bge",
+    "BGE 119 II 249",
+    "bger_4A_506_2024"
+   ],
+   [
+    "statute",
+    "ZPO 1",
+    "bger_4A_604_2025"
+   ],
+   [
+    "bge",
+    "BGE 133 III 439",
+    "bger_4A_404_2020"
+   ],
+   [
+    "statute",
+    "BGG 106",
+    "bger_5A_827_2019"
+   ],
+   [
+    "statute",
+    "SchKG 54",
+    "bger_5A_284_2020"
+   ],
+   [
+    "statute",
+    "ZGB 314abis",
+    "bger_5A_30_2021"
+   ],
+   [
+    "docket",
+    "13Y_2_2021",
+    "bger_5A_838_2025"
+   ],
+   [
+    "docket",
+    "O2017_025",
+    "bger_5A_782_2021"
+   ],
+   [
+    "bge",
+    "BGE 137 III 4",
+    "bger_5A_596_2021"
+   ],
+   [
+    "docket",
+    "B25_96",
+    "bger_4F_13_2022"
+   ],
+   [
+    "bge",
+    "BGE 136 III 552",
+    "bger_4A_447_2025"
+   ],
+   [
+    "statute",
+    "ZGB 3",
+    "bger_5A_686_2020"
+   ]
+  ]
+ }
+}

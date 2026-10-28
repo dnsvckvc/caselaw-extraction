@@ -702,7 +702,7 @@ which extractor made a run.
 | `regex-v0.4-8w` | same, 8 workers | 7,999 | 294,885 | 294,884 | 1 | 4.2 s |
 | `regex-v0.4-4w` | same, 4 workers | 7,999 | 294,885 | 294,884 | 1 | 5.3 s |
 | `regex-v0.4-1proc` | same, one process, no cluster | 7,999 | 294,885 | 294,884 | 1 | 11.1 s (9.7 s extraction) |
-| `gbert-b13-s0` | gbert on 260 decisions, Viterbi decoding, outcome head, Apple MPS | 7,999 | see 7.6 | | | see 7.6 |
+| `gbert-b13-s0` | gbert on 260 decisions, Viterbi decoding, outcome head, one process on Apple MPS | 7,999 | 310,538 | 307,075 | 3,463 (2,264 unknown code, 810 own file number, 285 BGE without key, 104 no article) | 1,795 s (30 min) |
 
 The regex is cheap enough that Dask does not pay off on this corpus: 9.7 seconds in one
 process, 3.8 seconds with 18 workers, and most of the parallel time is spent starting the
@@ -854,13 +854,60 @@ local times; week 4 measures them on the real deployment.
 |---|---|---|---|---|
 | regex v0.4 (one process) | 9.7 s | 1 Fargate task, 1 vCPU, 2 GB | < USD 0.01 | < USD 0.01 |
 | regex v0.4 (Dask, 18 processes) | 3.8 s | not worth a cluster at this size | | |
-| gbert-b13-s0 (GPU) | see 7.6 | 1 g5.xlarge | see 7.6 | |
+| gbert-b13-s0 (GPU) | 1,795 s | 1 g5.xlarge (A10G), assumed as fast as the laptop GPU | about USD 0.63 | about USD 0.08 |
 | LLM extractor (Claude Haiku, section 6.5) | not run on the corpus | API | about 100 M input tokens and 8 M output tokens at USD 1 / 5 per M: about USD 140 | about USD 17 |
 
-The regex is free at any corpus size that fits a laptop; the learned model costs cents per
-thousand decisions on a rented GPU; the LLM costs dollars per thousand and is, on the
+The regex is free at any corpus size that fits a laptop; the learned model costs about eight
+cents per thousand decisions on a rented GPU, plus the half hour of wall time; the LLM costs dollars per thousand and is, on the
 held-out batch, the least exact of the three at span level (section 6.5). Week 4 adds the
 monthly cost of keeping the API and the database up.
+
+### 7.6 Regex graph against gbert graph: what the rules lose
+
+The question behind the week-2 and week-3 model work was whether a learned extractor would
+change the result. Both runs cover the same 7,999 decisions, so the answer is an edge-level
+comparison (`caselaw compare-runs`, `data/runs/regex-v0.4/compare-gbert-b13-s0.json`); an
+edge is one (decision, linked key) pair.
+
+| kind | in both runs | regex only | gbert only | Jaccard |
+|---|---|---|---|---|
+| statute article | 90,116 | 243 | 346 | 0.994 |
+| BGE | 62,679 | 2 | 577 | 0.991 |
+| file number | 23,498 | 186 | 433 | 0.974 |
+
+The two graphs are the same graph for every question this report asks. The 20 most-cited
+articles are the same 20 in the same order. The 20 most central nodes are the same 20 (the
+first two swap places: PageRank puts BGE 142 III 364 first in the gbert graph and BGE 140
+III 115 first in the regex graph, with 3,170 against 3,348 citing decisions). The trend
+tables differ in the second decimal. The outcomes agree on 7,840 of 7,999 decisions; the
+model fills the 52 decisions the rules leave `unknown`, and the largest disagreement (65
+decisions, rules `dismissed`, model `inadmissible`) is the same formula problem as between
+the rules and the dataset label. Against the dataset label the two extractors agree equally
+often (4,627 and 4,611 of 5,806).
+
+Where they differ, the samples show both sides. The gbert-only BGE citations are real
+citations written without the `BGE` prefix or across a line break that the regex does not
+accept (`BGE 119 II 249`, `BGE 137 III 4`). The gbert-only file numbers include cantonal and
+foreign numbers that the regex pattern excludes on purpose (`13Y_2_2021`, `O2017_025`,
+`B25_96`): the linking stage normalises a file number but does not know which courts exist,
+which is a week-4 item for the `statute`-like lookup table of courts. The regex-only file
+numbers are mostly `5D_` numbers of joined proceedings, rare in the training data even after
+the targeted batch. The regex-only statute citations are the long chains where the model
+cut a span short (`BGG 66` at the end of a costs chain) and codes the model never saw
+(`BauAV`, `FINMAG`). The linking stage dropped 3,463 model spans and one regex span: 2,264
+model spans named a code that is not a federal act (contract clauses and cantonal acts the
+model still labels STATUTE in a small share of cases, see 6.13), and 810 were the decision's
+own file number, which no span model can know (section 6.8). The model also labelled 10,119
+spans in the four negative classes (contract clauses 2,693, bare article numbers 3,539,
+other law 1,504, journal references 2,383), which the regex does not produce; they are kept
+in the `spans` table and are not citations.
+
+The deployment decision follows: the rules go to AWS. On this corpus the learned model buys
+an agreement of 0.99 with itself at 185 times the single-process compute (30 minutes on a GPU against 10 seconds on one core) and no change in any analysis. The
+model's value is elsewhere: it is the extractor that reads the forms the rules do not list
+(the prefix-less BGE, the cantonal file numbers), it measures the rules on 7,999 decisions
+instead of 350, and it is what the pipeline will need for the languages and courts for which
+nobody has written the rules yet.
 
 ## 8. Deployment and monitoring
 
