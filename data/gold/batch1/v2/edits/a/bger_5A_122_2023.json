@@ -1,0 +1,15 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  16
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 6",
+   "label": "BARE_ARTICLE",
+   "occurrence": 1
+  }
+ ],
+ "comment": "#16: federal ordinance VFRR cited by title (abbreviation only in brackets after the title), so BARE_ARTICLE. \"Ziffer 21 der Weisung der Dienststelle Oberaufsicht ... Nr. 3\" is a clause of a federal administrative directive, not a private instrument and not Art./§; fits no class, left without span."
+}

@@ -1,0 +1,14 @@
+{
+ "outcome": "partial_approval",
+ "delete": [
+  16
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Fr. 1750.--",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "Dispositiv item 1: In teilweiser Gutheissung ... aufgehoben und zurueckgewiesen -> partial_approval. #16 was cut inside the number."
+}

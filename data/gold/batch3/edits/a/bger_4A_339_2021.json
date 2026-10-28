@@ -1,0 +1,7 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "All 70 pre-annotations confirmed. #68 Art. 16 Abs. 2 [recte: 3] AVB kept as BARE_ARTICLE on Art. 16 Abs. 2 because the bracket separates the number from AVB and brackets may not be inside a span (unsettled). #60-#62 Art. 9 Abs. 2 und 3 / Art. 15 Abs. 2 / Art. 16 Abs. 2 kept as BARE_ARTICLE: the AVB is named only before the list. Rz. 12.2 der Klage, Rz. 16 der Replik, Ziff. 6.3 des Gutachtens, lone Abs. 4 and VV.2018.327 left unlabelled."
+}

@@ -1,0 +1,337 @@
+{
+ "decision_id": "bger_5A_219_2025",
+ "task_index": 154,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "#2 Beschwerdegegnerin 2 appears in the representation line of party 1 inside the header; kept as PARTY_ROLE of party 2, the final role line is the collective Beschwerdegegner.",
+ "spans": [
+  {
+   "start": 353,
+   "end": 369,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 426,
+   "end": 444,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 507,
+   "end": 523,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 895,
+   "end": 907,
+   "label": "AMOUNT",
+   "text": "Fr. 1'320.--"
+  },
+  {
+   "start": 912,
+   "end": 924,
+   "label": "AMOUNT",
+   "text": "Fr. 1'428.--"
+  },
+  {
+   "start": 2121,
+   "end": 2134,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 2209,
+   "end": 2278,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1,\nArt. 74 Abs. 1 lit. b,\nArt. 75 Abs. 1 und\nArt. 90 BGG"
+  },
+  {
+   "start": 3146,
+   "end": 3158,
+   "label": "AMOUNT",
+   "text": "Fr. 1'422.--"
+  },
+  {
+   "start": 3183,
+   "end": 3195,
+   "label": "AMOUNT",
+   "text": "Fr. 1'320.--"
+  },
+  {
+   "start": 3330,
+   "end": 3342,
+   "label": "AMOUNT",
+   "text": "Fr. 1'428.--"
+  },
+  {
+   "start": 3508,
+   "end": 3520,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  },
+  {
+   "start": 4206,
+   "end": 4218,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  },
+  {
+   "start": 4700,
+   "end": 4719,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 5007,
+   "end": 5022,
+   "label": "BGE",
+   "text": "BGE 134 III 235"
+  },
+  {
+   "start": 5029,
+   "end": 5040,
+   "label": "BGE",
+   "text": "143 III 111"
+  },
+  {
+   "start": 5201,
+   "end": 5213,
+   "label": "BGE",
+   "text": "BGE 144 I 11"
+  },
+  {
+   "start": 5222,
+   "end": 5231,
+   "label": "BGE",
+   "text": "148 IV 22"
+  },
+  {
+   "start": 5519,
+   "end": 5531,
+   "label": "STATUTE",
+   "text": "Art. 312 ZPO"
+  },
+  {
+   "start": 5996,
+   "end": 6015,
+   "label": "STATUTE",
+   "text": "Art. 312 Abs. 1 ZPO"
+  },
+  {
+   "start": 6555,
+   "end": 6573,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 6711,
+   "end": 6725,
+   "label": "BGE",
+   "text": "BGE 139 II 233"
+  },
+  {
+   "start": 6734,
+   "end": 6745,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 6762,
+   "end": 6773,
+   "label": "DOCKET",
+   "text": "5A_522/2021"
+  },
+  {
+   "start": 6804,
+   "end": 6815,
+   "label": "DOCKET",
+   "text": "2C_580/2024"
+  },
+  {
+   "start": 7478,
+   "end": 7489,
+   "label": "STATUTE",
+   "text": "Art. 56 ZPO"
+  },
+  {
+   "start": 7677,
+   "end": 7688,
+   "label": "STATUTE",
+   "text": "Art. 56 ZPO"
+  },
+  {
+   "start": 7695,
+   "end": 7723,
+   "label": "STATUTE",
+   "text": "Art. 9 und\nArt. 29 Abs. 1 BV"
+  },
+  {
+   "start": 7735,
+   "end": 7746,
+   "label": "STATUTE",
+   "text": "Art. 56 ZPO"
+  },
+  {
+   "start": 7813,
+   "end": 7823,
+   "label": "DOCKET",
+   "text": "4A_45/2014"
+  },
+  {
+   "start": 7892,
+   "end": 7903,
+   "label": "STATUTE",
+   "text": "Art. 56 ZPO"
+  },
+  {
+   "start": 7958,
+   "end": 7969,
+   "label": "STATUTE",
+   "text": "Art. 56 ZPO"
+  },
+  {
+   "start": 8254,
+   "end": 8269,
+   "label": "BGE",
+   "text": "BGE 146 III 413"
+  },
+  {
+   "start": 8301,
+   "end": 8312,
+   "label": "STATUTE",
+   "text": "Art. 56 ZPO"
+  },
+  {
+   "start": 8642,
+   "end": 8654,
+   "label": "STATUTE",
+   "text": "Art. 311 ZPO"
+  },
+  {
+   "start": 8989,
+   "end": 9004,
+   "label": "BGE",
+   "text": "BGE 138 III 374"
+  },
+  {
+   "start": 9015,
+   "end": 9026,
+   "label": "BGE",
+   "text": "141 III 569"
+  },
+  {
+   "start": 9109,
+   "end": 9120,
+   "label": "DOCKET",
+   "text": "5A_208/2024"
+  },
+  {
+   "start": 9186,
+   "end": 9197,
+   "label": "STATUTE",
+   "text": "Art. 56 ZPO"
+  },
+  {
+   "start": 9298,
+   "end": 9309,
+   "label": "DOCKET",
+   "text": "5A_488/2015"
+  },
+  {
+   "start": 9340,
+   "end": 9351,
+   "label": "DOCKET",
+   "text": "5A_258/2015"
+  },
+  {
+   "start": 9380,
+   "end": 9391,
+   "label": "DOCKET",
+   "text": "5A_342/2020"
+  },
+  {
+   "start": 9417,
+   "end": 9428,
+   "label": "DOCKET",
+   "text": "4A_207/2022"
+  },
+  {
+   "start": 9647,
+   "end": 9662,
+   "label": "BGE",
+   "text": "BGE 146 III 413"
+  },
+  {
+   "start": 9679,
+   "end": 9690,
+   "label": "DOCKET",
+   "text": "4A_540/2017"
+  },
+  {
+   "start": 9716,
+   "end": 9727,
+   "label": "DOCKET",
+   "text": "4A_495/2024"
+  },
+  {
+   "start": 9953,
+   "end": 9972,
+   "label": "STATUTE",
+   "text": "Art. 132 Abs. 1 ZPO"
+  },
+  {
+   "start": 9975,
+   "end": 9990,
+   "label": "BGE",
+   "text": "BGE 137 III 617"
+  },
+  {
+   "start": 10007,
+   "end": 10018,
+   "label": "DOCKET",
+   "text": "4A_375/2015"
+  },
+  {
+   "start": 10063,
+   "end": 10078,
+   "label": "BGE",
+   "text": "BGE 142 III 102"
+  },
+  {
+   "start": 10081,
+   "end": 10092,
+   "label": "DOCKET",
+   "text": "4A_207/2022"
+  },
+  {
+   "start": 10346,
+   "end": 10357,
+   "label": "STATUTE",
+   "text": "Art. 56 ZPO"
+  },
+  {
+   "start": 11336,
+   "end": 11354,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 11467,
+   "end": 11485,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 11665,
+   "end": 11677,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 54,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

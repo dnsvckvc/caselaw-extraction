@@ -1,0 +1,23 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  4,
+  8
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 9, Art. 29 Abs. 2 BV",
+   "label": "STATUTE"
+  },
+  {
+   "text": "140 III 115",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Pre-annotated outcome 'dismissed' was wrong: item 1 only rejects the Sistierungsgesuch; item 2 'Auf die Beschwerde wird nicht eingetreten' -> inadmissible."
+}

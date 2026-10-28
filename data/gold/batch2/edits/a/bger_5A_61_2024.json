@@ -1,0 +1,20 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    3,
+    6
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Fr. 2,3 Mio.",
+      "label": "AMOUNT",
+      "all": true
+    },
+    {
+      "text": "Art 271 Abs. 1 Ziff. 2 SchKG",
+      "label": "STATUTE"
+    }
+  ],
+  "comment": "Deleted #3 and #6 (Fr. 2, cut before the multiplier) and re-added both as Fr. 2,3 Mio. Added Art 271 Abs. 1 Ziff. 2 SchKG in E. 3.3.3 (missing dot after Art; the rules only mention Art. with a dot, flagged for review). Cantonal number BR.2023.35 left unlabelled."
+}

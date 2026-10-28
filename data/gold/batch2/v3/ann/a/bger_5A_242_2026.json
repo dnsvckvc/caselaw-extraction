@@ -1,0 +1,97 @@
+{
+ "decision_id": "bger_5A_242_2026",
+ "task_index": 84,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 247,
+   "end": 265,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 1974,
+   "end": 1993,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 2040,
+   "end": 2058,
+   "label": "STATUTE",
+   "text": "Art. 47 Abs. 1 BGG"
+  },
+  {
+   "start": 2985,
+   "end": 3000,
+   "label": "BGE",
+   "text": "BGE 136 III 497"
+  },
+  {
+   "start": 3017,
+   "end": 3028,
+   "label": "DOCKET",
+   "text": "5A_175/2020"
+  },
+  {
+   "start": 3072,
+   "end": 3087,
+   "label": "BGE",
+   "text": "BGE 146 III 377"
+  },
+  {
+   "start": 3090,
+   "end": 3101,
+   "label": "DOCKET",
+   "text": "5A_640/2021"
+  },
+  {
+   "start": 3146,
+   "end": 3159,
+   "label": "BGE",
+   "text": "BGE 148 III 1"
+  },
+  {
+   "start": 3322,
+   "end": 3340,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3784,
+   "end": 3802,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3881,
+   "end": 3896,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 3903,
+   "end": 3914,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4553,
+   "end": 4585,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 4700,
+   "end": 4718,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  }
+ ],
+ "n_pre": 14,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

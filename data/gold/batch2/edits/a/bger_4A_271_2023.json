@@ -1,0 +1,12 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 87 aVVG",
+      "label": "STATUTE"
+    }
+  ],
+  "comment": "Added Art. 87 aVVG (missed). Left unlabelled: Artikeln 35a und 35b VVG (written-out Artikeln, not Art.), Art. A4 Ziff. 2 AVB / Art. B8 Ziff. 1 f. AVB (insurance conditions, not a law), Art. 2 Abs. 2 des Bundesgesetzes ... (KVAG) and Art. 9 des Einfuehrungsgesetzes ... (no abbreviation directly after), second page numbers 799 and 264 in BGE lists, BBl reference, cantonal number KV-Z 2021/3."
+}

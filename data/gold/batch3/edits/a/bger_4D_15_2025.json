@@ -1,0 +1,7 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "No change. 'Ziffer 1 der Vereinbarung' (out-of-court settlement) stays CONTRACT_ARTICLE. 'Dispositiv-Ziffer 1' and 'Ruegen I, IV, V und IX' get no span."
+}

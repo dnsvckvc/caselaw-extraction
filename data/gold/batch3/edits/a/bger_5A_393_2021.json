@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  52
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Pra 107 [2018] Nr. 86",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "#52 JOURNAL_REF Pra 107 extended to Pra 107 [2018] Nr. 86: the year bracket sits inside the reference between volume and number (unsettled: guideline forbids brackets but only the surrounding kind is illustrated). Left unlabelled: Randziffer 16 der Klageantwort, SR 0.274.131, AS 1991 2436, Haager Uebereinkommen cited without Art., cantonal number RT200056-O/U."
+}

@@ -1,0 +1,261 @@
+{
+ "outcome": "partial_approval",
+ "delete": [
+  24,
+  27,
+  28,
+  29,
+  31,
+  32,
+  33,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  74
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 14 Abs. 1 wie auch Art. 16 Abs. 1 GebV SchKG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 15 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. 15 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 2
+  },
+  {
+   "text": "Art. 16 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. 15 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 3
+  },
+  {
+   "text": "Art. 16 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. 15 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 4
+  },
+  {
+   "text": "Art. 14 und 15 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. 16 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 2
+  },
+  {
+   "text": "Art. 14 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. 15 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 5
+  },
+  {
+   "text": "Art. 15 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 6
+  },
+  {
+   "text": "Art. 16 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 2
+  },
+  {
+   "text": "Art. 16 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 3
+  },
+  {
+   "text": "Art. 16 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 4
+  },
+  {
+   "text": "Art. 14 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 2
+  },
+  {
+   "text": "Art. 16 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 5
+  },
+  {
+   "text": "Art. 13 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. 13 Abs. 2 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. 14 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 3
+  },
+  {
+   "text": "Art. 14 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. 16 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 6
+  },
+  {
+   "text": "Art. 14 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 4
+  },
+  {
+   "text": "Art. 14 Abs. 2 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. 14 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 5
+  },
+  {
+   "text": "Art. 16 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 7
+  },
+  {
+   "text": "Art. 14 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 6
+  },
+  {
+   "text": "Art. 14 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 7
+  },
+  {
+   "text": "Art. 14 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 2
+  },
+  {
+   "text": "Art. 15 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 7
+  },
+  {
+   "text": "Art. 15 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 8
+  },
+  {
+   "text": "Art. 16 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 8
+  },
+  {
+   "text": "Art. 14 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 8
+  },
+  {
+   "text": "Art. 16 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 9
+  },
+  {
+   "text": "Art. 16 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 10
+  },
+  {
+   "text": "Art. 14 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 9
+  },
+  {
+   "text": "Art. 16 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 11
+  },
+  {
+   "text": "Art. 16 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 13
+  },
+  {
+   "text": "Art. 15 Abs. 2 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. 15 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. 14 Abs. 1 GebV SchKG",
+   "label": "STATUTE",
+   "occurrence": 10
+  },
+  {
+   "text": "Art. 15",
+   "label": "BARE_ARTICLE",
+   "occurrence": 1
+  }
+ ],
+ "comment": "GebV SchKG is the federal fee ordinance (SR 281.35): Art. ... GebV SchKG spans relabelled from BARE_ARTICLE to STATUTE with the code included. #24 Art. 15 der Gebuehrenverordnung ... (GebV SchKG; SR 281.35) is an act given as title: BARE_ARTICLE, not CONTRACT_ARTICLE. Sowohl Art. 14 Abs. 1 wie auch Art. 16 Abs. 1 GebV SchKG treated as one chain (wie auch read as und)."
+}

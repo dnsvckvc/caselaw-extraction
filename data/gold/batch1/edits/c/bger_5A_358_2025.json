@@ -1,0 +1,37 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  17
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 319 ff. ZPO",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 450a Abs. 2 und Art. 450b Abs. 3 ZGB",
+   "label": "STATUTE"
+  },
+  {
+   "text": "139 III 86",
+   "label": "BGE",
+   "all": true
+  },
+  {
+   "text": "140 III 289",
+   "label": "BGE",
+   "occurrence": 1
+  },
+  {
+   "text": "148 V 174",
+   "label": "BGE",
+   "all": true
+  },
+  {
+   "text": "142 III 364",
+   "label": "BGE"
+  }
+ ],
+ "comment": ""
+}

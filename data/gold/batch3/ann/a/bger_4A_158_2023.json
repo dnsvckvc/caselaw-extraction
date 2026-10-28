@@ -1,0 +1,157 @@
+{
+ "decision_id": "bger_4A_158_2023",
+ "task_index": 92,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "All 24 pre-annotations correct. LA220011-O/U (cantonal) and SR 818.101.26 left unlabelled.",
+ "spans": [
+  {
+   "start": 339,
+   "end": 357,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 429,
+   "end": 447,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 973,
+   "end": 985,
+   "label": "AMOUNT",
+   "text": "Fr. 5'633.33"
+  },
+  {
+   "start": 1878,
+   "end": 1891,
+   "label": "AMOUNT",
+   "text": "Fr. 11'266.65"
+  },
+  {
+   "start": 2071,
+   "end": 2083,
+   "label": "AMOUNT",
+   "text": "Fr. 4'707.05"
+  },
+  {
+   "start": 2091,
+   "end": 2103,
+   "label": "AMOUNT",
+   "text": "Fr. 5'633.33"
+  },
+  {
+   "start": 2799,
+   "end": 2810,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 2843,
+   "end": 2854,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 2896,
+   "end": 2909,
+   "label": "AMOUNT",
+   "text": "Fr. 15'000.--"
+  },
+  {
+   "start": 2950,
+   "end": 2975,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 3119,
+   "end": 3144,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 3462,
+   "end": 3477,
+   "label": "BGE",
+   "text": "BGE 146 III 237"
+  },
+  {
+   "start": 3484,
+   "end": 3495,
+   "label": "BGE",
+   "text": "144 III 164"
+  },
+  {
+   "start": 3502,
+   "end": 3513,
+   "label": "BGE",
+   "text": "141 III 159"
+  },
+  {
+   "start": 3813,
+   "end": 3826,
+   "label": "BGE",
+   "text": "BGE 135 III 1"
+  },
+  {
+   "start": 4089,
+   "end": 4103,
+   "label": "BGE",
+   "text": "BGE 139 II 340"
+  },
+  {
+   "start": 4313,
+   "end": 4338,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 Satz 2 BGG"
+  },
+  {
+   "start": 4731,
+   "end": 4749,
+   "label": "STATUTE",
+   "text": "Art. 324 Abs. 1 OR"
+  },
+  {
+   "start": 5189,
+   "end": 5207,
+   "label": "STATUTE",
+   "text": "Art. 324 Abs. 1 OR"
+  },
+  {
+   "start": 5401,
+   "end": 5411,
+   "label": "DOCKET",
+   "text": "4A_53/2023"
+  },
+  {
+   "start": 5544,
+   "end": 5560,
+   "label": "STATUTE",
+   "text": "Art. 113-119 BGG"
+  },
+  {
+   "start": 5649,
+   "end": 5661,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 5796,
+   "end": 5814,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6129,
+   "end": 6139,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 24,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

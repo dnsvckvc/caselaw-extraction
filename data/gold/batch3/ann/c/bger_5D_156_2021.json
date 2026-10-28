@@ -1,0 +1,121 @@
+{
+ "decision_id": "bger_5D_156_2021",
+ "task_index": 56,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 267,
+   "end": 283,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 349,
+   "end": 365,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 760,
+   "end": 770,
+   "label": "AMOUNT",
+   "text": "Fr. 350.--"
+  },
+  {
+   "start": 1851,
+   "end": 1862,
+   "label": "STATUTE",
+   "text": "Art. 57 BGG"
+  },
+  {
+   "start": 1896,
+   "end": 1907,
+   "label": "STATUTE",
+   "text": "Art. 58 BGG"
+  },
+  {
+   "start": 2276,
+   "end": 2289,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 2314,
+   "end": 2339,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 2415,
+   "end": 2440,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 2515,
+   "end": 2531,
+   "label": "STATUTE",
+   "text": "Art. 113 ff. BGG"
+  },
+  {
+   "start": 2613,
+   "end": 2625,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 2689,
+   "end": 2724,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2959,
+   "end": 2973,
+   "label": "BGE",
+   "text": "BGE 133 II 396"
+  },
+  {
+   "start": 2989,
+   "end": 3000,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4467,
+   "end": 4515,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 4606,
+   "end": 4624,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 4775,
+   "end": 4793,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 5298,
+   "end": 5316,
+   "label": "STATUTE",
+   "text": "Art. 41 Abs. 1 BGG"
+  },
+  {
+   "start": 5572,
+   "end": 5582,
+   "label": "AMOUNT",
+   "text": "Fr. 300.--"
+  }
+ ],
+ "n_pre": 18,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

@@ -1,0 +1,15 @@
+{
+ "keep": [
+  "b1",
+  "b2",
+  "b3",
+  "b4",
+  "b5",
+  "b6",
+  "b7",
+  "b8",
+  "b9",
+  "b10"
+ ],
+ "comment": "`Vollstreckungsabkommen CH/FL` is a treaty named by a short title, not by a Fedlex abbreviation; the title rule applies: BARE_ARTICLE on the article."
+}

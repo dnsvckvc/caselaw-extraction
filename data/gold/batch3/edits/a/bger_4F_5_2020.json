@@ -1,0 +1,22 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "JPY 3'091'220'814.--",
+   "label": "AMOUNT",
+   "all": true
+  },
+  {
+   "text": "JPY 6'357'307.--",
+   "label": "AMOUNT",
+   "all": true
+  },
+  {
+   "text": "4A_540/2 019",
+   "label": "DOCKET"
+  }
+ ],
+ "comment": "Added JPY amounts (currency token JPY, missed by pre-annotator). Added docket 4A_540/2 019 written with a stray space in the source text (E. B.b.c); it is the same case as 4A_540/2019 - guideline does not say whether a docket broken by a typo is a span."
+}

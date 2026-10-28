@@ -1,0 +1,7 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [],
+  "comment": "Guideline gap: the contract clause is cited only as spelled-out Artikel 17 der Vereinbarung / Artikel 17 (about 7 occurrences). CONTRACT_ARTICLE starts at Art./Ziff./§ per guideline, and the citation gold also skips spelled-out Artikel (cf. Artikeln 35a und 35b VVG in 4A_271/2023), so no span added."
+}

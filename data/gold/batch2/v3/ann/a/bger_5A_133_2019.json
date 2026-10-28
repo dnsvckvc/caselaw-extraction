@@ -1,0 +1,715 @@
+{
+ "decision_id": "bger_5A_133_2019",
+ "task_index": 9,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 716,
+   "end": 732,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 852,
+   "end": 870,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1366,
+   "end": 1380,
+   "label": "AMOUNT",
+   "text": "Fr. 100'000.--"
+  },
+  {
+   "start": 1671,
+   "end": 1683,
+   "label": "STATUTE",
+   "text": "Art. 70 StGB"
+  },
+  {
+   "start": 2218,
+   "end": 2230,
+   "label": "STATUTE",
+   "text": "Art. 70 StGB"
+  },
+  {
+   "start": 2732,
+   "end": 2746,
+   "label": "AMOUNT",
+   "text": "Fr. 915'437.65"
+  },
+  {
+   "start": 2848,
+   "end": 2862,
+   "label": "AMOUNT",
+   "text": "Fr. 229'962.70"
+  },
+  {
+   "start": 2902,
+   "end": 2916,
+   "label": "AMOUNT",
+   "text": "Fr. 226'750.--"
+  },
+  {
+   "start": 2959,
+   "end": 2973,
+   "label": "AMOUNT",
+   "text": "Fr. 418'726.65"
+  },
+  {
+   "start": 3109,
+   "end": 3123,
+   "label": "AMOUNT",
+   "text": "Fr. 226'750.--"
+  },
+  {
+   "start": 3382,
+   "end": 3396,
+   "label": "AMOUNT",
+   "text": "Fr. 150'104.07"
+  },
+  {
+   "start": 3565,
+   "end": 3579,
+   "label": "AMOUNT",
+   "text": "Fr. 400'000.--"
+  },
+  {
+   "start": 3840,
+   "end": 3854,
+   "label": "AMOUNT",
+   "text": "Fr. 418'726.65"
+  },
+  {
+   "start": 3994,
+   "end": 4008,
+   "label": "STATUTE",
+   "text": "Art. 242 SchKG"
+  },
+  {
+   "start": 4258,
+   "end": 4279,
+   "label": "STATUTE",
+   "text": "Art. 242 Abs. 2 SchKG"
+  },
+  {
+   "start": 4401,
+   "end": 4415,
+   "label": "AMOUNT",
+   "text": "Fr. 418'726.65"
+  },
+  {
+   "start": 4625,
+   "end": 4639,
+   "label": "AMOUNT",
+   "text": "Fr. 418'726.65"
+  },
+  {
+   "start": 5479,
+   "end": 5493,
+   "label": "AMOUNT",
+   "text": "Fr. 418'726.65"
+  },
+  {
+   "start": 5508,
+   "end": 5522,
+   "label": "AMOUNT",
+   "text": "Fr. 150'009.87"
+  },
+  {
+   "start": 5540,
+   "end": 5554,
+   "label": "AMOUNT",
+   "text": "Fr. 115'795.52"
+  },
+  {
+   "start": 5922,
+   "end": 5943,
+   "label": "STATUTE",
+   "text": "Art. 242 Abs. 2 SchKG"
+  },
+  {
+   "start": 6020,
+   "end": 6045,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 6055,
+   "end": 6065,
+   "label": "DOCKET",
+   "text": "5A_11/2009"
+  },
+  {
+   "start": 6263,
+   "end": 6307,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b und\nArt. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 6541,
+   "end": 6566,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 6672,
+   "end": 6690,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a BGG"
+  },
+  {
+   "start": 6801,
+   "end": 6819,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 6822,
+   "end": 6836,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 6948,
+   "end": 6963,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 7074,
+   "end": 7086,
+   "label": "STATUTE",
+   "text": "Art. 105 BGG"
+  },
+  {
+   "start": 7470,
+   "end": 7484,
+   "label": "AMOUNT",
+   "text": "Fr. 115'759.52"
+  },
+  {
+   "start": 7562,
+   "end": 7576,
+   "label": "AMOUNT",
+   "text": "Fr. 302'967.13"
+  },
+  {
+   "start": 7687,
+   "end": 7701,
+   "label": "AMOUNT",
+   "text": "Fr. 115'759.52"
+  },
+  {
+   "start": 8452,
+   "end": 8464,
+   "label": "STATUTE",
+   "text": "Art. 5 SchKG"
+  },
+  {
+   "start": 8980,
+   "end": 8994,
+   "label": "STATUTE",
+   "text": "Art. 242 SchKG"
+  },
+  {
+   "start": 9214,
+   "end": 9227,
+   "label": "STATUTE",
+   "text": "Art. 44 SchKG"
+  },
+  {
+   "start": 9414,
+   "end": 9427,
+   "label": "STATUTE",
+   "text": "Art. 44 SchKG"
+  },
+  {
+   "start": 9534,
+   "end": 9546,
+   "label": "STATUTE",
+   "text": "Art. 70 StGB"
+  },
+  {
+   "start": 9681,
+   "end": 9693,
+   "label": "BGE",
+   "text": "BGE 126 I 97"
+  },
+  {
+   "start": 9806,
+   "end": 9813,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 70"
+  },
+  {
+   "start": 9890,
+   "end": 9897,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 44"
+  },
+  {
+   "start": 9940,
+   "end": 9959,
+   "label": "STATUTE",
+   "text": "Art. 70 Abs. 1 StGB"
+  },
+  {
+   "start": 9962,
+   "end": 9990,
+   "label": "STATUTE",
+   "text": "aArt. 59 Ziff. 1 Abs. 1 StGB"
+  },
+  {
+   "start": 10318,
+   "end": 10331,
+   "label": "BGE",
+   "text": "BGE 137 IV 33"
+  },
+  {
+   "start": 10357,
+   "end": 10368,
+   "label": "DOCKET",
+   "text": "5A_221/2019"
+  },
+  {
+   "start": 10464,
+   "end": 10471,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 44"
+  },
+  {
+   "start": 10568,
+   "end": 10582,
+   "label": "BGE",
+   "text": "BGE 139 III 44"
+  },
+  {
+   "start": 10593,
+   "end": 10604,
+   "label": "BGE",
+   "text": "142 III 174"
+  },
+  {
+   "start": 10679,
+   "end": 10691,
+   "label": "STATUTE",
+   "text": "Art. 71 StGB"
+  },
+  {
+   "start": 10730,
+   "end": 10745,
+   "label": "BGE",
+   "text": "BGE 142 III 174"
+  },
+  {
+   "start": 10866,
+   "end": 10880,
+   "label": "STATUTE",
+   "text": "Art. 197 SchKG"
+  },
+  {
+   "start": 10930,
+   "end": 10944,
+   "label": "STATUTE",
+   "text": "Art. 242 SchKG"
+  },
+  {
+   "start": 11639,
+   "end": 11647,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 242"
+  },
+  {
+   "start": 11747,
+   "end": 11765,
+   "label": "STATUTE",
+   "text": "Art. 106 ff. SchKG"
+  },
+  {
+   "start": 11823,
+   "end": 11831,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 242"
+  },
+  {
+   "start": 12065,
+   "end": 12077,
+   "label": "STATUTE",
+   "text": "Art. 70 StGB"
+  },
+  {
+   "start": 12481,
+   "end": 12496,
+   "label": "BGE",
+   "text": "BGE 131 III 652"
+  },
+  {
+   "start": 12880,
+   "end": 12896,
+   "label": "JOURNAL_REF",
+   "text": "ZBGR 2017 S. 242"
+  },
+  {
+   "start": 12925,
+   "end": 12942,
+   "label": "JOURNAL_REF",
+   "text": "BlSchK 1972 S. 20"
+  },
+  {
+   "start": 12987,
+   "end": 13000,
+   "label": "STATUTE",
+   "text": "Art. 44 SchKG"
+  },
+  {
+   "start": 13079,
+   "end": 13100,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 5 SchKG"
+  },
+  {
+   "start": 13224,
+   "end": 13232,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 242"
+  },
+  {
+   "start": 13388,
+   "end": 13396,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 109"
+  },
+  {
+   "start": 13405,
+   "end": 13418,
+   "label": "BGE",
+   "text": "BGE 68 III 21"
+  },
+  {
+   "start": 13454,
+   "end": 13466,
+   "label": "STATUTE",
+   "text": "Art. 70 StGB"
+  },
+  {
+   "start": 13487,
+   "end": 13500,
+   "label": "STATUTE",
+   "text": "Art. 44 SchKG"
+  },
+  {
+   "start": 13594,
+   "end": 13607,
+   "label": "STATUTE",
+   "text": "Art. 44 SchKG"
+  },
+  {
+   "start": 13810,
+   "end": 13818,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 106"
+  },
+  {
+   "start": 13829,
+   "end": 13837,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 109"
+  },
+  {
+   "start": 14063,
+   "end": 14081,
+   "label": "STATUTE",
+   "text": "Art. 197 ff. SchKG"
+  },
+  {
+   "start": 14146,
+   "end": 14154,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 242"
+  },
+  {
+   "start": 14221,
+   "end": 14234,
+   "label": "STATUTE",
+   "text": "Art. 44 SchKG"
+  },
+  {
+   "start": 14607,
+   "end": 14622,
+   "label": "BGE",
+   "text": "BGE 122 III 436"
+  },
+  {
+   "start": 15125,
+   "end": 15139,
+   "label": "STATUTE",
+   "text": "Art. 242 SchKG"
+  },
+  {
+   "start": 15157,
+   "end": 15172,
+   "label": "BGE",
+   "text": "BGE 122 III 436"
+  },
+  {
+   "start": 15240,
+   "end": 15248,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 242"
+  },
+  {
+   "start": 16116,
+   "end": 16134,
+   "label": "STATUTE",
+   "text": "Art. 197 ff. SchKG"
+  },
+  {
+   "start": 16307,
+   "end": 16321,
+   "label": "STATUTE",
+   "text": "Art. 242 SchKG"
+  },
+  {
+   "start": 16514,
+   "end": 16528,
+   "label": "STATUTE",
+   "text": "Art. 202 SchKG"
+  },
+  {
+   "start": 16630,
+   "end": 16644,
+   "label": "STATUTE",
+   "text": "Art. 202 SchKG"
+  },
+  {
+   "start": 16697,
+   "end": 16711,
+   "label": "STATUTE",
+   "text": "Art. 242 SchKG"
+  },
+  {
+   "start": 16839,
+   "end": 16853,
+   "label": "STATUTE",
+   "text": "Art. 202 SchKG"
+  },
+  {
+   "start": 17343,
+   "end": 17351,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 202"
+  },
+  {
+   "start": 17388,
+   "end": 17401,
+   "label": "BGE",
+   "text": "BGE 70 III 83"
+  },
+  {
+   "start": 17414,
+   "end": 17428,
+   "label": "STATUTE",
+   "text": "Art. 202 SchKG"
+  },
+  {
+   "start": 17658,
+   "end": 17666,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 202"
+  },
+  {
+   "start": 17932,
+   "end": 17945,
+   "label": "BGE",
+   "text": "BGE 70 III 81"
+  },
+  {
+   "start": 17958,
+   "end": 17972,
+   "label": "STATUTE",
+   "text": "Art. 202 SchKG"
+  },
+  {
+   "start": 18167,
+   "end": 18175,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 242"
+  },
+  {
+   "start": 18481,
+   "end": 18499,
+   "label": "STATUTE",
+   "text": "Art. 401 Abs. 3 OR"
+  },
+  {
+   "start": 18582,
+   "end": 18596,
+   "label": "STATUTE",
+   "text": "Art. 242 SchKG"
+  },
+  {
+   "start": 18709,
+   "end": 18717,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 242"
+  },
+  {
+   "start": 18751,
+   "end": 18762,
+   "label": "STATUTE",
+   "text": "Art. 400 OR"
+  },
+  {
+   "start": 19297,
+   "end": 19312,
+   "label": "BGE",
+   "text": "BGE 125 III 293"
+  },
+  {
+   "start": 19662,
+   "end": 19678,
+   "label": "STATUTE",
+   "text": "Art. 197 ff. ZPO"
+  },
+  {
+   "start": 19743,
+   "end": 19760,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 19922,
+   "end": 19941,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 20181,
+   "end": 20192,
+   "label": "STATUTE",
+   "text": "Art. 52 ZPO"
+  },
+  {
+   "start": 20232,
+   "end": 20243,
+   "label": "STATUTE",
+   "text": "Art. 58 ZPO"
+  },
+  {
+   "start": 21138,
+   "end": 21152,
+   "label": "AMOUNT",
+   "text": "Fr. 418'726.65"
+  },
+  {
+   "start": 21429,
+   "end": 21455,
+   "label": "STATUTE",
+   "text": "Art. 372 und\nArt. 373 StGB"
+  },
+  {
+   "start": 21654,
+   "end": 21664,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 70-72"
+  },
+  {
+   "start": 21947,
+   "end": 21962,
+   "label": "STATUTE",
+   "text": "Art. 70-72 StGB"
+  },
+  {
+   "start": 21972,
+   "end": 21983,
+   "label": "DOCKET",
+   "text": "5A_221/2019"
+  },
+  {
+   "start": 22119,
+   "end": 22134,
+   "label": "BGE",
+   "text": "BGE 131 III 652"
+  },
+  {
+   "start": 22143,
+   "end": 22153,
+   "label": "BGE",
+   "text": "139 III 44"
+  },
+  {
+   "start": 22207,
+   "end": 22218,
+   "label": "DOCKET",
+   "text": "5A_221/2019"
+  },
+  {
+   "start": 22325,
+   "end": 22338,
+   "label": "STATUTE",
+   "text": "Art. 17 SchKG"
+  },
+  {
+   "start": 22547,
+   "end": 22560,
+   "label": "STATUTE",
+   "text": "Art. 44 SchKG"
+  },
+  {
+   "start": 22572,
+   "end": 22584,
+   "label": "BGE",
+   "text": "BGE 28 I 207"
+  },
+  {
+   "start": 23186,
+   "end": 23201,
+   "label": "BGE",
+   "text": "BGE 131 III 653"
+  },
+  {
+   "start": 23217,
+   "end": 23228,
+   "label": "DOCKET",
+   "text": "1B_388/2016"
+  },
+  {
+   "start": 23313,
+   "end": 23320,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 44"
+  },
+  {
+   "start": 23327,
+   "end": 23341,
+   "label": "BGE",
+   "text": "BGE 139 III 44"
+  },
+  {
+   "start": 24314,
+   "end": 24354,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 4,\nArt. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 24485,
+   "end": 24497,
+   "label": "AMOUNT",
+   "text": "Fr. 7'500.--"
+  },
+  {
+   "start": 24592,
+   "end": 24604,
+   "label": "AMOUNT",
+   "text": "Fr. 7'500.--"
+  }
+ ],
+ "n_pre": 117,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

@@ -1,0 +1,14 @@
+{
+ "outcome": "approved",
+ "delete": [
+  3
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "CHF 5,5 Mio.",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "Amount CHF 5,5 Mio. uses a decimal comma; the pre-annotator cut it at CHF 5."
+}

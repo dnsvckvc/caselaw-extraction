@@ -1,0 +1,28 @@
+{
+  "outcome": "partial_approval",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 121-123 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 42 Abs. 1 und Abs. 2 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 121 lit. b-d BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "134 III 379",
+      "label": "BGE"
+    },
+    {
+      "text": "Fr 6'000.--",
+      "label": "AMOUNT"
+    }
+  ],
+  "comment": "Revision decision; own docket is 4F_7/2025, the revised cases 4F_22/2024 and 4A_554/2013 are other-case dockets and kept. ECHR application 'Nr. 4976/20' and cantonal 'OG.2012.00042' are not spans. Added 'Fr 6'000.--' (currency token without period)."
+}

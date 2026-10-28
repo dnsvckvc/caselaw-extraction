@@ -1,0 +1,14 @@
+{
+ "outcome": "moot",
+ "delete": [
+  10
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 8 Abs. 3",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#10 Reglement with SR number 173.110.210.3 is an act given as title -> BARE_ARTICLE, not CONTRACT_ARTICLE."
+}

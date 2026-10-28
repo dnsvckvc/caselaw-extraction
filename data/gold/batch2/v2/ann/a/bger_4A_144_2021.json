@@ -1,0 +1,313 @@
+{
+ "decision_id": "bger_4A_144_2021",
+ "task_index": 23,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "#30 'Art. 3' kept as BARE_ARTICLE: the instrument follows but only after the modifier 'der zwischen den Parteien geltenden Allgemeinen Bedingungen fuer die Kollektiv-Krankentaggeldversicherung (AB)'. Guideline does not say whether intervening words between number and instrument name still make it CONTRACT_ARTICLE; kept the conservative short span. #31 Art. 3 Abs. 1 AB correct.",
+ "spans": [
+  {
+   "start": 605,
+   "end": 621,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 644,
+   "end": 662,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1462,
+   "end": 1475,
+   "label": "AMOUNT",
+   "text": "Fr. 21'882.96"
+  },
+  {
+   "start": 1975,
+   "end": 1988,
+   "label": "AMOUNT",
+   "text": "Fr. 21'882.95"
+  },
+  {
+   "start": 2315,
+   "end": 2353,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2484,
+   "end": 2502,
+   "label": "STATUTE",
+   "text": "Art. 95 und 96 BGG"
+  },
+  {
+   "start": 2607,
+   "end": 2621,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 2739,
+   "end": 2757,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3192,
+   "end": 3206,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 3324,
+   "end": 3342,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 3417,
+   "end": 3436,
+   "label": "STATUTE",
+   "text": "Art. 102 Abs. 3 BGG"
+  },
+  {
+   "start": 3601,
+   "end": 3615,
+   "label": "BGE",
+   "text": "BGE 134 IV 156"
+  },
+  {
+   "start": 3625,
+   "end": 3633,
+   "label": "BGE",
+   "text": "132 I 42"
+  },
+  {
+   "start": 3798,
+   "end": 3810,
+   "label": "BGE",
+   "text": "BGE 135 I 19"
+  },
+  {
+   "start": 3819,
+   "end": 3829,
+   "label": "BGE",
+   "text": "134 IV 156"
+  },
+  {
+   "start": 3839,
+   "end": 3847,
+   "label": "BGE",
+   "text": "132 I 42"
+  },
+  {
+   "start": 4024,
+   "end": 4036,
+   "label": "BGE",
+   "text": "BGE 135 I 19"
+  },
+  {
+   "start": 4246,
+   "end": 4265,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 4485,
+   "end": 4499,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 4691,
+   "end": 4702,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 4712,
+   "end": 4731,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 4793,
+   "end": 4808,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 4822,
+   "end": 4833,
+   "label": "BGE",
+   "text": "135 III 397"
+  },
+  {
+   "start": 4940,
+   "end": 4958,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 5041,
+   "end": 5060,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5063,
+   "end": 5078,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 5281,
+   "end": 5295,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5559,
+   "end": 5573,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 5756,
+   "end": 5770,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5919,
+   "end": 5925,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 3"
+  },
+  {
+   "start": 6173,
+   "end": 6189,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 3 Abs. 1 AB"
+  },
+  {
+   "start": 6609,
+   "end": 6619,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 8786,
+   "end": 8801,
+   "label": "BGE",
+   "text": "BGE 141 III 241"
+  },
+  {
+   "start": 8825,
+   "end": 8836,
+   "label": "DOCKET",
+   "text": "4A_117/2021"
+  },
+  {
+   "start": 9490,
+   "end": 9546,
+   "label": "STATUTE",
+   "text": "Art. 247 Abs. 2 lit. a i.V.m.\nArt. 243 Abs. 2 lit. f ZPO"
+  },
+  {
+   "start": 10302,
+   "end": 10317,
+   "label": "BGE",
+   "text": "BGE 141 III 569"
+  },
+  {
+   "start": 11937,
+   "end": 11949,
+   "label": "BGE",
+   "text": "BGE 143 V 19"
+  },
+  {
+   "start": 13563,
+   "end": 13574,
+   "label": "DOCKET",
+   "text": "4A_117/2021"
+  },
+  {
+   "start": 14217,
+   "end": 14232,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 14248,
+   "end": 14259,
+   "label": "BGE",
+   "text": "137 III 226"
+  },
+  {
+   "start": 14275,
+   "end": 14286,
+   "label": "BGE",
+   "text": "136 III 552"
+  },
+  {
+   "start": 14406,
+   "end": 14420,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 14695,
+   "end": 14710,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 14729,
+   "end": 14738,
+   "label": "BGE",
+   "text": "116 Ia 85"
+  },
+  {
+   "start": 14944,
+   "end": 14959,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 14968,
+   "end": 14978,
+   "label": "BGE",
+   "text": "135 II 356"
+  },
+  {
+   "start": 18746,
+   "end": 18764,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 18935,
+   "end": 18959,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 18962,
+   "end": 18977,
+   "label": "BGE",
+   "text": "BGE 133 III 439"
+  },
+  {
+   "start": 19112,
+   "end": 19124,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 50,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

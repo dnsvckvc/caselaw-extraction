@@ -1,0 +1,11 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {"text": "134 I 199", "label": "BGE", "occurrence": 2},
+    {"text": "135 III 374", "label": "BGE"},
+    {"text": "138 I 49", "label": "BGE", "occurrence": 2}
+  ],
+  "comment": "Added three BGE list items in E. 5 that the pre-annotator missed (they follow 'BGE 124 I 255' across line breaks without the BGE word)."
+}

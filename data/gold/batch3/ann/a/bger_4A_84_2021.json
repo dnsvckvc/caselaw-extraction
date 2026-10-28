@@ -1,0 +1,487 @@
+{
+ "decision_id": "bger_4A_84_2021",
+ "task_index": 65,
+ "pass": "a",
+ "outcome": "approved",
+ "comment": "Deleted #4 CONTRACT_ARTICLE on Art. 2 Abs. 2 der Postverordnung (VPG; SR 783.01): a Verordnung with an SR number is an act given by title, so BARE_ARTICLE Art. 2 Abs. 2. Kept #5 BARE_ARTICLE as one chain span Art. 1 und Art. 32 (des Postgesetzes); guideline does not say whether a BARE_ARTICLE chain is one or two spans. Kept #34 BARE_ARTICLE Artikel 43 followed by bracketed [VPG]; bracketed abbreviation treated as outside the span.",
+ "spans": [
+  {
+   "start": 418,
+   "end": 434,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 461,
+   "end": 479,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1204,
+   "end": 1211,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 14"
+  },
+  {
+   "start": 1395,
+   "end": 1408,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 2 Abs. 2"
+  },
+  {
+   "start": 1594,
+   "end": 1612,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 1 und Art. 32"
+  },
+  {
+   "start": 1651,
+   "end": 1666,
+   "label": "STATUTE",
+   "text": "Art. 43 ff. VPG"
+  },
+  {
+   "start": 3990,
+   "end": 4008,
+   "label": "STATUTE",
+   "text": "Art. 43 Abs. 1 VPG"
+  },
+  {
+   "start": 4142,
+   "end": 4160,
+   "label": "STATUTE",
+   "text": "Art. 43 Abs. 1 VPG"
+  },
+  {
+   "start": 4689,
+   "end": 4707,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4796,
+   "end": 4814,
+   "label": "STATUTE",
+   "text": "Art. 95 und 96 BGG"
+  },
+  {
+   "start": 4924,
+   "end": 4939,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 4946,
+   "end": 4956,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 5074,
+   "end": 5092,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 5564,
+   "end": 5579,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 5586,
+   "end": 5588,
+   "label": "BGE",
+   "text": "86"
+  },
+  {
+   "start": 5703,
+   "end": 5722,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5942,
+   "end": 5956,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6148,
+   "end": 6159,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 6169,
+   "end": 6188,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 6250,
+   "end": 6265,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 6272,
+   "end": 6275,
+   "label": "BGE",
+   "text": "264"
+  },
+  {
+   "start": 6382,
+   "end": 6400,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 6484,
+   "end": 6503,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 6506,
+   "end": 6521,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 6725,
+   "end": 6739,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6997,
+   "end": 7011,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 7188,
+   "end": 7202,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7226,
+   "end": 7243,
+   "label": "STATUTE",
+   "text": "Art. 32 Abs. 1 PG"
+  },
+  {
+   "start": 7617,
+   "end": 7634,
+   "label": "STATUTE",
+   "text": "Art. 32 Abs. 2 PG"
+  },
+  {
+   "start": 7647,
+   "end": 7665,
+   "label": "STATUTE",
+   "text": "Art. 43 Abs. 1 VPG"
+  },
+  {
+   "start": 8275,
+   "end": 8286,
+   "label": "STATUTE",
+   "text": "Art. 45 VPG"
+  },
+  {
+   "start": 8545,
+   "end": 8556,
+   "label": "STATUTE",
+   "text": "Art. 43 VPG"
+  },
+  {
+   "start": 8845,
+   "end": 8871,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 lit. a aVPG"
+  },
+  {
+   "start": 9182,
+   "end": 9192,
+   "label": "BARE_ARTICLE",
+   "text": "Artikel 43"
+  },
+  {
+   "start": 9674,
+   "end": 9697,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 23 lit. b der AGB"
+  },
+  {
+   "start": 10133,
+   "end": 10159,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 lit. a aVPG"
+  },
+  {
+   "start": 10227,
+   "end": 10253,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 lit. b aVPG"
+  },
+  {
+   "start": 11201,
+   "end": 11233,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 lit. a und b aVPG"
+  },
+  {
+   "start": 11511,
+   "end": 11522,
+   "label": "DOCKET",
+   "text": "4A_417/2009"
+  },
+  {
+   "start": 12404,
+   "end": 12421,
+   "label": "STATUTE",
+   "text": "Art. 32 Abs. 2 PG"
+  },
+  {
+   "start": 12427,
+   "end": 12446,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 aVPG"
+  },
+  {
+   "start": 12622,
+   "end": 12641,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 aVPG"
+  },
+  {
+   "start": 12765,
+   "end": 12784,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 aVPG"
+  },
+  {
+   "start": 12930,
+   "end": 12949,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 aVPG"
+  },
+  {
+   "start": 15154,
+   "end": 15180,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 lit. a aVPG"
+  },
+  {
+   "start": 16741,
+   "end": 16760,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 aVPG"
+  },
+  {
+   "start": 16921,
+   "end": 16983,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 i.V.m. Art. 43 Abs. 1 i.V.m.\nArt. 2 Abs. 2 aVPG"
+  },
+  {
+   "start": 16991,
+   "end": 17001,
+   "label": "STATUTE",
+   "text": "Art. 32 PG"
+  },
+  {
+   "start": 17106,
+   "end": 17125,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 aVPG"
+  },
+  {
+   "start": 17791,
+   "end": 17805,
+   "label": "BGE",
+   "text": "BGE 147 III 41"
+  },
+  {
+   "start": 17816,
+   "end": 17827,
+   "label": "BGE",
+   "text": "145 III 133"
+  },
+  {
+   "start": 17834,
+   "end": 17845,
+   "label": "BGE",
+   "text": "133 III 257"
+  },
+  {
+   "start": 18155,
+   "end": 18169,
+   "label": "BGE",
+   "text": "BGE 141 II 297"
+  },
+  {
+   "start": 18180,
+   "end": 18191,
+   "label": "BGE",
+   "text": "125 III 401"
+  },
+  {
+   "start": 18199,
+   "end": 18209,
+   "label": "BGE",
+   "text": "124 II 193"
+  },
+  {
+   "start": 18225,
+   "end": 18236,
+   "label": "DOCKET",
+   "text": "2C_544/2020"
+  },
+  {
+   "start": 18266,
+   "end": 18277,
+   "label": "DOCKET",
+   "text": "5A_336/2015"
+  },
+  {
+   "start": 18305,
+   "end": 18315,
+   "label": "DOCKET",
+   "text": "5A_92/2014"
+  },
+  {
+   "start": 18546,
+   "end": 18572,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 lit. a aVPG"
+  },
+  {
+   "start": 18972,
+   "end": 18991,
+   "label": "STATUTE",
+   "text": "Art. 45 lit. a aVPG"
+  },
+  {
+   "start": 19091,
+   "end": 19106,
+   "label": "JOURNAL_REF",
+   "text": "SZW 2021 S. 192"
+  },
+  {
+   "start": 20147,
+   "end": 20164,
+   "label": "STATUTE",
+   "text": "Art. 32 Abs. 2 PG"
+  },
+  {
+   "start": 20171,
+   "end": 20190,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 aVPG"
+  },
+  {
+   "start": 20677,
+   "end": 20696,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 aVPG"
+  },
+  {
+   "start": 21106,
+   "end": 21123,
+   "label": "STATUTE",
+   "text": "Art. 14 Abs. 3 PG"
+  },
+  {
+   "start": 21667,
+   "end": 21676,
+   "label": "STATUTE",
+   "text": "Art. 1 PG"
+  },
+  {
+   "start": 22022,
+   "end": 22048,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 lit. a aVPG"
+  },
+  {
+   "start": 23229,
+   "end": 23241,
+   "label": "STATUTE",
+   "text": "Art. 45 aVPG"
+  },
+  {
+   "start": 23475,
+   "end": 23492,
+   "label": "STATUTE",
+   "text": "Art. 14 Abs. 3 PG"
+  },
+  {
+   "start": 24672,
+   "end": 24690,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 VPG"
+  },
+  {
+   "start": 25123,
+   "end": 25148,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 lit. a VPG"
+  },
+  {
+   "start": 26646,
+   "end": 26665,
+   "label": "STATUTE",
+   "text": "Art. 43 Abs. 1 aVPG"
+  },
+  {
+   "start": 27411,
+   "end": 27423,
+   "label": "AMOUNT",
+   "text": "Fr. 8'000.--"
+  },
+  {
+   "start": 27462,
+   "end": 27480,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 27561,
+   "end": 27573,
+   "label": "AMOUNT",
+   "text": "Fr. 9'000.--"
+  },
+  {
+   "start": 27588,
+   "end": 27612,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 27721,
+   "end": 27751,
+   "label": "STATUTE",
+   "text": "Art. 67 und\nArt. 68 Abs. 5 BGG"
+  },
+  {
+   "start": 28190,
+   "end": 28202,
+   "label": "AMOUNT",
+   "text": "Fr. 8'000.--"
+  },
+  {
+   "start": 28338,
+   "end": 28350,
+   "label": "AMOUNT",
+   "text": "Fr. 9'000.--"
+  }
+ ],
+ "n_pre": 79,
+ "n_deleted": 1,
+ "n_added": 1,
+ "n_relabeled": 0
+}

@@ -1,0 +1,217 @@
+{
+ "decision_id": "bger_5A_578_2023",
+ "task_index": 123,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "all pre-annotations confirmed; cantonal file number 101 2023 152 not a span",
+ "spans": [
+  {
+   "start": 282,
+   "end": 300,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 2888,
+   "end": 2921,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 2 BGG"
+  },
+  {
+   "start": 3012,
+   "end": 3025,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 3106,
+   "end": 3131,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3141,
+   "end": 3152,
+   "label": "DOCKET",
+   "text": "5A_799/2020"
+  },
+  {
+   "start": 3289,
+   "end": 3312,
+   "label": "STATUTE",
+   "text": "Art. 75 und\nArt. 90 BGG"
+  },
+  {
+   "start": 3343,
+   "end": 3362,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 4236,
+   "end": 4254,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 4348,
+   "end": 4362,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 4443,
+   "end": 4462,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 4616,
+   "end": 4634,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 5102,
+   "end": 5116,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 5127,
+   "end": 5137,
+   "label": "BGE",
+   "text": "140 III 86"
+  },
+  {
+   "start": 5369,
+   "end": 5388,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5461,
+   "end": 5475,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5578,
+   "end": 5597,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5754,
+   "end": 5763,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 5766,
+   "end": 5778,
+   "label": "BGE",
+   "text": "BGE 147 I 73"
+  },
+  {
+   "start": 5865,
+   "end": 5876,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 5898,
+   "end": 5915,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 5921,
+   "end": 5931,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 6083,
+   "end": 6101,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 6104,
+   "end": 6119,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 7175,
+   "end": 7193,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 8811,
+   "end": 8822,
+   "label": "DOCKET",
+   "text": "5A_561/2023"
+  },
+  {
+   "start": 9810,
+   "end": 9833,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 und 2 BV"
+  },
+  {
+   "start": 9836,
+   "end": 9850,
+   "label": "BGE",
+   "text": "BGE 144 II 401"
+  },
+  {
+   "start": 10445,
+   "end": 10459,
+   "label": "BGE",
+   "text": "BGE 147 IV 145"
+  },
+  {
+   "start": 10626,
+   "end": 10637,
+   "label": "DOCKET",
+   "text": "5A_561/2023"
+  },
+  {
+   "start": 10909,
+   "end": 10929,
+   "label": "STATUTE",
+   "text": "Art. 956b Abs. 1 ZGB"
+  },
+  {
+   "start": 11499,
+   "end": 11519,
+   "label": "STATUTE",
+   "text": "Art. 956b Abs. 2 ZGB"
+  },
+  {
+   "start": 11731,
+   "end": 11749,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 11790,
+   "end": 11808,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 3 BGG"
+  },
+  {
+   "start": 11939,
+   "end": 11964,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 Satz 2 BGG"
+  }
+ ],
+ "n_pre": 34,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

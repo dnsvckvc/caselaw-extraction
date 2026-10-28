@@ -1,0 +1,355 @@
+{
+ "decision_id": "bger_5A_732_2021",
+ "task_index": 69,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "Added STATUTE Art. 450 bis 450e ZGB (range written with bis, shares one abbreviation; missed by the pre-annotator). Kept #44 OTHER_LAW § 25 Abs. 1 VRPG (cantonal act of Basel-Stadt cited by abbreviation without a canton suffix).",
+ "spans": [
+  {
+   "start": 338,
+   "end": 354,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 423,
+   "end": 439,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 5536,
+   "end": 5552,
+   "label": "STATUTE",
+   "text": "Art. 360 ff. ZGB"
+  },
+  {
+   "start": 5620,
+   "end": 5631,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 5711,
+   "end": 5744,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 6 BGG"
+  },
+  {
+   "start": 5830,
+   "end": 5841,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 5946,
+   "end": 5964,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 6005,
+   "end": 6016,
+   "label": "DOCKET",
+   "text": "5A_542/2019"
+  },
+  {
+   "start": 6074,
+   "end": 6119,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 und\nArt. 46 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 7534,
+   "end": 7545,
+   "label": "DOCKET",
+   "text": "5A_578/2021"
+  },
+  {
+   "start": 7698,
+   "end": 7712,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 7811,
+   "end": 7830,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 7998,
+   "end": 8016,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 8195,
+   "end": 8209,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 8366,
+   "end": 8385,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 8501,
+   "end": 8520,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 8665,
+   "end": 8680,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 8765,
+   "end": 8776,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 8930,
+   "end": 8948,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 8951,
+   "end": 8966,
+   "label": "BGE",
+   "text": "BGE 137 III 226"
+  },
+  {
+   "start": 9028,
+   "end": 9041,
+   "label": "BGE",
+   "text": "BGE 146 V 240"
+  },
+  {
+   "start": 9088,
+   "end": 9107,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 9178,
+   "end": 9193,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 9331,
+   "end": 9349,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 9399,
+   "end": 9411,
+   "label": "BGE",
+   "text": "BGE 143 V 19"
+  },
+  {
+   "start": 9502,
+   "end": 9514,
+   "label": "BGE",
+   "text": "BGE 143 V 19"
+  },
+  {
+   "start": 10412,
+   "end": 10429,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 11083,
+   "end": 11097,
+   "label": "BGE",
+   "text": "BGE 143 IV 380"
+  },
+  {
+   "start": 11192,
+   "end": 11206,
+   "label": "BGE",
+   "text": "BGE 142 II 218"
+  },
+  {
+   "start": 11600,
+   "end": 11614,
+   "label": "BGE",
+   "text": "BGE 143 IV 380"
+  },
+  {
+   "start": 12158,
+   "end": 12172,
+   "label": "BGE",
+   "text": "BGE 143 IV 380"
+  },
+  {
+   "start": 12190,
+   "end": 12201,
+   "label": "DOCKET",
+   "text": "4A_241/2020"
+  },
+  {
+   "start": 12967,
+   "end": 12982,
+   "label": "BGE",
+   "text": "BGE 141 III 210"
+  },
+  {
+   "start": 14493,
+   "end": 14507,
+   "label": "BGE",
+   "text": "BGE 146 II 335"
+  },
+  {
+   "start": 15575,
+   "end": 15592,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 15699,
+   "end": 15720,
+   "label": "STATUTE",
+   "text": "Art. 450 bis 450e ZGB"
+  },
+  {
+   "start": 15795,
+   "end": 15808,
+   "label": "STATUTE",
+   "text": "Art. 450f ZGB"
+  },
+  {
+   "start": 16071,
+   "end": 16084,
+   "label": "STATUTE",
+   "text": "Art. 450f ZGB"
+  },
+  {
+   "start": 16222,
+   "end": 16237,
+   "label": "BGE",
+   "text": "BGE 140 III 385"
+  },
+  {
+   "start": 16253,
+   "end": 16263,
+   "label": "DOCKET",
+   "text": "5A_51/2021"
+  },
+  {
+   "start": 16439,
+   "end": 16456,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 17328,
+   "end": 17340,
+   "label": "BGE",
+   "text": "BGE 143 V 71"
+  },
+  {
+   "start": 18927,
+   "end": 18940,
+   "label": "STATUTE",
+   "text": "Art. 450f ZGB"
+  },
+  {
+   "start": 18951,
+   "end": 18962,
+   "label": "BARE_ARTICLE",
+   "text": "§ 19 Abs. 1"
+  },
+  {
+   "start": 19182,
+   "end": 19198,
+   "label": "OTHER_LAW",
+   "text": "§ 25 Abs. 1 VRPG"
+  },
+  {
+   "start": 19322,
+   "end": 19334,
+   "label": "STATUTE",
+   "text": "Art. 154 ZPO"
+  },
+  {
+   "start": 24031,
+   "end": 24041,
+   "label": "STATUTE",
+   "text": "Art. 9 ZGB"
+  },
+  {
+   "start": 25466,
+   "end": 25476,
+   "label": "STATUTE",
+   "text": "Art. 9 ZGB"
+  },
+  {
+   "start": 25991,
+   "end": 26008,
+   "label": "STATUTE",
+   "text": "Art. 9 Abs. 1 ZGB"
+  },
+  {
+   "start": 26207,
+   "end": 26220,
+   "label": "BGE",
+   "text": "BGE 124 III 5"
+  },
+  {
+   "start": 26614,
+   "end": 26627,
+   "label": "BGE",
+   "text": "BGE 124 III 5"
+  },
+  {
+   "start": 26635,
+   "end": 26645,
+   "label": "BGE",
+   "text": "117 II 231"
+  },
+  {
+   "start": 26945,
+   "end": 26955,
+   "label": "STATUTE",
+   "text": "Art. 9 ZGB"
+  },
+  {
+   "start": 27047,
+   "end": 27057,
+   "label": "STATUTE",
+   "text": "Art. 9 ZGB"
+  },
+  {
+   "start": 27960,
+   "end": 27978,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 28074,
+   "end": 28098,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 28234,
+   "end": 28246,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  }
+ ],
+ "n_pre": 56,
+ "n_deleted": 0,
+ "n_added": 1,
+ "n_relabeled": 0
+}

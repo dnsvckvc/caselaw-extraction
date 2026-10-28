@@ -1,0 +1,21 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 319 ff. ZPO",
+   "label": "STATUTE",
+   "all": true
+  },
+  {
+   "text": "Art. 117 GOG/ZH",
+   "label": "STATUTE"
+  },
+  {
+   "text": "135 III 397",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Added the missed statute Art. 319 ff. ZPO (twice), the cantonal citation Art. 117 GOG/ZH (written with Art. and an abbreviation inside a quote), and one BGE list item. The amounts 'Fr. 0.00.--' and 'Fr. 0.00.-' are pre-annotated as 'Fr. 0.00' only; I kept those boundaries because the trailing '.--' is malformed in the source. The § citations of GOG/ZH stay unlabelled."
+}

@@ -1,0 +1,19 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 117 f. ZPO",
+   "label": "STATUTE"
+  },
+  {
+   "text": "138 III 252",
+   "label": "BGE"
+  },
+  {
+   "text": "133 II 396",
+   "label": "BGE"
+  }
+ ]
+}

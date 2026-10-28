@@ -1,0 +1,373 @@
+{
+ "decision_id": "bger_5A_581_2025",
+ "task_index": 190,
+ "pass": "a",
+ "outcome": "approved",
+ "comment": "No changes. Opposing party is the Betreibungsamt, so only one PARTY_ROLE in the header.",
+ "spans": [
+  {
+   "start": 276,
+   "end": 292,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 793,
+   "end": 806,
+   "label": "AMOUNT",
+   "text": "Fr. 11'899.26"
+  },
+  {
+   "start": 3231,
+   "end": 3244,
+   "label": "STATUTE",
+   "text": "Art. 19 SchKG"
+  },
+  {
+   "start": 3252,
+   "end": 3316,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 2 lit. c,\nArt. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 3423,
+   "end": 3441,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a BGG"
+  },
+  {
+   "start": 3552,
+   "end": 3570,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3573,
+   "end": 3586,
+   "label": "BGE",
+   "text": "BGE 143 I 377"
+  },
+  {
+   "start": 3700,
+   "end": 3719,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3722,
+   "end": 3737,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 3854,
+   "end": 3873,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 3876,
+   "end": 3890,
+   "label": "BGE",
+   "text": "BGE 150 II 346"
+  },
+  {
+   "start": 3900,
+   "end": 3909,
+   "label": "BGE",
+   "text": "149 I 207"
+  },
+  {
+   "start": 4111,
+   "end": 4122,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 4216,
+   "end": 4254,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 und\nArt. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 4257,
+   "end": 4271,
+   "label": "BGE",
+   "text": "BGE 150 II 346"
+  },
+  {
+   "start": 4280,
+   "end": 4288,
+   "label": "BGE",
+   "text": "147 V 16"
+  },
+  {
+   "start": 4366,
+   "end": 4380,
+   "label": "BGE",
+   "text": "BGE 150 II 346"
+  },
+  {
+   "start": 4389,
+   "end": 4398,
+   "label": "BGE",
+   "text": "148 IV 39"
+  },
+  {
+   "start": 4409,
+   "end": 4418,
+   "label": "BGE",
+   "text": "146 IV 88"
+  },
+  {
+   "start": 4547,
+   "end": 4566,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4569,
+   "end": 4583,
+   "label": "BGE",
+   "text": "BGE 150 II 346"
+  },
+  {
+   "start": 4592,
+   "end": 4601,
+   "label": "BGE",
+   "text": "147 IV 73"
+  },
+  {
+   "start": 4765,
+   "end": 4775,
+   "label": "DOCKET",
+   "text": "2C_53/2022"
+  },
+  {
+   "start": 4821,
+   "end": 4835,
+   "label": "BGE",
+   "text": "BGE 149 II 109"
+  },
+  {
+   "start": 4875,
+   "end": 4887,
+   "label": "BGE",
+   "text": "BGE 148 V 70"
+  },
+  {
+   "start": 4905,
+   "end": 4915,
+   "label": "DOCKET",
+   "text": "9C_50/2025"
+  },
+  {
+   "start": 5036,
+   "end": 5045,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 5346,
+   "end": 5360,
+   "label": "BGE",
+   "text": "BGE 144 II 281"
+  },
+  {
+   "start": 5371,
+   "end": 5381,
+   "label": "BGE",
+   "text": "142 II 433"
+  },
+  {
+   "start": 5390,
+   "end": 5401,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 5580,
+   "end": 5594,
+   "label": "BGE",
+   "text": "BGE 150 II 346"
+  },
+  {
+   "start": 5603,
+   "end": 5614,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 5623,
+   "end": 5633,
+   "label": "BGE",
+   "text": "139 II 404"
+  },
+  {
+   "start": 6083,
+   "end": 6098,
+   "label": "BGE",
+   "text": "BGE 120 III 117"
+  },
+  {
+   "start": 6296,
+   "end": 6316,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 SchKG"
+  },
+  {
+   "start": 6359,
+   "end": 6369,
+   "label": "STATUTE",
+   "text": "Art. 9 ZGB"
+  },
+  {
+   "start": 6889,
+   "end": 6900,
+   "label": "DOCKET",
+   "text": "5A_322/2024"
+  },
+  {
+   "start": 6934,
+   "end": 6945,
+   "label": "DOCKET",
+   "text": "5A_418/2017"
+  },
+  {
+   "start": 6978,
+   "end": 6995,
+   "label": "JOURNAL_REF",
+   "text": "BlSchK 2019 S. 41"
+  },
+  {
+   "start": 7150,
+   "end": 7167,
+   "label": "STATUTE",
+   "text": "Art. 9 Abs. 2 ZGB"
+  },
+  {
+   "start": 7236,
+   "end": 7248,
+   "label": "STATUTE",
+   "text": "Art. 8 SchKG"
+  },
+  {
+   "start": 7308,
+   "end": 7320,
+   "label": "STATUTE",
+   "text": "Art. 8 SchKG"
+  },
+  {
+   "start": 7381,
+   "end": 7392,
+   "label": "DOCKET",
+   "text": "5A_543/2017"
+  },
+  {
+   "start": 10868,
+   "end": 10885,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 11058,
+   "end": 11072,
+   "label": "BGE",
+   "text": "BGE 101 Ia 169"
+  },
+  {
+   "start": 11080,
+   "end": 11088,
+   "label": "BGE",
+   "text": "96 I 617"
+  },
+  {
+   "start": 11103,
+   "end": 11114,
+   "label": "DOCKET",
+   "text": "5A_304/2014"
+  },
+  {
+   "start": 12389,
+   "end": 12403,
+   "label": "BGE",
+   "text": "BGE 137 II 266"
+  },
+  {
+   "start": 12413,
+   "end": 12421,
+   "label": "BGE",
+   "text": "133 I 33"
+  },
+  {
+   "start": 12437,
+   "end": 12448,
+   "label": "DOCKET",
+   "text": "5A_250/2012"
+  },
+  {
+   "start": 12864,
+   "end": 12881,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 13090,
+   "end": 13102,
+   "label": "BGE",
+   "text": "BGE 149 I 91"
+  },
+  {
+   "start": 13112,
+   "end": 13120,
+   "label": "BGE",
+   "text": "144 I 11"
+  },
+  {
+   "start": 13130,
+   "end": 13139,
+   "label": "BGE",
+   "text": "137 I 195"
+  },
+  {
+   "start": 13148,
+   "end": 13157,
+   "label": "BGE",
+   "text": "126 V 130"
+  },
+  {
+   "start": 13330,
+   "end": 13343,
+   "label": "BGE",
+   "text": "BGE 137 I 195"
+  },
+  {
+   "start": 13714,
+   "end": 13738,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 4 BGG"
+  },
+  {
+   "start": 13959,
+   "end": 13983,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 13986,
+   "end": 14001,
+   "label": "BGE",
+   "text": "BGE 133 III 439"
+  },
+  {
+   "start": 14008,
+   "end": 14017,
+   "label": "BGE",
+   "text": "129 V 113"
+  }
+ ],
+ "n_pre": 60,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

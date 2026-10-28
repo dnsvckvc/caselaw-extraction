@@ -1,0 +1,16 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  58,
+  71
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 324a/b OR",
+   "label": "STATUTE",
+   "all": true
+  }
+ ],
+ "comment": "Art. 324a/b OR cut before /b OR; fixed to STATUTE."
+}

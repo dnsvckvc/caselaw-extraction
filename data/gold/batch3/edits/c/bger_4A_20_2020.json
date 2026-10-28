@@ -1,0 +1,24 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  47,
+  60,
+  59
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "ZBJV 147 [2011], S. 551",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "ZZZ 33/34 [2014/2015], S. 29",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "GesKR 2018, S. 230",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "'Art. 99 BBG' (2x) is a typo for BGG (Basler Kommentar BGG); BBG exists (Berufsbildungsgesetz) but has no Art. 99, so treated as typo -> no span. JOURNAL_REF spans include the bracketed year inside the reference (ZBJV 147 [2011], S. 551)."
+}

@@ -1,0 +1,253 @@
+{
+ "decision_id": "bger_4A_296_2020",
+ "task_index": 8,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 340,
+   "end": 358,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 423,
+   "end": 439,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1148,
+   "end": 1161,
+   "label": "AMOUNT",
+   "text": "Fr. 12'566.70"
+  },
+  {
+   "start": 1340,
+   "end": 1353,
+   "label": "AMOUNT",
+   "text": "Fr. 11'784.40"
+  },
+  {
+   "start": 2791,
+   "end": 2809,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 2812,
+   "end": 2827,
+   "label": "BGE",
+   "text": "BGE 141 III 395"
+  },
+  {
+   "start": 2892,
+   "end": 2903,
+   "label": "STATUTE",
+   "text": "Art. 72 BGG"
+  },
+  {
+   "start": 2948,
+   "end": 2959,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3042,
+   "end": 3053,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 3197,
+   "end": 3210,
+   "label": "AMOUNT",
+   "text": "Fr. 15'000.--"
+  },
+  {
+   "start": 3221,
+   "end": 3246,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 3284,
+   "end": 3297,
+   "label": "AMOUNT",
+   "text": "Fr. 11'784.40"
+  },
+  {
+   "start": 3554,
+   "end": 3579,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 3930,
+   "end": 3945,
+   "label": "BGE",
+   "text": "BGE 144 III 164"
+  },
+  {
+   "start": 3959,
+   "end": 3970,
+   "label": "BGE",
+   "text": "141 III 159"
+  },
+  {
+   "start": 3986,
+   "end": 3997,
+   "label": "BGE",
+   "text": "137 III 580"
+  },
+  {
+   "start": 4404,
+   "end": 4418,
+   "label": "BGE",
+   "text": "BGE 143 II 425"
+  },
+  {
+   "start": 4436,
+   "end": 4445,
+   "label": "BGE",
+   "text": "141 II 14"
+  },
+  {
+   "start": 4465,
+   "end": 4474,
+   "label": "BGE",
+   "text": "138 I 143"
+  },
+  {
+   "start": 4601,
+   "end": 4626,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 4641,
+   "end": 4659,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4716,
+   "end": 4730,
+   "label": "BGE",
+   "text": "BGE 136 II 489"
+  },
+  {
+   "start": 4746,
+   "end": 4757,
+   "label": "BGE",
+   "text": "133 III 439"
+  },
+  {
+   "start": 4787,
+   "end": 4801,
+   "label": "BGE",
+   "text": "BGE 143 II 425"
+  },
+  {
+   "start": 5473,
+   "end": 5484,
+   "label": "STATUTE",
+   "text": "Art. 337 OR"
+  },
+  {
+   "start": 6015,
+   "end": 6030,
+   "label": "BGE",
+   "text": "BGE 142 III 579"
+  },
+  {
+   "start": 6046,
+   "end": 6056,
+   "label": "BGE",
+   "text": "130 III 28"
+  },
+  {
+   "start": 6131,
+   "end": 6150,
+   "label": "STATUTE",
+   "text": "Art. 321a Abs. 1 OR"
+  },
+  {
+   "start": 6283,
+   "end": 6297,
+   "label": "BGE",
+   "text": "BGE 130 III 28"
+  },
+  {
+   "start": 6312,
+   "end": 6322,
+   "label": "BGE",
+   "text": "127 III 86"
+  },
+  {
+   "start": 6336,
+   "end": 6345,
+   "label": "BGE",
+   "text": "104 II 28"
+  },
+  {
+   "start": 6368,
+   "end": 6379,
+   "label": "DOCKET",
+   "text": "4A_349/2017"
+  },
+  {
+   "start": 6598,
+   "end": 6613,
+   "label": "BGE",
+   "text": "BGE 142 III 579"
+  },
+  {
+   "start": 6629,
+   "end": 6640,
+   "label": "BGE",
+   "text": "127 III 153"
+  },
+  {
+   "start": 6667,
+   "end": 6678,
+   "label": "DOCKET",
+   "text": "4A_349/2017"
+  },
+  {
+   "start": 7330,
+   "end": 7355,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 7831,
+   "end": 7847,
+   "label": "STATUTE",
+   "text": "Art. 113-119 BGG"
+  },
+  {
+   "start": 7938,
+   "end": 7950,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 8120,
+   "end": 8138,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 8342,
+   "end": 8352,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 40,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

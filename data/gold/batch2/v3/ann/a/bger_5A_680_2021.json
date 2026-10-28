@@ -1,0 +1,103 @@
+{
+ "decision_id": "bger_5A_680_2021",
+ "task_index": 21,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 252,
+   "end": 270,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 357,
+   "end": 373,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 697,
+   "end": 707,
+   "label": "STATUTE",
+   "text": "Art. 8 DSG"
+  },
+  {
+   "start": 1467,
+   "end": 1486,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 1613,
+   "end": 1651,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 1862,
+   "end": 1877,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 1893,
+   "end": 1903,
+   "label": "BGE",
+   "text": "141 IV 249"
+  },
+  {
+   "start": 2096,
+   "end": 2114,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2193,
+   "end": 2208,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 2222,
+   "end": 2233,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 3347,
+   "end": 3360,
+   "label": "STATUTE",
+   "text": "Art. 91 SchKG"
+  },
+  {
+   "start": 4298,
+   "end": 4324,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4525,
+   "end": 4543,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 4658,
+   "end": 4676,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 4788,
+   "end": 4800,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 15,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

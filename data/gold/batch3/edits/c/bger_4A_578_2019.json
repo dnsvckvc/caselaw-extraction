@@ -1,0 +1,36 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  56,
+  57,
+  58,
+  62,
+  63,
+  64,
+  66,
+  67,
+  68
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 36.2 der Allgemeinen Versicherungsbedingungen",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Art. 36.2 AVB",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Art. 4.6 ZVB",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Art. 4.6 Sätze 1 und 2 ZVB",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "Pre-annotator cut 'Art. 36' / 'Art. 4' before '.2'/'.6' and labelled BARE_ARTICLE; the clauses are of the insurer's AVB/ZVB -> CONTRACT_ARTICLE with full number. 'Sätze 1 und 2' kept inside the span as a sub-unit."
+}

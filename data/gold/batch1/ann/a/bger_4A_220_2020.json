@@ -1,0 +1,223 @@
+{
+ "decision_id": "bger_4A_220_2020",
+ "task_index": 5,
+ "pass": "a",
+ "outcome": "approved",
+ "comment": "Extended BGFA chain; added unlabelled Art. 228 ff. ZPO; added one BGE list item. Item 1: gutgeheissen, soweit darauf einzutreten ist -> approved.",
+ "spans": [
+  {
+   "start": 617,
+   "end": 635,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 697,
+   "end": 715,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 4768,
+   "end": 4779,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 4829,
+   "end": 4854,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 4929,
+   "end": 4954,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 4983,
+   "end": 4997,
+   "label": "BGE",
+   "text": "BGE 139 III 67"
+  },
+  {
+   "start": 5017,
+   "end": 5032,
+   "label": "BGE",
+   "text": "BGE 138 III 799"
+  },
+  {
+   "start": 5328,
+   "end": 5346,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 3 BGG"
+  },
+  {
+   "start": 5543,
+   "end": 5569,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 Satz 1 BGG"
+  },
+  {
+   "start": 5809,
+   "end": 5820,
+   "label": "STATUTE",
+   "text": "Art. 59 ZPO"
+  },
+  {
+   "start": 5904,
+   "end": 5922,
+   "label": "STATUTE",
+   "text": "Art. 58 Abs. 1 ZPO"
+  },
+  {
+   "start": 5975,
+   "end": 5992,
+   "label": "STATUTE",
+   "text": "Art. 2 Abs. 2 ZGB"
+  },
+  {
+   "start": 5997,
+   "end": 6008,
+   "label": "STATUTE",
+   "text": "Art. 52 ZPO"
+  },
+  {
+   "start": 6170,
+   "end": 6181,
+   "label": "STATUTE",
+   "text": "Art. 622 OR"
+  },
+  {
+   "start": 6599,
+   "end": 6608,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 6611,
+   "end": 6622,
+   "label": "STATUTE",
+   "text": "Art. 52 ZPO"
+  },
+  {
+   "start": 6666,
+   "end": 6683,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 6686,
+   "end": 6697,
+   "label": "STATUTE",
+   "text": "Art. 53 ZPO"
+  },
+  {
+   "start": 6825,
+   "end": 6863,
+   "label": "STATUTE",
+   "text": "Art. 12 lit. a und\nArt. 13 Abs. 2 BGFA"
+  },
+  {
+   "start": 7143,
+   "end": 7162,
+   "label": "STATUTE",
+   "text": "Art. 236 Abs. 1 ZPO"
+  },
+  {
+   "start": 7293,
+   "end": 7308,
+   "label": "BGE",
+   "text": "BGE 144 III 394"
+  },
+  {
+   "start": 7328,
+   "end": 7339,
+   "label": "BGE",
+   "text": "140 III 450"
+  },
+  {
+   "start": 7361,
+   "end": 7377,
+   "label": "STATUTE",
+   "text": "Art. 228 ff. ZPO"
+  },
+  {
+   "start": 7513,
+   "end": 7525,
+   "label": "STATUTE",
+   "text": "Art. 233 ZPO"
+  },
+  {
+   "start": 7528,
+   "end": 7543,
+   "label": "BGE",
+   "text": "BGE 140 III 450"
+  },
+  {
+   "start": 7562,
+   "end": 7573,
+   "label": "DOCKET",
+   "text": "4A_180/2020"
+  },
+  {
+   "start": 7790,
+   "end": 7805,
+   "label": "BGE",
+   "text": "BGE 140 III 450"
+  },
+  {
+   "start": 8165,
+   "end": 8177,
+   "label": "STATUTE",
+   "text": "Art. 111 BGG"
+  },
+  {
+   "start": 8379,
+   "end": 8398,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 8607,
+   "end": 8618,
+   "label": "DOCKET",
+   "text": "4A_180/2020"
+  },
+  {
+   "start": 8652,
+   "end": 8663,
+   "label": "DOCKET",
+   "text": "4A_182/2020"
+  },
+  {
+   "start": 11235,
+   "end": 11246,
+   "label": "DOCKET",
+   "text": "4A_180/2020"
+  },
+  {
+   "start": 11380,
+   "end": 11398,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 4 BGG"
+  },
+  {
+   "start": 11478,
+   "end": 11503,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 Satz 2 BGG"
+  },
+  {
+   "start": 12053,
+   "end": 12065,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  }
+ ],
+ "n_pre": 33,
+ "n_deleted": 1,
+ "n_added": 3,
+ "n_relabeled": 0
+}

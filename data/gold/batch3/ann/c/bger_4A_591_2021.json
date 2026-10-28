@@ -1,0 +1,151 @@
+{
+ "decision_id": "bger_4A_591_2021",
+ "task_index": 67,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 540,
+   "end": 556,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 624,
+   "end": 642,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1009,
+   "end": 1023,
+   "label": "AMOUNT",
+   "text": "Fr. 470'812.50"
+  },
+  {
+   "start": 1430,
+   "end": 1444,
+   "label": "AMOUNT",
+   "text": "Fr. 470'812.50"
+  },
+  {
+   "start": 3130,
+   "end": 3148,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 3354,
+   "end": 3372,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 3503,
+   "end": 3518,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 3532,
+   "end": 3542,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 3705,
+   "end": 3729,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 3732,
+   "end": 3747,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 3761,
+   "end": 3763,
+   "label": "BGE",
+   "text": "86"
+  },
+  {
+   "start": 3964,
+   "end": 3983,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4093,
+   "end": 4112,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 4332,
+   "end": 4346,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 4538,
+   "end": 4549,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 4559,
+   "end": 4578,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 4754,
+   "end": 4768,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5032,
+   "end": 5046,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 5229,
+   "end": 5243,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6337,
+   "end": 6363,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 6464,
+   "end": 6482,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6659,
+   "end": 6677,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 6797,
+   "end": 6807,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 23,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

@@ -1,0 +1,12 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [
+  {
+   "id": 68,
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "add": [],
+ "comment": "#68 'Art. 16 Abs. 2 [recte: 3] AVB': AVB follows after a bracketed correction; relabelled to CONTRACT_ARTICLE and kept the span before the bracket. #62 (same article, no AVB after it) stays BARE_ARTICLE."
+}

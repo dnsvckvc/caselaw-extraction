@@ -1,0 +1,21 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 319 ff. ZPO",
+   "label": "STATUTE",
+   "all": true
+  },
+  {
+   "text": "135 III 397",
+   "label": "BGE"
+  },
+  {
+   "text": "Art. 117 GOG/ZH",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Added 'Art. 319 ff. ZPO' twice, one BGE list item, and 'Art. 117 GOG/ZH' (cantonal code cited with 'Art.' inside a quote). '§ 117 GOG/ZH' and '§ 48 GOG/ZH' stay unlabelled. Kept 'Fr. 0.00' spans (#3, #64) as pre-annotated; the source text has a doubled suffix '.--'/'.-' after them."
+}

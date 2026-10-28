@@ -1,0 +1,505 @@
+{
+ "decision_id": "bger_4A_578_2019",
+ "task_index": 8,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "Pre-annotator cut AVB/ZVB clauses at Art. 36 / Art. 4 and labelled them BARE_ARTICLE; they are CONTRACT_ARTICLE (insurance AVB/ZVB) and include the sub-number .2/.6 and the abbreviation. Art. 36.2 der Allgemeinen Versicherungsbedingungen stops before (AVB). Art. 4.6 Sätze 1 und 2 ZVB kept as one span with the Satz units (analogous to Art. 42 Abs. 2 Satz 2 BGG) - flagged.",
+ "spans": [
+  {
+   "start": 338,
+   "end": 354,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 380,
+   "end": 398,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1398,
+   "end": 1408,
+   "label": "AMOUNT",
+   "text": "Fr. 155.--"
+  },
+  {
+   "start": 1584,
+   "end": 1596,
+   "label": "AMOUNT",
+   "text": "Fr. 5'250.--"
+  },
+  {
+   "start": 1608,
+   "end": 1618,
+   "label": "AMOUNT",
+   "text": "Fr. 250.--"
+  },
+  {
+   "start": 1657,
+   "end": 1669,
+   "label": "AMOUNT",
+   "text": "Fr. 3'255.--"
+  },
+  {
+   "start": 1681,
+   "end": 1691,
+   "label": "AMOUNT",
+   "text": "Fr. 155.--"
+  },
+  {
+   "start": 1739,
+   "end": 1751,
+   "label": "AMOUNT",
+   "text": "Fr. 1'955.--"
+  },
+  {
+   "start": 2065,
+   "end": 2077,
+   "label": "AMOUNT",
+   "text": "Fr. 1'995.--"
+  },
+  {
+   "start": 2315,
+   "end": 2326,
+   "label": "DOCKET",
+   "text": "4A_127/2019"
+  },
+  {
+   "start": 3082,
+   "end": 3093,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3149,
+   "end": 3160,
+   "label": "STATUTE",
+   "text": "Art. 72 BGG"
+  },
+  {
+   "start": 3238,
+   "end": 3256,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 3323,
+   "end": 3333,
+   "label": "STATUTE",
+   "text": "Art. 7 ZPO"
+  },
+  {
+   "start": 3341,
+   "end": 3366,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 3463,
+   "end": 3481,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 BGG"
+  },
+  {
+   "start": 3497,
+   "end": 3522,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 3585,
+   "end": 3603,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 3686,
+   "end": 3705,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 4028,
+   "end": 4043,
+   "label": "BGE",
+   "text": "BGE 134 III 379"
+  },
+  {
+   "start": 4059,
+   "end": 4070,
+   "label": "BGE",
+   "text": "133 III 489"
+  },
+  {
+   "start": 4211,
+   "end": 4224,
+   "label": "BGE",
+   "text": "BGE 136 V 131"
+  },
+  {
+   "start": 4240,
+   "end": 4251,
+   "label": "BGE",
+   "text": "134 III 235"
+  },
+  {
+   "start": 4265,
+   "end": 4275,
+   "label": "BGE",
+   "text": "133 II 409"
+  },
+  {
+   "start": 4590,
+   "end": 4602,
+   "label": "AMOUNT",
+   "text": "Fr. 1'955.--"
+  },
+  {
+   "start": 4819,
+   "end": 4837,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4960,
+   "end": 4978,
+   "label": "STATUTE",
+   "text": "Art. 95 und 96 BGG"
+  },
+  {
+   "start": 5083,
+   "end": 5097,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 5215,
+   "end": 5233,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 5668,
+   "end": 5682,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 5695,
+   "end": 5698,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 5820,
+   "end": 5839,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 6059,
+   "end": 6073,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6265,
+   "end": 6276,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 6286,
+   "end": 6305,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 6367,
+   "end": 6382,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 6396,
+   "end": 6407,
+   "label": "BGE",
+   "text": "135 III 397"
+  },
+  {
+   "start": 6514,
+   "end": 6532,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 6616,
+   "end": 6635,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 6638,
+   "end": 6653,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 6856,
+   "end": 6870,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7134,
+   "end": 7148,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 7331,
+   "end": 7345,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7833,
+   "end": 7851,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 7926,
+   "end": 7945,
+   "label": "STATUTE",
+   "text": "Art. 102 Abs. 3 BGG"
+  },
+  {
+   "start": 8110,
+   "end": 8124,
+   "label": "BGE",
+   "text": "BGE 134 IV 156"
+  },
+  {
+   "start": 8134,
+   "end": 8142,
+   "label": "BGE",
+   "text": "132 I 42"
+  },
+  {
+   "start": 8307,
+   "end": 8319,
+   "label": "BGE",
+   "text": "BGE 135 I 19"
+  },
+  {
+   "start": 8328,
+   "end": 8338,
+   "label": "BGE",
+   "text": "134 IV 156"
+  },
+  {
+   "start": 8348,
+   "end": 8356,
+   "label": "BGE",
+   "text": "132 I 42"
+  },
+  {
+   "start": 8533,
+   "end": 8545,
+   "label": "BGE",
+   "text": "BGE 135 I 19"
+  },
+  {
+   "start": 9324,
+   "end": 9336,
+   "label": "AMOUNT",
+   "text": "Fr. 3'255.--"
+  },
+  {
+   "start": 9419,
+   "end": 9429,
+   "label": "AMOUNT",
+   "text": "Fr. 155.--"
+  },
+  {
+   "start": 9632,
+   "end": 9642,
+   "label": "AMOUNT",
+   "text": "Fr. 250.--"
+  },
+  {
+   "start": 9706,
+   "end": 9718,
+   "label": "AMOUNT",
+   "text": "Fr. 1'995.--"
+  },
+  {
+   "start": 9896,
+   "end": 9946,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 36.2 der Allgemeinen Versicherungsbedingungen"
+  },
+  {
+   "start": 10207,
+   "end": 10220,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 36.2 AVB"
+  },
+  {
+   "start": 10307,
+   "end": 10319,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 4.6 ZVB"
+  },
+  {
+   "start": 10467,
+   "end": 10477,
+   "label": "AMOUNT",
+   "text": "Fr. 155.--"
+  },
+  {
+   "start": 10760,
+   "end": 10770,
+   "label": "AMOUNT",
+   "text": "Fr. 155.--"
+  },
+  {
+   "start": 12220,
+   "end": 12235,
+   "label": "BGE",
+   "text": "BGE 133 III 607"
+  },
+  {
+   "start": 14612,
+   "end": 14625,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 36.2 AVB"
+  },
+  {
+   "start": 14954,
+   "end": 14967,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 36.2 AVB"
+  },
+  {
+   "start": 15443,
+   "end": 15456,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 36.2 AVB"
+  },
+  {
+   "start": 15762,
+   "end": 15773,
+   "label": "STATUTE",
+   "text": "Art. 33 VVG"
+  },
+  {
+   "start": 16380,
+   "end": 16406,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 4.6 Sätze 1 und 2 ZVB"
+  },
+  {
+   "start": 16826,
+   "end": 16838,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 4.6 ZVB"
+  },
+  {
+   "start": 16981,
+   "end": 16993,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 4.6 ZVB"
+  },
+  {
+   "start": 19335,
+   "end": 19345,
+   "label": "AMOUNT",
+   "text": "Fr. 680.--"
+  },
+  {
+   "start": 19444,
+   "end": 19454,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  },
+  {
+   "start": 19532,
+   "end": 19542,
+   "label": "AMOUNT",
+   "text": "Fr. 180.--"
+  },
+  {
+   "start": 19612,
+   "end": 19622,
+   "label": "AMOUNT",
+   "text": "Fr. 525.--"
+  },
+  {
+   "start": 19707,
+   "end": 19717,
+   "label": "AMOUNT",
+   "text": "Fr. 155.--"
+  },
+  {
+   "start": 19792,
+   "end": 19802,
+   "label": "AMOUNT",
+   "text": "Fr. 155.--"
+  },
+  {
+   "start": 20040,
+   "end": 20050,
+   "label": "STATUTE",
+   "text": "Art. 2 ZGB"
+  },
+  {
+   "start": 20784,
+   "end": 20794,
+   "label": "AMOUNT",
+   "text": "Fr. 180.--"
+  },
+  {
+   "start": 20846,
+   "end": 20856,
+   "label": "AMOUNT",
+   "text": "Fr. 155.--"
+  },
+  {
+   "start": 22588,
+   "end": 22598,
+   "label": "AMOUNT",
+   "text": "Fr. 155.--"
+  },
+  {
+   "start": 23095,
+   "end": 23113,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 23284,
+   "end": 23308,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 23311,
+   "end": 23326,
+   "label": "BGE",
+   "text": "BGE 133 III 439"
+  },
+  {
+   "start": 23466,
+   "end": 23478,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 82,
+ "n_deleted": 9,
+ "n_added": 9,
+ "n_relabeled": 0
+}

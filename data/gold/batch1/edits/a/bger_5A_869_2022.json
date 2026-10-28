@@ -1,0 +1,12 @@
+{
+  "outcome": "inadmissible",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "140 III 115",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Added BGE list item 140 III 115."
+}

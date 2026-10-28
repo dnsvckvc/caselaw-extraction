@@ -1,0 +1,12 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "140 III 264",
+   "label": "BGE",
+   "occurrence": 2
+  }
+ ]
+}

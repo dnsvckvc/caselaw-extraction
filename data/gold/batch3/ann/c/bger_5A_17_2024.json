@@ -1,0 +1,379 @@
+{
+ "decision_id": "bger_5A_17_2024",
+ "task_index": 145,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "Added JOURNAL_REF 'BN 2014, S. 312' (Festgabe published as an issue of the journal BN). 'Luzerner Tag des Stockwerkeigentums 2022, S. 196' treated as conference volume: no span.",
+ "spans": [
+  {
+   "start": 397,
+   "end": 413,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 512,
+   "end": 530,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1254,
+   "end": 1289,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 7 Abs. 2 Bst. a des Reglements"
+  },
+  {
+   "start": 3539,
+   "end": 3550,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3614,
+   "end": 3625,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 3701,
+   "end": 3736,
+   "label": "STATUTE",
+   "text": "Art. 712m Abs. 2 i.V.m.\nArt. 75 ZGB"
+  },
+  {
+   "start": 3775,
+   "end": 3793,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 3843,
+   "end": 3858,
+   "label": "BGE",
+   "text": "BGE 140 III 571"
+  },
+  {
+   "start": 3958,
+   "end": 3971,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 4021,
+   "end": 4046,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 Bst. b BGG"
+  },
+  {
+   "start": 4067,
+   "end": 4115,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 i.V.m. Art. 46 Abs. 1 Bst. c BGG"
+  },
+  {
+   "start": 4141,
+   "end": 4159,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 4549,
+   "end": 4570,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 7 des Reglements"
+  },
+  {
+   "start": 5148,
+   "end": 5165,
+   "label": "STATUTE",
+   "text": "Art. 712g ff. ZGB"
+  },
+  {
+   "start": 6585,
+   "end": 6610,
+   "label": "STATUTE",
+   "text": "Art. 59 Abs. 2 lit. a ZPO"
+  },
+  {
+   "start": 6677,
+   "end": 6712,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 7 Abs. 2 Bst. a des Reglements"
+  },
+  {
+   "start": 6857,
+   "end": 6877,
+   "label": "STATUTE",
+   "text": "Art. 712s Abs. 3 ZGB"
+  },
+  {
+   "start": 7108,
+   "end": 7136,
+   "label": "STATUTE",
+   "text": "Art. 712m Abs. 1 Ziff. 2 ZGB"
+  },
+  {
+   "start": 7641,
+   "end": 7690,
+   "label": "STATUTE",
+   "text": "Art. 712s Abs. 3 und\nArt. 712m Abs. 1 Ziff. 2 ZGB"
+  },
+  {
+   "start": 8116,
+   "end": 8136,
+   "label": "STATUTE",
+   "text": "Art. 712m Abs. 1 ZGB"
+  },
+  {
+   "start": 8648,
+   "end": 8668,
+   "label": "STATUTE",
+   "text": "Art. 712a Abs. 1 ZGB"
+  },
+  {
+   "start": 8730,
+   "end": 8745,
+   "label": "BGE",
+   "text": "BGE 141 III 357"
+  },
+  {
+   "start": 8754,
+   "end": 8764,
+   "label": "BGE",
+   "text": "119 II 404"
+  },
+  {
+   "start": 8918,
+   "end": 8938,
+   "label": "STATUTE",
+   "text": "Art. 712l Abs. 1 ZGB"
+  },
+  {
+   "start": 9000,
+   "end": 9014,
+   "label": "BGE",
+   "text": "BGE 125 II 348"
+  },
+  {
+   "start": 9292,
+   "end": 9312,
+   "label": "STATUTE",
+   "text": "Art. 712l Abs. 2 ZGB"
+  },
+  {
+   "start": 9315,
+   "end": 9330,
+   "label": "BGE",
+   "text": "BGE 142 III 551"
+  },
+  {
+   "start": 9708,
+   "end": 9736,
+   "label": "STATUTE",
+   "text": "Art. 684 i.V.m.\nArt. 679 ZGB"
+  },
+  {
+   "start": 9739,
+   "end": 9752,
+   "label": "BGE",
+   "text": "BGE 132 III 9"
+  },
+  {
+   "start": 9768,
+   "end": 9779,
+   "label": "DOCKET",
+   "text": "5A_640/2012"
+  },
+  {
+   "start": 10154,
+   "end": 10169,
+   "label": "BGE",
+   "text": "BGE 145 III 121"
+  },
+  {
+   "start": 10275,
+   "end": 10301,
+   "label": "STATUTE",
+   "text": "Art. 712g Abs. 3 und 4 ZGB"
+  },
+  {
+   "start": 10472,
+   "end": 10483,
+   "label": "DOCKET",
+   "text": "5A_640/2012"
+  },
+  {
+   "start": 10682,
+   "end": 10697,
+   "label": "BGE",
+   "text": "BGE 145 III 121"
+  },
+  {
+   "start": 10788,
+   "end": 10808,
+   "label": "STATUTE",
+   "text": "Art. 712m Abs. 2 ZGB"
+  },
+  {
+   "start": 10858,
+   "end": 10869,
+   "label": "STATUTE",
+   "text": "Art. 75 ZGB"
+  },
+  {
+   "start": 11226,
+   "end": 11239,
+   "label": "STATUTE",
+   "text": "Art. 712m ZGB"
+  },
+  {
+   "start": 11297,
+   "end": 11310,
+   "label": "STATUTE",
+   "text": "Art. 712m ZGB"
+  },
+  {
+   "start": 11471,
+   "end": 11486,
+   "label": "BGE",
+   "text": "BGE 131 III 459"
+  },
+  {
+   "start": 11505,
+   "end": 11516,
+   "label": "DOCKET",
+   "text": "5A_640/2012"
+  },
+  {
+   "start": 11623,
+   "end": 11638,
+   "label": "BGE",
+   "text": "BGE 131 III 459"
+  },
+  {
+   "start": 11654,
+   "end": 11665,
+   "label": "DOCKET",
+   "text": "5A_100/2020"
+  },
+  {
+   "start": 11707,
+   "end": 11722,
+   "label": "BGE",
+   "text": "BGE 149 III 393"
+  },
+  {
+   "start": 13112,
+   "end": 13127,
+   "label": "JOURNAL_REF",
+   "text": "BN 2014, S. 312"
+  },
+  {
+   "start": 13654,
+   "end": 13690,
+   "label": "STATUTE",
+   "text": "Art. 712s Abs. 3 und 712t Abs. 2 ZGB"
+  },
+  {
+   "start": 13711,
+   "end": 13731,
+   "label": "STATUTE",
+   "text": "Art. 712s Abs. 3 ZGB"
+  },
+  {
+   "start": 14300,
+   "end": 14320,
+   "label": "STATUTE",
+   "text": "Art. 712t Abs. 2 ZGB"
+  },
+  {
+   "start": 14571,
+   "end": 14585,
+   "label": "BGE",
+   "text": "BGE 114 II 310"
+  },
+  {
+   "start": 14614,
+   "end": 14625,
+   "label": "DOCKET",
+   "text": "5A_357/2022"
+  },
+  {
+   "start": 14672,
+   "end": 14687,
+   "label": "BGE",
+   "text": "BGE 150 III 113"
+  },
+  {
+   "start": 15022,
+   "end": 15037,
+   "label": "BGE",
+   "text": "BGE 131 III 459"
+  },
+  {
+   "start": 15335,
+   "end": 15350,
+   "label": "BGE",
+   "text": "BGE 131 III 459"
+  },
+  {
+   "start": 15773,
+   "end": 15786,
+   "label": "STATUTE",
+   "text": "Art. 712s ZGB"
+  },
+  {
+   "start": 15859,
+   "end": 15911,
+   "label": "STATUTE",
+   "text": "Art. 712m Abs. 1 Ziff. 2 i.V.m.\nArt. 712s Abs. 3 ZGB"
+  },
+  {
+   "start": 16277,
+   "end": 16297,
+   "label": "STATUTE",
+   "text": "Art. 712t Abs. 2 ZGB"
+  },
+  {
+   "start": 17947,
+   "end": 17975,
+   "label": "STATUTE",
+   "text": "Art. 679 i.V.m.\nArt. 684 ZGB"
+  },
+  {
+   "start": 18165,
+   "end": 18176,
+   "label": "DOCKET",
+   "text": "5A_127/2020"
+  },
+  {
+   "start": 18262,
+   "end": 18290,
+   "label": "STATUTE",
+   "text": "Art. 679 i.V.m.\nArt. 684 ZGB"
+  },
+  {
+   "start": 19196,
+   "end": 19221,
+   "label": "STATUTE",
+   "text": "Art. 59 Abs. 2 lit. a ZPO"
+  },
+  {
+   "start": 19730,
+   "end": 19755,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 Satz 1 BGG"
+  },
+  {
+   "start": 19938,
+   "end": 19950,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  }
+ ],
+ "n_pre": 60,
+ "n_deleted": 0,
+ "n_added": 1,
+ "n_relabeled": 0
+}

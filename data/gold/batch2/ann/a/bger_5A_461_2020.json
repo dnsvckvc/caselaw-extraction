@@ -1,0 +1,259 @@
+{
+ "decision_id": "bger_5A_461_2020",
+ "task_index": 11,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "All 41 pre-annotations correct. #40 text has a missing space (Art. 68Abs. 1 und 2 BGG) in the source; span kept.",
+ "spans": [
+  {
+   "start": 340,
+   "end": 358,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 432,
+   "end": 448,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 3534,
+   "end": 3545,
+   "label": "STATUTE",
+   "text": "Art. 93 BGG"
+  },
+  {
+   "start": 4382,
+   "end": 4394,
+   "label": "BGE",
+   "text": "BGE 144 V 97"
+  },
+  {
+   "start": 4407,
+   "end": 4417,
+   "label": "BGE",
+   "text": "144 II 184"
+  },
+  {
+   "start": 4431,
+   "end": 4442,
+   "label": "BGE",
+   "text": "143 III 140"
+  },
+  {
+   "start": 4449,
+   "end": 4460,
+   "label": "BGE",
+   "text": "141 III 395"
+  },
+  {
+   "start": 4469,
+   "end": 4478,
+   "label": "BGE",
+   "text": "135 III 3"
+  },
+  {
+   "start": 5442,
+   "end": 5455,
+   "label": "BGE",
+   "text": "BGE 131 I 153"
+  },
+  {
+   "start": 5471,
+   "end": 5482,
+   "label": "BGE",
+   "text": "133 III 421"
+  },
+  {
+   "start": 5586,
+   "end": 5597,
+   "label": "STATUTE",
+   "text": "Art. 76 BGG"
+  },
+  {
+   "start": 5729,
+   "end": 5740,
+   "label": "STATUTE",
+   "text": "Art. 76 BGG"
+  },
+  {
+   "start": 5760,
+   "end": 5771,
+   "label": "DOCKET",
+   "text": "5A_618/2015"
+  },
+  {
+   "start": 6020,
+   "end": 6031,
+   "label": "STATUTE",
+   "text": "Art. 93 BGG"
+  },
+  {
+   "start": 6093,
+   "end": 6104,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 6174,
+   "end": 6185,
+   "label": "STATUTE",
+   "text": "Art. 93 BGG"
+  },
+  {
+   "start": 6211,
+   "end": 6222,
+   "label": "DOCKET",
+   "text": "5A_237/2009"
+  },
+  {
+   "start": 6416,
+   "end": 6441,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 Bst. a BGG"
+  },
+  {
+   "start": 6632,
+   "end": 6657,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 Bst. b BGG"
+  },
+  {
+   "start": 6784,
+   "end": 6809,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 Bst. a BGG"
+  },
+  {
+   "start": 6840,
+   "end": 6855,
+   "label": "BGE",
+   "text": "BGE 138 III 333"
+  },
+  {
+   "start": 7047,
+   "end": 7062,
+   "label": "BGE",
+   "text": "BGE 141 III 395"
+  },
+  {
+   "start": 7081,
+   "end": 7092,
+   "label": "BGE",
+   "text": "137 III 522"
+  },
+  {
+   "start": 7210,
+   "end": 7225,
+   "label": "BGE",
+   "text": "BGE 137 III 380"
+  },
+  {
+   "start": 7442,
+   "end": 7457,
+   "label": "BGE",
+   "text": "BGE 138 III 190"
+  },
+  {
+   "start": 7471,
+   "end": 7482,
+   "label": "BGE",
+   "text": "137 III 380"
+  },
+  {
+   "start": 7588,
+   "end": 7602,
+   "label": "STATUTE",
+   "text": "Art. 90 f. BGG"
+  },
+  {
+   "start": 7641,
+   "end": 7655,
+   "label": "STATUTE",
+   "text": "Art. 92 f. BGG"
+  },
+  {
+   "start": 7751,
+   "end": 7762,
+   "label": "DOCKET",
+   "text": "5A_462/2018"
+  },
+  {
+   "start": 7848,
+   "end": 7873,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 Bst. a BGG"
+  },
+  {
+   "start": 8175,
+   "end": 8190,
+   "label": "BGE",
+   "text": "BGE 133 III 539"
+  },
+  {
+   "start": 8296,
+   "end": 8314,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 BGG"
+  },
+  {
+   "start": 8389,
+   "end": 8403,
+   "label": "BGE",
+   "text": "BGE 138 III 46"
+  },
+  {
+   "start": 10905,
+   "end": 10930,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 10948,
+   "end": 10963,
+   "label": "BGE",
+   "text": "BGE 137 III 475"
+  },
+  {
+   "start": 10985,
+   "end": 10996,
+   "label": "DOCKET",
+   "text": "5A_303/2012"
+  },
+  {
+   "start": 11041,
+   "end": 11056,
+   "label": "BGE",
+   "text": "BGE 138 III 565"
+  },
+  {
+   "start": 11059,
+   "end": 11070,
+   "label": "DOCKET",
+   "text": "5A_350/2013"
+  },
+  {
+   "start": 12507,
+   "end": 12525,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 12594,
+   "end": 12617,
+   "label": "STATUTE",
+   "text": "Art. 68Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 12806,
+   "end": 12818,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  }
+ ],
+ "n_pre": 41,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

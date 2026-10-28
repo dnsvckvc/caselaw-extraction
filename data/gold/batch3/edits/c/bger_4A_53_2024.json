@@ -1,0 +1,82 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  53,
+  54,
+  55,
+  56,
+  62,
+  67,
+  68,
+  69,
+  70
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Ziffer 8 AGB-D",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Ziffer 8.2 AGB-D",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Ziffer. 8.2 AGB-D",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Art. 26 Abs. 1",
+   "label": "BARE_ARTICLE"
+  },
+  {
+   "text": "Ziffer 14 Anlage 1 des Rahmenvertrags",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 2
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 3
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 4
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 6
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 7
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 8
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 9
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 10
+  }
+ ],
+ "comment": "AGB-D spans extended to include -D. Ziffer. 8.2 AGB-D (typo dot) labelled as written. Ziffer 14 Anlage 1 labelled CONTRACT_ARTICLE with Anlage 1 (annex of the Rahmenvertrag) as the named instrument. Art. 26 Abs. 1 der Verordnung ... (AVV; SR 823.111) is an act with SR number -> BARE_ARTICLE. Ziffer 4 / Ziffer 8 / Ziffer 14 where the instrument precedes (in A.b) left without span."
+}

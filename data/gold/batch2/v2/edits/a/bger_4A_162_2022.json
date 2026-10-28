@@ -1,0 +1,14 @@
+{
+  "outcome": "inadmissible",
+  "delete": [
+    14
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 2 lit. c",
+      "label": "BARE_ARTICLE"
+    }
+  ],
+  "comment": "#14 Reglement des Bundesgerichts (ReRBGer; SR 173.110.29) is federal law, not a private instrument; act given as title -> BARE_ARTICLE Art. 2 lit. c."
+}

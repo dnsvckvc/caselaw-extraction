@@ -1,0 +1,11 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Anwaltsrevue 8/2020 S. 315",
+   "label": "JOURNAL_REF"
+  }
+ ]
+}

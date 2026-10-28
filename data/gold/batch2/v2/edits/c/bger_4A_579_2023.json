@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  55
+ ],
+ "add": [
+  {
+   "text": "§ 7 Abs. 1 lit. e",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#55 cantonal Tarifordnung given as title (der kantonalen Tarifordnung ... (TO/BL)) -> BARE_ARTICLE, not CONTRACT_ARTICLE.",
+ "relabel": []
+}

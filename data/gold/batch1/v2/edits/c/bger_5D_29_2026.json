@@ -1,0 +1,9 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  15
+ ],
+ "relabel": [],
+ "add": [],
+ "comment": "Deleted #15 OTHER_LAW \"Art. 93 VE\": the text is \"Art. 93 VE-ZPO\", an article of the 2003 preliminary draft of the federal ZPO. The proposal cut the abbreviation, and a draft bill is neither cantonal, foreign nor supranational law, so it fits none of the nine classes. If the guideline wants drafts as OTHER_LAW, the span would be \"Art. 93 VE-ZPO\"."
+}

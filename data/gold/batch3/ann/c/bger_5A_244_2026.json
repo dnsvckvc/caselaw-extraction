@@ -1,0 +1,115 @@
+{
+ "decision_id": "bger_5A_244_2026",
+ "task_index": 179,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 262,
+   "end": 278,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 364,
+   "end": 380,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 2023,
+   "end": 2033,
+   "label": "AMOUNT",
+   "text": "Fr. 1 Mio."
+  },
+  {
+   "start": 2084,
+   "end": 2153,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1,\nArt. 74 Abs. 1 lit. b,\nArt. 75 Abs. 1 und\nArt. 90 BGG"
+  },
+  {
+   "start": 2704,
+   "end": 2717,
+   "label": "STATUTE",
+   "text": "Art. 17 SchKG"
+  },
+  {
+   "start": 2960,
+   "end": 2979,
+   "label": "STATUTE",
+   "text": "Art. 641 Abs. 2 ZGB"
+  },
+  {
+   "start": 3549,
+   "end": 3568,
+   "label": "STATUTE",
+   "text": "Art. 656 Abs. 2 ZGB"
+  },
+  {
+   "start": 3571,
+   "end": 3585,
+   "label": "BGE",
+   "text": "BGE 117 III 39"
+  },
+  {
+   "start": 3593,
+   "end": 3603,
+   "label": "BGE",
+   "text": "128 III 82"
+  },
+  {
+   "start": 3619,
+   "end": 3630,
+   "label": "DOCKET",
+   "text": "5A_811/2017"
+  },
+  {
+   "start": 3658,
+   "end": 3669,
+   "label": "DOCKET",
+   "text": "5A_521/2024"
+  },
+  {
+   "start": 3748,
+   "end": 3762,
+   "label": "STATUTE",
+   "text": "Art. 126 SchKG"
+  },
+  {
+   "start": 3882,
+   "end": 3901,
+   "label": "STATUTE",
+   "text": "Art. 641 Abs. 2 ZGB"
+  },
+  {
+   "start": 4265,
+   "end": 4291,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4593,
+   "end": 4611,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 4757,
+   "end": 4781,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 5 BGG"
+  },
+  {
+   "start": 4957,
+   "end": 4969,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  }
+ ],
+ "n_pre": 17,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

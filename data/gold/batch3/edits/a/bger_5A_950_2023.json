@@ -1,0 +1,14 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    23
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 3 Abs. 1",
+      "label": "BARE_ARTICLE"
+    }
+  ],
+  "comment": "#23 Reglement ReRBGer has SR 173.110.29, so it is an act: BARE_ARTICLE on Art. 3 Abs. 1 instead of CONTRACT_ARTICLE. Kept #76 BARE Art. 106 + #77 STATUTE Art. 107 ZPO: joiner is und/oder, guideline does not list it as a chain joiner."
+}

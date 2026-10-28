@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  25
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 3 Abs. 1 lit. a",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#25: federal EFD ordinance cited by title (SR 642.124, no abbreviation after the number), so BARE_ARTICLE. \"AS 2018 4583\" (Amtliche Sammlung) fits none of the nine classes; left without span."
+}

@@ -1,0 +1,16 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "135 III 66",
+   "label": "BGE"
+  },
+  {
+   "text": "132 III 770",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Commentaire des articles 79 a 84 LP is part of a book title: no span."
+}

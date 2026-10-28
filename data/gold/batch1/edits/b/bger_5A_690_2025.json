@@ -1,0 +1,18 @@
+{
+  "outcome": "inadmissible",
+  "delete": [
+    9
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 72 Abs. 1, Art. 74 Abs. 1 lit. b, Art. 75 Abs. 1 und Art. 90 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "142 III 364",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Extended the chain cut short at Art. 90 BGG; added BGE list item 142 III 364."
+}

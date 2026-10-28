@@ -1,0 +1,15 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    6
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 6",
+      "label": "BARE_ARTICLE",
+      "occurrence": 1
+    }
+  ],
+  "comment": "#6: federal ordinance (VFRR) given as a title after the number, so BARE_ARTICLE Art. 6 (same rule as Art. 19 des Bundesgesetzes ... (AVG)); was CONTRACT_ARTICLE with der Verordnung swallowed. #10 AJP JOURNAL_REF confirmed."
+}

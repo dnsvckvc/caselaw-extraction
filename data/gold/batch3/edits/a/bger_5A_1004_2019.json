@@ -1,0 +1,16 @@
+{
+ "outcome": "approved",
+ "delete": [
+  32,
+  35
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 5 Abs. 1 GerG",
+   "label": "OTHER_LAW",
+   "all": true
+  }
+ ],
+ "comment": "GerG is the cantonal Nidwalden court act (defined as such in the text). Where the abbreviation follows the number (2x) the span is OTHER_LAW and includes GerG; the first mention with the act as a title stays BARE_ARTICLE (#30)."
+}

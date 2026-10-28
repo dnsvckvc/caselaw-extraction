@@ -1,0 +1,9 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  3
+ ],
+ "relabel": [],
+ "add": [],
+ "comment": "#3 'Art. 90 BG' is a typo for Art. 90 BGG (federal law), not OTHER_LAW; fits no negative class. The citation gold misses it as STATUTE."
+}

@@ -1,0 +1,49 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 113-119 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "141 III 159",
+   "label": "BGE"
+  },
+  {
+   "text": "137 III 580",
+   "label": "BGE"
+  },
+  {
+   "text": "141 II 14",
+   "label": "BGE"
+  },
+  {
+   "text": "138 I 143",
+   "label": "BGE"
+  },
+  {
+   "text": "133 III 439",
+   "label": "BGE"
+  },
+  {
+   "text": "130 III 28",
+   "label": "BGE",
+   "occurrence": 1
+  },
+  {
+   "text": "127 III 86",
+   "label": "BGE"
+  },
+  {
+   "text": "104 II 28",
+   "label": "BGE"
+  },
+  {
+   "text": "127 III 153",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Art. 113-119 BGG range added; nine BGE list items added. '213 E. 3.1' after 130 III 28 is a page-style ref, not a span."
+}

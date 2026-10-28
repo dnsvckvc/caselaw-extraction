@@ -1,0 +1,14 @@
+{
+ "outcome": "moot",
+ "delete": [
+  10
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 8 Abs. 3",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#10 CONTRACT_ARTICLE on Art. 8 Abs. 3 des Reglements ... [SR 173.110.210.3] replaced: a Reglement with an SR number is an act given by title, so BARE_ARTICLE on Art. 8 Abs. 3 only. Foreign file number CL-2019-000076 and cantonal HG 190119-O left without span."
+}

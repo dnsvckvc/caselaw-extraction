@@ -1,0 +1,19 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    1,
+    4,
+    5,
+    26,
+    35,
+    12
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 100 Abs. 1 i.V.m. Art. 46 Abs. 1 lit. c BGG",
+      "label": "STATUTE"
+    }
+  ],
+  "comment": "4A_671/2025 is the second own docket number of this joined decision (header lists 4A_669/2025, 4A_671/2025), so I deleted all five of its spans. Extended the chain Art. 100 Abs. 1 i.V.m. Art. 46 Abs. 1 lit. c BGG. Item 1 joins proceedings, so outcome taken from item 2."
+}

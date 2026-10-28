@@ -1,0 +1,12 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "134 I 83",
+      "label": "BGE"
+    }
+  ],
+  "comment": "BGE list item without the BGE word in E. 2.1 was missed."
+}

@@ -1,0 +1,151 @@
+{
+ "decision_id": "bger_5A_916_2022",
+ "task_index": 101,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 310,
+   "end": 326,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 2625,
+   "end": 2650,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 2658,
+   "end": 2671,
+   "label": "STATUTE",
+   "text": "Art. 19 SchKG"
+  },
+  {
+   "start": 2770,
+   "end": 2788,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a BGG"
+  },
+  {
+   "start": 2899,
+   "end": 2917,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3026,
+   "end": 3045,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3048,
+   "end": 3062,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 4886,
+   "end": 4906,
+   "label": "STATUTE",
+   "text": "Art. 33 Abs. 4 SchKG"
+  },
+  {
+   "start": 5360,
+   "end": 5380,
+   "label": "STATUTE",
+   "text": "Art. 33 Abs. 4 SchKG"
+  },
+  {
+   "start": 5501,
+   "end": 5512,
+   "label": "DOCKET",
+   "text": "5A_520/2022"
+  },
+  {
+   "start": 5542,
+   "end": 5553,
+   "label": "DOCKET",
+   "text": "5A_673/2017"
+  },
+  {
+   "start": 5582,
+   "end": 5592,
+   "label": "DOCKET",
+   "text": "5A_30/2010"
+  },
+  {
+   "start": 5803,
+   "end": 5814,
+   "label": "DOCKET",
+   "text": "5A_972/2018"
+  },
+  {
+   "start": 5843,
+   "end": 5854,
+   "label": "DOCKET",
+   "text": "5A_673/2017"
+  },
+  {
+   "start": 5883,
+   "end": 5894,
+   "label": "DOCKET",
+   "text": "5A_801/2013"
+  },
+  {
+   "start": 6160,
+   "end": 6180,
+   "label": "STATUTE",
+   "text": "Art. 17 Abs. 2 SchKG"
+  },
+  {
+   "start": 6203,
+   "end": 6223,
+   "label": "STATUTE",
+   "text": "Art. 33 Abs. 4 SchKG"
+  },
+  {
+   "start": 6868,
+   "end": 6879,
+   "label": "DOCKET",
+   "text": "5A_673/2017"
+  },
+  {
+   "start": 7206,
+   "end": 7220,
+   "label": "BGE",
+   "text": "BGE 111 Ia 355"
+  },
+  {
+   "start": 7229,
+   "end": 7238,
+   "label": "BGE",
+   "text": "98 Ia 602"
+  },
+  {
+   "start": 7245,
+   "end": 7253,
+   "label": "BGE",
+   "text": "96 II 69"
+  },
+  {
+   "start": 7882,
+   "end": 7900,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 8005,
+   "end": 8015,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 23,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

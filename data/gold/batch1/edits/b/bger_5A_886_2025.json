@@ -1,0 +1,20 @@
+{
+  "outcome": "inadmissible",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "138 III 252",
+      "label": "BGE"
+    },
+    {
+      "text": "133 II 396",
+      "label": "BGE"
+    },
+    {
+      "text": "Art. 117 f. ZPO",
+      "label": "STATUTE"
+    }
+  ],
+  "comment": "Added two BGE list items without the BGE word and the Art. 117 f. ZPO citation."
+}

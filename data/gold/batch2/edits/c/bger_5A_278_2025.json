@@ -1,0 +1,7 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "Item 1 rejects the Fristwiederherstellungsgesuch (restoration of the time limit), a side request not named in the rules. Item 2 (nicht eingetreten) rules on the appeal, so outcome = inadmissible. Pre-annotated outcome dismissed was taken from item 1."
+}

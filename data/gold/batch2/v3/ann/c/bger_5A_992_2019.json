@@ -1,0 +1,145 @@
+{
+ "decision_id": "bger_5A_992_2019",
+ "task_index": 13,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 353,
+   "end": 369,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 2525,
+   "end": 2537,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 3063,
+   "end": 3074,
+   "label": "DOCKET",
+   "text": "5A_993/2019"
+  },
+  {
+   "start": 3753,
+   "end": 3764,
+   "label": "DOCKET",
+   "text": "5A_993/2019"
+  },
+  {
+   "start": 4056,
+   "end": 4177,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c, Art. 75, Art. 76, Art. 90, Art. 100 Abs. 2 lit. a i.V.m.\nArt. 45 Abs. 1 BGG"
+  },
+  {
+   "start": 4187,
+   "end": 4205,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4544,
+   "end": 4558,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 4574,
+   "end": 4585,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 4776,
+   "end": 4795,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5087,
+   "end": 5107,
+   "label": "STATUTE",
+   "text": "Art. 8a Abs. 1 SchKG"
+  },
+  {
+   "start": 5311,
+   "end": 5331,
+   "label": "STATUTE",
+   "text": "Art. 8a Abs. 1 SchKG"
+  },
+  {
+   "start": 5958,
+   "end": 5978,
+   "label": "STATUTE",
+   "text": "Art. 8a Abs. 1 SchKG"
+  },
+  {
+   "start": 6118,
+   "end": 6129,
+   "label": "DOCKET",
+   "text": "2C_181/2019"
+  },
+  {
+   "start": 7238,
+   "end": 7255,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 8065,
+   "end": 8080,
+   "label": "BGE",
+   "text": "BGE 145 III 324"
+  },
+  {
+   "start": 8096,
+   "end": 8105,
+   "label": "BGE",
+   "text": "142 II 49"
+  },
+  {
+   "start": 8120,
+   "end": 8130,
+   "label": "BGE",
+   "text": "137 II 266"
+  },
+  {
+   "start": 8147,
+   "end": 8156,
+   "label": "BGE",
+   "text": "136 I 229"
+  },
+  {
+   "start": 13307,
+   "end": 13325,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 13531,
+   "end": 13549,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 13650,
+   "end": 13661,
+   "label": "DOCKET",
+   "text": "5A_993/2019"
+  },
+  {
+   "start": 13895,
+   "end": 13907,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 22,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

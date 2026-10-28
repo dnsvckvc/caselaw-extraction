@@ -1,0 +1,24 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  46
+ ],
+ "relabel": [
+  {
+   "id": 21,
+   "label": "STATUTE"
+  }
+ ],
+ "add": [
+  {
+   "text": "Art. 19 Abs. 1 lit. b und c",
+   "label": "BARE_ARTICLE"
+  },
+  {
+   "text": "Ziff. 2.7.3 der allgemeinen Bestimmungen",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 2
+  }
+ ],
+ "comment": "Two appeals: item 1 subsidiäre Verfassungsbeschwerde nicht eingetreten (taken), item 2 Beschwerde in Zivilsachen abgewiesen. #21 'Art. 42 Abs. 2 und (in Bezug auf ...) Art. 106 Abs. 2 BGG': chain is split by a bracketed remark; relabelled #21 to STATUTE as its own span instead of one span over the bracket. #46 VMWG article given by title -> BARE_ARTICLE."
+}

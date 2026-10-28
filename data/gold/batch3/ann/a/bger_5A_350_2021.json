@@ -1,0 +1,211 @@
+{
+ "decision_id": "bger_5A_350_2021",
+ "task_index": 45,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "Added three BGE list items in E. 5 that the pre-annotator missed (they follow 'BGE 124 I 255' across line breaks without the BGE word).",
+ "spans": [
+  {
+   "start": 347,
+   "end": 363,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 445,
+   "end": 463,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 884,
+   "end": 903,
+   "label": "STATUTE",
+   "text": "Art. 307 Abs. 3 ZGB"
+  },
+  {
+   "start": 1109,
+   "end": 1121,
+   "label": "AMOUNT",
+   "text": "Fr. 3'266.--"
+  },
+  {
+   "start": 1127,
+   "end": 1139,
+   "label": "AMOUNT",
+   "text": "Fr. 3'226.--"
+  },
+  {
+   "start": 1327,
+   "end": 1346,
+   "label": "STATUTE",
+   "text": "Art. 145 Abs. 2 ZPO"
+  },
+  {
+   "start": 1961,
+   "end": 1998,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 und\nArt. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 2077,
+   "end": 2088,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 2129,
+   "end": 2148,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2285,
+   "end": 2304,
+   "label": "STATUTE",
+   "text": "Art. 314 Abs. 1 ZPO"
+  },
+  {
+   "start": 3013,
+   "end": 3030,
+   "label": "STATUTE",
+   "text": "Art. 10 Abs. 2 BV"
+  },
+  {
+   "start": 3070,
+   "end": 3087,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 BV"
+  },
+  {
+   "start": 3575,
+   "end": 3592,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 3624,
+   "end": 3635,
+   "label": "STATUTE",
+   "text": "Art. 29a BV"
+  },
+  {
+   "start": 3856,
+   "end": 3867,
+   "label": "STATUTE",
+   "text": "Art. 49 BGG"
+  },
+  {
+   "start": 4131,
+   "end": 4142,
+   "label": "STATUTE",
+   "text": "Art. 52 ZPO"
+  },
+  {
+   "start": 4145,
+   "end": 4161,
+   "label": "STATUTE",
+   "text": "Art. 5 Abs. 3 BV"
+  },
+  {
+   "start": 4164,
+   "end": 4177,
+   "label": "BGE",
+   "text": "BGE 134 I 199"
+  },
+  {
+   "start": 4196,
+   "end": 4204,
+   "label": "BGE",
+   "text": "138 I 49"
+  },
+  {
+   "start": 4791,
+   "end": 4804,
+   "label": "BGE",
+   "text": "BGE 143 I 284"
+  },
+  {
+   "start": 6382,
+   "end": 6395,
+   "label": "BGE",
+   "text": "BGE 124 I 255"
+  },
+  {
+   "start": 6414,
+   "end": 6423,
+   "label": "BGE",
+   "text": "134 I 199"
+  },
+  {
+   "start": 6444,
+   "end": 6455,
+   "label": "BGE",
+   "text": "135 III 374"
+  },
+  {
+   "start": 6476,
+   "end": 6484,
+   "label": "BGE",
+   "text": "138 I 49"
+  },
+  {
+   "start": 6517,
+   "end": 6529,
+   "label": "DOCKET",
+   "text": "2C_1004/2017"
+  },
+  {
+   "start": 6555,
+   "end": 6566,
+   "label": "DOCKET",
+   "text": "5A_137/2020"
+  },
+  {
+   "start": 6699,
+   "end": 6718,
+   "label": "STATUTE",
+   "text": "Art. 248 lit. d ZPO"
+  },
+  {
+   "start": 6736,
+   "end": 6771,
+   "label": "STATUTE",
+   "text": "Art. 276 Abs. 1 i.V.m.\nArt. 271 ZPO"
+  },
+  {
+   "start": 6925,
+   "end": 6944,
+   "label": "STATUTE",
+   "text": "Art. 314 Abs. 1 ZPO"
+  },
+  {
+   "start": 7169,
+   "end": 7209,
+   "label": "STATUTE",
+   "text": "Art. 314 Abs. 1 bzw.\nArt. 321 Abs. 2 ZPO"
+  },
+  {
+   "start": 7479,
+   "end": 7498,
+   "label": "STATUTE",
+   "text": "Art. 145 Abs. 2 ZPO"
+  },
+  {
+   "start": 8119,
+   "end": 8137,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 8273,
+   "end": 8285,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 30,
+ "n_deleted": 0,
+ "n_added": 3,
+ "n_relabeled": 0
+}

@@ -1,0 +1,23 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  4,
+  8
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 9, Art. 29 Abs. 2 BV",
+   "label": "STATUTE"
+  },
+  {
+   "text": "140 III 115",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Extended two comma-joined statute chains (#4, #8). Added one BGE list item. OUTCOME FLAG: item 1 of the dispositiv dismisses only the suspension request (Sistierungsgesuch, 'abgewiesen'); item 2 declares the appeal inadmissible ('nicht eingetreten'). Per the item-1 rule the outcome is 'dismissed'; if the rule should skip procedural side requests, the outcome is 'inadmissible'. | caller: item 1 only rejects the Sistierungsgesuch; item 2 decides the appeal (nicht eingetreten)."
+}

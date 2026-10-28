@@ -1,0 +1,12 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "140 III 264",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Added one BGE list item without the BGE word. '86 E. 2' after BGE 140 III 115 is a second page number, not a span."
+}

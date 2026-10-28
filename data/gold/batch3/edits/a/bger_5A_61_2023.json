@@ -1,0 +1,22 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  33
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "130 III 113",
+   "label": "BGE"
+  },
+  {
+   "text": "135 III 88",
+   "label": "BGE"
+  },
+  {
+   "text": "ZBJV 2000, S. 705",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Added two BGE list items without the BGE word (130 III 113, 135 III 88). #33 ZBJV 2000 extended to ZBJV 2000, S. 705 (comma inside, first page). Ziff. 4 of the gerichtlicher Vergleich: instrument named before the number only, Ziff. alone is not BARE_ARTICLE, left without span. Textbook § citations kept as BARE_ARTICLE. LB220022-O/U cantonal, Traktandum Nr. 3: no span."
+}

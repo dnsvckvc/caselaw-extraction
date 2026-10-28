@@ -1,0 +1,7 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "The KESB in the header has no role word, so only one PARTY_ROLE span."
+}

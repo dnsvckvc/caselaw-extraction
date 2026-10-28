@@ -1,0 +1,17 @@
+{
+ "outcome": "approved",
+ "delete": [
+  3,
+  17,
+  58
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 233 [recte: 232] Abs. 2 ZPO",
+   "label": "STATUTE",
+   "all": true
+  }
+ ],
+ "comment": "#3 Art. 187 is part of the cantonal file number (HOR.2018.33, Art. 187), not a citation: deleted. Party quote Art. 233 [recte: 232] Abs. 2 ZPO names ZPO, so STATUTE over the whole reference although it contains the court bracket; guideline does not settle brackets inside a reference."
+}

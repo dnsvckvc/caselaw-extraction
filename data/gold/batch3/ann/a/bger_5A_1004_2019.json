@@ -1,0 +1,289 @@
+{
+ "decision_id": "bger_5A_1004_2019",
+ "task_index": 33,
+ "pass": "a",
+ "outcome": "approved",
+ "comment": "GerG is the cantonal Nidwalden court act (defined as such in the text). Where the abbreviation follows the number (2x) the span is OTHER_LAW and includes GerG; the first mention with the act as a title stays BARE_ARTICLE (#30).",
+ "spans": [
+  {
+   "start": 647,
+   "end": 665,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 738,
+   "end": 756,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1054,
+   "end": 1068,
+   "label": "AMOUNT",
+   "text": "EUR 500'000.--"
+  },
+  {
+   "start": 1141,
+   "end": 1154,
+   "label": "AMOUNT",
+   "text": "Fr. 62'640.--"
+  },
+  {
+   "start": 2314,
+   "end": 2328,
+   "label": "AMOUNT",
+   "text": "Fr. 376'500.--"
+  },
+  {
+   "start": 2368,
+   "end": 2381,
+   "label": "AMOUNT",
+   "text": "Fr. 34'401.45"
+  },
+  {
+   "start": 2594,
+   "end": 2607,
+   "label": "AMOUNT",
+   "text": "Fr. 35'000.--"
+  },
+  {
+   "start": 2711,
+   "end": 2723,
+   "label": "STATUTE",
+   "text": "Art. 257 ZPO"
+  },
+  {
+   "start": 3568,
+   "end": 3580,
+   "label": "AMOUNT",
+   "text": "Fr. 8'500.--"
+  },
+  {
+   "start": 3943,
+   "end": 3955,
+   "label": "AMOUNT",
+   "text": "Fr. 6'375.--"
+  },
+  {
+   "start": 5247,
+   "end": 5258,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 5321,
+   "end": 5339,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 5384,
+   "end": 5395,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 5488,
+   "end": 5500,
+   "label": "STATUTE",
+   "text": "Art. 257 ZPO"
+  },
+  {
+   "start": 5527,
+   "end": 5545,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 5575,
+   "end": 5588,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 5591,
+   "end": 5616,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5674,
+   "end": 5693,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 5924,
+   "end": 5962,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und\nArt. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 5965,
+   "end": 5980,
+   "label": "BGE",
+   "text": "BGE 134 III 379"
+  },
+  {
+   "start": 5996,
+   "end": 6007,
+   "label": "BGE",
+   "text": "133 III 489"
+  },
+  {
+   "start": 6245,
+   "end": 6257,
+   "label": "STATUTE",
+   "text": "Art. 112 BGG"
+  },
+  {
+   "start": 6387,
+   "end": 6413,
+   "label": "STATUTE",
+   "text": "Art. 112 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 6631,
+   "end": 6657,
+   "label": "STATUTE",
+   "text": "Art. 112 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 6804,
+   "end": 6823,
+   "label": "STATUTE",
+   "text": "Art. 112 Abs. 3 BGG"
+  },
+  {
+   "start": 7007,
+   "end": 7026,
+   "label": "STATUTE",
+   "text": "Art. 112 Abs. 3 BGG"
+  },
+  {
+   "start": 7160,
+   "end": 7174,
+   "label": "BGE",
+   "text": "BGE 141 IV 244"
+  },
+  {
+   "start": 7199,
+   "end": 7210,
+   "label": "DOCKET",
+   "text": "5A_222/2019"
+  },
+  {
+   "start": 7514,
+   "end": 7544,
+   "label": "STATUTE",
+   "text": "Art. 238 lit. a und lit. h ZPO"
+  },
+  {
+   "start": 7549,
+   "end": 7562,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 5 Abs. 1"
+  },
+  {
+   "start": 7696,
+   "end": 7708,
+   "label": "STATUTE",
+   "text": "Art. 238 ZPO"
+  },
+  {
+   "start": 7870,
+   "end": 7888,
+   "label": "OTHER_LAW",
+   "text": "Art. 5 Abs. 1 GerG"
+  },
+  {
+   "start": 8163,
+   "end": 8180,
+   "label": "STATUTE",
+   "text": "Art. 30 Abs. 1 BV"
+  },
+  {
+   "start": 8185,
+   "end": 8196,
+   "label": "STATUTE",
+   "text": "Art. 6 EMRK"
+  },
+  {
+   "start": 9030,
+   "end": 9048,
+   "label": "OTHER_LAW",
+   "text": "Art. 5 Abs. 1 GerG"
+  },
+  {
+   "start": 10343,
+   "end": 10369,
+   "label": "STATUTE",
+   "text": "Art. 112 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 10852,
+   "end": 10871,
+   "label": "STATUTE",
+   "text": "Art. 112 Abs. 3 BGG"
+  },
+  {
+   "start": 10970,
+   "end": 10988,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 3 BGG"
+  },
+  {
+   "start": 10999,
+   "end": 11010,
+   "label": "DOCKET",
+   "text": "5A_229/2020"
+  },
+  {
+   "start": 11035,
+   "end": 11046,
+   "label": "DOCKET",
+   "text": "5A_955/2019"
+  },
+  {
+   "start": 11070,
+   "end": 11082,
+   "label": "DOCKET",
+   "text": "5A_1016/2018"
+  },
+  {
+   "start": 11123,
+   "end": 11134,
+   "label": "DOCKET",
+   "text": "5A_884/2012"
+  },
+  {
+   "start": 11249,
+   "end": 11267,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 4 BGG"
+  },
+  {
+   "start": 11393,
+   "end": 11411,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 11530,
+   "end": 11548,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 11915,
+   "end": 11927,
+   "label": "AMOUNT",
+   "text": "Fr. 7'000.--"
+  }
+ ],
+ "n_pre": 46,
+ "n_deleted": 2,
+ "n_added": 2,
+ "n_relabeled": 0
+}

@@ -1,0 +1,12 @@
+{
+  "outcome": "inadmissible",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "137 III 522",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Added missed BGE list item '137 III 522'. Kept pre-annotation #37 'BGE 141 III 1' although the source text is garbled ('BGE 141 III 1 .2;' probably stands for BGE 141 III 80 E. 1.2). Cantonal number '1C 25 19' not labelled."
+}

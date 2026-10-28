@@ -1,0 +1,23 @@
+{
+ "outcome": "approved",
+ "delete": [
+  19
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 12 lit. a und Art. 13 Abs. 2 BGFA",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 228 ff. ZPO",
+   "label": "STATUTE"
+  },
+  {
+   "text": "140 III 450",
+   "label": "BGE",
+   "occurrence": 1
+  }
+ ],
+ "comment": "Chain #19 extended; Art. 228 ff. ZPO and BGE list item 140 III 450 added. '2 E. 1.2.2 S. 5' after BGE 138 III 799 is a page-style ref, not a span."
+}

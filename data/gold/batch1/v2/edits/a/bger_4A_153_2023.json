@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  63
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 19 Abs. 1 lit. b",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#63: federal ordinance VMWG cited by title (abbreviation only in brackets after the title), so BARE_ARTICLE per guideline, not CONTRACT_ARTICLE."
+}

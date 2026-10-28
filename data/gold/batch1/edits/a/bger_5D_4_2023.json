@@ -1,0 +1,30 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  10,
+  12,
+  17,
+  34
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 72 Abs. 1, Art. 75 Abs. 1 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 74 Abs. 1 lit. b, Art. 74 Abs. 2 lit. a BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 117 i.V.m. Art. 106 Abs. 2 BGG",
+   "label": "STATUTE",
+   "all": true
+  },
+  {
+   "text": "133 II 396",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Extended four statute chains (two of them 'Art. 117 i.V.m. Art. 106 Abs. 2 BGG'); added one BGE list item without the BGE word. 'Art. 3 Abs. 1 lit. a der Verordnung des EFD ... (SR 642.124)' has no abbreviation and stays unlabelled."
+}

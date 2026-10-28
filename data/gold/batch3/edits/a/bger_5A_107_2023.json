@@ -1,0 +1,7 @@
+{
+ "outcome": "partial_approval",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "all 141 pre-annotations confirmed; bracketed bare-number calculations such as [438.50 - 123.35] have no currency token and are not spans"
+}

@@ -1,0 +1,103 @@
+{
+ "decision_id": "bger_5A_704_2024",
+ "task_index": 136,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "all pre-annotations confirmed",
+ "spans": [
+  {
+   "start": 252,
+   "end": 270,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 2034,
+   "end": 2082,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 2 lit. c BGG"
+  },
+  {
+   "start": 2146,
+   "end": 2158,
+   "label": "STATUTE",
+   "text": "Art. 113 BGG"
+  },
+  {
+   "start": 2290,
+   "end": 2316,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 2362,
+   "end": 2380,
+   "label": "STATUTE",
+   "text": "Art. 44 und 45 BGG"
+  },
+  {
+   "start": 2783,
+   "end": 2794,
+   "label": "STATUTE",
+   "text": "Art. 80 BGG"
+  },
+  {
+   "start": 2884,
+   "end": 2895,
+   "label": "STATUTE",
+   "text": "Art. 94 BGG"
+  },
+  {
+   "start": 2905,
+   "end": 2923,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3262,
+   "end": 3276,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 3283,
+   "end": 3294,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 4735,
+   "end": 4748,
+   "label": "STATUTE",
+   "text": "Art. 22 SchKG"
+  },
+  {
+   "start": 5736,
+   "end": 5768,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 5861,
+   "end": 5879,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5958,
+   "end": 5976,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 6088,
+   "end": 6098,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 15,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

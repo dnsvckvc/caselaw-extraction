@@ -1,0 +1,271 @@
+{
+ "decision_id": "bger_4A_584_2021",
+ "task_index": 33,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 331,
+   "end": 349,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 411,
+   "end": 427,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 3238,
+   "end": 3263,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 3334,
+   "end": 3349,
+   "label": "BGE",
+   "text": "BGE 137 III 380"
+  },
+  {
+   "start": 3358,
+   "end": 3369,
+   "label": "BGE",
+   "text": "133 III 645"
+  },
+  {
+   "start": 3421,
+   "end": 3447,
+   "label": "STATUTE",
+   "text": "Art. 112 Abs. 1 lit. d BGG"
+  },
+  {
+   "start": 4163,
+   "end": 4181,
+   "label": "STATUTE",
+   "text": "Art. 95 und 96 BGG"
+  },
+  {
+   "start": 4286,
+   "end": 4300,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 4418,
+   "end": 4436,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4871,
+   "end": 4885,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 5023,
+   "end": 5042,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5262,
+   "end": 5276,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5468,
+   "end": 5479,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 5489,
+   "end": 5508,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 5570,
+   "end": 5585,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 5599,
+   "end": 5610,
+   "label": "BGE",
+   "text": "135 III 397"
+  },
+  {
+   "start": 5717,
+   "end": 5735,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 5819,
+   "end": 5838,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5841,
+   "end": 5856,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 6052,
+   "end": 6066,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6324,
+   "end": 6338,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 6515,
+   "end": 6529,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6787,
+   "end": 6804,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 6862,
+   "end": 6879,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 7024,
+   "end": 7037,
+   "label": "BGE",
+   "text": "BGE 136 I 184"
+  },
+  {
+   "start": 7049,
+   "end": 7057,
+   "label": "BGE",
+   "text": "134 I 83"
+  },
+  {
+   "start": 7317,
+   "end": 7332,
+   "label": "BGE",
+   "text": "BGE 142 III 433"
+  },
+  {
+   "start": 7343,
+   "end": 7353,
+   "label": "BGE",
+   "text": "137 II 266"
+  },
+  {
+   "start": 7363,
+   "end": 7372,
+   "label": "BGE",
+   "text": "136 I 184"
+  },
+  {
+   "start": 7636,
+   "end": 7651,
+   "label": "BGE",
+   "text": "BGE 142 III 433"
+  },
+  {
+   "start": 7662,
+   "end": 7672,
+   "label": "BGE",
+   "text": "141 III 28"
+  },
+  {
+   "start": 8915,
+   "end": 8932,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 9343,
+   "end": 9362,
+   "label": "STATUTE",
+   "text": "Art. 119 Abs. 4 ZPO"
+  },
+  {
+   "start": 9548,
+   "end": 9567,
+   "label": "STATUTE",
+   "text": "Art. 119 Abs. 4 ZPO"
+  },
+  {
+   "start": 9925,
+   "end": 9944,
+   "label": "STATUTE",
+   "text": "Art. 119 Abs. 4 ZPO"
+  },
+  {
+   "start": 10526,
+   "end": 10535,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 10665,
+   "end": 10674,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 11181,
+   "end": 11199,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 11304,
+   "end": 11314,
+   "label": "DOCKET",
+   "text": "4A_20/2011"
+  },
+  {
+   "start": 11446,
+   "end": 11464,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 11744,
+   "end": 11762,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 11812,
+   "end": 11830,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 3 BGG"
+  },
+  {
+   "start": 12090,
+   "end": 12100,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 43,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

@@ -1,0 +1,163 @@
+{
+ "decision_id": "bger_5D_29_2026",
+ "task_index": 60,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "v3 pass a task 60: no short BGE citations; no Artikel/Ziffer/Absatz",
+ "spans": [
+  {
+   "start": 282,
+   "end": 298,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 1304,
+   "end": 1314,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  },
+  {
+   "start": 1445,
+   "end": 1515,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1,\nArt. 74 Abs. 1 lit. b,\nArt. 75 Abs. 1 und\nArt. 113 BGG"
+  },
+  {
+   "start": 1636,
+   "end": 1648,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 1688,
+   "end": 1723,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 i.V.m.\nArt. 117 BGG"
+  },
+  {
+   "start": 1973,
+   "end": 1988,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 2789,
+   "end": 2802,
+   "label": "BGE",
+   "text": "BGE 150 III 1"
+  },
+  {
+   "start": 2914,
+   "end": 2926,
+   "label": "STATUTE",
+   "text": "Art. 112 ZPO"
+  },
+  {
+   "start": 3094,
+   "end": 3105,
+   "label": "DOCKET",
+   "text": "5D_222/2023"
+  },
+  {
+   "start": 4136,
+   "end": 4148,
+   "label": "STATUTE",
+   "text": "Art. 112 ZPO"
+  },
+  {
+   "start": 4205,
+   "end": 4217,
+   "label": "STATUTE",
+   "text": "Art. 112 ZPO"
+  },
+  {
+   "start": 4276,
+   "end": 4288,
+   "label": "STATUTE",
+   "text": "Art. 112 ZPO"
+  },
+  {
+   "start": 4346,
+   "end": 4358,
+   "label": "STATUTE",
+   "text": "Art. 112 ZPO"
+  },
+  {
+   "start": 4422,
+   "end": 4434,
+   "label": "STATUTE",
+   "text": "Art. 112 ZPO"
+  },
+  {
+   "start": 4572,
+   "end": 4582,
+   "label": "OTHER_LAW",
+   "text": "Art. 93 VE"
+  },
+  {
+   "start": 5162,
+   "end": 5173,
+   "label": "DOCKET",
+   "text": "5D_222/2023"
+  },
+  {
+   "start": 5834,
+   "end": 5845,
+   "label": "STATUTE",
+   "text": "Art. 29a BV"
+  },
+  {
+   "start": 5850,
+   "end": 5869,
+   "label": "STATUTE",
+   "text": "Art. 6 Ziff. 1 EMRK"
+  },
+  {
+   "start": 6188,
+   "end": 6199,
+   "label": "DOCKET",
+   "text": "5A_703/2026"
+  },
+  {
+   "start": 6570,
+   "end": 6584,
+   "label": "BGE",
+   "text": "BGE 137 II 409"
+  },
+  {
+   "start": 6594,
+   "end": 6603,
+   "label": "BGE",
+   "text": "141 I 172"
+  },
+  {
+   "start": 6613,
+   "end": 6622,
+   "label": "BGE",
+   "text": "143 I 344"
+  },
+  {
+   "start": 6930,
+   "end": 6948,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 7359,
+   "end": 7377,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 7578,
+   "end": 7590,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  }
+ ],
+ "n_pre": 25,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

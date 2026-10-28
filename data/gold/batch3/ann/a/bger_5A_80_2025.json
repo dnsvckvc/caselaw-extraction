@@ -1,0 +1,511 @@
+{
+ "decision_id": "bger_5A_80_2025",
+ "task_index": 161,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "#2 cut short: Art. 2.2 der Stiftungsstatuten is a clause of the foundation statutes (private instrument), CONTRACT_ARTICLE. Jusletter 15. Juni 2020, Rz. 3 has no page/number: no span.",
+ "spans": [
+  {
+   "start": 340,
+   "end": 358,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 2198,
+   "end": 2228,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 2.2 der Stiftungsstatuten"
+  },
+  {
+   "start": 2587,
+   "end": 2620,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 4 BGG"
+  },
+  {
+   "start": 2678,
+   "end": 2693,
+   "label": "BGE",
+   "text": "BGE 144 III 264"
+  },
+  {
+   "start": 2856,
+   "end": 2869,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 2882,
+   "end": 2929,
+   "label": "STATUTE",
+   "text": "Art. 51 Abs. 2 i.V.m.\nArt. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 2989,
+   "end": 3007,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 3061,
+   "end": 3128,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 i.V.m. Art. 46 Abs. 1 Bst. c und\nArt. 45 Abs. 1 BGG"
+  },
+  {
+   "start": 3311,
+   "end": 3330,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 3447,
+   "end": 3461,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 3560,
+   "end": 3578,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3581,
+   "end": 3595,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 3946,
+   "end": 3960,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 3972,
+   "end": 3980,
+   "label": "BGE",
+   "text": "142 I 99"
+  },
+  {
+   "start": 4091,
+   "end": 4110,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4113,
+   "end": 4126,
+   "label": "BGE",
+   "text": "BGE 145 V 304"
+  },
+  {
+   "start": 4254,
+   "end": 4273,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 4403,
+   "end": 4417,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 4541,
+   "end": 4559,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 4588,
+   "end": 4603,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 4672,
+   "end": 4683,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 4715,
+   "end": 4732,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 4738,
+   "end": 4748,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 4767,
+   "end": 4778,
+   "label": "DOCKET",
+   "text": "5A_374/2010"
+  },
+  {
+   "start": 4943,
+   "end": 4961,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 4964,
+   "end": 4976,
+   "label": "BGE",
+   "text": "BGE 135 I 19"
+  },
+  {
+   "start": 5045,
+   "end": 5064,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5110,
+   "end": 5119,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 5289,
+   "end": 5304,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 5314,
+   "end": 5322,
+   "label": "BGE",
+   "text": "136 I 49"
+  },
+  {
+   "start": 5333,
+   "end": 5343,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 5628,
+   "end": 5643,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 5652,
+   "end": 5662,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 6117,
+   "end": 6128,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 6554,
+   "end": 6565,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 6694,
+   "end": 6705,
+   "label": "DOCKET",
+   "text": "5A_856/2016"
+  },
+  {
+   "start": 6710,
+   "end": 6721,
+   "label": "DOCKET",
+   "text": "5A_865/2016"
+  },
+  {
+   "start": 6773,
+   "end": 6788,
+   "label": "BGE",
+   "text": "BGE 144 III 264"
+  },
+  {
+   "start": 7064,
+   "end": 7075,
+   "label": "DOCKET",
+   "text": "5A_856/2016"
+  },
+  {
+   "start": 7080,
+   "end": 7091,
+   "label": "DOCKET",
+   "text": "5A_865/2016"
+  },
+  {
+   "start": 7134,
+   "end": 7149,
+   "label": "BGE",
+   "text": "BGE 144 III 264"
+  },
+  {
+   "start": 7345,
+   "end": 7356,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 7372,
+   "end": 7383,
+   "label": "STATUTE",
+   "text": "Art. 86 ZGB"
+  },
+  {
+   "start": 7680,
+   "end": 7691,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 8121,
+   "end": 8132,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 8441,
+   "end": 8460,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 2 der Statuten"
+  },
+  {
+   "start": 8663,
+   "end": 8682,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 3 der Statuten"
+  },
+  {
+   "start": 10478,
+   "end": 10492,
+   "label": "AMOUNT",
+   "text": "Fr. 900'000.--"
+  },
+  {
+   "start": 10743,
+   "end": 10756,
+   "label": "AMOUNT",
+   "text": "Fr. 10'000.--"
+  },
+  {
+   "start": 11070,
+   "end": 11081,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 11508,
+   "end": 11519,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 11673,
+   "end": 11684,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 11998,
+   "end": 12009,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 12025,
+   "end": 12036,
+   "label": "STATUTE",
+   "text": "Art. 86 ZGB"
+  },
+  {
+   "start": 12056,
+   "end": 12067,
+   "label": "STATUTE",
+   "text": "Art. 86 ZGB"
+  },
+  {
+   "start": 12238,
+   "end": 12249,
+   "label": "STATUTE",
+   "text": "Art. 86 ZGB"
+  },
+  {
+   "start": 12308,
+   "end": 12319,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 12484,
+   "end": 12495,
+   "label": "STATUTE",
+   "text": "Art. 86 ZGB"
+  },
+  {
+   "start": 13603,
+   "end": 13614,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 16537,
+   "end": 16548,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 17376,
+   "end": 17387,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 17640,
+   "end": 17651,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 17994,
+   "end": 18005,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 19580,
+   "end": 19591,
+   "label": "STATUTE",
+   "text": "Art. 86 ZGB"
+  },
+  {
+   "start": 19607,
+   "end": 19618,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 19662,
+   "end": 19673,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 19817,
+   "end": 19828,
+   "label": "STATUTE",
+   "text": "Art. 86 ZGB"
+  },
+  {
+   "start": 19904,
+   "end": 19915,
+   "label": "STATUTE",
+   "text": "Art. 86 ZGB"
+  },
+  {
+   "start": 20085,
+   "end": 20096,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 20198,
+   "end": 20209,
+   "label": "STATUTE",
+   "text": "Art. 86 ZGB"
+  },
+  {
+   "start": 20278,
+   "end": 20289,
+   "label": "STATUTE",
+   "text": "Art. 86 ZGB"
+  },
+  {
+   "start": 20455,
+   "end": 20466,
+   "label": "STATUTE",
+   "text": "Art. 86 ZGB"
+  },
+  {
+   "start": 20622,
+   "end": 20633,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 20717,
+   "end": 20728,
+   "label": "STATUTE",
+   "text": "Art. 86 ZGB"
+  },
+  {
+   "start": 20808,
+   "end": 20826,
+   "label": "STATUTE",
+   "text": "Art. 86 Abs. 1 ZGB"
+  },
+  {
+   "start": 21036,
+   "end": 21051,
+   "label": "BGE",
+   "text": "BGE 133 III 167"
+  },
+  {
+   "start": 21415,
+   "end": 21426,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 21432,
+   "end": 21443,
+   "label": "STATUTE",
+   "text": "Art. 86 ZGB"
+  },
+  {
+   "start": 21607,
+   "end": 21618,
+   "label": "STATUTE",
+   "text": "Art. 85 ZGB"
+  },
+  {
+   "start": 21704,
+   "end": 21715,
+   "label": "STATUTE",
+   "text": "Art. 86 ZGB"
+  },
+  {
+   "start": 22268,
+   "end": 22293,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 Satz 1 BGG"
+  },
+  {
+   "start": 22383,
+   "end": 22401,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 3 BGG"
+  },
+  {
+   "start": 22538,
+   "end": 22550,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  }
+ ],
+ "n_pre": 83,
+ "n_deleted": 1,
+ "n_added": 1,
+ "n_relabeled": 0
+}

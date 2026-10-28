@@ -1,0 +1,12 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 27 Abs. 3 VSB 2020",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "VSB 2020 (Sorgfaltspflichtvereinbarung der Banken, private self-regulation agreement) labelled CONTRACT_ARTICLE; year kept in the instrument name."
+}

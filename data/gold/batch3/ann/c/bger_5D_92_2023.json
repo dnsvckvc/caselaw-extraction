@@ -1,0 +1,139 @@
+{
+ "decision_id": "bger_5D_92_2023",
+ "task_index": 95,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 591,
+   "end": 609,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 681,
+   "end": 699,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1125,
+   "end": 1137,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 1470,
+   "end": 1480,
+   "label": "AMOUNT",
+   "text": "Fr. 225.--"
+  },
+  {
+   "start": 1758,
+   "end": 1768,
+   "label": "AMOUNT",
+   "text": "Fr. 920.--"
+  },
+  {
+   "start": 1813,
+   "end": 1825,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 1896,
+   "end": 1909,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 1989,
+   "end": 2014,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 2069,
+   "end": 2094,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. c BGG"
+  },
+  {
+   "start": 2388,
+   "end": 2413,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 2841,
+   "end": 2857,
+   "label": "STATUTE",
+   "text": "Art. 113 ff. BGG"
+  },
+  {
+   "start": 3261,
+   "end": 3288,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 93 BGG"
+  },
+  {
+   "start": 3352,
+   "end": 3389,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a oder lit. b BGG"
+  },
+  {
+   "start": 3476,
+   "end": 3501,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 3952,
+   "end": 3967,
+   "label": "BGE",
+   "text": "BGE 144 III 475"
+  },
+  {
+   "start": 4092,
+   "end": 4117,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 4346,
+   "end": 4361,
+   "label": "BGE",
+   "text": "BGE 142 III 798"
+  },
+  {
+   "start": 4825,
+   "end": 4850,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 6250,
+   "end": 6292,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 6888,
+   "end": 6906,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 7026,
+   "end": 7036,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 21,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

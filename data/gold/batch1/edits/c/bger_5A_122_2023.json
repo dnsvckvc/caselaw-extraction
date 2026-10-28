@@ -1,0 +1,18 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  4
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c und Art. 75 Abs. 1 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "133 III 489",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Art. 6 der Verordnung ... (VFRR; SR 281.31) left unlabelled: full name, abbreviation only in brackets."
+}

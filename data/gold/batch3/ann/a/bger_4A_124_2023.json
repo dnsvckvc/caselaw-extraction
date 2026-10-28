@@ -1,0 +1,577 @@
+{
+ "decision_id": "bger_4A_124_2023",
+ "task_index": 99,
+ "pass": "a",
+ "outcome": "approved",
+ "comment": "Pre-annotator missed every ZVB clause (insurance conditions): 38 CONTRACT_ARTICLE spans added. #7 extended to include the year 2014 (part of the instrument name, like VSB 2020); unsettled. Chains Ziff. 3.4 i.V.m. Ziff. 7.1 ZVB and Ziff. 3.4, 5.2 oder 7 ZVB labelled as one span each by analogy to the STATUTE chain rule; unsettled. Left unlabelled: Ziff. 8.1 [AVB] (instrument only in square brackets), Ziff. 8.1 der [...] (AVB) (name elided), clause headings inside the quoted conditions (Ziff. 3.1:, Ziff 7.1: etc.) and bare Ziff. 3.4 / Ziff. 7.1 without instrument. VV.2021.172/E cantonal; VVG (SR 221.229.1) no Art., no span.",
+ "spans": [
+  {
+   "start": 351,
+   "end": 367,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 442,
+   "end": 460,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1888,
+   "end": 1900,
+   "label": "AMOUNT",
+   "text": "Fr. 1'080.--"
+  },
+  {
+   "start": 2186,
+   "end": 2198,
+   "label": "AMOUNT",
+   "text": "Fr. 7'560.--"
+  },
+  {
+   "start": 2234,
+   "end": 2247,
+   "label": "AMOUNT",
+   "text": "Fr. 14'617.20"
+  },
+  {
+   "start": 2558,
+   "end": 2570,
+   "label": "AMOUNT",
+   "text": "Fr. 7'057.20"
+  },
+  {
+   "start": 2904,
+   "end": 2958,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7 der Zusätzlichen Versicherungsbedingungen 2014"
+  },
+  {
+   "start": 3000,
+   "end": 3013,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7.1 ZVB"
+  },
+  {
+   "start": 3410,
+   "end": 3422,
+   "label": "AMOUNT",
+   "text": "Fr. 7'057.20"
+  },
+  {
+   "start": 3708,
+   "end": 3733,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 3741,
+   "end": 3756,
+   "label": "BGE",
+   "text": "BGE 138 III 799"
+  },
+  {
+   "start": 3966,
+   "end": 3984,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4063,
+   "end": 4082,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 4166,
+   "end": 4190,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 4480,
+   "end": 4494,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 4501,
+   "end": 4504,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 4639,
+   "end": 4657,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 5077,
+   "end": 5091,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 6504,
+   "end": 6515,
+   "label": "STATUTE",
+   "text": "Art. 39 KVG"
+  },
+  {
+   "start": 7592,
+   "end": 7610,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7 dieser ZVB"
+  },
+  {
+   "start": 8729,
+   "end": 8742,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 8.1 AVB"
+  },
+  {
+   "start": 9475,
+   "end": 9488,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 8.1 AVB"
+  },
+  {
+   "start": 9567,
+   "end": 9580,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.2 ZVB"
+  },
+  {
+   "start": 9648,
+   "end": 9661,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.4 ZVB"
+  },
+  {
+   "start": 9820,
+   "end": 9831,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7 ZVB"
+  },
+  {
+   "start": 9880,
+   "end": 9891,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 5 ZVB"
+  },
+  {
+   "start": 9923,
+   "end": 9936,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 5.2 ZVB"
+  },
+  {
+   "start": 10159,
+   "end": 10170,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7 ZVB"
+  },
+  {
+   "start": 10184,
+   "end": 10197,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7.1 ZVB"
+  },
+  {
+   "start": 10350,
+   "end": 10363,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7.2 ZVB"
+  },
+  {
+   "start": 10746,
+   "end": 10759,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7.2 ZVB"
+  },
+  {
+   "start": 11475,
+   "end": 11486,
+   "label": "DOCKET",
+   "text": "4A_578/2019"
+  },
+  {
+   "start": 11650,
+   "end": 11660,
+   "label": "STATUTE",
+   "text": "Art. 18 OR"
+  },
+  {
+   "start": 11694,
+   "end": 11705,
+   "label": "STATUTE",
+   "text": "Art. 33 VVG"
+  },
+  {
+   "start": 11947,
+   "end": 11962,
+   "label": "BGE",
+   "text": "BGE 142 III 671"
+  },
+  {
+   "start": 11971,
+   "end": 11980,
+   "label": "BGE",
+   "text": "135 III 1"
+  },
+  {
+   "start": 12547,
+   "end": 12562,
+   "label": "BGE",
+   "text": "BGE 142 III 671"
+  },
+  {
+   "start": 12571,
+   "end": 12582,
+   "label": "BGE",
+   "text": "140 III 391"
+  },
+  {
+   "start": 12859,
+   "end": 12878,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 12881,
+   "end": 12896,
+   "label": "BGE",
+   "text": "BGE 142 III 671"
+  },
+  {
+   "start": 13075,
+   "end": 13089,
+   "label": "BGE",
+   "text": "BGE 133 III 61"
+  },
+  {
+   "start": 13102,
+   "end": 13105,
+   "label": "BGE",
+   "text": "607"
+  },
+  {
+   "start": 13114,
+   "end": 13125,
+   "label": "BGE",
+   "text": "124 III 155"
+  },
+  {
+   "start": 13223,
+   "end": 13237,
+   "label": "BGE",
+   "text": "BGE 133 III 61"
+  },
+  {
+   "start": 13250,
+   "end": 13261,
+   "label": "BGE",
+   "text": "122 III 118"
+  },
+  {
+   "start": 13286,
+   "end": 13297,
+   "label": "DOCKET",
+   "text": "4A_166/2020"
+  },
+  {
+   "start": 13352,
+   "end": 13363,
+   "label": "STATUTE",
+   "text": "Art. 33 VVG"
+  },
+  {
+   "start": 13467,
+   "end": 13478,
+   "label": "STATUTE",
+   "text": "Art. 33 VVG"
+  },
+  {
+   "start": 13698,
+   "end": 13708,
+   "label": "DOCKET",
+   "text": "4A_72/2021"
+  },
+  {
+   "start": 13742,
+   "end": 13753,
+   "label": "DOCKET",
+   "text": "4A_499/2018"
+  },
+  {
+   "start": 14553,
+   "end": 14566,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 8.1 AVB"
+  },
+  {
+   "start": 14574,
+   "end": 14587,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.1 ZVB"
+  },
+  {
+   "start": 14794,
+   "end": 14807,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.1 ZVB"
+  },
+  {
+   "start": 14925,
+   "end": 14936,
+   "label": "STATUTE",
+   "text": "Art. 39 KVG"
+  },
+  {
+   "start": 15103,
+   "end": 15116,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.1 ZVB"
+  },
+  {
+   "start": 15140,
+   "end": 15153,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.1 ZVB"
+  },
+  {
+   "start": 15348,
+   "end": 15361,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.2 ZVB"
+  },
+  {
+   "start": 15935,
+   "end": 15960,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.4, 5.2 oder 7 ZVB"
+  },
+  {
+   "start": 16002,
+   "end": 16015,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.4 ZVB"
+  },
+  {
+   "start": 16345,
+   "end": 16358,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.4 ZVB"
+  },
+  {
+   "start": 16477,
+   "end": 16490,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.4 ZVB"
+  },
+  {
+   "start": 16527,
+   "end": 16538,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7 ZVB"
+  },
+  {
+   "start": 16650,
+   "end": 16663,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.4 ZVB"
+  },
+  {
+   "start": 17371,
+   "end": 17384,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.4 ZVB"
+  },
+  {
+   "start": 17656,
+   "end": 17669,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.4 ZVB"
+  },
+  {
+   "start": 17862,
+   "end": 17892,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.4 i.V.m. Ziff. 7.1 ZVB"
+  },
+  {
+   "start": 18225,
+   "end": 18238,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7.2 ZVB"
+  },
+  {
+   "start": 18305,
+   "end": 18318,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7.2 ZVB"
+  },
+  {
+   "start": 18832,
+   "end": 18845,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7.2 ZVB"
+  },
+  {
+   "start": 19215,
+   "end": 19228,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7.1 ZVB"
+  },
+  {
+   "start": 19288,
+   "end": 19301,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7.2 ZVB"
+  },
+  {
+   "start": 19345,
+   "end": 19358,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7.1 ZVB"
+  },
+  {
+   "start": 19832,
+   "end": 19843,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7 ZVB"
+  },
+  {
+   "start": 20108,
+   "end": 20121,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 5.2 ZVB"
+  },
+  {
+   "start": 20153,
+   "end": 20166,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 5.2 ZVB"
+  },
+  {
+   "start": 20453,
+   "end": 20466,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 8.1 AVB"
+  },
+  {
+   "start": 20474,
+   "end": 20487,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 3.1 ZVB"
+  },
+  {
+   "start": 20725,
+   "end": 20738,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 5.2 ZVB"
+  },
+  {
+   "start": 20893,
+   "end": 20906,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 5.2 ZVB"
+  },
+  {
+   "start": 20933,
+   "end": 20946,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7.2 ZVB"
+  },
+  {
+   "start": 21097,
+   "end": 21109,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 27 AVB"
+  },
+  {
+   "start": 22313,
+   "end": 22326,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7.2 ZVB"
+  },
+  {
+   "start": 22630,
+   "end": 22643,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 7.2 ZVB"
+  },
+  {
+   "start": 23751,
+   "end": 23762,
+   "label": "DOCKET",
+   "text": "4A_578/2019"
+  },
+  {
+   "start": 24204,
+   "end": 24215,
+   "label": "DOCKET",
+   "text": "4A_578/2019"
+  },
+  {
+   "start": 24395,
+   "end": 24408,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 8.1 AVB"
+  },
+  {
+   "start": 24907,
+   "end": 24922,
+   "label": "BGE",
+   "text": "BGE 133 III 607"
+  },
+  {
+   "start": 24943,
+   "end": 24954,
+   "label": "DOCKET",
+   "text": "4A_578/2019"
+  },
+  {
+   "start": 25219,
+   "end": 25231,
+   "label": "AMOUNT",
+   "text": "Fr. 7'057.20"
+  },
+  {
+   "start": 25367,
+   "end": 25410,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 25507,
+   "end": 25525,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 5 BGG"
+  },
+  {
+   "start": 25792,
+   "end": 25804,
+   "label": "AMOUNT",
+   "text": "Fr. 7'057.20"
+  },
+  {
+   "start": 25883,
+   "end": 25895,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 26031,
+   "end": 26043,
+   "label": "AMOUNT",
+   "text": "Fr. 2'500.--"
+  }
+ ],
+ "n_pre": 54,
+ "n_deleted": 1,
+ "n_added": 41,
+ "n_relabeled": 0
+}

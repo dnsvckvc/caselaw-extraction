@@ -1,0 +1,193 @@
+{
+ "decision_id": "bger_5A_79_2026",
+ "task_index": 172,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "HKÜ (SR 0.211.230.02) is a ratified treaty: STATUTE. BG-KKE is a federal act: STATUTE, span extended over -KKE. Outcome: the whole proceeding is a Fristwiederherstellungsgesuch forwarded to the court; item 1 (nicht eingetreten) is the only ruling, so inadmissible, although the batch-3 clarification calls such a request a side request.",
+ "spans": [
+  {
+   "start": 352,
+   "end": 368,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 391,
+   "end": 409,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 2284,
+   "end": 2308,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a HKÜ"
+  },
+  {
+   "start": 3035,
+   "end": 3061,
+   "label": "STATUTE",
+   "text": "Art. 138 Abs. 3 lit. a ZPO"
+  },
+  {
+   "start": 3627,
+   "end": 3645,
+   "label": "STATUTE",
+   "text": "Art. 50 Abs. 1 BGG"
+  },
+  {
+   "start": 4128,
+   "end": 4139,
+   "label": "STATUTE",
+   "text": "Art. 50 BGG"
+  },
+  {
+   "start": 4562,
+   "end": 4580,
+   "label": "STATUTE",
+   "text": "Art. 50 Abs. 1 BGG"
+  },
+  {
+   "start": 5152,
+   "end": 5170,
+   "label": "STATUTE",
+   "text": "Art. 50 Abs. 1 BGG"
+  },
+  {
+   "start": 5491,
+   "end": 5502,
+   "label": "STATUTE",
+   "text": "Art. 50 BGG"
+  },
+  {
+   "start": 5737,
+   "end": 5755,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 5 BGG"
+  },
+  {
+   "start": 5877,
+   "end": 5887,
+   "label": "DOCKET",
+   "text": "5A_39/2025"
+  },
+  {
+   "start": 6207,
+   "end": 6224,
+   "label": "OTHER_LAW",
+   "text": "§ 1631 Abs. 1 BGB"
+  },
+  {
+   "start": 6239,
+   "end": 6259,
+   "label": "STATUTE",
+   "text": "Art. 301a Abs. 1 ZGB"
+  },
+  {
+   "start": 6564,
+   "end": 6609,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a i.V.m. Art. 5 lit. a HKÜ"
+  },
+  {
+   "start": 6643,
+   "end": 6654,
+   "label": "DOCKET",
+   "text": "5A_366/2025"
+  },
+  {
+   "start": 7068,
+   "end": 7086,
+   "label": "STATUTE",
+   "text": "Art. 23 Abs. 1 ZGB"
+  },
+  {
+   "start": 7089,
+   "end": 7103,
+   "label": "BGE",
+   "text": "BGE 148 II 285"
+  },
+  {
+   "start": 7114,
+   "end": 7124,
+   "label": "BGE",
+   "text": "150 II 244"
+  },
+  {
+   "start": 7273,
+   "end": 7288,
+   "label": "BGE",
+   "text": "BGE 129 III 288"
+  },
+  {
+   "start": 7297,
+   "end": 7306,
+   "label": "BGE",
+   "text": "142 III 1"
+  },
+  {
+   "start": 7315,
+   "end": 7326,
+   "label": "BGE",
+   "text": "143 III 193"
+  },
+  {
+   "start": 7333,
+   "end": 7344,
+   "label": "BGE",
+   "text": "144 III 469"
+  },
+  {
+   "start": 7355,
+   "end": 7365,
+   "label": "BGE",
+   "text": "149 III 81"
+  },
+  {
+   "start": 7570,
+   "end": 7588,
+   "label": "STATUTE",
+   "text": "Art. 5 Abs. 1 HKsÜ"
+  },
+  {
+   "start": 7792,
+   "end": 7810,
+   "label": "STATUTE",
+   "text": "Art. 7 Abs. 1 HKsÜ"
+  },
+  {
+   "start": 7929,
+   "end": 7953,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a HKÜ"
+  },
+  {
+   "start": 8077,
+   "end": 8095,
+   "label": "STATUTE",
+   "text": "Art. 26 Abs. 2 HKÜ"
+  },
+  {
+   "start": 8103,
+   "end": 8117,
+   "label": "STATUTE",
+   "text": "Art. 14 BG-KKE"
+  },
+  {
+   "start": 8353,
+   "end": 8377,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 3 BGG"
+  },
+  {
+   "start": 8512,
+   "end": 8524,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 31,
+ "n_deleted": 3,
+ "n_added": 2,
+ "n_relabeled": 3
+}

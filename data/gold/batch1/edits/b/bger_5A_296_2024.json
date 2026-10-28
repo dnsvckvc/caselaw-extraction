@@ -1,0 +1,20 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "141 III 80",
+   "label": "BGE"
+  },
+  {
+   "text": "141 IV 289",
+   "label": "BGE"
+  },
+  {
+   "text": "147 III 81",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Added three BGE list items without the BGE word. All pre-annotations were correct."
+}

@@ -1,0 +1,37 @@
+{
+ "outcome": "partial_approval",
+ "delete": [
+  49,
+  51,
+  53,
+  54,
+  56,
+  57,
+  58,
+  59,
+  63,
+  66
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 5 Abs. 1 Ziff. 1 Vollstreckungsübereinkommen CH/FL",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 5 Abs. 1 Ziff. 1 Vollstreckungsabkommen CH/FL",
+   "label": "STATUTE",
+   "all": true
+  },
+  {
+   "text": "Art. 5 Abs. 1 Ziff. 2 Vollstreckungsabkommen CH/FL",
+   "label": "STATUTE",
+   "all": true
+  },
+  {
+   "text": "Art. 5 Abs. 1 Ziff. 2 Vollstreckungsabkommen FL/CH",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "The CH/FL enforcement treaty (SR 0.276.195.141) is a ratified treaty with an SR number; the court defines the short name 'Vollstreckungsabkommen CH/FL'. Labelled STATUTE with the short name inside (not CONTRACT_ARTICLE, not BARE_ARTICLE); unsettled because the short name is not a classic abbreviation. Liechtenstein acts given as titles (LR 173.30) stay BARE_ARTICLE. Liechtenstein file numbers (03 CG.2016.248, ON 5) left."
+}

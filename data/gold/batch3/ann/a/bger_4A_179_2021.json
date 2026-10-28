@@ -1,0 +1,451 @@
+{
+ "decision_id": "bger_4A_179_2021",
+ "task_index": 75,
+ "pass": "a",
+ "outcome": "approved",
+ "comment": "No span changes. Not labelled: 'Jahrbuch zum Strassenverkehrsrecht 2011, S. 111 ff.' (article in a yearbook, cited with in:). Guideline does not say whether a Jahrbuch counts as a journal for JOURNAL_REF.",
+ "spans": [
+  {
+   "start": 412,
+   "end": 430,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 506,
+   "end": 522,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1096,
+   "end": 1109,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 1207,
+   "end": 1222,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 40b Abs. 1"
+  },
+  {
+   "start": 1394,
+   "end": 1406,
+   "label": "STATUTE",
+   "text": "Art. 40c EBG"
+  },
+  {
+   "start": 2771,
+   "end": 2786,
+   "label": "BGE",
+   "text": "BGE 135 III 329"
+  },
+  {
+   "start": 2795,
+   "end": 2805,
+   "label": "BGE",
+   "text": "134 II 124"
+  },
+  {
+   "start": 3117,
+   "end": 3142,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3240,
+   "end": 3258,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 BGG"
+  },
+  {
+   "start": 3359,
+   "end": 3374,
+   "label": "BGE",
+   "text": "BGE 137 III 324"
+  },
+  {
+   "start": 3471,
+   "end": 3496,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3759,
+   "end": 3784,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4260,
+   "end": 4274,
+   "label": "BGE",
+   "text": "BGE 133 IV 288"
+  },
+  {
+   "start": 4291,
+   "end": 4302,
+   "label": "DOCKET",
+   "text": "4A_203/2019"
+  },
+  {
+   "start": 4346,
+   "end": 4361,
+   "label": "BGE",
+   "text": "BGE 146 III 254"
+  },
+  {
+   "start": 4364,
+   "end": 4375,
+   "label": "DOCKET",
+   "text": "4A_247/2012"
+  },
+  {
+   "start": 4452,
+   "end": 4477,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4988,
+   "end": 5013,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5282,
+   "end": 5301,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 5314,
+   "end": 5329,
+   "label": "BGE",
+   "text": "BGE 133 III 545"
+  },
+  {
+   "start": 5338,
+   "end": 5348,
+   "label": "BGE",
+   "text": "133 II 249"
+  },
+  {
+   "start": 5447,
+   "end": 5471,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 5709,
+   "end": 5727,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 6147,
+   "end": 6161,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 6168,
+   "end": 6171,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 6351,
+   "end": 6366,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 6373,
+   "end": 6383,
+   "label": "BGE",
+   "text": "133 II 396"
+  },
+  {
+   "start": 6514,
+   "end": 6533,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 6935,
+   "end": 6949,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7156,
+   "end": 7167,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 7177,
+   "end": 7196,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 7254,
+   "end": 7269,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 7276,
+   "end": 7279,
+   "label": "BGE",
+   "text": "264"
+  },
+  {
+   "start": 7386,
+   "end": 7404,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 7642,
+   "end": 7653,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 7668,
+   "end": 7682,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7959,
+   "end": 7973,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 8150,
+   "end": 8164,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 8191,
+   "end": 8210,
+   "label": "STATUTE",
+   "text": "Art. 40b Abs. 1 EBG"
+  },
+  {
+   "start": 8454,
+   "end": 8466,
+   "label": "STATUTE",
+   "text": "Art. 40c EBG"
+  },
+  {
+   "start": 9014,
+   "end": 9026,
+   "label": "STATUTE",
+   "text": "Art. 40c EBG"
+  },
+  {
+   "start": 9116,
+   "end": 9130,
+   "label": "BGE",
+   "text": "BGE 143 II 661"
+  },
+  {
+   "start": 9139,
+   "end": 9150,
+   "label": "BGE",
+   "text": "130 III 182"
+  },
+  {
+   "start": 9159,
+   "end": 9169,
+   "label": "BGE",
+   "text": "116 II 519"
+  },
+  {
+   "start": 9718,
+   "end": 9729,
+   "label": "DOCKET",
+   "text": "4A_131/2021"
+  },
+  {
+   "start": 9759,
+   "end": 9770,
+   "label": "DOCKET",
+   "text": "4A_602/2018"
+  },
+  {
+   "start": 10043,
+   "end": 10054,
+   "label": "DOCKET",
+   "text": "4A_602/2018"
+  },
+  {
+   "start": 10418,
+   "end": 10429,
+   "label": "DOCKET",
+   "text": "4A_602/2018"
+  },
+  {
+   "start": 10647,
+   "end": 10662,
+   "label": "BGE",
+   "text": "BGE 137 III 539"
+  },
+  {
+   "start": 10800,
+   "end": 10814,
+   "label": "BGE",
+   "text": "BGE 116 Ia 162"
+  },
+  {
+   "start": 10925,
+   "end": 10943,
+   "label": "STATUTE",
+   "text": "Art. 38 Abs. 1 SVG"
+  },
+  {
+   "start": 10954,
+   "end": 10979,
+   "label": "STATUTE",
+   "text": "Art. 47 Abs. 2 Satz 1 VRV"
+  },
+  {
+   "start": 12029,
+   "end": 12041,
+   "label": "STATUTE",
+   "text": "Art. 40c EBG"
+  },
+  {
+   "start": 12264,
+   "end": 12277,
+   "label": "BGE",
+   "text": "BGE 88 II 448"
+  },
+  {
+   "start": 13212,
+   "end": 13224,
+   "label": "STATUTE",
+   "text": "Art. 40c EBG"
+  },
+  {
+   "start": 17179,
+   "end": 17192,
+   "label": "BGE",
+   "text": "BGE 53 II 433"
+  },
+  {
+   "start": 18092,
+   "end": 18105,
+   "label": "BGE",
+   "text": "BGE 57 II 585"
+  },
+  {
+   "start": 18396,
+   "end": 18407,
+   "label": "DOCKET",
+   "text": "5C.142/2005"
+  },
+  {
+   "start": 18412,
+   "end": 18423,
+   "label": "DOCKET",
+   "text": "5P.219/2005"
+  },
+  {
+   "start": 19672,
+   "end": 19684,
+   "label": "STATUTE",
+   "text": "Art. 40c EBG"
+  },
+  {
+   "start": 19707,
+   "end": 19718,
+   "label": "DOCKET",
+   "text": "4A_131/2021"
+  },
+  {
+   "start": 20339,
+   "end": 20357,
+   "label": "STATUTE",
+   "text": "Art. 90 Abs. 2 SVG"
+  },
+  {
+   "start": 20462,
+   "end": 20473,
+   "label": "DOCKET",
+   "text": "8C_263/2013"
+  },
+  {
+   "start": 20517,
+   "end": 20530,
+   "label": "BGE",
+   "text": "BGE 118 V 305"
+  },
+  {
+   "start": 26344,
+   "end": 26356,
+   "label": "STATUTE",
+   "text": "Art. 40c EBG"
+  },
+  {
+   "start": 26509,
+   "end": 26528,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 26673,
+   "end": 26698,
+   "label": "STATUTE",
+   "text": "Art. 67 und 68 Abs. 5 BGG"
+  },
+  {
+   "start": 26806,
+   "end": 26824,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 27066,
+   "end": 27090,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 27186,
+   "end": 27204,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 2 BGG"
+  },
+  {
+   "start": 27385,
+   "end": 27425,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1,\nArt. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 28054,
+   "end": 28066,
+   "label": "AMOUNT",
+   "text": "Fr. 2'500.--"
+  },
+  {
+   "start": 28177,
+   "end": 28189,
+   "label": "AMOUNT",
+   "text": "Fr. 2'500.--"
+  }
+ ],
+ "n_pre": 73,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

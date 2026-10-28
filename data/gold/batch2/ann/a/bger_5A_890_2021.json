@@ -1,0 +1,295 @@
+{
+ "decision_id": "bger_5A_890_2021",
+ "task_index": 35,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "No changes. Beschwerde in Zivilsachen inadmissible but entertained as Verfassungsbeschwerde; dispositiv item 1 is abgewiesen.",
+ "spans": [
+  {
+   "start": 334,
+   "end": 350,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 418,
+   "end": 434,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 787,
+   "end": 803,
+   "label": "AMOUNT",
+   "text": "Fr. 2'216'000.--"
+  },
+  {
+   "start": 866,
+   "end": 879,
+   "label": "AMOUNT",
+   "text": "Fr. 80'000.--"
+  },
+  {
+   "start": 1081,
+   "end": 1095,
+   "label": "AMOUNT",
+   "text": "Fr. 220'000.--"
+  },
+  {
+   "start": 1175,
+   "end": 1187,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 1558,
+   "end": 1574,
+   "label": "AMOUNT",
+   "text": "Fr. 1'101'000.--"
+  },
+  {
+   "start": 2241,
+   "end": 2254,
+   "label": "AMOUNT",
+   "text": "Fr. 29'000.--"
+  },
+  {
+   "start": 3421,
+   "end": 3432,
+   "label": "DOCKET",
+   "text": "5A_126/2019"
+  },
+  {
+   "start": 3943,
+   "end": 3956,
+   "label": "AMOUNT",
+   "text": "Fr. 29'000.--"
+  },
+  {
+   "start": 5008,
+   "end": 5040,
+   "label": "STATUTE",
+   "text": "Art. 72,\nArt. 75 und\nArt. 90 BGG"
+  },
+  {
+   "start": 5128,
+   "end": 5141,
+   "label": "AMOUNT",
+   "text": "Fr. 29'000.--"
+  },
+  {
+   "start": 5195,
+   "end": 5208,
+   "label": "AMOUNT",
+   "text": "Fr. 89'000.--"
+  },
+  {
+   "start": 5345,
+   "end": 5370,
+   "label": "STATUTE",
+   "text": "Art. 51 Abs. 1 Bst. a BGG"
+  },
+  {
+   "start": 5427,
+   "end": 5440,
+   "label": "AMOUNT",
+   "text": "Fr. 29'000.--"
+  },
+  {
+   "start": 5816,
+   "end": 5828,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 5917,
+   "end": 5929,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 6044,
+   "end": 6057,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 6059,
+   "end": 6084,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 Bst. b BGG"
+  },
+  {
+   "start": 6212,
+   "end": 6237,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 Bst. a BGG"
+  },
+  {
+   "start": 6420,
+   "end": 6436,
+   "label": "STATUTE",
+   "text": "Art. 113 ff. BGG"
+  },
+  {
+   "start": 6559,
+   "end": 6571,
+   "label": "STATUTE",
+   "text": "Art. 115 BGG"
+  },
+  {
+   "start": 6625,
+   "end": 6660,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 6771,
+   "end": 6783,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 6825,
+   "end": 6860,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 7182,
+   "end": 7201,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 7515,
+   "end": 7529,
+   "label": "BGE",
+   "text": "BGE 133 II 396"
+  },
+  {
+   "start": 7546,
+   "end": 7556,
+   "label": "DOCKET",
+   "text": "5D_91/2020"
+  },
+  {
+   "start": 7585,
+   "end": 7596,
+   "label": "DOCKET",
+   "text": "5D_163/2019"
+  },
+  {
+   "start": 7770,
+   "end": 7789,
+   "label": "STATUTE",
+   "text": "Art. 118 Abs. 1 BGG"
+  },
+  {
+   "start": 7947,
+   "end": 7966,
+   "label": "STATUTE",
+   "text": "Art. 118 Abs. 2 BGG"
+  },
+  {
+   "start": 8021,
+   "end": 8030,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 8445,
+   "end": 8459,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 8468,
+   "end": 8477,
+   "label": "BGE",
+   "text": "117 Ia 10"
+  },
+  {
+   "start": 8623,
+   "end": 8636,
+   "label": "BGE",
+   "text": "BGE 143 I 321"
+  },
+  {
+   "start": 8646,
+   "end": 8654,
+   "label": "BGE",
+   "text": "141 I 49"
+  },
+  {
+   "start": 8664,
+   "end": 8673,
+   "label": "BGE",
+   "text": "134 I 140"
+  },
+  {
+   "start": 8809,
+   "end": 8822,
+   "label": "BGE",
+   "text": "BGE 145 II 32"
+  },
+  {
+   "start": 8832,
+   "end": 8839,
+   "label": "BGE",
+   "text": "137 I 1"
+  },
+  {
+   "start": 9505,
+   "end": 9519,
+   "label": "BGE",
+   "text": "BGE 144 III 81"
+  },
+  {
+   "start": 9690,
+   "end": 9701,
+   "label": "DOCKET",
+   "text": "4A_575/2009"
+  },
+  {
+   "start": 10003,
+   "end": 10016,
+   "label": "BGE",
+   "text": "BGE 99 II 268"
+  },
+  {
+   "start": 10214,
+   "end": 10230,
+   "label": "AMOUNT",
+   "text": "Fr. 2'216'000.--"
+  },
+  {
+   "start": 12310,
+   "end": 12324,
+   "label": "AMOUNT",
+   "text": "Fr. 220'000.--"
+  },
+  {
+   "start": 14496,
+   "end": 14514,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 14613,
+   "end": 14631,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 14767,
+   "end": 14779,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  }
+ ],
+ "n_pre": 47,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

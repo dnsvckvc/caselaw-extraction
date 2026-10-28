@@ -1,0 +1,79 @@
+{
+ "decision_id": "bger_5A_730_2026",
+ "task_index": 200,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "Item 1 only rejects the Vereinigung request (side request); item 2 'Auf die Beschwerde wird nicht eingetreten' -> inadmissible.",
+ "spans": [
+  {
+   "start": 251,
+   "end": 267,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 443,
+   "end": 459,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 2087,
+   "end": 2098,
+   "label": "STATUTE",
+   "text": "Art. 94 BGG"
+  },
+  {
+   "start": 3565,
+   "end": 3576,
+   "label": "DOCKET",
+   "text": "5A_796/2026"
+  },
+  {
+   "start": 4202,
+   "end": 4213,
+   "label": "DOCKET",
+   "text": "5A_796/2026"
+  },
+  {
+   "start": 5686,
+   "end": 5704,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 5840,
+   "end": 5872,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b und c BGG"
+  },
+  {
+   "start": 5963,
+   "end": 5981,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6132,
+   "end": 6150,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 6247,
+   "end": 6258,
+   "label": "DOCKET",
+   "text": "5A_796/2026"
+  },
+  {
+   "start": 6416,
+   "end": 6428,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 11,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

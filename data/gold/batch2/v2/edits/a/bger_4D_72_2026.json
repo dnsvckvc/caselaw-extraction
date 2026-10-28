@@ -1,0 +1,7 @@
+{
+  "outcome": "inadmissible",
+  "delete": [],
+  "relabel": [],
+  "add": [],
+  "comment": "No negative references. Cantonal file numbers (ZSU.2026.93, SR 2025.93 etc.) fit none of the nine classes and are left without span."
+}

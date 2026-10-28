@@ -1,0 +1,505 @@
+{
+ "decision_id": "bger_4A_41_2020",
+ "task_index": 3,
+ "pass": "a",
+ "outcome": "approved",
+ "comment": "Extended three statute chains; added two unlabelled URG chains (Art. 40/52 URG, Art. 46/55 URG); added three BGE list items. '264 E. 2.3' after 140 III 115 left unlabelled per second-page rule.",
+ "spans": [
+  {
+   "start": 493,
+   "end": 511,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 539,
+   "end": 557,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1669,
+   "end": 1679,
+   "label": "AMOUNT",
+   "text": "Fr. 205.00"
+  },
+  {
+   "start": 1732,
+   "end": 1742,
+   "label": "AMOUNT",
+   "text": "Fr. 153.75"
+  },
+  {
+   "start": 1794,
+   "end": 1804,
+   "label": "AMOUNT",
+   "text": "Fr. 102.50"
+  },
+  {
+   "start": 1856,
+   "end": 1865,
+   "label": "AMOUNT",
+   "text": "Fr. 51.25"
+  },
+  {
+   "start": 1917,
+   "end": 1927,
+   "label": "AMOUNT",
+   "text": "Fr. 102.50"
+  },
+  {
+   "start": 1979,
+   "end": 1988,
+   "label": "AMOUNT",
+   "text": "Fr. 51.25"
+  },
+  {
+   "start": 2040,
+   "end": 2050,
+   "label": "AMOUNT",
+   "text": "Fr. 102.50"
+  },
+  {
+   "start": 2102,
+   "end": 2111,
+   "label": "AMOUNT",
+   "text": "Fr. 51.25"
+  },
+  {
+   "start": 2162,
+   "end": 2171,
+   "label": "AMOUNT",
+   "text": "Fr. 87.15"
+  },
+  {
+   "start": 2223,
+   "end": 2232,
+   "label": "AMOUNT",
+   "text": "Fr. 71.75"
+  },
+  {
+   "start": 2491,
+   "end": 2501,
+   "label": "AMOUNT",
+   "text": "Fr. 978.90"
+  },
+  {
+   "start": 2761,
+   "end": 2771,
+   "label": "AMOUNT",
+   "text": "Fr. 512.50"
+  },
+  {
+   "start": 2793,
+   "end": 2803,
+   "label": "AMOUNT",
+   "text": "Fr. 153.75"
+  },
+  {
+   "start": 2825,
+   "end": 2835,
+   "label": "AMOUNT",
+   "text": "Fr. 153.75"
+  },
+  {
+   "start": 2860,
+   "end": 2870,
+   "label": "AMOUNT",
+   "text": "Fr. 158.90"
+  },
+  {
+   "start": 4544,
+   "end": 4554,
+   "label": "AMOUNT",
+   "text": "Fr. 978.90"
+  },
+  {
+   "start": 4944,
+   "end": 4962,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 4965,
+   "end": 4980,
+   "label": "BGE",
+   "text": "BGE 141 III 395"
+  },
+  {
+   "start": 5049,
+   "end": 5060,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 5116,
+   "end": 5127,
+   "label": "STATUTE",
+   "text": "Art. 72 BGG"
+  },
+  {
+   "start": 5182,
+   "end": 5193,
+   "label": "STATUTE",
+   "text": "Art. 76 BGG"
+  },
+  {
+   "start": 5260,
+   "end": 5284,
+   "label": "STATUTE",
+   "text": "Art. 5 Abs. 1 lit. a ZPO"
+  },
+  {
+   "start": 5292,
+   "end": 5317,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 5414,
+   "end": 5432,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 BGG"
+  },
+  {
+   "start": 5448,
+   "end": 5473,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 5499,
+   "end": 5511,
+   "label": "STATUTE",
+   "text": "Art. 100 BGG"
+  },
+  {
+   "start": 5602,
+   "end": 5640,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5718,
+   "end": 5737,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 6112,
+   "end": 6136,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 6455,
+   "end": 6470,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 6484,
+   "end": 6495,
+   "label": "BGE",
+   "text": "137 III 580"
+  },
+  {
+   "start": 6504,
+   "end": 6515,
+   "label": "BGE",
+   "text": "135 III 397"
+  },
+  {
+   "start": 6632,
+   "end": 6651,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 6871,
+   "end": 6885,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7077,
+   "end": 7088,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 7098,
+   "end": 7117,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 7179,
+   "end": 7193,
+   "label": "BGE",
+   "text": "BGE 143 IV 241"
+  },
+  {
+   "start": 7204,
+   "end": 7215,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 7346,
+   "end": 7364,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 7448,
+   "end": 7467,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 7470,
+   "end": 7485,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 7688,
+   "end": 7702,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7966,
+   "end": 7980,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 8157,
+   "end": 8175,
+   "label": "STATUTE",
+   "text": "Art. 59 Abs. 3 URG"
+  },
+  {
+   "start": 8244,
+   "end": 8262,
+   "label": "STATUTE",
+   "text": "Art. 51 Abs. 1 URG"
+  },
+  {
+   "start": 8625,
+   "end": 8635,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 8805,
+   "end": 8863,
+   "label": "STATUTE",
+   "text": "Art. 19 Abs. 1 lit. c in Verbindung mit\nArt. 20 Abs. 2 URG"
+  },
+  {
+   "start": 9153,
+   "end": 9171,
+   "label": "STATUTE",
+   "text": "Art. 19 Abs. 1 URG"
+  },
+  {
+   "start": 9340,
+   "end": 9365,
+   "label": "STATUTE",
+   "text": "Art. 19 Abs. 1 lit. c URG"
+  },
+  {
+   "start": 9452,
+   "end": 9470,
+   "label": "STATUTE",
+   "text": "Art. 20 Abs. 2 URG"
+  },
+  {
+   "start": 9599,
+   "end": 9614,
+   "label": "BGE",
+   "text": "BGE 125 III 141"
+  },
+  {
+   "start": 9795,
+   "end": 9813,
+   "label": "STATUTE",
+   "text": "Art. 20 Abs. 4 URG"
+  },
+  {
+   "start": 9909,
+   "end": 9950,
+   "label": "STATUTE",
+   "text": "Art. 40 Abs. 1 lit. b und\nArt. 52 ff. URG"
+  },
+  {
+   "start": 10008,
+   "end": 10038,
+   "label": "STATUTE",
+   "text": "Art. 46 f. und\nArt. 55 ff. URG"
+  },
+  {
+   "start": 10080,
+   "end": 10091,
+   "label": "STATUTE",
+   "text": "Art. 44 URG"
+  },
+  {
+   "start": 10296,
+   "end": 10320,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 und 2 URG"
+  },
+  {
+   "start": 10418,
+   "end": 10436,
+   "label": "STATUTE",
+   "text": "Art. 46 Abs. 1 URG"
+  },
+  {
+   "start": 10535,
+   "end": 10553,
+   "label": "STATUTE",
+   "text": "Art. 46 Abs. 2 URG"
+  },
+  {
+   "start": 10698,
+   "end": 10709,
+   "label": "STATUTE",
+   "text": "Art. 55 URG"
+  },
+  {
+   "start": 10788,
+   "end": 10806,
+   "label": "STATUTE",
+   "text": "Art. 46 Abs. 3 URG"
+  },
+  {
+   "start": 10817,
+   "end": 10835,
+   "label": "STATUTE",
+   "text": "Art. 59 Abs. 3 URG"
+  },
+  {
+   "start": 11878,
+   "end": 11892,
+   "label": "BGE",
+   "text": "BGE 140 II 483"
+  },
+  {
+   "start": 12187,
+   "end": 12198,
+   "label": "DOCKET",
+   "text": "4A_382/2019"
+  },
+  {
+   "start": 12336,
+   "end": 12347,
+   "label": "STATUTE",
+   "text": "Art. 51 URG"
+  },
+  {
+   "start": 12435,
+   "end": 12446,
+   "label": "STATUTE",
+   "text": "Art. 46 URG"
+  },
+  {
+   "start": 12530,
+   "end": 12541,
+   "label": "STATUTE",
+   "text": "Art. 46 URG"
+  },
+  {
+   "start": 13290,
+   "end": 13300,
+   "label": "AMOUNT",
+   "text": "CHF 100.00"
+  },
+  {
+   "start": 13354,
+   "end": 13365,
+   "label": "STATUTE",
+   "text": "Art. 51 URG"
+  },
+  {
+   "start": 14901,
+   "end": 14911,
+   "label": "AMOUNT",
+   "text": "CHF 100.00"
+  },
+  {
+   "start": 14947,
+   "end": 14958,
+   "label": "STATUTE",
+   "text": "Art. 51 URG"
+  },
+  {
+   "start": 16724,
+   "end": 16735,
+   "label": "STATUTE",
+   "text": "Art. 51 URG"
+  },
+  {
+   "start": 17563,
+   "end": 17574,
+   "label": "STATUTE",
+   "text": "Art. 51 URG"
+  },
+  {
+   "start": 17832,
+   "end": 17843,
+   "label": "STATUTE",
+   "text": "Art. 51 URG"
+  },
+  {
+   "start": 17881,
+   "end": 17892,
+   "label": "DOCKET",
+   "text": "4A_382/2019"
+  },
+  {
+   "start": 17938,
+   "end": 17949,
+   "label": "DOCKET",
+   "text": "4A_418/2007"
+  },
+  {
+   "start": 19676,
+   "end": 19686,
+   "label": "AMOUNT",
+   "text": "Fr. 978.90"
+  },
+  {
+   "start": 19885,
+   "end": 19922,
+   "label": "STATUTE",
+   "text": "Art. 67 und\nArt. 68 Abs. 5 Satz 2 BGG"
+  },
+  {
+   "start": 20153,
+   "end": 20163,
+   "label": "AMOUNT",
+   "text": "Fr. 978.90"
+  },
+  {
+   "start": 20442,
+   "end": 20454,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 20592,
+   "end": 20604,
+   "label": "AMOUNT",
+   "text": "Fr. 2'500.--"
+  }
+ ],
+ "n_pre": 77,
+ "n_deleted": 3,
+ "n_added": 8,
+ "n_relabeled": 0
+}

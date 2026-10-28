@@ -1,0 +1,12 @@
+{
+  "outcome": "moot",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "137 III 380",
+      "label": "BGE"
+    }
+  ],
+  "comment": "added BGE list item 137 III 380 missed by pre-annotator; SR 273 and cantonal KES.2023.44 not spans"
+}

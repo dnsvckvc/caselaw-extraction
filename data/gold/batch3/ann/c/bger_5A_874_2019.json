@@ -1,0 +1,307 @@
+{
+ "decision_id": "bger_5A_874_2019",
+ "task_index": 19,
+ "pass": "c",
+ "outcome": "approved",
+ "comment": "",
+ "spans": [
+  {
+   "start": 618,
+   "end": 634,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 705,
+   "end": 723,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1545,
+   "end": 1559,
+   "label": "AMOUNT",
+   "text": "4 Mio. Franken"
+  },
+  {
+   "start": 2460,
+   "end": 2470,
+   "label": "DOCKET",
+   "text": "5A_18/2016"
+  },
+  {
+   "start": 4008,
+   "end": 4031,
+   "label": "STATUTE",
+   "text": "Art. 75 und\nArt. 90 BGG"
+  },
+  {
+   "start": 4108,
+   "end": 4121,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 4137,
+   "end": 4217,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1,\nArt. 51 Abs. 1 lit. a und Abs. 4 sowie\nArt. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4274,
+   "end": 4292,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 4337,
+   "end": 4356,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 4382,
+   "end": 4397,
+   "label": "STATUTE",
+   "text": "Art. 72 ff. BGG"
+  },
+  {
+   "start": 4454,
+   "end": 4468,
+   "label": "BGE",
+   "text": "BGE 143 III 42"
+  },
+  {
+   "start": 4528,
+   "end": 4553,
+   "label": "STATUTE",
+   "text": "Art. 229 und\nArt. 317 ZPO"
+  },
+  {
+   "start": 6127,
+   "end": 6145,
+   "label": "STATUTE",
+   "text": "Art. 62 Abs. 1 ZPO"
+  },
+  {
+   "start": 6158,
+   "end": 6173,
+   "label": "BGE",
+   "text": "BGE 142 III 782"
+  },
+  {
+   "start": 6380,
+   "end": 6395,
+   "label": "BGE",
+   "text": "BGE 139 III 126"
+  },
+  {
+   "start": 6678,
+   "end": 6689,
+   "label": "DOCKET",
+   "text": "4A_255/2015"
+  },
+  {
+   "start": 6994,
+   "end": 7013,
+   "label": "STATUTE",
+   "text": "Art. 179 Abs. 1 ZGB"
+  },
+  {
+   "start": 7082,
+   "end": 7101,
+   "label": "STATUTE",
+   "text": "Art. 276 Abs. 1 ZPO"
+  },
+  {
+   "start": 7118,
+   "end": 7137,
+   "label": "STATUTE",
+   "text": "Art. 179 Abs. 1 ZGB"
+  },
+  {
+   "start": 7161,
+   "end": 7180,
+   "label": "STATUTE",
+   "text": "Art. 129 Abs. 1 ZGB"
+  },
+  {
+   "start": 7213,
+   "end": 7232,
+   "label": "STATUTE",
+   "text": "Art. 286 Abs. 2 ZGB"
+  },
+  {
+   "start": 7555,
+   "end": 7570,
+   "label": "BGE",
+   "text": "BGE 137 III 604"
+  },
+  {
+   "start": 7712,
+   "end": 7723,
+   "label": "DOCKET",
+   "text": "5A_760/2016"
+  },
+  {
+   "start": 7725,
+   "end": 7736,
+   "label": "DOCKET",
+   "text": "5A_925/2016"
+  },
+  {
+   "start": 7767,
+   "end": 7778,
+   "label": "DOCKET",
+   "text": "5A_762/2015"
+  },
+  {
+   "start": 8398,
+   "end": 8412,
+   "label": "BGE",
+   "text": "BGE 143 III 42"
+  },
+  {
+   "start": 8678,
+   "end": 8689,
+   "label": "DOCKET",
+   "text": "5A_154/2019"
+  },
+  {
+   "start": 8736,
+   "end": 8757,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2020 S. 180"
+  },
+  {
+   "start": 9477,
+   "end": 9488,
+   "label": "DOCKET",
+   "text": "5A_373/2015"
+  },
+  {
+   "start": 9534,
+   "end": 9555,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2016 S. 999"
+  },
+  {
+   "start": 10032,
+   "end": 10043,
+   "label": "DOCKET",
+   "text": "5A_745/2015"
+  },
+  {
+   "start": 10045,
+   "end": 10056,
+   "label": "DOCKET",
+   "text": "5A_755/2015"
+  },
+  {
+   "start": 10267,
+   "end": 10282,
+   "label": "BGE",
+   "text": "BGE 142 III 413"
+  },
+  {
+   "start": 10450,
+   "end": 10464,
+   "label": "BGE",
+   "text": "BGE 143 III 42"
+  },
+  {
+   "start": 12488,
+   "end": 12502,
+   "label": "BGE",
+   "text": "BGE 143 IV 214"
+  },
+  {
+   "start": 12513,
+   "end": 12524,
+   "label": "BGE",
+   "text": "135 III 334"
+  },
+  {
+   "start": 12542,
+   "end": 12552,
+   "label": "BGE",
+   "text": "131 III 91"
+  },
+  {
+   "start": 13679,
+   "end": 13693,
+   "label": "BGE",
+   "text": "BGE 143 III 42"
+  },
+  {
+   "start": 14301,
+   "end": 14315,
+   "label": "BGE",
+   "text": "BGE 115 II 187"
+  },
+  {
+   "start": 14335,
+   "end": 14350,
+   "label": "BGE",
+   "text": "BGE 145 III 143"
+  },
+  {
+   "start": 14359,
+   "end": 14370,
+   "label": "BGE",
+   "text": "140 III 278"
+  },
+  {
+   "start": 14379,
+   "end": 14390,
+   "label": "BGE",
+   "text": "139 III 126"
+  },
+  {
+   "start": 14421,
+   "end": 14431,
+   "label": "BGE",
+   "text": "116 II 738"
+  },
+  {
+   "start": 14446,
+   "end": 14457,
+   "label": "DOCKET",
+   "text": "4A_603/2011"
+  },
+  {
+   "start": 16481,
+   "end": 16511,
+   "label": "STATUTE",
+   "text": "Art. 67 und\nArt. 68 Abs. 5 BGG"
+  },
+  {
+   "start": 16627,
+   "end": 16645,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 16699,
+   "end": 16723,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 17144,
+   "end": 17156,
+   "label": "AMOUNT",
+   "text": "Fr. 8'000.--"
+  },
+  {
+   "start": 17290,
+   "end": 17303,
+   "label": "AMOUNT",
+   "text": "Fr. 10'000.--"
+  }
+ ],
+ "n_pre": 47,
+ "n_deleted": 0,
+ "n_added": 2,
+ "n_relabeled": 0
+}

@@ -1,0 +1,7 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "All pre-annotations confirmed; no change. Span 10 starts with 'Art 72' (no dot in source), kept as one chain."
+}

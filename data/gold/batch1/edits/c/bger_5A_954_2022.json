@@ -1,0 +1,26 @@
+{
+ "outcome": "approved",
+ "delete": [
+  32
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 66 Abs. 1 und Art. 68 Abs. 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 308 Abs. 1 und Abs. 2 ZGB",
+   "label": "STATUTE"
+  },
+  {
+   "text": "142 II 369",
+   "label": "BGE"
+  },
+  {
+   "text": "140 IIII 264",
+   "label": "BGE"
+  }
+ ],
+ "comment": "'140 IIII 264' is a typo in the source for BGE 140 III 264; labelled as a BGE list item."
+}

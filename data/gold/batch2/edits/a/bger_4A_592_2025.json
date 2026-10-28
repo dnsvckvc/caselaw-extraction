@@ -1,0 +1,13 @@
+{
+  "outcome": "inadmissible",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "137 III 324",
+      "label": "BGE",
+      "occurrence": 1
+    }
+  ],
+  "comment": "Added missed BGE list item '137 III 324' (first occurrence, after 'BGE 138 III 76 E. 1.2, 333 E. 1.2;'). '333 E. 1.2' and '346 E. 1.3.3' left unlabelled per second-page rule. 'Art. 19 des Bundesgesetzes ... (AVG; SR 823.11)' not labelled: no abbreviation directly after the article. 'Präsidialverfügung 4A_592/2025' is the decision's own number, not labelled."
+}

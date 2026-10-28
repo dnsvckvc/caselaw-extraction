@@ -1,0 +1,9 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {"text": "Art. 121 - 123 BGG", "label": "STATUTE"}
+  ],
+  "comment": "Added STATUTE range 'Art. 121 - 123 BGG' (E. 1, missed because of spaces around the dash and line breaks). #3 and later DOCKET 4A_251/2020 are the revised judgment, not this decision's own number (4F_1/2021), so kept. #52 '4A_252/2020' is a typo in the decision but still a docket form; kept."
+}

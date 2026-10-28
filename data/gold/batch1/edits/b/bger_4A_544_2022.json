@@ -1,0 +1,50 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  34,
+  42,
+  55
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "140 III 16",
+   "label": "BGE",
+   "occurrence": 4
+  },
+  {
+   "text": "135 II 356",
+   "label": "BGE"
+  },
+  {
+   "text": "137 III 226",
+   "label": "BGE"
+  },
+  {
+   "text": "136 III 552",
+   "label": "BGE"
+  },
+  {
+   "text": "134 II 244",
+   "label": "BGE",
+   "occurrence": 2
+  },
+  {
+   "text": "122 III 53",
+   "label": "BGE"
+  },
+  {
+   "text": "Art. 404 Abs. 2 i.V.m. Art. 42 Abs. 1 OR",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 55-56 und Art. 152 ZPO",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 66 Abs. 1 und Art. 68 Abs. 1 und 2 BGG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Extended three chains cut short (Art. 404 Abs. 2 i.V.m. Art. 42 Abs. 1 OR; Art. 55-56 und Art. 152 ZPO; Art. 66 Abs. 1 und Art. 68 Abs. 1 und 2 BGG). Added six BGE list items without the BGE word."
+}

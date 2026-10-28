@@ -1,0 +1,127 @@
+{
+ "decision_id": "bger_4D_222_2025",
+ "task_index": 78,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 265,
+   "end": 281,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 442,
+   "end": 458,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1397,
+   "end": 1414,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BV"
+  },
+  {
+   "start": 1419,
+   "end": 1438,
+   "label": "STATUTE",
+   "text": "Art. 6 Ziff. 1 EMRK"
+  },
+  {
+   "start": 2375,
+   "end": 2386,
+   "label": "STATUTE",
+   "text": "Art. 72 BGG"
+  },
+  {
+   "start": 2434,
+   "end": 2450,
+   "label": "STATUTE",
+   "text": "Art. 113 ff. BGG"
+  },
+  {
+   "start": 2481,
+   "end": 2492,
+   "label": "DOCKET",
+   "text": "5A_372/2024"
+  },
+  {
+   "start": 2516,
+   "end": 2527,
+   "label": "DOCKET",
+   "text": "5A_393/2012"
+  },
+  {
+   "start": 2799,
+   "end": 2810,
+   "label": "DOCKET",
+   "text": "5A_393/2012"
+  },
+  {
+   "start": 2855,
+   "end": 2866,
+   "label": "STATUTE",
+   "text": "Art. 94 BGG"
+  },
+  {
+   "start": 3213,
+   "end": 3224,
+   "label": "DOCKET",
+   "text": "4A_400/2022"
+  },
+  {
+   "start": 3255,
+   "end": 3266,
+   "label": "DOCKET",
+   "text": "5A_393/2012"
+  },
+  {
+   "start": 3485,
+   "end": 3516,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 und\nArt. 113 BGG"
+  },
+  {
+   "start": 3656,
+   "end": 3674,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 4172,
+   "end": 4183,
+   "label": "DOCKET",
+   "text": "4A_571/2013"
+  },
+  {
+   "start": 4640,
+   "end": 4666,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 5034,
+   "end": 5052,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5104,
+   "end": 5115,
+   "label": "STATUTE",
+   "text": "Art. 68 BGG"
+  },
+  {
+   "start": 5413,
+   "end": 5423,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 19,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

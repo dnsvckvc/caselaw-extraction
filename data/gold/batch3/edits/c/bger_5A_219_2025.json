@@ -1,0 +1,7 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "#2 Beschwerdegegnerin 2 appears in the representation line of party 1 inside the header; kept as PARTY_ROLE of party 2, the final role line is the collective Beschwerdegegner."
+}

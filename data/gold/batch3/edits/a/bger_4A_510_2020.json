@@ -1,0 +1,23 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  38
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 109 Abs. 2 i.V.m. Art. 106 - 108 ZPO",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 106 - 108 ZPO",
+   "label": "STATUTE",
+   "occurrence": 2
+  },
+  {
+   "text": "Artikeln 106 - 108 ZPO",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Pre-annotator cut the i.V.m. chain and marked Art. 109 Abs. 2 as BARE_ARTICLE; replaced with the full chain as one STATUTE span. Added the two further missed range citations Art./Artikeln 106 - 108 ZPO."
+}

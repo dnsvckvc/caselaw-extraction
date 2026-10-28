@@ -1,0 +1,12 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Ziff. 9 des Mortgage Loan Agreement",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "Kept #22 \"Ziff. 6 der AGB\" although the instrument name continues \"fuer Hypothekarkredite\" (guideline example stops at AGB). Added the one abbreviated \"Ziff. 9 des Mortgage Loan Agreement\". Spelled-out forms \"Ziffer 9 des Vertrags\", \"Ziffer 13 der AGB fuer Hypothekarkredite\", \"Ziffer 9 des Mortgage Loan Agreement\", \"Ziffer 4 des Vertrags\", \"Ziffer 9 des besagten Vertrags\" (about 10 occurrences) left unmarked: guideline triggers are Art./Ziff./§ only. Guideline gap."
+}

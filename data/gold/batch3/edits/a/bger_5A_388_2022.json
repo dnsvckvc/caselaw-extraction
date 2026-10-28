@@ -1,0 +1,24 @@
+{
+ "outcome": "partial_approval",
+ "delete": [
+  43,
+  44,
+  49
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 314 Abs. 1 i.V.m Art. 446 Abs. 1 ZGB",
+   "label": "STATUTE"
+  },
+  {
+   "text": "FamPra.ch 2007, S. 725",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "123 III 35",
+   "label": "BGE"
+  }
+ ],
+ "comment": "#43/#44: i.V.m chain (written without final dot) shares ZGB, merged into one STATUTE span; #49 extended to the first page (comma inside); added BGE list item 123 III 35 after und"
+}

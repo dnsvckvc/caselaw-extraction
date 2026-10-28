@@ -1,0 +1,7 @@
+{
+ "keep": [
+  "b1",
+  "b2"
+ ],
+ "comment": "A bare `mit` is not a listed chain joiner; two spans."
+}

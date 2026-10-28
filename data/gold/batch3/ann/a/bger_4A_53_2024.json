@@ -1,0 +1,529 @@
+{
+ "decision_id": "bger_4A_53_2024",
+ "task_index": 129,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "#53-55, #56, #67-70: abbreviation is AGB-D, spans extended to include -D (3x Ziffer 8 AGB-D, 5x Ziffer 8.2 AGB-D). Added 2x Ziffer. 8.2 AGB-D (typo dot after Ziffer, still a clause reference). #62: Verordnung with SR number [AVV; SR 823.111] is an act, relabelled by delete+add to BARE_ARTICLE Art. 26 Abs. 1. Added 10x Ziffer 14 Anlage 1 (2 of them with des Rahmenvertrags) as CONTRACT_ARTICLE: clause of the annex to the Rahmenvertrag, parallel to Ziffer 8 AGB-D; not pre-annotated. Ziffer 4 / Ziffer 14 / Ziffer 8 with the instrument named only before the number (umschreibt in Ziffer 4, Anlage 1 ... in Ziffer 14, AGB-D in Ziffer 8): no span. Clause numbers 8.1/8.2 inside the quoted AGB text: labels, no span. #41 Art. 105 Abs. 1 ZPO (court probably meant BGG) kept as written. ZB.2022.27 cantonal, SR numbers: no span.",
+ "spans": [
+  {
+   "start": 642,
+   "end": 660,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 744,
+   "end": 762,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 2774,
+   "end": 2785,
+   "label": "AMOUNT",
+   "text": "CHF 20 Mio."
+  },
+  {
+   "start": 2808,
+   "end": 2819,
+   "label": "AMOUNT",
+   "text": "CHF 40 Mio."
+  },
+  {
+   "start": 4462,
+   "end": 4475,
+   "label": "AMOUNT",
+   "text": "Fr. 32'671.75"
+  },
+  {
+   "start": 4501,
+   "end": 4513,
+   "label": "AMOUNT",
+   "text": "Fr. 7'910.50"
+  },
+  {
+   "start": 4538,
+   "end": 4548,
+   "label": "AMOUNT",
+   "text": "Fr. 700.10"
+  },
+  {
+   "start": 4573,
+   "end": 4585,
+   "label": "AMOUNT",
+   "text": "Fr. 1'024.05"
+  },
+  {
+   "start": 4613,
+   "end": 4625,
+   "label": "AMOUNT",
+   "text": "Fr. 3'037.10"
+  },
+  {
+   "start": 4653,
+   "end": 4666,
+   "label": "AMOUNT",
+   "text": "Fr. 20'000.--"
+  },
+  {
+   "start": 5868,
+   "end": 5886,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 5889,
+   "end": 5904,
+   "label": "BGE",
+   "text": "BGE 149 III 277"
+  },
+  {
+   "start": 5913,
+   "end": 5923,
+   "label": "BGE",
+   "text": "148 IV 155"
+  },
+  {
+   "start": 5932,
+   "end": 5942,
+   "label": "BGE",
+   "text": "145 II 168"
+  },
+  {
+   "start": 5990,
+   "end": 6001,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 6201,
+   "end": 6219,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 6255,
+   "end": 6268,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 6271,
+   "end": 6296,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 6389,
+   "end": 6407,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 6449,
+   "end": 6468,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 6586,
+   "end": 6604,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 6899,
+   "end": 6918,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 6921,
+   "end": 6936,
+   "label": "BGE",
+   "text": "BGE 134 III 379"
+  },
+  {
+   "start": 6945,
+   "end": 6956,
+   "label": "BGE",
+   "text": "133 III 489"
+  },
+  {
+   "start": 7383,
+   "end": 7398,
+   "label": "BGE",
+   "text": "BGE 143 III 111"
+  },
+  {
+   "start": 7407,
+   "end": 7418,
+   "label": "BGE",
+   "text": "134 III 235"
+  },
+  {
+   "start": 7647,
+   "end": 7658,
+   "label": "DOCKET",
+   "text": "4A_358/2022"
+  },
+  {
+   "start": 7687,
+   "end": 7698,
+   "label": "DOCKET",
+   "text": "4A_288/2019"
+  },
+  {
+   "start": 7730,
+   "end": 7742,
+   "label": "DOCKET",
+   "text": "5A_1048/2017"
+  },
+  {
+   "start": 7897,
+   "end": 7910,
+   "label": "AMOUNT",
+   "text": "Fr. 32'671.75"
+  },
+  {
+   "start": 8086,
+   "end": 8124,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 8233,
+   "end": 8256,
+   "label": "STATUTE",
+   "text": "Art. 95 und\nArt. 96 BGG"
+  },
+  {
+   "start": 8366,
+   "end": 8381,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 8388,
+   "end": 8398,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 8515,
+   "end": 8533,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 9005,
+   "end": 9020,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 9027,
+   "end": 9029,
+   "label": "BGE",
+   "text": "86"
+  },
+  {
+   "start": 9292,
+   "end": 9311,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 9403,
+   "end": 9412,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 9622,
+   "end": 9637,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 10000,
+   "end": 10019,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 ZPO"
+  },
+  {
+   "start": 10022,
+   "end": 10036,
+   "label": "BGE",
+   "text": "BGE 144 III 93"
+  },
+  {
+   "start": 10309,
+   "end": 10324,
+   "label": "BGE",
+   "text": "BGE 147 III 107"
+  },
+  {
+   "start": 10335,
+   "end": 10346,
+   "label": "BGE",
+   "text": "142 III 239"
+  },
+  {
+   "start": 10357,
+   "end": 10368,
+   "label": "BGE",
+   "text": "140 III 134"
+  },
+  {
+   "start": 10566,
+   "end": 10576,
+   "label": "DOCKET",
+   "text": "4A_50/2021"
+  },
+  {
+   "start": 10625,
+   "end": 10640,
+   "label": "BGE",
+   "text": "BGE 147 III 475"
+  },
+  {
+   "start": 10643,
+   "end": 10653,
+   "label": "DOCKET",
+   "text": "4A_73/2014"
+  },
+  {
+   "start": 10698,
+   "end": 10713,
+   "label": "BGE",
+   "text": "BGE 140 III 312"
+  },
+  {
+   "start": 10978,
+   "end": 10992,
+   "label": "BGE",
+   "text": "BGE 148 III 57"
+  },
+  {
+   "start": 11005,
+   "end": 11015,
+   "label": "BGE",
+   "text": "144 III 93"
+  },
+  {
+   "start": 11026,
+   "end": 11036,
+   "label": "BGE",
+   "text": "133 III 61"
+  },
+  {
+   "start": 11108,
+   "end": 11145,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 14 Anlage 1 des Rahmenvertrags"
+  },
+  {
+   "start": 11150,
+   "end": 11164,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 8 AGB-D"
+  },
+  {
+   "start": 11330,
+   "end": 11348,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 14 Anlage 1"
+  },
+  {
+   "start": 11349,
+   "end": 11363,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 8 AGB-D"
+  },
+  {
+   "start": 11451,
+   "end": 11469,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 14 Anlage 1"
+  },
+  {
+   "start": 11840,
+   "end": 11858,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 14 Anlage 1"
+  },
+  {
+   "start": 12078,
+   "end": 12092,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 8 AGB-D"
+  },
+  {
+   "start": 13721,
+   "end": 13737,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 8.2 AGB-D"
+  },
+  {
+   "start": 13893,
+   "end": 13904,
+   "label": "DOCKET",
+   "text": "2C_356/2012"
+  },
+  {
+   "start": 14366,
+   "end": 14377,
+   "label": "DOCKET",
+   "text": "2C_356/2012"
+  },
+  {
+   "start": 14789,
+   "end": 14803,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 22 Abs. 1"
+  },
+  {
+   "start": 15302,
+   "end": 15313,
+   "label": "DOCKET",
+   "text": "2C_356/2012"
+  },
+  {
+   "start": 15438,
+   "end": 15449,
+   "label": "STATUTE",
+   "text": "Art. 22 AVG"
+  },
+  {
+   "start": 15577,
+   "end": 15591,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 26 Abs. 1"
+  },
+  {
+   "start": 15730,
+   "end": 15744,
+   "label": "BGE",
+   "text": "BGE 148 II 203"
+  },
+  {
+   "start": 15762,
+   "end": 15773,
+   "label": "DOCKET",
+   "text": "4A_134/2022"
+  },
+  {
+   "start": 16201,
+   "end": 16212,
+   "label": "STATUTE",
+   "text": "Art. 101 OR"
+  },
+  {
+   "start": 16231,
+   "end": 16241,
+   "label": "STATUTE",
+   "text": "Art. 55 OR"
+  },
+  {
+   "start": 16352,
+   "end": 16389,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 14 Anlage 1 des Rahmenvertrags"
+  },
+  {
+   "start": 16897,
+   "end": 16913,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 8.2 AGB-D"
+  },
+  {
+   "start": 17271,
+   "end": 17289,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 14 Anlage 1"
+  },
+  {
+   "start": 17294,
+   "end": 17310,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 8.2 AGB-D"
+  },
+  {
+   "start": 17678,
+   "end": 17696,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 14 Anlage 1"
+  },
+  {
+   "start": 17766,
+   "end": 17783,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer. 8.2 AGB-D"
+  },
+  {
+   "start": 17932,
+   "end": 17948,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 8.2 AGB-D"
+  },
+  {
+   "start": 18233,
+   "end": 18251,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 14 Anlage 1"
+  },
+  {
+   "start": 18280,
+   "end": 18296,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 8.2 AGB-D"
+  },
+  {
+   "start": 18596,
+   "end": 18614,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 14 Anlage 1"
+  },
+  {
+   "start": 18694,
+   "end": 18711,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer. 8.2 AGB-D"
+  },
+  {
+   "start": 18843,
+   "end": 18871,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 4 des Rahmenvertrages"
+  },
+  {
+   "start": 19109,
+   "end": 19127,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 14 Anlage 1"
+  },
+  {
+   "start": 19706,
+   "end": 19743,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 19843,
+   "end": 19855,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 19991,
+   "end": 20003,
+   "label": "AMOUNT",
+   "text": "Fr. 2'500.--"
+  }
+ ],
+ "n_pre": 74,
+ "n_deleted": 9,
+ "n_added": 21,
+ "n_relabeled": 0
+}

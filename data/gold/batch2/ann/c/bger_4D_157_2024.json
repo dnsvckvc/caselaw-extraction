@@ -1,0 +1,163 @@
+{
+ "decision_id": "bger_4D_157_2024",
+ "task_index": 67,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 299,
+   "end": 315,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 385,
+   "end": 401,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 766,
+   "end": 778,
+   "label": "AMOUNT",
+   "text": "Fr. 4'591.--"
+  },
+  {
+   "start": 1647,
+   "end": 1674,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 90 BGG"
+  },
+  {
+   "start": 1711,
+   "end": 1745,
+   "label": "STATUTE",
+   "text": "Art. 114 i.V.m.\nArt. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 1798,
+   "end": 1823,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 1992,
+   "end": 2017,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 2091,
+   "end": 2103,
+   "label": "STATUTE",
+   "text": "Art. 113 BGG"
+  },
+  {
+   "start": 2231,
+   "end": 2243,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 2425,
+   "end": 2460,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2638,
+   "end": 2653,
+   "label": "BGE",
+   "text": "BGE 135 III 232"
+  },
+  {
+   "start": 2662,
+   "end": 2670,
+   "label": "BGE",
+   "text": "134 I 83"
+  },
+  {
+   "start": 2874,
+   "end": 2888,
+   "label": "BGE",
+   "text": "BGE 134 II 349"
+  },
+  {
+   "start": 3287,
+   "end": 3302,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 3311,
+   "end": 3321,
+   "label": "BGE",
+   "text": "140 III 16"
+  },
+  {
+   "start": 3458,
+   "end": 3471,
+   "label": "BGE",
+   "text": "BGE 146 IV 88"
+  },
+  {
+   "start": 5027,
+   "end": 5041,
+   "label": "BGE",
+   "text": "BGE 146 III 73"
+  },
+  {
+   "start": 5730,
+   "end": 5741,
+   "label": "DOCKET",
+   "text": "4A_332/2018"
+  },
+  {
+   "start": 7266,
+   "end": 7278,
+   "label": "STATUTE",
+   "text": "Art. 320 ZPO"
+  },
+  {
+   "start": 7481,
+   "end": 7493,
+   "label": "STATUTE",
+   "text": "Art. 320 ZPO"
+  },
+  {
+   "start": 7925,
+   "end": 7944,
+   "label": "STATUTE",
+   "text": "Art. 326 Abs. 1 ZPO"
+  },
+  {
+   "start": 7983,
+   "end": 7995,
+   "label": "STATUTE",
+   "text": "Art. 317 ZPO"
+  },
+  {
+   "start": 8153,
+   "end": 8190,
+   "label": "STATUTE",
+   "text": "Art. 109 Abs. 1 und Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 8424,
+   "end": 8447,
+   "label": "STATUTE",
+   "text": "Art. 66 und\nArt. 68 BGG"
+  },
+  {
+   "start": 8606,
+   "end": 8618,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 24,
+ "n_deleted": 0,
+ "n_added": 1,
+ "n_relabeled": 0
+}

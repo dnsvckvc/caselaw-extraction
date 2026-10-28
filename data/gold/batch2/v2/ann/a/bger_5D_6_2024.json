@@ -1,0 +1,247 @@
+{
+ "decision_id": "bger_5D_6_2024",
+ "task_index": 58,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "no negative references in this decision",
+ "spans": [
+  {
+   "start": 380,
+   "end": 396,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 475,
+   "end": 491,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1779,
+   "end": 1792,
+   "label": "AMOUNT",
+   "text": "Fr. 16'500.--"
+  },
+  {
+   "start": 1898,
+   "end": 1911,
+   "label": "AMOUNT",
+   "text": "Fr. 31'877.85"
+  },
+  {
+   "start": 2428,
+   "end": 2440,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 2496,
+   "end": 2508,
+   "label": "AMOUNT",
+   "text": "Fr. 2'795.25"
+  },
+  {
+   "start": 3204,
+   "end": 3214,
+   "label": "DOCKET",
+   "text": "4A_13/2019"
+  },
+  {
+   "start": 3216,
+   "end": 3226,
+   "label": "DOCKET",
+   "text": "5D_56/2017"
+  },
+  {
+   "start": 3231,
+   "end": 3240,
+   "label": "DOCKET",
+   "text": "5D_6/2023"
+  },
+  {
+   "start": 3397,
+   "end": 3407,
+   "label": "DOCKET",
+   "text": "4A_13/2019"
+  },
+  {
+   "start": 3761,
+   "end": 3771,
+   "label": "DOCKET",
+   "text": "5D_56/2017"
+  },
+  {
+   "start": 3860,
+   "end": 3869,
+   "label": "DOCKET",
+   "text": "5D_6/2023"
+  },
+  {
+   "start": 4283,
+   "end": 4301,
+   "label": "STATUTE",
+   "text": "Art. 34 Abs. 2 BGG"
+  },
+  {
+   "start": 4430,
+   "end": 4439,
+   "label": "DOCKET",
+   "text": "5D_6/2023"
+  },
+  {
+   "start": 4596,
+   "end": 4605,
+   "label": "DOCKET",
+   "text": "5D_6/2023"
+  },
+  {
+   "start": 4799,
+   "end": 4811,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 4914,
+   "end": 4979,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1, Art. 74 Abs. 1 lit. b, 75 Abs. 1 und\nArt. 113 BGG"
+  },
+  {
+   "start": 5075,
+   "end": 5088,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 5263,
+   "end": 5276,
+   "label": "BGE",
+   "text": "BGE 134 I 159"
+  },
+  {
+   "start": 5285,
+   "end": 5295,
+   "label": "BGE",
+   "text": "138 III 94"
+  },
+  {
+   "start": 5422,
+   "end": 5434,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 5474,
+   "end": 5509,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 i.V.m.\nArt. 117 BGG"
+  },
+  {
+   "start": 5759,
+   "end": 5774,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 5783,
+   "end": 5794,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 7075,
+   "end": 7094,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 ZPO"
+  },
+  {
+   "start": 7216,
+   "end": 7242,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 1 lit. f ZPO"
+  },
+  {
+   "start": 9538,
+   "end": 9557,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 ZPO"
+  },
+  {
+   "start": 9728,
+   "end": 9745,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 10061,
+   "end": 10075,
+   "label": "BGE",
+   "text": "BGE 141 III 28"
+  },
+  {
+   "start": 10086,
+   "end": 10097,
+   "label": "BGE",
+   "text": "142 III 433"
+  },
+  {
+   "start": 10108,
+   "end": 10118,
+   "label": "BGE",
+   "text": "143 III 65"
+  },
+  {
+   "start": 12562,
+   "end": 12574,
+   "label": "STATUTE",
+   "text": "Art. 684 ZGB"
+  },
+  {
+   "start": 12632,
+   "end": 12646,
+   "label": "BGE",
+   "text": "BGE 132 III 49"
+  },
+  {
+   "start": 12663,
+   "end": 12674,
+   "label": "DOCKET",
+   "text": "5A_884/2012"
+  },
+  {
+   "start": 12700,
+   "end": 12710,
+   "label": "DOCKET",
+   "text": "5D_91/2020"
+  },
+  {
+   "start": 12755,
+   "end": 12765,
+   "label": "DOCKET",
+   "text": "5A_47/2016"
+  },
+  {
+   "start": 13056,
+   "end": 13075,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 ZPO"
+  },
+  {
+   "start": 13364,
+   "end": 13388,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 5 BGG"
+  },
+  {
+   "start": 13727,
+   "end": 13739,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 39,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

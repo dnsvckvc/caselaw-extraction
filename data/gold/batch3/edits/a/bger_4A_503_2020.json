@@ -1,0 +1,18 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  35
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "123 III 35",
+   "label": "BGE"
+  },
+  {
+   "text": "ZBJV 1995, S. 241",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Added missed BGE list item 123 III 35. Extended JOURNAL_REF ZBJV 1995 to include the first page after the comma (ZBJV 1995, S. 241), as in the MRA 2014, S. 90 example."
+}

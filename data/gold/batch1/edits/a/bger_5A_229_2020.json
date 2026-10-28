@@ -1,0 +1,16 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "137 III 424",
+   "label": "BGE"
+  },
+  {
+   "text": "138 IV 81",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Pre-annotated outcome 'moot' was wrong: it came from item 2.1 (legal aid, gegenstandslos), which never counts. Item 1 has no keyword: the Verfuegung is 'aufgehoben' and the case 'zurueckgewiesen' (Art. 112 Abs. 3 BGG). The appellant asked for exactly this, so I set approved. Flag for review if the project wants a different value for annul-and-remand without 'gutgeheissen'. Added two BGE list items."
+}

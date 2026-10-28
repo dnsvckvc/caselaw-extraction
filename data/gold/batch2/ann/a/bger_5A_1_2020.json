@@ -1,0 +1,151 @@
+{
+ "decision_id": "bger_5A_1_2020",
+ "task_index": 2,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "No changes.",
+ "spans": [
+  {
+   "start": 293,
+   "end": 311,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 859,
+   "end": 872,
+   "label": "AMOUNT",
+   "text": "Fr. 39'000.--"
+  },
+  {
+   "start": 2396,
+   "end": 2414,
+   "label": "STATUTE",
+   "text": "Art. 47 Abs. 1 BGG"
+  },
+  {
+   "start": 2694,
+   "end": 2760,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 2 lit. c,\nArt. 75,\nArt. 90 BGG"
+  },
+  {
+   "start": 2852,
+   "end": 2929,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 2 lit. a i.V.m. Art. 46 Abs. 1 lit. c i.V.m.\nArt. 45 Abs. 1 BGG"
+  },
+  {
+   "start": 3194,
+   "end": 3212,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3551,
+   "end": 3565,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 3581,
+   "end": 3592,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 3857,
+   "end": 3878,
+   "label": "STATUTE",
+   "text": "Art. 56 Ziff. 2 SchKG"
+  },
+  {
+   "start": 3968,
+   "end": 3981,
+   "label": "STATUTE",
+   "text": "Art. 56 SchKG"
+  },
+  {
+   "start": 4230,
+   "end": 4243,
+   "label": "STATUTE",
+   "text": "Art. 56 SchKG"
+  },
+  {
+   "start": 4560,
+   "end": 4573,
+   "label": "BGE",
+   "text": "BGE 117 III 4"
+  },
+  {
+   "start": 4585,
+   "end": 4594,
+   "label": "BGE",
+   "text": "115 III 6"
+  },
+  {
+   "start": 4610,
+   "end": 4620,
+   "label": "BGE",
+   "text": "115 III 11"
+  },
+  {
+   "start": 4645,
+   "end": 4656,
+   "label": "DOCKET",
+   "text": "5A_166/2013"
+  },
+  {
+   "start": 4684,
+   "end": 4695,
+   "label": "DOCKET",
+   "text": "5A_448/2011"
+  },
+  {
+   "start": 5295,
+   "end": 5308,
+   "label": "STATUTE",
+   "text": "Art. 15 SchKG"
+  },
+  {
+   "start": 6257,
+   "end": 6285,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 4 Ziff. 2 SchKG"
+  },
+  {
+   "start": 6542,
+   "end": 6555,
+   "label": "STATUTE",
+   "text": "Art. 17 SchKG"
+  },
+  {
+   "start": 6839,
+   "end": 6856,
+   "label": "STATUTE",
+   "text": "Art. 17 ff. SchKG"
+  },
+  {
+   "start": 7128,
+   "end": 7146,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 7270,
+   "end": 7288,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 7424,
+   "end": 7436,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 23,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

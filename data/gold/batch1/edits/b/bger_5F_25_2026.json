@@ -1,0 +1,16 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 121 ff. BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "149 III 93",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Added Art. 121 ff. BGG and BGE list item 149 III 93. Item 1 dismisses the revision request; item 2 (Fristwiederherstellung) is inadmissible but item 1 counts."
+}

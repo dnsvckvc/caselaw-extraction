@@ -1,0 +1,85 @@
+{
+ "decision_id": "bger_5A_415_2023",
+ "task_index": 96,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "All 12 pre-annotations correct. 3H 23 17 cantonal, no span.",
+ "spans": [
+  {
+   "start": 249,
+   "end": 265,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 917,
+   "end": 970,
+   "label": "STATUTE",
+   "text": "Art. 394 Abs. 1 und 3 sowie\nArt. 395 Abs. 1 und 3 ZGB"
+  },
+  {
+   "start": 1617,
+   "end": 1636,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 1763,
+   "end": 1801,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2012,
+   "end": 2027,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 2036,
+   "end": 2044,
+   "label": "BGE",
+   "text": "144 V 50"
+  },
+  {
+   "start": 2053,
+   "end": 2062,
+   "label": "BGE",
+   "text": "145 II 32"
+  },
+  {
+   "start": 2246,
+   "end": 2264,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2343,
+   "end": 2358,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 2365,
+   "end": 2376,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4992,
+   "end": 5018,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5117,
+   "end": 5135,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  }
+ ],
+ "n_pre": 12,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

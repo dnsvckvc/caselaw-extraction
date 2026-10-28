@@ -1,0 +1,21 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 319 ff. ZPO",
+   "label": "STATUTE",
+   "all": true
+  },
+  {
+   "text": "Art. 117 GOG/ZH",
+   "label": "STATUTE"
+  },
+  {
+   "text": "135 III 397",
+   "label": "BGE"
+  }
+ ],
+ "comment": "#3 and #64 'Fr. 0.00' are followed by a stray '.--'/'.-' in a quoted request; kept as pre-annotated. #2 Beschwerdegegner is the Obergericht, kept as header role."
+}

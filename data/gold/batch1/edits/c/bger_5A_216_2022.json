@@ -1,0 +1,43 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  20,
+  40
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "129 I 129",
+   "label": "BGE"
+  },
+  {
+   "text": "Art. 95 f. BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 97 Abs. 1 und Art. 105 Abs. 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "141 IV 317",
+   "label": "BGE"
+  },
+  {
+   "text": "140 III 264",
+   "label": "BGE",
+   "occurrence": 3
+  },
+  {
+   "text": "Art. 450 ff. ZGB",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 117 ff. ZPO",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 95 f. und Art. 106 Abs. 1 BGG",
+   "label": "STATUTE"
+  }
+ ]
+}

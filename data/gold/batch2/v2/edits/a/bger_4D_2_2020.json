@@ -1,0 +1,7 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "No negative references. \"SIA-Bestimmungen\" and \"Reglement der Stockwerkeigentuemergemeinschaft\" are instrument names without clause numbers, not spans."
+}

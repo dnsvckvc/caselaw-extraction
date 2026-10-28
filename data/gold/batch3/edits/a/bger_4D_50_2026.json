@@ -1,0 +1,12 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 66 Abs. 1 BGG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Added STATUTE Art. 66 Abs. 1 BGG written as vonArt. 66 Abs. 1 BGG (missing space typo; span starts inside the token). SB.2025.797 and BEZ.2026.17 are cantonal file numbers (no span)."
+}

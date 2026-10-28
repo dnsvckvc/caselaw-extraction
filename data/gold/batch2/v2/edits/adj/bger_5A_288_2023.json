@@ -1,0 +1,16 @@
+{
+ "keep": [],
+ "add": [
+  {
+   "text": "Art. 72 ff.",
+   "label": "BARE_ARTICLE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. 113 ff.",
+   "label": "BARE_ARTICLE",
+   "occurrence": 1
+  }
+ ],
+ "comment": "v0.2 adjudication: the quotation sentence in the first v0.2 draft contradicted the citation gold (which labels citations inside quoted party text); it was removed, so these two references inside the quoted title are BARE_ARTICLE."
+}

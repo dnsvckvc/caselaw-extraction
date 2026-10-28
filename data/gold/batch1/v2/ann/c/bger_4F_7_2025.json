@@ -1,0 +1,631 @@
+{
+ "decision_id": "bger_4F_7_2025",
+ "task_index": 49,
+ "pass": "c",
+ "outcome": "partial_approval",
+ "comment": "ECtHR application no. 4976/20 (Jann-Zwicker) and Dispositiv-Ziff. references left without span: fit none of the nine classes.",
+ "spans": [
+  {
+   "start": 426,
+   "end": 439,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsteller"
+  },
+  {
+   "start": 833,
+   "end": 846,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsgegner"
+  },
+  {
+   "start": 1077,
+   "end": 1087,
+   "label": "DOCKET",
+   "text": "4F_22/2024"
+  },
+  {
+   "start": 1096,
+   "end": 1107,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 2242,
+   "end": 2256,
+   "label": "AMOUNT",
+   "text": "Fr. 110'000.--"
+  },
+  {
+   "start": 2496,
+   "end": 2507,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 2550,
+   "end": 2564,
+   "label": "BGE",
+   "text": "BGE 146 III 25"
+  },
+  {
+   "start": 2677,
+   "end": 2689,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  },
+  {
+   "start": 2889,
+   "end": 2901,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  },
+  {
+   "start": 3123,
+   "end": 3134,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 3252,
+   "end": 3271,
+   "label": "STATUTE",
+   "text": "Art. 6 Ziff. 1 EMRK"
+  },
+  {
+   "start": 3290,
+   "end": 3300,
+   "label": "DOCKET",
+   "text": "4F_22/2024"
+  },
+  {
+   "start": 3446,
+   "end": 3457,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 3732,
+   "end": 3744,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  },
+  {
+   "start": 3961,
+   "end": 3973,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  },
+  {
+   "start": 4115,
+   "end": 4125,
+   "label": "DOCKET",
+   "text": "4F_22/2024"
+  },
+  {
+   "start": 4198,
+   "end": 4209,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 4309,
+   "end": 4320,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 4335,
+   "end": 4347,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  },
+  {
+   "start": 4443,
+   "end": 4454,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 4530,
+   "end": 4542,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  },
+  {
+   "start": 4913,
+   "end": 4924,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 5195,
+   "end": 5206,
+   "label": "STATUTE",
+   "text": "Art. 61 BGG"
+  },
+  {
+   "start": 5491,
+   "end": 5507,
+   "label": "STATUTE",
+   "text": "Art. 121-123 BGG"
+  },
+  {
+   "start": 5815,
+   "end": 5824,
+   "label": "DOCKET",
+   "text": "8F_6/2025"
+  },
+  {
+   "start": 5850,
+   "end": 5859,
+   "label": "DOCKET",
+   "text": "4F_9/2024"
+  },
+  {
+   "start": 5886,
+   "end": 5895,
+   "label": "DOCKET",
+   "text": "4F_8/2023"
+  },
+  {
+   "start": 6193,
+   "end": 6206,
+   "label": "BGE",
+   "text": "BGE 144 I 214"
+  },
+  {
+   "start": 6267,
+   "end": 6296,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und Abs. 2 BGG"
+  },
+  {
+   "start": 6334,
+   "end": 6349,
+   "label": "BGE",
+   "text": "BGE 147 III 238"
+  },
+  {
+   "start": 6935,
+   "end": 6949,
+   "label": "BGE",
+   "text": "BGE 114 II 189"
+  },
+  {
+   "start": 6964,
+   "end": 6973,
+   "label": "DOCKET",
+   "text": "4F_2/2019"
+  },
+  {
+   "start": 7017,
+   "end": 7027,
+   "label": "DOCKET",
+   "text": "5F_14/2016"
+  },
+  {
+   "start": 7208,
+   "end": 7221,
+   "label": "BGE",
+   "text": "BGE 144 I 214"
+  },
+  {
+   "start": 7357,
+   "end": 7372,
+   "label": "BGE",
+   "text": "BGE 147 III 238"
+  },
+  {
+   "start": 7462,
+   "end": 7472,
+   "label": "DOCKET",
+   "text": "4F_22/2024"
+  },
+  {
+   "start": 7589,
+   "end": 7600,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 7693,
+   "end": 7703,
+   "label": "DOCKET",
+   "text": "4F_22/2024"
+  },
+  {
+   "start": 7828,
+   "end": 7840,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  },
+  {
+   "start": 7994,
+   "end": 8005,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 8057,
+   "end": 8069,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  },
+  {
+   "start": 8135,
+   "end": 8146,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 8211,
+   "end": 8222,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 8280,
+   "end": 8292,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  },
+  {
+   "start": 8382,
+   "end": 8392,
+   "label": "DOCKET",
+   "text": "4F_22/2024"
+  },
+  {
+   "start": 8498,
+   "end": 8509,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 8571,
+   "end": 8581,
+   "label": "DOCKET",
+   "text": "4F_22/2024"
+  },
+  {
+   "start": 8690,
+   "end": 8701,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 8863,
+   "end": 8882,
+   "label": "STATUTE",
+   "text": "Art. 121 lit. c BGG"
+  },
+  {
+   "start": 9356,
+   "end": 9366,
+   "label": "DOCKET",
+   "text": "4F_25/2024"
+  },
+  {
+   "start": 9409,
+   "end": 9428,
+   "label": "STATUTE",
+   "text": "Art. 121 lit. c BGG"
+  },
+  {
+   "start": 9646,
+   "end": 9660,
+   "label": "BGE",
+   "text": "BGE 133 IV 142"
+  },
+  {
+   "start": 9752,
+   "end": 9764,
+   "label": "STATUTE",
+   "text": "Art. 121 BGG"
+  },
+  {
+   "start": 9890,
+   "end": 9902,
+   "label": "STATUTE",
+   "text": "Art. 121 BGG"
+  },
+  {
+   "start": 10033,
+   "end": 10045,
+   "label": "STATUTE",
+   "text": "Art. 121 BGG"
+  },
+  {
+   "start": 10079,
+   "end": 10098,
+   "label": "STATUTE",
+   "text": "Art. 121 lit. c BGG"
+  },
+  {
+   "start": 10176,
+   "end": 10197,
+   "label": "STATUTE",
+   "text": "Art. 121 lit. b-d BGG"
+  },
+  {
+   "start": 10270,
+   "end": 10296,
+   "label": "STATUTE",
+   "text": "Art. 124 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 10485,
+   "end": 10495,
+   "label": "DOCKET",
+   "text": "4F_22/2024"
+  },
+  {
+   "start": 10952,
+   "end": 10963,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 11484,
+   "end": 11495,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 11510,
+   "end": 11522,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  },
+  {
+   "start": 11656,
+   "end": 11666,
+   "label": "DOCKET",
+   "text": "4F_22/2024"
+  },
+  {
+   "start": 11693,
+   "end": 11704,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 11884,
+   "end": 11895,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 12206,
+   "end": 12218,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  },
+  {
+   "start": 12382,
+   "end": 12393,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 12444,
+   "end": 12455,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 12594,
+   "end": 12605,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 12766,
+   "end": 12776,
+   "label": "DOCKET",
+   "text": "4F_22/2024"
+  },
+  {
+   "start": 12814,
+   "end": 12825,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 12902,
+   "end": 12913,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 13175,
+   "end": 13194,
+   "label": "STATUTE",
+   "text": "Art. 128 Abs. 1 BGG"
+  },
+  {
+   "start": 13214,
+   "end": 13227,
+   "label": "BGE",
+   "text": "BGE 144 I 214"
+  },
+  {
+   "start": 13270,
+   "end": 13281,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 13437,
+   "end": 13447,
+   "label": "DOCKET",
+   "text": "4F_22/2024"
+  },
+  {
+   "start": 13680,
+   "end": 13691,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 13901,
+   "end": 13912,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 14021,
+   "end": 14032,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 14194,
+   "end": 14205,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 14363,
+   "end": 14374,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 14467,
+   "end": 14478,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 14647,
+   "end": 14660,
+   "label": "BGE",
+   "text": "BGE 136 V 131"
+  },
+  {
+   "start": 14669,
+   "end": 14680,
+   "label": "BGE",
+   "text": "134 III 379"
+  },
+  {
+   "start": 14785,
+   "end": 14796,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 14900,
+   "end": 14911,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 14950,
+   "end": 14961,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 14976,
+   "end": 14988,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  },
+  {
+   "start": 15129,
+   "end": 15141,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  },
+  {
+   "start": 15195,
+   "end": 15207,
+   "label": "BGE",
+   "text": "BGE 135 I 19"
+  },
+  {
+   "start": 15289,
+   "end": 15300,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 15333,
+   "end": 15344,
+   "label": "AMOUNT",
+   "text": "Fr 6'000.--"
+  },
+  {
+   "start": 15356,
+   "end": 15369,
+   "label": "AMOUNT",
+   "text": "Fr. 24'000.--"
+  },
+  {
+   "start": 15497,
+   "end": 15507,
+   "label": "DOCKET",
+   "text": "4F_22/2024"
+  },
+  {
+   "start": 15616,
+   "end": 15627,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 15678,
+   "end": 15690,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  },
+  {
+   "start": 15919,
+   "end": 15937,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 16208,
+   "end": 16219,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 16357,
+   "end": 16368,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 16538,
+   "end": 16556,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 16704,
+   "end": 16714,
+   "label": "DOCKET",
+   "text": "4F_22/2024"
+  },
+  {
+   "start": 16840,
+   "end": 16851,
+   "label": "DOCKET",
+   "text": "4A_554/2013"
+  },
+  {
+   "start": 16902,
+   "end": 16914,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  }
+ ],
+ "n_pre": 103,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

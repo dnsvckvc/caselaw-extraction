@@ -1,0 +1,685 @@
+{
+ "decision_id": "bger_4A_470_2024",
+ "task_index": 142,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 332,
+   "end": 350,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 394,
+   "end": 412,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 2532,
+   "end": 2543,
+   "label": "STATUTE",
+   "text": "Art. 40 VVG"
+  },
+  {
+   "start": 2764,
+   "end": 2777,
+   "label": "AMOUNT",
+   "text": "Fr. 40'469.95"
+  },
+  {
+   "start": 2946,
+   "end": 2959,
+   "label": "AMOUNT",
+   "text": "Fr. 82'280.61"
+  },
+  {
+   "start": 3172,
+   "end": 3185,
+   "label": "AMOUNT",
+   "text": "Fr. 39'524.95"
+  },
+  {
+   "start": 3384,
+   "end": 3397,
+   "label": "AMOUNT",
+   "text": "Fr. 39'524.95"
+  },
+  {
+   "start": 3619,
+   "end": 3632,
+   "label": "AMOUNT",
+   "text": "Fr. 82'280.61"
+  },
+  {
+   "start": 4255,
+   "end": 4268,
+   "label": "BGE",
+   "text": "BGE 142 V 448"
+  },
+  {
+   "start": 4328,
+   "end": 4341,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 2 Abs. 2"
+  },
+  {
+   "start": 4679,
+   "end": 4694,
+   "label": "STATUTE",
+   "text": "Art. 72 ff. BGG"
+  },
+  {
+   "start": 4715,
+   "end": 4728,
+   "label": "BGE",
+   "text": "BGE 138 III 2"
+  },
+  {
+   "start": 4799,
+   "end": 4810,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 4898,
+   "end": 4908,
+   "label": "STATUTE",
+   "text": "Art. 7 ZPO"
+  },
+  {
+   "start": 4927,
+   "end": 4952,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 5036,
+   "end": 5061,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 5064,
+   "end": 5077,
+   "label": "BGE",
+   "text": "BGE 138 III 2"
+  },
+  {
+   "start": 5088,
+   "end": 5091,
+   "label": "BGE",
+   "text": "799"
+  },
+  {
+   "start": 5167,
+   "end": 5186,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 5270,
+   "end": 5294,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 5584,
+   "end": 5598,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 5605,
+   "end": 5608,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 5723,
+   "end": 5742,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5945,
+   "end": 5959,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6151,
+   "end": 6162,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 6172,
+   "end": 6191,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 6253,
+   "end": 6268,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 6275,
+   "end": 6278,
+   "label": "BGE",
+   "text": "264"
+  },
+  {
+   "start": 6385,
+   "end": 6403,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 6487,
+   "end": 6506,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 6509,
+   "end": 6524,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 6714,
+   "end": 6728,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6986,
+   "end": 7000,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 7177,
+   "end": 7191,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7296,
+   "end": 7314,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 7906,
+   "end": 7921,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 7930,
+   "end": 7940,
+   "label": "BGE",
+   "text": "140 III 16"
+  },
+  {
+   "start": 8156,
+   "end": 8171,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 8180,
+   "end": 8190,
+   "label": "BGE",
+   "text": "135 II 356"
+  },
+  {
+   "start": 8524,
+   "end": 8539,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 8548,
+   "end": 8559,
+   "label": "BGE",
+   "text": "137 III 226"
+  },
+  {
+   "start": 8568,
+   "end": 8579,
+   "label": "BGE",
+   "text": "136 III 552"
+  },
+  {
+   "start": 8699,
+   "end": 8713,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 8988,
+   "end": 9003,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 9012,
+   "end": 9021,
+   "label": "BGE",
+   "text": "116 Ia 85"
+  },
+  {
+   "start": 9282,
+   "end": 9293,
+   "label": "STATUTE",
+   "text": "Art. 39 VVG"
+  },
+  {
+   "start": 9406,
+   "end": 9417,
+   "label": "STATUTE",
+   "text": "Art. 40 VVG"
+  },
+  {
+   "start": 9590,
+   "end": 9601,
+   "label": "STATUTE",
+   "text": "Art. 40 VVG"
+  },
+  {
+   "start": 10140,
+   "end": 10151,
+   "label": "DOCKET",
+   "text": "4A_491/2023"
+  },
+  {
+   "start": 10181,
+   "end": 10192,
+   "label": "DOCKET",
+   "text": "4A_394/2021"
+  },
+  {
+   "start": 10237,
+   "end": 10252,
+   "label": "BGE",
+   "text": "BGE 148 III 134"
+  },
+  {
+   "start": 10255,
+   "end": 10266,
+   "label": "DOCKET",
+   "text": "4A_536/2020"
+  },
+  {
+   "start": 10295,
+   "end": 10306,
+   "label": "DOCKET",
+   "text": "4A_397/2018"
+  },
+  {
+   "start": 10337,
+   "end": 10348,
+   "label": "DOCKET",
+   "text": "4A_534/2018"
+  },
+  {
+   "start": 10377,
+   "end": 10388,
+   "label": "DOCKET",
+   "text": "4A_613/2017"
+  },
+  {
+   "start": 10422,
+   "end": 10433,
+   "label": "DOCKET",
+   "text": "4A_401/2017"
+  },
+  {
+   "start": 10466,
+   "end": 10477,
+   "label": "DOCKET",
+   "text": "4A_286/2016"
+  },
+  {
+   "start": 10577,
+   "end": 10588,
+   "label": "STATUTE",
+   "text": "Art. 40 VVG"
+  },
+  {
+   "start": 10793,
+   "end": 10804,
+   "label": "DOCKET",
+   "text": "4A_491/2023"
+  },
+  {
+   "start": 10813,
+   "end": 10824,
+   "label": "DOCKET",
+   "text": "4A_394/2021"
+  },
+  {
+   "start": 10849,
+   "end": 10864,
+   "label": "BGE",
+   "text": "BGE 148 III 134"
+  },
+  {
+   "start": 10867,
+   "end": 10878,
+   "label": "DOCKET",
+   "text": "4A_536/2020"
+  },
+  {
+   "start": 10887,
+   "end": 10898,
+   "label": "DOCKET",
+   "text": "4A_397/2018"
+  },
+  {
+   "start": 10907,
+   "end": 10918,
+   "label": "DOCKET",
+   "text": "4A_534/2018"
+  },
+  {
+   "start": 10927,
+   "end": 10938,
+   "label": "DOCKET",
+   "text": "4A_613/2017"
+  },
+  {
+   "start": 10949,
+   "end": 10960,
+   "label": "DOCKET",
+   "text": "4A_401/2017"
+  },
+  {
+   "start": 10979,
+   "end": 10989,
+   "label": "DOCKET",
+   "text": "4A_20/2018"
+  },
+  {
+   "start": 11015,
+   "end": 11026,
+   "label": "DOCKET",
+   "text": "4A_432/2015"
+  },
+  {
+   "start": 11301,
+   "end": 11312,
+   "label": "DOCKET",
+   "text": "4A_491/2023"
+  },
+  {
+   "start": 11320,
+   "end": 11331,
+   "label": "DOCKET",
+   "text": "4A_394/2021"
+  },
+  {
+   "start": 11356,
+   "end": 11371,
+   "label": "BGE",
+   "text": "BGE 148 III 134"
+  },
+  {
+   "start": 11374,
+   "end": 11385,
+   "label": "DOCKET",
+   "text": "4A_536/2020"
+  },
+  {
+   "start": 11394,
+   "end": 11405,
+   "label": "DOCKET",
+   "text": "4A_401/2017"
+  },
+  {
+   "start": 11416,
+   "end": 11427,
+   "label": "DOCKET",
+   "text": "4A_286/2016"
+  },
+  {
+   "start": 11652,
+   "end": 11663,
+   "label": "STATUTE",
+   "text": "Art. 39 VVG"
+  },
+  {
+   "start": 12055,
+   "end": 12070,
+   "label": "BGE",
+   "text": "BGE 148 III 105"
+  },
+  {
+   "start": 12081,
+   "end": 12092,
+   "label": "BGE",
+   "text": "130 III 321"
+  },
+  {
+   "start": 12113,
+   "end": 12124,
+   "label": "DOCKET",
+   "text": "4A_394/2021"
+  },
+  {
+   "start": 12149,
+   "end": 12164,
+   "label": "BGE",
+   "text": "BGE 148 III 134"
+  },
+  {
+   "start": 12246,
+   "end": 12257,
+   "label": "STATUTE",
+   "text": "Art. 40 VVG"
+  },
+  {
+   "start": 12260,
+   "end": 12275,
+   "label": "BGE",
+   "text": "BGE 130 III 321"
+  },
+  {
+   "start": 12291,
+   "end": 12302,
+   "label": "DOCKET",
+   "text": "4A_490/2019"
+  },
+  {
+   "start": 12344,
+   "end": 12355,
+   "label": "DOCKET",
+   "text": "4A_491/2023"
+  },
+  {
+   "start": 12364,
+   "end": 12375,
+   "label": "DOCKET",
+   "text": "4A_397/2018"
+  },
+  {
+   "start": 12384,
+   "end": 12395,
+   "label": "DOCKET",
+   "text": "4A_534/2018"
+  },
+  {
+   "start": 12404,
+   "end": 12415,
+   "label": "DOCKET",
+   "text": "4A_613/2017"
+  },
+  {
+   "start": 12676,
+   "end": 12691,
+   "label": "BGE",
+   "text": "BGE 148 III 105"
+  },
+  {
+   "start": 12702,
+   "end": 12713,
+   "label": "BGE",
+   "text": "130 III 321"
+  },
+  {
+   "start": 12729,
+   "end": 12740,
+   "label": "DOCKET",
+   "text": "4A_194/2016"
+  },
+  {
+   "start": 12824,
+   "end": 12835,
+   "label": "STATUTE",
+   "text": "Art. 40 VVG"
+  },
+  {
+   "start": 13022,
+   "end": 13032,
+   "label": "AMOUNT",
+   "text": "Fr. 333.12"
+  },
+  {
+   "start": 13034,
+   "end": 13047,
+   "label": "AMOUNT",
+   "text": "Fr. 36'643.20"
+  },
+  {
+   "start": 13090,
+   "end": 13102,
+   "label": "AMOUNT",
+   "text": "Fr. 2'881.75"
+  },
+  {
+   "start": 13187,
+   "end": 13238,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. E 6.3 der Allgemeinen Versicherungsbedingungen"
+  },
+  {
+   "start": 14123,
+   "end": 14136,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. E6.3 AVB"
+  },
+  {
+   "start": 16167,
+   "end": 16180,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. E6.3 AVB"
+  },
+  {
+   "start": 16594,
+   "end": 16605,
+   "label": "STATUTE",
+   "text": "Art. 40 VVG"
+  },
+  {
+   "start": 16818,
+   "end": 16829,
+   "label": "STATUTE",
+   "text": "Art. 39 VVG"
+  },
+  {
+   "start": 18321,
+   "end": 18338,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 19177,
+   "end": 19191,
+   "label": "BGE",
+   "text": "BGE 143 III 65"
+  },
+  {
+   "start": 19364,
+   "end": 19375,
+   "label": "STATUTE",
+   "text": "Art. 40 VVG"
+  },
+  {
+   "start": 20949,
+   "end": 20984,
+   "label": "STATUTE",
+   "text": "Art. 168 Abs. 1 i.V.m.\nArt. 177 ZPO"
+  },
+  {
+   "start": 21040,
+   "end": 21050,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 21379,
+   "end": 21397,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 22470,
+   "end": 22483,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. E6.3 AVB"
+  },
+  {
+   "start": 22542,
+   "end": 22553,
+   "label": "STATUTE",
+   "text": "Art. 40 VVG"
+  },
+  {
+   "start": 23147,
+   "end": 23160,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. E6.3 AVB"
+  },
+  {
+   "start": 25333,
+   "end": 25344,
+   "label": "STATUTE",
+   "text": "Art. 40 VVG"
+  },
+  {
+   "start": 25946,
+   "end": 25964,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 26167,
+   "end": 26191,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 26194,
+   "end": 26209,
+   "label": "BGE",
+   "text": "BGE 133 III 439"
+  },
+  {
+   "start": 26350,
+   "end": 26362,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  }
+ ],
+ "n_pre": 107,
+ "n_deleted": 0,
+ "n_added": 5,
+ "n_relabeled": 0
+}

@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  2
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 2.2 der Stiftungsstatuten",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "#2 cut short: Art. 2.2 der Stiftungsstatuten is a clause of the foundation statutes (private instrument), CONTRACT_ARTICLE. Jusletter 15. Juni 2020, Rz. 3 has no page/number: no span."
+}

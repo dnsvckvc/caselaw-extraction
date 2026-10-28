@@ -1,0 +1,85 @@
+{
+ "decision_id": "bger_5A_99_2026",
+ "task_index": 174,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "all pre-annotations correct; Dispositiv-Ziff. 1/2 and ZSU.2025.299 correctly unlabelled",
+ "spans": [
+  {
+   "start": 295,
+   "end": 311,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 378,
+   "end": 396,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 2134,
+   "end": 2178,
+   "label": "STATUTE",
+   "text": "Art. 315 Abs. 2 lit. b und Abs. 4 lit. b ZPO"
+  },
+  {
+   "start": 2831,
+   "end": 2856,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 2951,
+   "end": 2962,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 3071,
+   "end": 3090,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3259,
+   "end": 3273,
+   "label": "STATUTE",
+   "text": "Art. 62 ff. OR"
+  },
+  {
+   "start": 3549,
+   "end": 3592,
+   "label": "STATUTE",
+   "text": "Art. 9,\nArt. 26,\nArt. 29 Abs. 1,\nArt. 30 BV"
+  },
+  {
+   "start": 4340,
+   "end": 4365,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 4561,
+   "end": 4593,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 4684,
+   "end": 4702,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 4814,
+   "end": 4826,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 12,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

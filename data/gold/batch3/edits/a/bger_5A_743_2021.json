@@ -1,0 +1,20 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "97 II 201",
+   "label": "BGE"
+  },
+  {
+   "text": "96 II 145",
+   "label": "BGE"
+  },
+  {
+   "text": "19 I 888",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Added three BGE list items without the BGE word after BGE 126 III 375. Ziffer 15 dieses Agreements kept as CONTRACT_ARTICLE (instrument named by demonstrative). NE200005-O/U is a cantonal file number."
+}

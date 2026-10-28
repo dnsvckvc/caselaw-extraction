@@ -1,0 +1,25 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  4
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 72 Abs. 1 und Art. 75 Abs. 1 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "150 III 248",
+   "label": "BGE"
+  },
+  {
+   "text": "134 III 379",
+   "label": "BGE"
+  },
+  {
+   "text": "137 II 313",
+   "label": "BGE"
+  }
+ ]
+}

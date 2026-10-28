@@ -1,0 +1,13 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "5D_56/2020",
+   "label": "DOCKET",
+   "all": true
+  }
+ ],
+ "comment": "5D_56/2020 is the decision under revision (another case) -> DOCKET at every mention, including the scraped title line and Gegenstand."
+}

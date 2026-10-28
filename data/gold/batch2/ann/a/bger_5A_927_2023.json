@@ -1,0 +1,331 @@
+{
+ "decision_id": "bger_5A_927_2023",
+ "task_index": 63,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 417,
+   "end": 433,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 526,
+   "end": 542,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 576,
+   "end": 595,
+   "label": "STATUTE",
+   "text": "Art. 47 Abs. 2 BGBB"
+  },
+  {
+   "start": 1392,
+   "end": 1406,
+   "label": "AMOUNT",
+   "text": "Fr. 500'000.--"
+  },
+  {
+   "start": 2767,
+   "end": 2779,
+   "label": "AMOUNT",
+   "text": "Fr. 9'257.80"
+  },
+  {
+   "start": 2814,
+   "end": 2827,
+   "label": "AMOUNT",
+   "text": "Fr. 13'866.40"
+  },
+  {
+   "start": 3121,
+   "end": 3139,
+   "label": "STATUTE",
+   "text": "Art. 47 Abs. 2 BGG"
+  },
+  {
+   "start": 3170,
+   "end": 3188,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 3241,
+   "end": 3254,
+   "label": "BGE",
+   "text": "BGE 97 II 277"
+  },
+  {
+   "start": 3268,
+   "end": 3279,
+   "label": "DOCKET",
+   "text": "5A_107/2013"
+  },
+  {
+   "start": 3391,
+   "end": 3405,
+   "label": "AMOUNT",
+   "text": "Fr. 126'971.35"
+  },
+  {
+   "start": 3457,
+   "end": 3470,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 3473,
+   "end": 3498,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3558,
+   "end": 3569,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 3616,
+   "end": 3634,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 3680,
+   "end": 3691,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3722,
+   "end": 3763,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 i.V.m.\nArt. 45 Abs. 1 BGG"
+  },
+  {
+   "start": 3896,
+   "end": 3910,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 4009,
+   "end": 4028,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 4304,
+   "end": 4322,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4388,
+   "end": 4402,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 4413,
+   "end": 4423,
+   "label": "BGE",
+   "text": "140 III 86"
+  },
+  {
+   "start": 4653,
+   "end": 4672,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4769,
+   "end": 4784,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 4920,
+   "end": 4939,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5096,
+   "end": 5105,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 5108,
+   "end": 5120,
+   "label": "BGE",
+   "text": "BGE 147 I 73"
+  },
+  {
+   "start": 5207,
+   "end": 5218,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 5240,
+   "end": 5257,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 5263,
+   "end": 5273,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 5425,
+   "end": 5443,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 5446,
+   "end": 5461,
+   "label": "BGE",
+   "text": "BGE 137 III 226"
+  },
+  {
+   "start": 5471,
+   "end": 5479,
+   "label": "BGE",
+   "text": "135 I 19"
+  },
+  {
+   "start": 5604,
+   "end": 5623,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5626,
+   "end": 5638,
+   "label": "BGE",
+   "text": "BGE 144 V 50"
+  },
+  {
+   "start": 8737,
+   "end": 8756,
+   "label": "STATUTE",
+   "text": "Art. 47 Abs. 2 BGBB"
+  },
+  {
+   "start": 9323,
+   "end": 9334,
+   "label": "DOCKET",
+   "text": "2C_931/2014"
+  },
+  {
+   "start": 9542,
+   "end": 9581,
+   "label": "STATUTE",
+   "text": "Art. 681 Abs. 1 i.V.m.\nArt. 216c ff. OR"
+  },
+  {
+   "start": 9788,
+   "end": 9807,
+   "label": "STATUTE",
+   "text": "Art. 216c Abs. 1 OR"
+  },
+  {
+   "start": 9950,
+   "end": 9969,
+   "label": "STATUTE",
+   "text": "Art. 216c Abs. 2 OR"
+  },
+  {
+   "start": 10568,
+   "end": 10583,
+   "label": "BGE",
+   "text": "BGE 143 III 480"
+  },
+  {
+   "start": 10601,
+   "end": 10611,
+   "label": "DOCKET",
+   "text": "4A_22/2010"
+  },
+  {
+   "start": 10951,
+   "end": 10963,
+   "label": "STATUTE",
+   "text": "Art. 66 BGBB"
+  },
+  {
+   "start": 11984,
+   "end": 11999,
+   "label": "BGE",
+   "text": "BGE 143 III 480"
+  },
+  {
+   "start": 12427,
+   "end": 12437,
+   "label": "DOCKET",
+   "text": "4A_22/2010"
+  },
+  {
+   "start": 12767,
+   "end": 12779,
+   "label": "STATUTE",
+   "text": "Art. 216c OR"
+  },
+  {
+   "start": 12941,
+   "end": 12953,
+   "label": "STATUTE",
+   "text": "Art. 216c OR"
+  },
+  {
+   "start": 13414,
+   "end": 13428,
+   "label": "BGE",
+   "text": "BGE 118 II 401"
+  },
+  {
+   "start": 13435,
+   "end": 13445,
+   "label": "BGE",
+   "text": "115 II 175"
+  },
+  {
+   "start": 13627,
+   "end": 13641,
+   "label": "BGE",
+   "text": "BGE 115 II 175"
+  },
+  {
+   "start": 16699,
+   "end": 16723,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 5 BGG"
+  },
+  {
+   "start": 16804,
+   "end": 16828,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 16933,
+   "end": 16945,
+   "label": "AMOUNT",
+   "text": "Fr. 5'500.--"
+  }
+ ],
+ "n_pre": 53,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

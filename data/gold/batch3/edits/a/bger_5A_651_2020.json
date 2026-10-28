@@ -1,0 +1,14 @@
+{
+ "outcome": "approved",
+ "delete": [
+  11
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 72 Abs. 2 lit a BGG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "#11 BARE_ARTICLE Art. 72 Abs. 2 replaced by full STATUTE Art. 72 Abs. 2 lit a BGG (lit without dot). Kept #33 Artikel 230a SchKG although it sits inside a book title (guideline does not exclude statutes inside titles). \"nach 230a SchKG\" without Art. left unlabelled. Cantonal numbers ABS 20 90 / ABS 19 371 and Ziff. 1-3 of the Konkursamt Verfuegung left unlabelled."
+}

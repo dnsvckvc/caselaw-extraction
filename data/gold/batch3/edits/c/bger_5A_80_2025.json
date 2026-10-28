@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  2
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 2.2 der Stiftungsstatuten",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "#2 cut short; statutes of a foundation treated as private instrument (CONTRACT_ARTICLE)."
+}

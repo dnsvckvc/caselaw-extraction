@@ -1,0 +1,28 @@
+{
+ "outcome": "partial_approval",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 121-123 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 42 Abs. 1 und Abs. 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 121 lit. b-d BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "134 III 379",
+   "label": "BGE"
+  },
+  {
+   "text": "Fr 6'000.--",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "Revisionsgesuch teilweise gutgeheissen, rest nicht eingetreten. 4F_22/2024 and 4A_554/2013 are earlier related cases (kept as DOCKET); own number 4F_7/2025 not annotated. EGMR 'Nr. 4976/20' not labelled."
+}

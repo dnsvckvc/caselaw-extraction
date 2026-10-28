@@ -1,0 +1,36 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  56,
+  57,
+  58,
+  62,
+  63,
+  64,
+  66,
+  67,
+  68
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 36.2 der Allgemeinen Versicherungsbedingungen",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Art. 36.2 AVB",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Art. 4.6 ZVB",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Art. 4.6 Sätze 1 und 2 ZVB",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "Pre-annotator cut AVB/ZVB clauses at Art. 36 / Art. 4 and labelled them BARE_ARTICLE; they are CONTRACT_ARTICLE (insurance AVB/ZVB) and include the sub-number .2/.6 and the abbreviation. Art. 36.2 der Allgemeinen Versicherungsbedingungen stops before (AVB). Art. 4.6 Sätze 1 und 2 ZVB kept as one span with the Satz units (analogous to Art. 42 Abs. 2 Satz 2 BGG) - flagged."
+}

@@ -1,0 +1,103 @@
+{
+ "decision_id": "bger_5F_13_2020",
+ "task_index": 9,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "Added every 5D_56/2020 as DOCKET: it is the earlier Federal Supreme Court judgment that the revision request targets, not this decision (5F_13/2020). The pre-annotator missed the 5D_ prefix entirely. Own number 5F 13/2020 / 5F_13/2020 left unlabelled. Outcome from item 1: Revisionsgesuch abgewiesen.",
+ "spans": [
+  {
+   "start": 289,
+   "end": 299,
+   "label": "DOCKET",
+   "text": "5D_56/2020"
+  },
+  {
+   "start": 622,
+   "end": 635,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsteller"
+  },
+  {
+   "start": 722,
+   "end": 735,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsgegner"
+  },
+  {
+   "start": 800,
+   "end": 810,
+   "label": "DOCKET",
+   "text": "5D_56/2020"
+  },
+  {
+   "start": 2075,
+   "end": 2085,
+   "label": "DOCKET",
+   "text": "5D_56/2020"
+  },
+  {
+   "start": 2246,
+   "end": 2256,
+   "label": "DOCKET",
+   "text": "5D_56/2020"
+  },
+  {
+   "start": 2882,
+   "end": 2892,
+   "label": "DOCKET",
+   "text": "5D_56/2020"
+  },
+  {
+   "start": 3165,
+   "end": 3175,
+   "label": "DOCKET",
+   "text": "5D_56/2020"
+  },
+  {
+   "start": 3491,
+   "end": 3501,
+   "label": "DOCKET",
+   "text": "5D_56/2020"
+  },
+  {
+   "start": 3600,
+   "end": 3619,
+   "label": "STATUTE",
+   "text": "Art. 121 lit. d BGG"
+  },
+  {
+   "start": 4652,
+   "end": 4662,
+   "label": "DOCKET",
+   "text": "5D_56/2020"
+  },
+  {
+   "start": 4939,
+   "end": 4949,
+   "label": "DOCKET",
+   "text": "5D_56/2020"
+  },
+  {
+   "start": 5310,
+   "end": 5328,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 5441,
+   "end": 5459,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5657,
+   "end": 5669,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 6,
+ "n_deleted": 0,
+ "n_added": 9,
+ "n_relabeled": 0
+}

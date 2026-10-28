@@ -1,0 +1,26 @@
+{
+ "outcome": "approved",
+ "delete": [
+  27,
+  46
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "5A_89/2020",
+   "label": "DOCKET",
+   "all": true
+  },
+  {
+   "text": "Art. 12",
+   "label": "BARE_ARTICLE",
+   "occurrence": 13
+  },
+  {
+   "text": "Art. 4",
+   "label": "BARE_ARTICLE",
+   "occurrence": 2
+  }
+ ],
+ "comment": "5A_89/2020 (the judgment under revision, not the own number 5F_37/2020) was never pre-annotated: added as DOCKET at all 20 occurrences, including the metadata banner line and Gegenstand. #27/#46 'Art. 12 dieses Reglements' / 'Art. 4 des Reglements' refer to the BGer Reglement with SR 173.110.210.3 = act, so BARE_ARTICLE instead of CONTRACT_ARTICLE."
+}

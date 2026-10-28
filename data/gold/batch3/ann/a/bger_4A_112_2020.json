@@ -1,0 +1,433 @@
+{
+ "decision_id": "bger_4A_112_2020",
+ "task_index": 22,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "Unsettled: R$ 84'894.-- (Brazilian real) added as AMOUNT since it is a sum with a currency token. Unsettled: Art. 17 EuGVÜ/LugÜ inside a book title had BARE_ARTICLE on Art. 17 although an abbreviation follows; relabelled as STATUTE over the compound abbreviation. 'In Ziffer 7 heisst es': no instrument named after the number, no span. Three LugÜ citations (Art. 5 Nr. 1 [lit. b] LugÜ) were missed by the pre-annotator.",
+ "spans": [
+  {
+   "start": 331,
+   "end": 347,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 491,
+   "end": 509,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 935,
+   "end": 947,
+   "label": "AMOUNT",
+   "text": "R$ 84'894.--"
+  },
+  {
+   "start": 1330,
+   "end": 1359,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 3 des Treuhandvertrags"
+  },
+  {
+   "start": 2470,
+   "end": 2501,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 7 des Aktienkaufvertrags"
+  },
+  {
+   "start": 3700,
+   "end": 3711,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3744,
+   "end": 3755,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 3798,
+   "end": 3823,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3852,
+   "end": 3865,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 4149,
+   "end": 4167,
+   "label": "STATUTE",
+   "text": "Art. 95 und 96 BGG"
+  },
+  {
+   "start": 4277,
+   "end": 4292,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 4306,
+   "end": 4316,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 4434,
+   "end": 4452,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4924,
+   "end": 4939,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 4953,
+   "end": 4955,
+   "label": "BGE",
+   "text": "86"
+  },
+  {
+   "start": 5076,
+   "end": 5095,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5315,
+   "end": 5329,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5521,
+   "end": 5532,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 5542,
+   "end": 5561,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 5623,
+   "end": 5638,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 5652,
+   "end": 5663,
+   "label": "BGE",
+   "text": "135 III 397"
+  },
+  {
+   "start": 5770,
+   "end": 5788,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 5920,
+   "end": 5938,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 6114,
+   "end": 6128,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6392,
+   "end": 6406,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 7582,
+   "end": 7597,
+   "label": "BGE",
+   "text": "BGE 142 III 239"
+  },
+  {
+   "start": 7947,
+   "end": 7958,
+   "label": "DOCKET",
+   "text": "4A_433/2019"
+  },
+  {
+   "start": 8857,
+   "end": 8869,
+   "label": "STATUTE",
+   "text": "Art. 23 LugÜ"
+  },
+  {
+   "start": 8880,
+   "end": 8891,
+   "label": "STATUTE",
+   "text": "Art. 5 IPRG"
+  },
+  {
+   "start": 9080,
+   "end": 9091,
+   "label": "STATUTE",
+   "text": "Art. 5 IPRG"
+  },
+  {
+   "start": 9443,
+   "end": 9474,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 7 des Aktienkaufvertrags"
+  },
+  {
+   "start": 10478,
+   "end": 10509,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 6 des Aktienkaufvertrags"
+  },
+  {
+   "start": 11054,
+   "end": 11074,
+   "label": "STATUTE",
+   "text": "Art. 117 Abs. 1 IPRG"
+  },
+  {
+   "start": 11769,
+   "end": 11778,
+   "label": "OTHER_LAW",
+   "text": "§ 157 BGB"
+  },
+  {
+   "start": 12322,
+   "end": 12343,
+   "label": "STATUTE",
+   "text": "Art. 1 und\nArt. 18 OR"
+  },
+  {
+   "start": 12354,
+   "end": 12365,
+   "label": "STATUTE",
+   "text": "Art. 5 IPRG"
+  },
+  {
+   "start": 13268,
+   "end": 13283,
+   "label": "BGE",
+   "text": "BGE 132 III 268"
+  },
+  {
+   "start": 13307,
+   "end": 13321,
+   "label": "BGE",
+   "text": "BGE 144 III 93"
+  },
+  {
+   "start": 13332,
+   "end": 13334,
+   "label": "BGE",
+   "text": "43"
+  },
+  {
+   "start": 13343,
+   "end": 13354,
+   "label": "BGE",
+   "text": "143 III 157"
+  },
+  {
+   "start": 13365,
+   "end": 13376,
+   "label": "BGE",
+   "text": "138 III 659"
+  },
+  {
+   "start": 13627,
+   "end": 13638,
+   "label": "DOCKET",
+   "text": "4A_323/2013"
+  },
+  {
+   "start": 14368,
+   "end": 14383,
+   "label": "BGE",
+   "text": "BGE 135 III 295"
+  },
+  {
+   "start": 15788,
+   "end": 15806,
+   "label": "STATUTE",
+   "text": "Art. 96 lit. b BGG"
+  },
+  {
+   "start": 16051,
+   "end": 16066,
+   "label": "BGE",
+   "text": "BGE 133 III 446"
+  },
+  {
+   "start": 16656,
+   "end": 16671,
+   "label": "BGE",
+   "text": "BGE 143 III 558"
+  },
+  {
+   "start": 16688,
+   "end": 16699,
+   "label": "DOCKET",
+   "text": "4A_451/2014"
+  },
+  {
+   "start": 16727,
+   "end": 16738,
+   "label": "DOCKET",
+   "text": "4A_345/2014"
+  },
+  {
+   "start": 16766,
+   "end": 16777,
+   "label": "DOCKET",
+   "text": "4A_149/2013"
+  },
+  {
+   "start": 16802,
+   "end": 16813,
+   "label": "DOCKET",
+   "text": "4C.189/2001"
+  },
+  {
+   "start": 16844,
+   "end": 16855,
+   "label": "DOCKET",
+   "text": "4C.163/2001"
+  },
+  {
+   "start": 17268,
+   "end": 17279,
+   "label": "STATUTE",
+   "text": "Art. 5 IPRG"
+  },
+  {
+   "start": 17422,
+   "end": 17440,
+   "label": "STATUTE",
+   "text": "Art. 17 EuGVÜ/LugÜ"
+  },
+  {
+   "start": 17554,
+   "end": 17573,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 IPRG"
+  },
+  {
+   "start": 17828,
+   "end": 17839,
+   "label": "DOCKET",
+   "text": "4A_433/2019"
+  },
+  {
+   "start": 17888,
+   "end": 17898,
+   "label": "DOCKET",
+   "text": "4A_77/2014"
+  },
+  {
+   "start": 18164,
+   "end": 18189,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 Ziff. 3 OR"
+  },
+  {
+   "start": 18197,
+   "end": 18208,
+   "label": "STATUTE",
+   "text": "Art. 31 ZPO"
+  },
+  {
+   "start": 18229,
+   "end": 18253,
+   "label": "STATUTE",
+   "text": "Art. 5 Nr. 1 lit. b LugÜ"
+  },
+  {
+   "start": 18622,
+   "end": 18647,
+   "label": "STATUTE",
+   "text": "Art. 17 Abs. 1 Satz 2 ZPO"
+  },
+  {
+   "start": 18728,
+   "end": 18739,
+   "label": "STATUTE",
+   "text": "Art. 17 ZPO"
+  },
+  {
+   "start": 18761,
+   "end": 18772,
+   "label": "STATUTE",
+   "text": "Art. 5 IPRG"
+  },
+  {
+   "start": 18778,
+   "end": 18790,
+   "label": "STATUTE",
+   "text": "Art. 23 LugÜ"
+  },
+  {
+   "start": 19113,
+   "end": 19144,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 7 des Aktienkaufvertrags"
+  },
+  {
+   "start": 19562,
+   "end": 19579,
+   "label": "STATUTE",
+   "text": "Art. 5 Nr. 1 LugÜ"
+  },
+  {
+   "start": 19707,
+   "end": 19724,
+   "label": "STATUTE",
+   "text": "Art. 5 Nr. 1 LugÜ"
+  },
+  {
+   "start": 19839,
+   "end": 19856,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 20191,
+   "end": 20234,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 20370,
+   "end": 20383,
+   "label": "AMOUNT",
+   "text": "Fr. 10'000.--"
+  },
+  {
+   "start": 20517,
+   "end": 20530,
+   "label": "AMOUNT",
+   "text": "Fr. 12'000.--"
+  }
+ ],
+ "n_pre": 66,
+ "n_deleted": 1,
+ "n_added": 5,
+ "n_relabeled": 0
+}

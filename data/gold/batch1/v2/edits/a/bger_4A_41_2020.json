@@ -1,0 +1,12 @@
+{
+  "outcome": "approved",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {"text": "Ziffer 8.3 der anwendbaren Tarife", "label": "CONTRACT_ARTICLE"},
+    {"text": "Ziffer 6.7 GT 9 VI", "label": "CONTRACT_ARTICLE", "all": true},
+    {"text": "Ziffer 8.5 GT 9 VII", "label": "CONTRACT_ARTICLE"},
+    {"text": "Ziffer 8.5 GT 8 VI/GT 8 VII/GT 9 VII", "label": "CONTRACT_ARTICLE"}
+  ],
+  "comment": "GAP: Gemeinsame Tarife (GT 8/GT 9) of ProLitteris are not in the guideline list of private instruments; treated like a GAV/AGB and marked CONTRACT_ARTICLE with the spelled-out 'Ziffer'. 'Ziffer 6 ff.' before 'und insbesondere Ziffer 8.3 der anwendbaren Tarife' left out (chain broken by 'insbesondere'; Ziffer-only without instrument is not defined). 'gemaess Ziffer 8.3' inside the quoted tariff text left unmarked (Ziffer-only, no Art./Paragraph). 'BBl 1989 III 561 Ziff. 214.4' (Botschaft in the Bundesblatt) fits none of the nine classes; left unmarked. 'SIWR II/1 ... Rz. 1413 f.' is a textbook, no span."
+}

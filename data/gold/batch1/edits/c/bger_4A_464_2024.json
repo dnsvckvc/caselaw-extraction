@@ -1,0 +1,12 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "140 III 264",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Dispositiv header is 'Demnach erkennt der Einzelrichter'."
+}

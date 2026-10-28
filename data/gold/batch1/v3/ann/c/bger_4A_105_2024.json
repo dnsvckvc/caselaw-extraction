@@ -1,0 +1,439 @@
+{
+ "decision_id": "bger_4A_105_2024",
+ "task_index": 42,
+ "pass": "c",
+ "outcome": "approved",
+ "comment": "",
+ "spans": [
+  {
+   "start": 379,
+   "end": 397,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 493,
+   "end": 509,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 2789,
+   "end": 2800,
+   "label": "STATUTE",
+   "text": "Art. 72 BGG"
+  },
+  {
+   "start": 2845,
+   "end": 2856,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 2939,
+   "end": 2950,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 3013,
+   "end": 3024,
+   "label": "STATUTE",
+   "text": "Art. 76 BGG"
+  },
+  {
+   "start": 3127,
+   "end": 3152,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 3181,
+   "end": 3200,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 3289,
+   "end": 3327,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3667,
+   "end": 3682,
+   "label": "BGE",
+   "text": "BGE 135 III 378"
+  },
+  {
+   "start": 3691,
+   "end": 3701,
+   "label": "BGE",
+   "text": "119 II 368"
+  },
+  {
+   "start": 3716,
+   "end": 3727,
+   "label": "DOCKET",
+   "text": "4A_255/2021"
+  },
+  {
+   "start": 4044,
+   "end": 4063,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 4124,
+   "end": 4148,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 4467,
+   "end": 4481,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 4610,
+   "end": 4629,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 4849,
+   "end": 4863,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5070,
+   "end": 5081,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 5091,
+   "end": 5110,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 5172,
+   "end": 5186,
+   "label": "BGE",
+   "text": "BGE 143 IV 241"
+  },
+  {
+   "start": 5295,
+   "end": 5313,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 5398,
+   "end": 5417,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5420,
+   "end": 5435,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 5862,
+   "end": 5876,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 6053,
+   "end": 6067,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6343,
+   "end": 6362,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 3 OR"
+  },
+  {
+   "start": 6419,
+   "end": 6438,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 2 OR"
+  },
+  {
+   "start": 6643,
+   "end": 6662,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 3 OR"
+  },
+  {
+   "start": 6914,
+   "end": 6933,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 3 OR"
+  },
+  {
+   "start": 7078,
+   "end": 7092,
+   "label": "BGE",
+   "text": "BGE 125 III 62"
+  },
+  {
+   "start": 7107,
+   "end": 7117,
+   "label": "DOCKET",
+   "text": "4A_74/2021"
+  },
+  {
+   "start": 7172,
+   "end": 7184,
+   "label": "STATUTE",
+   "text": "Art. 269d OR"
+  },
+  {
+   "start": 7496,
+   "end": 7511,
+   "label": "BGE",
+   "text": "BGE 125 III 231"
+  },
+  {
+   "start": 7582,
+   "end": 7594,
+   "label": "STATUTE",
+   "text": "Art. 269d OR"
+  },
+  {
+   "start": 7848,
+   "end": 7862,
+   "label": "STATUTE",
+   "text": "Art. 269 f. OR"
+  },
+  {
+   "start": 7870,
+   "end": 7882,
+   "label": "STATUTE",
+   "text": "Art. 270b OR"
+  },
+  {
+   "start": 7893,
+   "end": 7912,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 3 OR"
+  },
+  {
+   "start": 7918,
+   "end": 7937,
+   "label": "STATUTE",
+   "text": "Art. 270b Abs. 2 OR"
+  },
+  {
+   "start": 8179,
+   "end": 8189,
+   "label": "STATUTE",
+   "text": "Art. 2 ZGB"
+  },
+  {
+   "start": 8257,
+   "end": 8269,
+   "label": "STATUTE",
+   "text": "Art. 269d OR"
+  },
+  {
+   "start": 8288,
+   "end": 8300,
+   "label": "STATUTE",
+   "text": "Art. 270b OR"
+  },
+  {
+   "start": 8309,
+   "end": 8319,
+   "label": "DOCKET",
+   "text": "4A_74/2021"
+  },
+  {
+   "start": 8356,
+   "end": 8373,
+   "label": "STATUTE",
+   "text": "Art. 2 Abs. 1 ZGB"
+  },
+  {
+   "start": 8590,
+   "end": 8605,
+   "label": "BGE",
+   "text": "BGE 140 III 583"
+  },
+  {
+   "start": 8616,
+   "end": 8627,
+   "label": "BGE",
+   "text": "138 III 401"
+  },
+  {
+   "start": 8688,
+   "end": 8703,
+   "label": "BGE",
+   "text": "BGE 143 III 666"
+  },
+  {
+   "start": 8712,
+   "end": 8722,
+   "label": "BGE",
+   "text": "139 III 24"
+  },
+  {
+   "start": 8915,
+   "end": 8930,
+   "label": "BGE",
+   "text": "BGE 138 III 401"
+  },
+  {
+   "start": 8939,
+   "end": 8950,
+   "label": "BGE",
+   "text": "137 III 625"
+  },
+  {
+   "start": 9151,
+   "end": 9166,
+   "label": "BGE",
+   "text": "BGE 143 III 666"
+  },
+  {
+   "start": 9175,
+   "end": 9186,
+   "label": "BGE",
+   "text": "140 III 481"
+  },
+  {
+   "start": 9427,
+   "end": 9441,
+   "label": "BGE",
+   "text": "BGE 143 III 55"
+  },
+  {
+   "start": 9450,
+   "end": 9461,
+   "label": "BGE",
+   "text": "138 III 401"
+  },
+  {
+   "start": 9853,
+   "end": 9863,
+   "label": "DOCKET",
+   "text": "4A_74/2021"
+  },
+  {
+   "start": 9973,
+   "end": 9985,
+   "label": "STATUTE",
+   "text": "Art. 269d OR"
+  },
+  {
+   "start": 10018,
+   "end": 10030,
+   "label": "STATUTE",
+   "text": "Art. 269d OR"
+  },
+  {
+   "start": 10544,
+   "end": 10559,
+   "label": "AMOUNT",
+   "text": "200'000 Franken"
+  },
+  {
+   "start": 10744,
+   "end": 10758,
+   "label": "AMOUNT",
+   "text": "70'000 Franken"
+  },
+  {
+   "start": 11292,
+   "end": 11307,
+   "label": "AMOUNT",
+   "text": "230'000 Franken"
+  },
+  {
+   "start": 14789,
+   "end": 14808,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 3 OR"
+  },
+  {
+   "start": 20437,
+   "end": 20449,
+   "label": "STATUTE",
+   "text": "Art. 269d OR"
+  },
+  {
+   "start": 20454,
+   "end": 20466,
+   "label": "STATUTE",
+   "text": "Art. 271a OR"
+  },
+  {
+   "start": 20502,
+   "end": 20517,
+   "label": "BGE",
+   "text": "BGE 125 III 231"
+  },
+  {
+   "start": 21580,
+   "end": 21599,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 1 OR"
+  },
+  {
+   "start": 24051,
+   "end": 24070,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 3 OR"
+  },
+  {
+   "start": 25245,
+   "end": 25270,
+   "label": "STATUTE",
+   "text": "Art. 31 Abs. 2 lit. a DSG"
+  },
+  {
+   "start": 25560,
+   "end": 25571,
+   "label": "STATUTE",
+   "text": "Art. 31 DSG"
+  },
+  {
+   "start": 26427,
+   "end": 26438,
+   "label": "STATUTE",
+   "text": "Art. 31 DSG"
+  },
+  {
+   "start": 26946,
+   "end": 26989,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 27317,
+   "end": 27329,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 27463,
+   "end": 27475,
+   "label": "AMOUNT",
+   "text": "Fr. 2'500.--"
+  }
+ ],
+ "n_pre": 71,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

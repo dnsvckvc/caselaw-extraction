@@ -1,0 +1,57 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  23,
+  66
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 42 Abs. 2 und Art. 106 Abs. 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 66 Abs. 1, Art. 68 Abs. 1 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "143 III 140",
+   "label": "BGE"
+  },
+  {
+   "text": "141 III 395",
+   "label": "BGE"
+  },
+  {
+   "text": "140 III 16",
+   "label": "BGE",
+   "occurrence": 1
+  },
+  {
+   "text": "140 III 16",
+   "label": "BGE",
+   "occurrence": 4
+  },
+  {
+   "text": "140 III 115",
+   "label": "BGE",
+   "all": true
+  },
+  {
+   "text": "136 II 489",
+   "label": "BGE"
+  },
+  {
+   "text": "135 II 356",
+   "label": "BGE"
+  },
+  {
+   "text": "137 III 226",
+   "label": "BGE"
+  },
+  {
+   "text": "129 III 510",
+   "label": "BGE"
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "decision_id": "bger_5A_866_2023",
+ "task_index": 116,
+ "pass": "c",
+ "outcome": "moot",
+ "comment": "",
+ "spans": [
+  {
+   "start": 587,
+   "end": 605,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 625,
+   "end": 641,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1896,
+   "end": 1914,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 2140,
+   "end": 2173,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 6 BGG"
+  },
+  {
+   "start": 2257,
+   "end": 2284,
+   "label": "STATUTE",
+   "text": "Art. 32 Abs. 1 lit. a BGerR"
+  },
+  {
+   "start": 2398,
+   "end": 2416,
+   "label": "STATUTE",
+   "text": "Art. 32 Abs. 2 BGG"
+  },
+  {
+   "start": 3690,
+   "end": 3705,
+   "label": "BGE",
+   "text": "BGE 143 III 297"
+  },
+  {
+   "start": 3792,
+   "end": 3811,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3864,
+   "end": 3879,
+   "label": "BGE",
+   "text": "BGE 138 III 374"
+  },
+  {
+   "start": 3890,
+   "end": 3900,
+   "label": "BGE",
+   "text": "146 III 73"
+  },
+  {
+   "start": 4549,
+   "end": 4567,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 4832,
+   "end": 4850,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  }
+ ],
+ "n_pre": 12,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  9
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 3 Abs. 1",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#9: Reglement des Bundesgerichts with SR number (ReRBGer; SR 173.110.29) is an act given as a title, so BARE_ARTICLE Art. 3 Abs. 1 instead of CONTRACT_ARTICLE Art. 3 Abs. 1 des Reglements"
+}

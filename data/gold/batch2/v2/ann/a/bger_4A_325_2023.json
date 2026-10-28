@@ -1,0 +1,253 @@
+{
+ "decision_id": "bger_4A_325_2023",
+ "task_index": 50,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "no negative references in this decision",
+ "spans": [
+  {
+   "start": 637,
+   "end": 655,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 1330,
+   "end": 1346,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 2574,
+   "end": 2585,
+   "label": "DOCKET",
+   "text": "4A_485/2021"
+  },
+  {
+   "start": 3362,
+   "end": 3373,
+   "label": "DOCKET",
+   "text": "4A_119/2022"
+  },
+  {
+   "start": 3630,
+   "end": 3641,
+   "label": "DOCKET",
+   "text": "4A_405/2022"
+  },
+  {
+   "start": 5798,
+   "end": 5816,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 5819,
+   "end": 5832,
+   "label": "BGE",
+   "text": "BGE 145 I 121"
+  },
+  {
+   "start": 5839,
+   "end": 5850,
+   "label": "BGE",
+   "text": "143 III 140"
+  },
+  {
+   "start": 5857,
+   "end": 5868,
+   "label": "BGE",
+   "text": "141 III 395"
+  },
+  {
+   "start": 6024,
+   "end": 6035,
+   "label": "STATUTE",
+   "text": "Art. 92 BGG"
+  },
+  {
+   "start": 6142,
+   "end": 6167,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 6360,
+   "end": 6385,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 6442,
+   "end": 6467,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 6716,
+   "end": 6731,
+   "label": "BGE",
+   "text": "BGE 144 III 475"
+  },
+  {
+   "start": 6740,
+   "end": 6751,
+   "label": "BGE",
+   "text": "142 III 798"
+  },
+  {
+   "start": 6760,
+   "end": 6770,
+   "label": "BGE",
+   "text": "141 III 80"
+  },
+  {
+   "start": 7003,
+   "end": 7018,
+   "label": "BGE",
+   "text": "BGE 144 III 475"
+  },
+  {
+   "start": 7027,
+   "end": 7038,
+   "label": "BGE",
+   "text": "142 III 798"
+  },
+  {
+   "start": 7047,
+   "end": 7057,
+   "label": "BGE",
+   "text": "141 III 80"
+  },
+  {
+   "start": 7112,
+   "end": 7127,
+   "label": "BGE",
+   "text": "BGE 144 III 475"
+  },
+  {
+   "start": 7136,
+   "end": 7146,
+   "label": "BGE",
+   "text": "138 III 94"
+  },
+  {
+   "start": 7383,
+   "end": 7398,
+   "label": "BGE",
+   "text": "BGE 142 III 798"
+  },
+  {
+   "start": 7407,
+   "end": 7417,
+   "label": "BGE",
+   "text": "141 III 80"
+  },
+  {
+   "start": 7426,
+   "end": 7436,
+   "label": "BGE",
+   "text": "138 III 46"
+  },
+  {
+   "start": 7445,
+   "end": 7456,
+   "label": "BGE",
+   "text": "137 III 324"
+  },
+  {
+   "start": 7465,
+   "end": 7476,
+   "label": "BGE",
+   "text": "133 III 629"
+  },
+  {
+   "start": 8038,
+   "end": 8049,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 8094,
+   "end": 8108,
+   "label": "STATUTE",
+   "text": "Art. 92 f. BGG"
+  },
+  {
+   "start": 8253,
+   "end": 8278,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 8894,
+   "end": 8905,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 9795,
+   "end": 9812,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BV"
+  },
+  {
+   "start": 9817,
+   "end": 9836,
+   "label": "STATUTE",
+   "text": "Art. 6 Ziff. 1 EMRK"
+  },
+  {
+   "start": 9858,
+   "end": 9873,
+   "label": "BGE",
+   "text": "BGE 143 III 416"
+  },
+  {
+   "start": 9882,
+   "end": 9892,
+   "label": "BGE",
+   "text": "143 IV 175"
+  },
+  {
+   "start": 9901,
+   "end": 9912,
+   "label": "BGE",
+   "text": "138 III 190"
+  },
+  {
+   "start": 10301,
+   "end": 10319,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 BGG"
+  },
+  {
+   "start": 10416,
+   "end": 10442,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 10643,
+   "end": 10661,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 10799,
+   "end": 10817,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 10926,
+   "end": 10936,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 40,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

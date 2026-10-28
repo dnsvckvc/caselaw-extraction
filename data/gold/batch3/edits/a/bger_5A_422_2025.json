@@ -1,0 +1,7 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "All 66 pre-annotations checked; none wrong, none missing. 3B 25 5 is a cantonal file number (no span)."
+}

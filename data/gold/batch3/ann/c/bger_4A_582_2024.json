@@ -1,0 +1,175 @@
+{
+ "decision_id": "bger_4A_582_2024",
+ "task_index": 144,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 251,
+   "end": 267,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 299,
+   "end": 317,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 372,
+   "end": 388,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 794,
+   "end": 807,
+   "label": "AMOUNT",
+   "text": "Fr. 33'689.--"
+  },
+  {
+   "start": 1596,
+   "end": 1614,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 1617,
+   "end": 1631,
+   "label": "BGE",
+   "text": "BGE 148 IV 155"
+  },
+  {
+   "start": 1935,
+   "end": 1953,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 2063,
+   "end": 2074,
+   "label": "DOCKET",
+   "text": "4A_493/2023"
+  },
+  {
+   "start": 2163,
+   "end": 2181,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 2 BGG"
+  },
+  {
+   "start": 2587,
+   "end": 2605,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2608,
+   "end": 2622,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 2629,
+   "end": 2632,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 2846,
+   "end": 2865,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2903,
+   "end": 2941,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3353,
+   "end": 3367,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 3374,
+   "end": 3377,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 3492,
+   "end": 3511,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 3731,
+   "end": 3745,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 3937,
+   "end": 3948,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 3958,
+   "end": 3977,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 4078,
+   "end": 4096,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 4168,
+   "end": 4186,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 4805,
+   "end": 4831,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5040,
+   "end": 5058,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 5140,
+   "end": 5158,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5301,
+   "end": 5319,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 5431,
+   "end": 5441,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 27,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

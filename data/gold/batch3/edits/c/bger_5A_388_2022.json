@@ -1,0 +1,24 @@
+{
+ "outcome": "partial_approval",
+ "delete": [
+  43,
+  44,
+  49
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 314 Abs. 1 i.V.m Art. 446 Abs. 1 ZGB",
+   "label": "STATUTE"
+  },
+  {
+   "text": "FamPra.ch 2007, S. 725",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "123 III 35",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Chain joined by 'i.V.m' without final dot treated as i.V.m. (one STATUTE span)."
+}

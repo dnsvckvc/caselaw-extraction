@@ -1,0 +1,9 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    15
+  ],
+  "relabel": [],
+  "add": [],
+  "comment": "Deleted #15 Art. 93 VE (OTHER_LAW): the reference is Art. 93 VE-ZPO, an article of the 2003 preliminary draft (Vorentwurf) of the federal ZPO. The proposal also cut the abbreviation before -ZPO. A draft act is not law in force, so OTHER_LAW does not fit; an abbreviation follows the number, so BARE_ARTICLE does not fit. Guideline gap: article of a draft federal act cited with an abbreviation (VE-ZPO, E-ZPO). Left without span."
+}

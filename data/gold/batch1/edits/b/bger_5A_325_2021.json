@@ -1,0 +1,29 @@
+{
+  "outcome": "inadmissible",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "133 III 645",
+      "label": "BGE"
+    },
+    {
+      "text": "137 III 522",
+      "label": "BGE"
+    },
+    {
+      "text": "137 III 380",
+      "label": "BGE",
+      "occurrence": 4
+    },
+    {
+      "text": "134 III 426",
+      "label": "BGE"
+    },
+    {
+      "text": "138 III 46",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Added five BGE list items without the BGE word. Pre-annotations otherwise correct."
+}

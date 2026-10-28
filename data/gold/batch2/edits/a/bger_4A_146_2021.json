@@ -1,0 +1,7 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [],
+  "comment": "All 43 pre-annotations correct. Beklagter/Klaeger appear only in the body, no span. Header has two opposing parties under one Beschwerdegegner word."
+}

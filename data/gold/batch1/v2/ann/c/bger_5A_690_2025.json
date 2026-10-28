@@ -1,0 +1,151 @@
+{
+ "decision_id": "bger_5A_690_2025",
+ "task_index": 52,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "Citation gold #18 and #19 (Art. 57 ZPO, Art. 60 ZPO) sit inside the court's quotation of the appellant's text; left unchanged.",
+ "spans": [
+  {
+   "start": 251,
+   "end": 269,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 292,
+   "end": 310,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 868,
+   "end": 881,
+   "label": "AMOUNT",
+   "text": "Fr. 58'120.--"
+  },
+  {
+   "start": 1139,
+   "end": 1152,
+   "label": "AMOUNT",
+   "text": "Fr. 58'120.--"
+  },
+  {
+   "start": 1716,
+   "end": 1730,
+   "label": "AMOUNT",
+   "text": "Fr. 363'250.--"
+  },
+  {
+   "start": 1784,
+   "end": 1797,
+   "label": "AMOUNT",
+   "text": "Fr. 58'120.--"
+  },
+  {
+   "start": 2026,
+   "end": 2040,
+   "label": "AMOUNT",
+   "text": "Fr. 305'130.--"
+  },
+  {
+   "start": 2647,
+   "end": 2660,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 2732,
+   "end": 2801,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1,\nArt. 74 Abs. 1 lit. b,\nArt. 75 Abs. 1 und\nArt. 90 BGG"
+  },
+  {
+   "start": 2959,
+   "end": 2977,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3056,
+   "end": 3071,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 3078,
+   "end": 3089,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 3362,
+   "end": 3370,
+   "label": "AMOUNT",
+   "text": "Fr. 8.--"
+  },
+  {
+   "start": 3433,
+   "end": 3446,
+   "label": "AMOUNT",
+   "text": "Fr. 58'120.--"
+  },
+  {
+   "start": 3936,
+   "end": 3949,
+   "label": "AMOUNT",
+   "text": "Fr. 58'120.--"
+  },
+  {
+   "start": 4424,
+   "end": 4449,
+   "label": "STATUTE",
+   "text": "Art. 59 Abs. 2 lit. e ZPO"
+  },
+  {
+   "start": 4806,
+   "end": 4819,
+   "label": "AMOUNT",
+   "text": "Fr. 58'120.--"
+  },
+  {
+   "start": 6179,
+   "end": 6190,
+   "label": "STATUTE",
+   "text": "Art. 57 ZPO"
+  },
+  {
+   "start": 6230,
+   "end": 6241,
+   "label": "STATUTE",
+   "text": "Art. 60 ZPO"
+  },
+  {
+   "start": 6727,
+   "end": 6752,
+   "label": "STATUTE",
+   "text": "Art. 58 Abs. 2 lit. e ZPO"
+  },
+  {
+   "start": 7001,
+   "end": 7027,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 7098,
+   "end": 7116,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 7228,
+   "end": 7240,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  }
+ ],
+ "n_pre": 23,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

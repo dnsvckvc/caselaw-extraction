@@ -1,0 +1,26 @@
+{
+ "outcome": "approved",
+ "delete": [
+  32
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 308 Abs. 1 und Abs. 2 ZGB",
+   "label": "STATUTE"
+  },
+  {
+   "text": "142 II 369",
+   "label": "BGE"
+  },
+  {
+   "text": "140 IIII 264",
+   "label": "BGE"
+  },
+  {
+   "text": "Art. 66 Abs. 1 und Art. 68 Abs. 2 BGG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Added missing statute 'Art. 308 Abs. 1 und Abs. 2 ZGB'; extended one statute chain; added two BGE list items, one of them with a typo in the source ('140 IIII 264' for BGE 140 III 264)."
+}

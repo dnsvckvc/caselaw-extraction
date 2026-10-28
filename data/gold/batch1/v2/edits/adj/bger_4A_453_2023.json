@@ -1,0 +1,10 @@
+{
+ "keep": [],
+ "relabel": [
+  {
+   "text": "Art. 117 GOG/ZH",
+   "label": "OTHER_LAW"
+  }
+ ],
+ "comment": "v0.2 adjudication: GOG/ZH is cantonal law; under v0.1 the span was labelled STATUTE by both passes, under v0.2 it is OTHER_LAW. Both agents of the v2 round flagged it."
+}

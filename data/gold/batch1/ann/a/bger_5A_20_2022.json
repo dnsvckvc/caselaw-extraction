@@ -1,0 +1,163 @@
+{
+ "decision_id": "bger_5A_20_2022",
+ "task_index": 24,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "Extended chain #21; added SchlT ZGB citations (three).",
+ "spans": [
+  {
+   "start": 652,
+   "end": 670,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 1221,
+   "end": 1235,
+   "label": "AMOUNT",
+   "text": "Fr. 200'000.--"
+  },
+  {
+   "start": 3820,
+   "end": 3853,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 2 BGG"
+  },
+  {
+   "start": 3970,
+   "end": 3985,
+   "label": "BGE",
+   "text": "BGE 133 III 368"
+  },
+  {
+   "start": 4084,
+   "end": 4097,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 4108,
+   "end": 4133,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4337,
+   "end": 4348,
+   "label": "DOCKET",
+   "text": "4A_465/2008"
+  },
+  {
+   "start": 4532,
+   "end": 4543,
+   "label": "STATUTE",
+   "text": "Art. 91 ZPO"
+  },
+  {
+   "start": 4576,
+   "end": 4594,
+   "label": "STATUTE",
+   "text": "Art. 52 Abs. 2 ZGB"
+  },
+  {
+   "start": 4884,
+   "end": 4911,
+   "label": "STATUTE",
+   "text": "Art. 6b Abs. 2bis SchlT ZGB"
+  },
+  {
+   "start": 5623,
+   "end": 5637,
+   "label": "BGE",
+   "text": "BGE 146 II 201"
+  },
+  {
+   "start": 6246,
+   "end": 6263,
+   "label": "STATUTE",
+   "text": "Art. 6b SchlT ZGB"
+  },
+  {
+   "start": 6325,
+   "end": 6342,
+   "label": "STATUTE",
+   "text": "Art. 6b SchlT ZGB"
+  },
+  {
+   "start": 6479,
+   "end": 6491,
+   "label": "BGE",
+   "text": "BGE 112 II 1"
+  },
+  {
+   "start": 7216,
+   "end": 7234,
+   "label": "STATUTE",
+   "text": "Art. 51 Abs. 2 BGG"
+  },
+  {
+   "start": 7284,
+   "end": 7297,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 7307,
+   "end": 7322,
+   "label": "BGE",
+   "text": "BGE 140 III 571"
+  },
+  {
+   "start": 7568,
+   "end": 7593,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 7679,
+   "end": 7697,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 7700,
+   "end": 7715,
+   "label": "BGE",
+   "text": "BGE 139 III 182"
+  },
+  {
+   "start": 8082,
+   "end": 8096,
+   "label": "BGE",
+   "text": "BGE 145 II 168"
+  },
+  {
+   "start": 8175,
+   "end": 8187,
+   "label": "STATUTE",
+   "text": "Art. 113 BGG"
+  },
+  {
+   "start": 8223,
+   "end": 8235,
+   "label": "STATUTE",
+   "text": "Art. 114 BGG"
+  },
+  {
+   "start": 8385,
+   "end": 8422,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 3 BGG"
+  },
+  {
+   "start": 8533,
+   "end": 8545,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 22,
+ "n_deleted": 1,
+ "n_added": 4,
+ "n_relabeled": 0
+}

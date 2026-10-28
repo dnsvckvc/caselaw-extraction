@@ -1,0 +1,7 @@
+{
+ "keep": [
+  "b1",
+  "b2"
+ ],
+ "comment": "A currency word in another language (dollars) is a currency token, like Franken."
+}

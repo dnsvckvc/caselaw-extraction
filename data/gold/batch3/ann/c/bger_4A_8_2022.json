@@ -1,0 +1,379 @@
+{
+ "decision_id": "bger_4A_8_2022",
+ "task_index": 71,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 338,
+   "end": 354,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 380,
+   "end": 398,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 3271,
+   "end": 3285,
+   "label": "AMOUNT",
+   "text": "Fr. 181'116.40"
+  },
+  {
+   "start": 3449,
+   "end": 3463,
+   "label": "AMOUNT",
+   "text": "Fr. 248'033.30"
+  },
+  {
+   "start": 3669,
+   "end": 3682,
+   "label": "AMOUNT",
+   "text": "Fr. 16'427.90"
+  },
+  {
+   "start": 4817,
+   "end": 4831,
+   "label": "AMOUNT",
+   "text": "Fr. 207'832.70"
+  },
+  {
+   "start": 5388,
+   "end": 5401,
+   "label": "BGE",
+   "text": "BGE 142 V 448"
+  },
+  {
+   "start": 5461,
+   "end": 5474,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 2 Abs. 2"
+  },
+  {
+   "start": 5862,
+   "end": 5877,
+   "label": "STATUTE",
+   "text": "Art. 72 ff. BGG"
+  },
+  {
+   "start": 5898,
+   "end": 5911,
+   "label": "BGE",
+   "text": "BGE 138 III 2"
+  },
+  {
+   "start": 5977,
+   "end": 5988,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 6079,
+   "end": 6089,
+   "label": "STATUTE",
+   "text": "Art. 7 ZPO"
+  },
+  {
+   "start": 6108,
+   "end": 6133,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 6217,
+   "end": 6242,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 6245,
+   "end": 6258,
+   "label": "BGE",
+   "text": "BGE 138 III 2"
+  },
+  {
+   "start": 6269,
+   "end": 6272,
+   "label": "BGE",
+   "text": "799"
+  },
+  {
+   "start": 6532,
+   "end": 6550,
+   "label": "STATUTE",
+   "text": "Art. 95 und 96 BGG"
+  },
+  {
+   "start": 6762,
+   "end": 6780,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 7215,
+   "end": 7229,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 7236,
+   "end": 7239,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 7354,
+   "end": 7373,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 7593,
+   "end": 7607,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7799,
+   "end": 7810,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 7820,
+   "end": 7839,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 7901,
+   "end": 7916,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 7923,
+   "end": 7934,
+   "label": "BGE",
+   "text": "135 III 397"
+  },
+  {
+   "start": 8041,
+   "end": 8059,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 8191,
+   "end": 8209,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 8293,
+   "end": 8312,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 8315,
+   "end": 8330,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 8526,
+   "end": 8540,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 8798,
+   "end": 8812,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 8989,
+   "end": 9003,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 9883,
+   "end": 9932,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 8 Ziff. 1 lit. g der Allgemeinen Bedingungen"
+  },
+  {
+   "start": 10188,
+   "end": 10212,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 9 Ziff. 2 lit. d AB"
+  },
+  {
+   "start": 10320,
+   "end": 10330,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 17 AB"
+  },
+  {
+   "start": 10635,
+   "end": 10646,
+   "label": "DOCKET",
+   "text": "4A_472/2018"
+  },
+  {
+   "start": 10669,
+   "end": 10680,
+   "label": "DOCKET",
+   "text": "4A_238/2019"
+  },
+  {
+   "start": 10814,
+   "end": 10838,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 8 Ziff. 1 lit. g AB"
+  },
+  {
+   "start": 11023,
+   "end": 11040,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 2 Ziff. 2 AB"
+  },
+  {
+   "start": 11791,
+   "end": 11800,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 9 AB"
+  },
+  {
+   "start": 11932,
+   "end": 11943,
+   "label": "DOCKET",
+   "text": "4A_472/2018"
+  },
+  {
+   "start": 12286,
+   "end": 12297,
+   "label": "DOCKET",
+   "text": "4A_238/2019"
+  },
+  {
+   "start": 13276,
+   "end": 13287,
+   "label": "DOCKET",
+   "text": "4A_238/2019"
+  },
+  {
+   "start": 13609,
+   "end": 13619,
+   "label": "STATUTE",
+   "text": "Art. 2 ZGB"
+  },
+  {
+   "start": 13622,
+   "end": 13639,
+   "label": "STATUTE",
+   "text": "Art. 18 Abs. 1 OR"
+  },
+  {
+   "start": 13644,
+   "end": 13655,
+   "label": "STATUTE",
+   "text": "Art. 33 VVG"
+  },
+  {
+   "start": 13665,
+   "end": 13721,
+   "label": "STATUTE",
+   "text": "Art. 247 Abs. 2 lit. a i.V.m.\nArt. 243 Abs. 2 lit. f ZPO"
+  },
+  {
+   "start": 13726,
+   "end": 13737,
+   "label": "STATUTE",
+   "text": "Art. 55 ZPO"
+  },
+  {
+   "start": 14335,
+   "end": 14352,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 9 Ziff. 2 AB"
+  },
+  {
+   "start": 17838,
+   "end": 17862,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 8 Ziff. 1 lit. g AB"
+  },
+  {
+   "start": 18631,
+   "end": 18640,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 9 AB"
+  },
+  {
+   "start": 18700,
+   "end": 18710,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 17 AB"
+  },
+  {
+   "start": 19999,
+   "end": 20017,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 20229,
+   "end": 20247,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 17 Ziff. 2 AB"
+  },
+  {
+   "start": 20463,
+   "end": 20480,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 17 Abs. 2 AB"
+  },
+  {
+   "start": 20758,
+   "end": 20768,
+   "label": "DOCKET",
+   "text": "4A_10/2016"
+  },
+  {
+   "start": 20883,
+   "end": 20900,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 3 VVG"
+  },
+  {
+   "start": 21482,
+   "end": 21492,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 17 AB"
+  },
+  {
+   "start": 21972,
+   "end": 21990,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 22288,
+   "end": 22300,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  }
+ ],
+ "n_pre": 61,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

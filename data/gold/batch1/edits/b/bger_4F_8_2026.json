@@ -1,0 +1,27 @@
+{
+  "outcome": "inadmissible",
+  "delete": [
+    30
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 34 Abs. 1 lit. a-e BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 121-123 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "147 III 238",
+      "label": "BGE",
+      "occurrence": 1
+    },
+    {
+      "text": "Art. 42 Abs. 7 i.V.m. Art. 108 Abs. 1 lit. c BGG",
+      "label": "STATUTE"
+    }
+  ],
+  "comment": "Added two unlabelled statutes (Art. 34 Abs. 1 lit. a-e BGG, Art. 121-123 BGG), one BGE list item, and extended the chain Art. 42 Abs. 7 i.V.m. Art. 108 Abs. 1 lit. c BGG. 4D_39/2026 is the revised decision, not the own docket, so kept."
+}

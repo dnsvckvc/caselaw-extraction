@@ -1,0 +1,133 @@
+{
+ "decision_id": "bger_5D_44_2023",
+ "task_index": 90,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "Deleted #3 and #4: 5A_44/2023 and 5A_45/2023 in the Gegenstand block are the decision's own numbers (5D_44/2023, 5D_45/2023) written with a typo (5A for 5D); guideline gap. #7 relabelled by delete+add: the Reglement has an SR number, so it is an act given as a title -> BARE_ARTICLE on Art. 34 Abs. 1 lit. c. Item 1 of the dispositiv only joins the proceedings; item 2 decides (nicht eingetreten). RT230005-O/Z01 and Z02 are cantonal file numbers.",
+ "spans": [
+  {
+   "start": 274,
+   "end": 290,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 416,
+   "end": 432,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1022,
+   "end": 1032,
+   "label": "AMOUNT",
+   "text": "Fr. 208.20"
+  },
+  {
+   "start": 1333,
+   "end": 1343,
+   "label": "AMOUNT",
+   "text": "Fr. 150.--"
+  },
+  {
+   "start": 2253,
+   "end": 2274,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 34 Abs. 1 lit. c"
+  },
+  {
+   "start": 2704,
+   "end": 2715,
+   "label": "STATUTE",
+   "text": "Art. 71 BGG"
+  },
+  {
+   "start": 2723,
+   "end": 2741,
+   "label": "STATUTE",
+   "text": "Art. 24 Abs. 3 BZP"
+  },
+  {
+   "start": 2789,
+   "end": 2802,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 2826,
+   "end": 2880,
+   "label": "STATUTE",
+   "text": "Art. 51 Abs. 1 lit. c i.V.m.\nArt. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 2956,
+   "end": 2981,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 3052,
+   "end": 3068,
+   "label": "STATUTE",
+   "text": "Art. 113 ff. BGG"
+  },
+  {
+   "start": 3132,
+   "end": 3159,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 93 BGG"
+  },
+  {
+   "start": 3329,
+   "end": 3354,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 3898,
+   "end": 3913,
+   "label": "BGE",
+   "text": "BGE 142 III 798"
+  },
+  {
+   "start": 4250,
+   "end": 4260,
+   "label": "AMOUNT",
+   "text": "Fr. 150.--"
+  },
+  {
+   "start": 5062,
+   "end": 5104,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 5195,
+   "end": 5213,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5288,
+   "end": 5298,
+   "label": "AMOUNT",
+   "text": "Fr. 250.--"
+  },
+  {
+   "start": 5334,
+   "end": 5344,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  },
+  {
+   "start": 5841,
+   "end": 5851,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 22,
+ "n_deleted": 3,
+ "n_added": 1,
+ "n_relabeled": 0
+}

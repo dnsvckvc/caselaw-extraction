@@ -1,0 +1,13 @@
+{
+ "outcome": "partial_approval",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "130 I 180",
+   "label": "BGE",
+   "occurrence": 1
+  }
+ ],
+ "comment": "Added the bare list item '130 I 180' after 'BGE 144 III 349 E. 4.2.1 mit Hinweisen;'. Same-volume short citation '481' (#75) kept per v0.3."
+}

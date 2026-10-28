@@ -1,0 +1,529 @@
+{
+ "decision_id": "bger_5A_714_2019",
+ "task_index": 15,
+ "pass": "c",
+ "outcome": "approved",
+ "comment": "Aktuelle Anwaltspraxis 2007, S. 26 f. (annual volume, article by Guengerich/Coendet) left without JOURNAL_REF span; unclear whether an annual volume counts as a journal.",
+ "spans": [
+  {
+   "start": 354,
+   "end": 370,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 437,
+   "end": 455,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 855,
+   "end": 868,
+   "label": "AMOUNT",
+   "text": "Fr. 20'000.--"
+  },
+  {
+   "start": 1482,
+   "end": 1493,
+   "label": "DOCKET",
+   "text": "5A_778/2018"
+  },
+  {
+   "start": 1820,
+   "end": 1833,
+   "label": "AMOUNT",
+   "text": "Fr. 20'000.--"
+  },
+  {
+   "start": 2383,
+   "end": 2393,
+   "label": "AMOUNT",
+   "text": "Fr. 400.--"
+  },
+  {
+   "start": 2427,
+   "end": 2437,
+   "label": "AMOUNT",
+   "text": "Fr. 807.75"
+  },
+  {
+   "start": 3087,
+   "end": 3100,
+   "label": "AMOUNT",
+   "text": "Fr. 20'000.--"
+  },
+  {
+   "start": 3952,
+   "end": 3995,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 75,\nArt. 90 BGG"
+  },
+  {
+   "start": 4082,
+   "end": 4095,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 4263,
+   "end": 4276,
+   "label": "AMOUNT",
+   "text": "Fr. 20'000.--"
+  },
+  {
+   "start": 4335,
+   "end": 4360,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4489,
+   "end": 4514,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 4872,
+   "end": 4887,
+   "label": "BGE",
+   "text": "BGE 144 III 164"
+  },
+  {
+   "start": 4901,
+   "end": 4912,
+   "label": "BGE",
+   "text": "139 III 182"
+  },
+  {
+   "start": 5911,
+   "end": 5926,
+   "label": "BGE",
+   "text": "BGE 145 III 474"
+  },
+  {
+   "start": 6310,
+   "end": 6323,
+   "label": "STATUTE",
+   "text": "Art. 80 SchKG"
+  },
+  {
+   "start": 6608,
+   "end": 6633,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 6664,
+   "end": 6683,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 7321,
+   "end": 7334,
+   "label": "STATUTE",
+   "text": "Art. 80 SchKG"
+  },
+  {
+   "start": 8081,
+   "end": 8120,
+   "label": "STATUTE",
+   "text": "Art. 80 Abs. 1 und\nArt. 81 Abs. 1 SchKG"
+  },
+  {
+   "start": 8216,
+   "end": 8228,
+   "label": "DOCKET",
+   "text": "5A_1023/2018"
+  },
+  {
+   "start": 8256,
+   "end": 8266,
+   "label": "DOCKET",
+   "text": "5D_37/2018"
+  },
+  {
+   "start": 8289,
+   "end": 8304,
+   "label": "JOURNAL_REF",
+   "text": "SJ 2019 I S. 73"
+  },
+  {
+   "start": 8418,
+   "end": 8431,
+   "label": "STATUTE",
+   "text": "Art. 80 SchKG"
+  },
+  {
+   "start": 8499,
+   "end": 8512,
+   "label": "STATUTE",
+   "text": "Art. 80 SchKG"
+  },
+  {
+   "start": 8670,
+   "end": 8680,
+   "label": "DOCKET",
+   "text": "5D_37/2018"
+  },
+  {
+   "start": 8704,
+   "end": 8715,
+   "label": "DOCKET",
+   "text": "5A_217/2012"
+  },
+  {
+   "start": 8757,
+   "end": 8772,
+   "label": "BGE",
+   "text": "BGE 138 III 583"
+  },
+  {
+   "start": 9059,
+   "end": 9069,
+   "label": "DOCKET",
+   "text": "5A_19/2019"
+  },
+  {
+   "start": 9097,
+   "end": 9108,
+   "label": "DOCKET",
+   "text": "5A_807/2018"
+  },
+  {
+   "start": 9142,
+   "end": 9163,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2019 S. 592"
+  },
+  {
+   "start": 9165,
+   "end": 9176,
+   "label": "DOCKET",
+   "text": "5A_659/2014"
+  },
+  {
+   "start": 9208,
+   "end": 9219,
+   "label": "DOCKET",
+   "text": "5P.121/2002"
+  },
+  {
+   "start": 9250,
+   "end": 9266,
+   "label": "JOURNAL_REF",
+   "text": "Pra 2002 Nr. 169"
+  },
+  {
+   "start": 9584,
+   "end": 9599,
+   "label": "BGE",
+   "text": "BGE 139 III 486"
+  },
+  {
+   "start": 10307,
+   "end": 10311,
+   "label": "BARE_ARTICLE",
+   "text": "§ 25"
+  },
+  {
+   "start": 10781,
+   "end": 10784,
+   "label": "BARE_ARTICLE",
+   "text": "§ 1"
+  },
+  {
+   "start": 10949,
+   "end": 10961,
+   "label": "STATUTE",
+   "text": "Art. 119 BGG"
+  },
+  {
+   "start": 11261,
+   "end": 11273,
+   "label": "STATUTE",
+   "text": "Art. 103 BGG"
+  },
+  {
+   "start": 12303,
+   "end": 12315,
+   "label": "STATUTE",
+   "text": "Art. 336 ZPO"
+  },
+  {
+   "start": 12334,
+   "end": 12337,
+   "label": "BARE_ARTICLE",
+   "text": "§ 3"
+  },
+  {
+   "start": 12620,
+   "end": 12632,
+   "label": "STATUTE",
+   "text": "Art. 315 ZPO"
+  },
+  {
+   "start": 12719,
+   "end": 12731,
+   "label": "STATUTE",
+   "text": "Art. 103 BGG"
+  },
+  {
+   "start": 12750,
+   "end": 12765,
+   "label": "BGE",
+   "text": "BGE 139 III 466"
+  },
+  {
+   "start": 12982,
+   "end": 13008,
+   "label": "STATUTE",
+   "text": "Art. 103 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 13309,
+   "end": 13328,
+   "label": "STATUTE",
+   "text": "Art. 103 Abs. 3 BGG"
+  },
+  {
+   "start": 13439,
+   "end": 13454,
+   "label": "BGE",
+   "text": "BGE 142 III 738"
+  },
+  {
+   "start": 13480,
+   "end": 13491,
+   "label": "DOCKET",
+   "text": "5A_841/2018"
+  },
+  {
+   "start": 13523,
+   "end": 13534,
+   "label": "DOCKET",
+   "text": "5A_866/2012"
+  },
+  {
+   "start": 13563,
+   "end": 13574,
+   "label": "DOCKET",
+   "text": "5A_217/2012"
+  },
+  {
+   "start": 13616,
+   "end": 13631,
+   "label": "BGE",
+   "text": "BGE 138 III 583"
+  },
+  {
+   "start": 13634,
+   "end": 13645,
+   "label": "DOCKET",
+   "text": "5A_346/2011"
+  },
+  {
+   "start": 13676,
+   "end": 13685,
+   "label": "DOCKET",
+   "text": "5A_3/2009"
+  },
+  {
+   "start": 13898,
+   "end": 13902,
+   "label": "BARE_ARTICLE",
+   "text": "§ 24"
+  },
+  {
+   "start": 13997,
+   "end": 14001,
+   "label": "BARE_ARTICLE",
+   "text": "§ 36"
+  },
+  {
+   "start": 14351,
+   "end": 14363,
+   "label": "STATUTE",
+   "text": "Art. 328 ZPO"
+  },
+  {
+   "start": 14463,
+   "end": 14475,
+   "label": "STATUTE",
+   "text": "Art. 336 ZPO"
+  },
+  {
+   "start": 14560,
+   "end": 14564,
+   "label": "BARE_ARTICLE",
+   "text": "§ 18"
+  },
+  {
+   "start": 14594,
+   "end": 14597,
+   "label": "BARE_ARTICLE",
+   "text": "§ 7"
+  },
+  {
+   "start": 15364,
+   "end": 15380,
+   "label": "STATUTE",
+   "text": "Art. 319 ff. ZPO"
+  },
+  {
+   "start": 15397,
+   "end": 15409,
+   "label": "STATUTE",
+   "text": "Art. 325 ZPO"
+  },
+  {
+   "start": 15681,
+   "end": 15685,
+   "label": "BARE_ARTICLE",
+   "text": "§ 18"
+  },
+  {
+   "start": 15727,
+   "end": 15743,
+   "label": "STATUTE",
+   "text": "Art. 319 ff. ZPO"
+  },
+  {
+   "start": 16064,
+   "end": 16083,
+   "label": "STATUTE",
+   "text": "Art. 325 Abs. 1 ZPO"
+  },
+  {
+   "start": 16089,
+   "end": 16108,
+   "label": "STATUTE",
+   "text": "Art. 103 Abs. 1 BGG"
+  },
+  {
+   "start": 16183,
+   "end": 16202,
+   "label": "STATUTE",
+   "text": "Art. 320 lit. a ZPO"
+  },
+  {
+   "start": 16208,
+   "end": 16219,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 16248,
+   "end": 16267,
+   "label": "STATUTE",
+   "text": "Art. 320 lit. b ZPO"
+  },
+  {
+   "start": 16273,
+   "end": 16291,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 16359,
+   "end": 16375,
+   "label": "STATUTE",
+   "text": "Art. 319 ff. ZPO"
+  },
+  {
+   "start": 16519,
+   "end": 16538,
+   "label": "STATUTE",
+   "text": "Art. 327 Abs. 3 ZPO"
+  },
+  {
+   "start": 16544,
+   "end": 16563,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 16713,
+   "end": 16729,
+   "label": "STATUTE",
+   "text": "Art. 319 ff. ZPO"
+  },
+  {
+   "start": 16761,
+   "end": 16786,
+   "label": "STATUTE",
+   "text": "Art. 309 lit. a und b ZPO"
+  },
+  {
+   "start": 17004,
+   "end": 17023,
+   "label": "STATUTE",
+   "text": "Art. 325 Abs. 1 ZPO"
+  },
+  {
+   "start": 17707,
+   "end": 17720,
+   "label": "STATUTE",
+   "text": "Art. 80 SchKG"
+  },
+  {
+   "start": 18200,
+   "end": 18237,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 18386,
+   "end": 18416,
+   "label": "STATUTE",
+   "text": "Art. 67 und\nArt. 68 Abs. 5 BGG"
+  },
+  {
+   "start": 18826,
+   "end": 18836,
+   "label": "AMOUNT",
+   "text": "Fr. 400.--"
+  },
+  {
+   "start": 18872,
+   "end": 18882,
+   "label": "AMOUNT",
+   "text": "Fr. 750.--"
+  },
+  {
+   "start": 18893,
+   "end": 18902,
+   "label": "AMOUNT",
+   "text": "Fr. 57.75"
+  },
+  {
+   "start": 19024,
+   "end": 19034,
+   "label": "AMOUNT",
+   "text": "Fr. 600.--"
+  },
+  {
+   "start": 19168,
+   "end": 19178,
+   "label": "AMOUNT",
+   "text": "Fr. 969.30"
+  },
+  {
+   "start": 19261,
+   "end": 19273,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  },
+  {
+   "start": 19409,
+   "end": 19421,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  }
+ ],
+ "n_pre": 86,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

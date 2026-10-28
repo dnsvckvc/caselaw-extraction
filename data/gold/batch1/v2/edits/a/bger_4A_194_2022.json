@@ -1,0 +1,14 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    50
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 51",
+      "label": "BARE_ARTICLE"
+    }
+  ],
+  "comment": "#50: foreign act (spanische Zivilprozessordnung) given as a title, not an abbreviation; by analogy with the cantonal-title rule it is BARE_ARTICLE Art. 51, not CONTRACT_ARTICLE. Guideline only states the title rule for cantonal acts. All Vermittlungsvertrag proposals confirmed."
+}

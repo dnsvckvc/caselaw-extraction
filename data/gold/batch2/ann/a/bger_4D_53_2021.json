@@ -1,0 +1,181 @@
+{
+ "decision_id": "bger_4D_53_2021",
+ "task_index": 24,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 273,
+   "end": 294,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerinnen"
+  },
+  {
+   "start": 317,
+   "end": 333,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 639,
+   "end": 651,
+   "label": "STATUTE",
+   "text": "Art. 257 ZPO"
+  },
+  {
+   "start": 1240,
+   "end": 1252,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 2133,
+   "end": 2151,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 2154,
+   "end": 2167,
+   "label": "BGE",
+   "text": "BGE 145 I 121"
+  },
+  {
+   "start": 2174,
+   "end": 2185,
+   "label": "BGE",
+   "text": "143 III 140"
+  },
+  {
+   "start": 2192,
+   "end": 2203,
+   "label": "BGE",
+   "text": "141 III 395"
+  },
+  {
+   "start": 2306,
+   "end": 2331,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 2435,
+   "end": 2460,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 2516,
+   "end": 2541,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 Satz 2 BGG"
+  },
+  {
+   "start": 2871,
+   "end": 2887,
+   "label": "STATUTE",
+   "text": "Art. 113-119 BGG"
+  },
+  {
+   "start": 3027,
+   "end": 3039,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 3272,
+   "end": 3318,
+   "label": "STATUTE",
+   "text": "Art. 117 in Verbindung mit\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3496,
+   "end": 3511,
+   "label": "BGE",
+   "text": "BGE 135 III 232"
+  },
+  {
+   "start": 3521,
+   "end": 3529,
+   "label": "BGE",
+   "text": "134 I 83"
+  },
+  {
+   "start": 3673,
+   "end": 3692,
+   "label": "STATUTE",
+   "text": "Art. 118 Abs. 1 BGG"
+  },
+  {
+   "start": 3912,
+   "end": 3926,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 4109,
+   "end": 4141,
+   "label": "STATUTE",
+   "text": "Art. 118 Abs. 2 und\nArt. 116 BGG"
+  },
+  {
+   "start": 4210,
+   "end": 4245,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4248,
+   "end": 4261,
+   "label": "BGE",
+   "text": "BGE 136 I 332"
+  },
+  {
+   "start": 4270,
+   "end": 4281,
+   "label": "BGE",
+   "text": "133 III 439"
+  },
+  {
+   "start": 4388,
+   "end": 4403,
+   "label": "BGE",
+   "text": "BGE 133 III 393"
+  },
+  {
+   "start": 4536,
+   "end": 4563,
+   "label": "STATUTE",
+   "text": "Art. 99 i.V.m.\nArt. 117 BGG"
+  },
+  {
+   "start": 5222,
+   "end": 5248,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5369,
+   "end": 5393,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 5 BGG"
+  },
+  {
+   "start": 5528,
+   "end": 5546,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 5660,
+   "end": 5670,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 28,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

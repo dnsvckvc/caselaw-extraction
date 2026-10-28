@@ -1,0 +1,487 @@
+{
+ "decision_id": "bger_4A_74_2021",
+ "task_index": 44,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "Two appeals: item 1 subsidiäre Verfassungsbeschwerde nicht eingetreten (taken), item 2 Beschwerde in Zivilsachen abgewiesen. #21 'Art. 42 Abs. 2 und (in Bezug auf ...) Art. 106 Abs. 2 BGG': chain is split by a bracketed remark; relabelled #21 to STATUTE as its own span instead of one span over the bracket. #46 VMWG article given by title -> BARE_ARTICLE.",
+ "spans": [
+  {
+   "start": 337,
+   "end": 353,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 429,
+   "end": 447,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 935,
+   "end": 991,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 2.7.3 der allgemeinen Bestimmungen zum Mietvertrag"
+  },
+  {
+   "start": 3071,
+   "end": 3082,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3210,
+   "end": 3236,
+   "label": "STATUTE",
+   "text": "Art. 75 i.V.m.\nArt. 72 BGG"
+  },
+  {
+   "start": 3329,
+   "end": 3347,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 3391,
+   "end": 3439,
+   "label": "STATUTE",
+   "text": "Art. 46 Abs. 1 lit. c i.V.m.\nArt. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 3520,
+   "end": 3545,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 3679,
+   "end": 3691,
+   "label": "STATUTE",
+   "text": "Art. 113 BGG"
+  },
+  {
+   "start": 3757,
+   "end": 3776,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 4126,
+   "end": 4150,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 4484,
+   "end": 4498,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 4505,
+   "end": 4508,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 4771,
+   "end": 4790,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4882,
+   "end": 4891,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 5113,
+   "end": 5128,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 5137,
+   "end": 5147,
+   "label": "BGE",
+   "text": "140 III 16"
+  },
+  {
+   "start": 5157,
+   "end": 5164,
+   "label": "BGE",
+   "text": "129 I 8"
+  },
+  {
+   "start": 5375,
+   "end": 5390,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 5423,
+   "end": 5436,
+   "label": "BGE",
+   "text": "BGE 143 IV 40"
+  },
+  {
+   "start": 5480,
+   "end": 5494,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2"
+  },
+  {
+   "start": 5542,
+   "end": 5561,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5973,
+   "end": 5987,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 5994,
+   "end": 5997,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 6286,
+   "end": 6305,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 6525,
+   "end": 6539,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6746,
+   "end": 6757,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 6767,
+   "end": 6786,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 6844,
+   "end": 6858,
+   "label": "BGE",
+   "text": "BGE 143 IV 241"
+  },
+  {
+   "start": 6869,
+   "end": 6880,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 6887,
+   "end": 6890,
+   "label": "BGE",
+   "text": "264"
+  },
+  {
+   "start": 6997,
+   "end": 7015,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 7099,
+   "end": 7118,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 7121,
+   "end": 7136,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 7332,
+   "end": 7346,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7604,
+   "end": 7618,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 8668,
+   "end": 8681,
+   "label": "BGE",
+   "text": "BGE 131 I 153"
+  },
+  {
+   "start": 8918,
+   "end": 8933,
+   "label": "BGE",
+   "text": "BGE 141 III 119"
+  },
+  {
+   "start": 8944,
+   "end": 8955,
+   "label": "BGE",
+   "text": "138 III 425"
+  },
+  {
+   "start": 8998,
+   "end": 9009,
+   "label": "DOCKET",
+   "text": "4A_125/2020"
+  },
+  {
+   "start": 9152,
+   "end": 9168,
+   "label": "STATUTE",
+   "text": "Art. 243 ff. ZPO"
+  },
+  {
+   "start": 9481,
+   "end": 9500,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 2 OR"
+  },
+  {
+   "start": 9748,
+   "end": 9767,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 3 OR"
+  },
+  {
+   "start": 9989,
+   "end": 10001,
+   "label": "STATUTE",
+   "text": "Art. 269d OR"
+  },
+  {
+   "start": 10313,
+   "end": 10328,
+   "label": "BGE",
+   "text": "BGE 125 III 231"
+  },
+  {
+   "start": 10343,
+   "end": 10370,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 19 Abs. 1 lit. b und c"
+  },
+  {
+   "start": 10572,
+   "end": 10591,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 3 OR"
+  },
+  {
+   "start": 11024,
+   "end": 11046,
+   "label": "STATUTE",
+   "text": "Art. 19 Abs. 1bis VMWG"
+  },
+  {
+   "start": 11087,
+   "end": 11113,
+   "label": "STATUTE",
+   "text": "Art. 19 Abs. 1 lit. b VMWG"
+  },
+  {
+   "start": 11317,
+   "end": 11332,
+   "label": "BGE",
+   "text": "BGE 137 III 362"
+  },
+  {
+   "start": 11343,
+   "end": 11352,
+   "label": "BGE",
+   "text": "121 III 6"
+  },
+  {
+   "start": 11360,
+   "end": 11363,
+   "label": "BGE",
+   "text": "460"
+  },
+  {
+   "start": 11377,
+   "end": 11388,
+   "label": "DOCKET",
+   "text": "4A_374/2020"
+  },
+  {
+   "start": 11710,
+   "end": 11766,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 2.7.1 der allgemeinen Bestimmungen zum Mietvertrag"
+  },
+  {
+   "start": 11847,
+   "end": 11887,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 2.7.3 der allgemeinen Bestimmungen"
+  },
+  {
+   "start": 12313,
+   "end": 12369,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 2.7.1 der allgemeinen Bestimmungen zum Mietvertrag"
+  },
+  {
+   "start": 12378,
+   "end": 12390,
+   "label": "STATUTE",
+   "text": "Art. 257f OR"
+  },
+  {
+   "start": 12488,
+   "end": 12507,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 3 OR"
+  },
+  {
+   "start": 12633,
+   "end": 12705,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 2.7.1 und Ziff. 2.7.3 der allgemeinen Bestimmungen zum Mietvertrag"
+  },
+  {
+   "start": 12852,
+   "end": 12864,
+   "label": "STATUTE",
+   "text": "Art. 269d OR"
+  },
+  {
+   "start": 12932,
+   "end": 12951,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 3 OR"
+  },
+  {
+   "start": 13096,
+   "end": 13110,
+   "label": "BGE",
+   "text": "BGE 125 III 62"
+  },
+  {
+   "start": 13950,
+   "end": 13969,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 3 OR"
+  },
+  {
+   "start": 14104,
+   "end": 14123,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 2 OR"
+  },
+  {
+   "start": 14295,
+   "end": 14314,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 3 OR"
+  },
+  {
+   "start": 14987,
+   "end": 15009,
+   "label": "STATUTE",
+   "text": "Art. 19 Abs. 1bis VMWG"
+  },
+  {
+   "start": 16046,
+   "end": 16085,
+   "label": "STATUTE",
+   "text": "Art. 269 Abs. 2 lit. b i.V.m. Abs. 3 OR"
+  },
+  {
+   "start": 17040,
+   "end": 17059,
+   "label": "STATUTE",
+   "text": "Art. 269d Abs. 3 OR"
+  },
+  {
+   "start": 17065,
+   "end": 17084,
+   "label": "STATUTE",
+   "text": "Art. 270b Abs. 2 OR"
+  },
+  {
+   "start": 17324,
+   "end": 17334,
+   "label": "STATUTE",
+   "text": "Art. 2 ZGB"
+  },
+  {
+   "start": 17402,
+   "end": 17414,
+   "label": "STATUTE",
+   "text": "Art. 269d OR"
+  },
+  {
+   "start": 17433,
+   "end": 17445,
+   "label": "STATUTE",
+   "text": "Art. 270b OR"
+  },
+  {
+   "start": 17802,
+   "end": 17814,
+   "label": "STATUTE",
+   "text": "Art. 269d OR"
+  },
+  {
+   "start": 17980,
+   "end": 17992,
+   "label": "STATUTE",
+   "text": "Art. 269d OR"
+  },
+  {
+   "start": 18291,
+   "end": 18347,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 2.7.3 der allgemeinen Bestimmungen zum Mietvertrag"
+  },
+  {
+   "start": 18621,
+   "end": 18633,
+   "label": "STATUTE",
+   "text": "Art. 257f OR"
+  },
+  {
+   "start": 21640,
+   "end": 21658,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 21764,
+   "end": 21782,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 22023,
+   "end": 22035,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 78,
+ "n_deleted": 1,
+ "n_added": 2,
+ "n_relabeled": 1
+}

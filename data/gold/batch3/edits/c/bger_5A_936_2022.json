@@ -1,0 +1,11 @@
+{
+ "outcome": "partial_approval",
+ "delete": [],
+ "add": [
+  {
+   "text": "130 I 180",
+   "label": "BGE",
+   "occurrence": 1
+  }
+ ]
+}

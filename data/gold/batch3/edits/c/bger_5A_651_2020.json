@@ -1,0 +1,14 @@
+{
+ "outcome": "approved",
+ "delete": [
+  11
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 72 Abs. 2 lit a BGG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "#33 Artikel 230a SchKG sits inside a book title (GASSER, Die Liquidation nach Artikel 230a SchKG); kept as STATUTE. nach 230a SchKG without Art. left unlabelled."
+}

@@ -1,0 +1,15 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  25
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 1",
+   "label": "BARE_ARTICLE",
+   "occurrence": 2
+  }
+ ],
+ "comment": "#25 CONTRACT_ARTICLE on Art. 1 der Verordnung vom 20. März 2020 ... [SR 173.110.4] replaced: a Verordnung with an SR number is an act given by title, so BARE_ARTICLE on Art. 1 only (occurrence 2 because Art. 100 Abs. 1 BGG matches Art. 1 first)."
+}

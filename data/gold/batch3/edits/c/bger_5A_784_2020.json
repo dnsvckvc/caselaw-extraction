@@ -1,0 +1,56 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  22,
+  33,
+  35,
+  44,
+  45,
+  46,
+  47,
+  52
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "§ 794 Abs. 1 Nr. 5 dt. ZPO",
+   "label": "OTHER_LAW"
+  },
+  {
+   "text": "Art. 3",
+   "label": "BARE_ARTICLE",
+   "occurrence": 3
+  },
+  {
+   "text": "Art. 1",
+   "label": "BARE_ARTICLE",
+   "occurrence": 4
+  },
+  {
+   "text": "Art. 1 EuroVO II",
+   "label": "OTHER_LAW"
+  },
+  {
+   "text": "Art. 14 EuroVO II",
+   "label": "OTHER_LAW"
+  },
+  {
+   "text": "Entscheidungen des Bundesgerichtshofes in Zivilsachen [BGHZ] 185 133",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "BGHZ 99 274",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "ZR 114/2015 Nr. 12",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "DM 300'000.--",
+   "label": "AMOUNT",
+   "all": true
+  }
+ ],
+ "comment": "EU regulations cited by title (Art. 3/Art. 1 der Verordnung [EG]) -> BARE_ARTICLE; court-defined abbreviation EuroVO II -> OTHER_LAW. BGH file numbers XI ZR 113/06, XI ZR 200/09 are foreign dockets, deleted. BGHZ span includes the full name and a bracketed abbreviation. Jusletter vom 7. November 2011, Rz. 10 has no page or number; left unlabelled. aLugÜ kept as STATUTE."
+}

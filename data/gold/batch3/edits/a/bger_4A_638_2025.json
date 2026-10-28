@@ -1,0 +1,26 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    43,
+    46,
+    49,
+    50,
+    51,
+    54,
+    52
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "§ 157 BGB/D",
+      "label": "OTHER_LAW",
+      "all": true
+    },
+    {
+      "text": "§ 133 BGB/D",
+      "label": "OTHER_LAW",
+      "all": true
+    }
+  ],
+  "comment": "BGB/D is the abbreviation as written (like ZPO/ZH), so the /D suffix belongs inside the OTHER_LAW span; pre-annotator cut before /D. VIII ZR 164/03 is a German BGH file number -> no span (was JOURNAL_REF). Art. 96 lit. b e contrario i.V.m. Art. 106 Abs. 2 BGG: kept as BARE_ARTICLE + STATUTE because e contrario interrupts the chain (analogous to the bracketed-remark rule); not settled by the guideline. § 133 des bürgerlichen Gesetzbuches (BGB/D) stays BARE_ARTICLE (act given as a title)."
+}

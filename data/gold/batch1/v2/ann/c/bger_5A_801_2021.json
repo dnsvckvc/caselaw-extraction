@@ -1,0 +1,151 @@
+{
+ "decision_id": "bger_5A_801_2021",
+ "task_index": 19,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 283,
+   "end": 299,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 707,
+   "end": 720,
+   "label": "STATUTE",
+   "text": "Art. 449a ZGB"
+  },
+  {
+   "start": 907,
+   "end": 918,
+   "label": "DOCKET",
+   "text": "5A_194/2021"
+  },
+  {
+   "start": 1087,
+   "end": 1115,
+   "label": "STATUTE",
+   "text": "Art. 394 i.V.m.\nArt. 395 ZGB"
+  },
+  {
+   "start": 1460,
+   "end": 1471,
+   "label": "DOCKET",
+   "text": "5A_507/2021"
+  },
+  {
+   "start": 2168,
+   "end": 2181,
+   "label": "AMOUNT",
+   "text": "Fr. 12'534.50"
+  },
+  {
+   "start": 2216,
+   "end": 2228,
+   "label": "AMOUNT",
+   "text": "Fr. 3'116.16"
+  },
+  {
+   "start": 2989,
+   "end": 3022,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 6 BGG"
+  },
+  {
+   "start": 3168,
+   "end": 3181,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 3199,
+   "end": 3224,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3303,
+   "end": 3350,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a i.V.m.\nArt. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3434,
+   "end": 3446,
+   "label": "STATUTE",
+   "text": "Art. 113 BGG"
+  },
+  {
+   "start": 3551,
+   "end": 3563,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 3627,
+   "end": 3662,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3897,
+   "end": 3911,
+   "label": "BGE",
+   "text": "BGE 133 II 396"
+  },
+  {
+   "start": 3927,
+   "end": 3938,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4131,
+   "end": 4142,
+   "label": "AMOUNT",
+   "text": "Fr. 50 Mio."
+  },
+  {
+   "start": 5514,
+   "end": 5535,
+   "label": "STATUTE",
+   "text": "Art. 8, 26, 30, 35 BV"
+  },
+  {
+   "start": 6362,
+   "end": 6372,
+   "label": "STATUTE",
+   "text": "Art. 30 BV"
+  },
+  {
+   "start": 6731,
+   "end": 6750,
+   "label": "STATUTE",
+   "text": "Art. 118 Abs. 1 BGG"
+  },
+  {
+   "start": 6894,
+   "end": 6928,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 7117,
+   "end": 7135,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 7361,
+   "end": 7373,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 23,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

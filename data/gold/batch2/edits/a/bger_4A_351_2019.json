@@ -1,0 +1,12 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "133 II 249",
+      "label": "BGE"
+    }
+  ],
+  "comment": "German BGB paragraph citations and the German BGH docket X ZR 37/12 left unlabelled."
+}

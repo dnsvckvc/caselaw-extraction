@@ -1,0 +1,14 @@
+{
+ "outcome": "partial_approval",
+ "delete": [
+  16
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Fr. 1750.--",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "#16 cut at Fr. 175 (text has Fr. 1750.-- without apostrophe), replaced by full span. Outcome changed from approved to partial_approval: dispositiv item 1 reads In teilweiser Gutheissung der Beschwerde ... aufgehoben und zurueckgewiesen (nominal form of teilweise gutgeheissen). #26 Art. 51Abs. 1 lit. a BGG kept as the text has the typo."
+}

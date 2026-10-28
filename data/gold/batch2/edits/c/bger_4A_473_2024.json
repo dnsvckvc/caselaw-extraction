@@ -1,0 +1,23 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 271a Abs. 2 OR",
+   "label": "STATUTE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. 271a Abs. 1 lit. e Ziff. 4 i.V.m. Abs. 2 OR",
+   "label": "STATUTE",
+   "all": true
+  },
+  {
+   "text": "Art. 271a Abs. 1 lit. e i.V.m. Abs. 2 OR",
+   "label": "STATUTE",
+   "all": true
+  }
+ ],
+ "comment": "Added the Gegenstand statute and the 'Art. 271a Abs. 1 lit. e (Ziff. 4) i.V.m. Abs. 2 OR' chains (second article given only as 'Abs. 2'), one span each."
+}

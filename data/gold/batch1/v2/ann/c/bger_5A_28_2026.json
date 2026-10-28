@@ -1,0 +1,85 @@
+{
+ "decision_id": "bger_5A_28_2026",
+ "task_index": 55,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 307,
+   "end": 323,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 813,
+   "end": 823,
+   "label": "AMOUNT",
+   "text": "Fr. 555.--"
+  },
+  {
+   "start": 1735,
+   "end": 1753,
+   "label": "STATUTE",
+   "text": "Art. 48 Abs. 3 BGG"
+  },
+  {
+   "start": 2658,
+   "end": 2675,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 2904,
+   "end": 2923,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 3989,
+   "end": 4006,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 4409,
+   "end": 4424,
+   "label": "BGE",
+   "text": "BGE 147 III 586"
+  },
+  {
+   "start": 4435,
+   "end": 4445,
+   "label": "BGE",
+   "text": "143 IV 380"
+  },
+  {
+   "start": 4961,
+   "end": 4971,
+   "label": "DOCKET",
+   "text": "5A_68/2025"
+  },
+  {
+   "start": 4999,
+   "end": 5010,
+   "label": "DOCKET",
+   "text": "5A_898/2025"
+  },
+  {
+   "start": 5717,
+   "end": 5735,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5785,
+   "end": 5803,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  }
+ ],
+ "n_pre": 12,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

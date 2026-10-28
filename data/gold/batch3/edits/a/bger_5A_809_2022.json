@@ -1,0 +1,20 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "RUB 35'151'779.58",
+   "label": "AMOUNT"
+  },
+  {
+   "text": "RUB 2.95 Mio.",
+   "label": "AMOUNT"
+  },
+  {
+   "text": "AJP 11/2022, S. 1176",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Added two RUB amounts (currency token RUB by analogy to EUR; multiplier Mio. inside) and AJP 11/2022, S. 1176 as JOURNAL_REF (ff. excluded). BBl 1983 I 328, BBl 2017 4135 and BZ 2022 72 (cantonal) left unlabelled."
+}

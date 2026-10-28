@@ -1,0 +1,223 @@
+{
+ "decision_id": "bger_5D_173_2022",
+ "task_index": 87,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "No changes. Item 1 of the dispositiv rules on the Sistierung only; item 2 (nicht eingetreten) decides the appeal. 5D_173/2022 in the body is the decision's own number, no span. PS220153-O/U, PS220152-O/U, FV210030, RY210004 are cantonal file numbers.",
+ "spans": [
+  {
+   "start": 295,
+   "end": 311,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 397,
+   "end": 415,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 952,
+   "end": 965,
+   "label": "STATUTE",
+   "text": "Art. 85 SchKG"
+  },
+  {
+   "start": 985,
+   "end": 999,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 1038,
+   "end": 1051,
+   "label": "STATUTE",
+   "text": "Art. 22 SchKG"
+  },
+  {
+   "start": 1117,
+   "end": 1130,
+   "label": "STATUTE",
+   "text": "Art. 85 SchKG"
+  },
+  {
+   "start": 2050,
+   "end": 2061,
+   "label": "DOCKET",
+   "text": "5D_174/2022"
+  },
+  {
+   "start": 2310,
+   "end": 2321,
+   "label": "DOCKET",
+   "text": "5D_174/2022"
+  },
+  {
+   "start": 3910,
+   "end": 3929,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 4445,
+   "end": 4464,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 4777,
+   "end": 4788,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 4897,
+   "end": 4910,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 4935,
+   "end": 4960,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5036,
+   "end": 5061,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 5181,
+   "end": 5197,
+   "label": "STATUTE",
+   "text": "Art. 113 ff. BGG"
+  },
+  {
+   "start": 5276,
+   "end": 5288,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 5352,
+   "end": 5387,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5622,
+   "end": 5636,
+   "label": "BGE",
+   "text": "BGE 133 II 396"
+  },
+  {
+   "start": 5645,
+   "end": 5656,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 5804,
+   "end": 5818,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 5829,
+   "end": 5840,
+   "label": "BGE",
+   "text": "138 III 252"
+  },
+  {
+   "start": 5849,
+   "end": 5859,
+   "label": "BGE",
+   "text": "133 II 396"
+  },
+  {
+   "start": 6687,
+   "end": 6698,
+   "label": "STATUTE",
+   "text": "Art. 69 ZPO"
+  },
+  {
+   "start": 7531,
+   "end": 7566,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 9572,
+   "end": 9585,
+   "label": "STATUTE",
+   "text": "Art. 22 SchKG"
+  },
+  {
+   "start": 10540,
+   "end": 10557,
+   "label": "STATUTE",
+   "text": "Art. 17 ff. SchKG"
+  },
+  {
+   "start": 11058,
+   "end": 11071,
+   "label": "STATUTE",
+   "text": "Art. 85 SchKG"
+  },
+  {
+   "start": 11157,
+   "end": 11170,
+   "label": "STATUTE",
+   "text": "Art. 85 SchKG"
+  },
+  {
+   "start": 11313,
+   "end": 11333,
+   "label": "STATUTE",
+   "text": "Art. 88 Abs. 2 SchKG"
+  },
+  {
+   "start": 11488,
+   "end": 11508,
+   "label": "STATUTE",
+   "text": "Art. 88 Abs. 2 SchKG"
+  },
+  {
+   "start": 11801,
+   "end": 11814,
+   "label": "STATUTE",
+   "text": "Art. 85 SchKG"
+  },
+  {
+   "start": 11822,
+   "end": 11835,
+   "label": "STATUTE",
+   "text": "Art. 85 SchKG"
+  },
+  {
+   "start": 11948,
+   "end": 11968,
+   "label": "STATUTE",
+   "text": "Art. 88 Abs. 2 SchKG"
+  },
+  {
+   "start": 14056,
+   "end": 14074,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 14237,
+   "end": 14249,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  }
+ ],
+ "n_pre": 35,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

@@ -1,0 +1,151 @@
+{
+ "decision_id": "bger_5A_886_2025",
+ "task_index": 51,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "Added two BGE list items without the BGE word and Art. 117 f. ZPO.",
+ "spans": [
+  {
+   "start": 249,
+   "end": 265,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 364,
+   "end": 380,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1004,
+   "end": 1015,
+   "label": "DOCKET",
+   "text": "5A_663/2025"
+  },
+  {
+   "start": 1037,
+   "end": 1048,
+   "label": "DOCKET",
+   "text": "5A_771/2025"
+  },
+  {
+   "start": 1050,
+   "end": 1061,
+   "label": "DOCKET",
+   "text": "5A_776/2025"
+  },
+  {
+   "start": 1066,
+   "end": 1077,
+   "label": "DOCKET",
+   "text": "5A_777/2025"
+  },
+  {
+   "start": 2121,
+   "end": 2131,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  },
+  {
+   "start": 2982,
+   "end": 2993,
+   "label": "STATUTE",
+   "text": "Art. 94 BGG"
+  },
+  {
+   "start": 3404,
+   "end": 3415,
+   "label": "STATUTE",
+   "text": "Art. 50 BGG"
+  },
+  {
+   "start": 3634,
+   "end": 3652,
+   "label": "STATUTE",
+   "text": "Art. 47 Abs. 1 BGG"
+  },
+  {
+   "start": 3894,
+   "end": 3912,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 4352,
+   "end": 4370,
+   "label": "STATUTE",
+   "text": "Art. 41 Abs. 1 BGG"
+  },
+  {
+   "start": 5005,
+   "end": 5024,
+   "label": "STATUTE",
+   "text": "Art. 6 Ziff. 1 EMRK"
+  },
+  {
+   "start": 5068,
+   "end": 5079,
+   "label": "STATUTE",
+   "text": "Art. 29a BV"
+  },
+  {
+   "start": 5114,
+   "end": 5129,
+   "label": "STATUTE",
+   "text": "Art. 117 f. ZPO"
+  },
+  {
+   "start": 5907,
+   "end": 5921,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 5932,
+   "end": 5943,
+   "label": "BGE",
+   "text": "138 III 252"
+  },
+  {
+   "start": 5952,
+   "end": 5962,
+   "label": "BGE",
+   "text": "133 II 396"
+  },
+  {
+   "start": 6282,
+   "end": 6300,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 6381,
+   "end": 6407,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 6640,
+   "end": 6658,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6751,
+   "end": 6769,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 7041,
+   "end": 7053,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 20,
+ "n_deleted": 0,
+ "n_added": 3,
+ "n_relabeled": 0
+}

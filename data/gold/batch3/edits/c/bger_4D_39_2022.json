@@ -1,0 +1,14 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  4
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Fr. 5'400--",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "#4 extended to include the trailing '--' (written without a dot)."
+}

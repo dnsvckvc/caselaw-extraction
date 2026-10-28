@@ -1,0 +1,20 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  3,
+  6
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Fr. 2,3 Mio.",
+   "label": "AMOUNT",
+   "all": true
+  },
+  {
+   "text": "Art 271 Abs. 1 Ziff. 2 SchKG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Pre-annotations #3 and #6 cut Fr. 2,3 Mio. at the decimal comma. In E. 3.3.3 the text has Art without the dot (Art 271 Abs. 1 Ziff. 2 SchKG); I labelled it as a STATUTE because it is a typo of Art."
+}

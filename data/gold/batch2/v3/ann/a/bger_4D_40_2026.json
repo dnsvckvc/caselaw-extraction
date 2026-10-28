@@ -1,0 +1,139 @@
+{
+ "decision_id": "bger_4D_40_2026",
+ "task_index": 86,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "short cite 115 correct",
+ "spans": [
+  {
+   "start": 269,
+   "end": 285,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 321,
+   "end": 339,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 455,
+   "end": 471,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 907,
+   "end": 917,
+   "label": "AMOUNT",
+   "text": "Fr. 300.--"
+  },
+  {
+   "start": 1194,
+   "end": 1204,
+   "label": "AMOUNT",
+   "text": "Fr. 250.--"
+  },
+  {
+   "start": 2007,
+   "end": 2017,
+   "label": "AMOUNT",
+   "text": "Fr. 300.--"
+  },
+  {
+   "start": 2313,
+   "end": 2323,
+   "label": "AMOUNT",
+   "text": "Fr. 250.--"
+  },
+  {
+   "start": 3193,
+   "end": 3204,
+   "label": "STATUTE",
+   "text": "Art. 71 BGG"
+  },
+  {
+   "start": 3212,
+   "end": 3237,
+   "label": "STATUTE",
+   "text": "Art. 24 Abs. 2 lit. b BZP"
+  },
+  {
+   "start": 3240,
+   "end": 3254,
+   "label": "BGE",
+   "text": "BGE 133 IV 215"
+  },
+  {
+   "start": 3261,
+   "end": 3274,
+   "label": "BGE",
+   "text": "BGE 126 V 283"
+  },
+  {
+   "start": 3281,
+   "end": 3295,
+   "label": "BGE",
+   "text": "BGE 113 Ia 390"
+  },
+  {
+   "start": 3671,
+   "end": 3709,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3712,
+   "end": 3727,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 3736,
+   "end": 3746,
+   "label": "BGE",
+   "text": "140 III 86"
+  },
+  {
+   "start": 3753,
+   "end": 3756,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 3928,
+   "end": 3954,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4058,
+   "end": 4077,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 3 BGG"
+  },
+  {
+   "start": 4236,
+   "end": 4260,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 5 BGG"
+  },
+  {
+   "start": 4474,
+   "end": 4492,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 4668,
+   "end": 4678,
+   "label": "AMOUNT",
+   "text": "Fr. 800.--"
+  }
+ ],
+ "n_pre": 21,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

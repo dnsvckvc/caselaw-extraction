@@ -1,0 +1,253 @@
+{
+ "decision_id": "bger_5A_807_2025",
+ "task_index": 168,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "#3 and #4 cut before the multiplier: Fr. 170 Millionen(-Anleihe) and CHF 170 Millionen (Anleihe). Multiplier belongs inside per AMOUNT rule. Unsettled: the multiplier is fused to a noun (Millionen-Anleihe); I kept the span at the multiplier and left the noun out. KAG named without article number: no span. PS250174-O/U cantonal: no span.",
+ "spans": [
+  {
+   "start": 359,
+   "end": 377,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 1175,
+   "end": 1199,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 4 und\nArt. 6 Abs. 2"
+  },
+  {
+   "start": 2520,
+   "end": 2537,
+   "label": "AMOUNT",
+   "text": "Fr. 170 Millionen"
+  },
+  {
+   "start": 3366,
+   "end": 3383,
+   "label": "AMOUNT",
+   "text": "CHF 170 Millionen"
+  },
+  {
+   "start": 7367,
+   "end": 7385,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 7388,
+   "end": 7400,
+   "label": "BGE",
+   "text": "BGE 147 I 89"
+  },
+  {
+   "start": 7407,
+   "end": 7417,
+   "label": "BGE",
+   "text": "145 II 168"
+  },
+  {
+   "start": 7424,
+   "end": 7434,
+   "label": "BGE",
+   "text": "144 II 184"
+  },
+  {
+   "start": 7556,
+   "end": 7569,
+   "label": "STATUTE",
+   "text": "Art. 17 SchKG"
+  },
+  {
+   "start": 7615,
+   "end": 7628,
+   "label": "BGE",
+   "text": "BGE 94 III 55"
+  },
+  {
+   "start": 7642,
+   "end": 7652,
+   "label": "DOCKET",
+   "text": "7B.57/2005"
+  },
+  {
+   "start": 7723,
+   "end": 7748,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 Bst. a BGG"
+  },
+  {
+   "start": 7756,
+   "end": 7769,
+   "label": "STATUTE",
+   "text": "Art. 19 SchKG"
+  },
+  {
+   "start": 7842,
+   "end": 7867,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 Bst. c BGG"
+  },
+  {
+   "start": 7976,
+   "end": 7987,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 8046,
+   "end": 8064,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 8108,
+   "end": 8134,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 2 Bst. a BGG"
+  },
+  {
+   "start": 8258,
+   "end": 8276,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 8406,
+   "end": 8424,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 2 BGG"
+  },
+  {
+   "start": 8533,
+   "end": 8546,
+   "label": "BGE",
+   "text": "BGE 136 V 362"
+  },
+  {
+   "start": 8562,
+   "end": 8573,
+   "label": "DOCKET",
+   "text": "5A_731/2019"
+  },
+  {
+   "start": 8616,
+   "end": 8631,
+   "label": "BGE",
+   "text": "BGE 147 III 365"
+  },
+  {
+   "start": 8761,
+   "end": 8773,
+   "label": "BGE",
+   "text": "BGE 143 V 19"
+  },
+  {
+   "start": 8782,
+   "end": 8791,
+   "label": "BGE",
+   "text": "136 V 362"
+  },
+  {
+   "start": 12261,
+   "end": 12279,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 2 BGG"
+  },
+  {
+   "start": 12650,
+   "end": 12669,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 12990,
+   "end": 13004,
+   "label": "BGE",
+   "text": "BGE 137 II 313"
+  },
+  {
+   "start": 13013,
+   "end": 13024,
+   "label": "BGE",
+   "text": "133 III 489"
+  },
+  {
+   "start": 13139,
+   "end": 13149,
+   "label": "DOCKET",
+   "text": "5D_43/2024"
+  },
+  {
+   "start": 13174,
+   "end": 13185,
+   "label": "DOCKET",
+   "text": "5A_827/2020"
+  },
+  {
+   "start": 13412,
+   "end": 13428,
+   "label": "STATUTE",
+   "text": "Art. 5 Abs. 1 BV"
+  },
+  {
+   "start": 13431,
+   "end": 13448,
+   "label": "STATUTE",
+   "text": "Art. 36 Abs. 1 BV"
+  },
+  {
+   "start": 13456,
+   "end": 13473,
+   "label": "STATUTE",
+   "text": "Art. 26 Abs. 1 BV"
+  },
+  {
+   "start": 13478,
+   "end": 13495,
+   "label": "STATUTE",
+   "text": "Art. 27 Abs. 1 BV"
+  },
+  {
+   "start": 13837,
+   "end": 13846,
+   "label": "STATUTE",
+   "text": "Art. 8 BV"
+  },
+  {
+   "start": 13855,
+   "end": 13872,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BV"
+  },
+  {
+   "start": 13956,
+   "end": 13973,
+   "label": "STATUTE",
+   "text": "Art. 36 Abs. 3 BV"
+  },
+  {
+   "start": 15268,
+   "end": 15286,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 15389,
+   "end": 15407,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 3 BGG"
+  },
+  {
+   "start": 15523,
+   "end": 15536,
+   "label": "AMOUNT",
+   "text": "Fr. 10'000.--"
+  }
+ ],
+ "n_pre": 40,
+ "n_deleted": 2,
+ "n_added": 2,
+ "n_relabeled": 0
+}

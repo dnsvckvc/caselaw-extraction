@@ -1,0 +1,16 @@
+{
+ "outcome": "partial_approval",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "sic! 6/2014 S. 367",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "5F_37 /2020",
+   "label": "DOCKET"
+  }
+ ],
+ "comment": "Added DOCKET '5F_37 /2020' although the source has a stray space before the slash. Art. 29 Abs. 2 ZPO (#83) kept as written; the court probably meant BV."
+}

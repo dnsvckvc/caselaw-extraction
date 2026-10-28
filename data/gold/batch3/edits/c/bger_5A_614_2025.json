@@ -1,0 +1,14 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  8
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 29. Abs. 2 BV",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "#8 Art. 29. Abs. 2 BV has a stray full stop after the article number; labelled as written as STATUTE (typo rule), not BARE_ARTICLE."
+}

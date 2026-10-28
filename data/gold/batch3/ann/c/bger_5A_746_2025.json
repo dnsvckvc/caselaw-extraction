@@ -1,0 +1,265 @@
+{
+ "decision_id": "bger_5A_746_2025",
+ "task_index": 192,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "ReRBGer is a Reglement with SR number, so an act given as a title: BARE_ARTICLE chain, not CONTRACT_ARTICLE. 'Art. 76 Abs. 1 ZGB' kept as written (probably BGG meant).",
+ "spans": [
+  {
+   "start": 344,
+   "end": 360,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 2577,
+   "end": 2588,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 2652,
+   "end": 2663,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 2737,
+   "end": 2748,
+   "label": "STATUTE",
+   "text": "Art. 42 ZGB"
+  },
+  {
+   "start": 2875,
+   "end": 2908,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 2 BGG"
+  },
+  {
+   "start": 2910,
+   "end": 2925,
+   "label": "BGE",
+   "text": "BGE 135 III 389"
+  },
+  {
+   "start": 3008,
+   "end": 3018,
+   "label": "DOCKET",
+   "text": "5A_54/2016"
+  },
+  {
+   "start": 3112,
+   "end": 3130,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 ZGB"
+  },
+  {
+   "start": 3138,
+   "end": 3153,
+   "label": "BGE",
+   "text": "BGE 135 III 389"
+  },
+  {
+   "start": 3197,
+   "end": 3245,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 i.V.m.\nArt. 46 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3400,
+   "end": 3425,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 4 lit. b BGG"
+  },
+  {
+   "start": 3433,
+   "end": 3464,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 3 Abs. 1 und Art. 4 Abs. 2"
+  },
+  {
+   "start": 3746,
+   "end": 3760,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 3859,
+   "end": 3878,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 4154,
+   "end": 4172,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4238,
+   "end": 4252,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 4263,
+   "end": 4273,
+   "label": "BGE",
+   "text": "140 III 86"
+  },
+  {
+   "start": 4369,
+   "end": 4388,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 4533,
+   "end": 4546,
+   "label": "BGE",
+   "text": "BGE 148 V 366"
+  },
+  {
+   "start": 4555,
+   "end": 4566,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 4658,
+   "end": 4669,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 4676,
+   "end": 4693,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 4699,
+   "end": 4709,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 4876,
+   "end": 4894,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 4897,
+   "end": 4912,
+   "label": "BGE",
+   "text": "BGE 137 III 226"
+  },
+  {
+   "start": 5029,
+   "end": 5043,
+   "label": "BGE",
+   "text": "BGE 149 III 81"
+  },
+  {
+   "start": 5052,
+   "end": 5063,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 5402,
+   "end": 5427,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 Satz 1 ZGB"
+  },
+  {
+   "start": 5754,
+   "end": 5765,
+   "label": "DOCKET",
+   "text": "5A_764/2022"
+  },
+  {
+   "start": 5797,
+   "end": 5819,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2023 S. 1030"
+  },
+  {
+   "start": 5824,
+   "end": 5835,
+   "label": "DOCKET",
+   "text": "5A_805/2020"
+  },
+  {
+   "start": 5869,
+   "end": 5883,
+   "label": "JOURNAL_REF",
+   "text": "SJ 2022 S. 548"
+  },
+  {
+   "start": 5885,
+   "end": 5896,
+   "label": "DOCKET",
+   "text": "5A_756/2015"
+  },
+  {
+   "start": 6040,
+   "end": 6050,
+   "label": "STATUTE",
+   "text": "Art. 9 ZGB"
+  },
+  {
+   "start": 6065,
+   "end": 6080,
+   "label": "BGE",
+   "text": "BGE 135 III 389"
+  },
+  {
+   "start": 11254,
+   "end": 11267,
+   "label": "BGE",
+   "text": "BGE 148 I 127"
+  },
+  {
+   "start": 13786,
+   "end": 13801,
+   "label": "BGE",
+   "text": "BGE 149 III 318"
+  },
+  {
+   "start": 13829,
+   "end": 13840,
+   "label": "DOCKET",
+   "text": "5A_138/2024"
+  },
+  {
+   "start": 15354,
+   "end": 15372,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 15413,
+   "end": 15431,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 3 BGG"
+  },
+  {
+   "start": 15635,
+   "end": 15653,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 15822,
+   "end": 15834,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 42,
+ "n_deleted": 1,
+ "n_added": 1,
+ "n_relabeled": 0
+}

@@ -1,0 +1,445 @@
+{
+ "decision_id": "bger_4A_112_2021",
+ "task_index": 22,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 354,
+   "end": 370,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 517,
+   "end": 538,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerinnen"
+  },
+  {
+   "start": 3101,
+   "end": 3112,
+   "label": "STATUTE",
+   "text": "Art. 398 OR"
+  },
+  {
+   "start": 5669,
+   "end": 5685,
+   "label": "AMOUNT",
+   "text": "Fr. 1'656'399.--"
+  },
+  {
+   "start": 6290,
+   "end": 6304,
+   "label": "AMOUNT",
+   "text": "Fr. 983'653.95"
+  },
+  {
+   "start": 7719,
+   "end": 7729,
+   "label": "DOCKET",
+   "text": "4A_90/2021"
+  },
+  {
+   "start": 9561,
+   "end": 9574,
+   "label": "AMOUNT",
+   "text": "Fr. 12'000.--"
+  },
+  {
+   "start": 9976,
+   "end": 9993,
+   "label": "STATUTE",
+   "text": "Art. 176 ff. IPRG"
+  },
+  {
+   "start": 10026,
+   "end": 10045,
+   "label": "STATUTE",
+   "text": "Art. 353 Abs. 2 ZPO"
+  },
+  {
+   "start": 10177,
+   "end": 10193,
+   "label": "STATUTE",
+   "text": "Art. 353 ff. ZPO"
+  },
+  {
+   "start": 10236,
+   "end": 10255,
+   "label": "STATUTE",
+   "text": "Art. 390 Abs. 1 ZPO"
+  },
+  {
+   "start": 10537,
+   "end": 10567,
+   "label": "STATUTE",
+   "text": "Art. 393 lit. a und lit. b ZPO"
+  },
+  {
+   "start": 10599,
+   "end": 10624,
+   "label": "STATUTE",
+   "text": "Art. 77 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 10643,
+   "end": 10662,
+   "label": "STATUTE",
+   "text": "Art. 392 lit. b ZPO"
+  },
+  {
+   "start": 10666,
+   "end": 10677,
+   "label": "STATUTE",
+   "text": "Art. 93 BGG"
+  },
+  {
+   "start": 10700,
+   "end": 10718,
+   "label": "STATUTE",
+   "text": "Art. 77 Abs. 2 BGG"
+  },
+  {
+   "start": 10948,
+   "end": 10963,
+   "label": "BGE",
+   "text": "BGE 143 III 462"
+  },
+  {
+   "start": 11049,
+   "end": 11079,
+   "label": "STATUTE",
+   "text": "Art. 393 lit. c bis lit. e ZPO"
+  },
+  {
+   "start": 11413,
+   "end": 11428,
+   "label": "BGE",
+   "text": "BGE 140 III 477"
+  },
+  {
+   "start": 11465,
+   "end": 11484,
+   "label": "STATUTE",
+   "text": "Art. 392 lit. b ZPO"
+  },
+  {
+   "start": 11514,
+   "end": 11534,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 3 IPRG"
+  },
+  {
+   "start": 11567,
+   "end": 11578,
+   "label": "DOCKET",
+   "text": "4A_593/2020"
+  },
+  {
+   "start": 11603,
+   "end": 11612,
+   "label": "DOCKET",
+   "text": "4A_7/2019"
+  },
+  {
+   "start": 11639,
+   "end": 11650,
+   "label": "DOCKET",
+   "text": "4A_407/2017"
+  },
+  {
+   "start": 11681,
+   "end": 11691,
+   "label": "DOCKET",
+   "text": "4A_82/2016"
+  },
+  {
+   "start": 12255,
+   "end": 12273,
+   "label": "STATUTE",
+   "text": "Art. 77 Abs. 3 BGG"
+  },
+  {
+   "start": 12315,
+   "end": 12334,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 12398,
+   "end": 12413,
+   "label": "BGE",
+   "text": "BGE 134 III 186"
+  },
+  {
+   "start": 12676,
+   "end": 12707,
+   "label": "STATUTE",
+   "text": "Art. 393 lit. a oder lit. b ZPO"
+  },
+  {
+   "start": 13058,
+   "end": 13077,
+   "label": "STATUTE",
+   "text": "Art. 393 lit. b ZPO"
+  },
+  {
+   "start": 13300,
+   "end": 13327,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 lit. b IPRG"
+  },
+  {
+   "start": 13497,
+   "end": 13512,
+   "label": "BGE",
+   "text": "BGE 142 III 220"
+  },
+  {
+   "start": 13810,
+   "end": 13863,
+   "label": "STATUTE",
+   "text": "Art. 77 Abs. 2 i.V.m.\nArt. 97 und\nArt. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 13946,
+   "end": 13958,
+   "label": "STATUTE",
+   "text": "Art. 393 ZPO"
+  },
+  {
+   "start": 14020,
+   "end": 14031,
+   "label": "STATUTE",
+   "text": "Art. 99 BGG"
+  },
+  {
+   "start": 14140,
+   "end": 14155,
+   "label": "BGE",
+   "text": "BGE 142 III 220"
+  },
+  {
+   "start": 14543,
+   "end": 14557,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 14707,
+   "end": 14720,
+   "label": "BGE",
+   "text": "BGE 134 V 223"
+  },
+  {
+   "start": 14731,
+   "end": 14742,
+   "label": "BGE",
+   "text": "133 III 393"
+  },
+  {
+   "start": 15010,
+   "end": 15029,
+   "label": "STATUTE",
+   "text": "Art. 393 lit. b ZPO"
+  },
+  {
+   "start": 15032,
+   "end": 15047,
+   "label": "BGE",
+   "text": "BGE 142 III 296"
+  },
+  {
+   "start": 15063,
+   "end": 15074,
+   "label": "DOCKET",
+   "text": "4A_407/2017"
+  },
+  {
+   "start": 18018,
+   "end": 18037,
+   "label": "STATUTE",
+   "text": "Art. 393 lit. e ZPO"
+  },
+  {
+   "start": 18470,
+   "end": 18481,
+   "label": "STATUTE",
+   "text": "Art. 99 BGG"
+  },
+  {
+   "start": 18929,
+   "end": 18946,
+   "label": "STATUTE",
+   "text": "Art. 2 Abs. 2 ZGB"
+  },
+  {
+   "start": 19456,
+   "end": 19466,
+   "label": "DOCKET",
+   "text": "4A_18/2007"
+  },
+  {
+   "start": 19496,
+   "end": 19506,
+   "label": "DOCKET",
+   "text": "4P.67/2003"
+  },
+  {
+   "start": 19546,
+   "end": 19561,
+   "label": "BGE",
+   "text": "BGE 129 III 675"
+  },
+  {
+   "start": 19577,
+   "end": 19592,
+   "label": "BGE",
+   "text": "BGE 142 III 296"
+  },
+  {
+   "start": 19615,
+   "end": 19625,
+   "label": "DOCKET",
+   "text": "4A_46/2011"
+  },
+  {
+   "start": 20566,
+   "end": 20581,
+   "label": "BGE",
+   "text": "BGE 142 III 296"
+  },
+  {
+   "start": 22334,
+   "end": 22344,
+   "label": "STATUTE",
+   "text": "Art. 2 ZGB"
+  },
+  {
+   "start": 22656,
+   "end": 22675,
+   "label": "STATUTE",
+   "text": "Art. 393 lit. a ZPO"
+  },
+  {
+   "start": 23293,
+   "end": 23312,
+   "label": "STATUTE",
+   "text": "Art. 356 Abs. 2 ZPO"
+  },
+  {
+   "start": 23459,
+   "end": 23485,
+   "label": "STATUTE",
+   "text": "Art. 362 Abs. 1 lit. b ZPO"
+  },
+  {
+   "start": 23549,
+   "end": 23561,
+   "label": "STATUTE",
+   "text": "Art. 362 ZPO"
+  },
+  {
+   "start": 24075,
+   "end": 24094,
+   "label": "STATUTE",
+   "text": "Art. 362 Abs. 3 ZPO"
+  },
+  {
+   "start": 24415,
+   "end": 24430,
+   "label": "BGE",
+   "text": "BGE 142 III 230"
+  },
+  {
+   "start": 24446,
+   "end": 24457,
+   "label": "DOCKET",
+   "text": "4A_407/2017"
+  },
+  {
+   "start": 25295,
+   "end": 25312,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 25672,
+   "end": 25683,
+   "label": "DOCKET",
+   "text": "4A_407/2017"
+  },
+  {
+   "start": 25975,
+   "end": 25986,
+   "label": "DOCKET",
+   "text": "4A_425/2020"
+  },
+  {
+   "start": 26359,
+   "end": 26385,
+   "label": "STATUTE",
+   "text": "Art. 362 Abs. 1 lit. b ZPO"
+  },
+  {
+   "start": 27543,
+   "end": 27555,
+   "label": "STATUTE",
+   "text": "Art. 362 ZPO"
+  },
+  {
+   "start": 27659,
+   "end": 27671,
+   "label": "STATUTE",
+   "text": "Art. 362 ZPO"
+  },
+  {
+   "start": 27815,
+   "end": 27827,
+   "label": "STATUTE",
+   "text": "Art. 362 ZPO"
+  },
+  {
+   "start": 28278,
+   "end": 28321,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 28456,
+   "end": 28466,
+   "label": "DOCKET",
+   "text": "4A_90/2021"
+  },
+  {
+   "start": 28735,
+   "end": 28748,
+   "label": "AMOUNT",
+   "text": "Fr. 10'000.--"
+  },
+  {
+   "start": 28777,
+   "end": 28790,
+   "label": "AMOUNT",
+   "text": "Fr. 12'000.--"
+  },
+  {
+   "start": 29012,
+   "end": 29025,
+   "label": "AMOUNT",
+   "text": "Fr. 10'000.--"
+  },
+  {
+   "start": 29172,
+   "end": 29185,
+   "label": "AMOUNT",
+   "text": "Fr. 12'000.--"
+  }
+ ],
+ "n_pre": 72,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

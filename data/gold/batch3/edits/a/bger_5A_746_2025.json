@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  12
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 3 Abs. 1 und Art. 4 Abs. 2",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#12 relabelled by delete+add: Reglement ReRBGer has an SR number, so it is an act given as a title -> BARE_ARTICLE chain, one span. 'Art. 76 Abs. 1 ZGB' is a typo for BGG but names a known code, kept as written. 'Ziff. 6 f. S. 2 der Verfuegung' is a point of an authority document, no span."
+}

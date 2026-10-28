@@ -1,0 +1,73 @@
+{
+ "decision_id": "bger_5A_731_2026",
+ "task_index": 199,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 248,
+   "end": 264,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 440,
+   "end": 456,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1469,
+   "end": 1480,
+   "label": "STATUTE",
+   "text": "Art. 94 BGG"
+  },
+  {
+   "start": 5552,
+   "end": 5563,
+   "label": "DOCKET",
+   "text": "5A_232/2017"
+  },
+  {
+   "start": 5593,
+   "end": 5604,
+   "label": "DOCKET",
+   "text": "5A_456/2019"
+  },
+  {
+   "start": 6015,
+   "end": 6033,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 6169,
+   "end": 6188,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 BGG"
+  },
+  {
+   "start": 6279,
+   "end": 6297,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6448,
+   "end": 6466,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 6642,
+   "end": 6654,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 10,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

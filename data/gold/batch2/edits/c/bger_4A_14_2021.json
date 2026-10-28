@@ -1,0 +1,12 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "124 III 155",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Many citations of the insurance conditions (Art. 13 Ziff. 2 lit. a AVB etc.) left unlabelled: AVB are contract terms, not a law. Rules do not say this explicitly."
+}

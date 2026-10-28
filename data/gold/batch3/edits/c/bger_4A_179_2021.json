@@ -1,0 +1,12 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Jahrbuch zum Strassenverkehrsrecht 2011, S. 111",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Jahrbuch zum Strassenverkehrsrecht treated as a periodical (journal) with an article citation."
+}

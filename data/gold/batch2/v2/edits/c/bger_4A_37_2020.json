@@ -1,0 +1,14 @@
+{
+ "outcome": "moot",
+ "delete": [
+  11
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 8 Abs. 3",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#11: the Reglement über die Parteientschädigung (SR 173.110.210.3) is a federal regulation of the Federal Supreme Court, not a private instrument; act given as a title, so BARE_ARTICLE Art. 8 Abs. 3."
+}

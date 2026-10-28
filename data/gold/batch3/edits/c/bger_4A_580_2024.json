@@ -1,0 +1,13 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  5
+ ],
+ "add": [
+  {
+   "text": "EUR 7900.75",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "#5 cut the amount 'EUR 7900.75' after 790; fixed. Kept #4 'Art 292 StGB' (Art without dot) as STATUTE."
+}

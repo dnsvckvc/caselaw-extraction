@@ -1,0 +1,301 @@
+{
+ "decision_id": "bger_4A_25_2021",
+ "task_index": 54,
+ "pass": "a",
+ "outcome": "approved",
+ "comment": "All 48 pre-annotations confirmed. Dispositiv-Ziffer references and cantonal number ZK 20 221 left unlabelled per guideline.",
+ "spans": [
+  {
+   "start": 445,
+   "end": 463,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 566,
+   "end": 584,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 3654,
+   "end": 3667,
+   "label": "AMOUNT",
+   "text": "Fr. 45'913.70"
+  },
+  {
+   "start": 4029,
+   "end": 4042,
+   "label": "AMOUNT",
+   "text": "Fr. 45'913.70"
+  },
+  {
+   "start": 4248,
+   "end": 4261,
+   "label": "AMOUNT",
+   "text": "Fr. 45'913.70"
+  },
+  {
+   "start": 6093,
+   "end": 6106,
+   "label": "AMOUNT",
+   "text": "Fr. 45'913.70"
+  },
+  {
+   "start": 6401,
+   "end": 6419,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 6422,
+   "end": 6437,
+   "label": "BGE",
+   "text": "BGE 141 III 395"
+  },
+  {
+   "start": 6522,
+   "end": 6533,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 6596,
+   "end": 6614,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 6659,
+   "end": 6670,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 6693,
+   "end": 6706,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 6722,
+   "end": 6747,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 6866,
+   "end": 6884,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 6927,
+   "end": 6975,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 i.V.m.\nArt. 46 Abs. 1 lit. c BGG"
+  },
+  {
+   "start": 7054,
+   "end": 7092,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 7170,
+   "end": 7189,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 7564,
+   "end": 7588,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 7907,
+   "end": 7922,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 7929,
+   "end": 7940,
+   "label": "BGE",
+   "text": "137 III 580"
+  },
+  {
+   "start": 7949,
+   "end": 7960,
+   "label": "BGE",
+   "text": "135 III 397"
+  },
+  {
+   "start": 8077,
+   "end": 8096,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 8316,
+   "end": 8330,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 8522,
+   "end": 8533,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 8543,
+   "end": 8562,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 8620,
+   "end": 8635,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 8642,
+   "end": 8653,
+   "label": "BGE",
+   "text": "135 III 397"
+  },
+  {
+   "start": 8742,
+   "end": 8761,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 8764,
+   "end": 8779,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 8975,
+   "end": 8989,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 9184,
+   "end": 9198,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 9225,
+   "end": 9242,
+   "label": "STATUTE",
+   "text": "Art. 56 Abs. 1 OR"
+  },
+  {
+   "start": 10632,
+   "end": 10647,
+   "label": "BGE",
+   "text": "BGE 131 III 115"
+  },
+  {
+   "start": 10700,
+   "end": 10711,
+   "label": "DOCKET",
+   "text": "4A_372/2019"
+  },
+  {
+   "start": 10742,
+   "end": 10752,
+   "label": "DOCKET",
+   "text": "4A_36/2019"
+  },
+  {
+   "start": 10988,
+   "end": 11005,
+   "label": "STATUTE",
+   "text": "Art. 56 Abs. 1 OR"
+  },
+  {
+   "start": 14181,
+   "end": 14198,
+   "label": "STATUTE",
+   "text": "Art. 41 Abs. 1 OR"
+  },
+  {
+   "start": 14582,
+   "end": 14599,
+   "label": "STATUTE",
+   "text": "Art. 56 Abs. 1 OR"
+  },
+  {
+   "start": 17734,
+   "end": 17751,
+   "label": "STATUTE",
+   "text": "Art. 56 Abs. 1 OR"
+  },
+  {
+   "start": 17756,
+   "end": 17766,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 23853,
+   "end": 23864,
+   "label": "DOCKET",
+   "text": "4A_372/2019"
+  },
+  {
+   "start": 24422,
+   "end": 24439,
+   "label": "STATUTE",
+   "text": "Art. 56 Abs. 1 OR"
+  },
+  {
+   "start": 25246,
+   "end": 25259,
+   "label": "AMOUNT",
+   "text": "Fr. 45'913.70"
+  },
+  {
+   "start": 25417,
+   "end": 25460,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 25569,
+   "end": 25599,
+   "label": "STATUTE",
+   "text": "Art. 67 und\nArt. 68 Abs. 5 BGG"
+  },
+  {
+   "start": 25836,
+   "end": 25849,
+   "label": "AMOUNT",
+   "text": "Fr. 45'913.70"
+  },
+  {
+   "start": 25934,
+   "end": 25946,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 26084,
+   "end": 26096,
+   "label": "AMOUNT",
+   "text": "Fr. 2'500.--"
+  }
+ ],
+ "n_pre": 48,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

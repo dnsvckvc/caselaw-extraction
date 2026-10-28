@@ -1,0 +1,65 @@
+{
+  "outcome": "inadmissible",
+  "delete": [
+    28,
+    34,
+    35,
+    57,
+    59
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 117 i.V.m. Art. 106 Abs. 2 BGG",
+      "label": "STATUTE",
+      "all": true
+    },
+    {
+      "text": "Art. 118 Abs. 2 und Art. 116 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 66 Abs. 1, Art. 68 Abs. 1 und 2 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "141 III 395",
+      "label": "BGE"
+    },
+    {
+      "text": "144 III 164",
+      "label": "BGE"
+    },
+    {
+      "text": "141 III 159",
+      "label": "BGE"
+    },
+    {
+      "text": "143 II 425",
+      "label": "BGE"
+    },
+    {
+      "text": "141 II 14",
+      "label": "BGE"
+    },
+    {
+      "text": "133 III 439",
+      "label": "BGE",
+      "all": true
+    },
+    {
+      "text": "134 I 83",
+      "label": "BGE"
+    },
+    {
+      "text": "141 III 564",
+      "label": "BGE"
+    },
+    {
+      "text": "140 III 16",
+      "label": "BGE",
+      "occurrence": 1
+    }
+  ],
+  "comment": "Item 1: Beschwerde in Zivilsachen nicht eingetreten; item 2: subsidiaere Verfassungsbeschwerde abgewiesen. Took item 1 (inadmissible). Extended five statute chains; added nine BGE list items without the BGE word (133 III 439 three times). Second page numbers '167 E. 2.1' and '585 E. 4.1' left unlabelled per rule."
+}

@@ -1,0 +1,115 @@
+{
+ "decision_id": "bger_5A_99_2021",
+ "task_index": 11,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "Extended statute chain in E. 1; added five BGE list items without the BGE word.",
+ "spans": [
+  {
+   "start": 263,
+   "end": 281,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 2758,
+   "end": 2827,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 6,\nArt. 75 Abs. 1 und\nArt. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 3110,
+   "end": 3128,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 BGG"
+  },
+  {
+   "start": 3189,
+   "end": 3204,
+   "label": "BGE",
+   "text": "BGE 137 III 324"
+  },
+  {
+   "start": 3220,
+   "end": 3230,
+   "label": "BGE",
+   "text": "141 III 80"
+  },
+  {
+   "start": 3245,
+   "end": 3255,
+   "label": "BGE",
+   "text": "141 IV 289"
+  },
+  {
+   "start": 3433,
+   "end": 3459,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3971,
+   "end": 3989,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 2 BGG"
+  },
+  {
+   "start": 3992,
+   "end": 4006,
+   "label": "BGE",
+   "text": "BGE 136 II 457"
+  },
+  {
+   "start": 4025,
+   "end": 4034,
+   "label": "BGE",
+   "text": "136 V 362"
+  },
+  {
+   "start": 4053,
+   "end": 4062,
+   "label": "BGE",
+   "text": "142 I 155"
+  },
+  {
+   "start": 5822,
+   "end": 5835,
+   "label": "STATUTE",
+   "text": "Art. 450f ZGB"
+  },
+  {
+   "start": 5838,
+   "end": 5853,
+   "label": "BGE",
+   "text": "BGE 139 III 225"
+  },
+  {
+   "start": 5869,
+   "end": 5880,
+   "label": "BGE",
+   "text": "140 III 385"
+  },
+  {
+   "start": 5975,
+   "end": 6007,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 6094,
+   "end": 6112,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6237,
+   "end": 6249,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 12,
+ "n_deleted": 1,
+ "n_added": 6,
+ "n_relabeled": 0
+}

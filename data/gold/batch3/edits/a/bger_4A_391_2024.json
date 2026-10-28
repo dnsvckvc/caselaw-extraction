@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  56
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 71 Abs. 1 der ZPO",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "#56 'Art. 71 Abs. 1 der ZPO': the code follows after 'der'; labelled STATUTE including 'der ZPO' by analogy with 'Ziff. 6 der AGB' (CONTRACT_ARTICLE). Guideline does not settle STATUTE with a preposition before the code."
+}

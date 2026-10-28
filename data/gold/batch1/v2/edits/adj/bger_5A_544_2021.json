@@ -1,0 +1,11 @@
+{
+ "keep": [],
+ "drop": [
+  "Ziffer 1 des Vergleichs",
+  "Ziffer 1 Absatz 1 des Vergleichs",
+  "Ziffer 2 der Vergleichsvereinbarung",
+  "Ziffer 1 Absatz 2 des Vergleichs",
+  "Ziffer 2 des Vergleichs"
+ ],
+ "comment": "v0.2 adjudication: both passes labelled the spelled-out 'Ziffer ...' clauses of the court settlement; spelled-out forms are deferred to question 6 (no span in v0.2). The 'Ziff. ...' clauses stay."
+}

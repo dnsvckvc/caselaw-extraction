@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  63
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 19 Abs. 1 lit. b",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "VMWG given as title (Verordnung vom ... (VMWG; SR ...)) -> BARE_ARTICLE per guideline AVG example"
+}

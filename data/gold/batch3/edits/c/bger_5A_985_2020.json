@@ -1,0 +1,12 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "VPB 64/2000 Nr. 134",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Item 1: 'nicht eingetreten, soweit sie nicht gegenstandslos geworden ist' -> inadmissible (part moot). VPB treated as a case collection (JOURNAL_REF), not an official gazette."
+}

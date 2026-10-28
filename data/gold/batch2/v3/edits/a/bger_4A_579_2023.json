@@ -1,0 +1,12 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "add": [
+    {
+      "text": "155",
+      "label": "BGE",
+      "occurrence": 2
+    }
+  ],
+  "comment": "rule 1: added 155 in 'BGE 141 III 554, E. 2.5.1, 155 E. 4.3' (= BGE 141 III 155)"
+}

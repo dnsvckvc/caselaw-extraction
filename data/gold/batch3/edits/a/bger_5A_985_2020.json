@@ -1,0 +1,9 @@
+{
+  "outcome": "inadmissible",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {"text": "VPB 64/2000 Nr. 134", "label": "JOURNAL_REF"}
+  ],
+  "comment": "Added JOURNAL_REF 'VPB 64/2000 Nr. 134' (E. 2.2.2; case collection other than BGE, span to the first number, 'S. 1323' excluded). ECtHR decision 'A.B. gegen Schweiz' left without span. Item 1: 'nicht eingetreten, soweit sie nicht gegenstandslos geworden ist' -> inadmissible (mixed inadmissible/moot; the main verb is nicht eingetreten)."
+}

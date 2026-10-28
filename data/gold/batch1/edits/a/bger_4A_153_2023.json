@@ -1,0 +1,26 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  63
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "135 III 397",
+   "label": "BGE"
+  },
+  {
+   "text": "133 III 61",
+   "label": "BGE"
+  },
+  {
+   "text": "121 III 6",
+   "label": "BGE"
+  },
+  {
+   "text": "Art. 66 Abs. 1 und Art. 68 Abs. 1 und 2 BGG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Extended one statute chain; added three BGE list items without the BGE word. Left 'Art. 19 Abs. 1 lit. b der Verordnung ... (VMWG; SR 221.213.11)' unlabelled: the abbreviation follows only in brackets after the full name."
+}

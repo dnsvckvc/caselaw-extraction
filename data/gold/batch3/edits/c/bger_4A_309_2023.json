@@ -1,0 +1,12 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "133 III 629",
+   "label": "BGE",
+   "occurrence": 3
+  }
+ ]
+}

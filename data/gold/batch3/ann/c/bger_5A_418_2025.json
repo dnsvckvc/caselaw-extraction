@@ -1,0 +1,259 @@
+{
+ "decision_id": "bger_5A_418_2025",
+ "task_index": 185,
+ "pass": "c",
+ "outcome": "approved",
+ "comment": "Item 1 says gutgeheissen and then Im Übrigen wird die Beschwerde abgewiesen (Begehren 2 inadmissible); kept approved per the item-1 word.",
+ "spans": [
+  {
+   "start": 281,
+   "end": 297,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 1519,
+   "end": 1531,
+   "label": "AMOUNT",
+   "text": "Fr. 2'835.--"
+  },
+  {
+   "start": 2264,
+   "end": 2273,
+   "label": "DOCKET",
+   "text": "5A_3/2025"
+  },
+  {
+   "start": 3001,
+   "end": 3013,
+   "label": "AMOUNT",
+   "text": "Fr. 8'016.45"
+  },
+  {
+   "start": 5466,
+   "end": 5477,
+   "label": "DOCKET",
+   "text": "5A_212/2025"
+  },
+  {
+   "start": 6625,
+   "end": 6635,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  },
+  {
+   "start": 7348,
+   "end": 7361,
+   "label": "STATUTE",
+   "text": "Art. 17 SchKG"
+  },
+  {
+   "start": 7405,
+   "end": 7430,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 Bst. a BGG"
+  },
+  {
+   "start": 7438,
+   "end": 7451,
+   "label": "STATUTE",
+   "text": "Art. 19 SchKG"
+  },
+  {
+   "start": 7524,
+   "end": 7549,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 Bst. c BGG"
+  },
+  {
+   "start": 7665,
+   "end": 7676,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 7751,
+   "end": 7769,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 7815,
+   "end": 7826,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 7867,
+   "end": 7915,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 2 Bst. a i.V.m.\nArt. 45 Abs. 1 BGG"
+  },
+  {
+   "start": 8242,
+   "end": 8253,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 10382,
+   "end": 10394,
+   "label": "AMOUNT",
+   "text": "Fr. 2'835.--"
+  },
+  {
+   "start": 10445,
+   "end": 10457,
+   "label": "AMOUNT",
+   "text": "Fr. 8'016.45"
+  },
+  {
+   "start": 10633,
+   "end": 10648,
+   "label": "BGE",
+   "text": "BGE 139 III 297"
+  },
+  {
+   "start": 11751,
+   "end": 11764,
+   "label": "STATUTE",
+   "text": "Art. 17 SchKG"
+  },
+  {
+   "start": 11804,
+   "end": 11821,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BV"
+  },
+  {
+   "start": 11849,
+   "end": 11858,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 11929,
+   "end": 11944,
+   "label": "BGE",
+   "text": "BGE 139 III 297"
+  },
+  {
+   "start": 11981,
+   "end": 11998,
+   "label": "STATUTE",
+   "text": "Art. 17 ff. SchKG"
+  },
+  {
+   "start": 12434,
+   "end": 12447,
+   "label": "STATUTE",
+   "text": "Art. 21 SchKG"
+  },
+  {
+   "start": 12450,
+   "end": 12465,
+   "label": "BGE",
+   "text": "BGE 120 III 107"
+  },
+  {
+   "start": 12472,
+   "end": 12483,
+   "label": "BGE",
+   "text": "105 III 101"
+  },
+  {
+   "start": 12490,
+   "end": 12499,
+   "label": "BGE",
+   "text": "99 III 58"
+  },
+  {
+   "start": 12527,
+   "end": 12538,
+   "label": "DOCKET",
+   "text": "5A_725/2018"
+  },
+  {
+   "start": 12784,
+   "end": 12797,
+   "label": "BGE",
+   "text": "BGE 85 III 31"
+  },
+  {
+   "start": 13058,
+   "end": 13071,
+   "label": "BGE",
+   "text": "BGE 76 III 81"
+  },
+  {
+   "start": 13575,
+   "end": 13588,
+   "label": "BGE",
+   "text": "BGE 73 III 84"
+  },
+  {
+   "start": 13858,
+   "end": 13872,
+   "label": "STATUTE",
+   "text": "Art. 144 SchKG"
+  },
+  {
+   "start": 13920,
+   "end": 13940,
+   "label": "STATUTE",
+   "text": "Art. 17 Abs. 2 SchKG"
+  },
+  {
+   "start": 14040,
+   "end": 14052,
+   "label": "BGE",
+   "text": "BGE 36 I 422"
+  },
+  {
+   "start": 14501,
+   "end": 14512,
+   "label": "DOCKET",
+   "text": "5A_738/2024"
+  },
+  {
+   "start": 15074,
+   "end": 15087,
+   "label": "BGE",
+   "text": "BGE 76 III 81"
+  },
+  {
+   "start": 16458,
+   "end": 16469,
+   "label": "DOCKET",
+   "text": "5A_968/2015"
+  },
+  {
+   "start": 16616,
+   "end": 16629,
+   "label": "STATUTE",
+   "text": "Art. 36 SchKG"
+  },
+  {
+   "start": 17184,
+   "end": 17205,
+   "label": "STATUTE",
+   "text": "Art. 20a Abs. 3 SchKG"
+  },
+  {
+   "start": 17212,
+   "end": 17231,
+   "label": "JOURNAL_REF",
+   "text": "BlSchK 2013, S. 109"
+  },
+  {
+   "start": 18092,
+   "end": 18112,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 4 SchKG"
+  }
+ ],
+ "n_pre": 41,
+ "n_deleted": 1,
+ "n_added": 1,
+ "n_relabeled": 0
+}

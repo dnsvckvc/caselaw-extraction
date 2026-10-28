@@ -1,0 +1,16 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  7,
+  51,
+  57
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Artikel 20",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#51/#57 are paragraph numbers of the ECtHR judgment Semenya (numbered points of a court document): deleted. #7 'Artikel 20 f.' trimmed to 'Artikel 20' (negative-class boundary excludes ff./f.). AANZFTA articles ('Artikel 19 von Kapitel 11 des AANZFTA') kept as BARE_ARTICLE because the abbreviation does not directly follow the number; could arguably be OTHER_LAW. 'Ziffer 7' of the State Agreement has no instrument after it: no span."
+}

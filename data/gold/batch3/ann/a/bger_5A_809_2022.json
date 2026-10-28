@@ -1,0 +1,349 @@
+{
+ "decision_id": "bger_5A_809_2022",
+ "task_index": 100,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "Added two RUB amounts (currency token RUB by analogy to EUR; multiplier Mio. inside) and AJP 11/2022, S. 1176 as JOURNAL_REF (ff. excluded). BBl 1983 I 328, BBl 2017 4135 and BZ 2022 72 (cantonal) left unlabelled.",
+ "spans": [
+  {
+   "start": 342,
+   "end": 360,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 439,
+   "end": 457,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 877,
+   "end": 894,
+   "label": "AMOUNT",
+   "text": "RUB 35'151'779.58"
+  },
+  {
+   "start": 1009,
+   "end": 1022,
+   "label": "AMOUNT",
+   "text": "RUB 2.95 Mio."
+  },
+  {
+   "start": 1485,
+   "end": 1499,
+   "label": "AMOUNT",
+   "text": "Fr. 415'968.45"
+  },
+  {
+   "start": 1948,
+   "end": 1962,
+   "label": "AMOUNT",
+   "text": "Fr. 414'331.--"
+  },
+  {
+   "start": 3212,
+   "end": 3237,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 3247,
+   "end": 3257,
+   "label": "DOCKET",
+   "text": "5A_21/2021"
+  },
+  {
+   "start": 3338,
+   "end": 3363,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3508,
+   "end": 3532,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a und b BGG"
+  },
+  {
+   "start": 3643,
+   "end": 3661,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3769,
+   "end": 3788,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3791,
+   "end": 3806,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 3923,
+   "end": 3942,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 4075,
+   "end": 4093,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 4173,
+   "end": 4192,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 4255,
+   "end": 4269,
+   "label": "BGE",
+   "text": "BGE 137 II 313"
+  },
+  {
+   "start": 5123,
+   "end": 5139,
+   "label": "STATUTE",
+   "text": "Art. 25 ff. IPRG"
+  },
+  {
+   "start": 5142,
+   "end": 5160,
+   "label": "STATUTE",
+   "text": "Art. 1 Abs. 2 IPRG"
+  },
+  {
+   "start": 5163,
+   "end": 5182,
+   "label": "STATUTE",
+   "text": "Art. 335 Abs. 3 ZPO"
+  },
+  {
+   "start": 5185,
+   "end": 5205,
+   "label": "STATUTE",
+   "text": "Art. 81 Abs. 3 SchKG"
+  },
+  {
+   "start": 5216,
+   "end": 5228,
+   "label": "STATUTE",
+   "text": "Art. 25 IPRG"
+  },
+  {
+   "start": 5586,
+   "end": 5598,
+   "label": "STATUTE",
+   "text": "Art. 27 IPRG"
+  },
+  {
+   "start": 5609,
+   "end": 5628,
+   "label": "STATUTE",
+   "text": "Art. 27 Abs. 1 IPRG"
+  },
+  {
+   "start": 5843,
+   "end": 5862,
+   "label": "STATUTE",
+   "text": "Art. 27 Abs. 2 IPRG"
+  },
+  {
+   "start": 7841,
+   "end": 7854,
+   "label": "BGE",
+   "text": "BGE 120 II 83"
+  },
+  {
+   "start": 8081,
+   "end": 8093,
+   "label": "STATUTE",
+   "text": "Art. 27 IPRG"
+  },
+  {
+   "start": 8568,
+   "end": 8580,
+   "label": "STATUTE",
+   "text": "Art. 25 IPRG"
+  },
+  {
+   "start": 8586,
+   "end": 8614,
+   "label": "STATUTE",
+   "text": "aArt. 166 Abs. 1 lit. c IPRG"
+  },
+  {
+   "start": 9281,
+   "end": 9301,
+   "label": "JOURNAL_REF",
+   "text": "AJP 11/2022, S. 1176"
+  },
+  {
+   "start": 9504,
+   "end": 9516,
+   "label": "STATUTE",
+   "text": "Art. 326 ZPO"
+  },
+  {
+   "start": 10103,
+   "end": 10123,
+   "label": "STATUTE",
+   "text": "Art. 81 Abs. 1 SchKG"
+  },
+  {
+   "start": 10507,
+   "end": 10527,
+   "label": "STATUTE",
+   "text": "Art. 81 Abs. 1 SchKG"
+  },
+  {
+   "start": 10530,
+   "end": 10545,
+   "label": "BGE",
+   "text": "BGE 124 III 501"
+  },
+  {
+   "start": 10553,
+   "end": 10561,
+   "label": "BGE",
+   "text": "119 II 6"
+  },
+  {
+   "start": 10776,
+   "end": 10786,
+   "label": "DOCKET",
+   "text": "5D_72/2015"
+  },
+  {
+   "start": 10920,
+   "end": 10940,
+   "label": "STATUTE",
+   "text": "Art. 81 Abs. 3 SchKG"
+  },
+  {
+   "start": 10943,
+   "end": 10958,
+   "label": "BGE",
+   "text": "BGE 144 III 360"
+  },
+  {
+   "start": 11038,
+   "end": 11051,
+   "label": "STATUTE",
+   "text": "Art. 81 SchKG"
+  },
+  {
+   "start": 11220,
+   "end": 11235,
+   "label": "BGE",
+   "text": "BGE 145 III 213"
+  },
+  {
+   "start": 11246,
+   "end": 11257,
+   "label": "BGE",
+   "text": "144 III 360"
+  },
+  {
+   "start": 11268,
+   "end": 11279,
+   "label": "BGE",
+   "text": "125 III 384"
+  },
+  {
+   "start": 11393,
+   "end": 11406,
+   "label": "STATUTE",
+   "text": "Art. 81 SchKG"
+  },
+  {
+   "start": 11500,
+   "end": 11526,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 Satz 1 IPRG"
+  },
+  {
+   "start": 11559,
+   "end": 11570,
+   "label": "DOCKET",
+   "text": "5A_276/2020"
+  },
+  {
+   "start": 11643,
+   "end": 11656,
+   "label": "STATUTE",
+   "text": "Art. 81 SchKG"
+  },
+  {
+   "start": 11680,
+   "end": 11695,
+   "label": "BGE",
+   "text": "BGE 145 III 213"
+  },
+  {
+   "start": 12831,
+   "end": 12840,
+   "label": "STATUTE",
+   "text": "Art. 6 OR"
+  },
+  {
+   "start": 12912,
+   "end": 12924,
+   "label": "STATUTE",
+   "text": "Art. 326 ZPO"
+  },
+  {
+   "start": 14162,
+   "end": 14171,
+   "label": "STATUTE",
+   "text": "Art. 6 OR"
+  },
+  {
+   "start": 14883,
+   "end": 14898,
+   "label": "BGE",
+   "text": "BGE 145 III 213"
+  },
+  {
+   "start": 14909,
+   "end": 14920,
+   "label": "BGE",
+   "text": "140 III 456"
+  },
+  {
+   "start": 16495,
+   "end": 16504,
+   "label": "DOCKET",
+   "text": "5D_7/2015"
+  },
+  {
+   "start": 17250,
+   "end": 17268,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 17465,
+   "end": 17489,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 17625,
+   "end": 17637,
+   "label": "AMOUNT",
+   "text": "Fr. 7'500.--"
+  }
+ ],
+ "n_pre": 53,
+ "n_deleted": 0,
+ "n_added": 3,
+ "n_relabeled": 0
+}

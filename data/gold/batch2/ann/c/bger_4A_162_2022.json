@@ -1,0 +1,355 @@
+{
+ "decision_id": "bger_4A_162_2022",
+ "task_index": 37,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "Docket 4A_174/ 2019 has a stray space after the slash in the source; labelled as written.",
+ "spans": [
+  {
+   "start": 535,
+   "end": 553,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 636,
+   "end": 654,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 921,
+   "end": 937,
+   "label": "AMOUNT",
+   "text": "Fr. 1'156'696.40"
+  },
+  {
+   "start": 1159,
+   "end": 1170,
+   "label": "DOCKET",
+   "text": "4A_541/2021"
+  },
+  {
+   "start": 1553,
+   "end": 1563,
+   "label": "DOCKET",
+   "text": "4A_10/2019"
+  },
+  {
+   "start": 1588,
+   "end": 1600,
+   "label": "DOCKET",
+   "text": "4A_174/ 2019"
+  },
+  {
+   "start": 1800,
+   "end": 1811,
+   "label": "DOCKET",
+   "text": "4A_488/2019"
+  },
+  {
+   "start": 2295,
+   "end": 2308,
+   "label": "AMOUNT",
+   "text": "Fr. 32'317.--"
+  },
+  {
+   "start": 2660,
+   "end": 2671,
+   "label": "DOCKET",
+   "text": "4A_541/2021"
+  },
+  {
+   "start": 3867,
+   "end": 3878,
+   "label": "DOCKET",
+   "text": "4A_160/2022"
+  },
+  {
+   "start": 4178,
+   "end": 4196,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 4 BGG"
+  },
+  {
+   "start": 4459,
+   "end": 4472,
+   "label": "STATUTE",
+   "text": "Art. 5 ZertES"
+  },
+  {
+   "start": 4493,
+   "end": 4513,
+   "label": "STATUTE",
+   "text": "Art. 2 lit. e ZertES"
+  },
+  {
+   "start": 5077,
+   "end": 5097,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 2 ZertES"
+  },
+  {
+   "start": 5310,
+   "end": 5324,
+   "label": "STATUTE",
+   "text": "Art. 20 ZertES"
+  },
+  {
+   "start": 5883,
+   "end": 5896,
+   "label": "STATUTE",
+   "text": "Art. 5 ZertES"
+  },
+  {
+   "start": 6250,
+   "end": 6287,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 5 und\nArt. 39 Abs. 3 BGG"
+  },
+  {
+   "start": 6692,
+   "end": 6707,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 6721,
+   "end": 6731,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 6894,
+   "end": 6918,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 6921,
+   "end": 6936,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 7174,
+   "end": 7193,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 7298,
+   "end": 7317,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 7537,
+   "end": 7551,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7779,
+   "end": 7790,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 7888,
+   "end": 7926,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 und\nArt. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 8415,
+   "end": 8429,
+   "label": "BGE",
+   "text": "BGE 133 IV 119"
+  },
+  {
+   "start": 8456,
+   "end": 8470,
+   "label": "BGE",
+   "text": "BGE 139 II 233"
+  },
+  {
+   "start": 8486,
+   "end": 8497,
+   "label": "BGE",
+   "text": "138 III 728"
+  },
+  {
+   "start": 9489,
+   "end": 9500,
+   "label": "DOCKET",
+   "text": "4A_160/2022"
+  },
+  {
+   "start": 9956,
+   "end": 9967,
+   "label": "STATUTE",
+   "text": "Art. 93 BGG"
+  },
+  {
+   "start": 10026,
+   "end": 10041,
+   "label": "BGE",
+   "text": "BGE 141 III 395"
+  },
+  {
+   "start": 10050,
+   "end": 10061,
+   "label": "BGE",
+   "text": "135 III 212"
+  },
+  {
+   "start": 10082,
+   "end": 10091,
+   "label": "BGE",
+   "text": "135 V 141"
+  },
+  {
+   "start": 10251,
+   "end": 10276,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 10469,
+   "end": 10494,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 10575,
+   "end": 10586,
+   "label": "STATUTE",
+   "text": "Art. 93 BGG"
+  },
+  {
+   "start": 10668,
+   "end": 10683,
+   "label": "BGE",
+   "text": "BGE 142 III 798"
+  },
+  {
+   "start": 10699,
+   "end": 10709,
+   "label": "BGE",
+   "text": "141 III 80"
+  },
+  {
+   "start": 10724,
+   "end": 10735,
+   "label": "BGE",
+   "text": "137 III 324"
+  },
+  {
+   "start": 10751,
+   "end": 10762,
+   "label": "BGE",
+   "text": "134 III 426"
+  },
+  {
+   "start": 10779,
+   "end": 10790,
+   "label": "BGE",
+   "text": "133 III 629"
+  },
+  {
+   "start": 10994,
+   "end": 11019,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 11112,
+   "end": 11137,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 11333,
+   "end": 11347,
+   "label": "BGE",
+   "text": "BGE 141 III 80"
+  },
+  {
+   "start": 11356,
+   "end": 11365,
+   "label": "BGE",
+   "text": "136 IV 92"
+  },
+  {
+   "start": 11378,
+   "end": 11389,
+   "label": "BGE",
+   "text": "134 III 188"
+  },
+  {
+   "start": 11405,
+   "end": 11416,
+   "label": "BGE",
+   "text": "133 III 629"
+  },
+  {
+   "start": 11753,
+   "end": 11779,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 11954,
+   "end": 11980,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 13793,
+   "end": 13819,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 14309,
+   "end": 14354,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 7 und\nArt. 108 Abs. 1 lit. c BGG"
+  },
+  {
+   "start": 14365,
+   "end": 14379,
+   "label": "BGE",
+   "text": "BGE 111 Ia 148"
+  },
+  {
+   "start": 15664,
+   "end": 15682,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 15767,
+   "end": 15785,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 15937,
+   "end": 15955,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 16312,
+   "end": 16322,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 54,
+ "n_deleted": 0,
+ "n_added": 3,
+ "n_relabeled": 0
+}

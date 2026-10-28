@@ -1,0 +1,14 @@
+{
+ "outcome": "approved",
+ "delete": [
+  32
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "§ 24",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#32: cantonal ordinance (LS 212.51) cited by title, so BARE_ARTICLE per guideline. Citation gold #21 reads \"140 IIII 264\" (typo in the source text), left as is."
+}

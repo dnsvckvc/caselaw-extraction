@@ -1,0 +1,24 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  47,
+  48
+ ],
+ "relabel": [
+  {
+   "id": 22,
+   "label": "STATUTE"
+  }
+ ],
+ "add": [
+  {
+   "text": "Art. 12 § 3 Abs. 1 dt. NEhelG",
+   "label": "OTHER_LAW"
+  },
+  {
+   "text": "VPB 44/1980 Nr. 109",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Art. 8 NAG relabelled to STATUTE: NAG (1891) is repealed Swiss federal law, not cantonal/foreign. 'N. 18 zu 196-199 IPRG' has no Art., left without span. Item 1 only converts the appeal type; item 2 (abgewiesen) used."
+}

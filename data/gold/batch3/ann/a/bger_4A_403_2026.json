@@ -1,0 +1,121 @@
+{
+ "decision_id": "bger_4A_403_2026",
+ "task_index": 198,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "#5 Reglement für das Bundesgericht has an SR number (173.110.131), so it is an act given as a title: BARE_ARTICLE Art. 33, not CONTRACT_ARTICLE.",
+ "spans": [
+  {
+   "start": 248,
+   "end": 264,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 333,
+   "end": 349,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1274,
+   "end": 1285,
+   "label": "STATUTE",
+   "text": "Art. 94 BGG"
+  },
+  {
+   "start": 2225,
+   "end": 2235,
+   "label": "AMOUNT",
+   "text": "Fr. 800.--"
+  },
+  {
+   "start": 3215,
+   "end": 3222,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 33"
+  },
+  {
+   "start": 3426,
+   "end": 3441,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 3455,
+   "end": 3465,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 3683,
+   "end": 3702,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3705,
+   "end": 3720,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 3930,
+   "end": 3956,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4103,
+   "end": 4122,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 3 BGG"
+  },
+  {
+   "start": 4359,
+   "end": 4404,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 7 und\nArt. 108 Abs. 1 lit. c BGG"
+  },
+  {
+   "start": 4519,
+   "end": 4538,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 3 BGG"
+  },
+  {
+   "start": 4743,
+   "end": 4761,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 4872,
+   "end": 4882,
+   "label": "DOCKET",
+   "text": "4A_20/2011"
+  },
+  {
+   "start": 5013,
+   "end": 5031,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5083,
+   "end": 5094,
+   "label": "STATUTE",
+   "text": "Art. 68 BGG"
+  },
+  {
+   "start": 5329,
+   "end": 5339,
+   "label": "AMOUNT",
+   "text": "Fr. 800.--"
+  }
+ ],
+ "n_pre": 18,
+ "n_deleted": 1,
+ "n_added": 1,
+ "n_relabeled": 0
+}

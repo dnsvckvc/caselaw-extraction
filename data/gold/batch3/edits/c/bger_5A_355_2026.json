@@ -1,0 +1,12 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "ZZZ 2022 S. 42",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Item 1 only rejects the Vereinigung request (side request); item 2 is nicht eingetreten."
+}

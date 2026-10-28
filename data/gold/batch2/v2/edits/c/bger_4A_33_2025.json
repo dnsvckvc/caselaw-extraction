@@ -1,0 +1,19 @@
+{
+ "outcome": "approved",
+ "delete": [
+  70,
+  80
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "§ 25",
+   "label": "BARE_ARTICLE"
+  },
+  {
+   "text": "SJZ 1943, S. 389",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "#70 cantonal act given as title (§ 25 des Einführungsgesetzes ... [EG ZPO/AG]) -> BARE_ARTICLE § 25 per guideline; abbreviation only in brackets after the date. #80 extended to page S. 389; second page \"405 ff.\" left without span. Ziff. 3.1/4.5 of a procedural order: no span."
+}

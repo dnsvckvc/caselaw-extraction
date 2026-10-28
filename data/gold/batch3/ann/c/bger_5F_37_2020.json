@@ -1,0 +1,451 @@
+{
+ "decision_id": "bger_5F_37_2020",
+ "task_index": 40,
+ "pass": "c",
+ "outcome": "approved",
+ "comment": "5A_89/2020 (the judgment under revision, not the own number 5F_37/2020) was never pre-annotated: added as DOCKET at all 20 occurrences, including the metadata banner line and Gegenstand. #27/#46 'Art. 12 dieses Reglements' / 'Art. 4 des Reglements' refer to the BGer Reglement with SR 173.110.210.3 = act, so BARE_ARTICLE instead of CONTRACT_ARTICLE.",
+ "spans": [
+  {
+   "start": 305,
+   "end": 315,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 694,
+   "end": 707,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsteller"
+  },
+  {
+   "start": 951,
+   "end": 964,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsgegner"
+  },
+  {
+   "start": 1045,
+   "end": 1055,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 2030,
+   "end": 2040,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 3599,
+   "end": 3612,
+   "label": "AMOUNT",
+   "text": "Fr. 10'000.--"
+  },
+  {
+   "start": 3703,
+   "end": 3713,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 3886,
+   "end": 3896,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 4015,
+   "end": 4025,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 4140,
+   "end": 4149,
+   "label": "DOCKET",
+   "text": "5G_2/2020"
+  },
+  {
+   "start": 4298,
+   "end": 4308,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 4460,
+   "end": 4470,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 4512,
+   "end": 4522,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 5478,
+   "end": 5497,
+   "label": "STATUTE",
+   "text": "Art. 121 Bst. b BGG"
+  },
+  {
+   "start": 5534,
+   "end": 5553,
+   "label": "STATUTE",
+   "text": "Art. 121 Bst. c BGG"
+  },
+  {
+   "start": 5642,
+   "end": 5661,
+   "label": "STATUTE",
+   "text": "Art. 121 Bst. d BGG"
+  },
+  {
+   "start": 5784,
+   "end": 5803,
+   "label": "STATUTE",
+   "text": "Art. 128 Abs. 1 BGG"
+  },
+  {
+   "start": 5838,
+   "end": 5866,
+   "label": "STATUTE",
+   "text": "Art. 121 Bst. b, c und d BGG"
+  },
+  {
+   "start": 5939,
+   "end": 5965,
+   "label": "STATUTE",
+   "text": "Art. 124 Abs. 1 Bst. b BGG"
+  },
+  {
+   "start": 6207,
+   "end": 6232,
+   "label": "STATUTE",
+   "text": "Art. 46 Abs. 1 Bst. c BGG"
+  },
+  {
+   "start": 6348,
+   "end": 6358,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 6372,
+   "end": 6391,
+   "label": "STATUTE",
+   "text": "Art. 121 Bst. c BGG"
+  },
+  {
+   "start": 6792,
+   "end": 6804,
+   "label": "AMOUNT",
+   "text": "Fr. 5'950.45"
+  },
+  {
+   "start": 6841,
+   "end": 6853,
+   "label": "AMOUNT",
+   "text": "Fr. 1'218.10"
+  },
+  {
+   "start": 7352,
+   "end": 7362,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 7601,
+   "end": 7620,
+   "label": "STATUTE",
+   "text": "Art. 121 Bst. c BGG"
+  },
+  {
+   "start": 8029,
+   "end": 8039,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 8412,
+   "end": 8431,
+   "label": "STATUTE",
+   "text": "Art. 121 Bst. c BGG"
+  },
+  {
+   "start": 8905,
+   "end": 8914,
+   "label": "DOCKET",
+   "text": "4G_1/2013"
+  },
+  {
+   "start": 9188,
+   "end": 9199,
+   "label": "STATUTE",
+   "text": "Art. 68 BGG"
+  },
+  {
+   "start": 9336,
+   "end": 9347,
+   "label": "STATUTE",
+   "text": "Art. 68 BGG"
+  },
+  {
+   "start": 9433,
+   "end": 9444,
+   "label": "STATUTE",
+   "text": "Art. 68 BGG"
+  },
+  {
+   "start": 9455,
+   "end": 9473,
+   "label": "STATUTE",
+   "text": "Art. 69 Abs. 1 BZP"
+  },
+  {
+   "start": 9489,
+   "end": 9503,
+   "label": "BGE",
+   "text": "BGE 111 Ia 154"
+  },
+  {
+   "start": 9521,
+   "end": 9530,
+   "label": "BGE",
+   "text": "118 V 139"
+  },
+  {
+   "start": 9578,
+   "end": 9597,
+   "label": "STATUTE",
+   "text": "Art. 121 Bst. c BGG"
+  },
+  {
+   "start": 9749,
+   "end": 9761,
+   "label": "STATUTE",
+   "text": "Art. 121 BGG"
+  },
+  {
+   "start": 9787,
+   "end": 9806,
+   "label": "STATUTE",
+   "text": "Art. 121 Bst. c BGG"
+  },
+  {
+   "start": 10111,
+   "end": 10118,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 12"
+  },
+  {
+   "start": 11027,
+   "end": 11041,
+   "label": "BGE",
+   "text": "BGE 114 Ia 332"
+  },
+  {
+   "start": 11132,
+   "end": 11142,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 11441,
+   "end": 11451,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 11664,
+   "end": 11674,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 12003,
+   "end": 12022,
+   "label": "STATUTE",
+   "text": "Art. 121 Bst. c BGG"
+  },
+  {
+   "start": 12125,
+   "end": 12144,
+   "label": "STATUTE",
+   "text": "Art. 121 Bst. d BGG"
+  },
+  {
+   "start": 12424,
+   "end": 12443,
+   "label": "STATUTE",
+   "text": "Art. 121 Bst. d BGG"
+  },
+  {
+   "start": 12980,
+   "end": 12990,
+   "label": "DOCKET",
+   "text": "5F_17/2020"
+  },
+  {
+   "start": 13019,
+   "end": 13029,
+   "label": "DOCKET",
+   "text": "5F_22/2020"
+  },
+  {
+   "start": 13056,
+   "end": 13065,
+   "label": "DOCKET",
+   "text": "9F_4/2020"
+  },
+  {
+   "start": 13091,
+   "end": 13101,
+   "label": "DOCKET",
+   "text": "5F_12/2019"
+  },
+  {
+   "start": 13149,
+   "end": 13162,
+   "label": "BGE",
+   "text": "BGE 122 II 17"
+  },
+  {
+   "start": 13254,
+   "end": 13264,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 13790,
+   "end": 13809,
+   "label": "STATUTE",
+   "text": "Art. 121 Bst. d BGG"
+  },
+  {
+   "start": 14079,
+   "end": 14097,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 14265,
+   "end": 14276,
+   "label": "DOCKET",
+   "text": "5A_756/2016"
+  },
+  {
+   "start": 14362,
+   "end": 14372,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 14905,
+   "end": 14929,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 15046,
+   "end": 15065,
+   "label": "STATUTE",
+   "text": "Art. 121 Bst. d BGG"
+  },
+  {
+   "start": 15123,
+   "end": 15133,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 15246,
+   "end": 15265,
+   "label": "STATUTE",
+   "text": "Art. 128 Abs. 1 BGG"
+  },
+  {
+   "start": 15353,
+   "end": 15377,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 15521,
+   "end": 15533,
+   "label": "AMOUNT",
+   "text": "Fr. 7'168.55"
+  },
+  {
+   "start": 15598,
+   "end": 15610,
+   "label": "AMOUNT",
+   "text": "Fr. 8'000.--"
+  },
+  {
+   "start": 15616,
+   "end": 15622,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 4"
+  },
+  {
+   "start": 15698,
+   "end": 15714,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500'000.--"
+  },
+  {
+   "start": 15726,
+   "end": 15736,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 15959,
+   "end": 15999,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 4 i.V.m.\nArt. 66 Abs. 5 BGG"
+  },
+  {
+   "start": 16158,
+   "end": 16202,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 Satz 2 und\nArt. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 16217,
+   "end": 16227,
+   "label": "DOCKET",
+   "text": "5F_17/2020"
+  },
+  {
+   "start": 16373,
+   "end": 16383,
+   "label": "DOCKET",
+   "text": "5A_89/2020"
+  },
+  {
+   "start": 16537,
+   "end": 16549,
+   "label": "AMOUNT",
+   "text": "Fr. 7'168.55"
+  },
+  {
+   "start": 16799,
+   "end": 16811,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 16892,
+   "end": 16902,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 53,
+ "n_deleted": 2,
+ "n_added": 22,
+ "n_relabeled": 0
+}

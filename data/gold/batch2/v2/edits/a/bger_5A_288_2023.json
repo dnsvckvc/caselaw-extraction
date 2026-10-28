@@ -1,0 +1,10 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    2,
+    3
+  ],
+  "relabel": [],
+  "add": [],
+  "comment": "#2 and #3 are inside the quoted appellant text (\"Laien-Beschwerde nach Art. 72 ff. oder Art. 113 ff.\"): no span per guideline. #19, #28, #29, #31 correct."
+}

@@ -1,0 +1,313 @@
+{
+ "decision_id": "bger_4A_58_2024",
+ "task_index": 59,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "Guideline gap: the contract clause is cited only as spelled-out Artikel 17 der Vereinbarung / Artikel 17 (about 7 occurrences). CONTRACT_ARTICLE starts at Art./Ziff./§ per guideline, and the citation gold also skips spelled-out Artikel (cf. Artikeln 35a und 35b VVG in 4A_271/2023), so no span added.",
+ "spans": [
+  {
+   "start": 346,
+   "end": 364,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 436,
+   "end": 454,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1370,
+   "end": 1383,
+   "label": "AMOUNT",
+   "text": "Fr. 90'468.00"
+  },
+  {
+   "start": 2115,
+   "end": 2159,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 und\nArt. 75 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 2254,
+   "end": 2272,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 2329,
+   "end": 2348,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 2485,
+   "end": 2508,
+   "label": "STATUTE",
+   "text": "Art. 95 und\nArt. 96 BGG"
+  },
+  {
+   "start": 2618,
+   "end": 2633,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 2640,
+   "end": 2650,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 2767,
+   "end": 2785,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3257,
+   "end": 3272,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 3549,
+   "end": 3568,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3660,
+   "end": 3669,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 3879,
+   "end": 3894,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 4010,
+   "end": 4029,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 4251,
+   "end": 4265,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 4457,
+   "end": 4468,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 4478,
+   "end": 4497,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 4559,
+   "end": 4572,
+   "label": "BGE",
+   "text": "BGE 148 V 366"
+  },
+  {
+   "start": 4581,
+   "end": 4590,
+   "label": "BGE",
+   "text": "145 V 188"
+  },
+  {
+   "start": 4597,
+   "end": 4608,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 4725,
+   "end": 4742,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs.1 BGG"
+  },
+  {
+   "start": 4825,
+   "end": 4844,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4847,
+   "end": 4862,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 5066,
+   "end": 5080,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5338,
+   "end": 5352,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 5529,
+   "end": 5543,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5925,
+   "end": 5939,
+   "label": "BGE",
+   "text": "BGE 144 II 281"
+  },
+  {
+   "start": 5950,
+   "end": 5961,
+   "label": "BGE",
+   "text": "141 III 564"
+  },
+  {
+   "start": 5970,
+   "end": 5980,
+   "label": "BGE",
+   "text": "140 III 16"
+  },
+  {
+   "start": 5989,
+   "end": 5999,
+   "label": "BGE",
+   "text": "135 II 356"
+  },
+  {
+   "start": 6333,
+   "end": 6348,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 6357,
+   "end": 6368,
+   "label": "BGE",
+   "text": "137 III 226"
+  },
+  {
+   "start": 6487,
+   "end": 6502,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 6511,
+   "end": 6521,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 6796,
+   "end": 6811,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 8256,
+   "end": 8266,
+   "label": "STATUTE",
+   "text": "Art. 18 OR"
+  },
+  {
+   "start": 8275,
+   "end": 8286,
+   "label": "STATUTE",
+   "text": "Art. 17 ZPO"
+  },
+  {
+   "start": 10551,
+   "end": 10568,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 11376,
+   "end": 11390,
+   "label": "BGE",
+   "text": "BGE 148 III 30"
+  },
+  {
+   "start": 11399,
+   "end": 11408,
+   "label": "BGE",
+   "text": "142 II 49"
+  },
+  {
+   "start": 11417,
+   "end": 11427,
+   "label": "BGE",
+   "text": "141 III 28"
+  },
+  {
+   "start": 11438,
+   "end": 11447,
+   "label": "BGE",
+   "text": "141 V 557"
+  },
+  {
+   "start": 13716,
+   "end": 13730,
+   "label": "BGE",
+   "text": "BGE 118 Ia 294"
+  },
+  {
+   "start": 13745,
+   "end": 13756,
+   "label": "DOCKET",
+   "text": "4P.258/2002"
+  },
+  {
+   "start": 14084,
+   "end": 14095,
+   "label": "STATUTE",
+   "text": "Art. 17 ZPO"
+  },
+  {
+   "start": 14151,
+   "end": 14161,
+   "label": "STATUTE",
+   "text": "Art. 18 OR"
+  },
+  {
+   "start": 14596,
+   "end": 14614,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 14740,
+   "end": 14758,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 14895,
+   "end": 14907,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  }
+ ],
+ "n_pre": 50,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

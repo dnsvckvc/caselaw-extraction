@@ -1,0 +1,12 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "BGE 142 IIII 758",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Added 'BGE 142 IIII 758' (typo in source for 142 III 758; written after 'nicht publ. in'). '115 E. 2' after BGE 140 III 86 left unlabelled per second-page rule. Own docket in header not labelled."
+}

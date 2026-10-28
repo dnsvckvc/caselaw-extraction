@@ -1,0 +1,16 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  3,
+  4,
+  7
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 34 Abs. 1 lit. c",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#3/#4 '5A_44/2023' and '5A_45/2023' are the decision's own numbers (5D) with a typo, so not DOCKET. BGerR has an SR number, so it is an act given by title: BARE_ARTICLE, not CONTRACT_ARTICLE. Item 1 only joins proceedings; item 2 decides: inadmissible."
+}

@@ -1,0 +1,12 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "ZZZ 2019, S. 121",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Added 'ZZZ 2019, S. 121' (JOURNAL_REF, 'f.' excluded). 'Grundstueck Art. xxx GB' is a land-register parcel number, no span. 'Festschrift fuer Paul Eitel, 2022, S. 588' is an anthology, no span. Dispositiv-Ziffern get no span."
+}

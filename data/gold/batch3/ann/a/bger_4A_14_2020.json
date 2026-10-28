@@ -1,0 +1,421 @@
+{
+ "decision_id": "bger_4A_14_2020",
+ "task_index": 18,
+ "pass": "a",
+ "outcome": "approved",
+ "comment": "#3 Art. 187 inside the cantonal file reference (HOR.2018.33, Art. 187) deleted: it is part of the cantonal docket, not a legal citation (guideline does not settle it). #17 and #58 BARE_ARTICLE on Art. 233 in the quoted brief Art. 233 [recte: 232] Abs. 2 ZPO kept: the bracket cuts the citation off from ZPO, so no STATUTE span is possible; open question. #60 Art. 233 Abs. 2 ZPO kept although the court notes the provision does not exist.",
+ "spans": [
+  {
+   "start": 347,
+   "end": 365,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 438,
+   "end": 456,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1119,
+   "end": 1132,
+   "label": "AMOUNT",
+   "text": "Fr. 33'592.30"
+  },
+  {
+   "start": 1149,
+   "end": 1162,
+   "label": "AMOUNT",
+   "text": "Fr. 16'000.--"
+  },
+  {
+   "start": 1179,
+   "end": 1192,
+   "label": "AMOUNT",
+   "text": "Fr. 16'000.--"
+  },
+  {
+   "start": 1209,
+   "end": 1222,
+   "label": "AMOUNT",
+   "text": "Fr. 16'000.--"
+  },
+  {
+   "start": 1239,
+   "end": 1252,
+   "label": "AMOUNT",
+   "text": "Fr. 16'000.--"
+  },
+  {
+   "start": 1273,
+   "end": 1286,
+   "label": "AMOUNT",
+   "text": "Fr. 30'084.--"
+  },
+  {
+   "start": 1348,
+   "end": 1361,
+   "label": "AMOUNT",
+   "text": "Fr. 16'000.--"
+  },
+  {
+   "start": 1422,
+   "end": 1435,
+   "label": "AMOUNT",
+   "text": "Fr. 65'592.30"
+  },
+  {
+   "start": 1701,
+   "end": 1714,
+   "label": "AMOUNT",
+   "text": "Fr. 65'592.30"
+  },
+  {
+   "start": 2533,
+   "end": 2543,
+   "label": "AMOUNT",
+   "text": "Fr. 892.30"
+  },
+  {
+   "start": 2548,
+   "end": 2561,
+   "label": "AMOUNT",
+   "text": "Fr. 64'700.--"
+  },
+  {
+   "start": 3229,
+   "end": 3241,
+   "label": "STATUTE",
+   "text": "Art. 233 ZPO"
+  },
+  {
+   "start": 3359,
+   "end": 3378,
+   "label": "STATUTE",
+   "text": "Art. 232 Abs. 2 ZPO"
+  },
+  {
+   "start": 3922,
+   "end": 3930,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 233"
+  },
+  {
+   "start": 6774,
+   "end": 6784,
+   "label": "AMOUNT",
+   "text": "Fr. 892.30"
+  },
+  {
+   "start": 6829,
+   "end": 6841,
+   "label": "AMOUNT",
+   "text": "Fr. 5'360.--"
+  },
+  {
+   "start": 6937,
+   "end": 6949,
+   "label": "AMOUNT",
+   "text": "Fr. 9'611.40"
+  },
+  {
+   "start": 7601,
+   "end": 7612,
+   "label": "STATUTE",
+   "text": "Art. 72 BGG"
+  },
+  {
+   "start": 7658,
+   "end": 7669,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 7781,
+   "end": 7806,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 7850,
+   "end": 7875,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 7912,
+   "end": 7960,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 i.V.m.\nArt. 46 Abs. 1 lit. c BGG"
+  },
+  {
+   "start": 8023,
+   "end": 8041,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 8124,
+   "end": 8143,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 8770,
+   "end": 8785,
+   "label": "BGE",
+   "text": "BGE 133 III 489"
+  },
+  {
+   "start": 9414,
+   "end": 9431,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 9906,
+   "end": 9925,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 9986,
+   "end": 10010,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 10329,
+   "end": 10343,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 10407,
+   "end": 10425,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 10689,
+   "end": 10708,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 10918,
+   "end": 10932,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 11133,
+   "end": 11144,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 11154,
+   "end": 11173,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 11235,
+   "end": 11250,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 11264,
+   "end": 11267,
+   "label": "BGE",
+   "text": "264"
+  },
+  {
+   "start": 11381,
+   "end": 11399,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 11483,
+   "end": 11502,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 11505,
+   "end": 11520,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 11732,
+   "end": 11746,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 12010,
+   "end": 12024,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 12207,
+   "end": 12221,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 12385,
+   "end": 12403,
+   "label": "STATUTE",
+   "text": "Art. 6 Abs. 1 EMRK"
+  },
+  {
+   "start": 12406,
+   "end": 12420,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 14 Abs. 1"
+  },
+  {
+   "start": 12514,
+   "end": 12550,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 und\nArt. 30 Abs. 3 BV"
+  },
+  {
+   "start": 12561,
+   "end": 12595,
+   "label": "STATUTE",
+   "text": "Art. 54,\nArt. 228 und\nArt. 233 ZPO"
+  },
+  {
+   "start": 13769,
+   "end": 13785,
+   "label": "STATUTE",
+   "text": "Art. 228 ff. ZPO"
+  },
+  {
+   "start": 13851,
+   "end": 13863,
+   "label": "STATUTE",
+   "text": "Art. 233 ZPO"
+  },
+  {
+   "start": 14008,
+   "end": 14020,
+   "label": "STATUTE",
+   "text": "Art. 233 ZPO"
+  },
+  {
+   "start": 14543,
+   "end": 14558,
+   "label": "BGE",
+   "text": "BGE 140 III 450"
+  },
+  {
+   "start": 14799,
+   "end": 14811,
+   "label": "STATUTE",
+   "text": "Art. 228 ZPO"
+  },
+  {
+   "start": 14835,
+   "end": 14847,
+   "label": "STATUTE",
+   "text": "Art. 231 ZPO"
+  },
+  {
+   "start": 14877,
+   "end": 14889,
+   "label": "STATUTE",
+   "text": "Art. 232 ZPO"
+  },
+  {
+   "start": 14999,
+   "end": 15009,
+   "label": "DOCKET",
+   "text": "4A_47/2015"
+  },
+  {
+   "start": 15688,
+   "end": 15696,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 233"
+  },
+  {
+   "start": 15846,
+   "end": 15858,
+   "label": "STATUTE",
+   "text": "Art. 232 ZPO"
+  },
+  {
+   "start": 15885,
+   "end": 15904,
+   "label": "STATUTE",
+   "text": "Art. 233 Abs. 2 ZPO"
+  },
+  {
+   "start": 16786,
+   "end": 16797,
+   "label": "STATUTE",
+   "text": "Art. 92 BGG"
+  },
+  {
+   "start": 16894,
+   "end": 16912,
+   "label": "STATUTE",
+   "text": "Art. 92 Abs. 1 BGG"
+  },
+  {
+   "start": 17111,
+   "end": 17129,
+   "label": "STATUTE",
+   "text": "Art. 92 Abs. 2 BGG"
+  },
+  {
+   "start": 17240,
+   "end": 17258,
+   "label": "STATUTE",
+   "text": "Art. 92 Abs. 2 BGG"
+  },
+  {
+   "start": 17570,
+   "end": 17585,
+   "label": "BGE",
+   "text": "BGE 141 III 210"
+  },
+  {
+   "start": 17601,
+   "end": 17612,
+   "label": "BGE",
+   "text": "135 III 334"
+  },
+  {
+   "start": 18461,
+   "end": 18498,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 18822,
+   "end": 18834,
+   "label": "AMOUNT",
+   "text": "Fr. 3'500.--"
+  },
+  {
+   "start": 18972,
+   "end": 18984,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  }
+ ],
+ "n_pre": 69,
+ "n_deleted": 1,
+ "n_added": 0,
+ "n_relabeled": 0
+}

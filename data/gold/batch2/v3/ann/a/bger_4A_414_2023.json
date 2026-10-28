@@ -1,0 +1,187 @@
+{
+ "decision_id": "bger_4A_414_2023",
+ "task_index": 52,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 313,
+   "end": 331,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 420,
+   "end": 436,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 883,
+   "end": 897,
+   "label": "AMOUNT",
+   "text": "USD 249'070.77"
+  },
+  {
+   "start": 1485,
+   "end": 1504,
+   "label": "STATUTE",
+   "text": "Art. 223 Abs. 1 ZPO"
+  },
+  {
+   "start": 2067,
+   "end": 2086,
+   "label": "STATUTE",
+   "text": "Art. 223 Abs. 1 ZPO"
+  },
+  {
+   "start": 2286,
+   "end": 2304,
+   "label": "STATUTE",
+   "text": "Art. 92 Abs. 1 BGG"
+  },
+  {
+   "start": 2448,
+   "end": 2479,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 2490,
+   "end": 2505,
+   "label": "BGE",
+   "text": "BGE 144 III 475"
+  },
+  {
+   "start": 2806,
+   "end": 2821,
+   "label": "BGE",
+   "text": "BGE 147 III 159"
+  },
+  {
+   "start": 2828,
+   "end": 2839,
+   "label": "BGE",
+   "text": "141 III 294"
+  },
+  {
+   "start": 3055,
+   "end": 3066,
+   "label": "STATUTE",
+   "text": "Art. 92 BGG"
+  },
+  {
+   "start": 3454,
+   "end": 3469,
+   "label": "BGE",
+   "text": "BGE 147 III 159"
+  },
+  {
+   "start": 3484,
+   "end": 3495,
+   "label": "DOCKET",
+   "text": "4A_219/2023"
+  },
+  {
+   "start": 3520,
+   "end": 3531,
+   "label": "DOCKET",
+   "text": "4A_393/2022"
+  },
+  {
+   "start": 3559,
+   "end": 3570,
+   "label": "DOCKET",
+   "text": "4A_429/2020"
+  },
+  {
+   "start": 3745,
+   "end": 3756,
+   "label": "STATUTE",
+   "text": "Art. 92 BGG"
+  },
+  {
+   "start": 3759,
+   "end": 3774,
+   "label": "BGE",
+   "text": "BGE 144 III 475"
+  },
+  {
+   "start": 3946,
+   "end": 3957,
+   "label": "STATUTE",
+   "text": "Art. 92 BGG"
+  },
+  {
+   "start": 4008,
+   "end": 4019,
+   "label": "STATUTE",
+   "text": "Art. 93 BGG"
+  },
+  {
+   "start": 4101,
+   "end": 4120,
+   "label": "STATUTE",
+   "text": "Art. 223 Abs. 1 ZPO"
+  },
+  {
+   "start": 4283,
+   "end": 4308,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 4501,
+   "end": 4526,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4611,
+   "end": 4622,
+   "label": "STATUTE",
+   "text": "Art. 93 BGG"
+  },
+  {
+   "start": 4704,
+   "end": 4719,
+   "label": "BGE",
+   "text": "BGE 142 III 798"
+  },
+  {
+   "start": 4880,
+   "end": 4891,
+   "label": "STATUTE",
+   "text": "Art. 92 BGG"
+  },
+  {
+   "start": 4941,
+   "end": 4959,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 BGG"
+  },
+  {
+   "start": 5150,
+   "end": 5176,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 5262,
+   "end": 5280,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5439,
+   "end": 5449,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 29,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

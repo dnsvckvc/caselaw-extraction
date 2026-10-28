@@ -1,0 +1,7 @@
+{
+  "outcome": "inadmissible",
+  "delete": [],
+  "relabel": [],
+  "add": [],
+  "comment": "All 29 pre-annotations correct. Item 1 is a Sistierung request (skipped); item 2 nicht eingetreten -> inadmissible. Malformed numbers '5F_/2026' and '5A_7F/2026' not labelled. Own number '4D_72/2026' in the body list not labelled. Cantonal numbers (ZSU.2026.93, SBK.2026.131, etc.) and invoice numbers not labelled. 'Fr. 800' without dashes kept as AMOUNT."
+}

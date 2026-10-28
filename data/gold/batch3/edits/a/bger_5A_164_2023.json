@@ -1,0 +1,20 @@
+{
+ "outcome": "approved",
+ "delete": [
+  15,
+  59
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 3 Abs. 1",
+   "label": "BARE_ARTICLE"
+  },
+  {
+   "text": "Art. 6",
+   "label": "BARE_ARTICLE",
+   "occurrence": 4
+  }
+ ],
+ "comment": "Outcome was unknown; item 1 says gutgeheissen, so approved. #15 Art. 3 Abs. 1 des Reglements (ReRBGer, SR 173.110.29) and #59 Art. 6 des Reglements (SR 173.110.210.3): Reglement with SR number is an act given as title, so BARE_ARTICLE, not CONTRACT_ARTICLE. Left unlabelled and unsettled: Sozialversicherungsrechtstagung 2010, S. 178 (conference volume) and Jusletter vom 25. April 2005 (online journal cited by date, no page). OG Z 22 4 cantonal; Dispositiv-Ziffer 5.1 no span."
+}

@@ -1,0 +1,14 @@
+{
+ "outcome": "approved",
+ "delete": [
+  40
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "BlSchK 2013, S. 109",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Item 1 says gutgeheissen and then Im Übrigen wird die Beschwerde abgewiesen (Begehren 2 inadmissible); kept approved per the item-1 word."
+}

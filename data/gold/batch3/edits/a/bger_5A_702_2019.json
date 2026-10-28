@@ -1,0 +1,24 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "ZBGR 91/2010 S. 168",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "ZBGR 95/2014 S. 208",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "ZBGR 89/2008 S. 113",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "Revue fribourgeoise de jurisprudence [RFJ] / Freiburger Zeitschrift für Rechtsprechung [FZR] 2002 S. 53",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Added four JOURNAL_REF spans missed by the pre-annotator. The RFJ/FZR citation names the journal in two languages with bracketed abbreviations inside the name; I took the whole name up to the first page and left f. out - guideline does not settle a journal name that contains brackets."
+}

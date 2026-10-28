@@ -1,0 +1,265 @@
+{
+ "decision_id": "bger_5A_401_2019",
+ "task_index": 17,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "dt. ZPO treated as foreign-law abbreviation (OTHER_LAW, span includes dt.). Art. 57 rev. LugUe treated as STATUTE (current LugUe in Fedlex). Art. 31 ff. trimmed to Art. 31 (ff. excluded).",
+ "spans": [
+  {
+   "start": 293,
+   "end": 309,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 391,
+   "end": 409,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 706,
+   "end": 722,
+   "label": "AMOUNT",
+   "text": "Fr. 1'139'265.20"
+  },
+  {
+   "start": 1201,
+   "end": 1217,
+   "label": "AMOUNT",
+   "text": "Fr. 1'138'132.60"
+  },
+  {
+   "start": 1270,
+   "end": 1284,
+   "label": "AMOUNT",
+   "text": "Fr. 183'879.04"
+  },
+  {
+   "start": 2317,
+   "end": 2374,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 1 lit. b,\nArt. 75 BGG"
+  },
+  {
+   "start": 2465,
+   "end": 2484,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 2637,
+   "end": 2661,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a und b BGG"
+  },
+  {
+   "start": 2772,
+   "end": 2790,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2865,
+   "end": 2884,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2922,
+   "end": 2937,
+   "label": "BGE",
+   "text": "BGE 133 III 589"
+  },
+  {
+   "start": 3580,
+   "end": 3598,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3999,
+   "end": 4008,
+   "label": "OTHER_LAW",
+   "text": "§ 151 BGB"
+  },
+  {
+   "start": 4119,
+   "end": 4135,
+   "label": "STATUTE",
+   "text": "Art. 80 f. SchKG"
+  },
+  {
+   "start": 4240,
+   "end": 4254,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 50 Abs. 1"
+  },
+  {
+   "start": 4632,
+   "end": 4639,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 31"
+  },
+  {
+   "start": 4695,
+   "end": 4726,
+   "label": "STATUTE",
+   "text": "Art. 50 Abs. 1 Satz 2 LugÜ 1988"
+  },
+  {
+   "start": 5028,
+   "end": 5052,
+   "label": "STATUTE",
+   "text": "Art. 50 Abs. 2 LugÜ 1988"
+  },
+  {
+   "start": 5939,
+   "end": 5956,
+   "label": "STATUTE",
+   "text": "Art. 50 LugÜ 1988"
+  },
+  {
+   "start": 6665,
+   "end": 6678,
+   "label": "OTHER_LAW",
+   "text": "§ 732 dt. ZPO"
+  },
+  {
+   "start": 7360,
+   "end": 7380,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 74 Abs. 1 Nr. 1"
+  },
+  {
+   "start": 7592,
+   "end": 7612,
+   "label": "OTHER_LAW",
+   "text": "§ 794 Abs. 1 dt. ZPO"
+  },
+  {
+   "start": 8268,
+   "end": 8286,
+   "label": "STATUTE",
+   "text": "Art. 96 lit. b BGG"
+  },
+  {
+   "start": 8305,
+   "end": 8320,
+   "label": "BGE",
+   "text": "BGE 138 III 489"
+  },
+  {
+   "start": 8329,
+   "end": 8340,
+   "label": "BGE",
+   "text": "135 III 670"
+  },
+  {
+   "start": 8349,
+   "end": 8360,
+   "label": "BGE",
+   "text": "133 III 446"
+  },
+  {
+   "start": 8376,
+   "end": 8387,
+   "label": "DOCKET",
+   "text": "4A_367/2015"
+  },
+  {
+   "start": 8464,
+   "end": 8483,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 9102,
+   "end": 9122,
+   "label": "STATUTE",
+   "text": "Art. 80 Abs. 1 SchKG"
+  },
+  {
+   "start": 9248,
+   "end": 9265,
+   "label": "STATUTE",
+   "text": "Art. 50 LugÜ 1988"
+  },
+  {
+   "start": 9272,
+   "end": 9289,
+   "label": "STATUTE",
+   "text": "Art. 57 rev. LugÜ"
+  },
+  {
+   "start": 9446,
+   "end": 9462,
+   "label": "STATUTE",
+   "text": "Art. 347 ff. ZPO"
+  },
+  {
+   "start": 9502,
+   "end": 9517,
+   "label": "BGE",
+   "text": "BGE 143 III 404"
+  },
+  {
+   "start": 9524,
+   "end": 9534,
+   "label": "BGE",
+   "text": "137 III 87"
+  },
+  {
+   "start": 9863,
+   "end": 9876,
+   "label": "OTHER_LAW",
+   "text": "§ 767 dt. ZPO"
+  },
+  {
+   "start": 10303,
+   "end": 10321,
+   "label": "JOURNAL_REF",
+   "text": "LGVE 2005 I Nr. 44"
+  },
+  {
+   "start": 10640,
+   "end": 10655,
+   "label": "JOURNAL_REF",
+   "text": "AJP 2006 S. 670"
+  },
+  {
+   "start": 10960,
+   "end": 10974,
+   "label": "BGE",
+   "text": "BGE 137 III 87"
+  },
+  {
+   "start": 10988,
+   "end": 10999,
+   "label": "DOCKET",
+   "text": "5A_935/2015"
+  },
+  {
+   "start": 11218,
+   "end": 11236,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 11312,
+   "end": 11330,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 11466,
+   "end": 11479,
+   "label": "AMOUNT",
+   "text": "Fr. 15'000.--"
+  }
+ ],
+ "n_pre": 42,
+ "n_deleted": 5,
+ "n_added": 5,
+ "n_relabeled": 0
+}

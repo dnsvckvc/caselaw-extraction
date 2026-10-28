@@ -1,0 +1,7 @@
+{
+ "outcome": "dismissed",
+ "comment": "Contract clause written out as Artikel 17 (der Vereinbarung), 6 times; guideline spans start at Art./Ziff./§ only, and the gold leaves spelled-out Artikel unspanned, so no CONTRACT_ARTICLE added. Guideline gap.",
+ "delete": [],
+ "relabel": [],
+ "add": []
+}

@@ -1,0 +1,16 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "131 III 91",
+   "label": "BGE"
+  },
+  {
+   "text": "116 II 738",
+   "label": "BGE"
+  }
+ ],
+ "comment": "added two BGE list items without the BGE word: 131 III 91 (after 135 III 334) and 116 II 738 (after 139 III 126). 4 Mio. Franken kept as AMOUNT."
+}

@@ -1,0 +1,7 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "all pre-annotations correct. Unsettled: #2 Beschwerdegegnerin appears in the header only as representative (gesetzlich vertreten durch die Beschwerdegegnerin 2); kept because it is a role word in the header block. BBl 2006 7275 is a gazette (no span); LZ250005-O/U cantonal (no span)."
+}

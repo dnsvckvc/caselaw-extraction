@@ -1,0 +1,97 @@
+{
+ "decision_id": "bger_5A_614_2025",
+ "task_index": 160,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "#8 Art. 29. Abs. 2 BV has a stray full stop after the article number; labelled as written as STATUTE (typo rule), not BARE_ARTICLE.",
+ "spans": [
+  {
+   "start": 248,
+   "end": 264,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 1338,
+   "end": 1386,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 2 lit. c BGG"
+  },
+  {
+   "start": 1444,
+   "end": 1456,
+   "label": "STATUTE",
+   "text": "Art. 113 BGG"
+  },
+  {
+   "start": 1548,
+   "end": 1566,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 1905,
+   "end": 1919,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 1926,
+   "end": 1937,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 3479,
+   "end": 3488,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 3765,
+   "end": 3783,
+   "label": "STATUTE",
+   "text": "Art. 29. Abs. 2 BV"
+  },
+  {
+   "start": 3814,
+   "end": 3831,
+   "label": "STATUTE",
+   "text": "Art. 10 Abs. 2 BV"
+  },
+  {
+   "start": 3859,
+   "end": 3869,
+   "label": "STATUTE",
+   "text": "Art. 26 BV"
+  },
+  {
+   "start": 3909,
+   "end": 3920,
+   "label": "STATUTE",
+   "text": "Art. 8 EMRK"
+  },
+  {
+   "start": 4637,
+   "end": 4663,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4754,
+   "end": 4772,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 4884,
+   "end": 4894,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 14,
+ "n_deleted": 1,
+ "n_added": 1,
+ "n_relabeled": 0
+}

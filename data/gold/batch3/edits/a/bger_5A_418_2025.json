@@ -1,0 +1,14 @@
+{
+ "outcome": "approved",
+ "delete": [
+  40
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "BlSchK 2013, S. 109",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "#40 JOURNAL_REF extended to include the first page (BlSchK 2013, S. 109). #41 Art. 66 Abs. 4 SchKG is a typo for BGG, labelled as written. #39 Art. 20a Abs. 3 SchKG sits inside a literature title, kept as STATUTE. ABS/CIV numbers are cantonal file numbers."
+}

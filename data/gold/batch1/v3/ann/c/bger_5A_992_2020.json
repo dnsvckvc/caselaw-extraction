@@ -1,0 +1,91 @@
+{
+ "decision_id": "bger_5A_992_2020",
+ "task_index": 10,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 266,
+   "end": 282,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 1773,
+   "end": 1807,
+   "label": "STATUTE",
+   "text": "Art. 40 Abs. 1,\nArt. 42 Abs. 5 BGG"
+  },
+  {
+   "start": 2290,
+   "end": 2331,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 2 lit. a i.V.m.\nArt. 45 BGG"
+  },
+  {
+   "start": 3021,
+   "end": 3032,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 3035,
+   "end": 3050,
+   "label": "BGE",
+   "text": "BGE 137 III 475"
+  },
+  {
+   "start": 3064,
+   "end": 3074,
+   "label": "BGE",
+   "text": "134 II 192"
+  },
+  {
+   "start": 3228,
+   "end": 3247,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3309,
+   "end": 3324,
+   "label": "BGE",
+   "text": "BGE 135 III 232"
+  },
+  {
+   "start": 3340,
+   "end": 3351,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 3466,
+   "end": 3478,
+   "label": "AMOUNT",
+   "text": "Fr. 2'802.55"
+  },
+  {
+   "start": 3551,
+   "end": 3561,
+   "label": "AMOUNT",
+   "text": "Fr. 133.15"
+  },
+  {
+   "start": 4788,
+   "end": 4814,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5125,
+   "end": 5143,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  }
+ ],
+ "n_pre": 13,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

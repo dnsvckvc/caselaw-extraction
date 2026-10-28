@@ -1,0 +1,217 @@
+{
+ "decision_id": "bger_5A_702_2019",
+ "task_index": 32,
+ "pass": "a",
+ "outcome": "approved",
+ "comment": "Added four JOURNAL_REF spans missed by the pre-annotator. The RFJ/FZR citation names the journal in two languages with bracketed abbreviations inside the name; I took the whole name up to the first page and left f. out - guideline does not settle a journal name that contains brackets.",
+ "spans": [
+  {
+   "start": 350,
+   "end": 368,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 434,
+   "end": 450,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 4772,
+   "end": 4785,
+   "label": "AMOUNT",
+   "text": "Fr. 35'000.--"
+  },
+  {
+   "start": 4860,
+   "end": 4929,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1,\nArt. 74 Abs. 1 lit. b,\nArt. 75 Abs. 1 und\nArt. 90 BGG"
+  },
+  {
+   "start": 4989,
+   "end": 5007,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 5032,
+   "end": 5080,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 i.V.m.\nArt. 46 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5202,
+   "end": 5214,
+   "label": "STATUTE",
+   "text": "Art. 738 ZGB"
+  },
+  {
+   "start": 5403,
+   "end": 5422,
+   "label": "STATUTE",
+   "text": "Art. 738 Abs. 1 ZGB"
+  },
+  {
+   "start": 5783,
+   "end": 5802,
+   "label": "STATUTE",
+   "text": "Art. 738 Abs. 2 ZGB"
+  },
+  {
+   "start": 5805,
+   "end": 5820,
+   "label": "BGE",
+   "text": "BGE 137 III 145"
+  },
+  {
+   "start": 6983,
+   "end": 6997,
+   "label": "BGE",
+   "text": "BGE 107 II 331"
+  },
+  {
+   "start": 7195,
+   "end": 7206,
+   "label": "DOCKET",
+   "text": "5A_264/2009"
+  },
+  {
+   "start": 7236,
+   "end": 7255,
+   "label": "JOURNAL_REF",
+   "text": "ZBGR 91/2010 S. 168"
+  },
+  {
+   "start": 7257,
+   "end": 7268,
+   "label": "DOCKET",
+   "text": "5A_134/2020"
+  },
+  {
+   "start": 7546,
+   "end": 7561,
+   "label": "BGE",
+   "text": "BGE 130 III 554"
+  },
+  {
+   "start": 7808,
+   "end": 7827,
+   "label": "STATUTE",
+   "text": "Art. 738 Abs. 1 ZGB"
+  },
+  {
+   "start": 8190,
+   "end": 8209,
+   "label": "STATUTE",
+   "text": "Art. 738 Abs. 2 ZGB"
+  },
+  {
+   "start": 8726,
+   "end": 8738,
+   "label": "STATUTE",
+   "text": "Art. 737 ZGB"
+  },
+  {
+   "start": 9283,
+   "end": 9294,
+   "label": "DOCKET",
+   "text": "5A_602/2012"
+  },
+  {
+   "start": 9329,
+   "end": 9348,
+   "label": "JOURNAL_REF",
+   "text": "ZBGR 95/2014 S. 208"
+  },
+  {
+   "start": 9618,
+   "end": 9632,
+   "label": "BGE",
+   "text": "BGE 107 II 331"
+  },
+  {
+   "start": 9829,
+   "end": 9840,
+   "label": "DOCKET",
+   "text": "5A_264/2009"
+  },
+  {
+   "start": 10124,
+   "end": 10139,
+   "label": "BGE",
+   "text": "BGE 130 III 554"
+  },
+  {
+   "start": 11933,
+   "end": 11965,
+   "label": "STATUTE",
+   "text": "Art. 738 und\nArt. 973 Abs. 1 ZGB"
+  },
+  {
+   "start": 14484,
+   "end": 14516,
+   "label": "STATUTE",
+   "text": "Art. 738 und\nArt. 973 Abs. 1 ZGB"
+  },
+  {
+   "start": 14661,
+   "end": 14675,
+   "label": "BGE",
+   "text": "BGE 123 III 35"
+  },
+  {
+   "start": 15126,
+   "end": 15145,
+   "label": "STATUTE",
+   "text": "Art. 743 Abs. 1 ZGB"
+  },
+  {
+   "start": 15508,
+   "end": 15518,
+   "label": "DOCKET",
+   "text": "5C.78/2006"
+  },
+  {
+   "start": 15556,
+   "end": 15575,
+   "label": "JOURNAL_REF",
+   "text": "ZBGR 89/2008 S. 113"
+  },
+  {
+   "start": 15577,
+   "end": 15587,
+   "label": "DOCKET",
+   "text": "5C.38/2001"
+  },
+  {
+   "start": 15635,
+   "end": 15738,
+   "label": "JOURNAL_REF",
+   "text": "Revue fribourgeoise de jurisprudence [RFJ] / Freiburger Zeitschrift für Rechtsprechung [FZR] 2002 S. 53"
+  },
+  {
+   "start": 16559,
+   "end": 16596,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 16858,
+   "end": 16870,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  },
+  {
+   "start": 17004,
+   "end": 17016,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  }
+ ],
+ "n_pre": 30,
+ "n_deleted": 0,
+ "n_added": 4,
+ "n_relabeled": 0
+}

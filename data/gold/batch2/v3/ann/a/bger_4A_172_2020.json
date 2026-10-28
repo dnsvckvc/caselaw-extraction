@@ -1,0 +1,85 @@
+{
+ "decision_id": "bger_4A_172_2020",
+ "task_index": 8,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 248,
+   "end": 264,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 320,
+   "end": 336,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 788,
+   "end": 801,
+   "label": "AMOUNT",
+   "text": "Fr. 15'300.--"
+  },
+  {
+   "start": 1535,
+   "end": 1553,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 1833,
+   "end": 1852,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 1966,
+   "end": 1985,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 2156,
+   "end": 2167,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 2265,
+   "end": 2303,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 und\nArt. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 4786,
+   "end": 4812,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4922,
+   "end": 4940,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 4995,
+   "end": 5006,
+   "label": "STATUTE",
+   "text": "Art. 68 BGG"
+  },
+  {
+   "start": 5111,
+   "end": 5121,
+   "label": "AMOUNT",
+   "text": "Fr. 300.--"
+  }
+ ],
+ "n_pre": 12,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

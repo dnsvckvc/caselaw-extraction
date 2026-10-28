@@ -1,0 +1,42 @@
+{
+  "outcome": "approved",
+  "delete": [
+    4,
+    7,
+    8,
+    9,
+    19,
+    20,
+    21,
+    22,
+    23,
+    26,
+    32
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Fr. 3 Mio.",
+      "label": "AMOUNT",
+      "all": true
+    },
+    {
+      "text": "Fr. 3.241 Mio.",
+      "label": "AMOUNT",
+      "all": true
+    },
+    {
+      "text": "EUR 2 Mio.",
+      "label": "AMOUNT"
+    },
+    {
+      "text": "Fr. 6 Mio.",
+      "label": "AMOUNT"
+    },
+    {
+      "text": "110 V 222",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Erlaeuterungs-/Berichtigungsgesuch. Item 1 says the judgment 4A_294/2020 'wird wie folgt berichtigt', i.e. the request was granted in full ('antragsgemaess'); no keyword matched, pre-annotation was unknown. I set approved; override to unknown if only keyword outcomes count. Pre-annotated amounts cut 'Mio.' off and split 'Fr. 3.241 Mio.' into 'Fr. 3.24' + '1 Mio.'; I replaced all eleven with full amounts including 'Mio.'. Added one BGE list item (110 V 222). 4A_294/2020 is the corrected judgment, not this decision's own number, so its DOCKET spans stay."
+}

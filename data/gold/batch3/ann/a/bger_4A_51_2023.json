@@ -1,0 +1,595 @@
+{
+ "decision_id": "bger_4A_51_2023",
+ "task_index": 94,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "#4 Art. 16 cut before .1: Art. 16.1 (instrument named before the number) kept BARE_ARTICLE. #64/#66/#75 Art. 16.1 des Werkvertrags and #77/#80 Art. 7.1.1 des Werkvertrags: CONTRACT_ARTICLE with full clause number and instrument. #73 extended to Art. 14 der einschlägigen \"Allgemeinen Vertragsbedingungen\" (stop before bracketed AVB); unsettled whether the quote marks belong inside. #44/#45: chains share trailing OR / ZPO, so STATUTE over the whole chain including the quoted \"135 ff.\" / \"150 ff.\" items (unsettled: quoted items inside a chain). Schweizerische Baurechtstagung 2019, S. 169 left unlabelled (conference volume, not clearly a journal). HG190128-O cantonal, no span.",
+ "spans": [
+  {
+   "start": 340,
+   "end": 358,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 465,
+   "end": 486,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerinnen"
+  },
+  {
+   "start": 1209,
+   "end": 1225,
+   "label": "AMOUNT",
+   "text": "Fr. 3'171'578.75"
+  },
+  {
+   "start": 1233,
+   "end": 1242,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 16.1"
+  },
+  {
+   "start": 1602,
+   "end": 1618,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000'809.81"
+  },
+  {
+   "start": 1809,
+   "end": 1825,
+   "label": "AMOUNT",
+   "text": "Fr. 1'757'193.25"
+  },
+  {
+   "start": 2090,
+   "end": 2106,
+   "label": "AMOUNT",
+   "text": "Fr. 1'841'472.50"
+  },
+  {
+   "start": 2449,
+   "end": 2461,
+   "label": "AMOUNT",
+   "text": "Fr. 8'100.--"
+  },
+  {
+   "start": 3648,
+   "end": 3664,
+   "label": "AMOUNT",
+   "text": "Fr. 1'757'193.25"
+  },
+  {
+   "start": 3773,
+   "end": 3784,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3834,
+   "end": 3859,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 3935,
+   "end": 3960,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 3989,
+   "end": 4003,
+   "label": "BGE",
+   "text": "BGE 139 III 67"
+  },
+  {
+   "start": 4023,
+   "end": 4038,
+   "label": "BGE",
+   "text": "BGE 138 III 799"
+  },
+  {
+   "start": 4047,
+   "end": 4048,
+   "label": "BGE",
+   "text": "2"
+  },
+  {
+   "start": 4131,
+   "end": 4149,
+   "label": "STATUTE",
+   "text": "Art. 95 und 96 BGG"
+  },
+  {
+   "start": 4259,
+   "end": 4274,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 4281,
+   "end": 4291,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 4409,
+   "end": 4427,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4899,
+   "end": 4914,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 4921,
+   "end": 4923,
+   "label": "BGE",
+   "text": "86"
+  },
+  {
+   "start": 5038,
+   "end": 5057,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5277,
+   "end": 5291,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5483,
+   "end": 5494,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 5504,
+   "end": 5523,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 5585,
+   "end": 5600,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 5607,
+   "end": 5618,
+   "label": "BGE",
+   "text": "135 III 397"
+  },
+  {
+   "start": 5725,
+   "end": 5743,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 5875,
+   "end": 5893,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 6069,
+   "end": 6083,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6341,
+   "end": 6355,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 6943,
+   "end": 6958,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 6967,
+   "end": 6977,
+   "label": "BGE",
+   "text": "140 III 16"
+  },
+  {
+   "start": 7202,
+   "end": 7217,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 7226,
+   "end": 7236,
+   "label": "BGE",
+   "text": "135 II 356"
+  },
+  {
+   "start": 7570,
+   "end": 7585,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 7594,
+   "end": 7605,
+   "label": "BGE",
+   "text": "137 III 226"
+  },
+  {
+   "start": 7614,
+   "end": 7625,
+   "label": "BGE",
+   "text": "136 III 552"
+  },
+  {
+   "start": 7745,
+   "end": 7759,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 8034,
+   "end": 8049,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 8058,
+   "end": 8067,
+   "label": "BGE",
+   "text": "116 Ia 85"
+  },
+  {
+   "start": 9982,
+   "end": 9991,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 9994,
+   "end": 10022,
+   "label": "STATUTE",
+   "text": "Art. 2, 8, 27 und 671 f. ZGB"
+  },
+  {
+   "start": 10024,
+   "end": 10091,
+   "label": "STATUTE",
+   "text": "Art. 1, 6, 16, 18, 20, 28, 51, 85 f., \"135 ff.\", 143 und 372 ff. OR"
+  },
+  {
+   "start": 10098,
+   "end": 10138,
+   "label": "STATUTE",
+   "text": "Art. 55, \"150 ff.\", 152, 221 und 222 ZPO"
+  },
+  {
+   "start": 11213,
+   "end": 11228,
+   "label": "STATUTE",
+   "text": "Art. 671 f. ZGB"
+  },
+  {
+   "start": 11538,
+   "end": 11557,
+   "label": "STATUTE",
+   "text": "Art. 671 Abs. 1 ZGB"
+  },
+  {
+   "start": 11702,
+   "end": 11721,
+   "label": "STATUTE",
+   "text": "Art. 672 Abs. 1 ZGB"
+  },
+  {
+   "start": 11881,
+   "end": 11894,
+   "label": "BGE",
+   "text": "BGE 99 II 131"
+  },
+  {
+   "start": 11910,
+   "end": 11921,
+   "label": "DOCKET",
+   "text": "4A_178/2013"
+  },
+  {
+   "start": 11946,
+   "end": 11957,
+   "label": "DOCKET",
+   "text": "4C.399/2004"
+  },
+  {
+   "start": 11986,
+   "end": 11996,
+   "label": "DOCKET",
+   "text": "4C.87/2003"
+  },
+  {
+   "start": 12042,
+   "end": 12057,
+   "label": "BGE",
+   "text": "BGE 129 III 738"
+  },
+  {
+   "start": 12211,
+   "end": 12224,
+   "label": "BGE",
+   "text": "BGE 99 II 131"
+  },
+  {
+   "start": 12239,
+   "end": 12250,
+   "label": "DOCKET",
+   "text": "4C.399/2004"
+  },
+  {
+   "start": 12312,
+   "end": 12324,
+   "label": "STATUTE",
+   "text": "Art. 672 ZGB"
+  },
+  {
+   "start": 12429,
+   "end": 12443,
+   "label": "BGE",
+   "text": "BGE 103 II 227"
+  },
+  {
+   "start": 12467,
+   "end": 12476,
+   "label": "BGE",
+   "text": "99 II 131"
+  },
+  {
+   "start": 12498,
+   "end": 12509,
+   "label": "DOCKET",
+   "text": "4A_178/2013"
+  },
+  {
+   "start": 12958,
+   "end": 12970,
+   "label": "STATUTE",
+   "text": "Art. 672 ZGB"
+  },
+  {
+   "start": 13671,
+   "end": 13683,
+   "label": "STATUTE",
+   "text": "Art. 672 ZGB"
+  },
+  {
+   "start": 14267,
+   "end": 14281,
+   "label": "BGE",
+   "text": "BGE 103 II 227"
+  },
+  {
+   "start": 14312,
+   "end": 14323,
+   "label": "DOCKET",
+   "text": "4C.198/2001"
+  },
+  {
+   "start": 14971,
+   "end": 14997,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 16.1 des Werkvertrags"
+  },
+  {
+   "start": 15384,
+   "end": 15401,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 OR"
+  },
+  {
+   "start": 16168,
+   "end": 16194,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 16.1 des Werkvertrags"
+  },
+  {
+   "start": 16815,
+   "end": 16825,
+   "label": "DOCKET",
+   "text": "4D_75/2011"
+  },
+  {
+   "start": 16865,
+   "end": 16876,
+   "label": "DOCKET",
+   "text": "4C.385/2005"
+  },
+  {
+   "start": 17278,
+   "end": 17288,
+   "label": "DOCKET",
+   "text": "4A_87/2021"
+  },
+  {
+   "start": 17331,
+   "end": 17342,
+   "label": "DOCKET",
+   "text": "4A_465/2017"
+  },
+  {
+   "start": 17661,
+   "end": 17671,
+   "label": "DOCKET",
+   "text": "4D_75/2011"
+  },
+  {
+   "start": 17704,
+   "end": 17715,
+   "label": "DOCKET",
+   "text": "4C.385/2005"
+  },
+  {
+   "start": 18460,
+   "end": 18519,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 14 der einschlägigen \"Allgemeinen Vertragsbedingungen\""
+  },
+  {
+   "start": 18590,
+   "end": 18601,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 14 AVB"
+  },
+  {
+   "start": 18798,
+   "end": 18824,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 16.1 des Werkvertrags"
+  },
+  {
+   "start": 18920,
+   "end": 18934,
+   "label": "BGE",
+   "text": "BGE 148 III 57"
+  },
+  {
+   "start": 20465,
+   "end": 20492,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 7.1.1 des Werkvertrags"
+  },
+  {
+   "start": 20500,
+   "end": 20511,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 32 AVB"
+  },
+  {
+   "start": 21266,
+   "end": 21280,
+   "label": "BGE",
+   "text": "BGE 148 III 57"
+  },
+  {
+   "start": 21345,
+   "end": 21372,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 7.1.1 des Werkvertrags"
+  },
+  {
+   "start": 21381,
+   "end": 21392,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 32 AVB"
+  },
+  {
+   "start": 21963,
+   "end": 21978,
+   "label": "BGE",
+   "text": "BGE 134 III 591"
+  },
+  {
+   "start": 21996,
+   "end": 22007,
+   "label": "DOCKET",
+   "text": "4A_307/2020"
+  },
+  {
+   "start": 22258,
+   "end": 22274,
+   "label": "AMOUNT",
+   "text": "Fr. 3'171'578.75"
+  },
+  {
+   "start": 22319,
+   "end": 22335,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000'809.81"
+  },
+  {
+   "start": 22456,
+   "end": 22470,
+   "label": "AMOUNT",
+   "text": "Fr. 170'768.94"
+  },
+  {
+   "start": 22552,
+   "end": 22569,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 23379,
+   "end": 23396,
+   "label": "STATUTE",
+   "text": "Art. 28 Abs. 1 OR"
+  },
+  {
+   "start": 24531,
+   "end": 24546,
+   "label": "BGE",
+   "text": "BGE 136 III 528"
+  },
+  {
+   "start": 25187,
+   "end": 25197,
+   "label": "STATUTE",
+   "text": "Art. 28 OR"
+  },
+  {
+   "start": 25284,
+   "end": 25294,
+   "label": "STATUTE",
+   "text": "Art. 2 ZGB"
+  },
+  {
+   "start": 25555,
+   "end": 25567,
+   "label": "AMOUNT",
+   "text": "Fr. 8'100.--"
+  },
+  {
+   "start": 25821,
+   "end": 25848,
+   "label": "STATUTE",
+   "text": "Art. 837 Abs. 1 Ziff. 3 ZGB"
+  },
+  {
+   "start": 25956,
+   "end": 25968,
+   "label": "AMOUNT",
+   "text": "Fr. 8'100.--"
+  },
+  {
+   "start": 26197,
+   "end": 26240,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 26376,
+   "end": 26389,
+   "label": "AMOUNT",
+   "text": "Fr. 15'000.--"
+  },
+  {
+   "start": 26540,
+   "end": 26553,
+   "label": "AMOUNT",
+   "text": "Fr. 17'000.--"
+  }
+ ],
+ "n_pre": 97,
+ "n_deleted": 9,
+ "n_added": 9,
+ "n_relabeled": 0
+}

@@ -1,0 +1,11 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "ZBGR 96/2015 S. 115",
+   "label": "JOURNAL_REF"
+  }
+ ]
+}

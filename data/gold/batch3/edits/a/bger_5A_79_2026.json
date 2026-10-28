@@ -1,0 +1,33 @@
+{
+  "outcome": "inadmissible",
+  "delete": [
+    14,
+    15,
+    29
+  ],
+  "relabel": [
+    {
+      "id": 3,
+      "label": "STATUTE"
+    },
+    {
+      "id": 27,
+      "label": "STATUTE"
+    },
+    {
+      "id": 28,
+      "label": "STATUTE"
+    }
+  ],
+  "add": [
+    {
+      "text": "Art. 3 Abs. 1 lit. a i.V.m. Art. 5 lit. a HKÜ",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 14 BG-KKE",
+      "label": "STATUTE"
+    }
+  ],
+  "comment": "HKÜ is a ratified treaty with an SR number -> STATUTE (clarifications batch 3); Art. 3 Abs. 1 lit. a i.V.m. Art. 5 lit. a HKÜ is one chain; BG-KKE is a Swiss federal act -> STATUTE. Outcome: the whole proceeding is a Fristwiederherstellungsgesuch and item 1 is the only ruling (nicht eingetreten) -> inadmissible; the clarification that a Fristwiederherstellungsgesuch is a side request does not fit when it is the only matter. 430 25 313 is a cantonal file number."
+}

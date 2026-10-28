@@ -1,0 +1,81 @@
+{
+ "outcome": "approved",
+ "delete": [
+  7
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Ziff. 7 der Zusätzlichen Versicherungsbedingungen 2014",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Ziff. 7 dieser ZVB",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Ziff. 3.4, 5.2 oder 7 ZVB",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Ziff. 3.4 i.V.m. Ziff. 7.1 ZVB",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Ziff. 3.1 ZVB",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Ziff. 3.2 ZVB",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Ziff. 3.4 ZVB",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Ziff. 5 ZVB",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Ziff. 5.2 ZVB",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Ziff. 7 ZVB",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Ziff. 7.2 ZVB",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Ziff. 7.1 ZVB",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 1
+  },
+  {
+   "text": "Ziff. 7.1 ZVB",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 2
+  },
+  {
+   "text": "Ziff. 7.1 ZVB",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 4
+  },
+  {
+   "text": "Ziff. 7.1 ZVB",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 5
+  }
+ ],
+ "comment": "Quoted clause headings (Ziff. 3.1:, Ziff. 8 Anerkannte...) and Ziff. without instrument get no span. 'Ziff. 8.1 [AVB]' and 'Ziff. 8.1 der [...] (AVB)' left without span (instrument only in brackets). Year 2014 included in the ZVB name."
+}

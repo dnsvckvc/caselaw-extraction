@@ -1,0 +1,181 @@
+{
+ "decision_id": "bger_5A_288_2023",
+ "task_index": 49,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "all 28 pre-annotations correct; #8 reads BGE 140 II 86 in the source (typo for III), kept as written. Art. 72 ff. oder Art. 113 ff. (quoted, no abbreviation) and N. x zu Art. 90/34 (commentary, no abbreviation) get no span.",
+ "spans": [
+  {
+   "start": 314,
+   "end": 330,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 2900,
+   "end": 2913,
+   "label": "STATUTE",
+   "text": "Art. 19 SchKG"
+  },
+  {
+   "start": 2921,
+   "end": 2988,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 2 lit. c und\nArt. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 3047,
+   "end": 3059,
+   "label": "STATUTE",
+   "text": "Art. 113 BGG"
+  },
+  {
+   "start": 3243,
+   "end": 3268,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3375,
+   "end": 3393,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a BGG"
+  },
+  {
+   "start": 3504,
+   "end": 3522,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3525,
+   "end": 3538,
+   "label": "BGE",
+   "text": "BGE 140 II 86"
+  },
+  {
+   "start": 3650,
+   "end": 3665,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 3782,
+   "end": 3801,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 3909,
+   "end": 3927,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 3972,
+   "end": 3985,
+   "label": "BGE",
+   "text": "BGE 148 V 174"
+  },
+  {
+   "start": 4360,
+   "end": 4373,
+   "label": "STATUTE",
+   "text": "Art. 89 SchKG"
+  },
+  {
+   "start": 4481,
+   "end": 4494,
+   "label": "STATUTE",
+   "text": "Art. 91 SchKG"
+  },
+  {
+   "start": 4509,
+   "end": 4522,
+   "label": "STATUTE",
+   "text": "Art. 90 SchKG"
+  },
+  {
+   "start": 4647,
+   "end": 4660,
+   "label": "STATUTE",
+   "text": "Art. 34 SchKG"
+  },
+  {
+   "start": 4982,
+   "end": 4995,
+   "label": "STATUTE",
+   "text": "Art. 34 SchKG"
+  },
+  {
+   "start": 5015,
+   "end": 5026,
+   "label": "DOCKET",
+   "text": "5A_707/2021"
+  },
+  {
+   "start": 6187,
+   "end": 6200,
+   "label": "STATUTE",
+   "text": "Art. 17 SchKG"
+  },
+  {
+   "start": 6675,
+   "end": 6701,
+   "label": "STATUTE",
+   "text": "Art. 138 Abs. 3 lit. a ZPO"
+  },
+  {
+   "start": 7028,
+   "end": 7041,
+   "label": "STATUTE",
+   "text": "Art. 31 SchKG"
+  },
+  {
+   "start": 7049,
+   "end": 7075,
+   "label": "STATUTE",
+   "text": "Art. 138 Abs. 3 lit. a ZPO"
+  },
+  {
+   "start": 8603,
+   "end": 8623,
+   "label": "STATUTE",
+   "text": "Art. 33 Abs. 2 SchKG"
+  },
+  {
+   "start": 8787,
+   "end": 8798,
+   "label": "DOCKET",
+   "text": "5A_590/2020"
+  },
+  {
+   "start": 9393,
+   "end": 9404,
+   "label": "DOCKET",
+   "text": "5A_707/2021"
+  },
+  {
+   "start": 9777,
+   "end": 9790,
+   "label": "BGE",
+   "text": "BGE 146 I 105"
+  },
+  {
+   "start": 10149,
+   "end": 10167,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 10319,
+   "end": 10329,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 28,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

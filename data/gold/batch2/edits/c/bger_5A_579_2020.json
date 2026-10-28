@@ -1,0 +1,12 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 17SchKG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Added Art. 17SchKG in the metadata line at the top (no space before SchKG in the source); the rules do not say whether the metadata header counts. Opposing party (Betreibungsamt) has no role word, so one PARTY_ROLE only."
+}

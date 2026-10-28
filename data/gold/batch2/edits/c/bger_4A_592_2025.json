@@ -1,0 +1,13 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "137 III 324",
+   "label": "BGE",
+   "occurrence": 1
+  }
+ ],
+ "comment": "Not labelled: Art. 19 des Bundesgesetzes vom 6. Oktober 1989 ... (Arbeitsvermittlungsgesetz, AVG; SR 823.11) - the article cites the full law title, the abbreviation is only in brackets. The decision own number 4A_592/2025 (Praesidialverfuegung) is not a DOCKET."
+}

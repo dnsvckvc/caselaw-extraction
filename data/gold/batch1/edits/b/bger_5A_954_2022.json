@@ -1,0 +1,26 @@
+{
+ "outcome": "approved",
+ "delete": [
+  32
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 308 Abs. 1 und Abs. 2 ZGB",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 66 Abs. 1 und Art. 68 Abs. 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "142 II 369",
+   "label": "BGE"
+  },
+  {
+   "text": "140 IIII 264",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Added the missed statute Art. 308 Abs. 1 und Abs. 2 ZGB and extended the cost chain Art. 66 Abs. 1 und Art. 68 Abs. 2 BGG. Added two BGE list items; one of them, '140 IIII 264', contains a typo in the source (IIII for III) but is a list item of the BGE chain, so it is labelled as written."
+}

@@ -1,0 +1,127 @@
+{
+ "decision_id": "bger_4D_50_2026",
+ "task_index": 183,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "Art. 66 Abs. 1 BGG is glued to the preceding word (vonArt.) in the source text.",
+ "spans": [
+  {
+   "start": 246,
+   "end": 262,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 285,
+   "end": 303,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1077,
+   "end": 1087,
+   "label": "AMOUNT",
+   "text": "Fr. 400.--"
+  },
+  {
+   "start": 1426,
+   "end": 1436,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  },
+  {
+   "start": 2141,
+   "end": 2153,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 3058,
+   "end": 3073,
+   "label": "BGE",
+   "text": "BGE 149 III 277"
+  },
+  {
+   "start": 3271,
+   "end": 3296,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3418,
+   "end": 3429,
+   "label": "DOCKET",
+   "text": "2C_403/2025"
+  },
+  {
+   "start": 3460,
+   "end": 3471,
+   "label": "DOCKET",
+   "text": "2C_183/2021"
+  },
+  {
+   "start": 3518,
+   "end": 3530,
+   "label": "BGE",
+   "text": "BGE 148 I 89"
+  },
+  {
+   "start": 3741,
+   "end": 3754,
+   "label": "BGE",
+   "text": "BGE 142 I 135"
+  },
+  {
+   "start": 4908,
+   "end": 4934,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 5317,
+   "end": 5341,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 3 BGG"
+  },
+  {
+   "start": 5374,
+   "end": 5392,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5847,
+   "end": 5865,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 5984,
+   "end": 6002,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 BGG"
+  },
+  {
+   "start": 6127,
+   "end": 6137,
+   "label": "DOCKET",
+   "text": "4A_20/2011"
+  },
+  {
+   "start": 6422,
+   "end": 6433,
+   "label": "STATUTE",
+   "text": "Art. 68 BGG"
+  },
+  {
+   "start": 6691,
+   "end": 6701,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 18,
+ "n_deleted": 0,
+ "n_added": 1,
+ "n_relabeled": 0
+}

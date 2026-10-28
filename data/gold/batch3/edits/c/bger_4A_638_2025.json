@@ -1,0 +1,26 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  43,
+  46,
+  49,
+  50,
+  51,
+  54,
+  52
+ ],
+ "add": [
+  {
+   "text": "§ 157 BGB/D",
+   "label": "OTHER_LAW",
+   "all": true
+  },
+  {
+   "text": "§ 133 BGB/D",
+   "label": "OTHER_LAW",
+   "all": true
+  }
+ ],
+ "comment": "BGB/D treated as one abbreviation like ZPO/ZH, so /D is inside the span. VIII ZR 164/03 is a BGH file number (foreign): deleted. Art. 96 lit. b e contrario i.V.m. Art. 106 Abs. 2 BGG kept as BARE_ARTICLE plus STATUTE, treating e contrario as a remark that breaks the chain.",
+ "relabel": []
+}

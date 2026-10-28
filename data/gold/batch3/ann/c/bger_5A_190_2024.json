@@ -1,0 +1,97 @@
+{
+ "decision_id": "bger_5A_190_2024",
+ "task_index": 127,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 541,
+   "end": 557,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 2616,
+   "end": 2629,
+   "label": "STATUTE",
+   "text": "Art. 19 SchKG"
+  },
+  {
+   "start": 2637,
+   "end": 2704,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 2 lit. c und\nArt. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 2990,
+   "end": 3003,
+   "label": "STATUTE",
+   "text": "Art. 17 SchKG"
+  },
+  {
+   "start": 3327,
+   "end": 3340,
+   "label": "BGE",
+   "text": "BGE 135 II 38"
+  },
+  {
+   "start": 3349,
+   "end": 3359,
+   "label": "BGE",
+   "text": "139 II 233"
+  },
+  {
+   "start": 3532,
+   "end": 3550,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3629,
+   "end": 3644,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 3651,
+   "end": 3662,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4297,
+   "end": 4314,
+   "label": "STATUTE",
+   "text": "Art. 17 ff. SchKG"
+  },
+  {
+   "start": 4669,
+   "end": 4695,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4894,
+   "end": 4912,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 5023,
+   "end": 5041,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5210,
+   "end": 5220,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 14,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

@@ -1,0 +1,283 @@
+{
+ "decision_id": "bger_4A_206_2023",
+ "task_index": 105,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "added AMOUNT 100 Millionen Dollar (currency word in another language). Not labelled: 1 500 Bitcoins (crypto, not a currency token under the guideline, unsettled); ca. yyy Millionen USD (anonymised number)",
+ "spans": [
+  {
+   "start": 633,
+   "end": 651,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 753,
+   "end": 771,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 3598,
+   "end": 3612,
+   "label": "AMOUNT",
+   "text": "USD 987'098.--"
+  },
+  {
+   "start": 3749,
+   "end": 3763,
+   "label": "AMOUNT",
+   "text": "USD 987'098.--"
+  },
+  {
+   "start": 5059,
+   "end": 5078,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 5162,
+   "end": 5186,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 5476,
+   "end": 5490,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 5497,
+   "end": 5500,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 5635,
+   "end": 5653,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 6073,
+   "end": 6087,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 6420,
+   "end": 6434,
+   "label": "BGE",
+   "text": "BGE 133 IV 119"
+  },
+  {
+   "start": 6453,
+   "end": 6468,
+   "label": "BGE",
+   "text": "BGE 132 III 555"
+  },
+  {
+   "start": 6831,
+   "end": 6843,
+   "label": "BGE",
+   "text": "BGE 135 I 19"
+  },
+  {
+   "start": 6853,
+   "end": 6861,
+   "label": "BGE",
+   "text": "132 I 42"
+  },
+  {
+   "start": 6977,
+   "end": 6996,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 7216,
+   "end": 7230,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7422,
+   "end": 7433,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 7443,
+   "end": 7462,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 7524,
+   "end": 7539,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 7546,
+   "end": 7549,
+   "label": "BGE",
+   "text": "264"
+  },
+  {
+   "start": 7656,
+   "end": 7674,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 7757,
+   "end": 7776,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 7779,
+   "end": 7794,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 7998,
+   "end": 8012,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 8270,
+   "end": 8284,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 8461,
+   "end": 8475,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 8527,
+   "end": 8544,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 8689,
+   "end": 8702,
+   "label": "BGE",
+   "text": "BGE 136 I 184"
+  },
+  {
+   "start": 8714,
+   "end": 8722,
+   "label": "BGE",
+   "text": "134 I 83"
+  },
+  {
+   "start": 8982,
+   "end": 8997,
+   "label": "BGE",
+   "text": "BGE 142 III 433"
+  },
+  {
+   "start": 9009,
+   "end": 9018,
+   "label": "BGE",
+   "text": "136 I 184"
+  },
+  {
+   "start": 9283,
+   "end": 9298,
+   "label": "BGE",
+   "text": "BGE 142 III 433"
+  },
+  {
+   "start": 9309,
+   "end": 9319,
+   "label": "BGE",
+   "text": "141 III 28"
+  },
+  {
+   "start": 17570,
+   "end": 17590,
+   "label": "AMOUNT",
+   "text": "100 Millionen Dollar"
+  },
+  {
+   "start": 19835,
+   "end": 19853,
+   "label": "STATUTE",
+   "text": "Art. 96 lit. b BGG"
+  },
+  {
+   "start": 19932,
+   "end": 19941,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 19944,
+   "end": 19959,
+   "label": "BGE",
+   "text": "BGE 135 III 670"
+  },
+  {
+   "start": 19968,
+   "end": 19979,
+   "label": "BGE",
+   "text": "133 III 446"
+  },
+  {
+   "start": 19996,
+   "end": 20007,
+   "label": "DOCKET",
+   "text": "4A_659/2020"
+  },
+  {
+   "start": 20035,
+   "end": 20046,
+   "label": "DOCKET",
+   "text": "4A_351/2019"
+  },
+  {
+   "start": 20659,
+   "end": 20672,
+   "label": "BGE",
+   "text": "BGE 144 I 113"
+  },
+  {
+   "start": 20681,
+   "end": 20691,
+   "label": "BGE",
+   "text": "142 II 369"
+  },
+  {
+   "start": 25094,
+   "end": 25137,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 25268,
+   "end": 25281,
+   "label": "AMOUNT",
+   "text": "Fr. 12'000.--"
+  },
+  {
+   "start": 25417,
+   "end": 25430,
+   "label": "AMOUNT",
+   "text": "Fr. 14'000.--"
+  }
+ ],
+ "n_pre": 44,
+ "n_deleted": 0,
+ "n_added": 1,
+ "n_relabeled": 0
+}

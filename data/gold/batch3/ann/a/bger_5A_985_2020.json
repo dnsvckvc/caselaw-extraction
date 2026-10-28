@@ -1,0 +1,265 @@
+{
+ "decision_id": "bger_5A_985_2020",
+ "task_index": 46,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "Added JOURNAL_REF 'VPB 64/2000 Nr. 134' (E. 2.2.2; case collection other than BGE, span to the first number, 'S. 1323' excluded). ECtHR decision 'A.B. gegen Schweiz' left without span. Item 1: 'nicht eingetreten, soweit sie nicht gegenstandslos geworden ist' -> inadmissible (mixed inadmissible/moot; the main verb is nicht eingetreten).",
+ "spans": [
+  {
+   "start": 329,
+   "end": 345,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 3708,
+   "end": 3720,
+   "label": "STATUTE",
+   "text": "Art. 434 ZGB"
+  },
+  {
+   "start": 4663,
+   "end": 4674,
+   "label": "STATUTE",
+   "text": "Art. 8 EMRK"
+  },
+  {
+   "start": 6434,
+   "end": 6452,
+   "label": "BARE_ARTICLE",
+   "text": "§ 5 Abs. 1 Ziff. 4"
+  },
+  {
+   "start": 6642,
+   "end": 6666,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 6774,
+   "end": 6785,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 6903,
+   "end": 6936,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 6 BGG"
+  },
+  {
+   "start": 6963,
+   "end": 6981,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 7185,
+   "end": 7226,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 i.V.m.\nArt. 45 Abs. 1 BGG"
+  },
+  {
+   "start": 7471,
+   "end": 7496,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 7676,
+   "end": 7691,
+   "label": "BGE",
+   "text": "BGE 136 III 497"
+  },
+  {
+   "start": 7707,
+   "end": 7718,
+   "label": "DOCKET",
+   "text": "5A_923/2017"
+  },
+  {
+   "start": 8363,
+   "end": 8374,
+   "label": "STATUTE",
+   "text": "Art. 71 BGG"
+  },
+  {
+   "start": 8382,
+   "end": 8393,
+   "label": "STATUTE",
+   "text": "Art. 72 BZP"
+  },
+  {
+   "start": 9364,
+   "end": 9375,
+   "label": "DOCKET",
+   "text": "5A_744/2016"
+  },
+  {
+   "start": 9402,
+   "end": 9413,
+   "label": "DOCKET",
+   "text": "5A_349/2009"
+  },
+  {
+   "start": 9612,
+   "end": 9623,
+   "label": "STATUTE",
+   "text": "Art. 8 EMRK"
+  },
+  {
+   "start": 9793,
+   "end": 9804,
+   "label": "DOCKET",
+   "text": "2C_548/2011"
+  },
+  {
+   "start": 10357,
+   "end": 10369,
+   "label": "STATUTE",
+   "text": "Art. 454 ZGB"
+  },
+  {
+   "start": 10477,
+   "end": 10488,
+   "label": "STATUTE",
+   "text": "Art. 8 EMRK"
+  },
+  {
+   "start": 10561,
+   "end": 10573,
+   "label": "STATUTE",
+   "text": "Art. 13 EMRK"
+  },
+  {
+   "start": 10609,
+   "end": 10628,
+   "label": "STATUTE",
+   "text": "Art. 5 Ziff. 4 EMRK"
+  },
+  {
+   "start": 10657,
+   "end": 10676,
+   "label": "STATUTE",
+   "text": "Art. 5 Ziff. 5 EMRK"
+  },
+  {
+   "start": 10724,
+   "end": 10738,
+   "label": "BGE",
+   "text": "BGE 140 III 92"
+  },
+  {
+   "start": 10750,
+   "end": 10761,
+   "label": "BGE",
+   "text": "136 III 497"
+  },
+  {
+   "start": 10891,
+   "end": 10910,
+   "label": "JOURNAL_REF",
+   "text": "VPB 64/2000 Nr. 134"
+  },
+  {
+   "start": 10937,
+   "end": 10948,
+   "label": "DOCKET",
+   "text": "5A_911/2019"
+  },
+  {
+   "start": 11597,
+   "end": 11608,
+   "label": "BGE",
+   "text": "BGE 127 I 6"
+  },
+  {
+   "start": 11805,
+   "end": 11816,
+   "label": "DOCKET",
+   "text": "1P.103/2001"
+  },
+  {
+   "start": 11858,
+   "end": 11869,
+   "label": "BGE",
+   "text": "BGE 127 I 6"
+  },
+  {
+   "start": 12286,
+   "end": 12296,
+   "label": "STATUTE",
+   "text": "Art. 88 OG"
+  },
+  {
+   "start": 12700,
+   "end": 12710,
+   "label": "STATUTE",
+   "text": "Art. 88 OG"
+  },
+  {
+   "start": 13294,
+   "end": 13306,
+   "label": "STATUTE",
+   "text": "Art. 434 ZGB"
+  },
+  {
+   "start": 13433,
+   "end": 13446,
+   "label": "STATUTE",
+   "text": "Art. 450c ZGB"
+  },
+  {
+   "start": 13519,
+   "end": 13538,
+   "label": "STATUTE",
+   "text": "Art. 439 Abs. 3 ZGB"
+  },
+  {
+   "start": 14368,
+   "end": 14386,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 2 BGG"
+  },
+  {
+   "start": 14658,
+   "end": 14669,
+   "label": "STATUTE",
+   "text": "Art. 71 BGG"
+  },
+  {
+   "start": 14677,
+   "end": 14688,
+   "label": "STATUTE",
+   "text": "Art. 72 BZP"
+  },
+  {
+   "start": 15036,
+   "end": 15049,
+   "label": "BGE",
+   "text": "BGE 142 V 551"
+  },
+  {
+   "start": 16567,
+   "end": 16585,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 4 BGG"
+  },
+  {
+   "start": 16712,
+   "end": 16736,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 17314,
+   "end": 17326,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  }
+ ],
+ "n_pre": 41,
+ "n_deleted": 0,
+ "n_added": 1,
+ "n_relabeled": 0
+}

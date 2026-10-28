@@ -1,0 +1,127 @@
+{
+ "decision_id": "bger_5A_227_2022",
+ "task_index": 73,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 295,
+   "end": 311,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 743,
+   "end": 756,
+   "label": "AMOUNT",
+   "text": "Fr. 23'483.95"
+  },
+  {
+   "start": 1206,
+   "end": 1224,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 1563,
+   "end": 1577,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 1584,
+   "end": 1595,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 1707,
+   "end": 1726,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 1737,
+   "end": 1755,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 1894,
+   "end": 1903,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 1906,
+   "end": 1921,
+   "label": "BGE",
+   "text": "BGE 135 III 127"
+  },
+  {
+   "start": 1993,
+   "end": 2004,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 2986,
+   "end": 3004,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 3976,
+   "end": 3989,
+   "label": "STATUTE",
+   "text": "Art. 15 SchKG"
+  },
+  {
+   "start": 4062,
+   "end": 4075,
+   "label": "STATUTE",
+   "text": "Art. 22 SchKG"
+  },
+  {
+   "start": 4118,
+   "end": 4132,
+   "label": "BGE",
+   "text": "BGE 135 III 46"
+  },
+  {
+   "start": 5331,
+   "end": 5346,
+   "label": "BGE",
+   "text": "BGE 143 III 290"
+  },
+  {
+   "start": 5461,
+   "end": 5474,
+   "label": "AMOUNT",
+   "text": "Fr. 23'483.95"
+  },
+  {
+   "start": 5634,
+   "end": 5647,
+   "label": "STATUTE",
+   "text": "Art. 17 SchKG"
+  },
+  {
+   "start": 5868,
+   "end": 5886,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6002,
+   "end": 6012,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 19,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

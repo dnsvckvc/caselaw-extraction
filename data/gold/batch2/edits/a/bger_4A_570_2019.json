@@ -1,0 +1,17 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 56 EPÜ 2000",
+      "label": "STATUTE",
+      "all": true
+    },
+    {
+      "text": "Art. 54 Abs. 2 EPÜ 2000",
+      "label": "STATUTE"
+    }
+  ],
+  "comment": "Added EPÜ treaty articles; the abbreviation is defined in the text as EPÜ 2000, so the year is included. The long forms Art. 1 Abs. 2 des Bundesgesetzes ... (PatG) and Art. 56 des Europäischen Patentübereinkommens ... in E. 2 have no abbreviation directly after the article and are left unlabelled. Bundespatentgericht docket O2018_003 is not a span."
+}

@@ -1,0 +1,169 @@
+{
+ "decision_id": "bger_5A_217_2023",
+ "task_index": 47,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 628,
+   "end": 646,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 709,
+   "end": 725,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 2194,
+   "end": 2219,
+   "label": "STATUTE",
+   "text": "Art. 308 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 4555,
+   "end": 4564,
+   "label": "DOCKET",
+   "text": "5A_1/2023"
+  },
+  {
+   "start": 5825,
+   "end": 5844,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 5892,
+   "end": 5910,
+   "label": "STATUTE",
+   "text": "Art. 44 Abs. 1 BGG"
+  },
+  {
+   "start": 7006,
+   "end": 7015,
+   "label": "DOCKET",
+   "text": "5A_1/2023"
+  },
+  {
+   "start": 7136,
+   "end": 7147,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 7168,
+   "end": 7179,
+   "label": "DOCKET",
+   "text": "5A_547/2007"
+  },
+  {
+   "start": 7208,
+   "end": 7219,
+   "label": "DOCKET",
+   "text": "5A_627/2007"
+  },
+  {
+   "start": 7247,
+   "end": 7259,
+   "label": "DOCKET",
+   "text": "5A_1000/2019"
+  },
+  {
+   "start": 7286,
+   "end": 7298,
+   "label": "DOCKET",
+   "text": "5A_1049/2020"
+  },
+  {
+   "start": 7424,
+   "end": 7443,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 7670,
+   "end": 7684,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 7693,
+   "end": 7704,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 8680,
+   "end": 8699,
+   "label": "STATUTE",
+   "text": "Art. 103 Abs. 1 BGG"
+  },
+  {
+   "start": 8768,
+   "end": 8783,
+   "label": "BGE",
+   "text": "BGE 146 III 284"
+  },
+  {
+   "start": 10991,
+   "end": 11010,
+   "label": "STATUTE",
+   "text": "Art. 6 Ziff. 1 EMRK"
+  },
+  {
+   "start": 11021,
+   "end": 11036,
+   "label": "STATUTE",
+   "text": "Art. 6 und 9 BV"
+  },
+  {
+   "start": 11624,
+   "end": 11642,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 11829,
+   "end": 11844,
+   "label": "BGE",
+   "text": "BGE 129 III 445"
+  },
+  {
+   "start": 11857,
+   "end": 11866,
+   "label": "BGE",
+   "text": "143 IV 69"
+  },
+  {
+   "start": 11923,
+   "end": 11941,
+   "label": "STATUTE",
+   "text": "Art. 34 Abs. 2 BGG"
+  },
+  {
+   "start": 12326,
+   "end": 12335,
+   "label": "DOCKET",
+   "text": "5A_1/2023"
+  },
+  {
+   "start": 13247,
+   "end": 13265,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 13396,
+   "end": 13408,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 26,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

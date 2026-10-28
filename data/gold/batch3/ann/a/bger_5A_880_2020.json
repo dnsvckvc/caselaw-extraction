@@ -1,0 +1,373 @@
+{
+ "decision_id": "bger_5A_880_2020",
+ "task_index": 60,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "#56 CONTRACT_ARTICLE Art. 10 des Reglements replaced by BARE_ARTICLE Art. 10: the Reglement carries SR 173.110.210.3 and is an act. #44 BARE_ARTICLE Art. 134 and #45 BARE_ARTICLE Art. 315a (which cut off /b ZGB) replaced by one STATUTE span Art. 134 mit Art. 315a/b ZGB, reading mit like in Verbindung mit so both articles share the trailing ZGB (unsettled: guideline lists comma, bzw., sowie, i.V.m. but not a bare mit). Lone Abs. 1/2/3 after Art. 134 ZGB, cantonal number 400 19 244 wik and Rz.-only book citations left unlabelled.",
+ "spans": [
+  {
+   "start": 440,
+   "end": 456,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 523,
+   "end": 539,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 967,
+   "end": 977,
+   "label": "AMOUNT",
+   "text": "Fr. 800.--"
+  },
+  {
+   "start": 1013,
+   "end": 1025,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 1104,
+   "end": 1114,
+   "label": "AMOUNT",
+   "text": "Fr. 400.--"
+  },
+  {
+   "start": 1319,
+   "end": 1329,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  },
+  {
+   "start": 2456,
+   "end": 2468,
+   "label": "STATUTE",
+   "text": "Art. 295 ZPO"
+  },
+  {
+   "start": 3794,
+   "end": 3805,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3867,
+   "end": 3878,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 4017,
+   "end": 4030,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 4032,
+   "end": 4086,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b i.V.m.\nArt. 51 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 4144,
+   "end": 4162,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 4201,
+   "end": 4220,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 4361,
+   "end": 4375,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 4456,
+   "end": 4475,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 4751,
+   "end": 4769,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4835,
+   "end": 4849,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 4860,
+   "end": 4870,
+   "label": "BGE",
+   "text": "140 III 86"
+  },
+  {
+   "start": 5100,
+   "end": 5119,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5214,
+   "end": 5229,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 5409,
+   "end": 5428,
+   "label": "STATUTE",
+   "text": "Art. 6 Ziff. 1 EMRK"
+  },
+  {
+   "start": 5434,
+   "end": 5451,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 5811,
+   "end": 5825,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 6546,
+   "end": 6558,
+   "label": "STATUTE",
+   "text": "Art. 295 ZPO"
+  },
+  {
+   "start": 6682,
+   "end": 6725,
+   "label": "STATUTE",
+   "text": "Art. 124e Abs. 2,\nArt. 129 und\nArt. 134 ZGB"
+  },
+  {
+   "start": 6728,
+   "end": 6747,
+   "label": "STATUTE",
+   "text": "Art. 284 Abs. 1 ZPO"
+  },
+  {
+   "start": 6758,
+   "end": 6770,
+   "label": "STATUTE",
+   "text": "Art. 134 ZGB"
+  },
+  {
+   "start": 7538,
+   "end": 7557,
+   "label": "STATUTE",
+   "text": "Art. 284 Abs. 3 ZPO"
+  },
+  {
+   "start": 7567,
+   "end": 7586,
+   "label": "STATUTE",
+   "text": "Art. 279 Abs. 1 ZGB"
+  },
+  {
+   "start": 7896,
+   "end": 7915,
+   "label": "STATUTE",
+   "text": "Art. 286 Abs. 2 ZGB"
+  },
+  {
+   "start": 7926,
+   "end": 7938,
+   "label": "STATUTE",
+   "text": "Art. 295 ZPO"
+  },
+  {
+   "start": 8083,
+   "end": 8095,
+   "label": "STATUTE",
+   "text": "Art. 279 ZGB"
+  },
+  {
+   "start": 8152,
+   "end": 8171,
+   "label": "STATUTE",
+   "text": "Art. 286 Abs. 2 ZGB"
+  },
+  {
+   "start": 8486,
+   "end": 8505,
+   "label": "STATUTE",
+   "text": "Art. 134 Abs. 3 ZGB"
+  },
+  {
+   "start": 8558,
+   "end": 8570,
+   "label": "STATUTE",
+   "text": "Art. 295 ZPO"
+  },
+  {
+   "start": 8785,
+   "end": 8797,
+   "label": "STATUTE",
+   "text": "Art. 134 ZGB"
+  },
+  {
+   "start": 8852,
+   "end": 8864,
+   "label": "STATUTE",
+   "text": "Art. 295 ZPO"
+  },
+  {
+   "start": 8944,
+   "end": 8969,
+   "label": "STATUTE",
+   "text": "Art. 284 Abs. 2 und 3 ZPO"
+  },
+  {
+   "start": 11191,
+   "end": 11203,
+   "label": "STATUTE",
+   "text": "Art. 295 ZPO"
+  },
+  {
+   "start": 13279,
+   "end": 13320,
+   "label": "STATUTE",
+   "text": "Art. 298b Abs. 3 und\nArt. 298d Abs. 3 ZGB"
+  },
+  {
+   "start": 13985,
+   "end": 13994,
+   "label": "STATUTE",
+   "text": "Art. 8 BV"
+  },
+  {
+   "start": 15482,
+   "end": 15497,
+   "label": "BGE",
+   "text": "BGE 145 III 393"
+  },
+  {
+   "start": 15658,
+   "end": 15700,
+   "label": "STATUTE",
+   "text": "Art. 134 Abs. 2 i.V.m.\nArt. 286 Abs. 2 ZGB"
+  },
+  {
+   "start": 15767,
+   "end": 15795,
+   "label": "STATUTE",
+   "text": "Art. 134 mit Art. 315a/b ZGB"
+  },
+  {
+   "start": 15886,
+   "end": 15898,
+   "label": "STATUTE",
+   "text": "Art. 134 ZGB"
+  },
+  {
+   "start": 16045,
+   "end": 16060,
+   "label": "BGE",
+   "text": "BGE 142 III 153"
+  },
+  {
+   "start": 18849,
+   "end": 18868,
+   "label": "STATUTE",
+   "text": "Art. 296 Abs. 3 ZPO"
+  },
+  {
+   "start": 20790,
+   "end": 20805,
+   "label": "BGE",
+   "text": "BGE 137 III 617"
+  },
+  {
+   "start": 20835,
+   "end": 20846,
+   "label": "DOCKET",
+   "text": "5A_807/2012"
+  },
+  {
+   "start": 21013,
+   "end": 21024,
+   "label": "DOCKET",
+   "text": "5A_926/2019"
+  },
+  {
+   "start": 21742,
+   "end": 21760,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 21843,
+   "end": 21867,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 22269,
+   "end": 22293,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 22582,
+   "end": 22607,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 2 Satz 2 BGG"
+  },
+  {
+   "start": 22615,
+   "end": 22622,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 10"
+  },
+  {
+   "start": 22930,
+   "end": 22948,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 4 BGG"
+  },
+  {
+   "start": 23510,
+   "end": 23522,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  },
+  {
+   "start": 23708,
+   "end": 23720,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  },
+  {
+   "start": 23864,
+   "end": 23876,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  },
+  {
+   "start": 23986,
+   "end": 23998,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  }
+ ],
+ "n_pre": 61,
+ "n_deleted": 3,
+ "n_added": 2,
+ "n_relabeled": 0
+}

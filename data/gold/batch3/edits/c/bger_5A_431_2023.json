@@ -1,0 +1,37 @@
+{
+ "outcome": "partial_approval",
+ "delete": [
+  51,
+  53,
+  54,
+  56,
+  57,
+  58,
+  59,
+  63,
+  66
+ ],
+ "add": [
+  {
+   "text": "Art. 5 Abs. 1 Ziff. 1",
+   "label": "BARE_ARTICLE",
+   "occurrence": 2
+  },
+  {
+   "text": "Art. 5 Abs. 1 Ziff. 1",
+   "label": "BARE_ARTICLE",
+   "occurrence": 3
+  },
+  {
+   "text": "Art. 5 Abs. 1 Ziff. 1",
+   "label": "BARE_ARTICLE",
+   "occurrence": 4
+  },
+  {
+   "text": "Art. 5 Abs. 1 Ziff. 2",
+   "label": "BARE_ARTICLE",
+   "all": true
+  }
+ ],
+ "comment": "'Vollstreckungsabkommen CH/FL' (SR 0.276.195.141) is a ratified treaty, not a private instrument; the court's short title is not a Fedlex abbreviation, so treated as act given as a title (BARE_ARTICLE), not CONTRACT_ARTICLE or STATUTE."
+}

@@ -1,0 +1,19 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  3,
+  4
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Fr. 170 Millionen",
+   "label": "AMOUNT"
+  },
+  {
+   "text": "CHF 170 Millionen",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "#3 and #4 cut before the multiplier: Fr. 170 Millionen(-Anleihe) and CHF 170 Millionen (Anleihe). Multiplier belongs inside per AMOUNT rule. Unsettled: the multiplier is fused to a noun (Millionen-Anleihe); I kept the span at the multiplier and left the noun out. KAG named without article number: no span. PS250174-O/U cantonal: no span."
+}

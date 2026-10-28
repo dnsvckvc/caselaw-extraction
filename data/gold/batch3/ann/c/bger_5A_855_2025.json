@@ -1,0 +1,73 @@
+{
+ "decision_id": "bger_5A_855_2025",
+ "task_index": 173,
+ "pass": "c",
+ "outcome": "moot",
+ "comment": "",
+ "spans": [
+  {
+   "start": 348,
+   "end": 364,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 472,
+   "end": 488,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 792,
+   "end": 803,
+   "label": "DOCKET",
+   "text": "5A_984/2025"
+  },
+  {
+   "start": 2700,
+   "end": 2718,
+   "label": "STATUTE",
+   "text": "Art. 32 Abs. 2 BGG"
+  },
+  {
+   "start": 2759,
+   "end": 2770,
+   "label": "DOCKET",
+   "text": "5A_984/2025"
+  },
+  {
+   "start": 3130,
+   "end": 3141,
+   "label": "STATUTE",
+   "text": "Art. 71 BGG"
+  },
+  {
+   "start": 3149,
+   "end": 3160,
+   "label": "STATUTE",
+   "text": "Art. 72 BZP"
+  },
+  {
+   "start": 4479,
+   "end": 4516,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 4673,
+   "end": 4685,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 4807,
+   "end": 4819,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 10,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

@@ -1,0 +1,18 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  32
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 79/80",
+   "label": "BARE_ARTICLE"
+  },
+  {
+   "text": "ST 2003 S. 1098",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "N. 53 ff. zu Art. 79/80 (commentary): BARE_ARTICLE extended to cover 79/80, the guideline does not cover slash pairs. ST = Der Schweizer Treuhänder."
+}

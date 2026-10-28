@@ -1,0 +1,169 @@
+{
+ "decision_id": "bger_5A_1056_2020",
+ "task_index": 49,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "No changes. All 26 pre-annotations checked. Header line '5A 1056/2020 (5A_1056/2020)' is the decision's own number and correctly has no span.",
+ "spans": [
+  {
+   "start": 730,
+   "end": 748,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 819,
+   "end": 837,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1098,
+   "end": 1114,
+   "label": "AMOUNT",
+   "text": "Fr. 2'286'684.--"
+  },
+  {
+   "start": 1145,
+   "end": 1161,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500'000.--"
+  },
+  {
+   "start": 1826,
+   "end": 1842,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500'000.--"
+  },
+  {
+   "start": 1986,
+   "end": 2002,
+   "label": "AMOUNT",
+   "text": "Fr. 1'580'000.--"
+  },
+  {
+   "start": 3353,
+   "end": 3371,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 3374,
+   "end": 3387,
+   "label": "BGE",
+   "text": "BGE 145 I 121"
+  },
+  {
+   "start": 3546,
+   "end": 3559,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 3636,
+   "end": 3696,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1,\nArt. 74 Abs. 1 lit. b und\nArt. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 3790,
+   "end": 3801,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3947,
+   "end": 3961,
+   "label": "STATUTE",
+   "text": "Art. 250 SchKG"
+  },
+  {
+   "start": 4298,
+   "end": 4309,
+   "label": "STATUTE",
+   "text": "Art. 92 BGG"
+  },
+  {
+   "start": 4331,
+   "end": 4349,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 BGG"
+  },
+  {
+   "start": 4649,
+   "end": 4663,
+   "label": "BGE",
+   "text": "BGE 145 III 42"
+  },
+  {
+   "start": 4672,
+   "end": 4683,
+   "label": "BGE",
+   "text": "144 III 253"
+  },
+  {
+   "start": 4884,
+   "end": 4899,
+   "label": "BGE",
+   "text": "BGE 144 III 475"
+  },
+  {
+   "start": 4908,
+   "end": 4916,
+   "label": "BGE",
+   "text": "142 V 26"
+  },
+  {
+   "start": 5171,
+   "end": 5182,
+   "label": "STATUTE",
+   "text": "Art. 93 BGG"
+  },
+  {
+   "start": 5292,
+   "end": 5310,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 3 BGG"
+  },
+  {
+   "start": 5313,
+   "end": 5328,
+   "label": "BGE",
+   "text": "BGE 144 III 253"
+  },
+  {
+   "start": 5337,
+   "end": 5348,
+   "label": "BGE",
+   "text": "133 III 629"
+  },
+  {
+   "start": 6197,
+   "end": 6211,
+   "label": "STATUTE",
+   "text": "Art. 250 SchKG"
+  },
+  {
+   "start": 6430,
+   "end": 6467,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 6578,
+   "end": 6590,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  },
+  {
+   "start": 6726,
+   "end": 6738,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  }
+ ],
+ "n_pre": 26,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

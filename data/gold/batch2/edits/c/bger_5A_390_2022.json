@@ -1,0 +1,16 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 68 Abs. 1-3 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 90 BG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Added 'Art. 90 BG': the source has the typo 'BG' for 'BGG'; labelled because it has an abbreviation token."
+}

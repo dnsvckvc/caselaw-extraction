@@ -1,0 +1,26 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  63
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 66 Abs. 1 und Art. 68 Abs. 1 und 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "135 III 397",
+   "label": "BGE"
+  },
+  {
+   "text": "133 III 61",
+   "label": "BGE"
+  },
+  {
+   "text": "121 III 6",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Extended the cost chain Art. 66 Abs. 1 und Art. 68 Abs. 1 und 2 BGG. Added three BGE list items without the BGE word. Left unlabelled: 'Art. 19 Abs. 1 lit. b der Verordnung vom 9. Mai 1990 ... (VMWG; SR 221.213.11)', because the abbreviation follows the full law name, a date and a bracket, so no clean span is possible under the boundary rule."
+}

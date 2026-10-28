@@ -1,0 +1,271 @@
+{
+ "decision_id": "bger_5A_859_2019",
+ "task_index": 9,
+ "pass": "b",
+ "outcome": "dismissed",
+ "comment": "#3 'Fr. 28' extended to 'Fr. 28 Mio.'. Chain #11 extended (Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c BGG share one BGG). Art. 106 ff. SchKG and two BGE list items added. 'Art. 27 Abs. 3 VSB 2020' (bank self-regulation agreement) and commentary refs 'zu Art. 107' left unlabelled.",
+ "spans": [
+  {
+   "start": 643,
+   "end": 661,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 839,
+   "end": 855,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1224,
+   "end": 1235,
+   "label": "AMOUNT",
+   "text": "Fr. 28 Mio."
+  },
+  {
+   "start": 1847,
+   "end": 1861,
+   "label": "AMOUNT",
+   "text": "Fr. 902'000.--"
+  },
+  {
+   "start": 1922,
+   "end": 1932,
+   "label": "AMOUNT",
+   "text": "Fr. 537.50"
+  },
+  {
+   "start": 2621,
+   "end": 2642,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 5 SchKG"
+  },
+  {
+   "start": 3088,
+   "end": 3102,
+   "label": "STATUTE",
+   "text": "Art. 108 SchKG"
+  },
+  {
+   "start": 4016,
+   "end": 4037,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 5 SchKG"
+  },
+  {
+   "start": 4725,
+   "end": 4750,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4828,
+   "end": 4841,
+   "label": "STATUTE",
+   "text": "Art. 19 SchKG"
+  },
+  {
+   "start": 4849,
+   "end": 4897,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 2 lit. c BGG"
+  },
+  {
+   "start": 5003,
+   "end": 5021,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a BGG"
+  },
+  {
+   "start": 5132,
+   "end": 5150,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 5153,
+   "end": 5166,
+   "label": "BGE",
+   "text": "BGE 143 I 337"
+  },
+  {
+   "start": 5278,
+   "end": 5297,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5300,
+   "end": 5315,
+   "label": "BGE",
+   "text": "BGE 143 III 283"
+  },
+  {
+   "start": 5433,
+   "end": 5445,
+   "label": "STATUTE",
+   "text": "Art. 105 BGG"
+  },
+  {
+   "start": 5556,
+   "end": 5574,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 6276,
+   "end": 6290,
+   "label": "STATUTE",
+   "text": "Art. 107 SchKG"
+  },
+  {
+   "start": 6339,
+   "end": 6353,
+   "label": "STATUTE",
+   "text": "Art. 108 SchKG"
+  },
+  {
+   "start": 7108,
+   "end": 7126,
+   "label": "STATUTE",
+   "text": "Art. 106 ff. SchKG"
+  },
+  {
+   "start": 7375,
+   "end": 7389,
+   "label": "STATUTE",
+   "text": "Art. 107 SchKG"
+  },
+  {
+   "start": 7485,
+   "end": 7499,
+   "label": "STATUTE",
+   "text": "Art. 108 SchKG"
+  },
+  {
+   "start": 7762,
+   "end": 7777,
+   "label": "BGE",
+   "text": "BGE 123 III 367"
+  },
+  {
+   "start": 7792,
+   "end": 7802,
+   "label": "DOCKET",
+   "text": "5A_35/2014"
+  },
+  {
+   "start": 8410,
+   "end": 8425,
+   "label": "BGE",
+   "text": "BGE 123 III 367"
+  },
+  {
+   "start": 8433,
+   "end": 8443,
+   "label": "BGE",
+   "text": "110 III 87"
+  },
+  {
+   "start": 8983,
+   "end": 8998,
+   "label": "BGE",
+   "text": "BGE 122 III 436"
+  },
+  {
+   "start": 9006,
+   "end": 9015,
+   "label": "BGE",
+   "text": "76 III 87"
+  },
+  {
+   "start": 9295,
+   "end": 9308,
+   "label": "BGE",
+   "text": "BGE 102 III 6"
+  },
+  {
+   "start": 9688,
+   "end": 9701,
+   "label": "BGE",
+   "text": "BGE 66 III 30"
+  },
+  {
+   "start": 11210,
+   "end": 11222,
+   "label": "STATUTE",
+   "text": "Art. 326 ZPO"
+  },
+  {
+   "start": 11758,
+   "end": 11769,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 13401,
+   "end": 13414,
+   "label": "BGE",
+   "text": "BGE 87 III 11"
+  },
+  {
+   "start": 14869,
+   "end": 14883,
+   "label": "BGE",
+   "text": "BGE 64 III 143"
+  },
+  {
+   "start": 15494,
+   "end": 15508,
+   "label": "BGE",
+   "text": "BGE 64 III 143"
+  },
+  {
+   "start": 19157,
+   "end": 19186,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 Ziff. 1 SchKG"
+  },
+  {
+   "start": 19965,
+   "end": 19980,
+   "label": "BGE",
+   "text": "BGE 120 III 123"
+  },
+  {
+   "start": 20284,
+   "end": 20301,
+   "label": "STATUTE",
+   "text": "Art. 2 Abs. 2 ZGB"
+  },
+  {
+   "start": 20587,
+   "end": 20605,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 21005,
+   "end": 21019,
+   "label": "STATUTE",
+   "text": "Art. 108 SchKG"
+  },
+  {
+   "start": 21224,
+   "end": 21239,
+   "label": "BGE",
+   "text": "BGE 123 III 330"
+  },
+  {
+   "start": 21374,
+   "end": 21387,
+   "label": "AMOUNT",
+   "text": "Fr. 10'000.--"
+  }
+ ],
+ "n_pre": 40,
+ "n_deleted": 2,
+ "n_added": 5,
+ "n_relabeled": 0
+}

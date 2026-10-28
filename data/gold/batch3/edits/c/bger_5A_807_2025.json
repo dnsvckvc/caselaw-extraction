@@ -1,0 +1,19 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  3,
+  4
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Fr. 170 Millionen",
+   "label": "AMOUNT"
+  },
+  {
+   "text": "CHF 170 Millionen",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "Multiplier written out as 'Millionen' (in #3 joined by hyphen to 'Anleihe') included in AMOUNT by analogy to 'Mio.'."
+}

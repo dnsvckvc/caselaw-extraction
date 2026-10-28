@@ -1,0 +1,223 @@
+{
+ "decision_id": "bger_4A_203_2025",
+ "task_index": 157,
+ "pass": "c",
+ "outcome": "approved",
+ "comment": "Commentaire des articles 79 a 84 LP is part of a book title: no span.",
+ "spans": [
+  {
+   "start": 351,
+   "end": 369,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 482,
+   "end": 500,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 886,
+   "end": 900,
+   "label": "AMOUNT",
+   "text": "Fr. 161'550.--"
+  },
+  {
+   "start": 905,
+   "end": 917,
+   "label": "AMOUNT",
+   "text": "Fr. 1'529.35"
+  },
+  {
+   "start": 1128,
+   "end": 1142,
+   "label": "AMOUNT",
+   "text": "Fr. 150'000.--"
+  },
+  {
+   "start": 1189,
+   "end": 1202,
+   "label": "AMOUNT",
+   "text": "Fr. 43'449.--"
+  },
+  {
+   "start": 1207,
+   "end": 1220,
+   "label": "AMOUNT",
+   "text": "Fr. 28'966.--"
+  },
+  {
+   "start": 1319,
+   "end": 1331,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 1587,
+   "end": 1601,
+   "label": "AMOUNT",
+   "text": "CHF 150'000.00"
+  },
+  {
+   "start": 1648,
+   "end": 1661,
+   "label": "AMOUNT",
+   "text": "CHF 43'449.00"
+  },
+  {
+   "start": 1692,
+   "end": 1705,
+   "label": "AMOUNT",
+   "text": "CHF 28'966.00"
+  },
+  {
+   "start": 2204,
+   "end": 2216,
+   "label": "AMOUNT",
+   "text": "CHF 1'000.00"
+  },
+  {
+   "start": 2908,
+   "end": 2920,
+   "label": "AMOUNT",
+   "text": "Fr. 3'652.--"
+  },
+  {
+   "start": 3528,
+   "end": 3546,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 3591,
+   "end": 3602,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3714,
+   "end": 3739,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 3783,
+   "end": 3808,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 3850,
+   "end": 3869,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 3938,
+   "end": 3976,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5887,
+   "end": 5902,
+   "label": "BGE",
+   "text": "BGE 123 III 220"
+  },
+  {
+   "start": 7051,
+   "end": 7066,
+   "label": "BGE",
+   "text": "BGE 123 III 220"
+  },
+  {
+   "start": 7647,
+   "end": 7662,
+   "label": "BGE",
+   "text": "BGE 148 III 270"
+  },
+  {
+   "start": 7685,
+   "end": 7695,
+   "label": "BGE",
+   "text": "135 III 66"
+  },
+  {
+   "start": 7703,
+   "end": 7714,
+   "label": "BGE",
+   "text": "132 III 770"
+  },
+  {
+   "start": 8344,
+   "end": 8357,
+   "label": "STATUTE",
+   "text": "Art. 83 SchKG"
+  },
+  {
+   "start": 8557,
+   "end": 8570,
+   "label": "STATUTE",
+   "text": "Art. 83 SchKG"
+  },
+  {
+   "start": 8673,
+   "end": 8686,
+   "label": "STATUTE",
+   "text": "Art. 83 SchKG"
+  },
+  {
+   "start": 8815,
+   "end": 8828,
+   "label": "STATUTE",
+   "text": "Art. 83 SchKG"
+  },
+  {
+   "start": 8977,
+   "end": 8992,
+   "label": "BGE",
+   "text": "BGE 123 III 220"
+  },
+  {
+   "start": 9533,
+   "end": 9548,
+   "label": "BGE",
+   "text": "BGE 123 III 220"
+  },
+  {
+   "start": 9642,
+   "end": 9654,
+   "label": "STATUTE",
+   "text": "Art. 109 BGG"
+  },
+  {
+   "start": 9824,
+   "end": 9850,
+   "label": "STATUTE",
+   "text": "Art. 109 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 9968,
+   "end": 10011,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 10187,
+   "end": 10199,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 10337,
+   "end": 10349,
+   "label": "AMOUNT",
+   "text": "Fr. 2'500.--"
+  }
+ ],
+ "n_pre": 33,
+ "n_deleted": 0,
+ "n_added": 2,
+ "n_relabeled": 0
+}

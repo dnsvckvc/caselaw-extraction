@@ -1,0 +1,18 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  35
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "123 III 35",
+   "label": "BGE"
+  },
+  {
+   "text": "ZBJV 1995, S. 241",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": ""
+}

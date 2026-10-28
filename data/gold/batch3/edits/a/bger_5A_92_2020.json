@@ -1,0 +1,28 @@
+{
+ "outcome": "approved",
+ "delete": [
+  4,
+  35
+ ],
+ "relabel": [
+  {
+   "id": 45,
+   "label": "STATUTE"
+  }
+ ],
+ "add": [
+  {
+   "text": "Art. 314a bis ZGB",
+   "label": "STATUTE"
+  },
+  {
+   "text": "FamPra.ch 2017, S. 404",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "FamPra.ch.ch 2013 S. 1045",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Art. 314abis ZGB: the superscript 'bis' is separated by a line break; pre-annotator cut at 'Art. 314a' as BARE_ARTICLE although ZGB follows, relabelled as STATUTE over the full form. Art. 12 KRK relabelled OTHER_LAW -> STATUTE (ratified treaty, SR 0.107 given). FamPra.ch 2017, S. 404: span extended to the first page (comma-inside form). Unsettled: 'FamPra.ch.ch 2013 S. 1045' has a typo in the journal name; added as JOURNAL_REF."
+}

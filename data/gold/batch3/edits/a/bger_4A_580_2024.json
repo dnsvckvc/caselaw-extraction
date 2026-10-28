@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  5
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "EUR 7900.75",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "#5 was cut at 'EUR 790'; replaced by the full amount 'EUR 7900.75'. #4 'Art 292 StGB' (no dot) kept as written. 'Rechtsbegehren Ziff. 1 und 2' and 'Replik ..., Rz. 24' get no span."
+}

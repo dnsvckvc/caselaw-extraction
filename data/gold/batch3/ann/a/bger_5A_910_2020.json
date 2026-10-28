@@ -1,0 +1,91 @@
+{
+ "decision_id": "bger_5A_910_2020",
+ "task_index": 34,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "Added BGE list item 142 III 364. Kept Art. 60a ZPO and Art. 143 Abs. 1bis ZPO as STATUTE although the text cites them as proposals from the Bundesrat draft (Vernehmlassungsvorlage / Entwurf) - they are written with the federal abbreviation ZPO, not VE-ZPO/E-ZPO, so the draft-act rule does not clearly apply.",
+ "spans": [
+  {
+   "start": 253,
+   "end": 269,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 378,
+   "end": 396,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1215,
+   "end": 1227,
+   "label": "STATUTE",
+   "text": "Art. 39 StPO"
+  },
+  {
+   "start": 2031,
+   "end": 2049,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2128,
+   "end": 2143,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 2159,
+   "end": 2170,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 2800,
+   "end": 2812,
+   "label": "STATUTE",
+   "text": "Art. 39 StPO"
+  },
+  {
+   "start": 3205,
+   "end": 3222,
+   "label": "STATUTE",
+   "text": "Art. 1 lit. a ZPO"
+  },
+  {
+   "start": 3640,
+   "end": 3652,
+   "label": "STATUTE",
+   "text": "Art. 60a ZPO"
+  },
+  {
+   "start": 4035,
+   "end": 4057,
+   "label": "STATUTE",
+   "text": "Art. 143 Abs. 1bis ZPO"
+  },
+  {
+   "start": 4775,
+   "end": 4801,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4870,
+   "end": 4888,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5000,
+   "end": 5012,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  }
+ ],
+ "n_pre": 12,
+ "n_deleted": 0,
+ "n_added": 1,
+ "n_relabeled": 0
+}

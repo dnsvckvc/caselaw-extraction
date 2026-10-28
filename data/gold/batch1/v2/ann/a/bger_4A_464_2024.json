@@ -1,0 +1,103 @@
+{
+ "decision_id": "bger_4A_464_2024",
+ "task_index": 44,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 256,
+   "end": 272,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 345,
+   "end": 363,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 3147,
+   "end": 3157,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  },
+  {
+   "start": 4215,
+   "end": 4227,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 4873,
+   "end": 4897,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 4900,
+   "end": 4915,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 5119,
+   "end": 5138,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5241,
+   "end": 5260,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5348,
+   "end": 5366,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 5387,
+   "end": 5401,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5412,
+   "end": 5423,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 6410,
+   "end": 6436,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 6633,
+   "end": 6651,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 6686,
+   "end": 6704,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6953,
+   "end": 6963,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 15,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

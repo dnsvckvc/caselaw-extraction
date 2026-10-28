@@ -1,0 +1,24 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  47,
+  48
+ ],
+ "relabel": [
+  {
+   "id": 22,
+   "label": "STATUTE"
+  }
+ ],
+ "add": [
+  {
+   "text": "Art. 12 § 3 Abs. 1 dt. NEhelG",
+   "label": "OTHER_LAW"
+  },
+  {
+   "text": "VPB 44/1980 Nr. 109",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Outcome from item 2 (item 1 only re-qualifies the appeal). #22 Art. 8 NAG: NAG is a repealed Swiss federal act (1891), not cantonal/foreign, so STATUTE rather than OTHER_LAW; unsettled whether repealed federal acts without SR number are STATUTE. #47/#48 Art. 12 / § 3 Abs. 1 followed by dt. NEhelG: foreign act named by abbreviation, so one OTHER_LAW span including the qualifier dt. (unsettled whether dt. belongs inside). VPB 44/1980 Nr. 109 added as JOURNAL_REF (administrative case collection). N. 18 zu 196-199 IPRG has no Art., no span. BBl 1974 II 1 and B 2021/142 no span."
+}

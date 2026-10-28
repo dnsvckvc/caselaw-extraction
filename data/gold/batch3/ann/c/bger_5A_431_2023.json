@@ -1,0 +1,445 @@
+{
+ "decision_id": "bger_5A_431_2023",
+ "task_index": 112,
+ "pass": "c",
+ "outcome": "partial_approval",
+ "comment": "'Vollstreckungsabkommen CH/FL' (SR 0.276.195.141) is a ratified treaty, not a private instrument; the court's short title is not a Fedlex abbreviation, so treated as act given as a title (BARE_ARTICLE), not CONTRACT_ARTICLE or STATUTE.",
+ "spans": [
+  {
+   "start": 658,
+   "end": 674,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 752,
+   "end": 770,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1101,
+   "end": 1113,
+   "label": "AMOUNT",
+   "text": "Fr. 6'458.80"
+  },
+  {
+   "start": 1153,
+   "end": 1165,
+   "label": "AMOUNT",
+   "text": "Fr. 5'510.65"
+  },
+  {
+   "start": 1203,
+   "end": 1215,
+   "label": "AMOUNT",
+   "text": "Fr. 3'544.95"
+  },
+  {
+   "start": 1256,
+   "end": 1269,
+   "label": "AMOUNT",
+   "text": "Fr. 16'901.15"
+  },
+  {
+   "start": 1308,
+   "end": 1320,
+   "label": "AMOUNT",
+   "text": "Fr. 4'478.15"
+  },
+  {
+   "start": 1358,
+   "end": 1370,
+   "label": "AMOUNT",
+   "text": "Fr. 2'686.90"
+  },
+  {
+   "start": 1411,
+   "end": 1423,
+   "label": "AMOUNT",
+   "text": "Fr. 2'686.90"
+  },
+  {
+   "start": 2335,
+   "end": 2347,
+   "label": "AMOUNT",
+   "text": "Fr. 6'458.80"
+  },
+  {
+   "start": 2351,
+   "end": 2363,
+   "label": "AMOUNT",
+   "text": "Fr. 5'510.65"
+  },
+  {
+   "start": 2367,
+   "end": 2379,
+   "label": "AMOUNT",
+   "text": "Fr. 3'544.95"
+  },
+  {
+   "start": 2383,
+   "end": 2396,
+   "label": "AMOUNT",
+   "text": "Fr. 16'901.15"
+  },
+  {
+   "start": 2435,
+   "end": 2447,
+   "label": "AMOUNT",
+   "text": "Fr. 4'478.15"
+  },
+  {
+   "start": 2485,
+   "end": 2497,
+   "label": "AMOUNT",
+   "text": "Fr. 2'686.90"
+  },
+  {
+   "start": 4130,
+   "end": 4166,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 Bst. a, 75 und 90 BGG"
+  },
+  {
+   "start": 4206,
+   "end": 4219,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 4221,
+   "end": 4246,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 Bst. b BGG"
+  },
+  {
+   "start": 4284,
+   "end": 4303,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 4446,
+   "end": 4460,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 4627,
+   "end": 4651,
+   "label": "STATUTE",
+   "text": "Art. 95 Bst. a und b BGG"
+  },
+  {
+   "start": 4724,
+   "end": 4743,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 4881,
+   "end": 4899,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4902,
+   "end": 4916,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 5244,
+   "end": 5258,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 5387,
+   "end": 5406,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5536,
+   "end": 5550,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5674,
+   "end": 5692,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 5723,
+   "end": 5738,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 5807,
+   "end": 5818,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 5825,
+   "end": 5842,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 5848,
+   "end": 5858,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 5877,
+   "end": 5888,
+   "label": "DOCKET",
+   "text": "5A_374/2010"
+  },
+  {
+   "start": 6044,
+   "end": 6062,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 6065,
+   "end": 6077,
+   "label": "BGE",
+   "text": "BGE 135 I 19"
+  },
+  {
+   "start": 7598,
+   "end": 7617,
+   "label": "STATUTE",
+   "text": "Art. 326 Abs. 1 ZPO"
+  },
+  {
+   "start": 9575,
+   "end": 9593,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 3 ZPO"
+  },
+  {
+   "start": 9896,
+   "end": 9907,
+   "label": "STATUTE",
+   "text": "Art. 59 ZPO"
+  },
+  {
+   "start": 10056,
+   "end": 10081,
+   "label": "STATUTE",
+   "text": "Art. 59 Abs. 2 Bst. c ZPO"
+  },
+  {
+   "start": 10206,
+   "end": 10224,
+   "label": "STATUTE",
+   "text": "Art. 69 Abs. 1 ZPO"
+  },
+  {
+   "start": 11528,
+   "end": 11547,
+   "label": "STATUTE",
+   "text": "Art. 326 Abs. 1 ZPO"
+  },
+  {
+   "start": 12820,
+   "end": 12835,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 12844,
+   "end": 12855,
+   "label": "BGE",
+   "text": "133 III 221"
+  },
+  {
+   "start": 12862,
+   "end": 12873,
+   "label": "BGE",
+   "text": "130 III 321"
+  },
+  {
+   "start": 13502,
+   "end": 13520,
+   "label": "STATUTE",
+   "text": "Art. 1 Abs. 2 IPRG"
+  },
+  {
+   "start": 13535,
+   "end": 13546,
+   "label": "DOCKET",
+   "text": "5A_697/2017"
+  },
+  {
+   "start": 13572,
+   "end": 13583,
+   "label": "DOCKET",
+   "text": "5A_164/2008"
+  },
+  {
+   "start": 13628,
+   "end": 13643,
+   "label": "BGE",
+   "text": "BGE 134 III 656"
+  },
+  {
+   "start": 13702,
+   "end": 13723,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 5 Abs. 1 Ziff. 1"
+  },
+  {
+   "start": 14183,
+   "end": 14190,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 36"
+  },
+  {
+   "start": 14689,
+   "end": 14710,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 5 Abs. 1 Ziff. 1"
+  },
+  {
+   "start": 15194,
+   "end": 15208,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 36 Abs. 1"
+  },
+  {
+   "start": 15923,
+   "end": 15944,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 5 Abs. 1 Ziff. 1"
+  },
+  {
+   "start": 16099,
+   "end": 16120,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 5 Abs. 1 Ziff. 1"
+  },
+  {
+   "start": 16530,
+   "end": 16546,
+   "label": "STATUTE",
+   "text": "Art. 319 ff. ZPO"
+  },
+  {
+   "start": 16862,
+   "end": 16883,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 5 Abs. 1 Ziff. 2"
+  },
+  {
+   "start": 19342,
+   "end": 19363,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 5 Abs. 1 Ziff. 2"
+  },
+  {
+   "start": 20876,
+   "end": 20897,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 5 Abs. 1 Ziff. 2"
+  },
+  {
+   "start": 21787,
+   "end": 21808,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 5 Abs. 1 Ziff. 2"
+  },
+  {
+   "start": 22621,
+   "end": 22640,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 23166,
+   "end": 23177,
+   "label": "DOCKET",
+   "text": "5A_840/2009"
+  },
+  {
+   "start": 23243,
+   "end": 23269,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 Bst. b IPRG"
+  },
+  {
+   "start": 23672,
+   "end": 23693,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 5 Abs. 1 Ziff. 2"
+  },
+  {
+   "start": 23743,
+   "end": 23769,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 Bst. b IPRG"
+  },
+  {
+   "start": 23906,
+   "end": 23924,
+   "label": "STATUTE",
+   "text": "Art. 1 Abs. 2 IPRG"
+  },
+  {
+   "start": 24613,
+   "end": 24634,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 5 Abs. 1 Ziff. 2"
+  },
+  {
+   "start": 25349,
+   "end": 25362,
+   "label": "STATUTE",
+   "text": "Art. 81 SchKG"
+  },
+  {
+   "start": 26153,
+   "end": 26171,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 26323,
+   "end": 26341,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 26606,
+   "end": 26618,
+   "label": "AMOUNT",
+   "text": "Fr. 6'458.80"
+  },
+  {
+   "start": 26629,
+   "end": 26642,
+   "label": "AMOUNT",
+   "text": "Fr. 16'901.15"
+  },
+  {
+   "start": 27030,
+   "end": 27042,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  }
+ ],
+ "n_pre": 72,
+ "n_deleted": 9,
+ "n_added": 9,
+ "n_relabeled": 0
+}

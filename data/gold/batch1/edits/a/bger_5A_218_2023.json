@@ -1,0 +1,36 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  3,
+  20
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 72 Abs. 1, Art. 75 Abs. 1 und Art. 90 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "136 V 362",
+   "label": "BGE"
+  },
+  {
+   "text": "142 I 155",
+   "label": "BGE"
+  },
+  {
+   "text": "147 III 121",
+   "label": "BGE",
+   "occurrence": 2
+  },
+  {
+   "text": "Art. 296 Abs. 2 i.V.m. Art. 301a Abs. 1 ZGB",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 310/314b ZGB",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Extended two statute chains; added three BGE list items without the BGE word; added Art. 310/314b ZGB from a commentary citation."
+}

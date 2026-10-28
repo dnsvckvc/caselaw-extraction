@@ -1,0 +1,27 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  2,
+  3
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 40 Abs. 1, Art. 42 Abs. 5 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 100 Abs. 2 lit. a i.V.m. Art. 45 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "134 II 192",
+   "label": "BGE"
+  },
+  {
+   "text": "142 III 364",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Chains #2 and #3 extended; two BGE list items added. ABS 20 303 BON is cantonal."
+}

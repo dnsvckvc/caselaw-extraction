@@ -1,0 +1,20 @@
+{
+ "outcome": "approved",
+ "delete": [
+  15,
+  59
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 3 Abs. 1",
+   "label": "BARE_ARTICLE"
+  },
+  {
+   "text": "Art. 6",
+   "label": "BARE_ARTICLE",
+   "occurrence": 4
+  }
+ ],
+ "comment": "Both Reglemente have SR numbers, so BARE_ARTICLE. 'Jusletter vom 25. April 2005, Rz.8' left without span (no page/number)."
+}

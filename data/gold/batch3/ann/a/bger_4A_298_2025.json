@@ -1,0 +1,337 @@
+{
+ "decision_id": "bger_4A_298_2025",
+ "task_index": 169,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "#47 extended to the full instrument name (stop before the bracketed Spanish title). FVF-Reglement is a federation regulation without SR number, so CONTRACT_ARTICLE.",
+ "spans": [
+  {
+   "start": 388,
+   "end": 404,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 475,
+   "end": 491,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 2457,
+   "end": 2470,
+   "label": "AMOUNT",
+   "text": "USD 99'016.31"
+  },
+  {
+   "start": 3018,
+   "end": 3036,
+   "label": "STATUTE",
+   "text": "Art. 54 Abs. 1 BGG"
+  },
+  {
+   "start": 3478,
+   "end": 3493,
+   "label": "BGE",
+   "text": "BGE 142 III 521"
+  },
+  {
+   "start": 3624,
+   "end": 3641,
+   "label": "STATUTE",
+   "text": "Art. 190-192 IPRG"
+  },
+  {
+   "start": 3662,
+   "end": 3687,
+   "label": "STATUTE",
+   "text": "Art. 77 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 3897,
+   "end": 3917,
+   "label": "STATUTE",
+   "text": "Art. 176 Abs. 1 IPRG"
+  },
+  {
+   "start": 4061,
+   "end": 4081,
+   "label": "STATUTE",
+   "text": "Art. 176 Abs. 2 IPRG"
+  },
+  {
+   "start": 4130,
+   "end": 4150,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 IPRG"
+  },
+  {
+   "start": 4183,
+   "end": 4198,
+   "label": "BGE",
+   "text": "BGE 150 III 280"
+  },
+  {
+   "start": 4207,
+   "end": 4218,
+   "label": "BGE",
+   "text": "146 III 358"
+  },
+  {
+   "start": 4227,
+   "end": 4238,
+   "label": "BGE",
+   "text": "134 III 186"
+  },
+  {
+   "start": 4251,
+   "end": 4269,
+   "label": "STATUTE",
+   "text": "Art. 77 Abs. 3 BGG"
+  },
+  {
+   "start": 4454,
+   "end": 4473,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4567,
+   "end": 4582,
+   "label": "BGE",
+   "text": "BGE 150 III 280"
+  },
+  {
+   "start": 4591,
+   "end": 4602,
+   "label": "BGE",
+   "text": "134 III 186"
+  },
+  {
+   "start": 4947,
+   "end": 4962,
+   "label": "BGE",
+   "text": "BGE 150 III 280"
+  },
+  {
+   "start": 5012,
+   "end": 5027,
+   "label": "BGE",
+   "text": "BGE 150 III 280"
+  },
+  {
+   "start": 5036,
+   "end": 5047,
+   "label": "BGE",
+   "text": "134 III 565"
+  },
+  {
+   "start": 5056,
+   "end": 5066,
+   "label": "BGE",
+   "text": "119 II 380"
+  },
+  {
+   "start": 5186,
+   "end": 5205,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5406,
+   "end": 5417,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 5431,
+   "end": 5449,
+   "label": "STATUTE",
+   "text": "Art. 77 Abs. 2 BGG"
+  },
+  {
+   "start": 5478,
+   "end": 5489,
+   "label": "STATUTE",
+   "text": "Art. 97 BGG"
+  },
+  {
+   "start": 5496,
+   "end": 5515,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 5696,
+   "end": 5716,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 IPRG"
+  },
+  {
+   "start": 5756,
+   "end": 5767,
+   "label": "STATUTE",
+   "text": "Art. 99 BGG"
+  },
+  {
+   "start": 5794,
+   "end": 5809,
+   "label": "BGE",
+   "text": "BGE 144 III 559"
+  },
+  {
+   "start": 5818,
+   "end": 5829,
+   "label": "BGE",
+   "text": "142 III 220"
+  },
+  {
+   "start": 5838,
+   "end": 5841,
+   "label": "BGE",
+   "text": "239"
+  },
+  {
+   "start": 5850,
+   "end": 5861,
+   "label": "BGE",
+   "text": "140 III 477"
+  },
+  {
+   "start": 6617,
+   "end": 6644,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 lit. d IPRG"
+  },
+  {
+   "start": 6659,
+   "end": 6686,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 lit. d IPRG"
+  },
+  {
+   "start": 6760,
+   "end": 6780,
+   "label": "STATUTE",
+   "text": "Art. 182 Abs. 3 IPRG"
+  },
+  {
+   "start": 6956,
+   "end": 6973,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 7385,
+   "end": 7400,
+   "label": "BGE",
+   "text": "BGE 150 III 238"
+  },
+  {
+   "start": 7409,
+   "end": 7420,
+   "label": "BGE",
+   "text": "147 III 379"
+  },
+  {
+   "start": 7429,
+   "end": 7432,
+   "label": "BGE",
+   "text": "586"
+  },
+  {
+   "start": 7441,
+   "end": 7452,
+   "label": "BGE",
+   "text": "142 III 360"
+  },
+  {
+   "start": 7463,
+   "end": 7473,
+   "label": "BGE",
+   "text": "130 III 35"
+  },
+  {
+   "start": 8299,
+   "end": 8313,
+   "label": "BGE",
+   "text": "BGE 130 III 35"
+  },
+  {
+   "start": 8342,
+   "end": 8353,
+   "label": "DOCKET",
+   "text": "4A_575/2022"
+  },
+  {
+   "start": 8396,
+   "end": 8411,
+   "label": "BGE",
+   "text": "BGE 149 III 431"
+  },
+  {
+   "start": 8414,
+   "end": 8425,
+   "label": "DOCKET",
+   "text": "4A_446/2022"
+  },
+  {
+   "start": 8453,
+   "end": 8464,
+   "label": "DOCKET",
+   "text": "4A_214/2022"
+  },
+  {
+   "start": 8584,
+   "end": 8667,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 30 des Reglements über die Registrierung und den Transfer von Spielern des FVF"
+  },
+  {
+   "start": 9118,
+   "end": 9131,
+   "label": "OTHER_LAW",
+   "text": "Art. 19 LOTTT"
+  },
+  {
+   "start": 10321,
+   "end": 10334,
+   "label": "OTHER_LAW",
+   "text": "Art. 19 LOTTT"
+  },
+  {
+   "start": 11825,
+   "end": 11839,
+   "label": "BGE",
+   "text": "BGE 130 III 35"
+  },
+  {
+   "start": 12492,
+   "end": 12519,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 lit. d IPRG"
+  },
+  {
+   "start": 12731,
+   "end": 12768,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 12905,
+   "end": 12917,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  },
+  {
+   "start": 13049,
+   "end": 13061,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  }
+ ],
+ "n_pre": 54,
+ "n_deleted": 1,
+ "n_added": 1,
+ "n_relabeled": 0
+}

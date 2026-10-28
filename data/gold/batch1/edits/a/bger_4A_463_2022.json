@@ -1,0 +1,69 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 328 Abs. 1 lit. a und lit. b ZPO",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 23 ff. OR",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 24 Abs. 1 Ziff. 1-3 OR",
+      "label": "STATUTE"
+    },
+    {
+      "text": "134 II 244",
+      "label": "BGE",
+      "occurrence": 1
+    },
+    {
+      "text": "140 III 115",
+      "label": "BGE",
+      "occurrence": 2
+    },
+    {
+      "text": "140 III 16",
+      "label": "BGE",
+      "occurrence": 4
+    },
+    {
+      "text": "129 I 8",
+      "label": "BGE"
+    },
+    {
+      "text": "137 III 226",
+      "label": "BGE"
+    },
+    {
+      "text": "130 III 49",
+      "label": "BGE",
+      "occurrence": 1
+    },
+    {
+      "text": "110 II 44",
+      "label": "BGE"
+    },
+    {
+      "text": "105 II 273",
+      "label": "BGE",
+      "occurrence": 2
+    },
+    {
+      "text": "132 II 161",
+      "label": "BGE"
+    },
+    {
+      "text": "123 III 200",
+      "label": "BGE"
+    },
+    {
+      "text": "118 II 58",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Added three missing statutes (Art. 328 Abs. 1 lit. a und lit. b ZPO, Art. 23 ff. OR, Art. 24 Abs. 1 Ziff. 1-3 OR) and eleven BGE list items. Second page refs ('799 E. 1.1', '264 E. 2.3') left unlabelled. 'Art. 2 Abs. 2 des Bundesgesetzes ... (KVAG)' has no trailing abbreviation, no span. Header has 'Verfahrensbeteiligte' twice."
+}

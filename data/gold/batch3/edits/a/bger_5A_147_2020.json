@@ -1,0 +1,18 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  56
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 74 Abs. 1 Bst. b",
+   "label": "BARE_ARTICLE"
+  },
+  {
+   "text": "Art. 51 Abs. 1 und 4",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "Unsettled: 'Art. 74 Abs. 1 Bst. b sowie Art. 51 Abs. 1 und 4' has no trailing abbreviation (court omitted BGG). Pre-annotator made one BARE_ARTICLE span over the chain; split into two spans since BARE_ARTICLE stops before the next word and there is no shared abbreviation. Dispo.-Ziff./Disp.-Ziff. in the quoted party requests left without span."
+}

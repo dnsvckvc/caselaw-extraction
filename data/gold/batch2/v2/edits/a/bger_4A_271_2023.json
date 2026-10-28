@@ -1,0 +1,29 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    13,
+    49,
+    50,
+    52,
+    68,
+    69
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 9",
+      "label": "BARE_ARTICLE",
+      "occurrence": 2
+    },
+    {
+      "text": "Art. A4 Ziff. 2 AVB",
+      "label": "CONTRACT_ARTICLE",
+      "all": true
+    },
+    {
+      "text": "Art. B8 Ziff. 1 f. AVB",
+      "label": "CONTRACT_ARTICLE"
+    }
+  ],
+  "comment": "#13 was CONTRACT_ARTICLE on a cantonal act given as title (EG-ZPO/SG): replaced by BARE_ARTICLE Art. 9. #49/#50/#52/#68/#69 cut the AVB chain short: replaced by Art. A4 Ziff. 2 AVB (5x). Added missing Art. B8 Ziff. 1 f. AVB. #8 Art. 2 Abs. 2 (KVAG given as title) correct. Not spanned: BBl 2017 5089 ff., 5136 (Botschaft in the official gazette; fits no class, guideline gap); spelled-out Artikeln 35a und 35b VVG (citation territory, not mine); sGs 961.2 / SR numbers alone."
+}

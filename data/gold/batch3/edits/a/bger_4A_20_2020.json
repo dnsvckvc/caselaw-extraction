@@ -1,0 +1,16 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "ZZZ 33/34",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "GesKR 2018, S. 230",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Kept #47/#60 Art. 99 BBG (typo for BGG; BBG is a real abbreviation, so the typo rule for unknown codes does not clearly apply) - flagged. Kept #59 ZBJV 147 stopping before [2011] because brackets are excluded, so the first page S. 551 cannot be reached - flagged; ZZZ 33/34 added the same way. Added GesKR 2018, S. 230 (comma form)."
+}

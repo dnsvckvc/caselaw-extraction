@@ -1,0 +1,241 @@
+{
+ "decision_id": "bger_5D_4_2023",
+ "task_index": 34,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 264,
+   "end": 278,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 598,
+   "end": 616,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 746,
+   "end": 762,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 808,
+   "end": 822,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 1115,
+   "end": 1129,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 1257,
+   "end": 1270,
+   "label": "AMOUNT",
+   "text": "Fr. 19'150.20"
+  },
+  {
+   "start": 1493,
+   "end": 1506,
+   "label": "AMOUNT",
+   "text": "Fr. 13'620.--"
+  },
+  {
+   "start": 1778,
+   "end": 1791,
+   "label": "AMOUNT",
+   "text": "Fr. 13'620.--"
+  },
+  {
+   "start": 2637,
+   "end": 2651,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 2670,
+   "end": 2704,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1,\nArt. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 2786,
+   "end": 2798,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.-"
+  },
+  {
+   "start": 2883,
+   "end": 2931,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b,\nArt. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 3032,
+   "end": 3050,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3227,
+   "end": 3239,
+   "label": "STATUTE",
+   "text": "Art. 113 BGG"
+  },
+  {
+   "start": 3423,
+   "end": 3435,
+   "label": "STATUTE",
+   "text": "Art. 115 BGG"
+  },
+  {
+   "start": 3570,
+   "end": 3582,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 3646,
+   "end": 3681,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3916,
+   "end": 3931,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 3940,
+   "end": 3950,
+   "label": "BGE",
+   "text": "133 II 396"
+  },
+  {
+   "start": 4028,
+   "end": 4042,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 4057,
+   "end": 4078,
+   "label": "STATUTE",
+   "text": "Art. 85a Abs. 1 SchKG"
+  },
+  {
+   "start": 5190,
+   "end": 5204,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 5860,
+   "end": 5879,
+   "label": "STATUTE",
+   "text": "Art. 163 Abs. 1 DBG"
+  },
+  {
+   "start": 5882,
+   "end": 5901,
+   "label": "STATUTE",
+   "text": "Art. 164 Abs. 1 DBG"
+  },
+  {
+   "start": 5906,
+   "end": 5926,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 3 Abs. 1 lit. a"
+  },
+  {
+   "start": 6156,
+   "end": 6168,
+   "label": "AMOUNT",
+   "text": "Fr. 5'530.20"
+  },
+  {
+   "start": 6565,
+   "end": 6578,
+   "label": "AMOUNT",
+   "text": "Fr. 18'162.70"
+  },
+  {
+   "start": 6649,
+   "end": 6668,
+   "label": "STATUTE",
+   "text": "Art. 169 Abs. 1 DBG"
+  },
+  {
+   "start": 7179,
+   "end": 7193,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 7554,
+   "end": 7566,
+   "label": "AMOUNT",
+   "text": "Fr. 5'530.20"
+  },
+  {
+   "start": 8388,
+   "end": 8400,
+   "label": "AMOUNT",
+   "text": "Fr. 5'530.20"
+  },
+  {
+   "start": 8627,
+   "end": 8641,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 8666,
+   "end": 8678,
+   "label": "AMOUNT",
+   "text": "Fr. 5'530.20"
+  },
+  {
+   "start": 8754,
+   "end": 8767,
+   "label": "AMOUNT",
+   "text": "Fr. 13'620.--"
+  },
+  {
+   "start": 9112,
+   "end": 9129,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 9598,
+   "end": 9633,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 10012,
+   "end": 10030,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 10183,
+   "end": 10195,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  }
+ ],
+ "n_pre": 38,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

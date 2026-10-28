@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  30
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 3 der zwischen den Parteien geltenden Allgemeinen Bedingungen für die Kollektiv-Krankentaggeldversicherung",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "#30 BARE_ARTICLE 'Art. 3' is followed by the instrument named in full (Allgemeine Bedingungen ... (AB)); redrawn as CONTRACT_ARTICLE up to the instrument name, bracketed abbreviation excluded. Guideline does not say whether a long descriptive instrument title counts as 'name of the instrument'."
+}

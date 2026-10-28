@@ -1,0 +1,22 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  10
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 74 Abs. 1 Bst. b i.V.m. Art. 51 Abs. 1 Bst. a und Abs. 4 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 100 Abs. 1 i.Vm. Art. 46 Abs. 1 Bst. a BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "137 III 102",
+   "label": "BGE"
+  }
+ ],
+ "comment": "#10 extended to the full chain; the source writes the connector as 'i.Vm.' (typo for i.V.m.). 'Bst.' is used instead of 'lit.' and is kept inside the spans."
+}

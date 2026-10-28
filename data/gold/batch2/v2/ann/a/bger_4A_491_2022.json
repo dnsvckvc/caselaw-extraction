@@ -1,0 +1,427 @@
+{
+ "decision_id": "bger_4A_491_2022",
+ "task_index": 45,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "Ziffer 1 inside the quoted motion and Rz. 151-171 der Beschwerde are party-brief references; no span.",
+ "spans": [
+  {
+   "start": 430,
+   "end": 451,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerinnen"
+  },
+  {
+   "start": 546,
+   "end": 564,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 3532,
+   "end": 3556,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 4916,
+   "end": 4929,
+   "label": "STATUTE",
+   "text": "Art. 292 StGB"
+  },
+  {
+   "start": 6354,
+   "end": 6379,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 6446,
+   "end": 6459,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 6467,
+   "end": 6523,
+   "label": "STATUTE",
+   "text": "Art. 5 Abs. 1 lit. d in Verbindung mit\nArt. 5 Abs. 2 ZPO"
+  },
+  {
+   "start": 6780,
+   "end": 6792,
+   "label": "STATUTE",
+   "text": "Art. 263 ZPO"
+  },
+  {
+   "start": 6861,
+   "end": 6872,
+   "label": "STATUTE",
+   "text": "Art. 93 BGG"
+  },
+  {
+   "start": 6875,
+   "end": 6890,
+   "label": "BGE",
+   "text": "BGE 144 III 475"
+  },
+  {
+   "start": 6908,
+   "end": 6919,
+   "label": "DOCKET",
+   "text": "4A_386/2021"
+  },
+  {
+   "start": 7108,
+   "end": 7133,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 7427,
+   "end": 7442,
+   "label": "BGE",
+   "text": "BGE 144 III 475"
+  },
+  {
+   "start": 7451,
+   "end": 7462,
+   "label": "BGE",
+   "text": "142 III 798"
+  },
+  {
+   "start": 7471,
+   "end": 7481,
+   "label": "BGE",
+   "text": "141 III 80"
+  },
+  {
+   "start": 9120,
+   "end": 9131,
+   "label": "DOCKET",
+   "text": "4A_115/2020"
+  },
+  {
+   "start": 9163,
+   "end": 9174,
+   "label": "DOCKET",
+   "text": "4A_381/2019"
+  },
+  {
+   "start": 9393,
+   "end": 9431,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 9594,
+   "end": 9605,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 9918,
+   "end": 9932,
+   "label": "BGE",
+   "text": "BGE 134 II 349"
+  },
+  {
+   "start": 9940,
+   "end": 9947,
+   "label": "BGE",
+   "text": "133 I 1"
+  },
+  {
+   "start": 10348,
+   "end": 10363,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 10372,
+   "end": 10382,
+   "label": "BGE",
+   "text": "140 III 16"
+  },
+  {
+   "start": 10581,
+   "end": 10595,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 10910,
+   "end": 10934,
+   "label": "STATUTE",
+   "text": "Art. 9 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 11139,
+   "end": 11163,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 11332,
+   "end": 11343,
+   "label": "DOCKET",
+   "text": "4A_443/2015"
+  },
+  {
+   "start": 11397,
+   "end": 11416,
+   "label": "STATUTE",
+   "text": "Art. 261 Abs. 1 ZPO"
+  },
+  {
+   "start": 11748,
+   "end": 11767,
+   "label": "STATUTE",
+   "text": "Art. 261 Abs. 1 ZPO"
+  },
+  {
+   "start": 12075,
+   "end": 12090,
+   "label": "BGE",
+   "text": "BGE 140 III 610"
+  },
+  {
+   "start": 12175,
+   "end": 12187,
+   "label": "STATUTE",
+   "text": "Art. 261 ZPO"
+  },
+  {
+   "start": 12218,
+   "end": 12242,
+   "label": "STATUTE",
+   "text": "Art. 9 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 12360,
+   "end": 12384,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 12882,
+   "end": 12934,
+   "label": "STATUTE",
+   "text": "Art. 9 Abs. 1 lit. a i.V.m.\nArt. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 14042,
+   "end": 14066,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 14448,
+   "end": 14482,
+   "label": "STATUTE",
+   "text": "Art. 67 Abs. 1 lit. f und gbis URG"
+  },
+  {
+   "start": 14682,
+   "end": 14706,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 14997,
+   "end": 15021,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 15411,
+   "end": 15436,
+   "label": "STATUTE",
+   "text": "Art. 67 Abs. 1 lit. e URG"
+  },
+  {
+   "start": 15606,
+   "end": 15630,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 16597,
+   "end": 16634,
+   "label": "STATUTE",
+   "text": "Art. 67 Abs. 1 lit. e, f und gbis URG"
+  },
+  {
+   "start": 16689,
+   "end": 16732,
+   "label": "STATUTE",
+   "text": "Art. 5 lit. a in Verbindung mit\nArt. 23 UWG"
+  },
+  {
+   "start": 16785,
+   "end": 16798,
+   "label": "STATUTE",
+   "text": "Art. 162 StGB"
+  },
+  {
+   "start": 16967,
+   "end": 16991,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 17306,
+   "end": 17358,
+   "label": "STATUTE",
+   "text": "Art. 9 Abs. 1 lit. a i.V.m.\nArt. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 17489,
+   "end": 17515,
+   "label": "STATUTE",
+   "text": "Art. 261 Abs. 1 lit. a ZPO"
+  },
+  {
+   "start": 18356,
+   "end": 18371,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 18380,
+   "end": 18390,
+   "label": "BGE",
+   "text": "135 II 356"
+  },
+  {
+   "start": 18723,
+   "end": 18738,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 18747,
+   "end": 18758,
+   "label": "BGE",
+   "text": "137 III 226"
+  },
+  {
+   "start": 18767,
+   "end": 18778,
+   "label": "BGE",
+   "text": "136 III 552"
+  },
+  {
+   "start": 19201,
+   "end": 19225,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 19899,
+   "end": 19909,
+   "label": "STATUTE",
+   "text": "Art. 2 URG"
+  },
+  {
+   "start": 20094,
+   "end": 20106,
+   "label": "STATUTE",
+   "text": "Art. 261 ZPO"
+  },
+  {
+   "start": 20236,
+   "end": 20250,
+   "label": "BGE",
+   "text": "BGE 139 III 86"
+  },
+  {
+   "start": 20601,
+   "end": 20625,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 21672,
+   "end": 21685,
+   "label": "BGE",
+   "text": "BGE 93 II 135"
+  },
+  {
+   "start": 21699,
+   "end": 21709,
+   "label": "DOCKET",
+   "text": "4C.55/2005"
+  },
+  {
+   "start": 21847,
+   "end": 21864,
+   "label": "STATUTE",
+   "text": "Art. 3 lit. a UWG"
+  },
+  {
+   "start": 21946,
+   "end": 21970,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 22076,
+   "end": 22100,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 22194,
+   "end": 22218,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 22337,
+   "end": 22361,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 23211,
+   "end": 23235,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 23428,
+   "end": 23452,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 1 lit. a UWG"
+  },
+  {
+   "start": 24078,
+   "end": 24090,
+   "label": "STATUTE",
+   "text": "Art. 261 ZPO"
+  },
+  {
+   "start": 24413,
+   "end": 24467,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 5 sowie\nArt. 68 Abs. 1, 2 und 4 BGG"
+  },
+  {
+   "start": 24603,
+   "end": 24615,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  },
+  {
+   "start": 24825,
+   "end": 24837,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  }
+ ],
+ "n_pre": 69,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

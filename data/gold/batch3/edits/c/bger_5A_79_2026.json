@@ -1,0 +1,33 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  14,
+  15,
+  29
+ ],
+ "relabel": [
+  {
+   "id": 3,
+   "label": "STATUTE"
+  },
+  {
+   "id": 27,
+   "label": "STATUTE"
+  },
+  {
+   "id": 28,
+   "label": "STATUTE"
+  }
+ ],
+ "add": [
+  {
+   "text": "Art. 3 Abs. 1 lit. a i.V.m. Art. 5 lit. a HKÜ",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 14 BG-KKE",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "HKÜ (SR 0.211.230.02) is a ratified treaty: STATUTE. BG-KKE is a federal act: STATUTE, span extended over -KKE. Outcome: the whole proceeding is a Fristwiederherstellungsgesuch forwarded to the court; item 1 (nicht eingetreten) is the only ruling, so inadmissible, although the batch-3 clarification calls such a request a side request."
+}

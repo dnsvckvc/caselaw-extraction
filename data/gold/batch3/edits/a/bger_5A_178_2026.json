@@ -1,0 +1,7 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "All pre-annotations confirmed. #45 'Art. 42 Abs. 2 oder Art. 106 Abs. 2 BGG' kept as one span (chain joined by 'oder' with one trailing code; 'oder' is not in the joiner list but the one-abbreviation rule applies). Cantonal numbers ZK 25 407 etc. left without span."
+}

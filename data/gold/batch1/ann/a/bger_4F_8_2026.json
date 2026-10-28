@@ -1,0 +1,253 @@
+{
+ "decision_id": "bger_4F_8_2026",
+ "task_index": 57,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "Added two missed statutes (Art. 34 Abs. 1 lit. a-e BGG, Art. 121-123 BGG), BGE list item 147 III 238, and extended the chain Art. 42 Abs. 7 i.V.m. Art. 108 Abs. 1 lit. c BGG.",
+ "spans": [
+  {
+   "start": 288,
+   "end": 301,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsteller"
+  },
+  {
+   "start": 384,
+   "end": 397,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsgegner"
+  },
+  {
+   "start": 602,
+   "end": 612,
+   "label": "DOCKET",
+   "text": "4D_39/2026"
+  },
+  {
+   "start": 822,
+   "end": 834,
+   "label": "AMOUNT",
+   "text": "Fr. 4'708.75"
+  },
+  {
+   "start": 856,
+   "end": 868,
+   "label": "AMOUNT",
+   "text": "Fr. 4'673.75"
+  },
+  {
+   "start": 1110,
+   "end": 1122,
+   "label": "AMOUNT",
+   "text": "Fr. 4'694.--"
+  },
+  {
+   "start": 1144,
+   "end": 1156,
+   "label": "AMOUNT",
+   "text": "Fr. 4'659.--"
+  },
+  {
+   "start": 2137,
+   "end": 2149,
+   "label": "AMOUNT",
+   "text": "Fr. 4'659.--"
+  },
+  {
+   "start": 2555,
+   "end": 2565,
+   "label": "DOCKET",
+   "text": "4D_39/2026"
+  },
+  {
+   "start": 2639,
+   "end": 2665,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. c BGG"
+  },
+  {
+   "start": 2867,
+   "end": 2877,
+   "label": "AMOUNT",
+   "text": "Fr. 800.--"
+  },
+  {
+   "start": 3665,
+   "end": 3692,
+   "label": "STATUTE",
+   "text": "Art. 34 Abs. 1 lit. a-e BGG"
+  },
+  {
+   "start": 3848,
+   "end": 3866,
+   "label": "STATUTE",
+   "text": "Art. 34 Abs. 2 BGG"
+  },
+  {
+   "start": 3994,
+   "end": 4012,
+   "label": "STATUTE",
+   "text": "Art. 34 Abs. 1 BGG"
+  },
+  {
+   "start": 4039,
+   "end": 4048,
+   "label": "DOCKET",
+   "text": "4F_9/2023"
+  },
+  {
+   "start": 4160,
+   "end": 4185,
+   "label": "STATUTE",
+   "text": "Art. 36 Abs. 1 Satz 2 BGG"
+  },
+  {
+   "start": 4566,
+   "end": 4584,
+   "label": "STATUTE",
+   "text": "Art. 37 Abs. 1 BGG"
+  },
+  {
+   "start": 4609,
+   "end": 4618,
+   "label": "DOCKET",
+   "text": "4F_9/2023"
+  },
+  {
+   "start": 5069,
+   "end": 5087,
+   "label": "STATUTE",
+   "text": "Art. 34 Abs. 1 BGG"
+  },
+  {
+   "start": 5479,
+   "end": 5490,
+   "label": "STATUTE",
+   "text": "Art. 71 BGG"
+  },
+  {
+   "start": 5498,
+   "end": 5515,
+   "label": "STATUTE",
+   "text": "Art. 6 Abs. 1 BZP"
+  },
+  {
+   "start": 6046,
+   "end": 6062,
+   "label": "STATUTE",
+   "text": "Art. 121-123 BGG"
+  },
+  {
+   "start": 6120,
+   "end": 6132,
+   "label": "BGE",
+   "text": "BGE 150 I 99"
+  },
+  {
+   "start": 6141,
+   "end": 6152,
+   "label": "BGE",
+   "text": "147 III 238"
+  },
+  {
+   "start": 6260,
+   "end": 6278,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 6335,
+   "end": 6350,
+   "label": "BGE",
+   "text": "BGE 147 III 238"
+  },
+  {
+   "start": 6463,
+   "end": 6488,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 Satz 1 BGG"
+  },
+  {
+   "start": 6833,
+   "end": 6843,
+   "label": "DOCKET",
+   "text": "4F_61/2025"
+  },
+  {
+   "start": 6935,
+   "end": 6961,
+   "label": "STATUTE",
+   "text": "Art. 121 Abs. 2 lit. d BGG"
+  },
+  {
+   "start": 7550,
+   "end": 7560,
+   "label": "DOCKET",
+   "text": "4D_39/2026"
+  },
+  {
+   "start": 7611,
+   "end": 7637,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. c BGG"
+  },
+  {
+   "start": 7830,
+   "end": 7848,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 7 BGG"
+  },
+  {
+   "start": 8671,
+   "end": 8719,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 7 i.V.m.\nArt. 108 Abs. 1 lit. c BGG"
+  },
+  {
+   "start": 8804,
+   "end": 8830,
+   "label": "STATUTE",
+   "text": "Art. 121 Abs. 2 lit. d BGG"
+  },
+  {
+   "start": 8906,
+   "end": 8919,
+   "label": "BGE",
+   "text": "BGE 122 II 17"
+  },
+  {
+   "start": 9393,
+   "end": 9405,
+   "label": "STATUTE",
+   "text": "Art. 127 BGG"
+  },
+  {
+   "start": 9597,
+   "end": 9615,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 9690,
+   "end": 9708,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 9920,
+   "end": 9938,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 10327,
+   "end": 10339,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 37,
+ "n_deleted": 1,
+ "n_added": 4,
+ "n_relabeled": 0
+}

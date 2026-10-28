@@ -1,0 +1,12 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "ZBGR 91/2010 S. 311",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Official publications AS 2015 1389, BBl 2014 S. 657, AB 2014 N 1967 / S 1178 fit none of the classes; left without span."
+}

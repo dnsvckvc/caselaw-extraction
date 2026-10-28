@@ -1,0 +1,427 @@
+{
+ "decision_id": "bger_4A_183_2023",
+ "task_index": 117,
+ "pass": "c",
+ "outcome": "approved",
+ "comment": "Art. 11/20/23/24 at the start of quoted AVB clauses are clause headings: no span. 'Art. 20 - 23' inside the quoted AVB names no instrument: BARE_ARTICLE kept. 'nach VVG' kept inside the instrument name of the CONTRACT_ARTICLE span.",
+ "spans": [
+  {
+   "start": 607,
+   "end": 623,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 643,
+   "end": 661,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 2335,
+   "end": 2348,
+   "label": "AMOUNT",
+   "text": "Fr. 21'691.--"
+  },
+  {
+   "start": 2506,
+   "end": 2634,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 20 der zwischen den Parteien geltenden Allgemeinen Versicherungsbedingungen für die kollektive Taggeldversicherung nach VVG"
+  },
+  {
+   "start": 2794,
+   "end": 2812,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 1 VVG"
+  },
+  {
+   "start": 3674,
+   "end": 3687,
+   "label": "BGE",
+   "text": "BGE 142 V 448"
+  },
+  {
+   "start": 3747,
+   "end": 3760,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 2 Abs. 2"
+  },
+  {
+   "start": 4189,
+   "end": 4204,
+   "label": "STATUTE",
+   "text": "Art. 72 ff. BGG"
+  },
+  {
+   "start": 4225,
+   "end": 4238,
+   "label": "BGE",
+   "text": "BGE 138 III 2"
+  },
+  {
+   "start": 4303,
+   "end": 4314,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 4405,
+   "end": 4415,
+   "label": "STATUTE",
+   "text": "Art. 7 ZPO"
+  },
+  {
+   "start": 4434,
+   "end": 4459,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 4543,
+   "end": 4568,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 4571,
+   "end": 4584,
+   "label": "BGE",
+   "text": "BGE 138 III 2"
+  },
+  {
+   "start": 4595,
+   "end": 4598,
+   "label": "BGE",
+   "text": "799"
+  },
+  {
+   "start": 4673,
+   "end": 4691,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 4768,
+   "end": 4787,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 5139,
+   "end": 5153,
+   "label": "BGE",
+   "text": "BGE 133 II 489"
+  },
+  {
+   "start": 5315,
+   "end": 5328,
+   "label": "BGE",
+   "text": "BGE 136 V 131"
+  },
+  {
+   "start": 5337,
+   "end": 5348,
+   "label": "BGE",
+   "text": "134 III 379"
+  },
+  {
+   "start": 5357,
+   "end": 5368,
+   "label": "BGE",
+   "text": "133 III 489"
+  },
+  {
+   "start": 5541,
+   "end": 5597,
+   "label": "STATUTE",
+   "text": "Art. 243 Abs. 2 lit. f i.V.m.\nArt. 247 Abs. 2 lit. a ZPO"
+  },
+  {
+   "start": 5914,
+   "end": 5925,
+   "label": "DOCKET",
+   "text": "4A_104/2021"
+  },
+  {
+   "start": 6015,
+   "end": 6034,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 6118,
+   "end": 6142,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 6432,
+   "end": 6446,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 6453,
+   "end": 6456,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 6570,
+   "end": 6589,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 6802,
+   "end": 6816,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7008,
+   "end": 7019,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 7029,
+   "end": 7048,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 7110,
+   "end": 7125,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 7132,
+   "end": 7135,
+   "label": "BGE",
+   "text": "264"
+  },
+  {
+   "start": 7242,
+   "end": 7260,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 7343,
+   "end": 7362,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 7365,
+   "end": 7380,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 7570,
+   "end": 7584,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7842,
+   "end": 7856,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 8033,
+   "end": 8047,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 8152,
+   "end": 8170,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 9381,
+   "end": 9393,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 20 - 23"
+  },
+  {
+   "start": 9560,
+   "end": 9571,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 20 AVB"
+  },
+  {
+   "start": 10104,
+   "end": 10115,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 20 AVB"
+  },
+  {
+   "start": 10661,
+   "end": 10672,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 20 AVB"
+  },
+  {
+   "start": 11515,
+   "end": 11571,
+   "label": "STATUTE",
+   "text": "Art. 247 Abs. 2 lit. a i.V.m.\nArt. 243 Abs. 2 lit. f ZPO"
+  },
+  {
+   "start": 11937,
+   "end": 11948,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 20 AVB"
+  },
+  {
+   "start": 12220,
+   "end": 12276,
+   "label": "STATUTE",
+   "text": "Art. 247 Abs. 2 lit. a i.V.m.\nArt. 243 Abs. 2 lit. f ZPO"
+  },
+  {
+   "start": 12765,
+   "end": 12776,
+   "label": "DOCKET",
+   "text": "4A_491/2014"
+  },
+  {
+   "start": 13077,
+   "end": 13092,
+   "label": "BGE",
+   "text": "BGE 141 III 569"
+  },
+  {
+   "start": 13208,
+   "end": 13223,
+   "label": "BGE",
+   "text": "BGE 142 III 402"
+  },
+  {
+   "start": 13232,
+   "end": 13243,
+   "label": "BGE",
+   "text": "139 III 457"
+  },
+  {
+   "start": 13462,
+   "end": 13477,
+   "label": "BGE",
+   "text": "BGE 141 III 569"
+  },
+  {
+   "start": 13634,
+   "end": 13649,
+   "label": "BGE",
+   "text": "BGE 141 III 569"
+  },
+  {
+   "start": 13665,
+   "end": 13676,
+   "label": "DOCKET",
+   "text": "4A_703/2016"
+  },
+  {
+   "start": 14210,
+   "end": 14221,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 20 AVB"
+  },
+  {
+   "start": 14624,
+   "end": 14635,
+   "label": "DOCKET",
+   "text": "4A_563/2019"
+  },
+  {
+   "start": 15288,
+   "end": 15299,
+   "label": "DOCKET",
+   "text": "4A_563/2019"
+  },
+  {
+   "start": 15396,
+   "end": 15407,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 20 AVB"
+  },
+  {
+   "start": 15751,
+   "end": 15762,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 20 AVB"
+  },
+  {
+   "start": 15789,
+   "end": 15800,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 20 AVB"
+  },
+  {
+   "start": 15838,
+   "end": 15849,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 24 AVB"
+  },
+  {
+   "start": 16058,
+   "end": 16068,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 16077,
+   "end": 16092,
+   "label": "BGE",
+   "text": "BGE 130 III 321"
+  },
+  {
+   "start": 16101,
+   "end": 16112,
+   "label": "BGE",
+   "text": "132 III 186"
+  },
+  {
+   "start": 16208,
+   "end": 16264,
+   "label": "STATUTE",
+   "text": "Art. 247 Abs. 2 lit. a i.V.m.\nArt. 243 Abs. 2 lit. f ZPO"
+  },
+  {
+   "start": 16346,
+   "end": 16357,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 20 AVB"
+  },
+  {
+   "start": 16906,
+   "end": 16943,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 17237,
+   "end": 17249,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 17426,
+   "end": 17438,
+   "label": "AMOUNT",
+   "text": "Fr. 2'500.--"
+  }
+ ],
+ "n_pre": 73,
+ "n_deleted": 5,
+ "n_added": 1,
+ "n_relabeled": 0
+}

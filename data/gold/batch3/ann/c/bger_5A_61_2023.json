@@ -1,0 +1,289 @@
+{
+ "decision_id": "bger_5A_61_2023",
+ "task_index": 120,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "'in dessen Ziff. 4' refers to a court settlement named before the number: no instrument after the number and no Art./§, so no span.",
+ "spans": [
+  {
+   "start": 360,
+   "end": 378,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 499,
+   "end": 515,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 2450,
+   "end": 2465,
+   "label": "BGE",
+   "text": "BGE 140 III 571"
+  },
+  {
+   "start": 2556,
+   "end": 2569,
+   "label": "AMOUNT",
+   "text": "Fr. 50'000.--"
+  },
+  {
+   "start": 2629,
+   "end": 2698,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1,\nArt. 74 Abs. 1 lit. b,\nArt. 75 Abs. 1 und\nArt. 90 BGG"
+  },
+  {
+   "start": 2810,
+   "end": 2829,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 2956,
+   "end": 2994,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3205,
+   "end": 3220,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 3229,
+   "end": 3239,
+   "label": "BGE",
+   "text": "149 III 81"
+  },
+  {
+   "start": 3423,
+   "end": 3441,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3520,
+   "end": 3535,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 3542,
+   "end": 3553,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4702,
+   "end": 4712,
+   "label": "DOCKET",
+   "text": "5A_89/2021"
+  },
+  {
+   "start": 6167,
+   "end": 6179,
+   "label": "STATUTE",
+   "text": "Art. 151 ZPO"
+  },
+  {
+   "start": 6691,
+   "end": 6736,
+   "label": "STATUTE",
+   "text": "Art. 55 Abs. 1 und\nArt. 221 Abs. 1 lit. d ZPO"
+  },
+  {
+   "start": 6838,
+   "end": 6850,
+   "label": "STATUTE",
+   "text": "Art. 151 ZPO"
+  },
+  {
+   "start": 7464,
+   "end": 7488,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 7712,
+   "end": 7727,
+   "label": "BGE",
+   "text": "BGE 134 III 524"
+  },
+  {
+   "start": 7736,
+   "end": 7747,
+   "label": "BGE",
+   "text": "143 III 290"
+  },
+  {
+   "start": 7756,
+   "end": 7767,
+   "label": "BGE",
+   "text": "146 III 203"
+  },
+  {
+   "start": 7841,
+   "end": 7860,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 7915,
+   "end": 7934,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 8464,
+   "end": 8478,
+   "label": "BGE",
+   "text": "BGE 141 III 28"
+  },
+  {
+   "start": 8489,
+   "end": 8500,
+   "label": "BGE",
+   "text": "142 III 433"
+  },
+  {
+   "start": 8511,
+   "end": 8521,
+   "label": "BGE",
+   "text": "143 III 65"
+  },
+  {
+   "start": 9243,
+   "end": 9255,
+   "label": "STATUTE",
+   "text": "Art. 151 ZPO"
+  },
+  {
+   "start": 9358,
+   "end": 9370,
+   "label": "STATUTE",
+   "text": "Art. 151 ZPO"
+  },
+  {
+   "start": 9438,
+   "end": 9442,
+   "label": "BARE_ARTICLE",
+   "text": "§ 10"
+  },
+  {
+   "start": 9454,
+   "end": 9458,
+   "label": "BARE_ARTICLE",
+   "text": "§ 18"
+  },
+  {
+   "start": 9800,
+   "end": 9814,
+   "label": "BGE",
+   "text": "BGE 112 II 172"
+  },
+  {
+   "start": 9824,
+   "end": 9835,
+   "label": "BGE",
+   "text": "130 III 113"
+  },
+  {
+   "start": 9844,
+   "end": 9854,
+   "label": "BGE",
+   "text": "135 III 88"
+  },
+  {
+   "start": 9879,
+   "end": 9889,
+   "label": "DOCKET",
+   "text": "5A_96/2023"
+  },
+  {
+   "start": 9920,
+   "end": 9931,
+   "label": "DOCKET",
+   "text": "5A_891/2021"
+  },
+  {
+   "start": 10361,
+   "end": 10378,
+   "label": "JOURNAL_REF",
+   "text": "ZBJV 2000, S. 705"
+  },
+  {
+   "start": 10480,
+   "end": 10492,
+   "label": "STATUTE",
+   "text": "Art. 151 ZPO"
+  },
+  {
+   "start": 10604,
+   "end": 10615,
+   "label": "STATUTE",
+   "text": "Art. 55 ZPO"
+  },
+  {
+   "start": 10705,
+   "end": 10716,
+   "label": "STATUTE",
+   "text": "Art. 55 ZPO"
+  },
+  {
+   "start": 10810,
+   "end": 10822,
+   "label": "STATUTE",
+   "text": "Art. 151 ZPO"
+  },
+  {
+   "start": 10913,
+   "end": 10925,
+   "label": "STATUTE",
+   "text": "Art. 151 ZPO"
+  },
+  {
+   "start": 10986,
+   "end": 10998,
+   "label": "STATUTE",
+   "text": "Art. 151 ZPO"
+  },
+  {
+   "start": 11066,
+   "end": 11078,
+   "label": "STATUTE",
+   "text": "Art. 151 ZPO"
+  },
+  {
+   "start": 11188,
+   "end": 11200,
+   "label": "STATUTE",
+   "text": "Art. 151 ZPO"
+  },
+  {
+   "start": 11346,
+   "end": 11350,
+   "label": "BARE_ARTICLE",
+   "text": "§ 25"
+  },
+  {
+   "start": 11630,
+   "end": 11648,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 11905,
+   "end": 11917,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  }
+ ],
+ "n_pre": 44,
+ "n_deleted": 1,
+ "n_added": 3,
+ "n_relabeled": 0
+}

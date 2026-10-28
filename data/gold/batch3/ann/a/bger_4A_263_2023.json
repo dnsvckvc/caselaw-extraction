@@ -1,0 +1,373 @@
+{
+ "decision_id": "bger_4A_263_2023",
+ "task_index": 109,
+ "pass": "a",
+ "outcome": "approved",
+ "comment": "Added missed JOURNAL_REF ZZZ 2016 S. 221 (range -223 excluded). #3 CONTRACT_ARTICLE kept with full instrument name Nachtrags I zum Mietvertrag. MB140015 cantonal, Dispositiv-Ziffer 2, BBl 2023 786, Melanges Corboz: no span.",
+ "spans": [
+  {
+   "start": 704,
+   "end": 722,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 823,
+   "end": 841,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1486,
+   "end": 1526,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 5 des Nachtrags I zum Mietvertrag"
+  },
+  {
+   "start": 2049,
+   "end": 2060,
+   "label": "DOCKET",
+   "text": "4A_653/2018"
+  },
+  {
+   "start": 2065,
+   "end": 2076,
+   "label": "DOCKET",
+   "text": "4A_657/2018"
+  },
+  {
+   "start": 3810,
+   "end": 3827,
+   "label": "AMOUNT",
+   "text": "Fr. 44'805'529.--"
+  },
+  {
+   "start": 5335,
+   "end": 5366,
+   "label": "STATUTE",
+   "text": "Art. 59 Abs. 2 lit. a und e ZPO"
+  },
+  {
+   "start": 5479,
+   "end": 5490,
+   "label": "DOCKET",
+   "text": "4A_197/2022"
+  },
+  {
+   "start": 5809,
+   "end": 5835,
+   "label": "STATUTE",
+   "text": "Art. 243 Abs. 2 lit. c ZPO"
+  },
+  {
+   "start": 6054,
+   "end": 6079,
+   "label": "STATUTE",
+   "text": "Art. 59 Abs. 2 lit. e ZPO"
+  },
+  {
+   "start": 6255,
+   "end": 6280,
+   "label": "STATUTE",
+   "text": "Art. 59 Abs. 2 lit. a ZPO"
+  },
+  {
+   "start": 7204,
+   "end": 7215,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 7265,
+   "end": 7290,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 7359,
+   "end": 7376,
+   "label": "STATUTE",
+   "text": "Art. 6 Abs. 1 ZPO"
+  },
+  {
+   "start": 8157,
+   "end": 8181,
+   "label": "STATUTE",
+   "text": "Art. 6 Abs. 2 lit. a ZPO"
+  },
+  {
+   "start": 8191,
+   "end": 8206,
+   "label": "BGE",
+   "text": "BGE 139 III 457"
+  },
+  {
+   "start": 8241,
+   "end": 8253,
+   "label": "STATUTE",
+   "text": "Art. 243 ZPO"
+  },
+  {
+   "start": 8387,
+   "end": 8401,
+   "label": "AMOUNT",
+   "text": "30'000 Franken"
+  },
+  {
+   "start": 8927,
+   "end": 8939,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 5 und 8"
+  },
+  {
+   "start": 8972,
+   "end": 8982,
+   "label": "STATUTE",
+   "text": "Art. 6 ZPO"
+  },
+  {
+   "start": 9167,
+   "end": 9193,
+   "label": "STATUTE",
+   "text": "Art. 243 Abs. 2 lit. c ZPO"
+  },
+  {
+   "start": 9269,
+   "end": 9284,
+   "label": "BGE",
+   "text": "BGE 139 III 457"
+  },
+  {
+   "start": 9394,
+   "end": 9416,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 243 Abs. 2 lit. c"
+  },
+  {
+   "start": 9440,
+   "end": 9455,
+   "label": "BGE",
+   "text": "BGE 142 III 402"
+  },
+  {
+   "start": 10020,
+   "end": 10046,
+   "label": "STATUTE",
+   "text": "Art. 247 Abs. 2 lit. a ZPO"
+  },
+  {
+   "start": 10325,
+   "end": 10340,
+   "label": "BGE",
+   "text": "BGE 142 III 690"
+  },
+  {
+   "start": 11729,
+   "end": 11740,
+   "label": "DOCKET",
+   "text": "4A_547/2016"
+  },
+  {
+   "start": 11774,
+   "end": 11785,
+   "label": "DOCKET",
+   "text": "4A_300/2016"
+  },
+  {
+   "start": 11823,
+   "end": 11834,
+   "label": "DOCKET",
+   "text": "4A_340/2017"
+  },
+  {
+   "start": 12307,
+   "end": 12318,
+   "label": "DOCKET",
+   "text": "4A_359/2017"
+  },
+  {
+   "start": 12704,
+   "end": 12730,
+   "label": "STATUTE",
+   "text": "Art. 243 Abs. 2 lit. c ZPO"
+  },
+  {
+   "start": 12757,
+   "end": 12772,
+   "label": "BGE",
+   "text": "BGE 148 III 415"
+  },
+  {
+   "start": 12929,
+   "end": 12941,
+   "label": "STATUTE",
+   "text": "Art. 261b OR"
+  },
+  {
+   "start": 12961,
+   "end": 12973,
+   "label": "STATUTE",
+   "text": "Art. 959 ZGB"
+  },
+  {
+   "start": 13134,
+   "end": 13160,
+   "label": "STATUTE",
+   "text": "Art. 243 Abs. 2 lit. c ZPO"
+  },
+  {
+   "start": 13249,
+   "end": 13268,
+   "label": "STATUTE",
+   "text": "Art. 259a Abs. 1 OR"
+  },
+  {
+   "start": 13402,
+   "end": 13416,
+   "label": "BGE",
+   "text": "BGE 146 III 63"
+  },
+  {
+   "start": 13635,
+   "end": 13644,
+   "label": "DOCKET",
+   "text": "4A_1/2014"
+  },
+  {
+   "start": 13736,
+   "end": 13762,
+   "label": "STATUTE",
+   "text": "Art. 243 Abs. 2 lit. c ZPO"
+  },
+  {
+   "start": 13913,
+   "end": 13929,
+   "label": "JOURNAL_REF",
+   "text": "ZBJV 2018 S. 264"
+  },
+  {
+   "start": 13998,
+   "end": 14013,
+   "label": "JOURNAL_REF",
+   "text": "ZZZ 2016 S. 221"
+  },
+  {
+   "start": 14632,
+   "end": 14648,
+   "label": "STATUTE",
+   "text": "Art. 243-247 ZPO"
+  },
+  {
+   "start": 14923,
+   "end": 14938,
+   "label": "BGE",
+   "text": "BGE 142 III 402"
+  },
+  {
+   "start": 14996,
+   "end": 15022,
+   "label": "STATUTE",
+   "text": "Art. 243 Abs. 2 lit. c ZPO"
+  },
+  {
+   "start": 15276,
+   "end": 15300,
+   "label": "STATUTE",
+   "text": "Art. 6 Abs. 2 lit. d ZPO"
+  },
+  {
+   "start": 15589,
+   "end": 15605,
+   "label": "JOURNAL_REF",
+   "text": "ZBJV 2023 S. 240"
+  },
+  {
+   "start": 16278,
+   "end": 16290,
+   "label": "STATUTE",
+   "text": "Art. 272c OR"
+  },
+  {
+   "start": 16367,
+   "end": 16383,
+   "label": "STATUTE",
+   "text": "Art. 272-272d OR"
+  },
+  {
+   "start": 16997,
+   "end": 17009,
+   "label": "STATUTE",
+   "text": "Art. 272c OR"
+  },
+  {
+   "start": 18142,
+   "end": 18154,
+   "label": "STATUTE",
+   "text": "Art. 272c OR"
+  },
+  {
+   "start": 18639,
+   "end": 18665,
+   "label": "STATUTE",
+   "text": "Art. 243 Abs. 2 lit. c ZPO"
+  },
+  {
+   "start": 19646,
+   "end": 19672,
+   "label": "STATUTE",
+   "text": "Art. 243 Abs. 2 lit. c ZPO"
+  },
+  {
+   "start": 20280,
+   "end": 20306,
+   "label": "STATUTE",
+   "text": "Art. 243 Abs. 2 lit. c ZPO"
+  },
+  {
+   "start": 21527,
+   "end": 21553,
+   "label": "STATUTE",
+   "text": "Art. 243 Abs. 2 lit. c ZPO"
+  },
+  {
+   "start": 21981,
+   "end": 21996,
+   "label": "BGE",
+   "text": "BGE 146 III 297"
+  },
+  {
+   "start": 23102,
+   "end": 23114,
+   "label": "STATUTE",
+   "text": "Art. 272c OR"
+  },
+  {
+   "start": 23888,
+   "end": 23914,
+   "label": "STATUTE",
+   "text": "Art. 243 Abs. 2 lit. c ZPO"
+  },
+  {
+   "start": 24858,
+   "end": 24895,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 25158,
+   "end": 25171,
+   "label": "AMOUNT",
+   "text": "Fr. 60'000.--"
+  },
+  {
+   "start": 25307,
+   "end": 25321,
+   "label": "AMOUNT",
+   "text": "Fr. 115'000.--"
+  }
+ ],
+ "n_pre": 59,
+ "n_deleted": 0,
+ "n_added": 1,
+ "n_relabeled": 0
+}

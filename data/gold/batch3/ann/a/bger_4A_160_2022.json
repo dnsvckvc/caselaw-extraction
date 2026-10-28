@@ -1,0 +1,247 @@
+{
+ "decision_id": "bger_4A_160_2022",
+ "task_index": 77,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "#14 was CONTRACT_ARTICLE 'Art. 2 lit. c des Reglements' but the Reglement des Bundesgerichts ueber den elektronischen Rechtsverkehr has an SR number (173.110.29), so it is an act given as a title: BARE_ARTICLE on 'Art. 2 lit. c'.",
+ "spans": [
+  {
+   "start": 556,
+   "end": 574,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 615,
+   "end": 633,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 921,
+   "end": 937,
+   "label": "AMOUNT",
+   "text": "Fr. 1'156'696.40"
+  },
+  {
+   "start": 1159,
+   "end": 1170,
+   "label": "DOCKET",
+   "text": "4A_541/2021"
+  },
+  {
+   "start": 1553,
+   "end": 1563,
+   "label": "DOCKET",
+   "text": "4A_10/2019"
+  },
+  {
+   "start": 1588,
+   "end": 1600,
+   "label": "DOCKET",
+   "text": "4A_174/ 2019"
+  },
+  {
+   "start": 1800,
+   "end": 1811,
+   "label": "DOCKET",
+   "text": "4A_488/2019"
+  },
+  {
+   "start": 2295,
+   "end": 2308,
+   "label": "AMOUNT",
+   "text": "Fr. 32'317.--"
+  },
+  {
+   "start": 2660,
+   "end": 2671,
+   "label": "DOCKET",
+   "text": "4A_541/2021"
+  },
+  {
+   "start": 3822,
+   "end": 3833,
+   "label": "DOCKET",
+   "text": "4A_162/2022"
+  },
+  {
+   "start": 4133,
+   "end": 4151,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 4 BGG"
+  },
+  {
+   "start": 4414,
+   "end": 4427,
+   "label": "STATUTE",
+   "text": "Art. 5 ZertES"
+  },
+  {
+   "start": 4448,
+   "end": 4468,
+   "label": "STATUTE",
+   "text": "Art. 2 lit. e ZertES"
+  },
+  {
+   "start": 4473,
+   "end": 4486,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 2 lit. c"
+  },
+  {
+   "start": 5032,
+   "end": 5052,
+   "label": "STATUTE",
+   "text": "Art. 3 Abs. 2 ZertES"
+  },
+  {
+   "start": 5265,
+   "end": 5279,
+   "label": "STATUTE",
+   "text": "Art. 20 ZertES"
+  },
+  {
+   "start": 5838,
+   "end": 5851,
+   "label": "STATUTE",
+   "text": "Art. 5 ZertES"
+  },
+  {
+   "start": 6205,
+   "end": 6242,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 5 und\nArt. 39 Abs. 3 BGG"
+  },
+  {
+   "start": 6647,
+   "end": 6662,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 6676,
+   "end": 6686,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 6849,
+   "end": 6873,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 6876,
+   "end": 6891,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 6905,
+   "end": 6907,
+   "label": "BGE",
+   "text": "86"
+  },
+  {
+   "start": 7129,
+   "end": 7148,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 7253,
+   "end": 7272,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 7492,
+   "end": 7506,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 7734,
+   "end": 7745,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 7843,
+   "end": 7881,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 und\nArt. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 8370,
+   "end": 8384,
+   "label": "BGE",
+   "text": "BGE 133 IV 119"
+  },
+  {
+   "start": 8411,
+   "end": 8425,
+   "label": "BGE",
+   "text": "BGE 139 II 233"
+  },
+  {
+   "start": 8441,
+   "end": 8452,
+   "label": "BGE",
+   "text": "138 III 728"
+  },
+  {
+   "start": 9479,
+   "end": 9490,
+   "label": "DOCKET",
+   "text": "4A_162/2022"
+  },
+  {
+   "start": 11263,
+   "end": 11289,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 11779,
+   "end": 11824,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 7 und\nArt. 108 Abs. 1 lit. c BGG"
+  },
+  {
+   "start": 11835,
+   "end": 11849,
+   "label": "BGE",
+   "text": "BGE 111 Ia 148"
+  },
+  {
+   "start": 13134,
+   "end": 13152,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 13237,
+   "end": 13255,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 13406,
+   "end": 13424,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 13784,
+   "end": 13794,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 39,
+ "n_deleted": 1,
+ "n_added": 1,
+ "n_relabeled": 0
+}

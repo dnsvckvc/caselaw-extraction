@@ -1,0 +1,23 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  38
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 109 Abs. 2 i.V.m. Art. 106 - 108 ZPO",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 106 - 108 ZPO",
+   "label": "STATUTE",
+   "occurrence": 2
+  },
+  {
+   "text": "Artikeln 106 - 108 ZPO",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": ""
+}

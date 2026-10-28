@@ -1,0 +1,43 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  47
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "135 III 397",
+   "label": "BGE"
+  },
+  {
+   "text": "140 III 16",
+   "label": "BGE",
+   "occurrence": 3
+  },
+  {
+   "text": "135 II 356",
+   "label": "BGE"
+  },
+  {
+   "text": "137 III 226",
+   "label": "BGE"
+  },
+  {
+   "text": "136 III 552",
+   "label": "BGE"
+  },
+  {
+   "text": "116 Ia 85",
+   "label": "BGE"
+  },
+  {
+   "text": "141 III 433",
+   "label": "BGE"
+  },
+  {
+   "text": "Art. 66 Abs. 1 und Art. 68 Abs. 1 und 2 BGG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "'BGE 138 III 799 E. 1.1, 2 E. 1.2.2 S. 5': the '2' is a bare page reference, no span."
+}

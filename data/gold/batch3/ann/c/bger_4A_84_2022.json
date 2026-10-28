@@ -1,0 +1,97 @@
+{
+ "decision_id": "bger_4A_84_2022",
+ "task_index": 68,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 530,
+   "end": 546,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 569,
+   "end": 587,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 924,
+   "end": 937,
+   "label": "AMOUNT",
+   "text": "Fr. 58'146.--"
+  },
+  {
+   "start": 1391,
+   "end": 1421,
+   "label": "STATUTE",
+   "text": "Art. 72 ff. i.V.m.\nArt. 90 BGG"
+  },
+  {
+   "start": 1913,
+   "end": 1932,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 2047,
+   "end": 2065,
+   "label": "STATUTE",
+   "text": "Art. 48 Abs. 3 BGG"
+  },
+  {
+   "start": 2079,
+   "end": 2097,
+   "label": "STATUTE",
+   "text": "Art. 44 Abs. 1 BGG"
+  },
+  {
+   "start": 2348,
+   "end": 2366,
+   "label": "STATUTE",
+   "text": "Art. 48 Abs. 1 BGG"
+  },
+  {
+   "start": 3058,
+   "end": 3084,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 3329,
+   "end": 3355,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3587,
+   "end": 3605,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3885,
+   "end": 3904,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4392,
+   "end": 4423,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 zweiter Satz BGG"
+  },
+  {
+   "start": 4578,
+   "end": 4596,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  }
+ ],
+ "n_pre": 14,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

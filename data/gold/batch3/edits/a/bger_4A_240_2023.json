@@ -1,0 +1,14 @@
+{
+ "outcome": "moot",
+ "delete": [
+  29
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 9 ihrer Statuten",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "'Art. 9 ihrer Statuten' names the instrument (association statutes) -> CONTRACT_ARTICLE, like 'Ziffer 9 des Vertrags'. 'Bestimmung C.10.6 der FINA-Rules' has no Art./Ziff./§ prefix: no span (unsettled). CAS 2022/A/8638 is an arbitral file number: no span. Own number 4A_240/2023 in item 1 not a span."
+}

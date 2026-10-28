@@ -1,0 +1,15 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 67 Abs. 1 lit. f und gbis URG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 67 Abs. 1 lit. e, f und gbis URG",
+   "label": "STATUTE"
+  }
+ ]
+}

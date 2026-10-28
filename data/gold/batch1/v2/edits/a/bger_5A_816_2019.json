@@ -1,0 +1,9 @@
+{
+  "outcome": "approved",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {"text": "Anwaltsrevue 8/2020 S. 315", "label": "JOURNAL_REF"}
+  ],
+  "comment": "All 7 proposals correct (#53 'Art. 3 Abs. 1' before the StHG title is BARE_ARTICLE; journal spans stop before 'ff.' / 'Fn. 38'). Added 'Anwaltsrevue 8/2020 S. 315' as JOURNAL_REF (full journal name, issue/year format, not in the guideline list). 'Disp.-Ziff. 1' etc. are dispositive items of court decisions, no span. Richtlinien der Konferenz der Betreibungs- und Konkursbeamten is a title, no span."
+}

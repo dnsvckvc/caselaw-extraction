@@ -1,0 +1,12 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "142 III 364",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Added BGE list item 142 III 364. Kept Art. 60a ZPO and Art. 143 Abs. 1bis ZPO as STATUTE although the text cites them as proposals from the Bundesrat draft (Vernehmlassungsvorlage / Entwurf) - they are written with the federal abbreviation ZPO, not VE-ZPO/E-ZPO, so the draft-act rule does not clearly apply."
+}

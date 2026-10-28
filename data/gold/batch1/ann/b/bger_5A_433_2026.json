@@ -1,0 +1,145 @@
+{
+ "decision_id": "bger_5A_433_2026",
+ "task_index": 56,
+ "pass": "b",
+ "outcome": "inadmissible",
+ "comment": "Extended the chain Art. 72 Abs. 1 und Art. 75 Abs. 1 BGG; added three BGE list items without the BGE word.",
+ "spans": [
+  {
+   "start": 246,
+   "end": 262,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 333,
+   "end": 351,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 618,
+   "end": 643,
+   "label": "STATUTE",
+   "text": "Art. 308 Abs. 1 und 2 ZGB"
+  },
+  {
+   "start": 1919,
+   "end": 1956,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 und\nArt. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 2039,
+   "end": 2057,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 BGG"
+  },
+  {
+   "start": 2064,
+   "end": 2079,
+   "label": "BGE",
+   "text": "BGE 147 III 451"
+  },
+  {
+   "start": 2096,
+   "end": 2107,
+   "label": "DOCKET",
+   "text": "5A_823/2022"
+  },
+  {
+   "start": 2135,
+   "end": 2145,
+   "label": "DOCKET",
+   "text": "5A_13/2025"
+  },
+  {
+   "start": 2174,
+   "end": 2186,
+   "label": "DOCKET",
+   "text": "5A_1037/2025"
+  },
+  {
+   "start": 2275,
+   "end": 2293,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 BGG"
+  },
+  {
+   "start": 2394,
+   "end": 2409,
+   "label": "BGE",
+   "text": "BGE 144 III 475"
+  },
+  {
+   "start": 2418,
+   "end": 2429,
+   "label": "BGE",
+   "text": "150 III 248"
+  },
+  {
+   "start": 2896,
+   "end": 2915,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 3187,
+   "end": 3202,
+   "label": "BGE",
+   "text": "BGE 130 III 136"
+  },
+  {
+   "start": 3211,
+   "end": 3222,
+   "label": "BGE",
+   "text": "134 III 379"
+  },
+  {
+   "start": 3231,
+   "end": 3241,
+   "label": "BGE",
+   "text": "137 II 313"
+  },
+  {
+   "start": 3408,
+   "end": 3426,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3505,
+   "end": 3520,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 4639,
+   "end": 4665,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5042,
+   "end": 5060,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 5173,
+   "end": 5191,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5367,
+   "end": 5379,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 19,
+ "n_deleted": 1,
+ "n_added": 4,
+ "n_relabeled": 0
+}

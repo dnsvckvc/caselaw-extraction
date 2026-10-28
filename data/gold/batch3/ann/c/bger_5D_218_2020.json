@@ -1,0 +1,103 @@
+{
+ "decision_id": "bger_5D_218_2020",
+ "task_index": 29,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 560,
+   "end": 576,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 648,
+   "end": 664,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1051,
+   "end": 1063,
+   "label": "AMOUNT",
+   "text": "Fr. 2'510.--"
+  },
+  {
+   "start": 1720,
+   "end": 1733,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 1758,
+   "end": 1783,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 1859,
+   "end": 1884,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 1959,
+   "end": 1975,
+   "label": "STATUTE",
+   "text": "Art. 113 ff. BGG"
+  },
+  {
+   "start": 2057,
+   "end": 2069,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 2133,
+   "end": 2168,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2403,
+   "end": 2417,
+   "label": "BGE",
+   "text": "BGE 133 II 396"
+  },
+  {
+   "start": 2433,
+   "end": 2444,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 3870,
+   "end": 3888,
+   "label": "STATUTE",
+   "text": "Art. 19 Abs. 1 ZGB"
+  },
+  {
+   "start": 4074,
+   "end": 4116,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4233,
+   "end": 4251,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 4732,
+   "end": 4750,
+   "label": "STATUTE",
+   "text": "Art. 41 Abs. 1 BGG"
+  }
+ ],
+ "n_pre": 15,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

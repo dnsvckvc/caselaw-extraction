@@ -1,0 +1,16 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 67 Abs. 1 lit. f und gbis URG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 67 Abs. 1 lit. e, f und gbis URG",
+      "label": "STATUTE"
+    }
+  ],
+  "comment": "added two URG citations with gbis that the regex missed (E. 5.1 and E. 5.3). PARTY_ROLE #1 is plural Beschwerdeführerinnen, kept."
+}

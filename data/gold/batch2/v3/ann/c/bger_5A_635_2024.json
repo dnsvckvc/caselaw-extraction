@@ -1,0 +1,115 @@
+{
+ "decision_id": "bger_5A_635_2024",
+ "task_index": 64,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 252,
+   "end": 268,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 333,
+   "end": 351,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 713,
+   "end": 725,
+   "label": "AMOUNT",
+   "text": "Fr. 4'200.--"
+  },
+  {
+   "start": 1020,
+   "end": 1032,
+   "label": "AMOUNT",
+   "text": "Fr. 4'200.--"
+  },
+  {
+   "start": 2141,
+   "end": 2159,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 2375,
+   "end": 2388,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 2468,
+   "end": 2537,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1,\nArt. 74 Abs. 1 lit. b,\nArt. 75 Abs. 1 und\nArt. 90 BGG"
+  },
+  {
+   "start": 3154,
+   "end": 3173,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 3300,
+   "end": 3338,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3549,
+   "end": 3564,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 3573,
+   "end": 3583,
+   "label": "BGE",
+   "text": "149 III 81"
+  },
+  {
+   "start": 3767,
+   "end": 3785,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3864,
+   "end": 3879,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 3886,
+   "end": 3897,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4741,
+   "end": 4773,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 4842,
+   "end": 4860,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 4972,
+   "end": 4984,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 17,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

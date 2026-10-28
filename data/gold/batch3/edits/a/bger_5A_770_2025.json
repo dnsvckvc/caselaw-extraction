@@ -1,0 +1,7 @@
+{
+ "outcome": "partial_approval",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "All 48 pre-annotations checked; none wrong, none missing. Item 1 says teilweise gutgeheissen (Eventualantrag granted, remand), kept partial_approval because the dispositiv uses the word teilweise. 3B 24 17 / 3U 24 34 is a cantonal file number."
+}

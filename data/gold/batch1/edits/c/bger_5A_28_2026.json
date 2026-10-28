@@ -1,0 +1,12 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "143 IV 380",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Header gives no role word for the respondents (Betreibungsamt, Kanton Graubünden)."
+}

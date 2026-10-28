@@ -1,0 +1,14 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  14
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 2 lit. c",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#14 is the Reglement des Bundesgerichts ueber den elektronischen Rechtsverkehr (ReRBGer; SR 173.110.29), a federal court regulation in the SR, not a private instrument; the act is given as a title, so BARE_ARTICLE on Art. 2 lit. c."
+}

@@ -1,0 +1,6 @@
+{
+ "keep": [
+  "b1"
+ ],
+ "comment": "A yearbook (Jahrbuch) is a periodical and counts as JOURNAL_REF; conference volumes (Tagung) and anthologies do not."
+}

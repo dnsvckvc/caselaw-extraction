@@ -1,0 +1,26 @@
+{
+ "outcome": "approved",
+ "delete": [
+  27,
+  46
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "5A_89/2020",
+   "label": "DOCKET",
+   "all": true
+  },
+  {
+   "text": "Art. 12",
+   "label": "BARE_ARTICLE",
+   "occurrence": 13
+  },
+  {
+   "text": "Art. 4",
+   "label": "BARE_ARTICLE",
+   "occurrence": 2
+  }
+ ],
+ "comment": "Pre-annotator missed every mention (20) of the revised judgment 5A_89/2020; added as DOCKET. The Reglement ueber die Parteientschaedigung has an SR number (SR 173.110.210.3), so Art. 12 dieses Reglements and Art. 4 des Reglements are BARE_ARTICLE (act given as title), not CONTRACT_ARTICLE."
+}

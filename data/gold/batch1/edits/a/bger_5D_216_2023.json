@@ -1,0 +1,41 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  23,
+  44,
+  56
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "138 III 41",
+   "label": "BGE"
+  },
+  {
+   "text": "Art. 72 ff. BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 95 f. BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 100 Abs. 1 i.V.m. Art. 45 Abs. 1 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "140 III 86",
+   "label": "BGE"
+  },
+  {
+   "text": "138 III 672",
+   "label": "BGE"
+  },
+  {
+   "text": "Art. 159 Abs. 3 bzw. Art. 163 ZGB",
+   "label": "STATUTE",
+   "all": true
+  }
+ ],
+ "comment": "Extended three statute chains (one of them 'Art. 159 Abs. 3 bzw. Art. 163 ZGB' twice); added 'Art. 72 ff. BGG' and 'Art. 95 f. BGG'; added three BGE list items without the BGE word. Item 1: dismissed, soweit nicht gegenstandslos."
+}

@@ -1,0 +1,301 @@
+{
+ "decision_id": "bger_4A_351_2019",
+ "task_index": 1,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "No change. #37 §157 before title (BGB spelled out) kept BARE_ARTICLE per guideline. Foreign docket \"X ZR 37/12 des deutschen Bundesgerichtshofes\" fits none of the nine classes, left unmarked.",
+ "spans": [
+  {
+   "start": 315,
+   "end": 331,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 408,
+   "end": 426,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 710,
+   "end": 721,
+   "label": "AMOUNT",
+   "text": "EUR 150'000"
+  },
+  {
+   "start": 3149,
+   "end": 3160,
+   "label": "AMOUNT",
+   "text": "EUR 150'000"
+  },
+  {
+   "start": 4160,
+   "end": 4186,
+   "label": "STATUTE",
+   "text": "Art. 75 i.V.m.\nArt. 90 BGG"
+  },
+  {
+   "start": 4223,
+   "end": 4235,
+   "label": "STATUTE",
+   "text": "Art. 100 BGG"
+  },
+  {
+   "start": 4293,
+   "end": 4311,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 4394,
+   "end": 4412,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 4425,
+   "end": 4438,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 4467,
+   "end": 4492,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4590,
+   "end": 4624,
+   "label": "STATUTE",
+   "text": "Art. 42 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 10778,
+   "end": 10796,
+   "label": "STATUTE",
+   "text": "Art. 95 und 96 BGG"
+  },
+  {
+   "start": 10968,
+   "end": 10986,
+   "label": "STATUTE",
+   "text": "Art. 96 lit. b BGG"
+  },
+  {
+   "start": 11143,
+   "end": 11152,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 11155,
+   "end": 11170,
+   "label": "BGE",
+   "text": "BGE 133 III 446"
+  },
+  {
+   "start": 11212,
+   "end": 11231,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 11406,
+   "end": 11421,
+   "label": "BGE",
+   "text": "BGE 135 III 232"
+  },
+  {
+   "start": 11431,
+   "end": 11439,
+   "label": "BGE",
+   "text": "134 I 83"
+  },
+  {
+   "start": 11448,
+   "end": 11459,
+   "label": "BGE",
+   "text": "133 III 393"
+  },
+  {
+   "start": 11478,
+   "end": 11488,
+   "label": "BGE",
+   "text": "133 II 249"
+  },
+  {
+   "start": 11676,
+   "end": 11689,
+   "label": "BGE",
+   "text": "BGE 139 I 229"
+  },
+  {
+   "start": 11699,
+   "end": 11708,
+   "label": "BGE",
+   "text": "131 I 377"
+  },
+  {
+   "start": 12292,
+   "end": 12305,
+   "label": "BGE",
+   "text": "BGE 144 I 113"
+  },
+  {
+   "start": 12431,
+   "end": 12450,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 12670,
+   "end": 12684,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 12876,
+   "end": 12887,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 12897,
+   "end": 12916,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 12978,
+   "end": 12993,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 13007,
+   "end": 13018,
+   "label": "BGE",
+   "text": "135 III 397"
+  },
+  {
+   "start": 13125,
+   "end": 13143,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 13320,
+   "end": 13334,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 13598,
+   "end": 13612,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 13795,
+   "end": 13809,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 14118,
+   "end": 14136,
+   "label": "STATUTE",
+   "text": "Art. 96 lit. b BGG"
+  },
+  {
+   "start": 14833,
+   "end": 14844,
+   "label": "STATUTE",
+   "text": "Art. 55 ZPO"
+  },
+  {
+   "start": 15746,
+   "end": 15760,
+   "label": "BGE",
+   "text": "BGE 144 III 93"
+  },
+  {
+   "start": 16159,
+   "end": 16163,
+   "label": "BARE_ARTICLE",
+   "text": "§157"
+  },
+  {
+   "start": 16315,
+   "end": 16323,
+   "label": "OTHER_LAW",
+   "text": "§133 BGB"
+  },
+  {
+   "start": 17248,
+   "end": 17257,
+   "label": "OTHER_LAW",
+   "text": "§ 133 BGB"
+  },
+  {
+   "start": 17525,
+   "end": 17534,
+   "label": "OTHER_LAW",
+   "text": "§ 133 BGB"
+  },
+  {
+   "start": 17737,
+   "end": 17746,
+   "label": "OTHER_LAW",
+   "text": "§ 133 BGB"
+  },
+  {
+   "start": 17830,
+   "end": 17834,
+   "label": "BARE_ARTICLE",
+   "text": "§ 28"
+  },
+  {
+   "start": 18043,
+   "end": 18052,
+   "label": "OTHER_LAW",
+   "text": "§ 133 BGB"
+  },
+  {
+   "start": 18322,
+   "end": 18326,
+   "label": "BARE_ARTICLE",
+   "text": "§ 28"
+  },
+  {
+   "start": 26354,
+   "end": 26372,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 26475,
+   "end": 26493,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 26629,
+   "end": 26641,
+   "label": "AMOUNT",
+   "text": "Fr. 5'500.--"
+  },
+  {
+   "start": 26775,
+   "end": 26787,
+   "label": "AMOUNT",
+   "text": "Fr. 6'500.--"
+  }
+ ],
+ "n_pre": 48,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

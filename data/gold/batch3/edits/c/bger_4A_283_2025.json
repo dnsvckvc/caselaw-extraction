@@ -1,0 +1,11 @@
+{
+ "outcome": "partial_approval",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Ziffer 16.2 ihrer Allgemeinen Versicherungsbedingungen",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ]
+}

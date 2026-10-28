@@ -1,0 +1,14 @@
+{
+  "outcome": "approved",
+  "delete": [
+    3
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "CHF 5,5 Mio.",
+      "label": "AMOUNT"
+    }
+  ],
+  "comment": "#3 CHF 5 was cut before the decimal comma and multiplier; replaced by CHF 5,5 Mio. Bundesverwaltungsgericht numbers (B-3171/2020, B-3933/2018) and Zurich cantonal numbers (HE180115-0, PQ180080-0/U) not labelled."
+}

@@ -1,0 +1,15 @@
+{
+ "outcome": "partial_approval",
+ "delete": [
+  4,
+  55
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "CHF 1.1114",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "Deleted #4 (§ 14 as the heading of the quoted contract clause, not a reference; guideline gap). Extended #55 to the full number CHF 1.1114 (an exchange rate, kept as AMOUNT; guideline gap). 'dem deutschen BGB' without number, no span. BZ 2021 54 / BZ 2021 55 are cantonal file numbers."
+}

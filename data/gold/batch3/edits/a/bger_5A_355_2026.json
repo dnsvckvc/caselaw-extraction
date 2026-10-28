@@ -1,0 +1,12 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "ZZZ 2022 S. 42",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Outcome changed from dismissed to inadmissible: item 1 only rules on the Vereinigung request, item 2 says nicht eingetreten. Added JOURNAL_REF ZZZ 2022 S. 42 (missed by pre-annotator). PS250338-O/U is a cantonal file number."
+}

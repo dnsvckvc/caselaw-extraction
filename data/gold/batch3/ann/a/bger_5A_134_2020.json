@@ -1,0 +1,193 @@
+{
+ "decision_id": "bger_5A_134_2020",
+ "task_index": 23,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "Two ZBGR journal references after 'in:' were missed by the pre-annotator.",
+ "spans": [
+  {
+   "start": 352,
+   "end": 370,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 435,
+   "end": 451,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 3695,
+   "end": 3714,
+   "label": "STATUTE",
+   "text": "Art. 737 Abs. 3 ZGB"
+  },
+  {
+   "start": 4927,
+   "end": 4939,
+   "label": "STATUTE",
+   "text": "Art. 975 ZGB"
+  },
+  {
+   "start": 4970,
+   "end": 4988,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 5100,
+   "end": 5114,
+   "label": "AMOUNT",
+   "text": "Fr. 200'000.--"
+  },
+  {
+   "start": 5168,
+   "end": 5181,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 5195,
+   "end": 5220,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5275,
+   "end": 5290,
+   "label": "STATUTE",
+   "text": "Art. 72 ff. BGG"
+  },
+  {
+   "start": 5508,
+   "end": 5521,
+   "label": "STATUTE",
+   "text": "Art. 974b ZGB"
+  },
+  {
+   "start": 5806,
+   "end": 5826,
+   "label": "STATUTE",
+   "text": "Art. 974b Abs. 2 ZGB"
+  },
+  {
+   "start": 6728,
+   "end": 6740,
+   "label": "STATUTE",
+   "text": "Art. 738 ZGB"
+  },
+  {
+   "start": 6929,
+   "end": 6948,
+   "label": "STATUTE",
+   "text": "Art. 738 Abs. 1 ZGB"
+  },
+  {
+   "start": 7309,
+   "end": 7328,
+   "label": "STATUTE",
+   "text": "Art. 738 Abs. 2 ZGB"
+  },
+  {
+   "start": 7331,
+   "end": 7346,
+   "label": "BGE",
+   "text": "BGE 137 III 145"
+  },
+  {
+   "start": 8541,
+   "end": 8552,
+   "label": "DOCKET",
+   "text": "5A_602/2012"
+  },
+  {
+   "start": 8587,
+   "end": 8606,
+   "label": "JOURNAL_REF",
+   "text": "ZBGR 95/2014 S. 208"
+  },
+  {
+   "start": 8876,
+   "end": 8890,
+   "label": "BGE",
+   "text": "BGE 107 II 331"
+  },
+  {
+   "start": 9087,
+   "end": 9098,
+   "label": "DOCKET",
+   "text": "5A_264/2009"
+  },
+  {
+   "start": 9128,
+   "end": 9147,
+   "label": "JOURNAL_REF",
+   "text": "ZBGR 91/2010 S. 168"
+  },
+  {
+   "start": 9403,
+   "end": 9418,
+   "label": "BGE",
+   "text": "BGE 130 III 554"
+  },
+  {
+   "start": 9832,
+   "end": 9847,
+   "label": "BGE",
+   "text": "BGE 142 III 239"
+  },
+  {
+   "start": 9858,
+   "end": 9869,
+   "label": "BGE",
+   "text": "132 III 626"
+  },
+  {
+   "start": 10132,
+   "end": 10151,
+   "label": "STATUTE",
+   "text": "Art. 738 Abs. 1 ZGB"
+  },
+  {
+   "start": 10378,
+   "end": 10397,
+   "label": "STATUTE",
+   "text": "Art. 738 Abs. 2 ZGB"
+  },
+  {
+   "start": 13100,
+   "end": 13112,
+   "label": "STATUTE",
+   "text": "Art. 730 ZGB"
+  },
+  {
+   "start": 13378,
+   "end": 13390,
+   "label": "STATUTE",
+   "text": "Art. 730 ZGB"
+  },
+  {
+   "start": 13730,
+   "end": 13740,
+   "label": "OTHER_LAW",
+   "text": "§ 1018 BGB"
+  },
+  {
+   "start": 15686,
+   "end": 15704,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 15986,
+   "end": 15998,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  }
+ ],
+ "n_pre": 28,
+ "n_deleted": 0,
+ "n_added": 2,
+ "n_relabeled": 0
+}

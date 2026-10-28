@@ -1,0 +1,271 @@
+{
+ "decision_id": "bger_5A_414_2023",
+ "task_index": 104,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "Reglement des Bundesgerichts with SR number (ReRBGer; SR 173.110.29) is an act given as title -> BARE_ARTICLE, not CONTRACT_ARTICLE.",
+ "spans": [
+  {
+   "start": 683,
+   "end": 699,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 4546,
+   "end": 4558,
+   "label": "AMOUNT",
+   "text": "Fr. 5'015.50"
+  },
+  {
+   "start": 4996,
+   "end": 5007,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 5135,
+   "end": 5168,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 6 BGG"
+  },
+  {
+   "start": 5216,
+   "end": 5227,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 5249,
+   "end": 5290,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 i.V.m.\nArt. 45 Abs. 1 BGG"
+  },
+  {
+   "start": 5397,
+   "end": 5415,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 4 BGG"
+  },
+  {
+   "start": 5473,
+   "end": 5498,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 4 lit. b BGG"
+  },
+  {
+   "start": 5506,
+   "end": 5519,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 3 Abs. 1"
+  },
+  {
+   "start": 5868,
+   "end": 5886,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 5940,
+   "end": 5952,
+   "label": "STATUTE",
+   "text": "Art. 445 ZGB"
+  },
+  {
+   "start": 5967,
+   "end": 5978,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 6212,
+   "end": 6227,
+   "label": "BGE",
+   "text": "BGE 133 III 585"
+  },
+  {
+   "start": 6327,
+   "end": 6346,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 6802,
+   "end": 6816,
+   "label": "BGE",
+   "text": "BGE 146 IV 114"
+  },
+  {
+   "start": 6943,
+   "end": 6956,
+   "label": "BGE",
+   "text": "BGE 145 I 121"
+  },
+  {
+   "start": 7448,
+   "end": 7467,
+   "label": "STATUTE",
+   "text": "Art. 445 Abs. 1 ZGB"
+  },
+  {
+   "start": 8170,
+   "end": 8181,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 8834,
+   "end": 8864,
+   "label": "STATUTE",
+   "text": "Artikeln 8, 9 und 29 Abs. 1 BV"
+  },
+  {
+   "start": 10109,
+   "end": 10120,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 10123,
+   "end": 10138,
+   "label": "BGE",
+   "text": "BGE 146 III 203"
+  },
+  {
+   "start": 10149,
+   "end": 10160,
+   "label": "BGE",
+   "text": "143 III 290"
+  },
+  {
+   "start": 10835,
+   "end": 10851,
+   "label": "STATUTE",
+   "text": "Art. 450 ff. ZGB"
+  },
+  {
+   "start": 10880,
+   "end": 10895,
+   "label": "BGE",
+   "text": "BGE 140 III 385"
+  },
+  {
+   "start": 11040,
+   "end": 11049,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 11106,
+   "end": 11117,
+   "label": "BARE_ARTICLE",
+   "text": "§ 66 Abs. 2"
+  },
+  {
+   "start": 11288,
+   "end": 11292,
+   "label": "BARE_ARTICLE",
+   "text": "§ 21"
+  },
+  {
+   "start": 11871,
+   "end": 11889,
+   "label": "OTHER_LAW",
+   "text": "§ 21 Abs. 1 VPO/BL"
+  },
+  {
+   "start": 13176,
+   "end": 13185,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 13406,
+   "end": 13424,
+   "label": "OTHER_LAW",
+   "text": "§ 21 Abs. 1 VPO/BL"
+  },
+  {
+   "start": 13615,
+   "end": 13626,
+   "label": "DOCKET",
+   "text": "9C_350/2016"
+  },
+  {
+   "start": 13651,
+   "end": 13662,
+   "label": "DOCKET",
+   "text": "9C_911/2007"
+  },
+  {
+   "start": 13689,
+   "end": 13700,
+   "label": "DOCKET",
+   "text": "1P.668/2002"
+  },
+  {
+   "start": 13805,
+   "end": 13830,
+   "label": "OTHER_LAW",
+   "text": "§ 21 Abs. 1 Satz 1 VPO/BL"
+  },
+  {
+   "start": 13896,
+   "end": 13911,
+   "label": "BGE",
+   "text": "BGE 130 III 213"
+  },
+  {
+   "start": 14057,
+   "end": 14070,
+   "label": "BGE",
+   "text": "BGE 144 I 113"
+  },
+  {
+   "start": 15592,
+   "end": 15610,
+   "label": "OTHER_LAW",
+   "text": "§ 21 Abs. 1 VPO/BL"
+  },
+  {
+   "start": 15637,
+   "end": 15648,
+   "label": "DOCKET",
+   "text": "9C_350/2016"
+  },
+  {
+   "start": 15733,
+   "end": 15750,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BV"
+  },
+  {
+   "start": 16702,
+   "end": 16717,
+   "label": "BGE",
+   "text": "BGE 140 III 385"
+  },
+  {
+   "start": 17715,
+   "end": 17739,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 5 BGG"
+  },
+  {
+   "start": 17780,
+   "end": 17798,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 3 BGG"
+  },
+  {
+   "start": 17929,
+   "end": 17941,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  }
+ ],
+ "n_pre": 43,
+ "n_deleted": 1,
+ "n_added": 1,
+ "n_relabeled": 0
+}

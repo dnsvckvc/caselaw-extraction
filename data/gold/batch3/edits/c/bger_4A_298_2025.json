@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  47
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 30 des Reglements über die Registrierung und den Transfer von Spielern des FVF",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "#47 extended to the full name of the FVF regulation (association rules, no SR number); stops before the bracketed Spanish title."
+}

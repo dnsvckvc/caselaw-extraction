@@ -1,0 +1,16 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 93 Abs. 1 lit. b BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 93 Abs. 1 lit. a BGG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Two Art. 93 Abs. 1 lit. a/b BGG citations broken across line breaks were missed by the pre-annotator."
+}

@@ -1,0 +1,24 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [
+  {
+   "id": 48,
+   "label": "STATUTE"
+  },
+  {
+   "id": 58,
+   "label": "STATUTE"
+  },
+  {
+   "id": 60,
+   "label": "STATUTE"
+  },
+  {
+   "id": 62,
+   "label": "STATUTE"
+  }
+ ],
+ "add": [],
+ "comment": "CISG is a ratified treaty with a Fedlex abbreviation (SR 0.221.211.1, the decision itself calls it Swiss federal law), so the four CISG citations are STATUTE, not OTHER_LAW. BGB citations stay OTHER_LAW. Outcome: item 1 rules on the subsidiary constitutional complaint (nicht eingetreten), item 2 dismisses the civil appeal; two appeals with different results, took the first per guideline."
+}

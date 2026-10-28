@@ -1,0 +1,18 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  32
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 79/80",
+   "label": "BARE_ARTICLE"
+  },
+  {
+   "text": "ST 2003 S. 1098",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "#32 BARE_ARTICLE Art. 79 extended to Art. 79/80 (N. 53 ff. zu Art. 79/80). Added JOURNAL_REF ST 2003 S. 1098 (Der Schweizer Treuhaender, f. excluded). Cantonal number AB.2020.37-AS and Police Nr. xxx left unlabelled."
+}

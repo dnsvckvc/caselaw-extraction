@@ -1,0 +1,82 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  53,
+  54,
+  55,
+  56,
+  62,
+  67,
+  68,
+  69,
+  70
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Ziffer 8 AGB-D",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Ziffer 8.2 AGB-D",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Ziffer. 8.2 AGB-D",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Art. 26 Abs. 1",
+   "label": "BARE_ARTICLE"
+  },
+  {
+   "text": "Ziffer 14 Anlage 1 des Rahmenvertrags",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 2
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 3
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 4
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 6
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 7
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 8
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 9
+  },
+  {
+   "text": "Ziffer 14 Anlage 1",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 10
+  }
+ ],
+ "comment": "#53-55, #56, #67-70: abbreviation is AGB-D, spans extended to include -D (3x Ziffer 8 AGB-D, 5x Ziffer 8.2 AGB-D). Added 2x Ziffer. 8.2 AGB-D (typo dot after Ziffer, still a clause reference). #62: Verordnung with SR number [AVV; SR 823.111] is an act, relabelled by delete+add to BARE_ARTICLE Art. 26 Abs. 1. Added 10x Ziffer 14 Anlage 1 (2 of them with des Rahmenvertrags) as CONTRACT_ARTICLE: clause of the annex to the Rahmenvertrag, parallel to Ziffer 8 AGB-D; not pre-annotated. Ziffer 4 / Ziffer 14 / Ziffer 8 with the instrument named only before the number (umschreibt in Ziffer 4, Anlage 1 ... in Ziffer 14, AGB-D in Ziffer 8): no span. Clause numbers 8.1/8.2 inside the quoted AGB text: labels, no span. #41 Art. 105 Abs. 1 ZPO (court probably meant BGG) kept as written. ZB.2022.27 cantonal, SR numbers: no span."
+}

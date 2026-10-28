@@ -1,0 +1,271 @@
+{
+ "decision_id": "bger_5A_773_2021",
+ "task_index": 84,
+ "pass": "c",
+ "outcome": "approved",
+ "comment": "",
+ "spans": [
+  {
+   "start": 365,
+   "end": 381,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 492,
+   "end": 513,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerinnen"
+  },
+  {
+   "start": 4029,
+   "end": 4040,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 4107,
+   "end": 4118,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 4325,
+   "end": 4369,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 und Abs. 2 Bst. b Ziff. 6 BGG"
+  },
+  {
+   "start": 4551,
+   "end": 4563,
+   "label": "STATUTE",
+   "text": "Art. 113 BGG"
+  },
+  {
+   "start": 4597,
+   "end": 4615,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 4682,
+   "end": 4701,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 5006,
+   "end": 5020,
+   "label": "BGE",
+   "text": "BGE 134 II 142"
+  },
+  {
+   "start": 5230,
+   "end": 5241,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 5244,
+   "end": 5259,
+   "label": "BGE",
+   "text": "BGE 141 III 188"
+  },
+  {
+   "start": 5397,
+   "end": 5411,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 5492,
+   "end": 5511,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 5798,
+   "end": 5816,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 6223,
+   "end": 6237,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 6248,
+   "end": 6258,
+   "label": "BGE",
+   "text": "140 III 86"
+  },
+  {
+   "start": 6375,
+   "end": 6394,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 6397,
+   "end": 6411,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 6547,
+   "end": 6566,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 6723,
+   "end": 6732,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 6801,
+   "end": 6812,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 6834,
+   "end": 6851,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 6857,
+   "end": 6867,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 7019,
+   "end": 7057,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 und\nArt. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 7098,
+   "end": 7117,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 7329,
+   "end": 7343,
+   "label": "BGE",
+   "text": "BGE 141 IV 317"
+  },
+  {
+   "start": 7352,
+   "end": 7363,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 7779,
+   "end": 7804,
+   "label": "STATUTE",
+   "text": "Art. 444 Abs. 1 und 2 ZGB"
+  },
+  {
+   "start": 9500,
+   "end": 9542,
+   "label": "STATUTE",
+   "text": "Art. 314 Abs. 1 i.V.m.\nArt. 442 Abs. 1 ZGB"
+  },
+  {
+   "start": 9729,
+   "end": 9771,
+   "label": "STATUTE",
+   "text": "Art. 314 Abs. 1 i.V.m.\nArt. 442 Abs. 5 ZGB"
+  },
+  {
+   "start": 9841,
+   "end": 9883,
+   "label": "STATUTE",
+   "text": "Art. 314 Abs. 1 i.V.m.\nArt. 444 Abs. 1 ZGB"
+  },
+  {
+   "start": 10644,
+   "end": 10656,
+   "label": "BGE",
+   "text": "BGE 142 V 67"
+  },
+  {
+   "start": 11411,
+   "end": 11427,
+   "label": "STATUTE",
+   "text": "Art. 5 Abs. 3 BV"
+  },
+  {
+   "start": 11835,
+   "end": 11854,
+   "label": "STATUTE",
+   "text": "Art. 442 Abs. 5 ZGB"
+  },
+  {
+   "start": 12777,
+   "end": 12796,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 12906,
+   "end": 12924,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 13000,
+   "end": 13024,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 13058,
+   "end": 13071,
+   "label": "BGE",
+   "text": "BGE 141 V 281"
+  },
+  {
+   "start": 13149,
+   "end": 13160,
+   "label": "DOCKET",
+   "text": "5A_734/2015"
+  },
+  {
+   "start": 13210,
+   "end": 13224,
+   "label": "BGE",
+   "text": "BGE 142 III 36"
+  },
+  {
+   "start": 13361,
+   "end": 13379,
+   "label": "STATUTE",
+   "text": "Art. 32 Abs. 1 BGG"
+  },
+  {
+   "start": 13806,
+   "end": 13818,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  },
+  {
+   "start": 13928,
+   "end": 13940,
+   "label": "AMOUNT",
+   "text": "Fr. 3'500.--"
+  }
+ ],
+ "n_pre": 43,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

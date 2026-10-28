@@ -1,0 +1,439 @@
+{
+ "decision_id": "bger_4F_1_2021",
+ "task_index": 48,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "Added STATUTE range 'Art. 121 - 123 BGG' (E. 1, missed because of spaces around the dash and line breaks). #3 and later DOCKET 4A_251/2020 are the revised judgment, not this decision's own number (4F_1/2021), so kept. #52 '4A_252/2020' is a typo in the decision but still a docket form; kept.",
+ "spans": [
+  {
+   "start": 360,
+   "end": 373,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsteller"
+  },
+  {
+   "start": 452,
+   "end": 467,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsgegnerin"
+  },
+  {
+   "start": 672,
+   "end": 683,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 1345,
+   "end": 1361,
+   "label": "AMOUNT",
+   "text": "Fr. 1'606'896.--"
+  },
+  {
+   "start": 1835,
+   "end": 1851,
+   "label": "AMOUNT",
+   "text": "Fr. 2'465'488.44"
+  },
+  {
+   "start": 1976,
+   "end": 1992,
+   "label": "AMOUNT",
+   "text": "Fr. 3'878'859.60"
+  },
+  {
+   "start": 2382,
+   "end": 2396,
+   "label": "AMOUNT",
+   "text": "Fr. 452'102.80"
+  },
+  {
+   "start": 2524,
+   "end": 2540,
+   "label": "AMOUNT",
+   "text": "Fr. 1'980'348.10"
+  },
+  {
+   "start": 2800,
+   "end": 2814,
+   "label": "STATUTE",
+   "text": "Art. 260 SchKG"
+  },
+  {
+   "start": 3892,
+   "end": 3908,
+   "label": "AMOUNT",
+   "text": "Fr. 1'980'348.--"
+  },
+  {
+   "start": 4132,
+   "end": 4146,
+   "label": "AMOUNT",
+   "text": "Fr. 236'278.--"
+  },
+  {
+   "start": 4296,
+   "end": 4310,
+   "label": "AMOUNT",
+   "text": "Fr. 452'102.--"
+  },
+  {
+   "start": 4906,
+   "end": 4922,
+   "label": "AMOUNT",
+   "text": "Fr. 2'196'626.35"
+  },
+  {
+   "start": 5440,
+   "end": 5453,
+   "label": "AMOUNT",
+   "text": "Fr. 15'000.--"
+  },
+  {
+   "start": 6046,
+   "end": 6087,
+   "label": "STATUTE",
+   "text": "Art. 717 Abs. 1 i.V.m.\nArt. 754 Abs. 1 OR"
+  },
+  {
+   "start": 6121,
+   "end": 6137,
+   "label": "AMOUNT",
+   "text": "Fr. 1'980'348.--"
+  },
+  {
+   "start": 6299,
+   "end": 6310,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 6918,
+   "end": 6929,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 7141,
+   "end": 7157,
+   "label": "AMOUNT",
+   "text": "Fr. 1'980'348.--"
+  },
+  {
+   "start": 7370,
+   "end": 7381,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 7538,
+   "end": 7552,
+   "label": "AMOUNT",
+   "text": "Fr. 216'278.36"
+  },
+  {
+   "start": 7664,
+   "end": 7675,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 7790,
+   "end": 7801,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 8596,
+   "end": 8607,
+   "label": "STATUTE",
+   "text": "Art. 61 BGG"
+  },
+  {
+   "start": 8892,
+   "end": 8910,
+   "label": "STATUTE",
+   "text": "Art. 121 - 123 BGG"
+  },
+  {
+   "start": 8971,
+   "end": 8980,
+   "label": "DOCKET",
+   "text": "4F_7/2020"
+  },
+  {
+   "start": 9291,
+   "end": 9304,
+   "label": "BGE",
+   "text": "BGE 144 I 214"
+  },
+  {
+   "start": 9365,
+   "end": 9394,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und Abs. 2 BGG"
+  },
+  {
+   "start": 9443,
+   "end": 9452,
+   "label": "DOCKET",
+   "text": "4F_7/2020"
+  },
+  {
+   "start": 9471,
+   "end": 9481,
+   "label": "DOCKET",
+   "text": "4F_17/2018"
+  },
+  {
+   "start": 9510,
+   "end": 9520,
+   "label": "DOCKET",
+   "text": "4F_24/2017"
+  },
+  {
+   "start": 9549,
+   "end": 9559,
+   "label": "DOCKET",
+   "text": "4F_16/2018"
+  },
+  {
+   "start": 9588,
+   "end": 9597,
+   "label": "DOCKET",
+   "text": "4F_7/2017"
+  },
+  {
+   "start": 9897,
+   "end": 9910,
+   "label": "BGE",
+   "text": "BGE 144 I 214"
+  },
+  {
+   "start": 10058,
+   "end": 10067,
+   "label": "DOCKET",
+   "text": "4F_7/2020"
+  },
+  {
+   "start": 10078,
+   "end": 10088,
+   "label": "DOCKET",
+   "text": "4F_17/2018"
+  },
+  {
+   "start": 10097,
+   "end": 10107,
+   "label": "DOCKET",
+   "text": "4F_16/2018"
+  },
+  {
+   "start": 10279,
+   "end": 10305,
+   "label": "STATUTE",
+   "text": "Art. 123 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 10516,
+   "end": 10527,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 11113,
+   "end": 11124,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 11223,
+   "end": 11239,
+   "label": "AMOUNT",
+   "text": "Fr. 1'980'348.--"
+  },
+  {
+   "start": 12381,
+   "end": 12397,
+   "label": "AMOUNT",
+   "text": "Fr. 1'980'348.--"
+  },
+  {
+   "start": 12701,
+   "end": 12727,
+   "label": "STATUTE",
+   "text": "Art. 123 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 13818,
+   "end": 13844,
+   "label": "STATUTE",
+   "text": "Art. 123 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 14079,
+   "end": 14088,
+   "label": "DOCKET",
+   "text": "4F_7/2020"
+  },
+  {
+   "start": 14528,
+   "end": 14544,
+   "label": "AMOUNT",
+   "text": "Fr. 1'980'348.--"
+  },
+  {
+   "start": 14736,
+   "end": 14750,
+   "label": "AMOUNT",
+   "text": "Fr. 216'278.36"
+  },
+  {
+   "start": 16252,
+   "end": 16263,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 16758,
+   "end": 16777,
+   "label": "STATUTE",
+   "text": "Art. 317 Abs. 1 ZPO"
+  },
+  {
+   "start": 16814,
+   "end": 16825,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 16852,
+   "end": 16863,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 16980,
+   "end": 16999,
+   "label": "STATUTE",
+   "text": "Art. 317 Abs. 1 ZPO"
+  },
+  {
+   "start": 17326,
+   "end": 17337,
+   "label": "DOCKET",
+   "text": "4A_252/2020"
+  },
+  {
+   "start": 17522,
+   "end": 17541,
+   "label": "STATUTE",
+   "text": "Art. 317 Abs. 1 ZPO"
+  },
+  {
+   "start": 17783,
+   "end": 17796,
+   "label": "BGE",
+   "text": "BGE 98 II 250"
+  },
+  {
+   "start": 18030,
+   "end": 18049,
+   "label": "STATUTE",
+   "text": "Art. 317 Abs. 1 ZPO"
+  },
+  {
+   "start": 18437,
+   "end": 18446,
+   "label": "DOCKET",
+   "text": "4F_7/2020"
+  },
+  {
+   "start": 18479,
+   "end": 18489,
+   "label": "DOCKET",
+   "text": "5F_19/2018"
+  },
+  {
+   "start": 18519,
+   "end": 18528,
+   "label": "DOCKET",
+   "text": "4F_7/2018"
+  },
+  {
+   "start": 18570,
+   "end": 18580,
+   "label": "DOCKET",
+   "text": "2F_11/2007"
+  },
+  {
+   "start": 19111,
+   "end": 19122,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 19935,
+   "end": 19945,
+   "label": "STATUTE",
+   "text": "Art. 53 OR"
+  },
+  {
+   "start": 20052,
+   "end": 20063,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 20718,
+   "end": 20729,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 24849,
+   "end": 24860,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 25067,
+   "end": 25078,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 25993,
+   "end": 26012,
+   "label": "STATUTE",
+   "text": "Art. 121 lit. a BGG"
+  },
+  {
+   "start": 26398,
+   "end": 26459,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und Abs. 5 sowie\nArt. 68 Abs. 2 und Abs. 4 BGG"
+  },
+  {
+   "start": 26539,
+   "end": 26550,
+   "label": "DOCKET",
+   "text": "4A_251/2020"
+  },
+  {
+   "start": 26627,
+   "end": 26640,
+   "label": "AMOUNT",
+   "text": "Fr. 18'000.--"
+  },
+  {
+   "start": 26800,
+   "end": 26813,
+   "label": "AMOUNT",
+   "text": "Fr. 20'000.--"
+  }
+ ],
+ "n_pre": 70,
+ "n_deleted": 0,
+ "n_added": 1,
+ "n_relabeled": 0
+}

@@ -1,0 +1,14 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    33
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "MRA 2014, S. 90",
+      "label": "JOURNAL_REF"
+    }
+  ],
+  "comment": "#33 MRA 2014 cut before the page; re-drawn as MRA 2014, S. 90 (comma between year and S. kept inside the span; ff./f. excluded)."
+}

@@ -1,0 +1,379 @@
+{
+ "decision_id": "bger_5A_69_2020",
+ "task_index": 61,
+ "pass": "c",
+ "outcome": "approved",
+ "comment": "Item 1 grants the Eventualbegehren only (aufgehoben, zurückgewiesen); kept approved.",
+ "spans": [
+  {
+   "start": 349,
+   "end": 365,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 430,
+   "end": 448,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 868,
+   "end": 878,
+   "label": "AMOUNT",
+   "text": "Fr. 600.--"
+  },
+  {
+   "start": 918,
+   "end": 928,
+   "label": "AMOUNT",
+   "text": "Fr. 650.--"
+  },
+  {
+   "start": 972,
+   "end": 982,
+   "label": "AMOUNT",
+   "text": "Fr. 700.--"
+  },
+  {
+   "start": 3731,
+   "end": 3777,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1,\nArt. 75 Abs. 1 und\nArt. 91 BGG"
+  },
+  {
+   "start": 4841,
+   "end": 4851,
+   "label": "DOCKET",
+   "text": "5A_75/2020"
+  },
+  {
+   "start": 5074,
+   "end": 5115,
+   "label": "STATUTE",
+   "text": "Art. 131a Abs. 2 oder\nArt. 289 Abs. 2 ZGB"
+  },
+  {
+   "start": 5513,
+   "end": 5528,
+   "label": "BGE",
+   "text": "BGE 137 III 193"
+  },
+  {
+   "start": 5690,
+   "end": 5702,
+   "label": "STATUTE",
+   "text": "Art. 291 ZGB"
+  },
+  {
+   "start": 6531,
+   "end": 6550,
+   "label": "STATUTE",
+   "text": "Art. 289 Abs. 2 ZGB"
+  },
+  {
+   "start": 6569,
+   "end": 6580,
+   "label": "DOCKET",
+   "text": "5A_634/2013"
+  },
+  {
+   "start": 7093,
+   "end": 7104,
+   "label": "DOCKET",
+   "text": "5A_499/2015"
+  },
+  {
+   "start": 7616,
+   "end": 7631,
+   "label": "BGE",
+   "text": "BGE 143 III 177"
+  },
+  {
+   "start": 7671,
+   "end": 7686,
+   "label": "BGE",
+   "text": "BGE 137 III 193"
+  },
+  {
+   "start": 7857,
+   "end": 7876,
+   "label": "STATUTE",
+   "text": "Art. 289 Abs. 2 ZGB"
+  },
+  {
+   "start": 9190,
+   "end": 9201,
+   "label": "DOCKET",
+   "text": "5A_643/2016"
+  },
+  {
+   "start": 9221,
+   "end": 9232,
+   "label": "DOCKET",
+   "text": "5A_847/2018"
+  },
+  {
+   "start": 9255,
+   "end": 9266,
+   "label": "DOCKET",
+   "text": "5A_694/2019"
+  },
+  {
+   "start": 9289,
+   "end": 9300,
+   "label": "DOCKET",
+   "text": "5A_943/2019"
+  },
+  {
+   "start": 9348,
+   "end": 9359,
+   "label": "DOCKET",
+   "text": "5D_211/2019"
+  },
+  {
+   "start": 9433,
+   "end": 9448,
+   "label": "BGE",
+   "text": "BGE 143 III 177"
+  },
+  {
+   "start": 9658,
+   "end": 9669,
+   "label": "DOCKET",
+   "text": "5A_694/2019"
+  },
+  {
+   "start": 9774,
+   "end": 9789,
+   "label": "BGE",
+   "text": "BGE 143 III 177"
+  },
+  {
+   "start": 10604,
+   "end": 10623,
+   "label": "STATUTE",
+   "text": "Art. 286 Abs. 2 ZGB"
+  },
+  {
+   "start": 10628,
+   "end": 10639,
+   "label": "STATUTE",
+   "text": "Art. 169 OR"
+  },
+  {
+   "start": 10650,
+   "end": 10660,
+   "label": "STATUTE",
+   "text": "Art. 49 BV"
+  },
+  {
+   "start": 11542,
+   "end": 11560,
+   "label": "STATUTE",
+   "text": "Art. 83 Abs. 1 ZPO"
+  },
+  {
+   "start": 11777,
+   "end": 11795,
+   "label": "STATUTE",
+   "text": "Art. 83 Abs. 1 ZPO"
+  },
+  {
+   "start": 11945,
+   "end": 11960,
+   "label": "BGE",
+   "text": "BGE 143 III 177"
+  },
+  {
+   "start": 12198,
+   "end": 12209,
+   "label": "STATUTE",
+   "text": "Art. 56 ZPO"
+  },
+  {
+   "start": 12487,
+   "end": 12505,
+   "label": "STATUTE",
+   "text": "Art. 70 Abs. 2 ZPO"
+  },
+  {
+   "start": 12977,
+   "end": 12988,
+   "label": "STATUTE",
+   "text": "Art. 52 ZPO"
+  },
+  {
+   "start": 12994,
+   "end": 13004,
+   "label": "STATUTE",
+   "text": "Art. 29 BV"
+  },
+  {
+   "start": 14209,
+   "end": 14228,
+   "label": "STATUTE",
+   "text": "Art. 289 Abs. 2 ZGB"
+  },
+  {
+   "start": 14268,
+   "end": 14286,
+   "label": "STATUTE",
+   "text": "Art. 170 Abs. 1 OR"
+  },
+  {
+   "start": 15219,
+   "end": 15230,
+   "label": "STATUTE",
+   "text": "Art. 83 ZPO"
+  },
+  {
+   "start": 15799,
+   "end": 15817,
+   "label": "STATUTE",
+   "text": "Art. 70 Abs. 2 ZPO"
+  },
+  {
+   "start": 17310,
+   "end": 17328,
+   "label": "STATUTE",
+   "text": "Art. 171 Abs. 1 OR"
+  },
+  {
+   "start": 17376,
+   "end": 17397,
+   "label": "OTHER_LAW",
+   "text": "Art. 10 Abs. 3 GIB/BE"
+  },
+  {
+   "start": 18833,
+   "end": 18844,
+   "label": "STATUTE",
+   "text": "Art. 83 ZPO"
+  },
+  {
+   "start": 18865,
+   "end": 18880,
+   "label": "BGE",
+   "text": "BGE 143 III 177"
+  },
+  {
+   "start": 19252,
+   "end": 19263,
+   "label": "STATUTE",
+   "text": "Art. 83 ZPO"
+  },
+  {
+   "start": 19331,
+   "end": 19342,
+   "label": "STATUTE",
+   "text": "Art. 70 ZPO"
+  },
+  {
+   "start": 19667,
+   "end": 19678,
+   "label": "STATUTE",
+   "text": "Art. 70 ZPO"
+  },
+  {
+   "start": 20003,
+   "end": 20021,
+   "label": "STATUTE",
+   "text": "Art. 70 Abs. 2 ZPO"
+  },
+  {
+   "start": 20403,
+   "end": 20414,
+   "label": "STATUTE",
+   "text": "Art. 70 ZPO"
+  },
+  {
+   "start": 20471,
+   "end": 20482,
+   "label": "STATUTE",
+   "text": "Art. 70 ZPO"
+  },
+  {
+   "start": 20575,
+   "end": 20586,
+   "label": "STATUTE",
+   "text": "Art. 83 ZPO"
+  },
+  {
+   "start": 20699,
+   "end": 20714,
+   "label": "BGE",
+   "text": "BGE 143 III 177"
+  },
+  {
+   "start": 20741,
+   "end": 20752,
+   "label": "DOCKET",
+   "text": "5A_634/2013"
+  },
+  {
+   "start": 20779,
+   "end": 20790,
+   "label": "DOCKET",
+   "text": "5A_694/2019"
+  },
+  {
+   "start": 20973,
+   "end": 20983,
+   "label": "DOCKET",
+   "text": "5A_75/2020"
+  },
+  {
+   "start": 21311,
+   "end": 21321,
+   "label": "DOCKET",
+   "text": "5A_75/2020"
+  },
+  {
+   "start": 21609,
+   "end": 21621,
+   "label": "STATUTE",
+   "text": "Art. 276 ZGB"
+  },
+  {
+   "start": 21706,
+   "end": 21725,
+   "label": "STATUTE",
+   "text": "Art. 289 Abs. 2 ZGB"
+  },
+  {
+   "start": 22690,
+   "end": 22700,
+   "label": "DOCKET",
+   "text": "5A_75/2020"
+  },
+  {
+   "start": 23558,
+   "end": 23576,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 5 BGG"
+  },
+  {
+   "start": 23673,
+   "end": 23691,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 23837,
+   "end": 23861,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 24765,
+   "end": 24777,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 61,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

@@ -1,0 +1,85 @@
+{
+ "decision_id": "bger_4A_153_2025",
+ "task_index": 70,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 266,
+   "end": 284,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 310,
+   "end": 328,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1991,
+   "end": 2009,
+   "label": "STATUTE",
+   "text": "Art. 40 Abs. 1 BGG"
+  },
+  {
+   "start": 2433,
+   "end": 2451,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 5 BGG"
+  },
+  {
+   "start": 2603,
+   "end": 2614,
+   "label": "STATUTE",
+   "text": "Art. 40 BGG"
+  },
+  {
+   "start": 3146,
+   "end": 3157,
+   "label": "STATUTE",
+   "text": "Art. 40 BGG"
+  },
+  {
+   "start": 4045,
+   "end": 4063,
+   "label": "STATUTE",
+   "text": "Art. 44 Abs. 2 BGG"
+  },
+  {
+   "start": 5350,
+   "end": 5368,
+   "label": "STATUTE",
+   "text": "Art. 40 Abs. 1 BGG"
+  },
+  {
+   "start": 5466,
+   "end": 5492,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 5586,
+   "end": 5604,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 3 BGG"
+  },
+  {
+   "start": 5765,
+   "end": 5783,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 5895,
+   "end": 5905,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 12,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

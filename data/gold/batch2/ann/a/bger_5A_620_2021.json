@@ -1,0 +1,79 @@
+{
+ "decision_id": "bger_5A_620_2021",
+ "task_index": 20,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "All 11 pre-annotations correct. KESB and the child C. have no role word in the header.",
+ "spans": [
+  {
+   "start": 573,
+   "end": 589,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 664,
+   "end": 682,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 3225,
+   "end": 3236,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 3519,
+   "end": 3530,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 3594,
+   "end": 3613,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3848,
+   "end": 3862,
+   "label": "BGE",
+   "text": "BGE 133 II 396"
+  },
+  {
+   "start": 3878,
+   "end": 3889,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4701,
+   "end": 4733,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 5211,
+   "end": 5229,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5380,
+   "end": 5398,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 5580,
+   "end": 5590,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 11,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

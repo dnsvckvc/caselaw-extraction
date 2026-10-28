@@ -1,0 +1,9 @@
+{
+  "outcome": "inadmissible",
+  "delete": [9],
+  "relabel": [],
+  "add": [
+    {"text": "§ 66 Abs. 1 EG ZGB/BL", "label": "OTHER_LAW"}
+  ],
+  "comment": "#9 cut the cantonal abbreviation short ('EG' without 'ZGB/BL'); replaced by the full span."
+}

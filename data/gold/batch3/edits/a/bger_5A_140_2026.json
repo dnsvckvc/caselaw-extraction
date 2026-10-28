@@ -1,0 +1,7 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "All 87 pre-annotations checked; none wrong, none missing. Ziffern 3 und 5 of the Teilvereinbarung (in deren Ziffern 3 ... und 5) have no instrument name after the number and no Art., so no span. 10/2024/23/E is a cantonal file number."
+}

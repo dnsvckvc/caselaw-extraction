@@ -1,0 +1,133 @@
+{
+ "decision_id": "bger_4A_376_2023",
+ "task_index": 103,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "all 20 pre-annotations confirmed. Twice the garbled citation BGE0 III 86 E. 2, 115 E. 2 (volume number lost in extraction, should be BGE 140 III 86): left unlabelled including the short citation 115, because the volume is unknown; guideline does not settle it",
+ "spans": [
+  {
+   "start": 261,
+   "end": 279,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 353,
+   "end": 371,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 424,
+   "end": 440,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 2075,
+   "end": 2094,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 2103,
+   "end": 2121,
+   "label": "STATUTE",
+   "text": "Art. 44 Abs. 1 BGG"
+  },
+  {
+   "start": 2364,
+   "end": 2382,
+   "label": "STATUTE",
+   "text": "Art. 48 Abs. 1 BGG"
+  },
+  {
+   "start": 2603,
+   "end": 2621,
+   "label": "STATUTE",
+   "text": "Art. 44 Abs. 2 BGG"
+  },
+  {
+   "start": 3443,
+   "end": 3469,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 3865,
+   "end": 3883,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4121,
+   "end": 4140,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4178,
+   "end": 4216,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4758,
+   "end": 4777,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 4983,
+   "end": 4994,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 5092,
+   "end": 5130,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 und\nArt. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 6473,
+   "end": 6499,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 6728,
+   "end": 6738,
+   "label": "DOCKET",
+   "text": "4A_20/2011"
+  },
+  {
+   "start": 6849,
+   "end": 6867,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 6974,
+   "end": 6992,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 7044,
+   "end": 7055,
+   "label": "STATUTE",
+   "text": "Art. 68 BGG"
+  },
+  {
+   "start": 7418,
+   "end": 7428,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 20,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

@@ -1,0 +1,35 @@
+{
+  "outcome": "inadmissible",
+  "delete": [
+    55,
+    59,
+    79,
+    81,
+    85,
+    89,
+    94,
+    74
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 24.7 GAV",
+      "label": "CONTRACT_ARTICLE",
+      "all": true
+    },
+    {
+      "text": "Art. 24.6 GAV",
+      "label": "CONTRACT_ARTICLE",
+      "all": true
+    },
+    {
+      "text": "Art. 24.8 GAV",
+      "label": "CONTRACT_ARTICLE"
+    },
+    {
+      "text": "Art. 5.2 und 5.3 des GAV",
+      "label": "CONTRACT_ARTICLE"
+    }
+  ],
+  "comment": "Art. 24.6/24.7/24.8 GAV and Art. 5.2 und 5.3 des GAV were cut at the article number and labelled BARE_ARTICLE; the GAV is a named instrument -> CONTRACT_ARTICLE. Art. 15 (Der GAV enthalte in Art. 15) stays BARE_ARTICLE because no instrument follows the number. Outcome: two appeals with different results (item 1 Beschwerde in Zivilsachen nicht eingetreten, item 2 Verfassungsbeschwerde abgewiesen) -> first item, inadmissible. Header role word is Beschwerdeführer although the party is female; kept as written."
+}

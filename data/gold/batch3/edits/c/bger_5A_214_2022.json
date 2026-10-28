@@ -1,0 +1,39 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  20,
+  21,
+  22,
+  23,
+  24,
+  26,
+  27,
+  33,
+  34,
+  39,
+  40
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 7 Abs. 1 lit. b EG ZPO/GL",
+   "label": "OTHER_LAW",
+   "all": true
+  },
+  {
+   "text": "Art. 7 Abs. 1 EG ZPO/GL",
+   "label": "OTHER_LAW",
+   "all": true
+  },
+  {
+   "text": "Art. 9a Abs. 4 EG ZGB/GL",
+   "label": "OTHER_LAW",
+   "all": true
+  },
+  {
+   "text": "Art. 108 Abs. 2 EG ZGB/GL",
+   "label": "OTHER_LAW"
+  }
+ ],
+ "comment": "Pre-annotator cut the EG ZPO/GL and EG ZGB/GL abbreviations after 'EG'; extended to the full cantonal abbreviation."
+}

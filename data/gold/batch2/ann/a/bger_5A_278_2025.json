@@ -1,0 +1,67 @@
+{
+ "decision_id": "bger_5A_278_2025",
+ "task_index": 72,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "Item 1 only decides the Fristwiederherstellungsgesuch (a side request not in the brief list); item 2 rules on the appeal: nicht eingetreten. Pre-annotated outcome dismissed was wrong.",
+ "spans": [
+  {
+   "start": 263,
+   "end": 279,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 1001,
+   "end": 1015,
+   "label": "AMOUNT",
+   "text": "Fr. 300'000.--"
+  },
+  {
+   "start": 2107,
+   "end": 2133,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 2335,
+   "end": 2346,
+   "label": "STATUTE",
+   "text": "Art. 50 BGG"
+  },
+  {
+   "start": 4587,
+   "end": 4601,
+   "label": "BGE",
+   "text": "BGE 142 IV 201"
+  },
+  {
+   "start": 5140,
+   "end": 5158,
+   "label": "STATUTE",
+   "text": "Art. 50 Abs. 1 BGG"
+  },
+  {
+   "start": 5395,
+   "end": 5421,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 5518,
+   "end": 5536,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5895,
+   "end": 5913,
+   "label": "STATUTE",
+   "text": "Art. 41 Abs. 1 BGG"
+  }
+ ],
+ "n_pre": 9,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

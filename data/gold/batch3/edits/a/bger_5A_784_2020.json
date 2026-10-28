@@ -1,0 +1,52 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  22,
+  33,
+  35,
+  44,
+  45,
+  46,
+  47,
+  52
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "§ 794 Abs. 1 Nr. 5 dt. ZPO",
+   "label": "OTHER_LAW"
+  },
+  {
+   "text": "Art. 3",
+   "label": "BARE_ARTICLE",
+   "occurrence": 3
+  },
+  {
+   "text": "Art. 1 EuroVO II",
+   "label": "OTHER_LAW"
+  },
+  {
+   "text": "Art. 14 EuroVO II",
+   "label": "OTHER_LAW"
+  },
+  {
+   "text": "Art. 1",
+   "label": "BARE_ARTICLE",
+   "occurrence": 4
+  },
+  {
+   "text": "ZR 114/2015 Nr. 12",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "BGHZ 99 274",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "DM 300'000.--",
+   "label": "AMOUNT",
+   "all": true
+  }
+ ],
+ "comment": "#33/#35 ZR 113, ZR 200 were parts of BGH file numbers (XI ZR 113/06): deleted, foreign file numbers get no span. #44/#47 CONTRACT_ARTICLE on EU regulations replaced by BARE_ARTICLE Art. 3 / Art. 1 (act given as title). #45/#46 extended to OTHER_LAW Art. 1 EuroVO II / Art. 14 EuroVO II (EU regulation under court-defined abbreviation; unsettled whether such an ad-hoc abbreviation counts). #22 extended to OTHER_LAW § 794 Abs. 1 Nr. 5 dt. ZPO (unsettled whether the qualifier dt. belongs inside). #52 extended to ZR 114/2015 Nr. 12. Added BGHZ 99 274 as JOURNAL_REF (foreign case collection). Left unlabelled: Entscheidungen des Bundesgerichtshofes in Zivilsachen [BGHZ] 185 133 (bracketed abbreviation inside the reference), Jusletter vom 7. November 2011 (journal cited by date only), DM 1,95583 = 1 Euro (exchange rate), RT140106 (cantonal file number). Kept #30 §§ 1191 ff. BGB with ff. inside because the abbreviation follows, by analogy with Art. 319 ff. ZPO."
+}

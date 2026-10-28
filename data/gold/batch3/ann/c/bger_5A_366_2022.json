@@ -1,0 +1,211 @@
+{
+ "decision_id": "bger_5A_366_2022",
+ "task_index": 82,
+ "pass": "c",
+ "outcome": "approved",
+ "comment": "",
+ "spans": [
+  {
+   "start": 709,
+   "end": 725,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 802,
+   "end": 818,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1295,
+   "end": 1320,
+   "label": "STATUTE",
+   "text": "Art. 308 Abs. 1 und 2 ZGB"
+  },
+  {
+   "start": 1378,
+   "end": 1397,
+   "label": "STATUTE",
+   "text": "Art. 325 Abs. 1 ZGB"
+  },
+  {
+   "start": 2477,
+   "end": 2489,
+   "label": "AMOUNT",
+   "text": "Fr. 1'410.--"
+  },
+  {
+   "start": 2578,
+   "end": 2590,
+   "label": "AMOUNT",
+   "text": "Fr. 1'203.--"
+  },
+  {
+   "start": 2940,
+   "end": 2952,
+   "label": "AMOUNT",
+   "text": "Fr. 1'410.--"
+  },
+  {
+   "start": 3580,
+   "end": 3591,
+   "label": "STATUTE",
+   "text": "Art. 91 BGG"
+  },
+  {
+   "start": 3902,
+   "end": 3916,
+   "label": "BGE",
+   "text": "BGE 137 III 47"
+  },
+  {
+   "start": 4002,
+   "end": 4035,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 6 BGG"
+  },
+  {
+   "start": 4295,
+   "end": 4313,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 4335,
+   "end": 4354,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 4720,
+   "end": 4759,
+   "label": "STATUTE",
+   "text": "Art. 450 ff. i.V.m.\nArt. 314 Abs. 1 ZGB"
+  },
+  {
+   "start": 4788,
+   "end": 4803,
+   "label": "BGE",
+   "text": "BGE 140 III 385"
+  },
+  {
+   "start": 5337,
+   "end": 5356,
+   "label": "OTHER_LAW",
+   "text": "§ 201 Abs. 1 VRG/LU"
+  },
+  {
+   "start": 5577,
+   "end": 5596,
+   "label": "OTHER_LAW",
+   "text": "§ 201 Abs. 2 VRG/LU"
+  },
+  {
+   "start": 5801,
+   "end": 5820,
+   "label": "OTHER_LAW",
+   "text": "§ 201 Abs. 2 VRG/LU"
+  },
+  {
+   "start": 6066,
+   "end": 6081,
+   "label": "BGE",
+   "text": "BGE 140 III 385"
+  },
+  {
+   "start": 6259,
+   "end": 6268,
+   "label": "DOCKET",
+   "text": "1D_4/2020"
+  },
+  {
+   "start": 6323,
+   "end": 6342,
+   "label": "OTHER_LAW",
+   "text": "§ 201 Abs. 2 VRG/LU"
+  },
+  {
+   "start": 6395,
+   "end": 6404,
+   "label": "DOCKET",
+   "text": "1D_4/2020"
+  },
+  {
+   "start": 7835,
+   "end": 7854,
+   "label": "OTHER_LAW",
+   "text": "§ 201 Abs. 2 VRG/LU"
+  },
+  {
+   "start": 8187,
+   "end": 8205,
+   "label": "JOURNAL_REF",
+   "text": "LGVE 2020 II Nr. 7"
+  },
+  {
+   "start": 8635,
+   "end": 8654,
+   "label": "OTHER_LAW",
+   "text": "§ 201 Abs. 2 VRG/LU"
+  },
+  {
+   "start": 9022,
+   "end": 9034,
+   "label": "DOCKET",
+   "text": "5A_1000/2015"
+  },
+  {
+   "start": 9265,
+   "end": 9274,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 9300,
+   "end": 9315,
+   "label": "BGE",
+   "text": "BGE 135 III 232"
+  },
+  {
+   "start": 9331,
+   "end": 9341,
+   "label": "DOCKET",
+   "text": "4A_75/2011"
+  },
+  {
+   "start": 9845,
+   "end": 9857,
+   "label": "AMOUNT",
+   "text": "Fr. 1'410.--"
+  },
+  {
+   "start": 10071,
+   "end": 10089,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 4 BGG"
+  },
+  {
+   "start": 10181,
+   "end": 10199,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 10694,
+   "end": 10706,
+   "label": "AMOUNT",
+   "text": "Fr. 1'410.--"
+  },
+  {
+   "start": 10889,
+   "end": 10901,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 33,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

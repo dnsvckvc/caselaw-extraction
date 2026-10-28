@@ -1,0 +1,14 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    55
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "§ 7 Abs. 1 lit. e",
+      "label": "BARE_ARTICLE"
+    }
+  ],
+  "comment": "#55 was CONTRACT_ARTICLE on a cantonal tariff given as title (TO/BL named only in brackets after the title): replaced by BARE_ARTICLE § 7 Abs. 1 lit. e. #58 § 8 Abs. 1 lit. b Ziff. 2 TO/BL correct OTHER_LAW."
+}

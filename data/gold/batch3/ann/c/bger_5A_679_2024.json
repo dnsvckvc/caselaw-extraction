@@ -1,0 +1,505 @@
+{
+ "decision_id": "bger_5A_679_2024",
+ "task_index": 155,
+ "pass": "c",
+ "outcome": "partial_approval",
+ "comment": "GebV SchKG is the federal fee ordinance (SR 281.35): Art. ... GebV SchKG spans relabelled from BARE_ARTICLE to STATUTE with the code included. #24 Art. 15 der Gebuehrenverordnung ... (GebV SchKG; SR 281.35) is an act given as title: BARE_ARTICLE, not CONTRACT_ARTICLE. Sowohl Art. 14 Abs. 1 wie auch Art. 16 Abs. 1 GebV SchKG treated as one chain (wie auch read as und).",
+ "spans": [
+  {
+   "start": 282,
+   "end": 298,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 672,
+   "end": 682,
+   "label": "AMOUNT",
+   "text": "Fr. 200.--"
+  },
+  {
+   "start": 709,
+   "end": 718,
+   "label": "AMOUNT",
+   "text": "Fr. 35.--"
+  },
+  {
+   "start": 840,
+   "end": 850,
+   "label": "AMOUNT",
+   "text": "Fr. 300.--"
+  },
+  {
+   "start": 1246,
+   "end": 1256,
+   "label": "AMOUNT",
+   "text": "Fr. 118.--"
+  },
+  {
+   "start": 1322,
+   "end": 1332,
+   "label": "AMOUNT",
+   "text": "Fr. 133.--"
+  },
+  {
+   "start": 1394,
+   "end": 1403,
+   "label": "AMOUNT",
+   "text": "Fr. 27.40"
+  },
+  {
+   "start": 1772,
+   "end": 1783,
+   "label": "DOCKET",
+   "text": "5A_502/2023"
+  },
+  {
+   "start": 1823,
+   "end": 1838,
+   "label": "BGE",
+   "text": "BGE 150 III 223"
+  },
+  {
+   "start": 3276,
+   "end": 3375,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c,\nArt. 75,\nArt. 76,\nArt. 90,\nArt. 100 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 3385,
+   "end": 3403,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3742,
+   "end": 3756,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 3763,
+   "end": 3774,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 3836,
+   "end": 3855,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3858,
+   "end": 3873,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 3882,
+   "end": 3892,
+   "label": "BGE",
+   "text": "149 III 81"
+  },
+  {
+   "start": 4002,
+   "end": 4021,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 4177,
+   "end": 4195,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 4299,
+   "end": 4318,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4321,
+   "end": 4335,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 4346,
+   "end": 4357,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 4621,
+   "end": 4640,
+   "label": "STATUTE",
+   "text": "Art. 124 Abs. 1 ZPO"
+  },
+  {
+   "start": 4780,
+   "end": 4799,
+   "label": "STATUTE",
+   "text": "Art. 6 Ziff. 1 EMRK"
+  },
+  {
+   "start": 5034,
+   "end": 5041,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 15"
+  },
+  {
+   "start": 5482,
+   "end": 5497,
+   "label": "BGE",
+   "text": "BGE 150 III 223"
+  },
+  {
+   "start": 7362,
+   "end": 7377,
+   "label": "BGE",
+   "text": "BGE 150 III 238"
+  },
+  {
+   "start": 8163,
+   "end": 8181,
+   "label": "STATUTE",
+   "text": "Art. 15 GebV SchKG"
+  },
+  {
+   "start": 8847,
+   "end": 8865,
+   "label": "STATUTE",
+   "text": "Art. 15 GebV SchKG"
+  },
+  {
+   "start": 9250,
+   "end": 9275,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 9565,
+   "end": 9574,
+   "label": "AMOUNT",
+   "text": "Fr. 27.40"
+  },
+  {
+   "start": 9677,
+   "end": 9695,
+   "label": "STATUTE",
+   "text": "Art. 15 GebV SchKG"
+  },
+  {
+   "start": 9838,
+   "end": 9856,
+   "label": "STATUTE",
+   "text": "Art. 16 GebV SchKG"
+  },
+  {
+   "start": 9886,
+   "end": 9904,
+   "label": "STATUTE",
+   "text": "Art. 15 GebV SchKG"
+  },
+  {
+   "start": 11043,
+   "end": 11058,
+   "label": "BGE",
+   "text": "BGE 150 III 223"
+  },
+  {
+   "start": 11330,
+   "end": 11341,
+   "label": "DOCKET",
+   "text": "5A_502/2023"
+  },
+  {
+   "start": 11407,
+   "end": 11422,
+   "label": "BGE",
+   "text": "BGE 150 III 223"
+  },
+  {
+   "start": 13481,
+   "end": 13506,
+   "label": "STATUTE",
+   "text": "Art. 14 und 15 GebV SchKG"
+  },
+  {
+   "start": 13510,
+   "end": 13528,
+   "label": "STATUTE",
+   "text": "Art. 16 GebV SchKG"
+  },
+  {
+   "start": 13554,
+   "end": 13579,
+   "label": "STATUTE",
+   "text": "Art. 14 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 13705,
+   "end": 13723,
+   "label": "STATUTE",
+   "text": "Art. 15 GebV SchKG"
+  },
+  {
+   "start": 14082,
+   "end": 14100,
+   "label": "STATUTE",
+   "text": "Art. 15 GebV SchKG"
+  },
+  {
+   "start": 14278,
+   "end": 14303,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 14321,
+   "end": 14346,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 14613,
+   "end": 14638,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 14820,
+   "end": 14835,
+   "label": "BGE",
+   "text": "BGE 150 III 223"
+  },
+  {
+   "start": 14942,
+   "end": 14967,
+   "label": "STATUTE",
+   "text": "Art. 14 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 15112,
+   "end": 15137,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 15189,
+   "end": 15207,
+   "label": "STATUTE",
+   "text": "Art. 13 GebV SchKG"
+  },
+  {
+   "start": 15265,
+   "end": 15290,
+   "label": "STATUTE",
+   "text": "Art. 13 Abs. 2 GebV SchKG"
+  },
+  {
+   "start": 15555,
+   "end": 15580,
+   "label": "STATUTE",
+   "text": "Art. 14 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 16075,
+   "end": 16093,
+   "label": "STATUTE",
+   "text": "Art. 14 GebV SchKG"
+  },
+  {
+   "start": 16124,
+   "end": 16149,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 16269,
+   "end": 16294,
+   "label": "STATUTE",
+   "text": "Art. 14 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 16446,
+   "end": 16471,
+   "label": "STATUTE",
+   "text": "Art. 14 Abs. 2 GebV SchKG"
+  },
+  {
+   "start": 16508,
+   "end": 16533,
+   "label": "STATUTE",
+   "text": "Art. 14 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 16771,
+   "end": 16796,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 16911,
+   "end": 16936,
+   "label": "STATUTE",
+   "text": "Art. 14 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 17208,
+   "end": 17233,
+   "label": "STATUTE",
+   "text": "Art. 14 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 17385,
+   "end": 17403,
+   "label": "STATUTE",
+   "text": "Art. 14 GebV SchKG"
+  },
+  {
+   "start": 17547,
+   "end": 17565,
+   "label": "STATUTE",
+   "text": "Art. 15 GebV SchKG"
+  },
+  {
+   "start": 18130,
+   "end": 18148,
+   "label": "STATUTE",
+   "text": "Art. 15 GebV SchKG"
+  },
+  {
+   "start": 18186,
+   "end": 18211,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 18294,
+   "end": 18319,
+   "label": "STATUTE",
+   "text": "Art. 14 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 18346,
+   "end": 18371,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 18571,
+   "end": 18596,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 18705,
+   "end": 18730,
+   "label": "STATUTE",
+   "text": "Art. 14 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 18809,
+   "end": 18834,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 19061,
+   "end": 19110,
+   "label": "STATUTE",
+   "text": "Art. 14 Abs. 1 wie auch\nArt. 16 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 19503,
+   "end": 19528,
+   "label": "STATUTE",
+   "text": "Art. 16 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 20198,
+   "end": 20223,
+   "label": "STATUTE",
+   "text": "Art. 15 Abs. 2 GebV SchKG"
+  },
+  {
+   "start": 20513,
+   "end": 20538,
+   "label": "STATUTE",
+   "text": "Art. 15 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 20932,
+   "end": 20940,
+   "label": "AMOUNT",
+   "text": "Fr. 2.--"
+  },
+  {
+   "start": 20950,
+   "end": 20975,
+   "label": "STATUTE",
+   "text": "Art. 14 Abs. 1 GebV SchKG"
+  },
+  {
+   "start": 20980,
+   "end": 20989,
+   "label": "AMOUNT",
+   "text": "Fr. 54.80"
+  },
+  {
+   "start": 20991,
+   "end": 21000,
+   "label": "AMOUNT",
+   "text": "Fr. 54.80"
+  },
+  {
+   "start": 21007,
+   "end": 21016,
+   "label": "AMOUNT",
+   "text": "Fr. 27.40"
+  },
+  {
+   "start": 21164,
+   "end": 21174,
+   "label": "STATUTE",
+   "text": "Art. 29 BV"
+  },
+  {
+   "start": 21748,
+   "end": 21763,
+   "label": "BGE",
+   "text": "BGE 150 III 223"
+  },
+  {
+   "start": 22648,
+   "end": 22666,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 22894,
+   "end": 22912,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 22927,
+   "end": 22938,
+   "label": "DOCKET",
+   "text": "5A_502/2023"
+  },
+  {
+   "start": 22979,
+   "end": 22994,
+   "label": "BGE",
+   "text": "BGE 150 III 223"
+  }
+ ],
+ "n_pre": 83,
+ "n_deleted": 43,
+ "n_added": 42,
+ "n_relabeled": 0
+}

@@ -1,0 +1,12 @@
+{
+ "outcome": "partial_approval",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Ziffer 16.2 ihrer Allgemeinen Versicherungsbedingungen",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "Added CONTRACT_ARTICLE in A.c (instrument named in full, stop before bracketed AVB). BBl 1904 I 260 is an official gazette (no span). Same-volume short citations #16, #20, #32 kept per v0.3."
+}

@@ -1,0 +1,14 @@
+{
+ "outcome": "moot",
+ "delete": [
+  11
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 8 Abs. 3",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#11 deleted: \"Art. 8 Abs. 3 des Reglements vom 31. Maerz 2006 ueber die Parteientschaedigung ... [SR 173.110.210.3]\" is the Federal Supreme Court fee regulation, i.e. federal law in Fedlex given as a title, not a private instrument. Re-added as BARE_ARTICLE \"Art. 8 Abs. 3\" per the title rule. Guideline gap: \"Reglement\" trigger for CONTRACT_ARTICLE vs. federal Reglemente with SR numbers."
+}

@@ -1,0 +1,12 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "137 III 522",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Source text around BGE 141 III 1 looks garbled (\"BGE 141 III 1 .2;\"); kept the span as written."
+}

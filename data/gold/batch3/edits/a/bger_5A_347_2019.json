@@ -1,0 +1,18 @@
+{
+ "outcome": "partial_approval",
+ "delete": [
+  89
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 1 lit. b",
+   "label": "BARE_ARTICLE"
+  },
+  {
+   "text": "Art. 11",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "Deleted #89 CONTRACT_ARTICLE: the Reglement vom 31. März 2006 has an SR number [SR 173.110.210.3], so it is an act cited by title -> two BARE_ARTICLE spans (Art. 1 lit. b; Art. 11). Ziff. 2 of the Vereinbarung without Art./Ziff. instrument: lone Ziff., no span. Outcome: item 1 teilweise gutgeheissen."
+}

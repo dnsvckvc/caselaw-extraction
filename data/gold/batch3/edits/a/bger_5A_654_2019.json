@@ -1,0 +1,7 @@
+{
+ "outcome": "partial_approval",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "all 72 pre-annotations confirmed; #21 is a same-volume short citation (600 E. 2.3) kept per v0.3"
+}

@@ -1,0 +1,36 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "MietRecht Aktuell [MRA] 4/24 S. 214",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "Cahiers du bail 2/2020 S. 33",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "MRA 1/20 S. 3",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "MRA 1/22 S. 27",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "Jusletter vom 18. Mai 2020 S. 11",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "Jusletter vom 14. April 2020 S. 8",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "Newsletter Bail.ch Januar 2025, S. 7",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Jusletter cited by date WITH page labelled as JOURNAL_REF (guideline only excludes date + Rz.). Newsletter Bail.ch with month and page treated as journal."
+}

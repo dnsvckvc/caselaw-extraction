@@ -1,0 +1,205 @@
+{
+ "decision_id": "bger_5A_578_2026",
+ "task_index": 194,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "All pre-annotations confirmed. 'Ziff. 3 des Entscheides' (point of a court document) and cantonal number 400 26 48 left without span.",
+ "spans": [
+  {
+   "start": 261,
+   "end": 277,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 348,
+   "end": 366,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 936,
+   "end": 948,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  },
+  {
+   "start": 1737,
+   "end": 1748,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 1804,
+   "end": 1815,
+   "label": "DOCKET",
+   "text": "5D_222/2021"
+  },
+  {
+   "start": 1842,
+   "end": 1853,
+   "label": "DOCKET",
+   "text": "5A_656/2024"
+  },
+  {
+   "start": 1883,
+   "end": 1895,
+   "label": "DOCKET",
+   "text": "5A_1008/2025"
+  },
+  {
+   "start": 2003,
+   "end": 2016,
+   "label": "AMOUNT",
+   "text": "Fr. 14'500.--"
+  },
+  {
+   "start": 2067,
+   "end": 2079,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 2175,
+   "end": 2188,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 2200,
+   "end": 2225,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 2394,
+   "end": 2405,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 2423,
+   "end": 2434,
+   "label": "DOCKET",
+   "text": "5A_786/2021"
+  },
+  {
+   "start": 2459,
+   "end": 2470,
+   "label": "DOCKET",
+   "text": "5A_768/2023"
+  },
+  {
+   "start": 2496,
+   "end": 2506,
+   "label": "DOCKET",
+   "text": "5D_17/2024"
+  },
+  {
+   "start": 2534,
+   "end": 2545,
+   "label": "DOCKET",
+   "text": "5A_435/2023"
+  },
+  {
+   "start": 2590,
+   "end": 2605,
+   "label": "BGE",
+   "text": "BGE 141 III 282"
+  },
+  {
+   "start": 2608,
+   "end": 2619,
+   "label": "DOCKET",
+   "text": "5A_656/2024"
+  },
+  {
+   "start": 2761,
+   "end": 2780,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2921,
+   "end": 2936,
+   "label": "BGE",
+   "text": "BGE 134 III 235"
+  },
+  {
+   "start": 2943,
+   "end": 2954,
+   "label": "BGE",
+   "text": "143 III 111"
+  },
+  {
+   "start": 3116,
+   "end": 3131,
+   "label": "BGE",
+   "text": "BGE 125 III 412"
+  },
+  {
+   "start": 3697,
+   "end": 3716,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 3790,
+   "end": 3805,
+   "label": "BGE",
+   "text": "BGE 134 III 379"
+  },
+  {
+   "start": 3814,
+   "end": 3824,
+   "label": "BGE",
+   "text": "137 II 313"
+  },
+  {
+   "start": 3834,
+   "end": 3842,
+   "label": "BGE",
+   "text": "147 I 89"
+  },
+  {
+   "start": 3930,
+   "end": 3956,
+   "label": "STATUTE",
+   "text": "Art. 315 Abs. 4 lit. a ZPO"
+  },
+  {
+   "start": 4448,
+   "end": 4459,
+   "label": "STATUTE",
+   "text": "Art. 69 ZPO"
+  },
+  {
+   "start": 6200,
+   "end": 6226,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 6437,
+   "end": 6455,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 6568,
+   "end": 6586,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6762,
+   "end": 6774,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 32,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

@@ -1,0 +1,523 @@
+{
+ "decision_id": "bger_5A_710_2022",
+ "task_index": 111,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "EuGVVO / Bruessel I-VO / Bruessel Ia VO treated as supranational OTHER_LAW (not in Fedlex). dZPO = German ZPO -> OTHER_LAW like 'dt. ZPO'. 'Art. 81 Abs. 3 in fine SchKG' labelled STATUTE with 'in fine' inside (qualifier between number and code); unsettled. EuGH reports 'Slg. 1999 I-2543' labelled JOURNAL_REF as a case collection (like BGHZ); unsettled. ECJ case numbers 145/86, C-267/97, C-139/10 left (foreign file numbers).",
+ "spans": [
+  {
+   "start": 399,
+   "end": 417,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 487,
+   "end": 503,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1165,
+   "end": 1182,
+   "label": "AMOUNT",
+   "text": "Fr. 10'579'334.40"
+  },
+  {
+   "start": 1184,
+   "end": 1198,
+   "label": "AMOUNT",
+   "text": "Fr. 184'893.85"
+  },
+  {
+   "start": 1205,
+   "end": 1221,
+   "label": "AMOUNT",
+   "text": "Fr. 5'888'616.50"
+  },
+  {
+   "start": 1943,
+   "end": 1960,
+   "label": "AMOUNT",
+   "text": "Fr. 10'568'334.40"
+  },
+  {
+   "start": 1966,
+   "end": 1980,
+   "label": "AMOUNT",
+   "text": "Fr. 184'893.85"
+  },
+  {
+   "start": 1991,
+   "end": 2007,
+   "label": "AMOUNT",
+   "text": "Fr. 5'888'616.50"
+  },
+  {
+   "start": 2240,
+   "end": 2254,
+   "label": "AMOUNT",
+   "text": "Fr. 173'893.85"
+  },
+  {
+   "start": 2259,
+   "end": 2272,
+   "label": "AMOUNT",
+   "text": "Fr. 82'955.10"
+  },
+  {
+   "start": 2711,
+   "end": 2728,
+   "label": "AMOUNT",
+   "text": "Fr. 10'568'334.40"
+  },
+  {
+   "start": 2733,
+   "end": 2749,
+   "label": "AMOUNT",
+   "text": "Fr. 5'888'616.50"
+  },
+  {
+   "start": 3214,
+   "end": 3239,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 3292,
+   "end": 3317,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3593,
+   "end": 3611,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 3724,
+   "end": 3748,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a und b BGG"
+  },
+  {
+   "start": 3859,
+   "end": 3877,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3880,
+   "end": 3893,
+   "label": "BGE",
+   "text": "BGE 143 I 377"
+  },
+  {
+   "start": 3974,
+   "end": 3993,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4031,
+   "end": 4046,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 4150,
+   "end": 4159,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 4181,
+   "end": 4199,
+   "label": "STATUTE",
+   "text": "Art. 96 lit. b BGG"
+  },
+  {
+   "start": 4213,
+   "end": 4228,
+   "label": "BGE",
+   "text": "BGE 133 III 466"
+  },
+  {
+   "start": 4244,
+   "end": 4254,
+   "label": "DOCKET",
+   "text": "5A_59/2015"
+  },
+  {
+   "start": 4573,
+   "end": 4580,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 31"
+  },
+  {
+   "start": 4774,
+   "end": 4790,
+   "label": "AMOUNT",
+   "text": "EUR 8'489'956.20"
+  },
+  {
+   "start": 5000,
+   "end": 5017,
+   "label": "AMOUNT",
+   "text": "Fr. 10'568'334.40"
+  },
+  {
+   "start": 5022,
+   "end": 5038,
+   "label": "AMOUNT",
+   "text": "Fr. 5'888'616.50"
+  },
+  {
+   "start": 7428,
+   "end": 7445,
+   "label": "AMOUNT",
+   "text": "Fr. 10'568'334.40"
+  },
+  {
+   "start": 7485,
+   "end": 7501,
+   "label": "AMOUNT",
+   "text": "Fr. 5'805'661.40"
+  },
+  {
+   "start": 7635,
+   "end": 7649,
+   "label": "AMOUNT",
+   "text": "Fr. 184'893.85"
+  },
+  {
+   "start": 7687,
+   "end": 7700,
+   "label": "AMOUNT",
+   "text": "Fr. 82'955.10"
+  },
+  {
+   "start": 7793,
+   "end": 7806,
+   "label": "AMOUNT",
+   "text": "Fr. 11'000.--"
+  },
+  {
+   "start": 8232,
+   "end": 8249,
+   "label": "STATUTE",
+   "text": "Art. 31 LugÜ 1988"
+  },
+  {
+   "start": 9471,
+   "end": 9483,
+   "label": "STATUTE",
+   "text": "Art. 38 LugÜ"
+  },
+  {
+   "start": 9601,
+   "end": 9616,
+   "label": "JOURNAL_REF",
+   "text": "ZZZ 2016 S. 159"
+  },
+  {
+   "start": 9714,
+   "end": 9728,
+   "label": "OTHER_LAW",
+   "text": "Art. 39 EuGVVO"
+  },
+  {
+   "start": 9896,
+   "end": 9911,
+   "label": "BGE",
+   "text": "BGE 148 III 420"
+  },
+  {
+   "start": 10045,
+   "end": 10073,
+   "label": "STATUTE",
+   "text": "Art. 81 Abs. 3 in fine SchKG"
+  },
+  {
+   "start": 10082,
+   "end": 10093,
+   "label": "DOCKET",
+   "text": "5A_528/2022"
+  },
+  {
+   "start": 10124,
+   "end": 10138,
+   "label": "JOURNAL_REF",
+   "text": "SJ 2023 S. 560"
+  },
+  {
+   "start": 10212,
+   "end": 10225,
+   "label": "STATUTE",
+   "text": "Art. 81 SchKG"
+  },
+  {
+   "start": 10433,
+   "end": 10445,
+   "label": "STATUTE",
+   "text": "Art. 38 LugÜ"
+  },
+  {
+   "start": 10474,
+   "end": 10488,
+   "label": "OTHER_LAW",
+   "text": "Art. 39 EuGVVO"
+  },
+  {
+   "start": 11085,
+   "end": 11100,
+   "label": "BGE",
+   "text": "BGE 148 III 420"
+  },
+  {
+   "start": 11359,
+   "end": 11376,
+   "label": "STATUTE",
+   "text": "Art. 31 LugÜ 1988"
+  },
+  {
+   "start": 11564,
+   "end": 11574,
+   "label": "OTHER_LAW",
+   "text": "§ 756 dZPO"
+  },
+  {
+   "start": 11766,
+   "end": 11783,
+   "label": "OTHER_LAW",
+   "text": "§ 726 Abs. 2 dZPO"
+  },
+  {
+   "start": 12544,
+   "end": 12547,
+   "label": "BARE_ARTICLE",
+   "text": "§ 7"
+  },
+  {
+   "start": 12558,
+   "end": 12562,
+   "label": "BARE_ARTICLE",
+   "text": "§ 10"
+  },
+  {
+   "start": 12807,
+   "end": 12819,
+   "label": "STATUTE",
+   "text": "Art. 38 LugÜ"
+  },
+  {
+   "start": 12887,
+   "end": 12904,
+   "label": "STATUTE",
+   "text": "Art. 31 LugÜ 1988"
+  },
+  {
+   "start": 13094,
+   "end": 13118,
+   "label": "STATUTE",
+   "text": "Art. 31 Abs. 1 LugÜ 1988"
+  },
+  {
+   "start": 13124,
+   "end": 13148,
+   "label": "STATUTE",
+   "text": "Art. 38 Abs. 1 LugÜ 2007"
+  },
+  {
+   "start": 13220,
+   "end": 13230,
+   "label": "DOCKET",
+   "text": "5A_59/2015"
+  },
+  {
+   "start": 13262,
+   "end": 13273,
+   "label": "DOCKET",
+   "text": "5A_162/2012"
+  },
+  {
+   "start": 13464,
+   "end": 13480,
+   "label": "JOURNAL_REF",
+   "text": "Slg. 1999 I-2543"
+  },
+  {
+   "start": 13573,
+   "end": 13589,
+   "label": "JOURNAL_REF",
+   "text": "Slg. 2011 I-9511"
+  },
+  {
+   "start": 13710,
+   "end": 13722,
+   "label": "STATUTE",
+   "text": "Art. 38 LugÜ"
+  },
+  {
+   "start": 13748,
+   "end": 13760,
+   "label": "STATUTE",
+   "text": "Art. 38 LugÜ"
+  },
+  {
+   "start": 13960,
+   "end": 13975,
+   "label": "BGE",
+   "text": "BGE 148 III 420"
+  },
+  {
+   "start": 13994,
+   "end": 14004,
+   "label": "DOCKET",
+   "text": "5A_21/2021"
+  },
+  {
+   "start": 14037,
+   "end": 14048,
+   "label": "DOCKET",
+   "text": "5A_934/2016"
+  },
+  {
+   "start": 14077,
+   "end": 14088,
+   "label": "DOCKET",
+   "text": "5P.499/2002"
+  },
+  {
+   "start": 14561,
+   "end": 14576,
+   "label": "JOURNAL_REF",
+   "text": "RIW 2019 S. 414"
+  },
+  {
+   "start": 14679,
+   "end": 14693,
+   "label": "OTHER_LAW",
+   "text": "Art. 39 EuGVVO"
+  },
+  {
+   "start": 15130,
+   "end": 15142,
+   "label": "STATUTE",
+   "text": "Art. 38 LugÜ"
+  },
+  {
+   "start": 15254,
+   "end": 15274,
+   "label": "OTHER_LAW",
+   "text": "Art. 38 Brüssel I-VO"
+  },
+  {
+   "start": 15369,
+   "end": 15381,
+   "label": "STATUTE",
+   "text": "Art. 341 ZPO"
+  },
+  {
+   "start": 15851,
+   "end": 15868,
+   "label": "OTHER_LAW",
+   "text": "§ 726 Abs. 2 dZPO"
+  },
+  {
+   "start": 15877,
+   "end": 15893,
+   "label": "OTHER_LAW",
+   "text": "§§ 756, 765 dZPO"
+  },
+  {
+   "start": 16077,
+   "end": 16088,
+   "label": "OTHER_LAW",
+   "text": "§ 1111 dZPO"
+  },
+  {
+   "start": 16104,
+   "end": 16125,
+   "label": "OTHER_LAW",
+   "text": "Art. 53 Brüssel Ia VO"
+  },
+  {
+   "start": 16152,
+   "end": 16166,
+   "label": "OTHER_LAW",
+   "text": "Art. 39 EuGVVO"
+  },
+  {
+   "start": 16456,
+   "end": 16467,
+   "label": "OTHER_LAW",
+   "text": "§ 1111 dZPO"
+  },
+  {
+   "start": 16575,
+   "end": 16592,
+   "label": "OTHER_LAW",
+   "text": "§ 726 Abs. 2 dZPO"
+  },
+  {
+   "start": 16894,
+   "end": 16910,
+   "label": "OTHER_LAW",
+   "text": "§§ 756, 765 dZPO"
+  },
+  {
+   "start": 17244,
+   "end": 17261,
+   "label": "STATUTE",
+   "text": "Art. 31 LugÜ 1988"
+  },
+  {
+   "start": 17375,
+   "end": 17396,
+   "label": "STATUTE",
+   "text": "Art. 31 ff. LugÜ 1988"
+  },
+  {
+   "start": 21649,
+   "end": 21658,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 21686,
+   "end": 21701,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 22399,
+   "end": 22415,
+   "label": "OTHER_LAW",
+   "text": "§ 130 Abs. 1 BGB"
+  },
+  {
+   "start": 22708,
+   "end": 22724,
+   "label": "OTHER_LAW",
+   "text": "§ 147 Abs. 2 BGB"
+  },
+  {
+   "start": 24359,
+   "end": 24377,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 24589,
+   "end": 24602,
+   "label": "AMOUNT",
+   "text": "Fr. 55'000.--"
+  }
+ ],
+ "n_pre": 81,
+ "n_deleted": 15,
+ "n_added": 19,
+ "n_relabeled": 0
+}

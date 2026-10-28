@@ -1,0 +1,181 @@
+{
+ "decision_id": "bger_4A_126_2024",
+ "task_index": 124,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "all pre-annotations confirmed, incl. two same-volume short citations 115 as BGE; cantonal ZB.2023.41 not a span",
+ "spans": [
+  {
+   "start": 277,
+   "end": 293,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 370,
+   "end": 386,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1580,
+   "end": 1598,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 1601,
+   "end": 1615,
+   "label": "BGE",
+   "text": "BGE 148 IV 155"
+  },
+  {
+   "start": 1625,
+   "end": 1634,
+   "label": "BGE",
+   "text": "145 I 121"
+  },
+  {
+   "start": 1641,
+   "end": 1652,
+   "label": "BGE",
+   "text": "143 III 140"
+  },
+  {
+   "start": 1930,
+   "end": 1948,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 1951,
+   "end": 1965,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 1972,
+   "end": 1975,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 2189,
+   "end": 2208,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2246,
+   "end": 2284,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2696,
+   "end": 2710,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 2717,
+   "end": 2720,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 2903,
+   "end": 2917,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 2928,
+   "end": 2939,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 3132,
+   "end": 3147,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 3180,
+   "end": 3193,
+   "label": "BGE",
+   "text": "BGE 143 IV 40"
+  },
+  {
+   "start": 3310,
+   "end": 3329,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 3549,
+   "end": 3563,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 3755,
+   "end": 3766,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 3776,
+   "end": 3795,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 3896,
+   "end": 3914,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 3986,
+   "end": 4004,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 4181,
+   "end": 4195,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 4453,
+   "end": 4467,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 5075,
+   "end": 5101,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5209,
+   "end": 5240,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 zweiter Satz BGG"
+  },
+  {
+   "start": 5425,
+   "end": 5449,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 und 3 BGG"
+  }
+ ],
+ "n_pre": 28,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

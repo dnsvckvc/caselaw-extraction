@@ -1,0 +1,7 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "all pre-annotations correct; RT240203-O/U is a cantonal file number (no span)"
+}

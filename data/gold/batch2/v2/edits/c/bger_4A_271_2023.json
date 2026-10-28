@@ -1,0 +1,49 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  13,
+  49,
+  50,
+  52,
+  68,
+  69
+ ],
+ "add": [
+  {
+   "text": "Art. 9",
+   "label": "BARE_ARTICLE",
+   "occurrence": 2
+  },
+  {
+   "text": "Art. B8 Ziff. 1 f. AVB",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Art. A4 Ziff. 2 AVB",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. A4 Ziff. 2 AVB",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 2
+  },
+  {
+   "text": "Art. A4 Ziff. 2 AVB",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 3
+  },
+  {
+   "text": "Art. A4 Ziff. 2 AVB",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 4
+  },
+  {
+   "text": "Art. A4 Ziff. 2 AVB",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 5
+  }
+ ],
+ "comment": "#13 cantonal EG-ZPO/SG given as title -> BARE_ARTICLE Art. 9. AVB proposals cut off 'Art. A4' -> redrawn. Not spanned: 'Artikeln 35a und 35b VVG' (no Art. abbreviation, federal law), 'BBl 2017 5089 ff., 5136' (Federal Gazette, fits no class).",
+ "relabel": []
+}

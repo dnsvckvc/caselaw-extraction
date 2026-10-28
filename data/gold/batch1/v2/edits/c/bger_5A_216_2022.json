@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  32
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "§ 29 Abs. 1",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#32: cantonal Verordnung given as title, not an abbreviation -> BARE_ARTICLE § 29 Abs. 1 (RB 211.24 treated like an SR number alone, no span)."
+}

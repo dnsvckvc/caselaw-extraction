@@ -1,0 +1,14 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  5
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 33",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#5 Reglement für das Bundesgericht has an SR number (173.110.131), so it is an act given as a title: BARE_ARTICLE Art. 33, not CONTRACT_ARTICLE."
+}

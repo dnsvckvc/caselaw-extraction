@@ -1,0 +1,7 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [],
+  "comment": "All 64 pre-annotations correct. Second page numbers in BGE lists (115 E. 2; 264 E. 2.3; 213 E. 3.1) left unlabelled per rule."
+}

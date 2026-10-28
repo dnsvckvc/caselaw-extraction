@@ -1,0 +1,235 @@
+{
+ "decision_id": "bger_5A_778_2019",
+ "task_index": 11,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 335,
+   "end": 351,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 419,
+   "end": 437,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 794,
+   "end": 807,
+   "label": "AMOUNT",
+   "text": "Fr. 36'324.20"
+  },
+  {
+   "start": 853,
+   "end": 863,
+   "label": "AMOUNT",
+   "text": "Fr. 103.30"
+  },
+  {
+   "start": 1529,
+   "end": 1542,
+   "label": "AMOUNT",
+   "text": "Fr. 36'144.10"
+  },
+  {
+   "start": 2388,
+   "end": 2445,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 1 lit. b,\nArt. 75 BGG"
+  },
+  {
+   "start": 2498,
+   "end": 2513,
+   "label": "STATUTE",
+   "text": "Art. 72 ff. BGG"
+  },
+  {
+   "start": 2557,
+   "end": 2575,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a BGG"
+  },
+  {
+   "start": 2596,
+   "end": 2614,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. b BGG"
+  },
+  {
+   "start": 2739,
+   "end": 2757,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2925,
+   "end": 2939,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 3923,
+   "end": 3935,
+   "label": "STATUTE",
+   "text": "Art. 67 LugÜ"
+  },
+  {
+   "start": 4169,
+   "end": 4175,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 1"
+  },
+  {
+   "start": 5037,
+   "end": 5052,
+   "label": "BGE",
+   "text": "BGE 145 III 324"
+  },
+  {
+   "start": 5396,
+   "end": 5410,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 2 Ziff. 5"
+  },
+  {
+   "start": 6325,
+   "end": 6337,
+   "label": "BGE",
+   "text": "BGE 96 I 396"
+  },
+  {
+   "start": 6355,
+   "end": 6363,
+   "label": "BGE",
+   "text": "97 I 250"
+  },
+  {
+   "start": 6402,
+   "end": 6413,
+   "label": "DOCKET",
+   "text": "5A_759/2008"
+  },
+  {
+   "start": 6473,
+   "end": 6487,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 5 Ziff. 1"
+  },
+  {
+   "start": 6708,
+   "end": 6721,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 2 Abs. 1"
+  },
+  {
+   "start": 7478,
+   "end": 7497,
+   "label": "STATUTE",
+   "text": "Art. 279 Abs. 1 ZGB"
+  },
+  {
+   "start": 7740,
+   "end": 7755,
+   "label": "BGE",
+   "text": "BGE 127 III 503"
+  },
+  {
+   "start": 7775,
+   "end": 7786,
+   "label": "BGE",
+   "text": "128 III 305"
+  },
+  {
+   "start": 7808,
+   "end": 7819,
+   "label": "DOCKET",
+   "text": "5A_506/2011"
+  },
+  {
+   "start": 7851,
+   "end": 7872,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2012 S. 486"
+  },
+  {
+   "start": 7948,
+   "end": 7960,
+   "label": "STATUTE",
+   "text": "Art. 286 ZGB"
+  },
+  {
+   "start": 9719,
+   "end": 9731,
+   "label": "AMOUNT",
+   "text": "EUR 3'889.56"
+  },
+  {
+   "start": 9755,
+   "end": 9767,
+   "label": "AMOUNT",
+   "text": "EUR 3'471.12"
+  },
+  {
+   "start": 9794,
+   "end": 9806,
+   "label": "AMOUNT",
+   "text": "EUR 3'451.12"
+  },
+  {
+   "start": 9838,
+   "end": 9850,
+   "label": "AMOUNT",
+   "text": "EUR 3'535.10"
+  },
+  {
+   "start": 10676,
+   "end": 10686,
+   "label": "AMOUNT",
+   "text": "Fr. 900.--"
+  },
+  {
+   "start": 10732,
+   "end": 10744,
+   "label": "AMOUNT",
+   "text": "EUR 1'250.--"
+  },
+  {
+   "start": 11936,
+   "end": 11946,
+   "label": "AMOUNT",
+   "text": "EUR 971.40"
+  },
+  {
+   "start": 11948,
+   "end": 11961,
+   "label": "AMOUNT",
+   "text": "EUR 52'455.--"
+  },
+  {
+   "start": 12751,
+   "end": 12769,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 12852,
+   "end": 12870,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 13006,
+   "end": 13018,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  }
+ ],
+ "n_pre": 36,
+ "n_deleted": 0,
+ "n_added": 1,
+ "n_relabeled": 0
+}

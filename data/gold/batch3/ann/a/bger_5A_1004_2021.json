@@ -1,0 +1,421 @@
+{
+ "decision_id": "bger_5A_1004_2021",
+ "task_index": 89,
+ "pass": "a",
+ "outcome": "partial_approval",
+ "comment": "Deleted #4 (§ 14 as the heading of the quoted contract clause, not a reference; guideline gap). Extended #55 to the full number CHF 1.1114 (an exchange rate, kept as AMOUNT; guideline gap). 'dem deutschen BGB' without number, no span. BZ 2021 54 / BZ 2021 55 are cantonal file numbers.",
+ "spans": [
+  {
+   "start": 356,
+   "end": 374,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 420,
+   "end": 436,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 963,
+   "end": 979,
+   "label": "AMOUNT",
+   "text": "EUR 9'770'000.--"
+  },
+  {
+   "start": 1988,
+   "end": 2002,
+   "label": "AMOUNT",
+   "text": "Fr. 377'710.--"
+  },
+  {
+   "start": 2087,
+   "end": 2097,
+   "label": "AMOUNT",
+   "text": "Fr. 203.30"
+  },
+  {
+   "start": 2877,
+   "end": 2891,
+   "label": "AMOUNT",
+   "text": "Fr. 377'710.--"
+  },
+  {
+   "start": 2976,
+   "end": 2986,
+   "label": "AMOUNT",
+   "text": "Fr. 203.30"
+  },
+  {
+   "start": 3507,
+   "end": 3574,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 1 lit. b und\nArt. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 3681,
+   "end": 3699,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a BGG"
+  },
+  {
+   "start": 3810,
+   "end": 3828,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3831,
+   "end": 3844,
+   "label": "BGE",
+   "text": "BGE 143 I 377"
+  },
+  {
+   "start": 3958,
+   "end": 3977,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3980,
+   "end": 3995,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 4112,
+   "end": 4131,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 4263,
+   "end": 4281,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 4429,
+   "end": 4450,
+   "label": "CONTRACT_ARTICLE",
+   "text": "§ 14 des Kaufvertrags"
+  },
+  {
+   "start": 5518,
+   "end": 5535,
+   "label": "CONTRACT_ARTICLE",
+   "text": "§ 14 des Vertrags"
+  },
+  {
+   "start": 6492,
+   "end": 6510,
+   "label": "CONTRACT_ARTICLE",
+   "text": "§ 14 des Vertrages"
+  },
+  {
+   "start": 6921,
+   "end": 6934,
+   "label": "STATUTE",
+   "text": "Art. 82 SchKG"
+  },
+  {
+   "start": 7421,
+   "end": 7441,
+   "label": "STATUTE",
+   "text": "Art. 82 Abs. 1 SchKG"
+  },
+  {
+   "start": 7746,
+   "end": 7761,
+   "label": "BGE",
+   "text": "BGE 145 III 213"
+  },
+  {
+   "start": 7772,
+   "end": 7783,
+   "label": "BGE",
+   "text": "140 III 456"
+  },
+  {
+   "start": 7801,
+   "end": 7812,
+   "label": "DOCKET",
+   "text": "5A_688/2022"
+  },
+  {
+   "start": 7976,
+   "end": 7991,
+   "label": "BGE",
+   "text": "BGE 145 III 213"
+  },
+  {
+   "start": 8002,
+   "end": 8013,
+   "label": "BGE",
+   "text": "140 III 456"
+  },
+  {
+   "start": 8279,
+   "end": 8294,
+   "label": "BGE",
+   "text": "BGE 145 III 213"
+  },
+  {
+   "start": 8312,
+   "end": 8323,
+   "label": "DOCKET",
+   "text": "5A_248/2020"
+  },
+  {
+   "start": 8356,
+   "end": 8372,
+   "label": "JOURNAL_REF",
+   "text": "Pra 2021 Nr. 112"
+  },
+  {
+   "start": 8461,
+   "end": 8474,
+   "label": "STATUTE",
+   "text": "Art. 82 SchKG"
+  },
+  {
+   "start": 8583,
+   "end": 8596,
+   "label": "STATUTE",
+   "text": "Art. 82 SchKG"
+  },
+  {
+   "start": 9225,
+   "end": 9244,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 9468,
+   "end": 9493,
+   "label": "CONTRACT_ARTICLE",
+   "text": "§ 13 Abs. 3 des Vertrages"
+  },
+  {
+   "start": 9794,
+   "end": 9827,
+   "label": "CONTRACT_ARTICLE",
+   "text": "§ 14 des notariellen Kaufvertrags"
+  },
+  {
+   "start": 10228,
+   "end": 10243,
+   "label": "BGE",
+   "text": "BGE 139 III 297"
+  },
+  {
+   "start": 10254,
+   "end": 10265,
+   "label": "BGE",
+   "text": "136 III 627"
+  },
+  {
+   "start": 10379,
+   "end": 10392,
+   "label": "STATUTE",
+   "text": "Art. 82 SchKG"
+  },
+  {
+   "start": 10437,
+   "end": 10459,
+   "label": "CONTRACT_ARTICLE",
+   "text": "§ 14 des Kaufvertrages"
+  },
+  {
+   "start": 10782,
+   "end": 10798,
+   "label": "AMOUNT",
+   "text": "EUR 9'770'000.--"
+  },
+  {
+   "start": 11113,
+   "end": 11146,
+   "label": "CONTRACT_ARTICLE",
+   "text": "§ 14 des notariellen Kaufvertrags"
+  },
+  {
+   "start": 11184,
+   "end": 11204,
+   "label": "STATUTE",
+   "text": "Art. 82 Abs. 1 SchKG"
+  },
+  {
+   "start": 11228,
+   "end": 11248,
+   "label": "STATUTE",
+   "text": "Art. 82 Abs. 2 SchKG"
+  },
+  {
+   "start": 11609,
+   "end": 11624,
+   "label": "BGE",
+   "text": "BGE 132 III 140"
+  },
+  {
+   "start": 11870,
+   "end": 11889,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 11989,
+   "end": 11999,
+   "label": "DOCKET",
+   "text": "5A_62/2009"
+  },
+  {
+   "start": 12027,
+   "end": 12042,
+   "label": "JOURNAL_REF",
+   "text": "Pra 2010 Nr. 17"
+  },
+  {
+   "start": 12283,
+   "end": 12303,
+   "label": "STATUTE",
+   "text": "Art. 82 Abs. 2 SchKG"
+  },
+  {
+   "start": 12415,
+   "end": 12436,
+   "label": "CONTRACT_ARTICLE",
+   "text": "§ 14 des Kaufvertrags"
+  },
+  {
+   "start": 14419,
+   "end": 14439,
+   "label": "STATUTE",
+   "text": "Art. 83 Abs. 2 SchKG"
+  },
+  {
+   "start": 14617,
+   "end": 14645,
+   "label": "STATUTE",
+   "text": "Art. 67 Abs. 1 Ziff. 3 SchKG"
+  },
+  {
+   "start": 14914,
+   "end": 14929,
+   "label": "BGE",
+   "text": "BGE 125 III 443"
+  },
+  {
+   "start": 15023,
+   "end": 15037,
+   "label": "BGE",
+   "text": "BGE 135 III 88"
+  },
+  {
+   "start": 15176,
+   "end": 15191,
+   "label": "BGE",
+   "text": "BGE 137 III 623"
+  },
+  {
+   "start": 15198,
+   "end": 15208,
+   "label": "BGE",
+   "text": "135 III 88"
+  },
+  {
+   "start": 15469,
+   "end": 15479,
+   "label": "AMOUNT",
+   "text": "CHF 1.1114"
+  },
+  {
+   "start": 15547,
+   "end": 15561,
+   "label": "AMOUNT",
+   "text": "EUR 339'996.--"
+  },
+  {
+   "start": 15832,
+   "end": 15841,
+   "label": "OTHER_LAW",
+   "text": "§ 421 BGB"
+  },
+  {
+   "start": 16241,
+   "end": 16261,
+   "label": "CONTRACT_ARTICLE",
+   "text": "§ 5 des Kaufvertrags"
+  },
+  {
+   "start": 16860,
+   "end": 16878,
+   "label": "STATUTE",
+   "text": "Art. 104 Abs. 1 OR"
+  },
+  {
+   "start": 17193,
+   "end": 17206,
+   "label": "STATUTE",
+   "text": "Art. 82 SchKG"
+  },
+  {
+   "start": 17520,
+   "end": 17540,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 SchKG"
+  },
+  {
+   "start": 17615,
+   "end": 17630,
+   "label": "BGE",
+   "text": "BGE 144 III 360"
+  },
+  {
+   "start": 18038,
+   "end": 18052,
+   "label": "AMOUNT",
+   "text": "Fr. 377'710.--"
+  },
+  {
+   "start": 18260,
+   "end": 18311,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 5 sowie\nArt. 68 Abs. 2 und 4 BGG"
+  },
+  {
+   "start": 18457,
+   "end": 18487,
+   "label": "STATUTE",
+   "text": "Art. 67 und\nArt. 68 Abs. 5 BGG"
+  },
+  {
+   "start": 18871,
+   "end": 18885,
+   "label": "AMOUNT",
+   "text": "Fr. 377'710.--"
+  },
+  {
+   "start": 19094,
+   "end": 19108,
+   "label": "AMOUNT",
+   "text": "Fr. 377'710.--"
+  },
+  {
+   "start": 19630,
+   "end": 19642,
+   "label": "AMOUNT",
+   "text": "Fr. 8'000.--"
+  },
+  {
+   "start": 19853,
+   "end": 19865,
+   "label": "AMOUNT",
+   "text": "Fr. 8'000.--"
+  }
+ ],
+ "n_pre": 69,
+ "n_deleted": 2,
+ "n_added": 1,
+ "n_relabeled": 0
+}

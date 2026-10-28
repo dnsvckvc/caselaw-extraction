@@ -1,0 +1,12 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "124 III 155",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Added BGE list item 124 III 155 (no BGE word) missed by pre-annotator. Art. 13 Ziff. 2 lit. a AVB etc. are insurance contract terms, not a law: left unlabelled. Art. 2 Abs. 2 des Bundesgesetzes ... (KVAG) has no abbreviation directly after the article: no span."
+}

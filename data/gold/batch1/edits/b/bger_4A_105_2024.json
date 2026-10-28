@@ -1,0 +1,49 @@
+{
+ "outcome": "approved",
+ "delete": [
+  9,
+  62
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 42 Abs. 2 und Art. 106 Abs. 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 66 Abs. 1 und Art. 68 Abs. 1 und 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "119 II 368",
+   "label": "BGE"
+  },
+  {
+   "text": "138 III 401",
+   "label": "BGE",
+   "occurrence": 1
+  },
+  {
+   "text": "138 III 401",
+   "label": "BGE",
+   "occurrence": 3
+  },
+  {
+   "text": "139 III 24",
+   "label": "BGE"
+  },
+  {
+   "text": "137 III 625",
+   "label": "BGE"
+  },
+  {
+   "text": "140 III 481",
+   "label": "BGE"
+  },
+  {
+   "text": "Art. 269 f. OR",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Extended two statute chains (#9, #62). Added five BGE list items without the BGE word (138 III 401 twice). Added 'Art. 269 f. OR'."
+}

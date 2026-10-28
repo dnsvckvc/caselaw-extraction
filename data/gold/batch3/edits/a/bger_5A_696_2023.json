@@ -1,0 +1,22 @@
+{
+ "outcome": "approved",
+ "delete": [
+  24
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 3 Abs. 1 und Art. 4 Abs. 2",
+   "label": "BARE_ARTICLE"
+  },
+  {
+   "text": "144 II 184",
+   "label": "BGE"
+  },
+  {
+   "text": "ZBGR 95/2014 S. 284",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "#24: Reglement with SR number (ReRBGer; SR 173.110.29) is an act, so BARE_ARTICLE chain instead of CONTRACT_ARTICLE; added BGE list item 144 II 184 and JOURNAL_REF ZBGR 95/2014 S. 284"
+}

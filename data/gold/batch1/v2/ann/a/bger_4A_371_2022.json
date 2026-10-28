@@ -1,0 +1,349 @@
+{
+ "decision_id": "bger_4A_371_2022",
+ "task_index": 27,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "no negative-class references in text",
+ "spans": [
+  {
+   "start": 599,
+   "end": 617,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 721,
+   "end": 737,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1546,
+   "end": 1560,
+   "label": "AMOUNT",
+   "text": "Fr. 377'348.45"
+  },
+  {
+   "start": 2079,
+   "end": 2093,
+   "label": "AMOUNT",
+   "text": "Fr. 395'308.25"
+  },
+  {
+   "start": 2231,
+   "end": 2245,
+   "label": "AMOUNT",
+   "text": "Fr. 303'628.75"
+  },
+  {
+   "start": 2370,
+   "end": 2384,
+   "label": "AMOUNT",
+   "text": "Fr. 550'390.65"
+  },
+  {
+   "start": 2412,
+   "end": 2426,
+   "label": "AMOUNT",
+   "text": "Fr. 945'698.90"
+  },
+  {
+   "start": 2614,
+   "end": 2628,
+   "label": "AMOUNT",
+   "text": "Fr. 311'790.26"
+  },
+  {
+   "start": 3791,
+   "end": 3802,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3852,
+   "end": 3877,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 3952,
+   "end": 3977,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 4006,
+   "end": 4020,
+   "label": "BGE",
+   "text": "BGE 139 III 67"
+  },
+  {
+   "start": 4040,
+   "end": 4055,
+   "label": "BGE",
+   "text": "BGE 138 III 799"
+  },
+  {
+   "start": 4191,
+   "end": 4210,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 4430,
+   "end": 4444,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 4636,
+   "end": 4647,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 4657,
+   "end": 4676,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 4738,
+   "end": 4753,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 4760,
+   "end": 4771,
+   "label": "BGE",
+   "text": "135 III 397"
+  },
+  {
+   "start": 4878,
+   "end": 4896,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 5028,
+   "end": 5046,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 5222,
+   "end": 5236,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5494,
+   "end": 5508,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 6095,
+   "end": 6110,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 6119,
+   "end": 6129,
+   "label": "BGE",
+   "text": "140 III 16"
+  },
+  {
+   "start": 6354,
+   "end": 6369,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 6378,
+   "end": 6388,
+   "label": "BGE",
+   "text": "135 II 356"
+  },
+  {
+   "start": 6722,
+   "end": 6737,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 6746,
+   "end": 6757,
+   "label": "BGE",
+   "text": "137 III 226"
+  },
+  {
+   "start": 6766,
+   "end": 6777,
+   "label": "BGE",
+   "text": "136 III 552"
+  },
+  {
+   "start": 6897,
+   "end": 6911,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 7186,
+   "end": 7201,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 7210,
+   "end": 7219,
+   "label": "BGE",
+   "text": "116 Ia 85"
+  },
+  {
+   "start": 7366,
+   "end": 7377,
+   "label": "STATUTE",
+   "text": "Art. 363 OR"
+  },
+  {
+   "start": 7527,
+   "end": 7538,
+   "label": "STATUTE",
+   "text": "Art. 374 OR"
+  },
+  {
+   "start": 7922,
+   "end": 7933,
+   "label": "DOCKET",
+   "text": "4A_415/2021"
+  },
+  {
+   "start": 7962,
+   "end": 7973,
+   "label": "DOCKET",
+   "text": "4A_446/2020"
+  },
+  {
+   "start": 8992,
+   "end": 9003,
+   "label": "STATUTE",
+   "text": "Art. 374 OR"
+  },
+  {
+   "start": 11461,
+   "end": 11471,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 11706,
+   "end": 11716,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 11952,
+   "end": 11963,
+   "label": "STATUTE",
+   "text": "Art. 374 OR"
+  },
+  {
+   "start": 12054,
+   "end": 12065,
+   "label": "STATUTE",
+   "text": "Art. 374 OR"
+  },
+  {
+   "start": 13222,
+   "end": 13233,
+   "label": "STATUTE",
+   "text": "Art. 374 OR"
+  },
+  {
+   "start": 13284,
+   "end": 13297,
+   "label": "AMOUNT",
+   "text": "Fr. 84'756.90"
+  },
+  {
+   "start": 13306,
+   "end": 13322,
+   "label": "AMOUNT",
+   "text": "Fr. 1'171'962.30"
+  },
+  {
+   "start": 14080,
+   "end": 14090,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 14720,
+   "end": 14735,
+   "label": "BGE",
+   "text": "BGE 147 III 440"
+  },
+  {
+   "start": 14744,
+   "end": 14755,
+   "label": "BGE",
+   "text": "141 III 433"
+  },
+  {
+   "start": 14807,
+   "end": 14817,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 14851,
+   "end": 14869,
+   "label": "STATUTE",
+   "text": "Art. 55 Abs. 1 ZPO"
+  },
+  {
+   "start": 15125,
+   "end": 15140,
+   "label": "BGE",
+   "text": "BGE 144 III 519"
+  },
+  {
+   "start": 15166,
+   "end": 15177,
+   "label": "DOCKET",
+   "text": "4A_377/2021"
+  },
+  {
+   "start": 15429,
+   "end": 15443,
+   "label": "AMOUNT",
+   "text": "Fr. 311'790.26"
+  },
+  {
+   "start": 15895,
+   "end": 15938,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 16069,
+   "end": 16081,
+   "label": "AMOUNT",
+   "text": "Fr. 9'000.--"
+  },
+  {
+   "start": 16215,
+   "end": 16228,
+   "label": "AMOUNT",
+   "text": "Fr. 10'000.--"
+  }
+ ],
+ "n_pre": 56,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

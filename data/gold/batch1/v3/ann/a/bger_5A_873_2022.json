@@ -1,0 +1,103 @@
+{
+ "decision_id": "bger_5A_873_2022",
+ "task_index": 30,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 584,
+   "end": 600,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 1993,
+   "end": 2092,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c,\nArt. 75,\nArt. 76,\nArt. 90,\nArt. 100 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 2106,
+   "end": 2124,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2463,
+   "end": 2477,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 2484,
+   "end": 2495,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 3299,
+   "end": 3305,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 6"
+  },
+  {
+   "start": 4346,
+   "end": 4357,
+   "label": "STATUTE",
+   "text": "Art. 6 VFRR"
+  },
+  {
+   "start": 5267,
+   "end": 5277,
+   "label": "DOCKET",
+   "text": "B.101/1991"
+  },
+  {
+   "start": 5428,
+   "end": 5439,
+   "label": "STATUTE",
+   "text": "Art. 6 VFRR"
+  },
+  {
+   "start": 5685,
+   "end": 5701,
+   "label": "JOURNAL_REF",
+   "text": "AJP 1996 S. 1371"
+  },
+  {
+   "start": 5839,
+   "end": 5858,
+   "label": "STATUTE",
+   "text": "Art. 2 Abs. 1 SchKG"
+  },
+  {
+   "start": 6224,
+   "end": 6237,
+   "label": "STATUTE",
+   "text": "Art. 65 SchKG"
+  },
+  {
+   "start": 7216,
+   "end": 7229,
+   "label": "STATUTE",
+   "text": "Art. 15 SchKG"
+  },
+  {
+   "start": 7385,
+   "end": 7403,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 7534,
+   "end": 7544,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 15,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

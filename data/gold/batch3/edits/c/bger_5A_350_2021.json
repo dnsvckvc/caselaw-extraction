@@ -1,0 +1,21 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "134 I 199",
+   "label": "BGE",
+   "occurrence": 2
+  },
+  {
+   "text": "135 III 374",
+   "label": "BGE"
+  },
+  {
+   "text": "138 I 49",
+   "label": "BGE",
+   "occurrence": 2
+  }
+ ]
+}

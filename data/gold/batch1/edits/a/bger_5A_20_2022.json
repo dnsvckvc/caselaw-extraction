@@ -1,0 +1,23 @@
+{
+  "outcome": "inadmissible",
+  "delete": [
+    21
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 66 Abs. 1 und Art. 68 Abs. 3 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 6b Abs. 2bis SchlT ZGB",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 6b SchlT ZGB",
+      "label": "STATUTE",
+      "all": true
+    }
+  ],
+  "comment": "Extended chain #21; added SchlT ZGB citations (three)."
+}

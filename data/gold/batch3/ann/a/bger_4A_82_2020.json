@@ -1,0 +1,85 @@
+{
+ "decision_id": "bger_4A_82_2020",
+ "task_index": 16,
+ "pass": "a",
+ "outcome": "moot",
+ "comment": "#10 CONTRACT_ARTICLE on Art. 8 Abs. 3 des Reglements ... [SR 173.110.210.3] replaced: a Reglement with an SR number is an act given by title, so BARE_ARTICLE on Art. 8 Abs. 3 only. Foreign file number CL-2019-000076 and cantonal HG 190119-O left without span.",
+ "spans": [
+  {
+   "start": 345,
+   "end": 363,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 457,
+   "end": 475,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1097,
+   "end": 1113,
+   "label": "AMOUNT",
+   "text": "Fr. 1'626'805.--"
+  },
+  {
+   "start": 1432,
+   "end": 1451,
+   "label": "STATUTE",
+   "text": "Art. 27 Abs. 1 LugÜ"
+  },
+  {
+   "start": 2790,
+   "end": 2803,
+   "label": "AMOUNT",
+   "text": "Fr. 12'000.--"
+  },
+  {
+   "start": 4566,
+   "end": 4579,
+   "label": "AMOUNT",
+   "text": "Fr. 10'000.--"
+  },
+  {
+   "start": 5161,
+   "end": 5179,
+   "label": "STATUTE",
+   "text": "Art. 32 Abs. 2 BGG"
+  },
+  {
+   "start": 5377,
+   "end": 5414,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 3 und\nArt. 68 Abs. 4 BGG"
+  },
+  {
+   "start": 6366,
+   "end": 6384,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 6389,
+   "end": 6402,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 8 Abs. 3"
+  },
+  {
+   "start": 6693,
+   "end": 6705,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 6843,
+   "end": 6855,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 12,
+ "n_deleted": 1,
+ "n_added": 1,
+ "n_relabeled": 0
+}

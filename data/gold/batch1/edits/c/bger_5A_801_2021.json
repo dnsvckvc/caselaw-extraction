@@ -1,0 +1,38 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  4,
+  11,
+  14,
+  16,
+  20
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 394 i.V.m. Art. 395 ZGB",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 74 Abs. 2 lit. a i.V.m. Art. 42 Abs. 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 117 i.V.m. Art. 106 Abs. 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 117 i.V.m. Art. 99 Abs. 1 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Fr. 50 Mio.",
+   "label": "AMOUNT"
+  },
+  {
+   "text": "142 III 364",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Item 1 only treats the filing as subsidiaere Verfassungsbeschwerde; item 2 (nicht eingetreten) decides the appeal."
+}

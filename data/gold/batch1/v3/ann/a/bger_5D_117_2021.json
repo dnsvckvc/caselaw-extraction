@@ -1,0 +1,367 @@
+{
+ "decision_id": "bger_5D_117_2021",
+ "task_index": 22,
+ "pass": "a",
+ "outcome": "approved",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 295,
+   "end": 311,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 467,
+   "end": 485,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 895,
+   "end": 904,
+   "label": "AMOUNT",
+   "text": "Fr. 73.30"
+  },
+  {
+   "start": 937,
+   "end": 946,
+   "label": "AMOUNT",
+   "text": "Fr. 20.30"
+  },
+  {
+   "start": 1156,
+   "end": 1165,
+   "label": "AMOUNT",
+   "text": "Fr. 93.60"
+  },
+  {
+   "start": 1371,
+   "end": 1380,
+   "label": "AMOUNT",
+   "text": "Fr. 60.--"
+  },
+  {
+   "start": 1446,
+   "end": 1455,
+   "label": "AMOUNT",
+   "text": "Fr. 50.--"
+  },
+  {
+   "start": 1656,
+   "end": 1666,
+   "label": "AMOUNT",
+   "text": "Fr. 154.--"
+  },
+  {
+   "start": 2848,
+   "end": 2894,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 75 und\nArt. 90 BGG"
+  },
+  {
+   "start": 2984,
+   "end": 3009,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3012,
+   "end": 3037,
+   "label": "STATUTE",
+   "text": "Art. 51 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 3113,
+   "end": 3125,
+   "label": "STATUTE",
+   "text": "Art. 113 BGG"
+  },
+  {
+   "start": 3161,
+   "end": 3173,
+   "label": "STATUTE",
+   "text": "Art. 115 BGG"
+  },
+  {
+   "start": 3241,
+   "end": 3276,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 3673,
+   "end": 3691,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 3702,
+   "end": 3712,
+   "label": "DOCKET",
+   "text": "5D_21/2021"
+  },
+  {
+   "start": 3743,
+   "end": 3754,
+   "label": "DOCKET",
+   "text": "4A_222/2016"
+  },
+  {
+   "start": 3785,
+   "end": 3796,
+   "label": "DOCKET",
+   "text": "5A_791/2010"
+  },
+  {
+   "start": 3855,
+   "end": 3868,
+   "label": "BGE",
+   "text": "BGE 137 I 195"
+  },
+  {
+   "start": 3978,
+   "end": 3990,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 4054,
+   "end": 4089,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4324,
+   "end": 4339,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 4348,
+   "end": 4358,
+   "label": "BGE",
+   "text": "133 II 396"
+  },
+  {
+   "start": 4456,
+   "end": 4473,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 4478,
+   "end": 4497,
+   "label": "STATUTE",
+   "text": "Art. 6 Ziff. 1 EMRK"
+  },
+  {
+   "start": 4738,
+   "end": 4755,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 5072,
+   "end": 5086,
+   "label": "BGE",
+   "text": "BGE 142 III 48"
+  },
+  {
+   "start": 5344,
+   "end": 5359,
+   "label": "BGE",
+   "text": "BGE 144 III 117"
+  },
+  {
+   "start": 5506,
+   "end": 5519,
+   "label": "BGE",
+   "text": "BGE 139 I 189"
+  },
+  {
+   "start": 5529,
+   "end": 5538,
+   "label": "BGE",
+   "text": "138 I 484"
+  },
+  {
+   "start": 5548,
+   "end": 5557,
+   "label": "BGE",
+   "text": "137 I 195"
+  },
+  {
+   "start": 5567,
+   "end": 5576,
+   "label": "BGE",
+   "text": "133 I 100"
+  },
+  {
+   "start": 5789,
+   "end": 5802,
+   "label": "BGE",
+   "text": "BGE 137 I 195"
+  },
+  {
+   "start": 5916,
+   "end": 5929,
+   "label": "BGE",
+   "text": "BGE 133 I 100"
+  },
+  {
+   "start": 5963,
+   "end": 5974,
+   "label": "DOCKET",
+   "text": "9C_557/2008"
+  },
+  {
+   "start": 6017,
+   "end": 6032,
+   "label": "BGE",
+   "text": "BGE 135 III 289"
+  },
+  {
+   "start": 6123,
+   "end": 6136,
+   "label": "BGE",
+   "text": "BGE 138 I 484"
+  },
+  {
+   "start": 6145,
+   "end": 6156,
+   "label": "BGE",
+   "text": "138 III 252"
+  },
+  {
+   "start": 6180,
+   "end": 6191,
+   "label": "DOCKET",
+   "text": "5A_825/2012"
+  },
+  {
+   "start": 6468,
+   "end": 6479,
+   "label": "DOCKET",
+   "text": "5A_242/2020"
+  },
+  {
+   "start": 6508,
+   "end": 6518,
+   "label": "DOCKET",
+   "text": "5D_81/2015"
+  },
+  {
+   "start": 6547,
+   "end": 6558,
+   "label": "DOCKET",
+   "text": "4A_215/2014"
+  },
+  {
+   "start": 6800,
+   "end": 6813,
+   "label": "BGE",
+   "text": "BGE 137 I 195"
+  },
+  {
+   "start": 6830,
+   "end": 6841,
+   "label": "DOCKET",
+   "text": "5D_112/2013"
+  },
+  {
+   "start": 6872,
+   "end": 6883,
+   "label": "DOCKET",
+   "text": "5A_155/2013"
+  },
+  {
+   "start": 7122,
+   "end": 7133,
+   "label": "DOCKET",
+   "text": "9C_547/2021"
+  },
+  {
+   "start": 7164,
+   "end": 7174,
+   "label": "DOCKET",
+   "text": "8C_43/2021"
+  },
+  {
+   "start": 7202,
+   "end": 7213,
+   "label": "DOCKET",
+   "text": "1C_661/2020"
+  },
+  {
+   "start": 7886,
+   "end": 7900,
+   "label": "BGE",
+   "text": "BGE 143 IV 380"
+  },
+  {
+   "start": 7919,
+   "end": 7930,
+   "label": "DOCKET",
+   "text": "4A_162/2021"
+  },
+  {
+   "start": 7956,
+   "end": 7967,
+   "label": "DOCKET",
+   "text": "4A_428/2020"
+  },
+  {
+   "start": 8779,
+   "end": 8794,
+   "label": "BGE",
+   "text": "BGE 142 III 284"
+  },
+  {
+   "start": 8869,
+   "end": 8873,
+   "label": "BARE_ARTICLE",
+   "text": "§ 16"
+  },
+  {
+   "start": 9074,
+   "end": 9084,
+   "label": "DOCKET",
+   "text": "4D_31/2021"
+  },
+  {
+   "start": 9111,
+   "end": 9122,
+   "label": "DOCKET",
+   "text": "5A_242/2020"
+  },
+  {
+   "start": 9544,
+   "end": 9568,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 4 BGG"
+  },
+  {
+   "start": 9754,
+   "end": 9765,
+   "label": "STATUTE",
+   "text": "Art. 68 BGG"
+  },
+  {
+   "start": 9918,
+   "end": 9929,
+   "label": "STATUTE",
+   "text": "Art. 64 BGG"
+  },
+  {
+   "start": 10228,
+   "end": 10238,
+   "label": "AMOUNT",
+   "text": "Fr. 200.--"
+  }
+ ],
+ "n_pre": 59,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

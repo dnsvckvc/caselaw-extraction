@@ -1,0 +1,7 @@
+{
+ "keep": [
+  "b1",
+  "b2"
+ ],
+ "comment": "A bracketed [recte: ...] correction inside a citation stays inside the span; the abbreviation follows, so STATUTE."
+}

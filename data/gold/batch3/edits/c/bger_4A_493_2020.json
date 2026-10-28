@@ -1,0 +1,24 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [
+  {
+   "id": 48,
+   "label": "STATUTE"
+  },
+  {
+   "id": 58,
+   "label": "STATUTE"
+  },
+  {
+   "id": 60,
+   "label": "STATUTE"
+  },
+  {
+   "id": 62,
+   "label": "STATUTE"
+  }
+ ],
+ "add": [],
+ "comment": "CISG (SR 0.221.211.1, ratified treaty, court calls it Swiss federal law) relabelled OTHER_LAW -> STATUTE. #50 'Art. 3 Abs. 1 und Art. 4' of the Hague Convention (title only) kept as one BARE_ARTICLE chain span; guideline does not say whether BARE_ARTICLE chains are split. Two appeals: item 1 Verfassungsbeschwerde nicht eingetreten (inadmissible), item 2 Beschwerde in Zivilsachen abgewiesen (dismissed); took item 1 per rule."
+}

@@ -1,0 +1,16 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  3,
+  4,
+  7
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 34 Abs. 1 lit. c",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "Deleted #3 and #4: 5A_44/2023 and 5A_45/2023 in the Gegenstand block are the decision's own numbers (5D_44/2023, 5D_45/2023) written with a typo (5A for 5D); guideline gap. #7 relabelled by delete+add: the Reglement has an SR number, so it is an act given as a title -> BARE_ARTICLE on Art. 34 Abs. 1 lit. c. Item 1 of the dispositiv only joins the proceedings; item 2 decides (nicht eingetreten). RT230005-O/Z01 and Z02 are cantonal file numbers."
+}

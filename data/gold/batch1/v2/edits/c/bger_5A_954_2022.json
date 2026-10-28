@@ -1,0 +1,14 @@
+{
+ "outcome": "approved",
+ "delete": [
+  32
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "§ 24",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "cantonal Verordnung given as title (LS 212.51) -> BARE_ARTICLE"
+}

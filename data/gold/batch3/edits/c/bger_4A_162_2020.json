@@ -1,0 +1,15 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  25
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 1",
+   "label": "BARE_ARTICLE",
+   "occurrence": 2
+  }
+ ],
+ "comment": "#25 Verordnung with SR 173.110.4 is an act given as title -> BARE_ARTICLE Art. 1, not CONTRACT_ARTICLE."
+}

@@ -1,0 +1,11 @@
+{
+ "keep": [],
+ "add": [
+  {
+   "text": "Art. 16 Abs. 2 [recte: 3] AVB",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 1
+  }
+ ],
+ "comment": "Same rule as bger_4A_14_2020: the [recte: ...] correction stays inside the span; the instrument (AVB) follows, so CONTRACT_ARTICLE over the whole reference."
+}

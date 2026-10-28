@@ -1,0 +1,151 @@
+{
+ "decision_id": "bger_4A_99_2025",
+ "task_index": 148,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "No change. All pre-annotations checked; no missing spans.",
+ "spans": [
+  {
+   "start": 267,
+   "end": 283,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 359,
+   "end": 375,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 2006,
+   "end": 2024,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2027,
+   "end": 2041,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 2048,
+   "end": 2051,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 2265,
+   "end": 2284,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2322,
+   "end": 2360,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2772,
+   "end": 2786,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 2793,
+   "end": 2796,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 2911,
+   "end": 2930,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 3150,
+   "end": 3164,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 3392,
+   "end": 3403,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 3413,
+   "end": 3432,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 3525,
+   "end": 3543,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 3743,
+   "end": 3757,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 4015,
+   "end": 4029,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 4206,
+   "end": 4220,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5166,
+   "end": 5178,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  },
+  {
+   "start": 5236,
+   "end": 5255,
+   "label": "STATUTE",
+   "text": "Art. 257d Abs. 1 OR"
+  },
+  {
+   "start": 7721,
+   "end": 7747,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 7889,
+   "end": 7913,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 5 BGG"
+  },
+  {
+   "start": 8064,
+   "end": 8082,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 8194,
+   "end": 8204,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 23,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

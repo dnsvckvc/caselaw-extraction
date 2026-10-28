@@ -1,0 +1,11 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "140 III 115",
+   "label": "BGE"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 121 ff. BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "149 III 93",
+   "label": "BGE"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "142 III 364",
+   "label": "BGE"
+  }
+ ],
+ "comment": "#8 Art. 60a ZPO and #9 Art. 143 Abs. 1bis ZPO are proposed articles from the draft revision (Vernehmlassungsvorlage, Entwurf), written with the plain ZPO abbreviation; kept as STATUTE, guideline only excludes drafts written as VE-ZPO."
+}

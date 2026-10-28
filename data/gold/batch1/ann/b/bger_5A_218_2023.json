@@ -1,0 +1,181 @@
+{
+ "decision_id": "bger_5A_218_2023",
+ "task_index": 32,
+ "pass": "b",
+ "outcome": "dismissed",
+ "comment": "Extended two chains cut short. Added three BGE list items without the BGE word. Added the commentary citation Art. 310/314b ZGB, consistent with the pre-annotated Art. 273 ZGB in the same kind of reference.",
+ "spans": [
+  {
+   "start": 285,
+   "end": 301,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 372,
+   "end": 390,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 3359,
+   "end": 3405,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1,\nArt. 75 Abs. 1 und\nArt. 90 BGG"
+  },
+  {
+   "start": 4066,
+   "end": 4080,
+   "label": "BGE",
+   "text": "BGE 136 II 457"
+  },
+  {
+   "start": 4089,
+   "end": 4098,
+   "label": "BGE",
+   "text": "136 V 362"
+  },
+  {
+   "start": 4110,
+   "end": 4119,
+   "label": "BGE",
+   "text": "142 I 155"
+  },
+  {
+   "start": 4458,
+   "end": 4476,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4804,
+   "end": 4819,
+   "label": "BGE",
+   "text": "BGE 147 III 121"
+  },
+  {
+   "start": 5407,
+   "end": 5419,
+   "label": "STATUTE",
+   "text": "Art. 310 ZGB"
+  },
+  {
+   "start": 5572,
+   "end": 5584,
+   "label": "STATUTE",
+   "text": "Art. 310 ZGB"
+  },
+  {
+   "start": 7348,
+   "end": 7368,
+   "label": "STATUTE",
+   "text": "Art. 301a Abs. 1 ZGB"
+  },
+  {
+   "start": 7371,
+   "end": 7386,
+   "label": "BGE",
+   "text": "BGE 142 III 612"
+  },
+  {
+   "start": 7395,
+   "end": 7406,
+   "label": "BGE",
+   "text": "147 III 121"
+  },
+  {
+   "start": 7591,
+   "end": 7606,
+   "label": "BGE",
+   "text": "BGE 147 III 265"
+  },
+  {
+   "start": 7631,
+   "end": 7642,
+   "label": "DOCKET",
+   "text": "5A_230/2022"
+  },
+  {
+   "start": 7676,
+   "end": 7687,
+   "label": "DOCKET",
+   "text": "5A_534/2021"
+  },
+  {
+   "start": 7718,
+   "end": 7729,
+   "label": "DOCKET",
+   "text": "5A_157/2021"
+  },
+  {
+   "start": 7971,
+   "end": 7982,
+   "label": "DOCKET",
+   "text": "5A_373/2018"
+  },
+  {
+   "start": 8009,
+   "end": 8019,
+   "label": "DOCKET",
+   "text": "5A_67/2021"
+  },
+  {
+   "start": 8201,
+   "end": 8220,
+   "label": "STATUTE",
+   "text": "Art. 273 Abs. 1 ZGB"
+  },
+  {
+   "start": 8395,
+   "end": 8407,
+   "label": "STATUTE",
+   "text": "Art. 273 ZGB"
+  },
+  {
+   "start": 9867,
+   "end": 9882,
+   "label": "BGE",
+   "text": "BGE 147 III 121"
+  },
+  {
+   "start": 10323,
+   "end": 10366,
+   "label": "STATUTE",
+   "text": "Art. 296 Abs. 2 i.V.m.\nArt. 301a Abs. 1 ZGB"
+  },
+  {
+   "start": 10397,
+   "end": 10409,
+   "label": "STATUTE",
+   "text": "Art. 310 ZGB"
+  },
+  {
+   "start": 10611,
+   "end": 10628,
+   "label": "STATUTE",
+   "text": "Art. 310/314b ZGB"
+  },
+  {
+   "start": 11811,
+   "end": 11829,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 11909,
+   "end": 11927,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 12127,
+   "end": 12139,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 24,
+ "n_deleted": 2,
+ "n_added": 6,
+ "n_relabeled": 0
+}

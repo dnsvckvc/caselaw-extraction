@@ -1,0 +1,12 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    43
+  ],
+  "add": [
+    {
+      "text": "Ziffer 2 der Vergleichsvereinbarung",
+      "label": "CONTRACT_ARTICLE"
+    }
+  ]
+}

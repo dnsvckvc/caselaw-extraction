@@ -1,0 +1,45 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    20,
+    40
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "129 I 129",
+      "label": "BGE"
+    },
+    {
+      "text": "Art. 95 f. BGG",
+      "label": "STATUTE",
+      "occurrence": 1
+    },
+    {
+      "text": "Art. 97 Abs. 1 und Art. 105 Abs. 2 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "141 IV 317",
+      "label": "BGE"
+    },
+    {
+      "text": "140 III 264",
+      "label": "BGE",
+      "occurrence": 3
+    },
+    {
+      "text": "Art. 450 ff. ZGB",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 117 ff. ZPO",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 95 f. und Art. 106 Abs. 1 BGG",
+      "label": "STATUTE"
+    }
+  ],
+  "comment": "Chains #20 and #40 extended. Missed statutes with 'f.'/'ff.' added. BGE list items added; '249 E. 1.3.1' after 141 IV 317 treated as second page, not a span."
+}

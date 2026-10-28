@@ -1,0 +1,16 @@
+{
+ "outcome": "approved",
+ "delete": [
+  32,
+  35
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 5 Abs. 1 GerG",
+   "label": "OTHER_LAW",
+   "all": true
+  }
+ ],
+ "comment": "Art. 5 Abs. 1 GerG (Nidwalden law, abbreviation defined in text) = OTHER_LAW; first mention with full title stays BARE_ARTICLE. Outcome: aufgehoben und zurückgewiesen = approved."
+}

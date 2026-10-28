@@ -1,0 +1,921 @@
+{
+ "bger_4A_351_2019": {
+  "decision_id": "bger_4A_351_2019",
+  "task_index": 1,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No change. #37 §157 before title (BGB spelled out) kept BARE_ARTICLE per guideline. Foreign docket \"X ZR 37/12 des deutschen Bundesgerichtshofes\" fits none of the nine classes, left unmarked.",
+  "comment_b": "Urteil X ZR 37/12 (German BGH docket) fits no class; left.",
+  "n_agree": 48,
+  "disputed": []
+ },
+ "bger_5A_1_2020": {
+  "decision_id": "bger_5A_1_2020",
+  "task_index": 2,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No negative references in the text.",
+  "comment_b": "",
+  "n_agree": 23,
+  "disputed": []
+ },
+ "bger_4D_2_2020": {
+  "decision_id": "bger_4D_2_2020",
+  "task_index": 3,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No negative references. \"SIA-Bestimmungen\" and \"Reglement der Stockwerkeigentuemergemeinschaft\" are instrument names without clause numbers, not spans.",
+  "comment_b": "Citation gold: short cite 86 E. 2 S. 89 (= BGE 140 III 86) after #10 has no BGE span; not changed.",
+  "n_agree": 21,
+  "disputed": []
+ },
+ "bger_5A_136_2020": {
+  "decision_id": "bger_5A_136_2020",
+  "task_index": 4,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Kept #22 \"Ziff. 6 der AGB\" although the instrument name continues \"fuer Hypothekarkredite\" (guideline example stops at AGB). Added the one abbreviated \"Ziff. 9 des Mortgage Loan Agreement\". Spelled-out forms \"Ziffer 9 des Vertrags\", \"Ziffer 13 der AGB fuer Hypothekarkredite\", \"Ziffer 9 des Mortgage Loan Agreement\", \"Ziffer 4 des Vertrags\", \"Ziffer 9 des besagten Vertrags\" (about 10 occurrences) left unmarked: guideline triggers are Art./Ziff./§ only. Guideline gap.",
+  "comment_b": "Guideline gap: 13 contract clauses written with spelled-out Ziffer (Ziffer 9 des Mortgage Loan Agreement, Ziffer 13 der AGB für Hypothekarkredite, Ziffer 4 des Vertrags) left unlabelled because the guideline names only Art./Ziff./§ as start. Kept #22 as Ziff. 6 der AGB (guideline example) although für Hypothekarkredite follows.",
+  "n_agree": 52,
+  "disputed": []
+ },
+ "bger_4A_8_2020": {
+  "decision_id": "bger_4A_8_2020",
+  "task_index": 5,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No negative references in the text.",
+  "comment_b": "",
+  "n_agree": 113,
+  "disputed": []
+ },
+ "bger_5A_206_2020": {
+  "decision_id": "bger_5A_206_2020",
+  "task_index": 6,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No negative references in the text.",
+  "comment_b": "",
+  "n_agree": 20,
+  "disputed": []
+ },
+ "bger_4A_570_2019": {
+  "decision_id": "bger_4A_570_2019",
+  "task_index": 7,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No change. #38 and #39 precede acts given as titles (PatG and EPUe 2000 with SR numbers in brackets), kept BARE_ARTICLE per guideline.",
+  "comment_b": "",
+  "n_agree": 54,
+  "disputed": []
+ },
+ "bger_4A_172_2020": {
+  "decision_id": "bger_4A_172_2020",
+  "task_index": 8,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No negative references in the text.",
+  "comment_b": "",
+  "n_agree": 12,
+  "disputed": []
+ },
+ "bger_5A_133_2019": {
+  "decision_id": "bger_5A_133_2019",
+  "task_index": 9,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No change. All 17 BARE_ARTICLE proposals are commentary citations (N./Rz. zu Art.), both JOURNAL_REF proposals (ZBGR 2017 S. 242, BlSchK 1972 S. 20) correct. Book page references (VOCK/MEISTER-MUELLER S. 263; BRUNNER et al. S. 85) are not spans.",
+  "comment_b": "",
+  "n_agree": 117,
+  "disputed": []
+ },
+ "bger_5A_579_2020": {
+  "decision_id": "bger_5A_579_2020",
+  "task_index": 10,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No negative references in the text.",
+  "comment_b": "",
+  "n_agree": 12,
+  "disputed": []
+ },
+ "bger_5A_461_2020": {
+  "decision_id": "bger_5A_461_2020",
+  "task_index": 11,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No negative references. \"Dispositiv-Ziffer 1 Satz 1\", \"Ziff. 1 Satz 2 ff.\", \"Ziff. 2\", \"Ziff. 3\", \"Ziff. 4\" refer to items of the lower court judgment, not to a private instrument or an act; they fit none of the nine classes and were left unmarked.",
+  "comment_b": "Ziff. 1 Satz 1 des Urteils / Dispositiv-Ziffer refer to points of a court judgment, not a private instrument; no span.",
+  "n_agree": 41,
+  "disputed": []
+ },
+ "bger_4A_375_2020": {
+  "decision_id": "bger_4A_375_2020",
+  "task_index": 12,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No change. #54 \"SVR 1998 IV Nr. 13\" kept, following \"S. 47\" excluded per guideline example. Citation gold note: \"BGE 142 II [recte: III] 798\" (E. 3.5.3) has no BGE span, left as is. Title \"Epidemiengesetz, EpG; SR 818.101\" without Art. is not a span.",
+  "comment_b": "Outcome copied unchanged; note the Beschwerde in Zivilsachen was dismissed (abgewiesen soweit einzutreten), only the subsidiary constitutional complaint was inadmissible. Citation gold: BGE 142 II [recte: III] 798 has no BGE span; not changed.",
+  "n_agree": 83,
+  "disputed": []
+ },
+ "bger_5A_992_2019": {
+  "decision_id": "bger_5A_992_2019",
+  "task_index": 13,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No negative references in the text.",
+  "comment_b": "",
+  "n_agree": 22,
+  "disputed": []
+ },
+ "bger_4A_37_2020": {
+  "decision_id": "bger_4A_37_2020",
+  "task_index": 14,
+  "outcome_a": "moot",
+  "outcome_b": "moot",
+  "comment_a": "#11 deleted: \"Art. 8 Abs. 3 des Reglements vom 31. Maerz 2006 ueber die Parteientschaedigung ... [SR 173.110.210.3]\" is the Federal Supreme Court fee regulation, i.e. federal law in Fedlex given as a title, not a private instrument. Re-added as BARE_ARTICLE \"Art. 8 Abs. 3\" per the title rule. Guideline gap: \"Reglement\" trigger for CONTRACT_ARTICLE vs. federal Reglemente with SR numbers.",
+  "comment_b": "#11: the Reglement über die Parteientschädigung (SR 173.110.210.3) is a federal regulation of the Federal Supreme Court, not a private instrument; act given as a title, so BARE_ARTICLE Art. 8 Abs. 3.",
+  "n_agree": 13,
+  "disputed": []
+ },
+ "bger_4A_14_2021": {
+  "decision_id": "bger_4A_14_2021",
+  "task_index": 15,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No change. #7 \"Art. 2 Abs. 2\" precedes act given as title (KVAG; SR 832.12), BARE_ARTICLE correct. All 27 AVB proposals (incl. two chains with trailing AVB) correct. \"Abs. 1 dieser Bestimmung\" and bare \"lit. a\"/\"lit. b\" are not spans.",
+  "comment_b": "",
+  "n_agree": 97,
+  "disputed": []
+ },
+ "bger_5A_827_2020": {
+  "decision_id": "bger_5A_827_2020",
+  "task_index": 16,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "No negative proposals and none missing. Cantonal docket numbers (HE180115-0, PQ180080-0/U) and BVGer dockets (B-3171/2020, B-3933/2018) fit none of the nine classes; left unlabelled. Ziffern of the ESA Verfuegung / Urteil dispositiv are not private-instrument clauses.",
+  "comment_b": "",
+  "n_agree": 80,
+  "disputed": []
+ },
+ "bger_5D_79_2021": {
+  "decision_id": "bger_5D_79_2021",
+  "task_index": 17,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No negative proposals, none missing. 'statt nach Abs. 2' has no Art., so no span.",
+  "comment_b": "",
+  "n_agree": 16,
+  "disputed": []
+ },
+ "bger_4A_109_2021": {
+  "decision_id": "bger_4A_109_2021",
+  "task_index": 18,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No negative proposals, none missing. Dispositiv-Ziffern are court dispositif, not a private instrument. Fachhandbuch Arbeitsrecht S. 303 Rz. 8.76 is a book, not a journal.",
+  "comment_b": "",
+  "n_agree": 64,
+  "disputed": []
+ },
+ "bger_4A_146_2021": {
+  "decision_id": "bger_4A_146_2021",
+  "task_index": 19,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No negative proposals, none missing.",
+  "comment_b": "",
+  "n_agree": 43,
+  "disputed": []
+ },
+ "bger_5A_620_2021": {
+  "decision_id": "bger_5A_620_2021",
+  "task_index": 20,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No negative proposals, none missing.",
+  "comment_b": "",
+  "n_agree": 11,
+  "disputed": []
+ },
+ "bger_5A_680_2021": {
+  "decision_id": "bger_5A_680_2021",
+  "task_index": 21,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No negative proposals, none missing.",
+  "comment_b": "",
+  "n_agree": 15,
+  "disputed": []
+ },
+ "bger_4A_112_2021": {
+  "decision_id": "bger_4A_112_2021",
+  "task_index": 22,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "#55/#56 stopped at the year; re-drawn to include the page (comma between year and S. in this decision). Added SRIEL 2017 (missed journal). Added two Revue de l'Arbitrage refs: journal cited by full name, not abbreviation; guideline only mentions abbreviation. 'Artikel 22 enthielt folgende Schiedsklausel' (spelled-out Artikel, instrument named before) left unlabelled; guideline covers only Art./§. Book refs (Kaufmann-Kohler/Rigozzi Rz. 5.24, Berger/Kellerhals Rz. 583/825) are not journal refs.",
+  "comment_b": "Journal proposals #55/#56 stopped before the page; redrawn to include page. Revue de l'Arbitrage cited by full title (no abbreviation) added as JOURNAL_REF. 'Artikel 22' (spelled out, Konsortialvertrag named earlier) left without span.",
+  "n_agree": 83,
+  "disputed": []
+ },
+ "bger_4A_144_2021": {
+  "decision_id": "bger_4A_144_2021",
+  "task_index": 23,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "#30 'Art. 3' kept as BARE_ARTICLE: the instrument follows but only after the modifier 'der zwischen den Parteien geltenden Allgemeinen Bedingungen fuer die Kollektiv-Krankentaggeldversicherung (AB)'. Guideline does not say whether intervening words between number and instrument name still make it CONTRACT_ARTICLE; kept the conservative short span. #31 Art. 3 Abs. 1 AB correct.",
+  "comment_b": "#30 BARE_ARTICLE 'Art. 3' is followed by the instrument named in full (Allgemeine Bedingungen ... (AB)); redrawn as CONTRACT_ARTICLE up to the instrument name, bracketed abbreviation excluded. Guideline does not say whether a long descriptive instrument title counts as 'name of the instrument'.",
+  "n_agree": 49,
+  "disputed": [
+   {
+    "id": "a1",
+    "source": "a",
+    "label": "BARE_ARTICLE",
+    "text": "Art. 3",
+    "start": 5919,
+    "end": 5925,
+    "context": "keit ein und legte dar, wie die entsprechende Definition in ⟦Art. 3⟧ der zwischen den Parteien geltenden Allgemeinen Bedingungen"
+   },
+   {
+    "id": "b1",
+    "source": "b",
+    "label": "CONTRACT_ARTICLE",
+    "text": "Art. 3 der zwischen den Parteien geltenden Allgemeinen Bedingungen für die Kollektiv-Krankentaggeldversicherung",
+    "start": 5919,
+    "end": 6030,
+    "context": "keit ein und legte dar, wie die entsprechende Definition in ⟦Art. 3 der zwischen den Parteien geltenden Allgemeinen Bedingungen für die Kollektiv-Krankentaggeldversicherung⟧ (AB) zu verstehen sei. Dagegen macht der Beschwerdeführer b"
+   }
+  ]
+ },
+ "bger_4D_53_2021": {
+  "decision_id": "bger_4D_53_2021",
+  "task_index": 24,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No negative proposals, none missing.",
+  "comment_b": "",
+  "n_agree": 28,
+  "disputed": []
+ },
+ "bger_5A_146_2021": {
+  "decision_id": "bger_5A_146_2021",
+  "task_index": 25,
+  "outcome_a": "moot",
+  "outcome_b": "moot",
+  "comment_a": "#19 FamPra.ch 2018 S. 832 correct (f. excluded). 'AS 2016 2317' (Amtliche Sammlung) fits none of the nine classes; left unlabelled. SR numbers in brackets are not spans.",
+  "comment_b": "AS 2016 2317 (Amtliche Sammlung) left without span: fits none of the classes.",
+  "n_agree": 33,
+  "disputed": []
+ },
+ "bger_4A_528_2021": {
+  "decision_id": "bger_4A_528_2021",
+  "task_index": 26,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No negative proposals, none missing.",
+  "comment_b": "",
+  "n_agree": 20,
+  "disputed": []
+ },
+ "bger_5A_912_2021": {
+  "decision_id": "bger_5A_912_2021",
+  "task_index": 27,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No negative proposals, none missing.",
+  "comment_b": "",
+  "n_agree": 16,
+  "disputed": []
+ },
+ "bger_5A_1049_2021": {
+  "decision_id": "bger_5A_1049_2021",
+  "task_index": 28,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No negative proposals, none missing.",
+  "comment_b": "",
+  "n_agree": 11,
+  "disputed": []
+ },
+ "bger_5A_75_2022": {
+  "decision_id": "bger_5A_75_2022",
+  "task_index": 29,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No negative proposals, none missing.",
+  "comment_b": "",
+  "n_agree": 9,
+  "disputed": []
+ },
+ "bger_5A_146_2022": {
+  "decision_id": "bger_5A_146_2022",
+  "task_index": 30,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No negative proposals, none missing.",
+  "comment_b": "",
+  "n_agree": 10,
+  "disputed": []
+ },
+ "bger_5A_302_2021": {
+  "decision_id": "bger_5A_302_2021",
+  "task_index": 31,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 73,
+  "disputed": []
+ },
+ "bger_5A_193_2021": {
+  "decision_id": "bger_5A_193_2021",
+  "task_index": 32,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 44,
+  "disputed": []
+ },
+ "bger_4A_584_2021": {
+  "decision_id": "bger_4A_584_2021",
+  "task_index": 33,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 43,
+  "disputed": []
+ },
+ "bger_4A_29_2022": {
+  "decision_id": "bger_4A_29_2022",
+  "task_index": 34,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 45,
+  "disputed": []
+ },
+ "bger_5A_890_2021": {
+  "decision_id": "bger_5A_890_2021",
+  "task_index": 35,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 47,
+  "disputed": []
+ },
+ "bger_4A_122_2022": {
+  "decision_id": "bger_4A_122_2022",
+  "task_index": 36,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Ziff. 4 seiner Beschwerdeschrift: clause of a party brief, not a private instrument; fits none of the nine classes, left without span.",
+  "comment_b": "",
+  "n_agree": 18,
+  "disputed": []
+ },
+ "bger_4A_162_2022": {
+  "decision_id": "bger_4A_162_2022",
+  "task_index": 37,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "#14 Reglement des Bundesgerichts (ReRBGer; SR 173.110.29) is federal law, not a private instrument; act given as title -> BARE_ARTICLE Art. 2 lit. c.",
+  "comment_b": "#14 is the Reglement des Bundesgerichts ueber den elektronischen Rechtsverkehr (ReRBGer; SR 173.110.29), a federal court regulation in the SR, not a private instrument; the act is given as a title, so BARE_ARTICLE on Art. 2 lit. c.",
+  "n_agree": 58,
+  "disputed": []
+ },
+ "bger_4A_328_2022": {
+  "decision_id": "bger_4A_328_2022",
+  "task_index": 38,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 33,
+  "disputed": []
+ },
+ "bger_5A_608_2022": {
+  "decision_id": "bger_5A_608_2022",
+  "task_index": 39,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 11,
+  "disputed": []
+ },
+ "bger_4A_171_2022": {
+  "decision_id": "bger_4A_171_2022",
+  "task_index": 40,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "#13 and #66 kept as BARE_ARTICLE (cantonal act as title; ZPO named before the number).",
+  "comment_b": "",
+  "n_agree": 72,
+  "disputed": []
+ },
+ "bger_4A_413_2022": {
+  "decision_id": "bger_4A_413_2022",
+  "task_index": 41,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 27,
+  "disputed": []
+ },
+ "bger_5A_676_2022": {
+  "decision_id": "bger_5A_676_2022",
+  "task_index": 42,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Dispositiv-Ziff. 1-3 and Ziffer 1 des Urteils refer to a judgment dispositive, not a private instrument; no span. #12 STATUTE Art. 74 Abs. 1 Bst. b ZGB is a court typo for BGG; citation gold left as is.",
+  "comment_b": "",
+  "n_agree": 34,
+  "disputed": []
+ },
+ "bger_5A_390_2022": {
+  "decision_id": "bger_5A_390_2022",
+  "task_index": 43,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "#3 OTHER_LAW Art. 90 BG deleted: court typo for Art. 90 BGG (Swiss federal law). Not in citation gold as STATUTE; guideline gap: mistyped federal abbreviation fits no class, left without span.",
+  "comment_b": "#3 'Art. 90 BG' is a typo for Art. 90 BGG (federal law), not OTHER_LAW; fits no negative class. The citation gold misses it as STATUTE.",
+  "n_agree": 40,
+  "disputed": []
+ },
+ "bger_4A_39_2023": {
+  "decision_id": "bger_4A_39_2023",
+  "task_index": 44,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 96,
+  "disputed": []
+ },
+ "bger_4A_491_2022": {
+  "decision_id": "bger_4A_491_2022",
+  "task_index": 45,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Ziffer 1 inside the quoted motion and Rz. 151-171 der Beschwerde are party-brief references; no span.",
+  "comment_b": "",
+  "n_agree": 69,
+  "disputed": []
+ },
+ "bger_4A_553_2022": {
+  "decision_id": "bger_4A_553_2022",
+  "task_index": 46,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "no negative references in this decision",
+  "comment_b": "",
+  "n_agree": 41,
+  "disputed": []
+ },
+ "bger_5A_217_2023": {
+  "decision_id": "bger_5A_217_2023",
+  "task_index": 47,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "no negative references. Citation gold #3 Art. 308 Abs. 1 und 2 BGG is a court typo for ZGB; left untouched.",
+  "comment_b": "Gold #3 Art. 308 Abs. 1 und 2 BGG: source text says BGG but the provision is ZGB (Beistandschaft); left untouched.",
+  "n_agree": 26,
+  "disputed": []
+ },
+ "bger_5A_449_2023": {
+  "decision_id": "bger_5A_449_2023",
+  "task_index": 48,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "no negative references in this decision",
+  "comment_b": "",
+  "n_agree": 12,
+  "disputed": []
+ },
+ "bger_5A_288_2023": {
+  "decision_id": "bger_5A_288_2023",
+  "task_index": 49,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "#2 and #3 are inside the quoted appellant text (\"Laien-Beschwerde nach Art. 72 ff. oder Art. 113 ff.\"): no span per guideline. #19, #28, #29, #31 correct.",
+  "comment_b": "#2/#3 Art. 72 ff. / Art. 113 ff. are inside the appellant quoted title of his submission; deleted per quotation rule.",
+  "n_agree": 32,
+  "disputed": []
+ },
+ "bger_4A_325_2023": {
+  "decision_id": "bger_4A_325_2023",
+  "task_index": 50,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "no negative references in this decision",
+  "comment_b": "",
+  "n_agree": 40,
+  "disputed": []
+ },
+ "bger_5F_23_2023": {
+  "decision_id": "bger_5F_23_2023",
+  "task_index": 51,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "no negative references. ECtHR application number Nr. 69212/17 (twice) fits none of the nine classes; left without span.",
+  "comment_b": "",
+  "n_agree": 23,
+  "disputed": []
+ },
+ "bger_4A_414_2023": {
+  "decision_id": "bger_4A_414_2023",
+  "task_index": 52,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "no negative references in this decision",
+  "comment_b": "",
+  "n_agree": 29,
+  "disputed": []
+ },
+ "bger_5D_103_2023": {
+  "decision_id": "bger_5D_103_2023",
+  "task_index": 53,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "#37 § 80 Abs. 1 (zuercherisches GOG given as title, LS 211.1) is correct BARE_ARTICLE.",
+  "comment_b": "",
+  "n_agree": 51,
+  "disputed": []
+ },
+ "bger_4A_271_2023": {
+  "decision_id": "bger_4A_271_2023",
+  "task_index": 54,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "#13 was CONTRACT_ARTICLE on a cantonal act given as title (EG-ZPO/SG): replaced by BARE_ARTICLE Art. 9. #49/#50/#52/#68/#69 cut the AVB chain short: replaced by Art. A4 Ziff. 2 AVB (5x). Added missing Art. B8 Ziff. 1 f. AVB. #8 Art. 2 Abs. 2 (KVAG given as title) correct. Not spanned: BBl 2017 5089 ff., 5136 (Botschaft in the official gazette; fits no class, guideline gap); spelled-out Artikeln 35a und 35b VVG (citation territory, not mine); sGs 961.2 / SR numbers alone.",
+  "comment_b": "#13 cantonal EG-ZPO/SG given as title -> BARE_ARTICLE Art. 9. AVB proposals cut off 'Art. A4' -> redrawn. Not spanned: 'Artikeln 35a und 35b VVG' (no Art. abbreviation, federal law), 'BBl 2017 5089 ff., 5136' (Federal Gazette, fits no class).",
+  "n_agree": 75,
+  "disputed": []
+ },
+ "bger_4A_579_2023": {
+  "decision_id": "bger_4A_579_2023",
+  "task_index": 55,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "#55 was CONTRACT_ARTICLE on a cantonal tariff given as title (TO/BL named only in brackets after the title): replaced by BARE_ARTICLE § 7 Abs. 1 lit. e. #58 § 8 Abs. 1 lit. b Ziff. 2 TO/BL correct OTHER_LAW.",
+  "comment_b": "#55 cantonal Tarifordnung given as title (der kantonalen Tarifordnung ... (TO/BL)) -> BARE_ARTICLE, not CONTRACT_ARTICLE.",
+  "n_agree": 62,
+  "disputed": []
+ },
+ "bger_5A_983_2023": {
+  "decision_id": "bger_5A_983_2023",
+  "task_index": 56,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "no negative references in this decision",
+  "comment_b": "",
+  "n_agree": 17,
+  "disputed": []
+ },
+ "bger_4A_636_2023": {
+  "decision_id": "bger_4A_636_2023",
+  "task_index": 57,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "no negative references in this decision",
+  "comment_b": "",
+  "n_agree": 52,
+  "disputed": []
+ },
+ "bger_5D_6_2024": {
+  "decision_id": "bger_5D_6_2024",
+  "task_index": 58,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "no negative references in this decision",
+  "comment_b": "",
+  "n_agree": 39,
+  "disputed": []
+ },
+ "bger_4A_58_2024": {
+  "decision_id": "bger_4A_58_2024",
+  "task_index": 59,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Guideline gap: the contract clause is cited only as spelled-out Artikel 17 der Vereinbarung / Artikel 17 (about 7 occurrences). CONTRACT_ARTICLE starts at Art./Ziff./§ per guideline, and the citation gold also skips spelled-out Artikel (cf. Artikeln 35a und 35b VVG in 4A_271/2023), so no span added.",
+  "comment_b": "Contract clause written out as Artikel 17 (der Vereinbarung), 6 times; guideline spans start at Art./Ziff./§ only, and the gold leaves spelled-out Artikel unspanned, so no CONTRACT_ARTICLE added. Guideline gap.",
+  "n_agree": 50,
+  "disputed": []
+ },
+ "bger_5A_61_2024": {
+  "decision_id": "bger_5A_61_2024",
+  "task_index": 60,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "no negative references. Randziffer 26 / Randziffer 30 (brief) and Ziffer 5d des erstinstanzlichen Entscheids are not instrument clauses; left without span.",
+  "comment_b": "",
+  "n_agree": 82,
+  "disputed": []
+ },
+ "bger_4A_275_2024": {
+  "decision_id": "bger_4A_275_2024",
+  "task_index": 61,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 27,
+  "disputed": []
+ },
+ "bger_4A_356_2024": {
+  "decision_id": "bger_4A_356_2024",
+  "task_index": 62,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 34,
+  "disputed": []
+ },
+ "bger_5A_927_2023": {
+  "decision_id": "bger_5A_927_2023",
+  "task_index": 63,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "#38 § 6 (textbook KOLLER) is a correct BARE_ARTICLE.",
+  "comment_b": "#38 kept (textbook § 6 Rz. 179). Court text says Art. 47 Abs. 2 BGG (#7) where BGBB is meant; gold follows the text, left unchanged.",
+  "n_agree": 54,
+  "disputed": []
+ },
+ "bger_5A_635_2024": {
+  "decision_id": "bger_5A_635_2024",
+  "task_index": 64,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 17,
+  "disputed": []
+ },
+ "bger_5A_711_2024": {
+  "decision_id": "bger_5A_711_2024",
+  "task_index": 65,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 17,
+  "disputed": []
+ },
+ "bger_4A_473_2024": {
+  "decision_id": "bger_4A_473_2024",
+  "task_index": 66,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "#33 MRA 2014 cut before the page; re-drawn as MRA 2014, S. 90 (comma between year and S. kept inside the span; ff./f. excluded).",
+  "comment_b": "#33 extended to the page (MRA 2014, S. 90), f. excluded; the span includes the comma between year and page.",
+  "n_agree": 57,
+  "disputed": []
+ },
+ "bger_4D_157_2024": {
+  "decision_id": "bger_4D_157_2024",
+  "task_index": 67,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 25,
+  "disputed": []
+ },
+ "bger_5A_278_2024": {
+  "decision_id": "bger_5A_278_2024",
+  "task_index": 68,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Dispositiv-Ziffer 2.a / 3.d are judgment dispositive numbers, not instrument clauses; no span.",
+  "comment_b": "Dispositiv-Ziffer 2.a / 3.d of the lower-court judgment: clause of a judgment, not a private instrument; left without span.",
+  "n_agree": 69,
+  "disputed": []
+ },
+ "bger_4D_192_2024": {
+  "decision_id": "bger_4D_192_2024",
+  "task_index": 69,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 38,
+  "disputed": []
+ },
+ "bger_4A_153_2025": {
+  "decision_id": "bger_4A_153_2025",
+  "task_index": 70,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 12,
+  "disputed": []
+ },
+ "bger_4A_33_2025": {
+  "decision_id": "bger_4A_33_2025",
+  "task_index": 71,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "#70: cantonal act given as a title (EG ZPO/AG abbreviation only later in brackets) -> BARE_ARTICLE § 25, not CONTRACT_ARTICLE. #80: SJZ 1943 cut before page; re-drawn as SJZ 1943, S. 389 (second page ref \"und 405 ff.\" left out). Ziff. 3.1 / Ziff. 4.5 refer to a court procedural order, not a private instrument: no span.",
+  "comment_b": "#70 cantonal act given as title (§ 25 des Einführungsgesetzes ... [EG ZPO/AG]) -> BARE_ARTICLE § 25 per guideline; abbreviation only in brackets after the date. #80 extended to page S. 389; second page \"405 ff.\" left without span. Ziff. 3.1/4.5 of a procedural order: no span.",
+  "n_agree": 107,
+  "disputed": []
+ },
+ "bger_5A_278_2025": {
+  "decision_id": "bger_5A_278_2025",
+  "task_index": 72,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 9,
+  "disputed": []
+ },
+ "bger_5A_355_2025": {
+  "decision_id": "bger_5A_355_2025",
+  "task_index": 73,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Citation gold note: \"Artikel 104 BGG\" (spelled out, E. 3) has no STATUTE span; left untouched.",
+  "comment_b": "Citation gold may miss STATUTE \"Artikel 104 BGG\" in E. 3 (spelled Artikel, no span).",
+  "n_agree": 13,
+  "disputed": []
+ },
+ "bger_5A_98_2025": {
+  "decision_id": "bger_5A_98_2025",
+  "task_index": 74,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 62,
+  "disputed": []
+ },
+ "bger_5A_601_2025": {
+  "decision_id": "bger_5A_601_2025",
+  "task_index": 75,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "#21 FamPra.ch 2023 S. 1067 is a correct JOURNAL_REF.",
+  "comment_b": "",
+  "n_agree": 39,
+  "disputed": []
+ },
+ "bger_5A_248_2025": {
+  "decision_id": "bger_5A_248_2025",
+  "task_index": 76,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 44,
+  "disputed": []
+ },
+ "bger_4D_149_2025": {
+  "decision_id": "bger_4D_149_2025",
+  "task_index": 77,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 28,
+  "disputed": []
+ },
+ "bger_4D_222_2025": {
+  "decision_id": "bger_4D_222_2025",
+  "task_index": 78,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 19,
+  "disputed": []
+ },
+ "bger_4F_59_2025": {
+  "decision_id": "bger_4F_59_2025",
+  "task_index": 79,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 42,
+  "disputed": []
+ },
+ "bger_5A_46_2026": {
+  "decision_id": "bger_5A_46_2026",
+  "task_index": 80,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 20,
+  "disputed": []
+ },
+ "bger_4A_493_2025": {
+  "decision_id": "bger_4A_493_2025",
+  "task_index": 81,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No negative references. Gold #31 reads BGE 142 IIII 758 (typo in source text, left untouched).",
+  "comment_b": "No negative references. Note on citation gold (not changed): #31 reads 'BGE 142 IIII 758' (typo in source text).",
+  "n_agree": 84,
+  "disputed": []
+ },
+ "bger_5D_34_2025": {
+  "decision_id": "bger_5D_34_2025",
+  "task_index": 82,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "#47 SZZP 2016 S. 418 is a correct JOURNAL_REF. Gold #37 BGE 141 III 1 is followed by .2 in the source text (looks like a broken citation in the source), left untouched.",
+  "comment_b": "Kept #47 JOURNAL_REF 'SZZP 2016 S. 418'. Note on citation gold (not changed): #37 'BGE 141 III 1' is followed by '.2' without 'E.' in the source.",
+  "n_agree": 53,
+  "disputed": []
+ },
+ "bger_4A_592_2025": {
+  "decision_id": "bger_4A_592_2025",
+  "task_index": 83,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "#3 Art. 19 (act given as title, AVG; SR 823.11) is a correct BARE_ARTICLE. Citation gold gap, not touched: Praesidialverfuegung 4A_592/2025 vom 16. Dezember 2025 in E. 1.3 has no DOCKET span.",
+  "comment_b": "Kept #3 BARE_ARTICLE 'Art. 19' (AVG given as title, guideline example). Note: self-reference 'Präsidialverfügung 4A_592/2025' has no DOCKET span (citation gold, not changed).",
+  "n_agree": 41,
+  "disputed": []
+ },
+ "bger_5A_242_2026": {
+  "decision_id": "bger_5A_242_2026",
+  "task_index": 84,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 14,
+  "disputed": []
+ },
+ "bger_4A_98_2026": {
+  "decision_id": "bger_4A_98_2026",
+  "task_index": 85,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "#50 § 10 (textbook, § 10 Rz. 83) correct BARE_ARTICLE; #58 SZW 2023 S. 539 correct JOURNAL_REF. Guideline gap: BBl 2017 S. 399 ff., S. 542 (Bundesblatt, Botschaft) is neither a journal nor a case collection; left without span.",
+  "comment_b": "Kept #50 BARE_ARTICLE '§ 10' (textbook) and #58 JOURNAL_REF 'SZW 2023 S. 539'. 'BBl 2017 S. 399 ff., S. 542' (Federal Gazette, Botschaft) left without span: not a journal or case collection, fits none of the nine classes.",
+  "n_agree": 61,
+  "disputed": []
+ },
+ "bger_4D_40_2026": {
+  "decision_id": "bger_4D_40_2026",
+  "task_index": 86,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 20,
+  "disputed": []
+ },
+ "bger_5A_498_2025": {
+  "decision_id": "bger_5A_498_2025",
+  "task_index": 87,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "#22, #36, #37 textbook § references correct BARE_ARTICLE. #30 Art. 8 des Uebereinkommens ... (KRK; SR 0.107): ratified treaty given as a title, kept as BARE_ARTICLE per the title rule; odd case worth a guideline note.",
+  "comment_b": "Kept #22, #36, #37 BARE_ARTICLE (textbook §) and #30 BARE_ARTICLE 'Art. 8' (KRK given as title with abbreviation and SR only in brackets, same pattern as AVG example). 'Dispositiv-Ziff. 1/2' of a court decision left without span.",
+  "n_agree": 45,
+  "disputed": []
+ },
+ "bger_5A_497_2026": {
+  "decision_id": "bger_5A_497_2026",
+  "task_index": 88,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 24,
+  "disputed": []
+ },
+ "bger_4D_72_2026": {
+  "decision_id": "bger_4D_72_2026",
+  "task_index": 89,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No negative references. Cantonal file numbers (ZSU.2026.93, SR 2025.93 etc.) fit none of the nine classes and are left without span.",
+  "comment_b": "",
+  "n_agree": 29,
+  "disputed": []
+ },
+ "bger_5A_883_2026": {
+  "decision_id": "bger_5A_883_2026",
+  "task_index": 90,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 11,
+  "disputed": []
+ }
+}

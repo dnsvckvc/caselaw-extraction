@@ -1,0 +1,97 @@
+{
+ "decision_id": "bger_5A_104_2020",
+ "task_index": 5,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "Deleted #5 4A_628/2019: it is this same proceeding under its earlier number (renumbered to 5A_104/2020), so not another case - flagged as unsettled. 4A_626/2019 and 5A_103/2020 (the spouse parallel case) kept as DOCKET.",
+ "spans": [
+  {
+   "start": 252,
+   "end": 270,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 348,
+   "end": 364,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 821,
+   "end": 834,
+   "label": "AMOUNT",
+   "text": "Fr. 30'750.--"
+  },
+  {
+   "start": 1911,
+   "end": 1922,
+   "label": "DOCKET",
+   "text": "4A_626/2019"
+  },
+  {
+   "start": 2187,
+   "end": 2198,
+   "label": "DOCKET",
+   "text": "5A_103/2020"
+  },
+  {
+   "start": 2320,
+   "end": 2331,
+   "label": "DOCKET",
+   "text": "5A_103/2020"
+  },
+  {
+   "start": 2540,
+   "end": 2551,
+   "label": "DOCKET",
+   "text": "5A_103/2020"
+  },
+  {
+   "start": 2808,
+   "end": 2826,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2932,
+   "end": 2947,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 2961,
+   "end": 2972,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4352,
+   "end": 4370,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 5148,
+   "end": 5174,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5332,
+   "end": 5350,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5462,
+   "end": 5474,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 15,
+ "n_deleted": 1,
+ "n_added": 0,
+ "n_relabeled": 0
+}

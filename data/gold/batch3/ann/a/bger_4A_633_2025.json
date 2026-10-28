@@ -1,0 +1,493 @@
+{
+ "decision_id": "bger_4A_633_2025",
+ "task_index": 191,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "#7 trimmed: f. excluded from BARE_ARTICLE. #51/#57: paragraph numbers of an ECtHR judgment (Semenya § 193 ff., § 209) are points of a court document, no span. Kept BARE_ARTICLE for 'Artikel 19/11/20 (f.) von Kapitel 11 (des) AANZFTA': abbreviation of a non-Fedlex treaty follows only after 'von Kapitel 11 (des)', unclear whether OTHER_LAW should run to AANZFTA. 'Ziffer 7' alone (State Agreement) left without span. EUR 650 hourly rate kept as AMOUNT.",
+ "spans": [
+  {
+   "start": 398,
+   "end": 413,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchstellerin"
+  },
+  {
+   "start": 641,
+   "end": 654,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsgegner"
+  },
+  {
+   "start": 2138,
+   "end": 2163,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 6 der Vereinbarung"
+  },
+  {
+   "start": 3824,
+   "end": 3852,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 6 des State Agreement"
+  },
+  {
+   "start": 7190,
+   "end": 7200,
+   "label": "BARE_ARTICLE",
+   "text": "Artikel 19"
+  },
+  {
+   "start": 7392,
+   "end": 7402,
+   "label": "BARE_ARTICLE",
+   "text": "Artikel 11"
+  },
+  {
+   "start": 7659,
+   "end": 7669,
+   "label": "BARE_ARTICLE",
+   "text": "Artikel 20"
+  },
+  {
+   "start": 9325,
+   "end": 9336,
+   "label": "DOCKET",
+   "text": "4A_531/2025"
+  },
+  {
+   "start": 10396,
+   "end": 10410,
+   "label": "AMOUNT",
+   "text": "Fr. 250'000.--"
+  },
+  {
+   "start": 10508,
+   "end": 10526,
+   "label": "STATUTE",
+   "text": "Art. 54 Abs. 1 BGG"
+  },
+  {
+   "start": 10781,
+   "end": 10796,
+   "label": "BGE",
+   "text": "BGE 142 III 521"
+  },
+  {
+   "start": 10835,
+   "end": 10898,
+   "label": "STATUTE",
+   "text": "Art. 119a Abs. 2 Satz 1 in Verbindung mit\nArt. 77 Abs. 2bis BGG"
+  },
+  {
+   "start": 11109,
+   "end": 11126,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BV"
+  },
+  {
+   "start": 11291,
+   "end": 11302,
+   "label": "DOCKET",
+   "text": "4A_460/2024"
+  },
+  {
+   "start": 11327,
+   "end": 11338,
+   "label": "DOCKET",
+   "text": "4A_268/2024"
+  },
+  {
+   "start": 11366,
+   "end": 11377,
+   "label": "DOCKET",
+   "text": "4A_184/2022"
+  },
+  {
+   "start": 11416,
+   "end": 11431,
+   "label": "BGE",
+   "text": "BGE 149 III 277"
+  },
+  {
+   "start": 11760,
+   "end": 11771,
+   "label": "DOCKET",
+   "text": "4A_531/2025"
+  },
+  {
+   "start": 12129,
+   "end": 12144,
+   "label": "BGE",
+   "text": "BGE 129 III 727"
+  },
+  {
+   "start": 12158,
+   "end": 12169,
+   "label": "DOCKET",
+   "text": "4A_318/2020"
+  },
+  {
+   "start": 12213,
+   "end": 12227,
+   "label": "BGE",
+   "text": "BGE 147 III 65"
+  },
+  {
+   "start": 12747,
+   "end": 12758,
+   "label": "DOCKET",
+   "text": "4A_318/2020"
+  },
+  {
+   "start": 12802,
+   "end": 12816,
+   "label": "BGE",
+   "text": "BGE 147 III 65"
+  },
+  {
+   "start": 13105,
+   "end": 13131,
+   "label": "STATUTE",
+   "text": "Art. 176 Abs. 1 und 2 IPRG"
+  },
+  {
+   "start": 13301,
+   "end": 13318,
+   "label": "STATUTE",
+   "text": "Art. 190a f. IPRG"
+  },
+  {
+   "start": 13403,
+   "end": 13420,
+   "label": "STATUTE",
+   "text": "Art. 176 ff. IPRG"
+  },
+  {
+   "start": 13432,
+   "end": 13445,
+   "label": "STATUTE",
+   "text": "Art. 119a BGG"
+  },
+  {
+   "start": 13551,
+   "end": 13564,
+   "label": "STATUTE",
+   "text": "Art. 119a BGG"
+  },
+  {
+   "start": 13575,
+   "end": 13588,
+   "label": "STATUTE",
+   "text": "Art. 191 IPRG"
+  },
+  {
+   "start": 13791,
+   "end": 13811,
+   "label": "STATUTE",
+   "text": "Art. 119a Abs. 3 BGG"
+  },
+  {
+   "start": 13933,
+   "end": 13961,
+   "label": "STATUTE",
+   "text": "Art. 190a Abs. 1 lit. c IPRG"
+  },
+  {
+   "start": 14166,
+   "end": 14184,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 14187,
+   "end": 14202,
+   "label": "BGE",
+   "text": "BGE 150 III 248"
+  },
+  {
+   "start": 14209,
+   "end": 14220,
+   "label": "BGE",
+   "text": "149 III 277"
+  },
+  {
+   "start": 14230,
+   "end": 14239,
+   "label": "BGE",
+   "text": "145 I 121"
+  },
+  {
+   "start": 14358,
+   "end": 14373,
+   "label": "BGE",
+   "text": "BGE 147 III 238"
+  },
+  {
+   "start": 14682,
+   "end": 14697,
+   "label": "BGE",
+   "text": "BGE 149 III 277"
+  },
+  {
+   "start": 14706,
+   "end": 14717,
+   "label": "BGE",
+   "text": "147 III 238"
+  },
+  {
+   "start": 14767,
+   "end": 14781,
+   "label": "STATUTE",
+   "text": "Art. 190a IPRG"
+  },
+  {
+   "start": 15088,
+   "end": 15102,
+   "label": "BGE",
+   "text": "BGE 151 III 62"
+  },
+  {
+   "start": 15111,
+   "end": 15122,
+   "label": "BGE",
+   "text": "149 III 277"
+  },
+  {
+   "start": 15131,
+   "end": 15142,
+   "label": "BGE",
+   "text": "134 III 286"
+  },
+  {
+   "start": 15151,
+   "end": 15162,
+   "label": "BGE",
+   "text": "122 III 492"
+  },
+  {
+   "start": 15330,
+   "end": 15344,
+   "label": "STATUTE",
+   "text": "Art. 190a IPRG"
+  },
+  {
+   "start": 15394,
+   "end": 15409,
+   "label": "BGE",
+   "text": "BGE 143 III 462"
+  },
+  {
+   "start": 15453,
+   "end": 15466,
+   "label": "STATUTE",
+   "text": "Art. 191 IPRG"
+  },
+  {
+   "start": 15972,
+   "end": 15987,
+   "label": "BGE",
+   "text": "BGE 150 III 280"
+  },
+  {
+   "start": 16004,
+   "end": 16015,
+   "label": "DOCKET",
+   "text": "4A_359/2025"
+  },
+  {
+   "start": 16044,
+   "end": 16055,
+   "label": "DOCKET",
+   "text": "4A_478/2017"
+  },
+  {
+   "start": 16246,
+   "end": 16258,
+   "label": "BGE",
+   "text": "BGE 135 I 19"
+  },
+  {
+   "start": 16964,
+   "end": 16971,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 20"
+  },
+  {
+   "start": 17124,
+   "end": 17139,
+   "label": "BGE",
+   "text": "BGE 150 III 280"
+  },
+  {
+   "start": 17150,
+   "end": 17161,
+   "label": "BGE",
+   "text": "149 III 131"
+  },
+  {
+   "start": 17172,
+   "end": 17183,
+   "label": "BGE",
+   "text": "141 III 495"
+  },
+  {
+   "start": 17407,
+   "end": 17425,
+   "label": "STATUTE",
+   "text": "Art. 6 Abs. 1 EMRK"
+  },
+  {
+   "start": 17844,
+   "end": 17872,
+   "label": "STATUTE",
+   "text": "Art. 190a Abs. 1 lit. c IPRG"
+  },
+  {
+   "start": 17963,
+   "end": 17990,
+   "label": "STATUTE",
+   "text": "Art. 180 Abs. 1 lit. c IPRG"
+  },
+  {
+   "start": 18184,
+   "end": 18199,
+   "label": "BGE",
+   "text": "BGE 143 III 589"
+  },
+  {
+   "start": 18215,
+   "end": 18226,
+   "label": "DOCKET",
+   "text": "4A_645/2025"
+  },
+  {
+   "start": 18355,
+   "end": 18382,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 lit. a IPRG"
+  },
+  {
+   "start": 18548,
+   "end": 18559,
+   "label": "DOCKET",
+   "text": "4A_247/2014"
+  },
+  {
+   "start": 18596,
+   "end": 18607,
+   "label": "DOCKET",
+   "text": "4A_234/2008"
+  },
+  {
+   "start": 22466,
+   "end": 22473,
+   "label": "AMOUNT",
+   "text": "EUR 650"
+  },
+  {
+   "start": 23894,
+   "end": 23921,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 lit. a IPRG"
+  },
+  {
+   "start": 23940,
+   "end": 23965,
+   "label": "STATUTE",
+   "text": "Art. 77 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 23982,
+   "end": 24002,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 4 IPRG"
+  },
+  {
+   "start": 24198,
+   "end": 24225,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 lit. a IPRG"
+  },
+  {
+   "start": 24247,
+   "end": 24262,
+   "label": "BGE",
+   "text": "BGE 147 III 379"
+  },
+  {
+   "start": 24273,
+   "end": 24284,
+   "label": "BGE",
+   "text": "142 III 521"
+  },
+  {
+   "start": 24303,
+   "end": 24314,
+   "label": "DOCKET",
+   "text": "4A_494/2024"
+  },
+  {
+   "start": 24377,
+   "end": 24388,
+   "label": "DOCKET",
+   "text": "4A_359/2025"
+  },
+  {
+   "start": 24506,
+   "end": 24517,
+   "label": "DOCKET",
+   "text": "4A_531/2025"
+  },
+  {
+   "start": 24581,
+   "end": 24601,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 4 IPRG"
+  },
+  {
+   "start": 24627,
+   "end": 24654,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 lit. a IPRG"
+  },
+  {
+   "start": 25332,
+   "end": 25359,
+   "label": "STATUTE",
+   "text": "Art. 180 Abs. 1 lit. c IPRG"
+  },
+  {
+   "start": 25370,
+   "end": 25384,
+   "label": "BGE",
+   "text": "BGE 151 III 62"
+  },
+  {
+   "start": 25504,
+   "end": 25532,
+   "label": "STATUTE",
+   "text": "Art. 190a Abs. 1 lit. c IPRG"
+  },
+  {
+   "start": 25809,
+   "end": 25846,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 25988,
+   "end": 26002,
+   "label": "AMOUNT",
+   "text": "Fr. 200'000.--"
+  },
+  {
+   "start": 26129,
+   "end": 26143,
+   "label": "AMOUNT",
+   "text": "Fr. 250'000.--"
+  }
+ ],
+ "n_pre": 82,
+ "n_deleted": 3,
+ "n_added": 1,
+ "n_relabeled": 0
+}

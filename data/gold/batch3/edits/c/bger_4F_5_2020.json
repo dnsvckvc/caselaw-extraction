@@ -1,0 +1,30 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "JPY 3'091'220'814.--",
+   "label": "AMOUNT",
+   "all": true
+  },
+  {
+   "text": "JPY 6'357'307.--",
+   "label": "AMOUNT",
+   "all": true
+  },
+  {
+   "text": "4A_540/2 019",
+   "label": "DOCKET"
+  },
+  {
+   "text": "15 million dollars",
+   "label": "AMOUNT"
+  },
+  {
+   "text": "10 million dollars",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "Docket '4A_540/2 019' has a typo space; labelled as DOCKET. '15 million dollars' and '10 million dollars' are in an English quoted letter; labelled as AMOUNT (currency word 'dollars')."
+}

@@ -1,0 +1,18 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  50
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "EUR 2000000.00",
+   "label": "AMOUNT"
+  },
+  {
+   "text": "2.000.000,00 EUR",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "#50 was cut inside the number; quoted German-format amounts in the party's Mahnbegehren."
+}

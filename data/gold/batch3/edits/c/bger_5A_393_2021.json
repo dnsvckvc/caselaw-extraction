@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  52
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Pra 107 [2018] Nr. 86",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Pra 107 [2018] Nr. 86: JOURNAL_REF extended over the bracketed year up to Nr. 86, by analogy with the comma inside 'MRA 2014, S. 90'; the guideline does not settle a bracket inside a journal reference."
+}

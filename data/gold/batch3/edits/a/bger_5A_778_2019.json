@@ -1,0 +1,12 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "128 III 305",
+   "label": "BGE"
+  }
+ ],
+ "comment": "added BGE list item 128 III 305 after BGE 127 III 503"
+}

@@ -1,0 +1,13 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "140 III 264",
+   "label": "BGE",
+   "occurrence": 2
+  }
+ ],
+ "comment": "Added BGE list item 140 III 264 without BGE word (E. 1.3). \"249 E. 1.3.1\" treated as second page of 141 IV, not a span."
+}

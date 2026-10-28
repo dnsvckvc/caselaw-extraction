@@ -1,0 +1,151 @@
+{
+ "decision_id": "bger_5F_25_2026",
+ "task_index": 58,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "Added Art. 121 ff. BGG and BGE list item 149 III 93. Item 1 dismisses the revision request; item 2 (restoration of the deadline) is inadmissible, but item 1 governs.",
+ "spans": [
+  {
+   "start": 294,
+   "end": 309,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchstellerin"
+  },
+  {
+   "start": 389,
+   "end": 402,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsgegner"
+  },
+  {
+   "start": 485,
+   "end": 496,
+   "label": "DOCKET",
+   "text": "5A_402/2026"
+  },
+  {
+   "start": 1491,
+   "end": 1502,
+   "label": "DOCKET",
+   "text": "5A_402/2026"
+  },
+  {
+   "start": 1749,
+   "end": 1760,
+   "label": "DOCKET",
+   "text": "5A_402/2026"
+  },
+  {
+   "start": 1828,
+   "end": 1839,
+   "label": "DOCKET",
+   "text": "5A_402/2026"
+  },
+  {
+   "start": 2100,
+   "end": 2111,
+   "label": "STATUTE",
+   "text": "Art. 50 BGG"
+  },
+  {
+   "start": 2312,
+   "end": 2323,
+   "label": "STATUTE",
+   "text": "Art. 61 BGG"
+  },
+  {
+   "start": 2406,
+   "end": 2422,
+   "label": "STATUTE",
+   "text": "Art. 121 ff. BGG"
+  },
+  {
+   "start": 2477,
+   "end": 2492,
+   "label": "BGE",
+   "text": "BGE 147 III 238"
+  },
+  {
+   "start": 2501,
+   "end": 2511,
+   "label": "BGE",
+   "text": "149 III 93"
+  },
+  {
+   "start": 2758,
+   "end": 2771,
+   "label": "BGE",
+   "text": "BGE 122 II 17"
+  },
+  {
+   "start": 2793,
+   "end": 2803,
+   "label": "DOCKET",
+   "text": "5F_11/2026"
+  },
+  {
+   "start": 2884,
+   "end": 2903,
+   "label": "STATUTE",
+   "text": "Art. 121 lit. d BGG"
+  },
+  {
+   "start": 2985,
+   "end": 2996,
+   "label": "DOCKET",
+   "text": "5A_402/2026"
+  },
+  {
+   "start": 3256,
+   "end": 3267,
+   "label": "DOCKET",
+   "text": "5A_402/2026"
+  },
+  {
+   "start": 3682,
+   "end": 3693,
+   "label": "DOCKET",
+   "text": "5A_402/2026"
+  },
+  {
+   "start": 4878,
+   "end": 4889,
+   "label": "DOCKET",
+   "text": "5A_541/2026"
+  },
+  {
+   "start": 5581,
+   "end": 5591,
+   "label": "DOCKET",
+   "text": "5A_79/2026"
+  },
+  {
+   "start": 5618,
+   "end": 5628,
+   "label": "DOCKET",
+   "text": "5D_15/2026"
+  },
+  {
+   "start": 5990,
+   "end": 6008,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 6118,
+   "end": 6136,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6408,
+   "end": 6420,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  }
+ ],
+ "n_pre": 21,
+ "n_deleted": 0,
+ "n_added": 2,
+ "n_relabeled": 0
+}

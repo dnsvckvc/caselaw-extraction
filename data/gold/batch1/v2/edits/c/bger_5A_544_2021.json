@@ -1,0 +1,50 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Ziff. 1 der Vereinbarung",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Ziff. 5 des Vergleichs",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Ziff. 2 i.V.m. Ziff. 6 des Vergleichs",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Ziff. 1 des Vergleichs",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Ziffer 1 Absatz 1 des Vergleichs",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Ziffer 2 der Vergleichsvereinbarung",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Ziffer 1 Absatz 2 des Vergleichs",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Ziffer 2 des Vergleichs",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Ziffer 1 des Vergleichs",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 1
+  },
+  {
+   "text": "Ziffer 1 des Vergleichs",
+   "label": "CONTRACT_ARTICLE",
+   "occurrence": 2
+  }
+ ],
+ "comment": "Clauses of a court settlement (Vergleich) labelled CONTRACT_ARTICLE; spelled-out 'Ziffer ... Absatz' treated like 'Ziff.'. Ziff./Ziffer without instrument name left without span (BARE_ARTICLE covers only Art./§)."
+}

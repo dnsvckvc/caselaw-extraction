@@ -1,0 +1,283 @@
+{
+ "decision_id": "bger_5A_498_2025",
+ "task_index": 87,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "Kept #22, #36, #37 BARE_ARTICLE (textbook §) and #30 BARE_ARTICLE 'Art. 8' (KRK given as title with abbreviation and SR only in brackets, same pattern as AVG example). 'Dispositiv-Ziff. 1/2' of a court decision left without span.",
+ "spans": [
+  {
+   "start": 322,
+   "end": 338,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 414,
+   "end": 430,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 2006,
+   "end": 2017,
+   "label": "DOCKET",
+   "text": "5A_413/2024"
+  },
+  {
+   "start": 2549,
+   "end": 2568,
+   "label": "STATUTE",
+   "text": "Art. 103 Abs. 2 BGG"
+  },
+  {
+   "start": 2771,
+   "end": 2782,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 2865,
+   "end": 2876,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 2931,
+   "end": 2949,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 3061,
+   "end": 3079,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 3146,
+   "end": 3165,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 3215,
+   "end": 3233,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3572,
+   "end": 3585,
+   "label": "BGE",
+   "text": "BGE 143 I 377"
+  },
+  {
+   "start": 3594,
+   "end": 3604,
+   "label": "BGE",
+   "text": "140 III 86"
+  },
+  {
+   "start": 3726,
+   "end": 3745,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 3822,
+   "end": 3840,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 4044,
+   "end": 4063,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4066,
+   "end": 4080,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 4223,
+   "end": 4242,
+   "label": "STATUTE",
+   "text": "Art. 263 Abs. 2 ZGB"
+  },
+  {
+   "start": 4300,
+   "end": 4319,
+   "label": "STATUTE",
+   "text": "Art. 261 Abs. 1 ZGB"
+  },
+  {
+   "start": 4658,
+   "end": 4677,
+   "label": "STATUTE",
+   "text": "Art. 263 Abs. 1 ZGB"
+  },
+  {
+   "start": 4729,
+   "end": 4748,
+   "label": "STATUTE",
+   "text": "Art. 263 Abs. 3 ZGB"
+  },
+  {
+   "start": 5039,
+   "end": 5051,
+   "label": "STATUTE",
+   "text": "Art. 263 ZGB"
+  },
+  {
+   "start": 5254,
+   "end": 5257,
+   "label": "BARE_ARTICLE",
+   "text": "§ 3"
+  },
+  {
+   "start": 5437,
+   "end": 5456,
+   "label": "STATUTE",
+   "text": "Art. 263 Abs. 2 ZGB"
+  },
+  {
+   "start": 5572,
+   "end": 5584,
+   "label": "STATUTE",
+   "text": "Art. 263 ZGB"
+  },
+  {
+   "start": 6988,
+   "end": 7005,
+   "label": "STATUTE",
+   "text": "Art. 2 Abs. 2 ZGB"
+  },
+  {
+   "start": 7575,
+   "end": 7602,
+   "label": "STATUTE",
+   "text": "Art. 256 Abs. 1 Ziff. 2 ZGB"
+  },
+  {
+   "start": 8385,
+   "end": 8412,
+   "label": "STATUTE",
+   "text": "Art. 256 Abs. 1 Ziff. 2 ZGB"
+  },
+  {
+   "start": 9746,
+   "end": 9788,
+   "label": "STATUTE",
+   "text": "Art. 256 i.V.m.\nArt. 256c Abs. 2 und 3 ZGB"
+  },
+  {
+   "start": 10055,
+   "end": 10074,
+   "label": "STATUTE",
+   "text": "Art. 263 Abs. 2 ZGB"
+  },
+  {
+   "start": 11130,
+   "end": 11136,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 8"
+  },
+  {
+   "start": 12226,
+   "end": 12245,
+   "label": "STATUTE",
+   "text": "Art. 256 Abs. 1 ZGB"
+  },
+  {
+   "start": 12460,
+   "end": 12487,
+   "label": "STATUTE",
+   "text": "Art. 256 Abs. 1 Ziff. 2 ZGB"
+  },
+  {
+   "start": 12497,
+   "end": 12508,
+   "label": "DOCKET",
+   "text": "5A_506/2007"
+  },
+  {
+   "start": 12554,
+   "end": 12569,
+   "label": "BGE",
+   "text": "BGE 134 III 241"
+  },
+  {
+   "start": 12821,
+   "end": 12841,
+   "label": "STATUTE",
+   "text": "Art. 256c Abs. 2 ZGB"
+  },
+  {
+   "start": 12942,
+   "end": 12946,
+   "label": "BARE_ARTICLE",
+   "text": "§ 40"
+  },
+  {
+   "start": 12992,
+   "end": 12995,
+   "label": "BARE_ARTICLE",
+   "text": "§ 3"
+  },
+  {
+   "start": 13094,
+   "end": 13106,
+   "label": "STATUTE",
+   "text": "Art. 256 ZGB"
+  },
+  {
+   "start": 13467,
+   "end": 13479,
+   "label": "STATUTE",
+   "text": "Art. 256 ZGB"
+  },
+  {
+   "start": 13981,
+   "end": 13993,
+   "label": "STATUTE",
+   "text": "Art. 256 ZGB"
+  },
+  {
+   "start": 15689,
+   "end": 15708,
+   "label": "STATUTE",
+   "text": "Art. 263 Abs. 2 ZGB"
+  },
+  {
+   "start": 16337,
+   "end": 16357,
+   "label": "STATUTE",
+   "text": "Art. 256c Abs. 3 ZGB"
+  },
+  {
+   "start": 16644,
+   "end": 16662,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 16835,
+   "end": 16859,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 16964,
+   "end": 16976,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  }
+ ],
+ "n_pre": 45,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

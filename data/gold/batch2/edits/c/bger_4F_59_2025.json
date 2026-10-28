@@ -1,0 +1,7 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "4D_161/2025 is the revised decision, not this decision own number (4F_59/2025), so I kept all its DOCKET spans, including the one in the Gegenstand header."
+}

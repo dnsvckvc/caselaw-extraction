@@ -1,0 +1,16 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art 113 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "I 302/96",
+   "label": "DOCKET"
+  }
+ ],
+ "comment": "Two appeals: item 1 subsidiaere Verfassungsbeschwerde nicht eingetreten (inadmissible), item 2 Beschwerde in Zivilsachen abgewiesen soweit einzutreten (dismissed); took the first per rule. Added Art 113 BGG (typo, no dot after Art). Added I 302/96 as old-format DOCKET (EVG number). Did not label BGE 142 II [recte: III] 798 because the span would contain a bracket. 140 III 115 and 140 III 264 after comma treated as second page per rule."
+}

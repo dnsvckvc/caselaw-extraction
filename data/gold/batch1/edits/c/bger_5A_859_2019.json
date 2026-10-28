@@ -1,0 +1,35 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  3,
+  11
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Fr. 28 Mio.",
+   "label": "AMOUNT"
+  },
+  {
+   "text": "Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 106 ff. SchKG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 27 Abs. 3 VSB",
+   "label": "STATUTE"
+  },
+  {
+   "text": "110 III 87",
+   "label": "BGE"
+  },
+  {
+   "text": "76 III 87",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Extended 'Fr. 28' to 'Fr. 28 Mio.'. Labelled 'Art. 27 Abs. 3 VSB' (bank self-regulation agreement, VSB 2020; year excluded) - borderline, has Art. + abbreviation. 'N. x zu Art. 107' commentary references without abbreviation not labelled."
+}

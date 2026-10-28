@@ -1,0 +1,427 @@
+{
+ "decision_id": "bger_5A_271_2025",
+ "task_index": 170,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "#58/#60 'Art. 107 Abs. 1 Bst. f BGG' is a typo for ZPO but names a known federal code: kept as written.",
+ "spans": [
+  {
+   "start": 326,
+   "end": 342,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 479,
+   "end": 495,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1395,
+   "end": 1407,
+   "label": "AMOUNT",
+   "text": "Fr. 2'100.--"
+  },
+  {
+   "start": 1927,
+   "end": 1939,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  },
+  {
+   "start": 2319,
+   "end": 2329,
+   "label": "AMOUNT",
+   "text": "Fr. 800.--"
+  },
+  {
+   "start": 2428,
+   "end": 2438,
+   "label": "AMOUNT",
+   "text": "Fr. 900.--"
+  },
+  {
+   "start": 2470,
+   "end": 2480,
+   "label": "AMOUNT",
+   "text": "Fr. 300.--"
+  },
+  {
+   "start": 3282,
+   "end": 3301,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 3339,
+   "end": 3350,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3433,
+   "end": 3444,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 3515,
+   "end": 3533,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 3772,
+   "end": 3784,
+   "label": "BGE",
+   "text": "BGE 138 I 94"
+  },
+  {
+   "start": 3794,
+   "end": 3803,
+   "label": "BGE",
+   "text": "134 I 159"
+  },
+  {
+   "start": 4029,
+   "end": 4054,
+   "label": "STATUTE",
+   "text": "Art. 51 Abs. 1 Bst. a BGG"
+  },
+  {
+   "start": 4056,
+   "end": 4070,
+   "label": "BGE",
+   "text": "BGE 143 III 46"
+  },
+  {
+   "start": 4084,
+   "end": 4095,
+   "label": "DOCKET",
+   "text": "5A_283/2024"
+  },
+  {
+   "start": 4157,
+   "end": 4170,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 4206,
+   "end": 4231,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 Bst. b BGG"
+  },
+  {
+   "start": 4438,
+   "end": 4463,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 Bst. a BGG"
+  },
+  {
+   "start": 4489,
+   "end": 4504,
+   "label": "BGE",
+   "text": "BGE 144 III 164"
+  },
+  {
+   "start": 4706,
+   "end": 4725,
+   "label": "STATUTE",
+   "text": "Art. 320 Bst. b ZPO"
+  },
+  {
+   "start": 5126,
+   "end": 5140,
+   "label": "BGE",
+   "text": "BGE 146 II 276"
+  },
+  {
+   "start": 5265,
+   "end": 5281,
+   "label": "STATUTE",
+   "text": "Art. 113 ff. BGG"
+  },
+  {
+   "start": 5373,
+   "end": 5385,
+   "label": "STATUTE",
+   "text": "Art. 115 BGG"
+  },
+  {
+   "start": 5445,
+   "end": 5465,
+   "label": "STATUTE",
+   "text": "Art. 114 und 117 BGG"
+  },
+  {
+   "start": 5673,
+   "end": 5685,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 5900,
+   "end": 5925,
+   "label": "STATUTE",
+   "text": "Art. 118 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 6098,
+   "end": 6133,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 6357,
+   "end": 6371,
+   "label": "BGE",
+   "text": "BGE 144 II 313"
+  },
+  {
+   "start": 6380,
+   "end": 6391,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 6537,
+   "end": 6583,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 1 Bst. f und Art. 320 Bst. b ZPO"
+  },
+  {
+   "start": 6590,
+   "end": 6600,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 6772,
+   "end": 6789,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 7018,
+   "end": 7030,
+   "label": "STATUTE",
+   "text": "Art. 106 ZPO"
+  },
+  {
+   "start": 7058,
+   "end": 7084,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 1 Bst. f ZPO"
+  },
+  {
+   "start": 7857,
+   "end": 7871,
+   "label": "BGE",
+   "text": "BGE 148 III 30"
+  },
+  {
+   "start": 7880,
+   "end": 7891,
+   "label": "BGE",
+   "text": "145 III 324"
+  },
+  {
+   "start": 8087,
+   "end": 8101,
+   "label": "BGE",
+   "text": "BGE 146 II 335"
+  },
+  {
+   "start": 8110,
+   "end": 8121,
+   "label": "BGE",
+   "text": "145 III 324"
+  },
+  {
+   "start": 8200,
+   "end": 8219,
+   "label": "STATUTE",
+   "text": "Art. 320 Bst. b ZPO"
+  },
+  {
+   "start": 8293,
+   "end": 8307,
+   "label": "BGE",
+   "text": "BGE 148 III 95"
+  },
+  {
+   "start": 8317,
+   "end": 8326,
+   "label": "BGE",
+   "text": "144 I 113"
+  },
+  {
+   "start": 8464,
+   "end": 8490,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 1 Bst. f ZPO"
+  },
+  {
+   "start": 9641,
+   "end": 9660,
+   "label": "STATUTE",
+   "text": "Art. 320 Bst. b ZPO"
+  },
+  {
+   "start": 10295,
+   "end": 10314,
+   "label": "STATUTE",
+   "text": "Art. 320 Bst. b ZPO"
+  },
+  {
+   "start": 10925,
+   "end": 10944,
+   "label": "STATUTE",
+   "text": "Art. 320 Bst. b ZPO"
+  },
+  {
+   "start": 11073,
+   "end": 11088,
+   "label": "BGE",
+   "text": "BGE 138 III 232"
+  },
+  {
+   "start": 11422,
+   "end": 11434,
+   "label": "STATUTE",
+   "text": "Art. 320 ZPO"
+  },
+  {
+   "start": 11535,
+   "end": 11547,
+   "label": "STATUTE",
+   "text": "Art. 105 BGG"
+  },
+  {
+   "start": 11656,
+   "end": 11675,
+   "label": "STATUTE",
+   "text": "Art. 320 Bst. b ZPO"
+  },
+  {
+   "start": 12304,
+   "end": 12317,
+   "label": "BGE",
+   "text": "BGE 148 I 127"
+  },
+  {
+   "start": 12610,
+   "end": 12629,
+   "label": "STATUTE",
+   "text": "Art. 320 Bst. b ZPO"
+  },
+  {
+   "start": 12875,
+   "end": 12901,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 1 Bst. f ZPO"
+  },
+  {
+   "start": 12957,
+   "end": 12969,
+   "label": "STATUTE",
+   "text": "Art. 106 ZPO"
+  },
+  {
+   "start": 13025,
+   "end": 13051,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 1 Bst. f ZPO"
+  },
+  {
+   "start": 15529,
+   "end": 15543,
+   "label": "BGE",
+   "text": "BGE 139 III 33"
+  },
+  {
+   "start": 15801,
+   "end": 15816,
+   "label": "BGE",
+   "text": "BGE 151 III 385"
+  },
+  {
+   "start": 16057,
+   "end": 16083,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 1 Bst. f BGG"
+  },
+  {
+   "start": 16233,
+   "end": 16243,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 16589,
+   "end": 16615,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 1 Bst. f BGG"
+  },
+  {
+   "start": 16705,
+   "end": 16721,
+   "label": "STATUTE",
+   "text": "Art. 106 ff. ZPO"
+  },
+  {
+   "start": 16744,
+   "end": 16763,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 ZPO"
+  },
+  {
+   "start": 16767,
+   "end": 16777,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 16856,
+   "end": 16871,
+   "label": "BGE",
+   "text": "BGE 128 III 271"
+  },
+  {
+   "start": 17045,
+   "end": 17055,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 17788,
+   "end": 17806,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 17958,
+   "end": 17976,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 4 BGG"
+  },
+  {
+   "start": 18130,
+   "end": 18154,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 18291,
+   "end": 18303,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 69,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

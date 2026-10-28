@@ -1,0 +1,487 @@
+{
+ "decision_id": "bger_4A_510_2020",
+ "task_index": 35,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "Pre-annotator cut the i.V.m. chain and marked Art. 109 Abs. 2 as BARE_ARTICLE; replaced with the full chain as one STATUTE span. Added the two further missed range citations Art./Artikeln 106 - 108 ZPO.",
+ "spans": [
+  {
+   "start": 297,
+   "end": 315,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 343,
+   "end": 361,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 792,
+   "end": 804,
+   "label": "AMOUNT",
+   "text": "Fr. 1'266.75"
+  },
+  {
+   "start": 881,
+   "end": 890,
+   "label": "AMOUNT",
+   "text": "Fr. 73.30"
+  },
+  {
+   "start": 1041,
+   "end": 1051,
+   "label": "AMOUNT",
+   "text": "Fr. 200.--"
+  },
+  {
+   "start": 1896,
+   "end": 1923,
+   "label": "STATUTE",
+   "text": "Art. 207 Abs. 1 lit. b\n\nZPO"
+  },
+  {
+   "start": 2621,
+   "end": 2633,
+   "label": "AMOUNT",
+   "text": "Fr. 1'619.05"
+  },
+  {
+   "start": 2659,
+   "end": 2669,
+   "label": "AMOUNT",
+   "text": "Fr. 324.--"
+  },
+  {
+   "start": 3312,
+   "end": 3322,
+   "label": "AMOUNT",
+   "text": "Fr. 400.--"
+  },
+  {
+   "start": 3460,
+   "end": 3472,
+   "label": "STATUTE",
+   "text": "Art. 207 ZPO"
+  },
+  {
+   "start": 3542,
+   "end": 3558,
+   "label": "STATUTE",
+   "text": "Art. 106 ff. ZPO"
+  },
+  {
+   "start": 3812,
+   "end": 3838,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 1 lit. e ZPO"
+  },
+  {
+   "start": 5058,
+   "end": 5071,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 5091,
+   "end": 5104,
+   "label": "AMOUNT",
+   "text": "Fr. 15'000.--"
+  },
+  {
+   "start": 5160,
+   "end": 5196,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. a und lit. b BGG"
+  },
+  {
+   "start": 5255,
+   "end": 5266,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 5372,
+   "end": 5397,
+   "label": "STATUTE",
+   "text": "Art. 51 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 5686,
+   "end": 5700,
+   "label": "BGE",
+   "text": "BGE 143 III 46"
+  },
+  {
+   "start": 5713,
+   "end": 5723,
+   "label": "BGE",
+   "text": "137 III 47"
+  },
+  {
+   "start": 5819,
+   "end": 5829,
+   "label": "AMOUNT",
+   "text": "Fr. 200.--"
+  },
+  {
+   "start": 6088,
+   "end": 6113,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 6196,
+   "end": 6221,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 6250,
+   "end": 6265,
+   "label": "BGE",
+   "text": "BGE 140 III 501"
+  },
+  {
+   "start": 6274,
+   "end": 6285,
+   "label": "BGE",
+   "text": "134 III 267"
+  },
+  {
+   "start": 6500,
+   "end": 6515,
+   "label": "BGE",
+   "text": "BGE 140 III 501"
+  },
+  {
+   "start": 6524,
+   "end": 6533,
+   "label": "BGE",
+   "text": "135 III 1"
+  },
+  {
+   "start": 6547,
+   "end": 6550,
+   "label": "BGE",
+   "text": "397"
+  },
+  {
+   "start": 6589,
+   "end": 6614,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 6888,
+   "end": 6903,
+   "label": "BGE",
+   "text": "BGE 144 III 164"
+  },
+  {
+   "start": 6917,
+   "end": 6928,
+   "label": "BGE",
+   "text": "141 III 159"
+  },
+  {
+   "start": 6937,
+   "end": 6948,
+   "label": "BGE",
+   "text": "140 III 501"
+  },
+  {
+   "start": 7172,
+   "end": 7187,
+   "label": "BGE",
+   "text": "BGE 140 III 501"
+  },
+  {
+   "start": 7196,
+   "end": 7206,
+   "label": "BGE",
+   "text": "139 II 340"
+  },
+  {
+   "start": 7220,
+   "end": 7229,
+   "label": "BGE",
+   "text": "135 III 1"
+  },
+  {
+   "start": 7445,
+   "end": 7470,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 Satz 2 BGG"
+  },
+  {
+   "start": 7531,
+   "end": 7546,
+   "label": "BGE",
+   "text": "BGE 140 III 501"
+  },
+  {
+   "start": 7555,
+   "end": 7564,
+   "label": "BGE",
+   "text": "135 III 1"
+  },
+  {
+   "start": 10387,
+   "end": 10428,
+   "label": "STATUTE",
+   "text": "Art. 109 Abs. 2 i.V.m.\nArt. 106 - 108 ZPO"
+  },
+  {
+   "start": 10700,
+   "end": 10712,
+   "label": "STATUTE",
+   "text": "Art. 113 BGG"
+  },
+  {
+   "start": 10832,
+   "end": 10844,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 10971,
+   "end": 10990,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 11057,
+   "end": 11092,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 11095,
+   "end": 11108,
+   "label": "BGE",
+   "text": "BGE 136 I 332"
+  },
+  {
+   "start": 11117,
+   "end": 11128,
+   "label": "BGE",
+   "text": "133 III 439"
+  },
+  {
+   "start": 11312,
+   "end": 11327,
+   "label": "BGE",
+   "text": "BGE 135 III 232"
+  },
+  {
+   "start": 11337,
+   "end": 11345,
+   "label": "BGE",
+   "text": "134 I 83"
+  },
+  {
+   "start": 11489,
+   "end": 11508,
+   "label": "STATUTE",
+   "text": "Art. 118 Abs. 1 BGG"
+  },
+  {
+   "start": 11728,
+   "end": 11742,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 11925,
+   "end": 11957,
+   "label": "STATUTE",
+   "text": "Art. 118 Abs. 2 und\nArt. 116 BGG"
+  },
+  {
+   "start": 12017,
+   "end": 12052,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 12055,
+   "end": 12068,
+   "label": "BGE",
+   "text": "BGE 136 I 332"
+  },
+  {
+   "start": 12077,
+   "end": 12088,
+   "label": "BGE",
+   "text": "133 III 439"
+  },
+  {
+   "start": 12202,
+   "end": 12217,
+   "label": "BGE",
+   "text": "BGE 133 III 393"
+  },
+  {
+   "start": 12226,
+   "end": 12229,
+   "label": "BGE",
+   "text": "585"
+  },
+  {
+   "start": 12511,
+   "end": 12525,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 12708,
+   "end": 12722,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 14179,
+   "end": 14191,
+   "label": "AMOUNT",
+   "text": "Fr. 1'619.05"
+  },
+  {
+   "start": 14564,
+   "end": 14574,
+   "label": "AMOUNT",
+   "text": "Fr. 400.--"
+  },
+  {
+   "start": 14780,
+   "end": 14790,
+   "label": "AMOUNT",
+   "text": "Fr. 400.--"
+  },
+  {
+   "start": 15884,
+   "end": 15910,
+   "label": "STATUTE",
+   "text": "Art. 109 Abs. 2 lit. a ZPO"
+  },
+  {
+   "start": 15937,
+   "end": 15955,
+   "label": "STATUTE",
+   "text": "Art. 106 - 108 ZPO"
+  },
+  {
+   "start": 16227,
+   "end": 16239,
+   "label": "AMOUNT",
+   "text": "Fr. 1'266.75"
+  },
+  {
+   "start": 16265,
+   "end": 16277,
+   "label": "AMOUNT",
+   "text": "Fr. 1'619.05"
+  },
+  {
+   "start": 17079,
+   "end": 17094,
+   "label": "BGE",
+   "text": "BGE 144 III 368"
+  },
+  {
+   "start": 17110,
+   "end": 17120,
+   "label": "BGE",
+   "text": "142 II 369"
+  },
+  {
+   "start": 17129,
+   "end": 17138,
+   "label": "BGE",
+   "text": "142 V 513"
+  },
+  {
+   "start": 17147,
+   "end": 17157,
+   "label": "BGE",
+   "text": "141 IV 305"
+  },
+  {
+   "start": 17176,
+   "end": 17186,
+   "label": "BGE",
+   "text": "140 III 16"
+  },
+  {
+   "start": 17195,
+   "end": 17198,
+   "label": "BGE",
+   "text": "167"
+  },
+  {
+   "start": 17215,
+   "end": 17227,
+   "label": "STATUTE",
+   "text": "Art. 207 ZPO"
+  },
+  {
+   "start": 17450,
+   "end": 17466,
+   "label": "STATUTE",
+   "text": "Art. 106 ff. ZPO"
+  },
+  {
+   "start": 17475,
+   "end": 17494,
+   "label": "STATUTE",
+   "text": "Art. 109 Abs. 1 ZPO"
+  },
+  {
+   "start": 17664,
+   "end": 17690,
+   "label": "STATUTE",
+   "text": "Art. 109 Abs. 2 lit. a ZPO"
+  },
+  {
+   "start": 17700,
+   "end": 17722,
+   "label": "STATUTE",
+   "text": "Artikeln 106 - 108 ZPO"
+  },
+  {
+   "start": 17766,
+   "end": 17792,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 1 lit. e ZPO"
+  },
+  {
+   "start": 18296,
+   "end": 18307,
+   "label": "DOCKET",
+   "text": "4A_345/2018"
+  },
+  {
+   "start": 18901,
+   "end": 18919,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 19070,
+   "end": 19088,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 19224,
+   "end": 19236,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 77,
+ "n_deleted": 1,
+ "n_added": 3,
+ "n_relabeled": 0
+}

@@ -1,0 +1,24 @@
+{
+  "outcome": "partial_approval",
+  "delete": [
+    66
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 85",
+      "label": "BARE_ARTICLE",
+      "occurrence": 1
+    },
+    {
+      "text": "134 III 323",
+      "label": "BGE"
+    },
+    {
+      "text": "130 III 90",
+      "label": "BGE",
+      "occurrence": 4
+    }
+  ],
+  "comment": "#66 Verordnung KOV has SR 281.32, so it is an act: BARE_ARTICLE Art. 85 instead of CONTRACT_ARTICLE. Added two BGE list items after BGE 136 III 636 that the pre-annotator missed."
+}

@@ -1,0 +1,15 @@
+{
+ "outcome": "approved",
+ "delete": [
+  4
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 2 Abs. 2",
+   "label": "BARE_ARTICLE",
+   "occurrence": 1
+  }
+ ],
+ "comment": "Deleted #4 CONTRACT_ARTICLE on Art. 2 Abs. 2 der Postverordnung (VPG; SR 783.01): a Verordnung with an SR number is an act given by title, so BARE_ARTICLE Art. 2 Abs. 2. Kept #5 BARE_ARTICLE as one chain span Art. 1 und Art. 32 (des Postgesetzes); guideline does not say whether a BARE_ARTICLE chain is one or two spans. Kept #34 BARE_ARTICLE Artikel 43 followed by bracketed [VPG]; bracketed abbreviation treated as outside the span."
+}

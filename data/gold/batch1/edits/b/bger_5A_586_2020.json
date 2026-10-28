@@ -1,0 +1,17 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "139 II 233",
+   "label": "BGE"
+  },
+  {
+   "text": "142 III 364",
+   "label": "BGE",
+   "all": true
+  }
+ ],
+ "comment": "BGE list items added. Paragraph citation of cantonal EG ZGB/BL left unlabelled."
+}

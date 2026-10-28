@@ -1,0 +1,145 @@
+{
+ "decision_id": "bger_5A_122_2020",
+ "task_index": 6,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 319,
+   "end": 337,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 391,
+   "end": 407,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 462,
+   "end": 476,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 797,
+   "end": 811,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 1424,
+   "end": 1436,
+   "label": "STATUTE",
+   "text": "Art. 132 ZPO"
+  },
+  {
+   "start": 1493,
+   "end": 1504,
+   "label": "DOCKET",
+   "text": "9C_491/2019"
+  },
+  {
+   "start": 2312,
+   "end": 2323,
+   "label": "DOCKET",
+   "text": "9C_491/2019"
+  },
+  {
+   "start": 2390,
+   "end": 2401,
+   "label": "STATUTE",
+   "text": "Art. 61 BGG"
+  },
+  {
+   "start": 2807,
+   "end": 2832,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3224,
+   "end": 3243,
+   "label": "STATUTE",
+   "text": "Art. 326 Abs. 1 ZPO"
+  },
+  {
+   "start": 3751,
+   "end": 3765,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 4448,
+   "end": 4459,
+   "label": "DOCKET",
+   "text": "5A_121/2020"
+  },
+  {
+   "start": 5087,
+   "end": 5101,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 5161,
+   "end": 5179,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 2 BGG"
+  },
+  {
+   "start": 5569,
+   "end": 5588,
+   "label": "STATUTE",
+   "text": "Art. 326 Abs. 1 ZPO"
+  },
+  {
+   "start": 5861,
+   "end": 5875,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 6164,
+   "end": 6176,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 6945,
+   "end": 6977,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 7189,
+   "end": 7203,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 7311,
+   "end": 7329,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 7536,
+   "end": 7554,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 7799,
+   "end": 7811,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 22,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

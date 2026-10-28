@@ -1,0 +1,15 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "131 III 91",
+   "label": "BGE"
+  },
+  {
+   "text": "116 II 738",
+   "label": "BGE"
+  }
+ ]
+}

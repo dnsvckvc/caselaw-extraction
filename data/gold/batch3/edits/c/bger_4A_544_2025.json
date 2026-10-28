@@ -1,0 +1,35 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  55,
+  59,
+  79,
+  81,
+  85,
+  89,
+  94,
+  74
+ ],
+ "add": [
+  {
+   "text": "Art. 24.7 GAV",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Art. 24.6 GAV",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Art. 24.8 GAV",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Art. 5.2 und 5.3 des GAV",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "Art. 24.x GAV spans were cut at Art. 24 as BARE_ARTICLE; GAV is a contract. Art. 15 (GAV named before the number) kept as BARE_ARTICLE. Two appeals: Beschwerde in Zivilsachen nicht eingetreten (item 1), subsidiaere Verfassungsbeschwerde abgewiesen (item 2); first taken.",
+ "relabel": []
+}

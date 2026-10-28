@@ -1,0 +1,76 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  36,
+  43,
+  62,
+  70,
+  46,
+  47,
+  66,
+  72,
+  67,
+  73,
+  68,
+  71,
+  38,
+  64,
+  69
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 39 EuGVVO",
+   "label": "OTHER_LAW",
+   "all": true
+  },
+  {
+   "text": "§ 756 dZPO",
+   "label": "OTHER_LAW"
+  },
+  {
+   "text": "§ 726 Abs. 2 dZPO",
+   "label": "OTHER_LAW",
+   "all": true
+  },
+  {
+   "text": "§§ 756, 765 dZPO",
+   "label": "OTHER_LAW",
+   "all": true
+  },
+  {
+   "text": "§ 1111 dZPO",
+   "label": "OTHER_LAW",
+   "all": true
+  },
+  {
+   "text": "Art. 38 Brüssel I-VO",
+   "label": "OTHER_LAW"
+  },
+  {
+   "text": "Art. 53 Brüssel Ia VO",
+   "label": "OTHER_LAW"
+  },
+  {
+   "text": "Art. 81 Abs. 3 in fine SchKG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "ZZZ 2016 S. 159",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "RIW 2019 S. 414",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "Slg. 1999 I-2543",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "Slg. 2011 I-9511",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "EuGVVO / Bruessel I-VO / Bruessel Ia VO treated as supranational OTHER_LAW (not in Fedlex). dZPO = German ZPO -> OTHER_LAW like 'dt. ZPO'. 'Art. 81 Abs. 3 in fine SchKG' labelled STATUTE with 'in fine' inside (qualifier between number and code); unsettled. EuGH reports 'Slg. 1999 I-2543' labelled JOURNAL_REF as a case collection (like BGHZ); unsettled. ECJ case numbers 145/86, C-267/97, C-139/10 left (foreign file numbers)."
+}

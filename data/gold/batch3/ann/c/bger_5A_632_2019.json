@@ -1,0 +1,481 @@
+{
+ "decision_id": "bger_5A_632_2019",
+ "task_index": 3,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "'B GE 135 III 158' has a stray space (text-extraction artefact, like 'We nn'); labelled BGE. Ziff. of the parties' Vereinbarung of 19.1.2018 labelled CONTRACT_ARTICLE (private settlement).",
+ "spans": [
+  {
+   "start": 358,
+   "end": 374,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 447,
+   "end": 465,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1168,
+   "end": 1180,
+   "label": "AMOUNT",
+   "text": "Fr. 1'700.--"
+  },
+  {
+   "start": 1400,
+   "end": 1412,
+   "label": "AMOUNT",
+   "text": "Fr. 2'950.--"
+  },
+  {
+   "start": 1597,
+   "end": 1609,
+   "label": "AMOUNT",
+   "text": "Fr. 2'700.--"
+  },
+  {
+   "start": 1982,
+   "end": 1994,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 2402,
+   "end": 2414,
+   "label": "AMOUNT",
+   "text": "Fr. 2'450.--"
+  },
+  {
+   "start": 2847,
+   "end": 2859,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 3387,
+   "end": 3399,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  },
+  {
+   "start": 4215,
+   "end": 4226,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 4288,
+   "end": 4299,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 4342,
+   "end": 4354,
+   "label": "STATUTE",
+   "text": "Art. 125 ZGB"
+  },
+  {
+   "start": 4423,
+   "end": 4441,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 4488,
+   "end": 4541,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 Bst. b sowie Art. 51 Abs. 1 Bst. a BGG"
+  },
+  {
+   "start": 4640,
+   "end": 4658,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 4718,
+   "end": 4743,
+   "label": "STATUTE",
+   "text": "Art. 46 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4751,
+   "end": 4770,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 4868,
+   "end": 4882,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 4949,
+   "end": 4968,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 5074,
+   "end": 5098,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 5223,
+   "end": 5238,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 5342,
+   "end": 5361,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5452,
+   "end": 5467,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 5484,
+   "end": 5492,
+   "label": "BGE",
+   "text": "134 I 83"
+  },
+  {
+   "start": 5682,
+   "end": 5694,
+   "label": "BGE",
+   "text": "BGE 141 I 36"
+  },
+  {
+   "start": 5710,
+   "end": 5718,
+   "label": "BGE",
+   "text": "134 I 83"
+  },
+  {
+   "start": 5870,
+   "end": 5889,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 6045,
+   "end": 6056,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 6154,
+   "end": 6172,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 6234,
+   "end": 6249,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 6479,
+   "end": 6491,
+   "label": "AMOUNT",
+   "text": "Fr. 6'700.--"
+  },
+  {
+   "start": 6603,
+   "end": 6615,
+   "label": "AMOUNT",
+   "text": "Fr. 2'140.--"
+  },
+  {
+   "start": 6815,
+   "end": 6827,
+   "label": "AMOUNT",
+   "text": "Fr. 1'530.--"
+  },
+  {
+   "start": 6915,
+   "end": 6927,
+   "label": "AMOUNT",
+   "text": "Fr. 3'561.--"
+  },
+  {
+   "start": 6975,
+   "end": 6987,
+   "label": "AMOUNT",
+   "text": "Fr. 3'877.--"
+  },
+  {
+   "start": 7555,
+   "end": 7567,
+   "label": "AMOUNT",
+   "text": "Fr. 4'579.--"
+  },
+  {
+   "start": 7594,
+   "end": 7606,
+   "label": "AMOUNT",
+   "text": "Fr. 8'842.--"
+  },
+  {
+   "start": 7634,
+   "end": 7646,
+   "label": "AMOUNT",
+   "text": "Fr. 7'438.--"
+  },
+  {
+   "start": 7664,
+   "end": 7676,
+   "label": "AMOUNT",
+   "text": "Fr. 1'404.--"
+  },
+  {
+   "start": 7724,
+   "end": 7734,
+   "label": "AMOUNT",
+   "text": "Fr. 702.--"
+  },
+  {
+   "start": 7769,
+   "end": 7781,
+   "label": "AMOUNT",
+   "text": "Fr. 3'877.--"
+  },
+  {
+   "start": 7929,
+   "end": 7941,
+   "label": "AMOUNT",
+   "text": "Fr. 2'450.--"
+  },
+  {
+   "start": 8013,
+   "end": 8031,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a BGG"
+  },
+  {
+   "start": 8039,
+   "end": 8051,
+   "label": "STATUTE",
+   "text": "Art. 125 ZGB"
+  },
+  {
+   "start": 8056,
+   "end": 8066,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 8166,
+   "end": 8184,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 10428,
+   "end": 10439,
+   "label": "DOCKET",
+   "text": "5A_800/2016"
+  },
+  {
+   "start": 11661,
+   "end": 11673,
+   "label": "AMOUNT",
+   "text": "Fr. 2'140.--"
+  },
+  {
+   "start": 12119,
+   "end": 12131,
+   "label": "AMOUNT",
+   "text": "Fr. 1'700.--"
+  },
+  {
+   "start": 12565,
+   "end": 12577,
+   "label": "AMOUNT",
+   "text": "Fr. 3'561.--"
+  },
+  {
+   "start": 13348,
+   "end": 13366,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 13464,
+   "end": 13482,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 BGG"
+  },
+  {
+   "start": 13896,
+   "end": 13911,
+   "label": "BGE",
+   "text": "BGE 143 III 290"
+  },
+  {
+   "start": 13935,
+   "end": 13946,
+   "label": "DOCKET",
+   "text": "5A_847/2018"
+  },
+  {
+   "start": 13976,
+   "end": 13987,
+   "label": "DOCKET",
+   "text": "5A_727/2018"
+  },
+  {
+   "start": 14455,
+   "end": 14466,
+   "label": "DOCKET",
+   "text": "5A_847/2018"
+  },
+  {
+   "start": 14631,
+   "end": 14643,
+   "label": "STATUTE",
+   "text": "Art. 125 ZGB"
+  },
+  {
+   "start": 14800,
+   "end": 14810,
+   "label": "AMOUNT",
+   "text": "Fr. 300.--"
+  },
+  {
+   "start": 14993,
+   "end": 15003,
+   "label": "AMOUNT",
+   "text": "Fr. 225.--"
+  },
+  {
+   "start": 15092,
+   "end": 15111,
+   "label": "STATUTE",
+   "text": "Art. 125 Abs. 1 ZGB"
+  },
+  {
+   "start": 15202,
+   "end": 15217,
+   "label": "BGE",
+   "text": "BGE 135 III 158"
+  },
+  {
+   "start": 15285,
+   "end": 15296,
+   "label": "DOCKET",
+   "text": "5A_395/2009"
+  },
+  {
+   "start": 15322,
+   "end": 15333,
+   "label": "DOCKET",
+   "text": "5A_615/2009"
+  },
+  {
+   "start": 15379,
+   "end": 15390,
+   "label": "DOCKET",
+   "text": "5A_310/2010"
+  },
+  {
+   "start": 16234,
+   "end": 16246,
+   "label": "STATUTE",
+   "text": "Art. 122 ZGB"
+  },
+  {
+   "start": 16689,
+   "end": 16705,
+   "label": "BGE",
+   "text": "B GE 135 III 158"
+  },
+  {
+   "start": 16732,
+   "end": 16743,
+   "label": "DOCKET",
+   "text": "5A_310/2010"
+  },
+  {
+   "start": 16776,
+   "end": 16787,
+   "label": "DOCKET",
+   "text": "5A_395/2009"
+  },
+  {
+   "start": 16872,
+   "end": 16883,
+   "label": "DOCKET",
+   "text": "5A_637/2018"
+  },
+  {
+   "start": 17753,
+   "end": 17765,
+   "label": "AMOUNT",
+   "text": "Fr. 1'700.--"
+  },
+  {
+   "start": 18400,
+   "end": 18412,
+   "label": "AMOUNT",
+   "text": "Fr. 1'700.--"
+  },
+  {
+   "start": 18501,
+   "end": 18513,
+   "label": "AMOUNT",
+   "text": "Fr. 2'450.--"
+  },
+  {
+   "start": 19270,
+   "end": 19297,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. I.2. der Vereinbarung"
+  },
+  {
+   "start": 19557,
+   "end": 19585,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. II.9. der Vereinbarung"
+  },
+  {
+   "start": 19706,
+   "end": 19718,
+   "label": "AMOUNT",
+   "text": "Fr. 1'700.--"
+  },
+  {
+   "start": 22294,
+   "end": 22312,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 22484,
+   "end": 22508,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 22644,
+   "end": 22656,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  }
+ ],
+ "n_pre": 75,
+ "n_deleted": 0,
+ "n_added": 3,
+ "n_relabeled": 0
+}

@@ -1,0 +1,169 @@
+{
+ "decision_id": "bger_4A_7_2025",
+ "task_index": 146,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "No change. All pre-annotations checked; no missing spans.",
+ "spans": [
+  {
+   "start": 247,
+   "end": 263,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 361,
+   "end": 379,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 811,
+   "end": 823,
+   "label": "AMOUNT",
+   "text": "Fr. 3'700.--"
+  },
+  {
+   "start": 1281,
+   "end": 1293,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 1830,
+   "end": 1842,
+   "label": "STATUTE",
+   "text": "Art. 336c OR"
+  },
+  {
+   "start": 1963,
+   "end": 1975,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 2259,
+   "end": 2277,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 2280,
+   "end": 2295,
+   "label": "BGE",
+   "text": "BGE 150 III 248"
+  },
+  {
+   "start": 2302,
+   "end": 2313,
+   "label": "BGE",
+   "text": "149 III 277"
+  },
+  {
+   "start": 2322,
+   "end": 2332,
+   "label": "BGE",
+   "text": "148 IV 155"
+  },
+  {
+   "start": 2612,
+   "end": 2630,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2633,
+   "end": 2647,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 2654,
+   "end": 2657,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 2872,
+   "end": 2891,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2934,
+   "end": 2972,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3384,
+   "end": 3398,
+   "label": "BGE",
+   "text": "BGE 148 IV 205"
+  },
+  {
+   "start": 3407,
+   "end": 3417,
+   "label": "BGE",
+   "text": "140 III 86"
+  },
+  {
+   "start": 3600,
+   "end": 3614,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 3625,
+   "end": 3636,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 3829,
+   "end": 3844,
+   "label": "BGE",
+   "text": "BGE 149 III 318"
+  },
+  {
+   "start": 3855,
+   "end": 3866,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4345,
+   "end": 4358,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 5101,
+   "end": 5127,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5205,
+   "end": 5223,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5374,
+   "end": 5392,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 5504,
+   "end": 5514,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 26,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

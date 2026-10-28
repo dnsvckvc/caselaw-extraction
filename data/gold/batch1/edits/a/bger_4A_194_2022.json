@@ -1,0 +1,61 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    3,
+    4,
+    11,
+    19,
+    35
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "EUR 2 Mio.",
+      "label": "AMOUNT",
+      "all": true
+    },
+    {
+      "text": "Art. 77 Abs. 2 in Verbindung mit Art. 107 Abs. 2 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 42 Abs. 2 und Art. 106 Abs. 2 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 66 Abs. 1 sowie Art. 68 Abs. 1 und 2 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 190-192 IPRG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "146 III 142",
+      "label": "BGE"
+    },
+    {
+      "text": "144 III 559",
+      "label": "BGE",
+      "occurrence": 1
+    },
+    {
+      "text": "142 III 220",
+      "label": "BGE"
+    },
+    {
+      "text": "140 III 477",
+      "label": "BGE"
+    },
+    {
+      "text": "138 III 29",
+      "label": "BGE",
+      "occurrence": 1
+    },
+    {
+      "text": "142 III 239",
+      "label": "BGE"
+    }
+  ],
+  "comment": "AMOUNT 'EUR 2' cut short twice, replaced with 'EUR 2 Mio.'; extended chains #11 (in Verbindung mit), #19, #35; added Art. 190-192 IPRG; added six BGE list items. Second page refs ('239 E. 3.1', '86 E. 2') left unlabelled."
+}

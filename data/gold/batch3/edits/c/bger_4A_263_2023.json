@@ -1,0 +1,12 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "ZZZ 2016 S. 221",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Mélanges à la mémoire de Bernard Corboz (anthology) and BBl 2023 786 left without span."
+}

@@ -1,0 +1,487 @@
+{
+ "decision_id": "bger_5A_92_2020",
+ "task_index": 28,
+ "pass": "c",
+ "outcome": "approved",
+ "comment": "'Art. 314a bis ZGB' is Art. 314abis ZGB (bis split by a space), so STATUTE, not BARE_ARTICLE. 'Art. 12 KRK' relabelled STATUTE per guideline (KRK cited by abbreviation). 'FamPra.ch.ch 2013 S. 1045' has a typo in the journal name; labelled JOURNAL_REF.",
+ "spans": [
+  {
+   "start": 643,
+   "end": 661,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 681,
+   "end": 697,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1806,
+   "end": 1825,
+   "label": "STATUTE",
+   "text": "Art. 308 Abs. 2 ZGB"
+  },
+  {
+   "start": 2318,
+   "end": 2335,
+   "label": "STATUTE",
+   "text": "Art. 314a bis ZGB"
+  },
+  {
+   "start": 3175,
+   "end": 3194,
+   "label": "STATUTE",
+   "text": "Art. 308 Abs. 2 ZGB"
+  },
+  {
+   "start": 3659,
+   "end": 3679,
+   "label": "STATUTE",
+   "text": "Art. 298b Abs. 2 ZGB"
+  },
+  {
+   "start": 4001,
+   "end": 4026,
+   "label": "STATUTE",
+   "text": "Art. 308 Abs. 1 und 2 ZGB"
+  },
+  {
+   "start": 5231,
+   "end": 5256,
+   "label": "STATUTE",
+   "text": "Art. 308 Abs. 1 und 2 ZGB"
+  },
+  {
+   "start": 6994,
+   "end": 7005,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 7043,
+   "end": 7061,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 7298,
+   "end": 7316,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 7386,
+   "end": 7405,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 7413,
+   "end": 7438,
+   "label": "STATUTE",
+   "text": "Art. 46 Abs. 1 lit. c BGG"
+  },
+  {
+   "start": 7559,
+   "end": 7578,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 7861,
+   "end": 7876,
+   "label": "BGE",
+   "text": "BGE 141 III 426"
+  },
+  {
+   "start": 7976,
+   "end": 8000,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 8135,
+   "end": 8148,
+   "label": "BGE",
+   "text": "BGE 143 V 208"
+  },
+  {
+   "start": 8353,
+   "end": 8365,
+   "label": "BGE",
+   "text": "BGE 143 V 19"
+  },
+  {
+   "start": 8420,
+   "end": 8438,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 8860,
+   "end": 8875,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 9069,
+   "end": 9088,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 9249,
+   "end": 9260,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 9359,
+   "end": 9377,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 9380,
+   "end": 9395,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 9402,
+   "end": 9413,
+   "label": "BGE",
+   "text": "137 III 226"
+  },
+  {
+   "start": 9485,
+   "end": 9504,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 9718,
+   "end": 9733,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 9951,
+   "end": 9969,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 10411,
+   "end": 10424,
+   "label": "BGE",
+   "text": "BGE 135 I 221"
+  },
+  {
+   "start": 10442,
+   "end": 10452,
+   "label": "BGE",
+   "text": "133 IV 342"
+  },
+  {
+   "start": 10777,
+   "end": 10790,
+   "label": "BGE",
+   "text": "BGE 136 V 362"
+  },
+  {
+   "start": 10811,
+   "end": 10822,
+   "label": "BGE",
+   "text": "136 III 123"
+  },
+  {
+   "start": 10963,
+   "end": 10978,
+   "label": "BGE",
+   "text": "BGE 133 III 393"
+  },
+  {
+   "start": 12093,
+   "end": 12104,
+   "label": "DOCKET",
+   "text": "5A_721/2018"
+  },
+  {
+   "start": 12253,
+   "end": 12275,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2017, S. 404"
+  },
+  {
+   "start": 12351,
+   "end": 12371,
+   "label": "STATUTE",
+   "text": "Art. 314a Abs. 1 ZGB"
+  },
+  {
+   "start": 12374,
+   "end": 12386,
+   "label": "STATUTE",
+   "text": "Art. 298 ZPO"
+  },
+  {
+   "start": 12468,
+   "end": 12487,
+   "label": "STATUTE",
+   "text": "Art. 301 Bst. b ZPO"
+  },
+  {
+   "start": 12570,
+   "end": 12583,
+   "label": "STATUTE",
+   "text": "Art. 314a ZGB"
+  },
+  {
+   "start": 12671,
+   "end": 12690,
+   "label": "STATUTE",
+   "text": "Art. 298 Abs. 1 ZPO"
+  },
+  {
+   "start": 12701,
+   "end": 12714,
+   "label": "STATUTE",
+   "text": "Art. 314a ZGB"
+  },
+  {
+   "start": 12719,
+   "end": 12738,
+   "label": "STATUTE",
+   "text": "Art. 298 Abs. 1 ZPO"
+  },
+  {
+   "start": 12772,
+   "end": 12789,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 12792,
+   "end": 12811,
+   "label": "STATUTE",
+   "text": "Art. 6 Ziff. 1 EMRK"
+  },
+  {
+   "start": 12816,
+   "end": 12827,
+   "label": "STATUTE",
+   "text": "Art. 12 KRK"
+  },
+  {
+   "start": 13406,
+   "end": 13421,
+   "label": "BGE",
+   "text": "BGE 131 III 553"
+  },
+  {
+   "start": 13648,
+   "end": 13663,
+   "label": "BGE",
+   "text": "BGE 131 III 553"
+  },
+  {
+   "start": 14009,
+   "end": 14024,
+   "label": "BGE",
+   "text": "BGE 133 III 553"
+  },
+  {
+   "start": 14046,
+   "end": 14057,
+   "label": "DOCKET",
+   "text": "5A_951/2018"
+  },
+  {
+   "start": 14093,
+   "end": 14104,
+   "label": "DOCKET",
+   "text": "5A_821/2013"
+  },
+  {
+   "start": 14133,
+   "end": 14155,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2014 S. 1115"
+  },
+  {
+   "start": 14305,
+   "end": 14316,
+   "label": "DOCKET",
+   "text": "5A_299/2011"
+  },
+  {
+   "start": 14348,
+   "end": 14370,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2011 S. 1026"
+  },
+  {
+   "start": 14520,
+   "end": 14531,
+   "label": "DOCKET",
+   "text": "5A_160/2011"
+  },
+  {
+   "start": 14564,
+   "end": 14585,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2011 S. 740"
+  },
+  {
+   "start": 14602,
+   "end": 14613,
+   "label": "DOCKET",
+   "text": "5A_352/2009"
+  },
+  {
+   "start": 14837,
+   "end": 14852,
+   "label": "BGE",
+   "text": "BGE 133 III 553"
+  },
+  {
+   "start": 14867,
+   "end": 14878,
+   "label": "DOCKET",
+   "text": "5A_821/2013"
+  },
+  {
+   "start": 14907,
+   "end": 14929,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2014 S. 1115"
+  },
+  {
+   "start": 14931,
+   "end": 14942,
+   "label": "DOCKET",
+   "text": "5A_505/2013"
+  },
+  {
+   "start": 14977,
+   "end": 15002,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch.ch 2013 S. 1045"
+  },
+  {
+   "start": 15004,
+   "end": 15015,
+   "label": "DOCKET",
+   "text": "5A_138/2012"
+  },
+  {
+   "start": 15044,
+   "end": 15066,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2012 S. 1171"
+  },
+  {
+   "start": 15432,
+   "end": 15443,
+   "label": "DOCKET",
+   "text": "5A_164/2019"
+  },
+  {
+   "start": 15725,
+   "end": 15736,
+   "label": "DOCKET",
+   "text": "5A_354/2015"
+  },
+  {
+   "start": 15787,
+   "end": 15798,
+   "label": "DOCKET",
+   "text": "5C.293/2005"
+  },
+  {
+   "start": 15829,
+   "end": 15850,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2006 S. 760"
+  },
+  {
+   "start": 16004,
+   "end": 16015,
+   "label": "DOCKET",
+   "text": "5A_354/2015"
+  },
+  {
+   "start": 18922,
+   "end": 18933,
+   "label": "DOCKET",
+   "text": "5A_400/2015"
+  },
+  {
+   "start": 18978,
+   "end": 18993,
+   "label": "BGE",
+   "text": "BGE 142 III 197"
+  },
+  {
+   "start": 19142,
+   "end": 19153,
+   "label": "DOCKET",
+   "text": "5A_744/2013"
+  },
+  {
+   "start": 19293,
+   "end": 19311,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2014 438"
+  },
+  {
+   "start": 19419,
+   "end": 19431,
+   "label": "STATUTE",
+   "text": "Art. 298 ZPO"
+  },
+  {
+   "start": 19626,
+   "end": 19637,
+   "label": "DOCKET",
+   "text": "5A_354/2015"
+  },
+  {
+   "start": 19671,
+   "end": 19692,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2015 S.1004"
+  },
+  {
+   "start": 20619,
+   "end": 20637,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 20693,
+   "end": 20717,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 21312,
+   "end": 21324,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 21419,
+   "end": 21431,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  }
+ ],
+ "n_pre": 78,
+ "n_deleted": 2,
+ "n_added": 3,
+ "n_relabeled": 1
+}

@@ -1,0 +1,9 @@
+{
+ "keep": [
+  "a1",
+  "a4",
+  "b1",
+  "b2"
+ ],
+ "comment": "BBG is a real federal code (label as written, item 9); a bracketed year inside a journal reference stays inside the span (as both passes did for `Pra 107 [2018] Nr. 86`)."
+}

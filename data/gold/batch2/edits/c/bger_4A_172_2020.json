@@ -1,0 +1,7 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "Dispositiv header is \"erkennt die Präsidentin:\" without \"Demnach\" (decision written as one In-Erwägung sentence)."
+}

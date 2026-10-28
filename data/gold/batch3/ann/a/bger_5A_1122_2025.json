@@ -1,0 +1,133 @@
+{
+ "decision_id": "bger_5A_1122_2025",
+ "task_index": 171,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "all pre-annotations correct; ZR.2025.38 is a cantonal file number (no span)",
+ "spans": [
+  {
+   "start": 314,
+   "end": 330,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 421,
+   "end": 437,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 2040,
+   "end": 2058,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 2149,
+   "end": 2168,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 2400,
+   "end": 2415,
+   "label": "BGE",
+   "text": "BGE 130 III 136"
+  },
+  {
+   "start": 2424,
+   "end": 2435,
+   "label": "BGE",
+   "text": "134 III 379"
+  },
+  {
+   "start": 2444,
+   "end": 2454,
+   "label": "BGE",
+   "text": "137 II 313"
+  },
+  {
+   "start": 3001,
+   "end": 3019,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3098,
+   "end": 3113,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 3120,
+   "end": 3131,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4065,
+   "end": 4077,
+   "label": "AMOUNT",
+   "text": "Fr. 2'610.--"
+  },
+  {
+   "start": 6463,
+   "end": 6488,
+   "label": "STATUTE",
+   "text": "Art. 301 Abs. 1 und 2 ZGB"
+  },
+  {
+   "start": 6491,
+   "end": 6516,
+   "label": "STATUTE",
+   "text": "Art. 298 Abs. 1 und 2 ZGB"
+  },
+  {
+   "start": 6539,
+   "end": 6556,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 6561,
+   "end": 6579,
+   "label": "STATUTE",
+   "text": "Art. 6 Abs. 1 EMRK"
+  },
+  {
+   "start": 6858,
+   "end": 6883,
+   "label": "STATUTE",
+   "text": "Art. 47 Abs. 1 lit. f ZPO"
+  },
+  {
+   "start": 6926,
+   "end": 6937,
+   "label": "DOCKET",
+   "text": "4A_237/2025"
+  },
+  {
+   "start": 7306,
+   "end": 7332,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 7401,
+   "end": 7419,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 7544,
+   "end": 7556,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  }
+ ],
+ "n_pre": 20,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

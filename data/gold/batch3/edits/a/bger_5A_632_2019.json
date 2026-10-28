@@ -1,0 +1,20 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "B GE 135 III 158",
+   "label": "BGE"
+  },
+  {
+   "text": "Ziff. I.2. der Vereinbarung",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Ziff. II.9. der Vereinbarung",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "Added BGE with OCR space typo (B GE 135 III 158) - guideline only settles typos in statute abbreviations, flagged. Added two CONTRACT_ARTICLE for Ziff. I.2./II.9. der Vereinbarung (private settlement between the parties). Ziff. 3 des Urteilsdispositivs / des obergerichtlichen Entscheids left unlabelled (court document)."
+}

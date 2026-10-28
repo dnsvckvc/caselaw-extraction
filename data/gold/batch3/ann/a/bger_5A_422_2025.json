@@ -1,0 +1,409 @@
+{
+ "decision_id": "bger_5A_422_2025",
+ "task_index": 181,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "All 66 pre-annotations checked; none wrong, none missing. 3B 25 5 is a cantonal file number (no span).",
+ "spans": [
+  {
+   "start": 329,
+   "end": 347,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 420,
+   "end": 436,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1722,
+   "end": 1732,
+   "label": "AMOUNT",
+   "text": "Fr. 687.40"
+  },
+  {
+   "start": 3186,
+   "end": 3205,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 3243,
+   "end": 3254,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3321,
+   "end": 3332,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 3487,
+   "end": 3505,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 3508,
+   "end": 3523,
+   "label": "BGE",
+   "text": "BGE 137 III 380"
+  },
+  {
+   "start": 3696,
+   "end": 3708,
+   "label": "STATUTE",
+   "text": "Art. 113 BGG"
+  },
+  {
+   "start": 3767,
+   "end": 3785,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 3865,
+   "end": 3883,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 3886,
+   "end": 3900,
+   "label": "BGE",
+   "text": "BGE 146 II 335"
+  },
+  {
+   "start": 3912,
+   "end": 3921,
+   "label": "BGE",
+   "text": "142 I 155"
+  },
+  {
+   "start": 4198,
+   "end": 4212,
+   "label": "BGE",
+   "text": "BGE 144 II 184"
+  },
+  {
+   "start": 4221,
+   "end": 4231,
+   "label": "BGE",
+   "text": "139 II 233"
+  },
+  {
+   "start": 4240,
+   "end": 4249,
+   "label": "BGE",
+   "text": "135 II 38"
+  },
+  {
+   "start": 4313,
+   "end": 4327,
+   "label": "BGE",
+   "text": "BGE 149 IV 205"
+  },
+  {
+   "start": 5086,
+   "end": 5100,
+   "label": "BGE",
+   "text": "BGE 137 II 313"
+  },
+  {
+   "start": 5414,
+   "end": 5432,
+   "label": "STATUTE",
+   "text": "Art. 69 Abs. 1 ZPO"
+  },
+  {
+   "start": 5697,
+   "end": 5708,
+   "label": "BGE",
+   "text": "BGE 132 I 1"
+  },
+  {
+   "start": 5725,
+   "end": 5736,
+   "label": "DOCKET",
+   "text": "5A_890/2022"
+  },
+  {
+   "start": 5766,
+   "end": 5777,
+   "label": "DOCKET",
+   "text": "5A_469/2019"
+  },
+  {
+   "start": 5814,
+   "end": 5829,
+   "label": "JOURNAL_REF",
+   "text": "SZZP 2021 S. 94"
+  },
+  {
+   "start": 6124,
+   "end": 6142,
+   "label": "STATUTE",
+   "text": "Art. 69 Abs. 1 ZPO"
+  },
+  {
+   "start": 6180,
+   "end": 6198,
+   "label": "STATUTE",
+   "text": "Art. 41 Abs. 1 BGG"
+  },
+  {
+   "start": 6325,
+   "end": 6336,
+   "label": "DOCKET",
+   "text": "5A_367/2025"
+  },
+  {
+   "start": 6367,
+   "end": 6383,
+   "label": "JOURNAL_REF",
+   "text": "SZZP 2025 S. 598"
+  },
+  {
+   "start": 6385,
+   "end": 6396,
+   "label": "DOCKET",
+   "text": "5A_173/2024"
+  },
+  {
+   "start": 6439,
+   "end": 6450,
+   "label": "DOCKET",
+   "text": "5A_469/2019"
+  },
+  {
+   "start": 6463,
+   "end": 6478,
+   "label": "JOURNAL_REF",
+   "text": "SZZP 2021 S. 96"
+  },
+  {
+   "start": 6623,
+   "end": 6634,
+   "label": "DOCKET",
+   "text": "5A_712/2017"
+  },
+  {
+   "start": 6663,
+   "end": 6674,
+   "label": "DOCKET",
+   "text": "5A_618/2012"
+  },
+  {
+   "start": 6879,
+   "end": 6890,
+   "label": "DOCKET",
+   "text": "5A_173/2024"
+  },
+  {
+   "start": 6906,
+   "end": 6917,
+   "label": "DOCKET",
+   "text": "5A_483/2018"
+  },
+  {
+   "start": 7070,
+   "end": 7081,
+   "label": "DOCKET",
+   "text": "5A_367/2025"
+  },
+  {
+   "start": 7090,
+   "end": 7101,
+   "label": "DOCKET",
+   "text": "5A_173/2024"
+  },
+  {
+   "start": 7124,
+   "end": 7135,
+   "label": "DOCKET",
+   "text": "5A_483/2018"
+  },
+  {
+   "start": 8494,
+   "end": 8505,
+   "label": "STATUTE",
+   "text": "Art. 41 BGG"
+  },
+  {
+   "start": 8631,
+   "end": 8649,
+   "label": "STATUTE",
+   "text": "Art. 69 Abs. 1 ZPO"
+  },
+  {
+   "start": 8663,
+   "end": 8674,
+   "label": "DOCKET",
+   "text": "5A_761/2016"
+  },
+  {
+   "start": 8704,
+   "end": 8715,
+   "label": "STATUTE",
+   "text": "Art. 41 BGG"
+  },
+  {
+   "start": 8741,
+   "end": 8759,
+   "label": "STATUTE",
+   "text": "Art. 69 Abs. 1 ZPO"
+  },
+  {
+   "start": 9010,
+   "end": 9021,
+   "label": "DOCKET",
+   "text": "5A_367/2025"
+  },
+  {
+   "start": 9052,
+   "end": 9068,
+   "label": "JOURNAL_REF",
+   "text": "SZZP 2025 S. 598"
+  },
+  {
+   "start": 9070,
+   "end": 9081,
+   "label": "DOCKET",
+   "text": "5A_173/2024"
+  },
+  {
+   "start": 9112,
+   "end": 9123,
+   "label": "DOCKET",
+   "text": "5A_483/2018"
+  },
+  {
+   "start": 9453,
+   "end": 9471,
+   "label": "STATUTE",
+   "text": "Art. 69 Abs. 1 ZPO"
+  },
+  {
+   "start": 9489,
+   "end": 9500,
+   "label": "DOCKET",
+   "text": "5A_530/2014"
+  },
+  {
+   "start": 9716,
+   "end": 9727,
+   "label": "DOCKET",
+   "text": "5A_532/2022"
+  },
+  {
+   "start": 9762,
+   "end": 9772,
+   "label": "DOCKET",
+   "text": "5D_89/2022"
+  },
+  {
+   "start": 9807,
+   "end": 9818,
+   "label": "DOCKET",
+   "text": "5A_449/2022"
+  },
+  {
+   "start": 9872,
+   "end": 9883,
+   "label": "STATUTE",
+   "text": "Art. 41 BGG"
+  },
+  {
+   "start": 10701,
+   "end": 10712,
+   "label": "DOCKET",
+   "text": "5A_367/2025"
+  },
+  {
+   "start": 10743,
+   "end": 10759,
+   "label": "JOURNAL_REF",
+   "text": "SZZP 2025 S. 598"
+  },
+  {
+   "start": 10761,
+   "end": 10772,
+   "label": "DOCKET",
+   "text": "5A_173/2024"
+  },
+  {
+   "start": 10988,
+   "end": 10998,
+   "label": "DOCKET",
+   "text": "5A_60/2014"
+  },
+  {
+   "start": 11020,
+   "end": 11031,
+   "label": "DOCKET",
+   "text": "5A_491/2012"
+  },
+  {
+   "start": 11056,
+   "end": 11067,
+   "label": "STATUTE",
+   "text": "Art. 41 BGG"
+  },
+  {
+   "start": 11900,
+   "end": 11911,
+   "label": "DOCKET",
+   "text": "5A_367/2025"
+  },
+  {
+   "start": 11942,
+   "end": 11958,
+   "label": "JOURNAL_REF",
+   "text": "SZZP 2025 S. 598"
+  },
+  {
+   "start": 11960,
+   "end": 11971,
+   "label": "DOCKET",
+   "text": "5A_173/2024"
+  },
+  {
+   "start": 12396,
+   "end": 12433,
+   "label": "STATUTE",
+   "text": "Art. 109 Abs. 2 lit. a und Abs. 3 BGG"
+  },
+  {
+   "start": 12564,
+   "end": 12582,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 12743,
+   "end": 12767,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 12985,
+   "end": 13003,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 13227,
+   "end": 13239,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 66,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

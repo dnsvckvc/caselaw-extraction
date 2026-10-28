@@ -1,0 +1,30 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  10,
+  12,
+  17,
+  34
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 72 Abs. 1, Art. 75 Abs. 1 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 74 Abs. 1 lit. b, Art. 74 Abs. 2 lit. a BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 117 i.V.m. Art. 106 Abs. 2 BGG",
+   "label": "STATUTE",
+   "all": true
+  },
+  {
+   "text": "133 II 396",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Extended four chains cut short (Art. 72 Abs. 1, Art. 75 Abs. 1 BGG; Art. 74 Abs. 1 lit. b, Art. 74 Abs. 2 lit. a BGG; Art. 117 i.V.m. Art. 106 Abs. 2 BGG twice). Added one BGE list item. 'Art. 3 Abs. 1 lit. a der Verordnung des EFD ... (SR 642.124)' has no abbreviation and stays unlabelled. Own docket 5D 4/2023 in the metadata header is not annotated."
+}

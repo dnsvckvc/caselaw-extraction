@@ -1,0 +1,121 @@
+{
+ "decision_id": "bger_5A_468_2021",
+ "task_index": 47,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 249,
+   "end": 265,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 1298,
+   "end": 1309,
+   "label": "DOCKET",
+   "text": "5A_571/2017"
+  },
+  {
+   "start": 1878,
+   "end": 1890,
+   "label": "STATUTE",
+   "text": "Art. 13 EMRK"
+  },
+  {
+   "start": 1911,
+   "end": 1930,
+   "label": "STATUTE",
+   "text": "Art. 5 Ziff. 4 EMRK"
+  },
+  {
+   "start": 2120,
+   "end": 2138,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2217,
+   "end": 2232,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 2246,
+   "end": 2257,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 2453,
+   "end": 2466,
+   "label": "BGE",
+   "text": "BGE 135 II 38"
+  },
+  {
+   "start": 2481,
+   "end": 2491,
+   "label": "BGE",
+   "text": "139 II 233"
+  },
+  {
+   "start": 2604,
+   "end": 2629,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 2737,
+   "end": 2752,
+   "label": "BGE",
+   "text": "BGE 130 III 321"
+  },
+  {
+   "start": 2782,
+   "end": 2793,
+   "label": "DOCKET",
+   "text": "5A_958/2019"
+  },
+  {
+   "start": 2825,
+   "end": 2836,
+   "label": "DOCKET",
+   "text": "5A_173/2021"
+  },
+  {
+   "start": 3729,
+   "end": 3741,
+   "label": "STATUTE",
+   "text": "Art. 432 ZGB"
+  },
+  {
+   "start": 4757,
+   "end": 4776,
+   "label": "STATUTE",
+   "text": "Art. 5 Ziff. 4 EMRK"
+  },
+  {
+   "start": 6122,
+   "end": 6147,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 6262,
+   "end": 6294,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 6407,
+   "end": 6425,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  }
+ ],
+ "n_pre": 18,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

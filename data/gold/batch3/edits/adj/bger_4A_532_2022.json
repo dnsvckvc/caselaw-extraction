@@ -1,0 +1,7 @@
+{
+ "keep": [
+  "b1",
+  "b2"
+ ],
+ "comment": "The instrument may follow the clause number with a preposition (`in den AVB`); a clause chain of a private instrument is one span."
+}

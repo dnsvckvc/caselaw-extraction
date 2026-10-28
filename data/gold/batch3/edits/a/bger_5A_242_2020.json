@@ -1,0 +1,16 @@
+{
+ "outcome": "approved",
+ "delete": [
+  7,
+  90
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Fr. 1000.--",
+   "label": "AMOUNT",
+   "all": true
+  }
+ ],
+ "comment": "Fr. 1000.-- was cut to Fr. 100 twice (A.c and dispositiv 6). Item 1 joins the proceedings, item 2 annuls and remands -> approved."
+}

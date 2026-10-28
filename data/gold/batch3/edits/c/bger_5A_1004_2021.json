@@ -1,0 +1,14 @@
+{
+ "outcome": "partial_approval",
+ "delete": [
+  55
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "CHF 1.1114",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "#55 is an exchange rate (CHF 1.1114 per EUR); boundary fixed, kept as AMOUNT, but the guideline does not say whether a rate counts. #4 BARE_ARTICLE '§ 14' is the heading of the quoted contract clause; kept as BARE_ARTICLE because no instrument follows."
+}

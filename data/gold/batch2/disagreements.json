@@ -1,0 +1,922 @@
+{
+ "bger_4A_351_2019": {
+  "decision_id": "bger_4A_351_2019",
+  "task_index": 1,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "German BGB paragraph citations and the German BGH docket X ZR 37/12 left unlabelled.",
+  "comment_b": "",
+  "n_agree": 40,
+  "disputed": []
+ },
+ "bger_5A_1_2020": {
+  "decision_id": "bger_5A_1_2020",
+  "task_index": 2,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No changes.",
+  "comment_b": "Header lists no role word for the opposing parties (Betreibungsamt, Kanton und Stadt Zuerich), so only one PARTY_ROLE.",
+  "n_agree": 23,
+  "disputed": []
+ },
+ "bger_4D_2_2020": {
+  "decision_id": "bger_4D_2_2020",
+  "task_index": 3,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No changes.",
+  "comment_b": "",
+  "n_agree": 21,
+  "disputed": []
+ },
+ "bger_5A_136_2020": {
+  "decision_id": "bger_5A_136_2020",
+  "task_index": 4,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No changes.",
+  "comment_b": "",
+  "n_agree": 50,
+  "disputed": []
+ },
+ "bger_4A_8_2020": {
+  "decision_id": "bger_4A_8_2020",
+  "task_index": 5,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No changes. Nebenintervenientin in the header kept as PARTY_ROLE.",
+  "comment_b": "",
+  "n_agree": 113,
+  "disputed": []
+ },
+ "bger_5A_206_2020": {
+  "decision_id": "bger_5A_206_2020",
+  "task_index": 6,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No changes. Appellationsgericht is listed as Beschwerdegegner in the header; kept.",
+  "comment_b": "",
+  "n_agree": 20,
+  "disputed": []
+ },
+ "bger_4A_570_2019": {
+  "decision_id": "bger_4A_570_2019",
+  "task_index": 7,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Added EPÜ treaty articles; the abbreviation is defined in the text as EPÜ 2000, so the year is included. The long forms Art. 1 Abs. 2 des Bundesgesetzes ... (PatG) and Art. 56 des Europäischen Patentübereinkommens ... in E. 2 have no abbreviation directly after the article and are left unlabelled. Bundespatentgericht docket O2018_003 is not a span.",
+  "comment_b": "Added treaty articles of the EPUE 2000 (defined abbreviation is \"EPÜ 2000\", so the year is kept in the span). Line in E. 2 cites Art. 1 Abs. 2 PatG and Art. 56 EPUE with the full law title and the abbreviation only in brackets; not labelled because the span would have to cross the full title.",
+  "n_agree": 52,
+  "disputed": []
+ },
+ "bger_4A_172_2020": {
+  "decision_id": "bger_4A_172_2020",
+  "task_index": 8,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No changes. Obergericht is listed as Beschwerdegegner in the header; kept.",
+  "comment_b": "Dispositiv header is \"erkennt die Präsidentin:\" without \"Demnach\" (decision written as one In-Erwägung sentence).",
+  "n_agree": 12,
+  "disputed": []
+ },
+ "bger_5A_133_2019": {
+  "decision_id": "bger_5A_133_2019",
+  "task_index": 9,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No changes. Commentary references such as N. 10 zu Art. 70 have no law abbreviation and stay unlabelled. BGE 131 III 653 (E. 3.4.3) is probably a typo for 131 III 652 but is kept as cited. Journal cites ZBGR 2017 S. 242 and BlSchK 1972 S. 20 are not spans.",
+  "comment_b": "",
+  "n_agree": 98,
+  "disputed": []
+ },
+ "bger_5A_579_2020": {
+  "decision_id": "bger_5A_579_2020",
+  "task_index": 10,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Added Art. 17SchKG from the metadata header line (written without a space between number and abbreviation); judgment call, remove if header lines are out of scope.",
+  "comment_b": "Added Art. 17SchKG in the metadata line at the top (no space before SchKG in the source); the rules do not say whether the metadata header counts. Opposing party (Betreibungsamt) has no role word, so one PARTY_ROLE only.",
+  "n_agree": 12,
+  "disputed": []
+ },
+ "bger_5A_461_2020": {
+  "decision_id": "bger_5A_461_2020",
+  "task_index": 11,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "All 41 pre-annotations correct. #40 text has a missing space (Art. 68Abs. 1 und 2 BGG) in the source; span kept.",
+  "comment_b": "",
+  "n_agree": 41,
+  "disputed": []
+ },
+ "bger_4A_375_2020": {
+  "decision_id": "bger_4A_375_2020",
+  "task_index": 12,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Two appeals with different results: item 1 subsidiaere Verfassungsbeschwerde nicht eingetreten (taken), item 2 Beschwerde in Zivilsachen abgewiesen soweit darauf einzutreten. Added Art 113 BGG (source lacks the dot after Art). Added I 302/96 (old-format EVG file number cited as Urteil). Left BGE 142 II [recte: III] 798 unlabelled because the key contains a bracketed correction; rules do not cover this. #26 and #32 second page numbers (115 E. 2; 264 E. 2.3) left unlabelled per rule although they are different decisions.",
+  "comment_b": "Two appeals: item 1 subsidiaere Verfassungsbeschwerde nicht eingetreten (inadmissible), item 2 Beschwerde in Zivilsachen abgewiesen soweit einzutreten (dismissed); took the first per rule. Added Art 113 BGG (typo, no dot after Art). Added I 302/96 as old-format DOCKET (EVG number). Did not label BGE 142 II [recte: III] 798 because the span would contain a bracket. 140 III 115 and 140 III 264 after comma treated as second page per rule.",
+  "n_agree": 82,
+  "disputed": []
+ },
+ "bger_5A_992_2019": {
+  "decision_id": "bger_5A_992_2019",
+  "task_index": 13,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "All 22 pre-annotations correct. Item 1 of the dispositiv is the Vereinigung request; outcome from item 2. 5A_993/2019 is a sibling proceeding, kept as DOCKET.",
+  "comment_b": "Item 1 rejects the Vereinigung request; item 2 decides the appeal (dismissed). Respondent Konkursamt has no role word in the header.",
+  "n_agree": 22,
+  "disputed": []
+ },
+ "bger_4A_37_2020": {
+  "decision_id": "bger_4A_37_2020",
+  "task_index": 14,
+  "outcome_a": "moot",
+  "outcome_b": "moot",
+  "comment_a": "All 12 pre-annotations correct. Art. 8 Abs. 3 des Reglements has no abbreviation, no span. Bundespatentgericht numbers O2017_012/O2017_009 not labelled.",
+  "comment_b": "",
+  "n_agree": 12,
+  "disputed": []
+ },
+ "bger_4A_14_2021": {
+  "decision_id": "bger_4A_14_2021",
+  "task_index": 15,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Added BGE list item 124 III 155 (no BGE word) missed by pre-annotator. Art. 13 Ziff. 2 lit. a AVB etc. are insurance contract terms, not a law: left unlabelled. Art. 2 Abs. 2 des Bundesgesetzes ... (KVAG) has no abbreviation directly after the article: no span.",
+  "comment_b": "Many citations of the insurance conditions (Art. 13 Ziff. 2 lit. a AVB etc.) left unlabelled: AVB are contract terms, not a law. Rules do not say this explicitly.",
+  "n_agree": 74,
+  "disputed": []
+ },
+ "bger_5A_827_2020": {
+  "decision_id": "bger_5A_827_2020",
+  "task_index": 16,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "#3 CHF 5 was cut before the decimal comma and multiplier; replaced by CHF 5,5 Mio. Bundesverwaltungsgericht numbers (B-3171/2020, B-3933/2018) and Zurich cantonal numbers (HE180115-0, PQ180080-0/U) not labelled.",
+  "comment_b": "Amount CHF 5,5 Mio. uses a decimal comma; the pre-annotator cut it at CHF 5.",
+  "n_agree": 80,
+  "disputed": []
+ },
+ "bger_5D_79_2021": {
+  "decision_id": "bger_5D_79_2021",
+  "task_index": 17,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "All 16 pre-annotations correct.",
+  "comment_b": "",
+  "n_agree": 16,
+  "disputed": []
+ },
+ "bger_4A_109_2021": {
+  "decision_id": "bger_4A_109_2021",
+  "task_index": 18,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "All 64 pre-annotations correct. Second page numbers in BGE lists (115 E. 2; 264 E. 2.3; 213 E. 3.1) left unlabelled per rule.",
+  "comment_b": "",
+  "n_agree": 64,
+  "disputed": []
+ },
+ "bger_4A_146_2021": {
+  "decision_id": "bger_4A_146_2021",
+  "task_index": 19,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "All 43 pre-annotations correct. Beklagter/Klaeger appear only in the body, no span. Header has two opposing parties under one Beschwerdegegner word.",
+  "comment_b": "",
+  "n_agree": 43,
+  "disputed": []
+ },
+ "bger_5A_620_2021": {
+  "decision_id": "bger_5A_620_2021",
+  "task_index": 20,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "All 11 pre-annotations correct. KESB and the child C. have no role word in the header.",
+  "comment_b": "",
+  "n_agree": 11,
+  "disputed": []
+ },
+ "bger_5A_680_2021": {
+  "decision_id": "bger_5A_680_2021",
+  "task_index": 21,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 15,
+  "disputed": []
+ },
+ "bger_4A_112_2021": {
+  "decision_id": "bger_4A_112_2021",
+  "task_index": 22,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 72,
+  "disputed": []
+ },
+ "bger_4A_144_2021": {
+  "decision_id": "bger_4A_144_2021",
+  "task_index": 23,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Art. 3 Abs. 1 AB (contractual general conditions) left unlabelled: not a statute.",
+  "comment_b": "Art. 3 Abs. 1 AB not labelled: AB are the insurer's general conditions (contract terms), not a statute.",
+  "n_agree": 48,
+  "disputed": []
+ },
+ "bger_4D_53_2021": {
+  "decision_id": "bger_4D_53_2021",
+  "task_index": 24,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 28,
+  "disputed": []
+ },
+ "bger_5A_146_2021": {
+  "decision_id": "bger_5A_146_2021",
+  "task_index": 25,
+  "outcome_a": "moot",
+  "outcome_b": "moot",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 32,
+  "disputed": []
+ },
+ "bger_4A_528_2021": {
+  "decision_id": "bger_4A_528_2021",
+  "task_index": 26,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 20,
+  "disputed": []
+ },
+ "bger_5A_912_2021": {
+  "decision_id": "bger_5A_912_2021",
+  "task_index": 27,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 16,
+  "disputed": []
+ },
+ "bger_5A_1049_2021": {
+  "decision_id": "bger_5A_1049_2021",
+  "task_index": 28,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "The KESB in the header has no role word, so only one PARTY_ROLE span.",
+  "n_agree": 11,
+  "disputed": []
+ },
+ "bger_5A_75_2022": {
+  "decision_id": "bger_5A_75_2022",
+  "task_index": 29,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 9,
+  "disputed": []
+ },
+ "bger_5A_146_2022": {
+  "decision_id": "bger_5A_146_2022",
+  "task_index": 30,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 10,
+  "disputed": []
+ },
+ "bger_5A_302_2021": {
+  "decision_id": "bger_5A_302_2021",
+  "task_index": 31,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Extended chain Art. 51 ... sowie Art. 52 BGG; added BGE list item 116 II 220 without BGE word.",
+  "comment_b": "",
+  "n_agree": 73,
+  "disputed": []
+ },
+ "bger_5A_193_2021": {
+  "decision_id": "bger_5A_193_2021",
+  "task_index": 32,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Added BGE list item 140 III 264 without BGE word (E. 1.3). \"249 E. 1.3.1\" treated as second page of 141 IV, not a span.",
+  "comment_b": "",
+  "n_agree": 44,
+  "disputed": []
+ },
+ "bger_4A_584_2021": {
+  "decision_id": "bger_4A_584_2021",
+  "task_index": 33,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No changes. \"115 E. 2 S. 116\" after BGE 140 III 86 treated as a second page number, not a span.",
+  "comment_b": "",
+  "n_agree": 43,
+  "disputed": []
+ },
+ "bger_4A_29_2022": {
+  "decision_id": "bger_4A_29_2022",
+  "task_index": 34,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No changes.",
+  "comment_b": "",
+  "n_agree": 45,
+  "disputed": []
+ },
+ "bger_5A_890_2021": {
+  "decision_id": "bger_5A_890_2021",
+  "task_index": 35,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No changes. Beschwerde in Zivilsachen inadmissible but entertained as Verfassungsbeschwerde; dispositiv item 1 is abgewiesen.",
+  "comment_b": "",
+  "n_agree": 47,
+  "disputed": []
+ },
+ "bger_4A_122_2022": {
+  "decision_id": "bger_4A_122_2022",
+  "task_index": 36,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No changes. \"86 E. 2 S. 89\" after BGE 140 III 115 treated as a second page number, not a span.",
+  "comment_b": "",
+  "n_agree": 18,
+  "disputed": []
+ },
+ "bger_4A_162_2022": {
+  "decision_id": "bger_4A_162_2022",
+  "task_index": 37,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Added docket 4A_174/ 2019 (typographic space inside the number in the source text). Added BGE list items 135 V 141 and 133 III 629 (E. 5) without BGE word. Art. 2 lit. c des Reglements (ReRBGer) left unlabelled: no abbreviation directly after the article.",
+  "comment_b": "Docket 4A_174/ 2019 has a stray space after the slash in the source; labelled as written.",
+  "n_agree": 57,
+  "disputed": []
+ },
+ "bger_4A_328_2022": {
+  "decision_id": "bger_4A_328_2022",
+  "task_index": 38,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No changes. Kept span #32 Art. 66 Abs. 1 zweiter Satz BGG as pre-annotated (Art. up to the abbreviation).",
+  "comment_b": "",
+  "n_agree": 33,
+  "disputed": []
+ },
+ "bger_5A_608_2022": {
+  "decision_id": "bger_5A_608_2022",
+  "task_index": 39,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No changes.",
+  "comment_b": "",
+  "n_agree": 11,
+  "disputed": []
+ },
+ "bger_4A_171_2022": {
+  "decision_id": "bger_4A_171_2022",
+  "task_index": 40,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No changes. § 34 Abs. 3 GSVGer/ZH and bare \"Art. 122 Abs. 1 lit. a\" (no abbreviation) left unlabelled per rules. \"2 E. 1.2.2\" after BGE 138 III 799 treated as a second page number.",
+  "comment_b": "",
+  "n_agree": 70,
+  "disputed": []
+ },
+ "bger_4A_413_2022": {
+  "decision_id": "bger_4A_413_2022",
+  "task_index": 41,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "all 27 pre-annotations correct; 115 E. 2 after BGE 140 III 86 is a second page number",
+  "comment_b": "",
+  "n_agree": 27,
+  "disputed": []
+ },
+ "bger_5A_676_2022": {
+  "decision_id": "bger_5A_676_2022",
+  "task_index": 42,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "all 34 pre-annotations correct; #12 reads Art. 74 Abs. 1 Bst. b ZGB in the source (typo for BGG), kept as written",
+  "comment_b": "Item 1 combines 'nicht eingetreten' with a remand to the Kantonsgericht for continuation; set inadmissible. #12 'Art. 74 Abs. 1 Bst. b ZGB' kept as written (source likely means BGG).",
+  "n_agree": 34,
+  "disputed": []
+ },
+ "bger_5A_390_2022": {
+  "decision_id": "bger_5A_390_2022",
+  "task_index": 43,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "added missed Art. 68 Abs. 1-3 BGG (range). Left Art. 90 BG in E. 1.1 unlabelled: source typo, no recognised law abbreviation.",
+  "comment_b": "Added 'Art. 90 BG': the source has the typo 'BG' for 'BGG'; labelled because it has an abbreviation token.",
+  "n_agree": 40,
+  "disputed": [
+   {
+    "id": "b1",
+    "source": "b",
+    "label": "STATUTE",
+    "text": "Art. 90 BG",
+    "start": 4040,
+    "end": 4050,
+    "context": "1. 1.1. Die Beschwerde richtet sich gegen den Endentscheid (⟦Art. 90 BG⟧) einer letzten kantonalen Instanz, die als oberes Gericht a"
+   }
+  ]
+ },
+ "bger_4A_39_2023": {
+  "decision_id": "bger_4A_39_2023",
+  "task_index": 44,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "all 96 pre-annotations correct. Dispositiv header is Das Bundesgericht erkennt: (non-standard), item 1 abgewiesen soweit darauf einzutreten ist -> dismissed. 86 E. 2 after BGE 140 III 115 treated as second page number per rule.",
+  "comment_b": "Dispositiv header is \"Das Bundesgericht erkennt:\" without \"Demnach\"; item 1 reads \"abgewiesen, soweit darauf einzutreten ist\". Pre-annotated outcome was unknown.",
+  "n_agree": 96,
+  "disputed": []
+ },
+ "bger_4A_491_2022": {
+  "decision_id": "bger_4A_491_2022",
+  "task_index": 45,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "added two URG citations with gbis that the regex missed (E. 5.1 and E. 5.3). PARTY_ROLE #1 is plural Beschwerdeführerinnen, kept.",
+  "comment_b": "",
+  "n_agree": 69,
+  "disputed": []
+ },
+ "bger_4A_553_2022": {
+  "decision_id": "bger_4A_553_2022",
+  "task_index": 46,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "deleted truncated AMOUNT #5 (Fr. 30) and re-added the full garbled token Fr. 30'0 00.00 (stray space from text extraction). Added missed Art. 336c Abs. 2 i.V.m. Abs. 1 lit. b OR (E. 6). Left F r. 30'000.00 in the quoted dispositiv unlabelled: currency token broken (F r.), rules do not cover it.",
+  "comment_b": "Two amounts in quoted dispositive text have extraction artefacts: \"F r. 30'000.00\" (space inside Fr.) and \"Fr. 30'0 00.00\" (space inside the number). I labelled both full amounts; pre-annotation #5 covered only \"Fr. 30\".",
+  "n_agree": 40,
+  "disputed": [
+   {
+    "id": "b1",
+    "source": "b",
+    "label": "AMOUNT",
+    "text": "F r. 30'000.00",
+    "start": 2492,
+    "end": 2506,
+    "context": "htet, dem Kläger [Arbeitnehmer] Lohn in der Höhe von brutto ⟦F r. 30'000.00⟧ nebst Zins zu 5 % seit 1. Februar 2020 zu bezahlen. Die Bek"
+   }
+  ]
+ },
+ "bger_5A_217_2023": {
+  "decision_id": "bger_5A_217_2023",
+  "task_index": 47,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "all 26 pre-annotations correct; #3 reads Art. 308 Abs. 1 und 2 BGG in the source (typo for ZGB), kept as written",
+  "comment_b": "#3 \"Art. 308 Abs. 1 und 2 BGG\" kept as written; the source likely means ZGB.",
+  "n_agree": 26,
+  "disputed": []
+ },
+ "bger_5A_449_2023": {
+  "decision_id": "bger_5A_449_2023",
+  "task_index": 48,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "all 12 pre-annotations correct",
+  "comment_b": "",
+  "n_agree": 12,
+  "disputed": []
+ },
+ "bger_5A_288_2023": {
+  "decision_id": "bger_5A_288_2023",
+  "task_index": 49,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "all 28 pre-annotations correct; #8 reads BGE 140 II 86 in the source (typo for III), kept as written. Art. 72 ff. oder Art. 113 ff. (quoted, no abbreviation) and N. x zu Art. 90/34 (commentary, no abbreviation) get no span.",
+  "comment_b": "",
+  "n_agree": 28,
+  "disputed": []
+ },
+ "bger_4A_325_2023": {
+  "decision_id": "bger_4A_325_2023",
+  "task_index": 50,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "all 40 pre-annotations correct",
+  "comment_b": "",
+  "n_agree": 40,
+  "disputed": []
+ },
+ "bger_5F_23_2023": {
+  "decision_id": "bger_5F_23_2023",
+  "task_index": 51,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "All 23 pre-annotations correct. ECHR case number 69212/17 left unlabelled (not a Federal Supreme Court docket).",
+  "comment_b": "",
+  "n_agree": 23,
+  "disputed": []
+ },
+ "bger_4A_414_2023": {
+  "decision_id": "bger_4A_414_2023",
+  "task_index": 52,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "All 29 pre-annotations correct. Cantonal file number 1B 22 41 left unlabelled. USD 249 070.77 kept as AMOUNT (currency token USD).",
+  "comment_b": "",
+  "n_agree": 29,
+  "disputed": []
+ },
+ "bger_5D_103_2023": {
+  "decision_id": "bger_5D_103_2023",
+  "task_index": 53,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "All 50 pre-annotations correct. Cantonal numbers PP220042 and FV220093-L / U. and the § 80 Abs. 1 GOG/ZH citation left unlabelled.",
+  "comment_b": "",
+  "n_agree": 50,
+  "disputed": []
+ },
+ "bger_4A_271_2023": {
+  "decision_id": "bger_4A_271_2023",
+  "task_index": 54,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Added Art. 87 aVVG (missed). Left unlabelled: Artikeln 35a und 35b VVG (written-out Artikeln, not Art.), Art. A4 Ziff. 2 AVB / Art. B8 Ziff. 1 f. AVB (insurance conditions, not a law), Art. 2 Abs. 2 des Bundesgesetzes ... (KVAG) and Art. 9 des Einfuehrungsgesetzes ... (no abbreviation directly after), second page numbers 799 and 264 in BGE lists, BBl reference, cantonal number KV-Z 2021/3.",
+  "comment_b": "Art. A4 Ziff. 2 AVB and Art. B8 Ziff. 1 f. AVB not labelled: AVB are contract terms, not a law. BGE 138 III 2 E. 1.2.2; 799 and 140 III 115 E. 2; 264 treated as second page numbers per the rule.",
+  "n_agree": 67,
+  "disputed": []
+ },
+ "bger_4A_579_2023": {
+  "decision_id": "bger_4A_579_2023",
+  "task_index": 55,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "All 60 pre-annotations correct. Left unlabelled: § 7 Abs. 1 lit. e TO/BL and § 8 Abs. 1 lit. b Ziff. 2 TO/BL (§ citations), second page numbers 115 and 155 in BGE lists, cantonal number 400 23 93 dig.",
+  "comment_b": "",
+  "n_agree": 60,
+  "disputed": []
+ },
+ "bger_5A_983_2023": {
+  "decision_id": "bger_5A_983_2023",
+  "task_index": 56,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "All 17 pre-annotations correct. Cantonal number ZK 23 359 left unlabelled.",
+  "comment_b": "",
+  "n_agree": 17,
+  "disputed": []
+ },
+ "bger_4A_636_2023": {
+  "decision_id": "bger_4A_636_2023",
+  "task_index": 57,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "All 52 pre-annotations correct. Left unlabelled: second page numbers 167 and 115 in BGE lists, cantonal number RT230044-O/U.",
+  "comment_b": "",
+  "n_agree": 52,
+  "disputed": []
+ },
+ "bger_5D_6_2024": {
+  "decision_id": "bger_5D_6_2024",
+  "task_index": 58,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "All 39 pre-annotations correct. Dispositiv item 1 rules on Ausstandsgesuche (recusal, side request); item 2 dismisses the appeal, so outcome = dismissed. Docket 5D_6/2023 is a different case from the own number 5D_6/2024 and is correctly labelled. Cantonal number ZKBES.2023.55 left unlabelled.",
+  "comment_b": "Item 1 rules on the Ausstand requests; outcome taken from item 2.",
+  "n_agree": 39,
+  "disputed": []
+ },
+ "bger_4A_58_2024": {
+  "decision_id": "bger_4A_58_2024",
+  "task_index": 59,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "All 50 pre-annotations correct. Left unlabelled: Artikel 17 der Vereinbarung (contract clause, not a law), second page numbers 86 and 264 in BGE lists, cantonal number HG230159-O.",
+  "comment_b": "",
+  "n_agree": 50,
+  "disputed": []
+ },
+ "bger_5A_61_2024": {
+  "decision_id": "bger_5A_61_2024",
+  "task_index": 60,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Deleted #3 and #6 (Fr. 2, cut before the multiplier) and re-added both as Fr. 2,3 Mio. Added Art 271 Abs. 1 Ziff. 2 SchKG in E. 3.3.3 (missing dot after Art; the rules only mention Art. with a dot, flagged for review). Cantonal number BR.2023.35 left unlabelled.",
+  "comment_b": "Pre-annotations #3 and #6 cut Fr. 2,3 Mio. at the decimal comma. In E. 3.3.3 the text has Art without the dot (Art 271 Abs. 1 Ziff. 2 SchKG); I labelled it as a STATUTE because it is a typo of Art.",
+  "n_agree": 82,
+  "disputed": []
+ },
+ "bger_4A_275_2024": {
+  "decision_id": "bger_4A_275_2024",
+  "task_index": 61,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 27,
+  "disputed": []
+ },
+ "bger_4A_356_2024": {
+  "decision_id": "bger_4A_356_2024",
+  "task_index": 62,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 34,
+  "disputed": []
+ },
+ "bger_5A_927_2023": {
+  "decision_id": "bger_5A_927_2023",
+  "task_index": 63,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "",
+  "comment_b": "#7 'Art. 47 Abs. 2 BGG' kept as written (source likely means BGBB). #38 'Art. 681 Abs. 1 i.V.m. Art. 216c ff. OR' kept as one chain per the shared-abbreviation rule.",
+  "n_agree": 53,
+  "disputed": []
+ },
+ "bger_5A_635_2024": {
+  "decision_id": "bger_5A_635_2024",
+  "task_index": 64,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 17,
+  "disputed": []
+ },
+ "bger_5A_711_2024": {
+  "decision_id": "bger_5A_711_2024",
+  "task_index": 65,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 17,
+  "disputed": []
+ },
+ "bger_4A_473_2024": {
+  "decision_id": "bger_4A_473_2024",
+  "task_index": 66,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Gegenstand line cites Art. 271a Abs. 2 OR split across a blank line; pre-annotator missed it and the four i.V.m. Abs. 2 OR chains in C, 3.2 and 3.6.",
+  "comment_b": "Added the Gegenstand statute and the 'Art. 271a Abs. 1 lit. e (Ziff. 4) i.V.m. Abs. 2 OR' chains (second article given only as 'Abs. 2'), one span each.",
+  "n_agree": 56,
+  "disputed": []
+ },
+ "bger_4D_157_2024": {
+  "decision_id": "bger_4D_157_2024",
+  "task_index": 67,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "BGE list item without the BGE word in E. 2.1 was missed.",
+  "comment_b": "",
+  "n_agree": 25,
+  "disputed": []
+ },
+ "bger_5A_278_2024": {
+  "decision_id": "bger_5A_278_2024",
+  "task_index": 68,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "E. 1 uses Bst. instead of lit. and the typo i.Vm.; the pre-annotator missed the whole Art. 74 chain and cut the Art. 100 chain to its last article. BGE list item 137 III 102 in E. 3.3.3 was missed.",
+  "comment_b": "#10 extended to the full chain; the source writes the connector as 'i.Vm.' (typo for i.V.m.). 'Bst.' is used instead of 'lit.' and is kept inside the spans.",
+  "n_agree": 69,
+  "disputed": []
+ },
+ "bger_4D_192_2024": {
+  "decision_id": "bger_4D_192_2024",
+  "task_index": 69,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 38,
+  "disputed": []
+ },
+ "bger_4A_153_2025": {
+  "decision_id": "bger_4A_153_2025",
+  "task_index": 70,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "",
+  "comment_b": "",
+  "n_agree": 12,
+  "disputed": []
+ },
+ "bger_4A_33_2025": {
+  "decision_id": "bger_4A_33_2025",
+  "task_index": 71,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "No changes; all pre-annotations correct.",
+  "comment_b": "",
+  "n_agree": 105,
+  "disputed": []
+ },
+ "bger_5A_278_2025": {
+  "decision_id": "bger_5A_278_2025",
+  "task_index": 72,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Item 1 only decides the Fristwiederherstellungsgesuch (a side request not in the brief list); item 2 rules on the appeal: nicht eingetreten. Pre-annotated outcome dismissed was wrong.",
+  "comment_b": "Item 1 rejects the Fristwiederherstellungsgesuch (restoration of the time limit), a side request not named in the rules. Item 2 (nicht eingetreten) rules on the appeal, so outcome = inadmissible. Pre-annotated outcome dismissed was taken from item 1.",
+  "n_agree": 9,
+  "disputed": []
+ },
+ "bger_5A_355_2025": {
+  "decision_id": "bger_5A_355_2025",
+  "task_index": 73,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No changes. Note: E. 3 contains \"Artikel 104 BGG\" written out in full; the brief only covers Art./aArt., so left unlabelled.",
+  "comment_b": "E. 3 has \"Artikel 104 BGG\" (word spelled out, not Art.). The rule says spans start at Art., so I left it unlabelled.",
+  "n_agree": 13,
+  "disputed": []
+ },
+ "bger_5A_98_2025": {
+  "decision_id": "bger_5A_98_2025",
+  "task_index": 74,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No changes; all pre-annotations correct.",
+  "comment_b": "",
+  "n_agree": 62,
+  "disputed": []
+ },
+ "bger_5A_601_2025": {
+  "decision_id": "bger_5A_601_2025",
+  "task_index": 75,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No changes; all pre-annotations correct.",
+  "comment_b": "",
+  "n_agree": 38,
+  "disputed": []
+ },
+ "bger_5A_248_2025": {
+  "decision_id": "bger_5A_248_2025",
+  "task_index": 76,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Added missed STATUTE at end of chain in E. 5.2 (after Art. 13 Abs. 1 und Art. 14 BV sowie ...).",
+  "comment_b": "",
+  "n_agree": 44,
+  "disputed": []
+ },
+ "bger_4D_149_2025": {
+  "decision_id": "bger_4D_149_2025",
+  "task_index": 77,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No changes; all pre-annotations correct.",
+  "comment_b": "E. 2.3 has \"BGE 133 III 393 E. 7.1, 585 E. 4.1\". Following the rule example, I did not label 585 as a separate span.",
+  "n_agree": 28,
+  "disputed": []
+ },
+ "bger_4D_222_2025": {
+  "decision_id": "bger_4D_222_2025",
+  "task_index": 78,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No changes; all pre-annotations correct.",
+  "comment_b": "",
+  "n_agree": 19,
+  "disputed": []
+ },
+ "bger_4F_59_2025": {
+  "decision_id": "bger_4F_59_2025",
+  "task_index": 79,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "No changes; all pre-annotations correct. 4D_161/2025 is the revised decision, not this decision's own number, so DOCKET is right.",
+  "comment_b": "4D_161/2025 is the revised decision, not this decision own number (4F_59/2025), so I kept all its DOCKET spans, including the one in the Gegenstand header.",
+  "n_agree": 42,
+  "disputed": []
+ },
+ "bger_5A_46_2026": {
+  "decision_id": "bger_5A_46_2026",
+  "task_index": 80,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "No changes; all pre-annotations correct.",
+  "comment_b": "",
+  "n_agree": 20,
+  "disputed": []
+ },
+ "bger_4A_493_2025": {
+  "decision_id": "bger_4A_493_2025",
+  "task_index": 81,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Added 'BGE 142 IIII 758' (typo in source for 142 III 758; written after 'nicht publ. in'). '115 E. 2' after BGE 140 III 86 left unlabelled per second-page rule. Own docket in header not labelled.",
+  "comment_b": "BGE 142 IIII 758 has a typo in the source (IIII for III); labelled as BGE as written.",
+  "n_agree": 84,
+  "disputed": []
+ },
+ "bger_5D_34_2025": {
+  "decision_id": "bger_5D_34_2025",
+  "task_index": 82,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Added missed BGE list item '137 III 522'. Kept pre-annotation #37 'BGE 141 III 1' although the source text is garbled ('BGE 141 III 1 .2;' probably stands for BGE 141 III 80 E. 1.2). Cantonal number '1C 25 19' not labelled.",
+  "comment_b": "Source text around BGE 141 III 1 looks garbled (\"BGE 141 III 1 .2;\"); kept the span as written.",
+  "n_agree": 52,
+  "disputed": []
+ },
+ "bger_4A_592_2025": {
+  "decision_id": "bger_4A_592_2025",
+  "task_index": 83,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Added missed BGE list item '137 III 324' (first occurrence, after 'BGE 138 III 76 E. 1.2, 333 E. 1.2;'). '333 E. 1.2' and '346 E. 1.3.3' left unlabelled per second-page rule. 'Art. 19 des Bundesgesetzes ... (AVG; SR 823.11)' not labelled: no abbreviation directly after the article. 'Präsidialverfügung 4A_592/2025' is the decision's own number, not labelled.",
+  "comment_b": "Not labelled: Art. 19 des Bundesgesetzes vom 6. Oktober 1989 ... (Arbeitsvermittlungsgesetz, AVG; SR 823.11) - the article cites the full law title, the abbreviation is only in brackets. The decision own number 4A_592/2025 (Praesidialverfuegung) is not a DOCKET.",
+  "n_agree": 40,
+  "disputed": []
+ },
+ "bger_5A_242_2026": {
+  "decision_id": "bger_5A_242_2026",
+  "task_index": 84,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "All 14 pre-annotations correct. Cantonal number 'KES 26 67' not labelled. Presidential decision, item 1 nicht eingetreten.",
+  "comment_b": "The respondent (KESB Seeland) has no role word in the header.",
+  "n_agree": 14,
+  "disputed": []
+ },
+ "bger_4A_98_2026": {
+  "decision_id": "bger_4A_98_2026",
+  "task_index": 85,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "All 59 pre-annotations correct. '167 E. 2.1' and '115 E. 2' second-page forms left unlabelled. 'BBl 2017 S. 399 ff.', 'SZW 2023 S. 539', '§ 10 Rz. 83' and cantonal 'HE250108-O' are outside the five categories.",
+  "comment_b": "Kept Art. 697b OR in the Gegenstand line (#3) as a STATUTE.",
+  "n_agree": 59,
+  "disputed": []
+ },
+ "bger_4D_40_2026": {
+  "decision_id": "bger_4D_40_2026",
+  "task_index": 86,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "All 20 pre-annotations correct. Joined proceedings: item 1 vereinigt, item 2 nicht eingetreten -> inadmissible. Own numbers 4D_40/2026 and 4D_68/2026 (header, party block, body) not labelled. Cantonal 'BR.2025.107/BR.2025.105' not labelled. Three distinct role words in header kept.",
+  "comment_b": "Item 1 only joins 4D_40/2026 and 4D_68/2026; outcome from item 2. Both own docket numbers are not DOCKET spans.",
+  "n_agree": 20,
+  "disputed": []
+ },
+ "bger_5A_498_2025": {
+  "decision_id": "bger_5A_498_2025",
+  "task_index": 87,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "All 41 pre-annotations correct, including the chain 'Art. 256 i.V.m. Art. 256c Abs. 2 und 3 ZGB'. '115 E. 2' and '264 E. 2.3' second-page forms left unlabelled. 'Art. 8 des Uebereinkommens ... (Kinderrechtskonvention, KRK; SR 0.107)' not labelled: no abbreviation directly after the article. Cantonal 'FO.2022.26-K2' not labelled.",
+  "comment_b": "Not labelled: Art. 8 des Uebereinkommens vom 20. November 1989 ueber die Rechte des Kindes (Kinderrechtskonvention, KRK; SR 0.107) - full treaty title, the abbreviation is only in brackets.",
+  "n_agree": 41,
+  "disputed": []
+ },
+ "bger_5A_497_2026": {
+  "decision_id": "bger_5A_497_2026",
+  "task_index": 88,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "All 24 pre-annotations correct. Item 1 nicht eingetreten; item 2 legal aid ignored. Cantonal 'BS.2026.18' not labelled.",
+  "comment_b": "",
+  "n_agree": 24,
+  "disputed": []
+ },
+ "bger_4D_72_2026": {
+  "decision_id": "bger_4D_72_2026",
+  "task_index": 89,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "All 29 pre-annotations correct. Item 1 is a Sistierung request (skipped); item 2 nicht eingetreten -> inadmissible. Malformed numbers '5F_/2026' and '5A_7F/2026' not labelled. Own number '4D_72/2026' in the body list not labelled. Cantonal numbers (ZSU.2026.93, SBK.2026.131, etc.) and invoice numbers not labelled. 'Fr. 800' without dashes kept as AMOUNT.",
+  "comment_b": "Item 1 rejects the Sistierung request; outcome from item 2. Not labelled: malformed file numbers 5F_/2026 and 5A_7F/2026 written by the appellant (no valid number). Own number 4D_72/2026 in the body is not a DOCKET.",
+  "n_agree": 29,
+  "disputed": []
+ },
+ "bger_5A_883_2026": {
+  "decision_id": "bger_5A_883_2026",
+  "task_index": 90,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "All 11 pre-annotations correct, including the chain 'Art. 72 Abs. 2 lit. b Ziff. 2, Art. 75 Abs. 1 und Art. 90 BGG'. Cantonal 'ZK2 2026 43' not labelled.",
+  "comment_b": "",
+  "n_agree": 11,
+  "disputed": []
+ }
+}

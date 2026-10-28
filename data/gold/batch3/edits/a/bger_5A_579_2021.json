@@ -1,0 +1,12 @@
+{
+  "outcome": "approved",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "ZBGR 96/2015 S. 115",
+      "label": "JOURNAL_REF"
+    }
+  ],
+  "comment": "Added JOURNAL_REF for 'in: ZBGR 96/2015 S. 115' after Urteil 5A_454/2013."
+}

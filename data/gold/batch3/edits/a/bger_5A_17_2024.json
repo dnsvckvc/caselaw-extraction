@@ -1,0 +1,12 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "BN 2014, S. 312",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Added 'BN 2014, S. 312' (Der Bernische Notar) as JOURNAL_REF; the Festgabe appeared as a journal issue, so this is unsettled (anthology vs journal). 'Luzerner Tag des Stockwerkeigentums 2022, S. 196' is a conference volume: no span. 'Art. 7 Abs. 2 Bst. a des Reglements' stays CONTRACT_ARTICLE and stops before 'der Stockwerkeigentuemergemeinschaft' (qualifier)."
+}

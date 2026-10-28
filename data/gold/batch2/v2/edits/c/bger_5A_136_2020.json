@@ -1,0 +1,12 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Ziff. 9 des Mortgage Loan Agreement",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "Guideline gap: 13 contract clauses written with spelled-out Ziffer (Ziffer 9 des Mortgage Loan Agreement, Ziffer 13 der AGB für Hypothekarkredite, Ziffer 4 des Vertrags) left unlabelled because the guideline names only Art./Ziff./§ as start. Kept #22 as Ziff. 6 der AGB (guideline example) although für Hypothekarkredite follows."
+}

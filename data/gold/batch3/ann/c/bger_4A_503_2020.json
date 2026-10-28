@@ -1,0 +1,319 @@
+{
+ "decision_id": "bger_4A_503_2020",
+ "task_index": 38,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 373,
+   "end": 391,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 508,
+   "end": 526,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1005,
+   "end": 1054,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 9 Absatz 5 der Zusammenarbeitsvereinbarung"
+  },
+  {
+   "start": 1367,
+   "end": 1407,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 2 der Zusammenarbeitsvereinbarung"
+  },
+  {
+   "start": 2265,
+   "end": 2316,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 3.1 Absatz 3 der Zusammenarbeitsvereinbarung"
+  },
+  {
+   "start": 2418,
+   "end": 2443,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 7 Absatz 6 der AGB"
+  },
+  {
+   "start": 2534,
+   "end": 2553,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 23.2 der AGB"
+  },
+  {
+   "start": 4743,
+   "end": 4768,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 4864,
+   "end": 4889,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 4918,
+   "end": 4932,
+   "label": "BGE",
+   "text": "BGE 139 III 67"
+  },
+  {
+   "start": 4941,
+   "end": 4952,
+   "label": "BGE",
+   "text": "138 III 799"
+  },
+  {
+   "start": 4961,
+   "end": 4962,
+   "label": "BGE",
+   "text": "2"
+  },
+  {
+   "start": 5038,
+   "end": 5050,
+   "label": "STATUTE",
+   "text": "Art. 237 ZPO"
+  },
+  {
+   "start": 5165,
+   "end": 5183,
+   "label": "STATUTE",
+   "text": "Art. 92 Abs. 1 BGG"
+  },
+  {
+   "start": 5511,
+   "end": 5536,
+   "label": "STATUTE",
+   "text": "Art. 17 Abs. 1 Satz 1 ZPO"
+  },
+  {
+   "start": 5933,
+   "end": 5948,
+   "label": "BGE",
+   "text": "BGE 132 III 268"
+  },
+  {
+   "start": 6219,
+   "end": 6232,
+   "label": "BGE",
+   "text": "BGE 109 Ia 55"
+  },
+  {
+   "start": 6247,
+   "end": 6256,
+   "label": "DOCKET",
+   "text": "4A_4/2015"
+  },
+  {
+   "start": 6538,
+   "end": 6553,
+   "label": "BGE",
+   "text": "BGE 132 III 268"
+  },
+  {
+   "start": 6572,
+   "end": 6583,
+   "label": "DOCKET",
+   "text": "4A_568/2017"
+  },
+  {
+   "start": 6609,
+   "end": 6618,
+   "label": "DOCKET",
+   "text": "4A_4/2015"
+  },
+  {
+   "start": 6775,
+   "end": 6824,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 9 Absatz 5 der Zusammenarbeitsvereinbarung"
+  },
+  {
+   "start": 7396,
+   "end": 7407,
+   "label": "STATUTE",
+   "text": "Art. 31 ZPO"
+  },
+  {
+   "start": 7595,
+   "end": 7644,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 9 Absatz 5 der Zusammenarbeitsvereinbarung"
+  },
+  {
+   "start": 8008,
+   "end": 8048,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 2 der Zusammenarbeitsvereinbarung"
+  },
+  {
+   "start": 9147,
+   "end": 9162,
+   "label": "BGE",
+   "text": "BGE 142 III 623"
+  },
+  {
+   "start": 9171,
+   "end": 9182,
+   "label": "BGE",
+   "text": "138 III 471"
+  },
+  {
+   "start": 9344,
+   "end": 9354,
+   "label": "STATUTE",
+   "text": "Art. 6 ZPO"
+  },
+  {
+   "start": 9466,
+   "end": 9477,
+   "label": "DOCKET",
+   "text": "4A_131/2017"
+  },
+  {
+   "start": 9523,
+   "end": 9538,
+   "label": "BGE",
+   "text": "BGE 143 III 558"
+  },
+  {
+   "start": 9993,
+   "end": 10042,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 9 Absatz 5 der Zusammenarbeitsvereinbarung"
+  },
+  {
+   "start": 10410,
+   "end": 10425,
+   "label": "BGE",
+   "text": "BGE 127 III 444"
+  },
+  {
+   "start": 10471,
+   "end": 10486,
+   "label": "BGE",
+   "text": "BGE 136 III 186"
+  },
+  {
+   "start": 10530,
+   "end": 10541,
+   "label": "DOCKET",
+   "text": "4C.325/1994"
+  },
+  {
+   "start": 10670,
+   "end": 10687,
+   "label": "JOURNAL_REF",
+   "text": "ZBJV 1995, S. 241"
+  },
+  {
+   "start": 10704,
+   "end": 10722,
+   "label": "STATUTE",
+   "text": "Art. 17 Abs. 2 ZPO"
+  },
+  {
+   "start": 10946,
+   "end": 10995,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 9 Absatz 5 der Zusammenarbeitsvereinbarung"
+  },
+  {
+   "start": 11777,
+   "end": 11792,
+   "label": "BGE",
+   "text": "BGE 135 III 225"
+  },
+  {
+   "start": 11801,
+   "end": 11812,
+   "label": "BGE",
+   "text": "125 III 263"
+  },
+  {
+   "start": 11830,
+   "end": 11840,
+   "label": "BGE",
+   "text": "123 III 35"
+  },
+  {
+   "start": 11864,
+   "end": 11875,
+   "label": "DOCKET",
+   "text": "4A_512/2015"
+  },
+  {
+   "start": 12123,
+   "end": 12132,
+   "label": "STATUTE",
+   "text": "Art. 1 OR"
+  },
+  {
+   "start": 12224,
+   "end": 12233,
+   "label": "STATUTE",
+   "text": "Art. 1 OR"
+  },
+  {
+   "start": 14248,
+   "end": 14262,
+   "label": "BGE",
+   "text": "BGE 133 III 61"
+  },
+  {
+   "start": 14281,
+   "end": 14292,
+   "label": "BGE",
+   "text": "132 III 626"
+  },
+  {
+   "start": 14764,
+   "end": 14782,
+   "label": "STATUTE",
+   "text": "Art. 13 lit. b ZPO"
+  },
+  {
+   "start": 15195,
+   "end": 15206,
+   "label": "STATUTE",
+   "text": "Art. 52 ZPO"
+  },
+  {
+   "start": 15556,
+   "end": 15605,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 9 Absatz 5 der Zusammenarbeitsvereinbarung"
+  },
+  {
+   "start": 15841,
+   "end": 15886,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 sowie\nArt. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 15991,
+   "end": 16003,
+   "label": "AMOUNT",
+   "text": "Fr. 6'500.--"
+  },
+  {
+   "start": 16141,
+   "end": 16153,
+   "label": "AMOUNT",
+   "text": "Fr. 7'500.--"
+  }
+ ],
+ "n_pre": 50,
+ "n_deleted": 1,
+ "n_added": 2,
+ "n_relabeled": 0
+}

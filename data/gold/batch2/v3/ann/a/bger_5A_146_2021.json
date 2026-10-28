@@ -1,0 +1,211 @@
+{
+ "decision_id": "bger_5A_146_2021",
+ "task_index": 25,
+ "pass": "a",
+ "outcome": "moot",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 354,
+   "end": 372,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 438,
+   "end": 454,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1601,
+   "end": 1617,
+   "label": "AMOUNT",
+   "text": "Fr. 1'045'182.--"
+  },
+  {
+   "start": 3593,
+   "end": 3618,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3798,
+   "end": 3813,
+   "label": "BGE",
+   "text": "BGE 136 III 497"
+  },
+  {
+   "start": 4324,
+   "end": 4335,
+   "label": "STATUTE",
+   "text": "Art. 71 BGG"
+  },
+  {
+   "start": 4343,
+   "end": 4354,
+   "label": "STATUTE",
+   "text": "Art. 72 BZP"
+  },
+  {
+   "start": 4428,
+   "end": 4446,
+   "label": "STATUTE",
+   "text": "Art. 32 Abs. 2 BGG"
+  },
+  {
+   "start": 4662,
+   "end": 4673,
+   "label": "STATUTE",
+   "text": "Art. 71 BGG"
+  },
+  {
+   "start": 4681,
+   "end": 4692,
+   "label": "STATUTE",
+   "text": "Art. 72 BZP"
+  },
+  {
+   "start": 4702,
+   "end": 4713,
+   "label": "DOCKET",
+   "text": "5A_535/2020"
+  },
+  {
+   "start": 4962,
+   "end": 4973,
+   "label": "DOCKET",
+   "text": "5A_767/2020"
+  },
+  {
+   "start": 5203,
+   "end": 5216,
+   "label": "BGE",
+   "text": "BGE 142 V 551"
+  },
+  {
+   "start": 5480,
+   "end": 5527,
+   "label": "STATUTE",
+   "text": "Art. 281 Abs. 3 sowie\nArt. 283 Abs. 2 und 3 ZPO"
+  },
+  {
+   "start": 5653,
+   "end": 5668,
+   "label": "BGE",
+   "text": "BGE 144 III 298"
+  },
+  {
+   "start": 6008,
+   "end": 6020,
+   "label": "STATUTE",
+   "text": "Art. 122 ZGB"
+  },
+  {
+   "start": 6209,
+   "end": 6233,
+   "label": "STATUTE",
+   "text": "Art. 7d Abs. 2 SchlT ZGB"
+  },
+  {
+   "start": 6244,
+   "end": 6255,
+   "label": "DOCKET",
+   "text": "5A_819/2017"
+  },
+  {
+   "start": 6289,
+   "end": 6310,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2018 S. 832"
+  },
+  {
+   "start": 6315,
+   "end": 6326,
+   "label": "DOCKET",
+   "text": "5A_710/2017"
+  },
+  {
+   "start": 6529,
+   "end": 6541,
+   "label": "STATUTE",
+   "text": "Art. 123 ZGB"
+  },
+  {
+   "start": 6774,
+   "end": 6792,
+   "label": "STATUTE",
+   "text": "Art. 13 Abs. 1 BVG"
+  },
+  {
+   "start": 6870,
+   "end": 6888,
+   "label": "STATUTE",
+   "text": "Art. 37 Abs. 1 BVG"
+  },
+  {
+   "start": 6893,
+   "end": 6912,
+   "label": "STATUTE",
+   "text": "Art. 22a Abs. 4 FZG"
+  },
+  {
+   "start": 6932,
+   "end": 6951,
+   "label": "STATUTE",
+   "text": "Art. 19g Abs. 1 FZV"
+  },
+  {
+   "start": 7641,
+   "end": 7656,
+   "label": "BGE",
+   "text": "BGE 130 III 537"
+  },
+  {
+   "start": 7932,
+   "end": 7949,
+   "label": "STATUTE",
+   "text": "Art. 2 Abs. 2 ZGB"
+  },
+  {
+   "start": 8117,
+   "end": 8132,
+   "label": "BGE",
+   "text": "BGE 143 III 279"
+  },
+  {
+   "start": 8551,
+   "end": 8569,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 8869,
+   "end": 8881,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  },
+  {
+   "start": 8900,
+   "end": 8918,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 9044,
+   "end": 9056,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 9192,
+   "end": 9204,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  }
+ ],
+ "n_pre": 33,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

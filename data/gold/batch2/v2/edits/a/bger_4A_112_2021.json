@@ -1,0 +1,31 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  55,
+  56
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "SZIER 2013, S. 555",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "ZBJV 2009, S. 382",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "SRIEL 2017, S. 456",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "Revue de l'Arbitrage, 2008, S. 768",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "Revue de l'arbitrage, 2016, S. 1187",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "#55/#56 stopped at the year; re-drawn to include the page (comma between year and S. in this decision). Added SRIEL 2017 (missed journal). Added two Revue de l'Arbitrage refs: journal cited by full name, not abbreviation; guideline only mentions abbreviation. 'Artikel 22 enthielt folgende Schiedsklausel' (spelled-out Artikel, instrument named before) left unlabelled; guideline covers only Art./§. Book refs (Kaufmann-Kohler/Rigozzi Rz. 5.24, Berger/Kellerhals Rz. 583/825) are not journal refs."
+}

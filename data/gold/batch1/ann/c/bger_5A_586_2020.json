@@ -1,0 +1,127 @@
+{
+ "decision_id": "bger_5A_586_2020",
+ "task_index": 7,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 544,
+   "end": 560,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 580,
+   "end": 598,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 2636,
+   "end": 2655,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 2730,
+   "end": 2745,
+   "label": "BGE",
+   "text": "BGE 136 III 209"
+  },
+  {
+   "start": 2772,
+   "end": 2784,
+   "label": "DOCKET",
+   "text": "6B_1018/2018"
+  },
+  {
+   "start": 2813,
+   "end": 2823,
+   "label": "DOCKET",
+   "text": "4A_66/2020"
+  },
+  {
+   "start": 2849,
+   "end": 2860,
+   "label": "DOCKET",
+   "text": "5D_128/2020"
+  },
+  {
+   "start": 3269,
+   "end": 3288,
+   "label": "STATUTE",
+   "text": "Art. 450 Abs. 1 ZGB"
+  },
+  {
+   "start": 3750,
+   "end": 3763,
+   "label": "BGE",
+   "text": "BGE 135 II 38"
+  },
+  {
+   "start": 3778,
+   "end": 3788,
+   "label": "BGE",
+   "text": "139 II 233"
+  },
+  {
+   "start": 3869,
+   "end": 3887,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 3991,
+   "end": 4009,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4088,
+   "end": 4103,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 4117,
+   "end": 4128,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4488,
+   "end": 4500,
+   "label": "BGE",
+   "text": "BGE 138 I 97"
+  },
+  {
+   "start": 4518,
+   "end": 4529,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 5862,
+   "end": 5888,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5975,
+   "end": 5993,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6113,
+   "end": 6125,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  }
+ ],
+ "n_pre": 16,
+ "n_deleted": 0,
+ "n_added": 3,
+ "n_relabeled": 0
+}

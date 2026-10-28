@@ -1,0 +1,79 @@
+{
+ "decision_id": "bger_5A_626_2025",
+ "task_index": 167,
+ "pass": "c",
+ "outcome": "moot",
+ "comment": "",
+ "spans": [
+  {
+   "start": 252,
+   "end": 268,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 2859,
+   "end": 2871,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 4151,
+   "end": 4171,
+   "label": "STATUTE",
+   "text": "Art. 88 Abs. 2 SchKG"
+  },
+  {
+   "start": 4174,
+   "end": 4188,
+   "label": "BGE",
+   "text": "BGE 125 III 45"
+  },
+  {
+   "start": 4496,
+   "end": 4509,
+   "label": "STATUTE",
+   "text": "Art. 17 SchKG"
+  },
+  {
+   "start": 5448,
+   "end": 5468,
+   "label": "STATUTE",
+   "text": "Art. 8a Abs. 3 SchKG"
+  },
+  {
+   "start": 5682,
+   "end": 5709,
+   "label": "STATUTE",
+   "text": "Art. 8a Abs. 3 lit. a SchKG"
+  },
+  {
+   "start": 5962,
+   "end": 5977,
+   "label": "BGE",
+   "text": "BGE 138 III 537"
+  },
+  {
+   "start": 6165,
+   "end": 6183,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6496,
+   "end": 6514,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 6517,
+   "end": 6531,
+   "label": "BGE",
+   "text": "BGE 125 II 518"
+  }
+ ],
+ "n_pre": 11,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

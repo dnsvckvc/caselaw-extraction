@@ -1,0 +1,85 @@
+{
+ "decision_id": "bger_5A_449_2023",
+ "task_index": 48,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 249,
+   "end": 267,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 2186,
+   "end": 2204,
+   "label": "STATUTE",
+   "text": "Art. 48 Abs. 3 BGG"
+  },
+  {
+   "start": 2218,
+   "end": 2236,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2575,
+   "end": 2589,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 2596,
+   "end": 2607,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 2714,
+   "end": 2733,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 2821,
+   "end": 2839,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 2860,
+   "end": 2874,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 2885,
+   "end": 2896,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 4392,
+   "end": 4410,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 4596,
+   "end": 4622,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4709,
+   "end": 4727,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  }
+ ],
+ "n_pre": 12,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

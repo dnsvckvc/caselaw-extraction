@@ -1,0 +1,15 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  16
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 6",
+   "label": "BARE_ARTICLE",
+   "occurrence": 1
+  }
+ ],
+ "comment": "VFRR given as title -> BARE_ARTICLE. Ziffer 21 der Weisung ... Nr. 3 (administrative directive of the federal SchKG supervisor, Ziffer spelled out) fits no class, left without span"
+}

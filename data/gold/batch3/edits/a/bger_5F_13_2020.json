@@ -1,0 +1,13 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "5D_56/2020",
+   "label": "DOCKET",
+   "all": true
+  }
+ ],
+ "comment": "Added every 5D_56/2020 as DOCKET: it is the earlier Federal Supreme Court judgment that the revision request targets, not this decision (5F_13/2020). The pre-annotator missed the 5D_ prefix entirely. Own number 5F 13/2020 / 5F_13/2020 left unlabelled. Outcome from item 1: Revisionsgesuch abgewiesen."
+}

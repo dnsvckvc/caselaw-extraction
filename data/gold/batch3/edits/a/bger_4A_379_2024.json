@@ -1,0 +1,44 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    3,
+    4,
+    5,
+    9,
+    10,
+    49,
+    53,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Ziff. 3.2 ABV",
+      "label": "CONTRACT_ARTICLE",
+      "all": true
+    },
+    {
+      "text": "Ziff. 6 ABV",
+      "label": "CONTRACT_ARTICLE",
+      "all": true
+    },
+    {
+      "text": "Ziff. 3.4.3 lit. d ABV",
+      "label": "CONTRACT_ARTICLE",
+      "all": true
+    },
+    {
+      "text": "Ziffer 3.4.3 lit. d ABV",
+      "label": "CONTRACT_ARTICLE"
+    }
+  ],
+  "comment": "Pre-annotator cut ABV to AB in 16 CONTRACT_ARTICLE spans; re-added with full abbreviation. Kept #48 Ziff. 3.2 AVB as written (typo for ABV). Left Ziff. 3.2 [ABV] (2x, inside quoted contract text, instrument only in court brackets) without span: brackets after a reference stay outside and a lone Ziff. is no class; guideline does not settle it."
+}

@@ -1,0 +1,622 @@
+{
+ "bger_4A_396_2019": {
+  "decision_id": "bger_4A_396_2019",
+  "task_index": 1,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended three statute chains (Art. 42/106 BGG, Art. 272/272b OR, Art. 66/68 BGG as one comma chain sharing BGG). Added seven BGE list items without the BGE word.",
+  "comment_b": "",
+  "n_agree": 65,
+  "disputed": []
+ },
+ "bger_5A_121_2020": {
+  "decision_id": "bger_5A_121_2020",
+  "task_index": 2,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "All 18 pre-annotations correct; no changes.",
+  "comment_b": "",
+  "n_agree": 18,
+  "disputed": []
+ },
+ "bger_4A_41_2020": {
+  "decision_id": "bger_4A_41_2020",
+  "task_index": 3,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "Extended three statute chains; added two unlabelled URG chains (Art. 40/52 URG, Art. 46/55 URG); added three BGE list items. '264 E. 2.3' after 140 III 115 left unlabelled per second-page rule.",
+  "comment_b": "'264 E. 2.3' after 140 III 115 is a page-only short form (140 III 264), not labelled.",
+  "n_agree": 82,
+  "disputed": []
+ },
+ "bger_4A_179_2020": {
+  "decision_id": "bger_4A_179_2020",
+  "task_index": 4,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Item 1: Beschwerde in Zivilsachen nicht eingetreten; item 2: subsidiaere Verfassungsbeschwerde abgewiesen. Took item 1 (inadmissible). Extended two chains, added Art. 62 ff. OR twice, added 11 BGE list items.",
+  "comment_b": "Item 1: Beschwerde in Zivilsachen nicht eingetreten (inadmissible); item 2: subsidiaere Verfassungsbeschwerde abgewiesen, soweit einzutreten (dismissed). Took item 1. '2.2 Mio. Mieterhaushalte' is not money.",
+  "n_agree": 82,
+  "disputed": []
+ },
+ "bger_4A_220_2020": {
+  "decision_id": "bger_4A_220_2020",
+  "task_index": 5,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "Extended BGFA chain; added unlabelled Art. 228 ff. ZPO; added one BGE list item. Item 1: gutgeheissen, soweit darauf einzutreten ist -> approved.",
+  "comment_b": "'2 E. 1.2.2 S. 5' after BGE 138 III 799 is a page-only short form, not labelled. Dispositiv: gutgeheissen, soweit darauf einzutreten ist.",
+  "n_agree": 35,
+  "disputed": []
+ },
+ "bger_5A_229_2020": {
+  "decision_id": "bger_5A_229_2020",
+  "task_index": 6,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "Pre-annotated outcome 'moot' was wrong: it came from item 2.1 (legal aid, gegenstandslos), which never counts. Item 1 has no keyword: the Verfuegung is 'aufgehoben' and the case 'zurueckgewiesen' (Art. 112 Abs. 3 BGG). The appellant asked for exactly this, so I set approved. Flag for review if the project wants a different value for annul-and-remand without 'gutgeheissen'. Added two BGE list items.",
+  "comment_b": "Pre-annotated outcome 'moot' was wrong: item 1 annuls the lower ruling and remands (aufgehoben, zurueckgewiesen) -> approved. The 'gegenstandslos' is in item 2.1 (legal aid).",
+  "n_agree": 45,
+  "disputed": []
+ },
+ "bger_5A_586_2020": {
+  "decision_id": "bger_5A_586_2020",
+  "task_index": 7,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Added three BGE list items without the BGE word. '§ 66 Abs. 1 EG ZGB/BL' left unlabelled (§ citation).",
+  "comment_b": "",
+  "n_agree": 19,
+  "disputed": []
+ },
+ "bger_4A_296_2020": {
+  "decision_id": "bger_4A_296_2020",
+  "task_index": 8,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Added unlabelled range Art. 113-119 BGG and nine BGE list items. '213 E. 3.1' after 130 III 28 left unlabelled (second-page rule).",
+  "comment_b": "'213 E. 3.1' after 130 III 28 is a page-only short form, not labelled.",
+  "n_agree": 40,
+  "disputed": []
+ },
+ "bger_5A_859_2019": {
+  "decision_id": "bger_5A_859_2019",
+  "task_index": 9,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended AMOUNT 'Fr. 28' to 'Fr. 28 Mio.'. Extended BGG chain (Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c BGG); Art. 19 SchKG stays its own span. Added Art. 106 ff. SchKG and two BGE list items. 'Art. 27 Abs. 3 VSB 2020' (bank self-regulation agreement, not a law) left unlabelled; flag if the project wants it as STATUTE.",
+  "comment_b": "Extended 'Fr. 28' to 'Fr. 28 Mio.'. Labelled 'Art. 27 Abs. 3 VSB' (bank self-regulation agreement, VSB 2020; year excluded) - borderline, has Art. + abbreviation. 'N. x zu Art. 107' commentary references without abbreviation not labelled.",
+  "n_agree": 43,
+  "disputed": [
+   {
+    "id": "b1",
+    "source": "b",
+    "label": "STATUTE",
+    "text": "Art. 27 Abs. 3 VSB",
+    "start": 18644,
+    "end": 18662,
+    "context": "Feststellung des wirtschaftlich Berechtigten verlangt (vgl. ⟦Art. 27 Abs. 3 VSB⟧ 2020; GUGGENHEIM/GUGGENHEIM, a.a.O., Rz. 715, mit Hinw. auf"
+   }
+  ]
+ },
+ "bger_5A_992_2020": {
+  "decision_id": "bger_5A_992_2020",
+  "task_index": 10,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Extended two BGG chains; added two BGE list items.",
+  "comment_b": "Header lists no role word for the respondents (Betreibungsamt, Eidgenossenschaft), so only one PARTY_ROLE.",
+  "n_agree": 13,
+  "disputed": []
+ },
+ "bger_5A_99_2021": {
+  "decision_id": "bger_5A_99_2021",
+  "task_index": 11,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Extended statute chain in E. 1; added five BGE list items without the BGE word.",
+  "comment_b": "",
+  "n_agree": 17,
+  "disputed": []
+ },
+ "bger_4D_17_2021": {
+  "decision_id": "bger_4D_17_2021",
+  "task_index": 12,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Extended four statute chains; added Art. 72 ff. BGG and Art. 113 ff. BGG; added four BGE list items without the BGE word.",
+  "comment_b": "",
+  "n_agree": 36,
+  "disputed": []
+ },
+ "bger_4A_128_2021": {
+  "decision_id": "bger_4A_128_2021",
+  "task_index": 13,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Two appeals with different results: item 1 (Beschwerde in Zivilsachen) nicht eingetreten -> inadmissible; item 2 (subsidiaere Verfassungsbeschwerde) abgewiesen. Extended five statute chains (Art. 117 i.V.m. Art. 106 Abs. 2 BGG x3); added BGE list items without the BGE word. Second page numbers (140 III 167, 133 III 585) not labelled.",
+  "comment_b": "Two appeals: Beschwerde in Zivilsachen not entertained (item 1), subsidiaere Verfassungsbeschwerde dismissed (item 2); took item 1.",
+  "n_agree": 72,
+  "disputed": []
+ },
+ "bger_4A_142_2021": {
+  "decision_id": "bger_4A_142_2021",
+  "task_index": 14,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended two statute chains; added BGE list items without the BGE word (140 III 16 twice bare, 140 III 115 twice bare). Second page numbers (138 III 799, 140 III 115 after 86, 140 III 264 after 115) not labelled. Art. 9 des Bundesgesetzes ... (VVG; SR ...) in E. 3 left unlabelled (no direct abbreviation).",
+  "comment_b": "",
+  "n_agree": 78,
+  "disputed": []
+ },
+ "bger_5A_816_2019": {
+  "decision_id": "bger_5A_816_2019",
+  "task_index": 15,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "Added the unannotated chain Art. 74 Abs. 1 lit. b i.V.m. Art. 51 ... BGG, extended two chains, added Art. 95 f. BGG and Art. 36 Abs. 2bis DBG, added one BGE list item. Art. 3 Abs. 1 des Steuerharmonisierungsgesetzes ... [StHG] left unlabelled (no direct abbreviation).",
+  "comment_b": "",
+  "n_agree": 74,
+  "disputed": []
+ },
+ "bger_5A_325_2021": {
+  "decision_id": "bger_5A_325_2021",
+  "task_index": 16,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Added five BGE list items without the BGE word (137 III 380 bare in E. 3.1 is the 4th occurrence). Chains and dockets were already correct.",
+  "comment_b": "",
+  "n_agree": 49,
+  "disputed": []
+ },
+ "bger_5A_544_2021": {
+  "decision_id": "bger_5A_544_2021",
+  "task_index": 17,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Added five BGE list items without the BGE word (140 III 86 bare in E. 2 is the 2nd occurrence). Chains, amounts and dockets were already correct.",
+  "comment_b": "",
+  "n_agree": 49,
+  "disputed": []
+ },
+ "bger_4A_349_2021": {
+  "decision_id": "bger_4A_349_2021",
+  "task_index": 18,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Extended one statute chain in E. 5; added one BGE list item. Second page number (140 III 86 after 115) not labelled.",
+  "comment_b": "",
+  "n_agree": 36,
+  "disputed": []
+ },
+ "bger_5A_801_2021": {
+  "decision_id": "bger_5A_801_2021",
+  "task_index": 19,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Item 1 of the dispositiv only reclassifies the Eingabe as subsidiaere Verfassungsbeschwerde; item 2 says nicht eingetreten -> inadmissible. Extended four i.V.m. chains; amount Fr. 50 Mio. was cut to Fr. 50 (extended); added one BGE list item.",
+  "comment_b": "Item 1 only treats the filing as subsidiaere Verfassungsbeschwerde; item 2 (nicht eingetreten) decides the appeal.",
+  "n_agree": 23,
+  "disputed": []
+ },
+ "bger_4G_1_2021": {
+  "decision_id": "bger_4G_1_2021",
+  "task_index": 20,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "Erlaeuterungs-/Berichtigungsgesuch. Item 1: 'Das Urteil 4A_294/2020 wird wie folgt berichtigt' and E. 2 says antragsgemaess zu berichtigen -> the request was granted in full, set approved (pre-annotation was unknown; 'berichtigt' is not in the keyword list, please review). Eleven Mio. amounts were cut short (Fr. 3 / Fr. 3.24 / EUR 2 / Fr. 6) and replaced by full spans incl. Mio.; added one BGE list item.",
+  "comment_b": "Erlaeuterungs-/Berichtigungsgesuch (4G). Dispositiv item 1 corrects judgment 4A_294/2020 as requested (antragsgemaess), without the word gutgeheissen; labelled approved. Pre-annotated outcome was unknown. All Mio. amounts were cut before the multiplier (and 3.241 split at 3.24).",
+  "n_agree": 35,
+  "disputed": []
+ },
+ "bger_4D_67_2021": {
+  "decision_id": "bger_4D_67_2021",
+  "task_index": 21,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Extended chain #8; added BGE list item 140 III 115; added Art. 66 Abs. 1 zweiter Satz BGG.",
+  "comment_b": "",
+  "n_agree": 24,
+  "disputed": []
+ },
+ "bger_5D_117_2021": {
+  "decision_id": "bger_5D_117_2021",
+  "task_index": 22,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "Extended three chains (#9, #14, #21); added five BGE list items without the BGE word.",
+  "comment_b": "",
+  "n_agree": 58,
+  "disputed": []
+ },
+ "bger_5A_216_2022": {
+  "decision_id": "bger_5A_216_2022",
+  "task_index": 23,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended chains #20 and #40; added Art. 95 f. BGG, Art. 450 ff. ZGB, Art. 117 ff. ZPO; added three BGE list items. '249 E. 1.3.1' is a second page of 141 IV, not a span.",
+  "comment_b": "",
+  "n_agree": 53,
+  "disputed": []
+ },
+ "bger_5A_20_2022": {
+  "decision_id": "bger_5A_20_2022",
+  "task_index": 24,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Extended chain #21; added SchlT ZGB citations (three).",
+  "comment_b": "Respondent EHRA has no role word in header, so only one PARTY_ROLE. SchlT ZGB treated as the law abbreviation.",
+  "n_agree": 25,
+  "disputed": []
+ },
+ "bger_4A_194_2022": {
+  "decision_id": "bger_4A_194_2022",
+  "task_index": 25,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "AMOUNT 'EUR 2' cut short twice, replaced with 'EUR 2 Mio.'; extended chains #11 (in Verbindung mit), #19, #35; added Art. 190-192 IPRG; added six BGE list items. Second page refs ('239 E. 3.1', '86 E. 2') left unlabelled.",
+  "comment_b": "'BGE 140 III 115 E. 2, 86 E. 2': 86 refers to BGE 140 III 86 but is written as a bare page number, so no span.",
+  "n_agree": 44,
+  "disputed": []
+ },
+ "bger_5A_869_2022": {
+  "decision_id": "bger_5A_869_2022",
+  "task_index": 26,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Added BGE list item 140 III 115.",
+  "comment_b": "",
+  "n_agree": 15,
+  "disputed": []
+ },
+ "bger_4A_371_2022": {
+  "decision_id": "bger_4A_371_2022",
+  "task_index": 27,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended chain #47; added seven BGE list items. '2 E. 1.2.2 S. 5' after BGE 138 III 799 is a second page, not a span.",
+  "comment_b": "'BGE 138 III 799 E. 1.1, 2 E. 1.2.2 S. 5': the '2' is a bare page reference, no span.",
+  "n_agree": 56,
+  "disputed": []
+ },
+ "bger_4A_576_2022": {
+  "decision_id": "bger_4A_576_2022",
+  "task_index": 28,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Extended chain #8; added Art. 66 Abs. 1 zweiter Satz BGG; added three BGE list items.",
+  "comment_b": "",
+  "n_agree": 26,
+  "disputed": []
+ },
+ "bger_4A_463_2022": {
+  "decision_id": "bger_4A_463_2022",
+  "task_index": 29,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Added three missing statutes (Art. 328 Abs. 1 lit. a und lit. b ZPO, Art. 23 ff. OR, Art. 24 Abs. 1 Ziff. 1-3 OR) and eleven BGE list items. Second page refs ('799 E. 1.1', '264 E. 2.3') left unlabelled. 'Art. 2 Abs. 2 des Bundesgesetzes ... (KVAG)' has no trailing abbreviation, no span. Header has 'Verfahrensbeteiligte' twice.",
+  "comment_b": "Header repeats the word 'Verfahrensbeteiligte'. Bare page refs ('799 E. 1.1', '264 E. 2.3') not labelled. 'Art. 2 Abs. 2 des Bundesgesetzes ... KVAG' has no directly attached abbreviation, not labelled.",
+  "n_agree": 89,
+  "disputed": []
+ },
+ "bger_5A_873_2022": {
+  "decision_id": "bger_5A_873_2022",
+  "task_index": 30,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended chain #2 (six articles sharing BGG); added BGE list item 140 III 115; added old-format Federal Supreme Court docket B.101/1991 (Urteil vom 2. Juli 1991). 'Art. 6 der Verordnung ... (VFRR; SR 281.31)' left unlabelled: no abbreviation directly after the article.",
+  "comment_b": "Respondent Betreibungsamt has no role word in header. 'Art. 6 der Verordnung ... (VFRR; SR 281.31)' has the abbreviation only in a long bracket, not labelled.",
+  "n_agree": 13,
+  "disputed": []
+ },
+ "bger_4A_544_2022": {
+  "decision_id": "bger_4A_544_2022",
+  "task_index": 31,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended three statute chains; added six BGE list items without the BGE word.",
+  "comment_b": "Same-volume page-only references (115 E. 2, 264 E. 2.3, 321 E. 2.2.1) left unlabelled per brief.",
+  "n_agree": 63,
+  "disputed": []
+ },
+ "bger_5A_218_2023": {
+  "decision_id": "bger_5A_218_2023",
+  "task_index": 32,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended two statute chains; added three BGE list items without the BGE word; added Art. 310/314b ZGB from a commentary citation.",
+  "comment_b": "",
+  "n_agree": 28,
+  "disputed": []
+ },
+ "bger_4A_153_2023": {
+  "decision_id": "bger_4A_153_2023",
+  "task_index": 33,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended one statute chain; added three BGE list items without the BGE word. Left 'Art. 19 Abs. 1 lit. b der Verordnung ... (VMWG; SR 221.213.11)' unlabelled: the abbreviation follows only in brackets after the full name.",
+  "comment_b": "Art. 19 Abs. 1 lit. b der Verordnung ... (VMWG; SR 221.213.11) left unlabelled: the law is named in full, abbreviation only in brackets.",
+  "n_agree": 68,
+  "disputed": []
+ },
+ "bger_5D_4_2023": {
+  "decision_id": "bger_5D_4_2023",
+  "task_index": 34,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended four statute chains (two of them 'Art. 117 i.V.m. Art. 106 Abs. 2 BGG'); added one BGE list item without the BGE word. 'Art. 3 Abs. 1 lit. a der Verordnung des EFD ... (SR 642.124)' has no abbreviation and stays unlabelled.",
+  "comment_b": "Art. 3 Abs. 1 lit. a der Verordnung des EFD (SR 642.124) left unlabelled: no abbreviation.",
+  "n_agree": 37,
+  "disputed": []
+ },
+ "bger_5A_954_2022": {
+  "decision_id": "bger_5A_954_2022",
+  "task_index": 35,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "Added missing statute 'Art. 308 Abs. 1 und Abs. 2 ZGB'; extended one statute chain; added two BGE list items, one of them with a typo in the source ('140 IIII 264' for BGE 140 III 264).",
+  "comment_b": "'140 IIII 264' is a typo in the source for BGE 140 III 264; labelled as a BGE list item.",
+  "n_agree": 44,
+  "disputed": []
+ },
+ "bger_4A_453_2023": {
+  "decision_id": "bger_4A_453_2023",
+  "task_index": 36,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Added 'Art. 319 ff. ZPO' twice, one BGE list item, and 'Art. 117 GOG/ZH' (cantonal code cited with 'Art.' inside a quote). '§ 117 GOG/ZH' and '§ 48 GOG/ZH' stay unlabelled. Kept 'Fr. 0.00' spans (#3, #64) as pre-annotated; the source text has a doubled suffix '.--'/'.-' after them.",
+  "comment_b": "#3 and #64 'Fr. 0.00' are followed by a stray '.--'/'.-' in a quoted request; kept as pre-annotated. #2 Beschwerdegegner is the Obergericht, kept as header role.",
+  "n_agree": 71,
+  "disputed": []
+ },
+ "bger_4A_37_2024": {
+  "decision_id": "bger_4A_37_2024",
+  "task_index": 37,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Extended one statute chain; added three BGE list items without the BGE word.",
+  "comment_b": "",
+  "n_agree": 28,
+  "disputed": []
+ },
+ "bger_5A_122_2023": {
+  "decision_id": "bger_5A_122_2023",
+  "task_index": 38,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended one statute chain; added one BGE list item without the BGE word. 'Art. 6 der Verordnung ... (VFRR; SR 281.31)' stays unlabelled: the abbreviation follows only in brackets after the full name.",
+  "comment_b": "Art. 6 der Verordnung ... (VFRR; SR 281.31) left unlabelled: full name, abbreviation only in brackets.",
+  "n_agree": 24,
+  "disputed": []
+ },
+ "bger_5D_216_2023": {
+  "decision_id": "bger_5D_216_2023",
+  "task_index": 39,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended three statute chains (one of them 'Art. 159 Abs. 3 bzw. Art. 163 ZGB' twice); added 'Art. 72 ff. BGG' and 'Art. 95 f. BGG'; added three BGE list items without the BGE word. Item 1: dismissed, soweit nicht gegenstandslos.",
+  "comment_b": "Dispositiv item 1: abgewiesen, soweit nicht als gegenstandslos abzuschreiben -> dismissed (partly moot on the Kostenvorschuss point).",
+  "n_agree": 76,
+  "disputed": []
+ },
+ "bger_5A_296_2024": {
+  "decision_id": "bger_5A_296_2024",
+  "task_index": 40,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Added three BGE list items without the BGE word.",
+  "comment_b": "",
+  "n_agree": 18,
+  "disputed": []
+ },
+ "bger_4A_325_2024": {
+  "decision_id": "bger_4A_325_2024",
+  "task_index": 41,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Item 1 of dispositiv concerns the Ausstandsbegehren (nicht eingetreten); item 2 also nicht eingetreten. '86 E. 2' after BGE 140 III 115 is a second page of the same decision, not a span.",
+  "comment_b": "Item 1 is Ausstandsbegehren (skipped); item 2 nicht eingetreten.",
+  "n_agree": 27,
+  "disputed": []
+ },
+ "bger_4A_105_2024": {
+  "decision_id": "bger_4A_105_2024",
+  "task_index": 42,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "Extended two chains (#9, #62). Added 'Art. 269 f. OR' (Art. + abbreviation, 'f.' form). 138 III 401 occurrence 2 is already the BGE span #44.",
+  "comment_b": "gutgeheissen, soweit darauf eingetreten -> approved.",
+  "n_agree": 71,
+  "disputed": []
+ },
+ "bger_5A_257_2024": {
+  "decision_id": "bger_5A_257_2024",
+  "task_index": 43,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended four chains (und / bzw. / i.V.m. sharing one trailing abbreviation). Added six BGE list items without the BGE word.",
+  "comment_b": "",
+  "n_agree": 78,
+  "disputed": []
+ },
+ "bger_4A_464_2024": {
+  "decision_id": "bger_4A_464_2024",
+  "task_index": 44,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "'86 E. 2' after BGE 140 III 115 is a second page of the same decision, not a span.",
+  "comment_b": "Dispositiv header is 'Demnach erkennt der Einzelrichter'.",
+  "n_agree": 15,
+  "disputed": []
+ },
+ "bger_4A_455_2024": {
+  "decision_id": "bger_4A_455_2024",
+  "task_index": 45,
+  "outcome_a": "partial_approval",
+  "outcome_b": "partial_approval",
+  "comment_a": "Extended chain #63 ('sowie' with one trailing BGG). '115 E. 2' after BGE 140 III 86 E. 2 treated as a second page reference per guideline, not a span. Pre-annotation #7 'Fr. 1'594.--' is followed by a stray '-' in the source; kept as is.",
+  "comment_b": "'BGE 140 III 86 E. 2; 115 E. 2' - bare '115' not labelled (same-volume short form).",
+  "n_agree": 73,
+  "disputed": []
+ },
+ "bger_4D_180_2024": {
+  "decision_id": "bger_4D_180_2024",
+  "task_index": 46,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Extended three chains sharing one trailing BGG (comma, 'in Verbindung mit', 'und'). Added range citation 'Art. 113-119 BGG'. '645 E. 2.4' after 133 III 439 is a second page reference, not a span. PARTY_ROLE 'Beschwerdegegnerinnen' (plural) kept.",
+  "comment_b": "'133 III 439 E. 2.2.2.1, 645 E. 2.4' - bare '645' not labelled.",
+  "n_agree": 32,
+  "disputed": []
+ },
+ "bger_5A_358_2025": {
+  "decision_id": "bger_5A_358_2025",
+  "task_index": 47,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Extended chain #17. Added 'Art. 319 ff. ZPO' ('ff.' form). 140 III 289 occurrence 1 is the only one without the BGE word; later ones are pre-annotated. BBl references are not a category.",
+  "comment_b": "",
+  "n_agree": 42,
+  "disputed": []
+ },
+ "bger_4A_52_2025": {
+  "decision_id": "bger_4A_52_2025",
+  "task_index": 48,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended four cut chains (#16/#25 same chain twice, #31, #82). Many BGE list items without the BGE word were missing (occurrence indexes verified against the plain text). '167 E. 2.1' after 140 III 16 and '115 E. 2' after BGE 140 III 86 are second page references, not spans. Dockets 4A_464/2022 and 4A_515/2017 appear without dates; kept.",
+  "comment_b": "Bare '167' (140 III 16 E. 2.1, 167) and '115' (140 III 86 E. 2, 115) not labelled.",
+  "n_agree": 116,
+  "disputed": []
+ },
+ "bger_4F_7_2025": {
+  "decision_id": "bger_4F_7_2025",
+  "task_index": 49,
+  "outcome_a": "partial_approval",
+  "outcome_b": "partial_approval",
+  "comment_a": "Revision decision; own docket is 4F_7/2025, the revised cases 4F_22/2024 and 4A_554/2013 are other-case dockets and kept. ECHR application 'Nr. 4976/20' and cantonal 'OG.2012.00042' are not spans. Added 'Fr 6'000.--' (currency token without period).",
+  "comment_b": "Revisionsgesuch teilweise gutgeheissen, rest nicht eingetreten. 4F_22/2024 and 4A_554/2013 are earlier related cases (kept as DOCKET); own number 4F_7/2025 not annotated. EGMR 'Nr. 4976/20' not labelled.",
+  "n_agree": 103,
+  "disputed": []
+ },
+ "bger_5A_709_2025": {
+  "decision_id": "bger_5A_709_2025",
+  "task_index": 50,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Outcome ambiguity: item 1 of the dispositiv dismisses the Sistierungsgesuch (abgewiesen); item 2 is 'Auf die Beschwerde wird nicht eingetreten' (the actual result on the appeal). Per brief rule 'item 1 only', outcome set to dismissed. If the procedural-request exception should apply as for 'vereinigt', this should be inadmissible. Extended two chains (#4, #8). | caller: item 1 only rejects the Sistierungsgesuch; item 2 decides the appeal (nicht eingetreten).",
+  "comment_b": "Pre-annotated outcome 'dismissed' was wrong: item 1 only rejects the Sistierungsgesuch; item 2 'Auf die Beschwerde wird nicht eingetreten' -> inadmissible.",
+  "n_agree": 14,
+  "disputed": []
+ },
+ "bger_5A_886_2025": {
+  "decision_id": "bger_5A_886_2025",
+  "task_index": 51,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Added two BGE list items without the BGE word and Art. 117 f. ZPO.",
+  "comment_b": "",
+  "n_agree": 23,
+  "disputed": []
+ },
+ "bger_5A_690_2025": {
+  "decision_id": "bger_5A_690_2025",
+  "task_index": 52,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Extended the BGG chain in E. 1; added BGE list item 142 III 364.",
+  "comment_b": "",
+  "n_agree": 23,
+  "disputed": []
+ },
+ "bger_4A_669_2025": {
+  "decision_id": "bger_4A_669_2025",
+  "task_index": 53,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Joined proceedings 4A_669/2025 and 4A_671/2025: both are the decision's own numbers (header, item 1 of the dispositiv), so I deleted all DOCKET spans on 4A_671/2025. Extended the chain Art. 100 Abs. 1 i.V.m. Art. 46 Abs. 1 lit. c BGG. Item 1 only joins; outcome from item 2.",
+  "comment_b": "4A_671/2025 is the second own docket of this joined decision (listed in header), so its DOCKET spans were deleted.",
+  "n_agree": 31,
+  "disputed": []
+ },
+ "bger_4A_64_2026": {
+  "decision_id": "bger_4A_64_2026",
+  "task_index": 54,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Added 13 BGE list items without the BGE word; extended chain Art. 6 und Art. 13 EMRK. '555' after BGE 138 III 46 is a second page, not a span.",
+  "comment_b": "'BGE 138 III 46 E. 1.1, 555 E. 1' cites 138 III 555 by page only; left unlabelled per the second-page rule.",
+  "n_agree": 44,
+  "disputed": []
+ },
+ "bger_5A_28_2026": {
+  "decision_id": "bger_5A_28_2026",
+  "task_index": 55,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Added BGE list item 143 IV 380.",
+  "comment_b": "Header gives no role word for the respondents (Betreibungsamt, Kanton Graubünden).",
+  "n_agree": 12,
+  "disputed": []
+ },
+ "bger_5A_433_2026": {
+  "decision_id": "bger_5A_433_2026",
+  "task_index": 56,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Extended chain Art. 72 Abs. 1 und Art. 75 Abs. 1 BGG; added three BGE list items.",
+  "comment_b": "",
+  "n_agree": 22,
+  "disputed": []
+ },
+ "bger_4F_8_2026": {
+  "decision_id": "bger_4F_8_2026",
+  "task_index": 57,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "Added two missed statutes (Art. 34 Abs. 1 lit. a-e BGG, Art. 121-123 BGG), BGE list item 147 III 238, and extended the chain Art. 42 Abs. 7 i.V.m. Art. 108 Abs. 1 lit. c BGG.",
+  "comment_b": "",
+  "n_agree": 40,
+  "disputed": []
+ },
+ "bger_5F_25_2026": {
+  "decision_id": "bger_5F_25_2026",
+  "task_index": 58,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Added Art. 121 ff. BGG and BGE list item 149 III 93. Item 1 dismisses the revision request; item 2 (restoration of the deadline) is inadmissible, but item 1 governs.",
+  "comment_b": "",
+  "n_agree": 23,
+  "disputed": []
+ },
+ "bger_4A_231_2026": {
+  "decision_id": "bger_4A_231_2026",
+  "task_index": 59,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended four chains (Art. 42 Abs. 2 und Art. 106 Abs. 2 BGG twice, Art. 97 Abs. 1 und Art. 105 Abs. 2 BGG, Art. 80 und Art. 83 Abs. 2 SchKG); added Art. 157 und Art. 310 ff. ZPO; added BGE list items without the BGE word. '167' after 140 III 16 and '115' after BGE 140 III 86 are second pages, not spans.",
+  "comment_b": "Same-volume page-only references ('167 E. 2.1', '115 E. 2') left unlabelled per the second-page rule.",
+  "n_agree": 66,
+  "disputed": []
+ },
+ "bger_5D_29_2026": {
+  "decision_id": "bger_5D_29_2026",
+  "task_index": 60,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "Extended two chains (E. 1 BGG chain; Art. 106 Abs. 2 i.V.m. Art. 117 BGG); added BGE list items 141 I 172 and 143 I 344. 'Verfahrenskosten von 500.--' has no currency token, so no AMOUNT. 'Art. 93 VE-ZPO' (draft law) left unlabelled.",
+  "comment_b": "Added 'Art. 93 VE-ZPO' (draft ZPO with abbreviation) as STATUTE; borderline. Bare '500.--' in Sachverhalt has no currency token, so no AMOUNT span. Respondent (Obergericht) has no role word in header.",
+  "n_agree": 24,
+  "disputed": [
+   {
+    "id": "b1",
+    "source": "b",
+    "label": "STATUTE",
+    "text": "Art. 93 VE-ZPO",
+    "start": 4572,
+    "end": 4586,
+    "context": "r Expertenkommission vom Juni 2003, in welchem zum dortigen ⟦Art. 93 VE-ZPO⟧ festgehalten wurde, es sei darauf zu achten, dass nicht übe"
+   }
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  7,
+  51,
+  57
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Artikel 20",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#7 trimmed: f. excluded from BARE_ARTICLE. #51/#57: paragraph numbers of an ECtHR judgment (Semenya § 193 ff., § 209) are points of a court document, no span. Kept BARE_ARTICLE for 'Artikel 19/11/20 (f.) von Kapitel 11 (des) AANZFTA': abbreviation of a non-Fedlex treaty follows only after 'von Kapitel 11 (des)', unclear whether OTHER_LAW should run to AANZFTA. 'Ziffer 7' alone (State Agreement) left without span. EUR 650 hourly rate kept as AMOUNT."
+}

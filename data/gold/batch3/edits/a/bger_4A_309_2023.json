@@ -1,0 +1,13 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "133 III 629",
+   "label": "BGE",
+   "occurrence": 3
+  }
+ ],
+ "comment": "Added 133 III 629 (list item without BGE word, after BGE 134 III 426 E. 1.2 in fine). #8 600 and #9 604 are same-volume short citations of BGE 139 V, kept. RB230015-O/U cantonal, no span."
+}

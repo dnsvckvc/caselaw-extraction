@@ -1,0 +1,12 @@
+{
+  "outcome": "inadmissible",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "ZBGR 91/2010 S. 311",
+      "label": "JOURNAL_REF"
+    }
+  ],
+  "comment": "Added missing JOURNAL_REF ZBGR 91/2010 S. 311 (second journal publication of the same Urteil). Left without span: BBl 2014 S. 657 (Botschaft), AS 2015 1389 und 1406, AB 2014 N 1967 und 2266, AB 2014 S 1178 (official gazettes/parliamentary bulletin, not journal or case collection); S. 3 Ziff. I/3 der Beschwerdeschrift (reference to a party brief, not an instrument)."
+}

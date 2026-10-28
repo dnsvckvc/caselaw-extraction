@@ -1,0 +1,30 @@
+{
+  "outcome": "inadmissible",
+  "delete": [
+    8
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 42 Abs. 2 und Art. 106 Abs. 2 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 66 Abs. 1 zweiter Satz BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "143 III 140",
+      "label": "BGE"
+    },
+    {
+      "text": "141 III 395",
+      "label": "BGE"
+    },
+    {
+      "text": "140 III 115",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Extended chain #8; added Art. 66 Abs. 1 zweiter Satz BGG; added three BGE list items."
+}

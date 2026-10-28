@@ -1,0 +1,16 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 93 Abs. 1 lit. b BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 93 Abs. 1 lit. a BGG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Added two STATUTE spans the regex missed because lit. a/lit. b sit on their own lines. BBl 1985 1464 Ziff. 421.22 (gazette), Parlamentarische Initiative Nr. 01.446, Dispositiv-Ziffern and bare (lit. a)/(lit. b) left unlabelled. Outcome from item 1: gutgeheissen."
+}

@@ -1,0 +1,283 @@
+{
+ "decision_id": "bger_5A_240_2022",
+ "task_index": 80,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "All 45 pre-annotations checked, none changed. Open point: #11 BARE_ARTICLE covers the chain 'Art. 10 Abs. 1, Art. 12 Abs. 1 und Art. 13 Abs. 1' (one shared treaty title, HKsUe with SR number). Kept as one span by analogy to the STATUTE chain rule; the BARE_ARTICLE rule does not say whether a chain is one span or three.",
+ "spans": [
+  {
+   "start": 337,
+   "end": 353,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 419,
+   "end": 437,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 4412,
+   "end": 4423,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 4490,
+   "end": 4501,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 4593,
+   "end": 4605,
+   "label": "STATUTE",
+   "text": "Art. 276 ZPO"
+  },
+  {
+   "start": 4740,
+   "end": 4758,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 4795,
+   "end": 4810,
+   "label": "BGE",
+   "text": "BGE 137 III 380"
+  },
+  {
+   "start": 4888,
+   "end": 4906,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 4945,
+   "end": 4964,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 5106,
+   "end": 5125,
+   "label": "STATUTE",
+   "text": "Art. 85 Abs. 1 IPRG"
+  },
+  {
+   "start": 5133,
+   "end": 5182,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 10 Abs. 1, Art. 12 Abs. 1 und Art. 13 Abs. 1"
+  },
+  {
+   "start": 5275,
+   "end": 5286,
+   "label": "DOCKET",
+   "text": "5A_863/2013"
+  },
+  {
+   "start": 5369,
+   "end": 5387,
+   "label": "STATUTE",
+   "text": "Art. 23 Abs. 1 ZPO"
+  },
+  {
+   "start": 5431,
+   "end": 5446,
+   "label": "BGE",
+   "text": "BGE 129 III 404"
+  },
+  {
+   "start": 5464,
+   "end": 5475,
+   "label": "DOCKET",
+   "text": "5A_633/2015"
+  },
+  {
+   "start": 5533,
+   "end": 5548,
+   "label": "BGE",
+   "text": "BGE 126 III 298"
+  },
+  {
+   "start": 5631,
+   "end": 5646,
+   "label": "STATUTE",
+   "text": "Art. 72 ff. BGG"
+  },
+  {
+   "start": 5768,
+   "end": 5786,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 5886,
+   "end": 5897,
+   "label": "DOCKET",
+   "text": "5A_467/2020"
+  },
+  {
+   "start": 6162,
+   "end": 6174,
+   "label": "STATUTE",
+   "text": "Art. 276 ZPO"
+  },
+  {
+   "start": 6196,
+   "end": 6207,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 6216,
+   "end": 6227,
+   "label": "DOCKET",
+   "text": "5A_593/2021"
+  },
+  {
+   "start": 6274,
+   "end": 6289,
+   "label": "BGE",
+   "text": "BGE 133 III 393"
+  },
+  {
+   "start": 6460,
+   "end": 6471,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 6516,
+   "end": 6525,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 6540,
+   "end": 6551,
+   "label": "DOCKET",
+   "text": "5A_367/2020"
+  },
+  {
+   "start": 6612,
+   "end": 6623,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 6781,
+   "end": 6796,
+   "label": "BGE",
+   "text": "BGE 133 III 585"
+  },
+  {
+   "start": 6969,
+   "end": 6988,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 7083,
+   "end": 7098,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 7219,
+   "end": 7232,
+   "label": "BGE",
+   "text": "BGE 145 I 121"
+  },
+  {
+   "start": 7881,
+   "end": 7894,
+   "label": "STATUTE",
+   "text": "Art. 301a ZGB"
+  },
+  {
+   "start": 8482,
+   "end": 8509,
+   "label": "STATUTE",
+   "text": "Art. 301a Abs. 2 lit. a ZGB"
+  },
+  {
+   "start": 9136,
+   "end": 9149,
+   "label": "STATUTE",
+   "text": "Art. 301a ZGB"
+  },
+  {
+   "start": 16810,
+   "end": 16821,
+   "label": "DOCKET",
+   "text": "5A_367/2020"
+  },
+  {
+   "start": 16857,
+   "end": 16878,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2021 S. 185"
+  },
+  {
+   "start": 17535,
+   "end": 17544,
+   "label": "STATUTE",
+   "text": "Art. 8 BV"
+  },
+  {
+   "start": 17712,
+   "end": 17721,
+   "label": "STATUTE",
+   "text": "Art. 8 BV"
+  },
+  {
+   "start": 18237,
+   "end": 18246,
+   "label": "STATUTE",
+   "text": "Art. 8 BV"
+  },
+  {
+   "start": 18677,
+   "end": 18688,
+   "label": "DOCKET",
+   "text": "5A_384/2018"
+  },
+  {
+   "start": 18748,
+   "end": 18763,
+   "label": "BGE",
+   "text": "BGE 144 III 481"
+  },
+  {
+   "start": 18933,
+   "end": 18946,
+   "label": "STATUTE",
+   "text": "Art. 301a ZGB"
+  },
+  {
+   "start": 19599,
+   "end": 19617,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 19658,
+   "end": 19682,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 19865,
+   "end": 19877,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 45,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

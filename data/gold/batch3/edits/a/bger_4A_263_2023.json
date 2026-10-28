@@ -1,0 +1,12 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "ZZZ 2016 S. 221",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Added missed JOURNAL_REF ZZZ 2016 S. 221 (range -223 excluded). #3 CONTRACT_ARTICLE kept with full instrument name Nachtrags I zum Mietvertrag. MB140015 cantonal, Dispositiv-Ziffer 2, BBl 2023 786, Melanges Corboz: no span."
+}

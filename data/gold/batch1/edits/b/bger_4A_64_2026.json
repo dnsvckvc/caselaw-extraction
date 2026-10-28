@@ -1,0 +1,67 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    24
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "145 I 121",
+      "label": "BGE"
+    },
+    {
+      "text": "143 III 140",
+      "label": "BGE"
+    },
+    {
+      "text": "149 III 81",
+      "label": "BGE"
+    },
+    {
+      "text": "144 III 145",
+      "label": "BGE"
+    },
+    {
+      "text": "142 III 364",
+      "label": "BGE"
+    },
+    {
+      "text": "135 III 232",
+      "label": "BGE"
+    },
+    {
+      "text": "148 IV 205",
+      "label": "BGE"
+    },
+    {
+      "text": "140 III 264",
+      "label": "BGE"
+    },
+    {
+      "text": "137 V 57",
+      "label": "BGE"
+    },
+    {
+      "text": "134 II 349",
+      "label": "BGE"
+    },
+    {
+      "text": "146 IV 88",
+      "label": "BGE"
+    },
+    {
+      "text": "141 III 564",
+      "label": "BGE"
+    },
+    {
+      "text": "145 I 26",
+      "label": "BGE",
+      "occurrence": 1
+    },
+    {
+      "text": "Art. 6 und Art. 13 EMRK",
+      "label": "STATUTE"
+    }
+  ],
+  "comment": "Added 13 BGE list items without the BGE word; extended the chain Art. 6 und Art. 13 EMRK. '555' after BGE 138 III 46 is a second page and not a span."
+}

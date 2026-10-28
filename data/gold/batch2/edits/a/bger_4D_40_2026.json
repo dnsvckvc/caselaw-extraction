@@ -1,0 +1,7 @@
+{
+  "outcome": "inadmissible",
+  "delete": [],
+  "relabel": [],
+  "add": [],
+  "comment": "All 20 pre-annotations correct. Joined proceedings: item 1 vereinigt, item 2 nicht eingetreten -> inadmissible. Own numbers 4D_40/2026 and 4D_68/2026 (header, party block, body) not labelled. Cantonal 'BR.2025.107/BR.2025.105' not labelled. Three distinct role words in header kept."
+}

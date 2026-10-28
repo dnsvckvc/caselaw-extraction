@@ -1,0 +1,45 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  4,
+  44,
+  45,
+  64,
+  66,
+  73,
+  75,
+  77,
+  80
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 16.1",
+   "label": "BARE_ARTICLE",
+   "occurrence": 1
+  },
+  {
+   "text": "Art. 16.1 des Werkvertrags",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Art. 7.1.1 des Werkvertrags",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  },
+  {
+   "text": "Art. 14 der einschlägigen \"Allgemeinen Vertragsbedingungen\"",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Art. 1, 6, 16, 18, 20, 28, 51, 85 f., \"135 ff.\", 143 und 372 ff. OR",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 55, \"150 ff.\", 152, 221 und 222 ZPO",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "#4 Art. 16 cut before .1: Art. 16.1 (instrument named before the number) kept BARE_ARTICLE. #64/#66/#75 Art. 16.1 des Werkvertrags and #77/#80 Art. 7.1.1 des Werkvertrags: CONTRACT_ARTICLE with full clause number and instrument. #73 extended to Art. 14 der einschlägigen \"Allgemeinen Vertragsbedingungen\" (stop before bracketed AVB); unsettled whether the quote marks belong inside. #44/#45: chains share trailing OR / ZPO, so STATUTE over the whole chain including the quoted \"135 ff.\" / \"150 ff.\" items (unsettled: quoted items inside a chain). Schweizerische Baurechtstagung 2019, S. 169 left unlabelled (conference volume, not clearly a journal). HG190128-O cantonal, no span."
+}

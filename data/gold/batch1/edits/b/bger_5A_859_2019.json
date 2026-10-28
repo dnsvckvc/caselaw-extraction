@@ -1,0 +1,31 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  3,
+  11
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Fr. 28 Mio.",
+   "label": "AMOUNT"
+  },
+  {
+   "text": "Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 106 ff. SchKG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "110 III 87",
+   "label": "BGE"
+  },
+  {
+   "text": "76 III 87",
+   "label": "BGE"
+  }
+ ],
+ "comment": "#3 'Fr. 28' extended to 'Fr. 28 Mio.'. Chain #11 extended (Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c BGG share one BGG). Art. 106 ff. SchKG and two BGE list items added. 'Art. 27 Abs. 3 VSB 2020' (bank self-regulation agreement) and commentary refs 'zu Art. 107' left unlabelled."
+}

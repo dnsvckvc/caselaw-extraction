@@ -1,0 +1,109 @@
+{
+ "decision_id": "bger_5A_912_2021",
+ "task_index": 27,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 606,
+   "end": 622,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 738,
+   "end": 756,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1545,
+   "end": 1555,
+   "label": "AMOUNT",
+   "text": "Fr. 2 Mio."
+  },
+  {
+   "start": 2060,
+   "end": 2074,
+   "label": "STATUTE",
+   "text": "Art. 85a SchKG"
+  },
+  {
+   "start": 2157,
+   "end": 2178,
+   "label": "STATUTE",
+   "text": "Art. 85a Abs. 2 SchKG"
+  },
+  {
+   "start": 2905,
+   "end": 2923,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 2970,
+   "end": 2988,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 3043,
+   "end": 3064,
+   "label": "STATUTE",
+   "text": "Art. 85a Abs. 2 SchKG"
+  },
+  {
+   "start": 3391,
+   "end": 3402,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 3443,
+   "end": 3462,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3585,
+   "end": 3599,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 3615,
+   "end": 3625,
+   "label": "BGE",
+   "text": "142 II 369"
+  },
+  {
+   "start": 3641,
+   "end": 3652,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4343,
+   "end": 4361,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 4505,
+   "end": 4529,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und 5 BGG"
+  },
+  {
+   "start": 4640,
+   "end": 4652,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  }
+ ],
+ "n_pre": 16,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

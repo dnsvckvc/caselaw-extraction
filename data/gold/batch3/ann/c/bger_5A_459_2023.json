@@ -1,0 +1,229 @@
+{
+ "decision_id": "bger_5A_459_2023",
+ "task_index": 107,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "E. 1.3 has the typo 'BGE 106 Abs. 2 BGG' (meant: Art. 106 Abs. 2 BGG). Left without span: no 'Art.' so not STATUTE, and not a BGE citation.",
+ "spans": [
+  {
+   "start": 301,
+   "end": 317,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 411,
+   "end": 427,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 924,
+   "end": 937,
+   "label": "AMOUNT",
+   "text": "Fr. 82'055.55"
+  },
+  {
+   "start": 974,
+   "end": 987,
+   "label": "AMOUNT",
+   "text": "Fr. 42'994.--"
+  },
+  {
+   "start": 1429,
+   "end": 1442,
+   "label": "AMOUNT",
+   "text": "Fr. 20'400.--"
+  },
+  {
+   "start": 1834,
+   "end": 1846,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 2651,
+   "end": 2664,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 2911,
+   "end": 2936,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 2946,
+   "end": 2957,
+   "label": "DOCKET",
+   "text": "5A_691/2021"
+  },
+  {
+   "start": 3043,
+   "end": 3068,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 3225,
+   "end": 3250,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3357,
+   "end": 3375,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a BGG"
+  },
+  {
+   "start": 3486,
+   "end": 3504,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3507,
+   "end": 3520,
+   "label": "BGE",
+   "text": "BGE 143 I 377"
+  },
+  {
+   "start": 3651,
+   "end": 3666,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 3781,
+   "end": 3800,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 3920,
+   "end": 3938,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 3988,
+   "end": 4001,
+   "label": "BGE",
+   "text": "BGE 148 V 174"
+  },
+  {
+   "start": 4192,
+   "end": 4209,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 3 BV"
+  },
+  {
+   "start": 4532,
+   "end": 4548,
+   "label": "STATUTE",
+   "text": "Art. 117 ff. ZPO"
+  },
+  {
+   "start": 4578,
+   "end": 4593,
+   "label": "BGE",
+   "text": "BGE 142 III 131"
+  },
+  {
+   "start": 4911,
+   "end": 4926,
+   "label": "BGE",
+   "text": "BGE 142 III 131"
+  },
+  {
+   "start": 4935,
+   "end": 4945,
+   "label": "BGE",
+   "text": "140 III 12"
+  },
+  {
+   "start": 5349,
+   "end": 5363,
+   "label": "AMOUNT",
+   "text": "Fr. 270'000.--"
+  },
+  {
+   "start": 5780,
+   "end": 5792,
+   "label": "AMOUNT",
+   "text": "Fr. 3'338.--"
+  },
+  {
+   "start": 5814,
+   "end": 5824,
+   "label": "AMOUNT",
+   "text": "Fr. 475.--"
+  },
+  {
+   "start": 6052,
+   "end": 6066,
+   "label": "AMOUNT",
+   "text": "Fr. 482'000.--"
+  },
+  {
+   "start": 6663,
+   "end": 6679,
+   "label": "STATUTE",
+   "text": "Art. 119 ff. ZPO"
+  },
+  {
+   "start": 6978,
+   "end": 6990,
+   "label": "STATUTE",
+   "text": "Art. 117 ZPO"
+  },
+  {
+   "start": 7164,
+   "end": 7179,
+   "label": "BGE",
+   "text": "BGE 138 III 163"
+  },
+  {
+   "start": 7885,
+   "end": 7899,
+   "label": "AMOUNT",
+   "text": "Fr. 482'000.--"
+  },
+  {
+   "start": 8629,
+   "end": 8637,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 119"
+  },
+  {
+   "start": 9767,
+   "end": 9785,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 9846,
+   "end": 9864,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 10348,
+   "end": 10360,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 10756,
+   "end": 10768,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 36,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

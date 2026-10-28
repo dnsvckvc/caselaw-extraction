@@ -1,0 +1,97 @@
+{
+ "decision_id": "bger_5A_709_2025",
+ "task_index": 50,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 250,
+   "end": 266,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 701,
+   "end": 715,
+   "label": "AMOUNT",
+   "text": "Fr. 250'000.--"
+  },
+  {
+   "start": 771,
+   "end": 785,
+   "label": "AMOUNT",
+   "text": "Fr. 450'000.--"
+  },
+  {
+   "start": 1734,
+   "end": 1782,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 2 lit. c BGG"
+  },
+  {
+   "start": 1840,
+   "end": 1852,
+   "label": "STATUTE",
+   "text": "Art. 113 BGG"
+  },
+  {
+   "start": 2444,
+   "end": 2462,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2671,
+   "end": 2685,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 2692,
+   "end": 2703,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 3199,
+   "end": 3224,
+   "label": "STATUTE",
+   "text": "Art. 9,\nArt. 29 Abs. 2 BV"
+  },
+  {
+   "start": 3227,
+   "end": 3238,
+   "label": "STATUTE",
+   "text": "Art. 6 EMRK"
+  },
+  {
+   "start": 3795,
+   "end": 3821,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4003,
+   "end": 4024,
+   "label": "STATUTE",
+   "text": "Art. 85a Abs. 2 SchKG"
+  },
+  {
+   "start": 4181,
+   "end": 4199,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 4616,
+   "end": 4634,
+   "label": "STATUTE",
+   "text": "Art. 41 Abs. 1 BGG"
+  }
+ ],
+ "n_pre": 14,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

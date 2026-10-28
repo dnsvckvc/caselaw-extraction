@@ -1,0 +1,22 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    10
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 74 Abs. 1 Bst. b i.V.m. Art. 51 Abs. 1 Bst. a und Abs. 4 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 100 Abs. 1 i.Vm. Art. 46 Abs. 1 Bst. a BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "137 III 102",
+      "label": "BGE"
+    }
+  ],
+  "comment": "E. 1 uses Bst. instead of lit. and the typo i.Vm.; the pre-annotator missed the whole Art. 74 chain and cut the Art. 100 chain to its last article. BGE list item 137 III 102 in E. 3.3.3 was missed."
+}

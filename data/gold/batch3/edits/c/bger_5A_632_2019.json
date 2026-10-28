@@ -1,0 +1,20 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "B GE 135 III 158",
+   "label": "BGE"
+  },
+  {
+   "text": "Ziff. I.2. der Vereinbarung",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Ziff. II.9. der Vereinbarung",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "'B GE 135 III 158' has a stray space (text-extraction artefact, like 'We nn'); labelled BGE. Ziff. of the parties' Vereinbarung of 19.1.2018 labelled CONTRACT_ARTICLE (private settlement)."
+}

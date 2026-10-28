@@ -1,0 +1,229 @@
+{
+ "decision_id": "bger_4A_349_2021",
+ "task_index": 18,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 346,
+   "end": 362,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 439,
+   "end": 457,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 862,
+   "end": 875,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 2475,
+   "end": 2493,
+   "label": "STATUTE",
+   "text": "Art. 49 Abs. 1 ZPO"
+  },
+  {
+   "start": 3243,
+   "end": 3261,
+   "label": "STATUTE",
+   "text": "Art. 92 Abs. 1 BGG"
+  },
+  {
+   "start": 3320,
+   "end": 3335,
+   "label": "BGE",
+   "text": "BGE 141 III 395"
+  },
+  {
+   "start": 3956,
+   "end": 3974,
+   "label": "STATUTE",
+   "text": "Art. 92 Abs. 1 BGG"
+  },
+  {
+   "start": 4099,
+   "end": 4110,
+   "label": "STATUTE",
+   "text": "Art. 92 BGG"
+  },
+  {
+   "start": 4360,
+   "end": 4371,
+   "label": "DOCKET",
+   "text": "4A_216/2020"
+  },
+  {
+   "start": 4393,
+   "end": 4404,
+   "label": "DOCKET",
+   "text": "4A_255/2011"
+  },
+  {
+   "start": 4438,
+   "end": 4449,
+   "label": "STATUTE",
+   "text": "Art. 92 BGG"
+  },
+  {
+   "start": 4825,
+   "end": 4836,
+   "label": "DOCKET",
+   "text": "4A_216/2020"
+  },
+  {
+   "start": 4838,
+   "end": 4849,
+   "label": "DOCKET",
+   "text": "4A_255/2011"
+  },
+  {
+   "start": 4865,
+   "end": 4876,
+   "label": "DOCKET",
+   "text": "4A_269/2013"
+  },
+  {
+   "start": 4977,
+   "end": 4988,
+   "label": "DOCKET",
+   "text": "4A_221/2016"
+  },
+  {
+   "start": 5020,
+   "end": 5030,
+   "label": "DOCKET",
+   "text": "1B_77/2017"
+  },
+  {
+   "start": 5122,
+   "end": 5141,
+   "label": "STATUTE",
+   "text": "Art. 187 Abs. 1 ZPO"
+  },
+  {
+   "start": 5396,
+   "end": 5411,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 5989,
+   "end": 6000,
+   "label": "DOCKET",
+   "text": "4A_269/2013"
+  },
+  {
+   "start": 6015,
+   "end": 6026,
+   "label": "DOCKET",
+   "text": "4A_352/2017"
+  },
+  {
+   "start": 6048,
+   "end": 6059,
+   "label": "DOCKET",
+   "text": "4P.254/2006"
+  },
+  {
+   "start": 6089,
+   "end": 6099,
+   "label": "DOCKET",
+   "text": "4P.22/2006"
+  },
+  {
+   "start": 6253,
+   "end": 6264,
+   "label": "DOCKET",
+   "text": "4A_216/2020"
+  },
+  {
+   "start": 6377,
+   "end": 6396,
+   "label": "STATUTE",
+   "text": "Art. 187 Abs. 4 ZPO"
+  },
+  {
+   "start": 6810,
+   "end": 6822,
+   "label": "STATUTE",
+   "text": "Art. 187 ZPO"
+  },
+  {
+   "start": 6921,
+   "end": 6933,
+   "label": "STATUTE",
+   "text": "Art. 187 ZPO"
+  },
+  {
+   "start": 7032,
+   "end": 7044,
+   "label": "STATUTE",
+   "text": "Art. 187 ZPO"
+  },
+  {
+   "start": 7382,
+   "end": 7393,
+   "label": "STATUTE",
+   "text": "Art. 92 BGG"
+  },
+  {
+   "start": 7418,
+   "end": 7429,
+   "label": "STATUTE",
+   "text": "Art. 92 BGG"
+  },
+  {
+   "start": 7623,
+   "end": 7648,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 7712,
+   "end": 7737,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 7804,
+   "end": 7819,
+   "label": "BGE",
+   "text": "BGE 142 III 798"
+  },
+  {
+   "start": 7828,
+   "end": 7838,
+   "label": "BGE",
+   "text": "141 III 80"
+  },
+  {
+   "start": 8049,
+   "end": 8086,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 8202,
+   "end": 8214,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 8348,
+   "end": 8360,
+   "label": "AMOUNT",
+   "text": "Fr. 2'500.--"
+  }
+ ],
+ "n_pre": 35,
+ "n_deleted": 1,
+ "n_added": 2,
+ "n_relabeled": 0
+}

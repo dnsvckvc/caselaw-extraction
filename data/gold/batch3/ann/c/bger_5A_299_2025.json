@@ -1,0 +1,91 @@
+{
+ "decision_id": "bger_5A_299_2025",
+ "task_index": 158,
+ "pass": "c",
+ "outcome": "moot",
+ "comment": "",
+ "spans": [
+  {
+   "start": 358,
+   "end": 376,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 446,
+   "end": 462,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1076,
+   "end": 1095,
+   "label": "STATUTE",
+   "text": "Art. 308 Abs. 2 ZGB"
+  },
+  {
+   "start": 2876,
+   "end": 2894,
+   "label": "STATUTE",
+   "text": "Art. 32 Abs. 2 BGG"
+  },
+  {
+   "start": 3397,
+   "end": 3415,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 3757,
+   "end": 3768,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 3943,
+   "end": 3956,
+   "label": "STATUTE",
+   "text": "Art. 450f ZGB"
+  },
+  {
+   "start": 4094,
+   "end": 4113,
+   "label": "STATUTE",
+   "text": "Art. 119 Abs. 5 ZPO"
+  },
+  {
+   "start": 4426,
+   "end": 4441,
+   "label": "BGE",
+   "text": "BGE 139 III 225"
+  },
+  {
+   "start": 4450,
+   "end": 4461,
+   "label": "BGE",
+   "text": "140 III 385"
+  },
+  {
+   "start": 4560,
+   "end": 4577,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 3 BV"
+  },
+  {
+   "start": 5836,
+   "end": 5854,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6089,
+   "end": 6099,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 13,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

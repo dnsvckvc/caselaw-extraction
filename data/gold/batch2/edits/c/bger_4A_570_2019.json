@@ -1,0 +1,17 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 56 EPÜ 2000",
+   "label": "STATUTE",
+   "all": true
+  },
+  {
+   "text": "Art. 54 Abs. 2 EPÜ 2000",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Added treaty articles of the EPUE 2000 (defined abbreviation is \"EPÜ 2000\", so the year is kept in the span). Line in E. 2 cites Art. 1 Abs. 2 PatG and Art. 56 EPUE with the full law title and the abbreviation only in brackets; not labelled because the span would have to cross the full title."
+}

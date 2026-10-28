@@ -1,0 +1,10 @@
+{
+  "outcome": "inadmissible",
+  "delete": [46],
+  "relabel": [],
+  "add": [
+    {"text": "Art. 19 Abs. 1 lit. b und c", "label": "BARE_ARTICLE"},
+    {"text": "Ziff. 2.7.3 der allgemeinen Bestimmungen", "label": "CONTRACT_ARTICLE", "occurrence": 2}
+  ],
+  "comment": "#46 was CONTRACT_ARTICLE on 'Art. 19 Abs. 1 lit. b und c der Verordnung' (VMWG, SR 221.213.11, act given as title) -> replaced by BARE_ARTICLE on the number only. Added missing CONTRACT_ARTICLE 'Ziff. 2.7.3 der allgemeinen Bestimmungen' (E. 2.2.1, short form without 'zum Mietvertrag'). 'deren Ziff. 2.7.1' (E. 2.3.2) left without span (no instrument named after the number). #21 BARE_ARTICLE 'Art. 42 Abs. 2' kept: chain 'Art. 42 Abs. 2 und (in Bezug auf ...) Art. 106 Abs. 2 BGG' is interrupted by a bracket, so no single STATUTE span possible; guideline does not settle. Outcome: item 1 rules on the subsidiary constitutional appeal (nicht eingetreten), item 2 dismisses the civil appeal; rule 'take the first' -> inadmissible, although the main appeal was dismissed."
+}

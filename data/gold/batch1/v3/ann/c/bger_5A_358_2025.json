@@ -1,0 +1,265 @@
+{
+ "decision_id": "bger_5A_358_2025",
+ "task_index": 47,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 291,
+   "end": 309,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 388,
+   "end": 404,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 3250,
+   "end": 3266,
+   "label": "STATUTE",
+   "text": "Art. 319 ff. ZPO"
+  },
+  {
+   "start": 4636,
+   "end": 4648,
+   "label": "STATUTE",
+   "text": "Art. 445 ZGB"
+  },
+  {
+   "start": 4836,
+   "end": 4848,
+   "label": "STATUTE",
+   "text": "Art. 265 ZPO"
+  },
+  {
+   "start": 5341,
+   "end": 5356,
+   "label": "BGE",
+   "text": "BGE 137 III 417"
+  },
+  {
+   "start": 5365,
+   "end": 5375,
+   "label": "BGE",
+   "text": "139 III 86"
+  },
+  {
+   "start": 5386,
+   "end": 5397,
+   "label": "BGE",
+   "text": "140 III 289"
+  },
+  {
+   "start": 5496,
+   "end": 5508,
+   "label": "STATUTE",
+   "text": "Art. 265 ZPO"
+  },
+  {
+   "start": 5511,
+   "end": 5526,
+   "label": "BGE",
+   "text": "BGE 137 III 417"
+  },
+  {
+   "start": 5535,
+   "end": 5545,
+   "label": "BGE",
+   "text": "139 III 86"
+  },
+  {
+   "start": 5563,
+   "end": 5573,
+   "label": "DOCKET",
+   "text": "5A_84/2018"
+  },
+  {
+   "start": 5677,
+   "end": 5689,
+   "label": "STATUTE",
+   "text": "Art. 445 ZGB"
+  },
+  {
+   "start": 5800,
+   "end": 5813,
+   "label": "STATUTE",
+   "text": "Art. 450f ZGB"
+  },
+  {
+   "start": 5923,
+   "end": 5942,
+   "label": "STATUTE",
+   "text": "Art. 445 Abs. 1 ZGB"
+  },
+  {
+   "start": 6021,
+   "end": 6040,
+   "label": "STATUTE",
+   "text": "Art. 445 Abs. 2 ZGB"
+  },
+  {
+   "start": 6089,
+   "end": 6104,
+   "label": "BGE",
+   "text": "BGE 140 III 289"
+  },
+  {
+   "start": 6301,
+   "end": 6320,
+   "label": "STATUTE",
+   "text": "Art. 445 Abs. 2 ZGB"
+  },
+  {
+   "start": 6333,
+   "end": 6352,
+   "label": "STATUTE",
+   "text": "Art. 265 Abs. 2 ZPO"
+  },
+  {
+   "start": 6502,
+   "end": 6517,
+   "label": "BGE",
+   "text": "BGE 140 III 289"
+  },
+  {
+   "start": 6674,
+   "end": 6715,
+   "label": "STATUTE",
+   "text": "Art. 450a Abs. 2 und\nArt. 450b Abs. 3 ZGB"
+  },
+  {
+   "start": 6937,
+   "end": 6952,
+   "label": "BGE",
+   "text": "BGE 140 III 289"
+  },
+  {
+   "start": 7389,
+   "end": 7404,
+   "label": "BGE",
+   "text": "BGE 140 III 289"
+  },
+  {
+   "start": 8160,
+   "end": 8186,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 8215,
+   "end": 8226,
+   "label": "DOCKET",
+   "text": "5A_162/2024"
+  },
+  {
+   "start": 8256,
+   "end": 8267,
+   "label": "DOCKET",
+   "text": "5A_473/2024"
+  },
+  {
+   "start": 8559,
+   "end": 8577,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 8580,
+   "end": 8595,
+   "label": "BGE",
+   "text": "BGE 139 III 120"
+  },
+  {
+   "start": 8606,
+   "end": 8615,
+   "label": "BGE",
+   "text": "148 V 174"
+  },
+  {
+   "start": 8650,
+   "end": 8665,
+   "label": "BGE",
+   "text": "BGE 140 III 289"
+  },
+  {
+   "start": 8880,
+   "end": 8895,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 8902,
+   "end": 8913,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 9280,
+   "end": 9295,
+   "label": "BGE",
+   "text": "BGE 140 III 289"
+  },
+  {
+   "start": 9540,
+   "end": 9555,
+   "label": "BGE",
+   "text": "BGE 140 III 289"
+  },
+  {
+   "start": 9711,
+   "end": 9723,
+   "label": "STATUTE",
+   "text": "Art. 265 ZPO"
+  },
+  {
+   "start": 9741,
+   "end": 9760,
+   "label": "STATUTE",
+   "text": "Art. 445 Abs. 2 ZGB"
+  },
+  {
+   "start": 10401,
+   "end": 10419,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 10422,
+   "end": 10437,
+   "label": "BGE",
+   "text": "BGE 139 III 120"
+  },
+  {
+   "start": 10448,
+   "end": 10457,
+   "label": "BGE",
+   "text": "148 V 174"
+  },
+  {
+   "start": 11849,
+   "end": 11875,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 12194,
+   "end": 12212,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 12324,
+   "end": 12336,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  }
+ ],
+ "n_pre": 42,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

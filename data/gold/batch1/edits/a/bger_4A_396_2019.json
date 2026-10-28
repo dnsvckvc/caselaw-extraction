@@ -1,0 +1,51 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  7,
+  50,
+  56
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 42 Abs. 2 und Art. 106 Abs. 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 272 und Art. 272b OR",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 66 Abs. 1 und 5, Art. 68 Abs. 1, 2 und 4 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "135 III 397",
+   "label": "BGE"
+  },
+  {
+   "text": "132 I 42",
+   "label": "BGE"
+  },
+  {
+   "text": "140 III 496",
+   "label": "BGE",
+   "occurrence": 1
+  },
+  {
+   "text": "140 III 496",
+   "label": "BGE",
+   "occurrence": 2
+  },
+  {
+   "text": "138 III 59",
+   "label": "BGE",
+   "all": true
+  },
+  {
+   "text": "135 III 121",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Extended three statute chains (Art. 42/106 BGG, Art. 272/272b OR, Art. 66/68 BGG as one comma chain sharing BGG). Added seven BGE list items without the BGE word."
+}

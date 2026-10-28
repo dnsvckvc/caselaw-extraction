@@ -1,0 +1,133 @@
+{
+ "decision_id": "bger_5A_46_2026",
+ "task_index": 80,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 267,
+   "end": 283,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 2655,
+   "end": 2673,
+   "label": "STATUTE",
+   "text": "Art. 40 Abs. 1 BGG"
+  },
+  {
+   "start": 3881,
+   "end": 3900,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 4214,
+   "end": 4229,
+   "label": "BGE",
+   "text": "BGE 134 III 379"
+  },
+  {
+   "start": 4238,
+   "end": 4248,
+   "label": "BGE",
+   "text": "137 II 313"
+  },
+  {
+   "start": 4258,
+   "end": 4266,
+   "label": "BGE",
+   "text": "147 I 89"
+  },
+  {
+   "start": 4398,
+   "end": 4417,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 3 BGG"
+  },
+  {
+   "start": 4420,
+   "end": 4435,
+   "label": "BGE",
+   "text": "BGE 132 III 186"
+  },
+  {
+   "start": 4444,
+   "end": 4455,
+   "label": "BGE",
+   "text": "133 III 489"
+  },
+  {
+   "start": 4464,
+   "end": 4475,
+   "label": "BGE",
+   "text": "135 III 379"
+  },
+  {
+   "start": 4968,
+   "end": 4987,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5114,
+   "end": 5152,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5363,
+   "end": 5378,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 5387,
+   "end": 5397,
+   "label": "BGE",
+   "text": "149 III 81"
+  },
+  {
+   "start": 5580,
+   "end": 5598,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 5677,
+   "end": 5692,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 5699,
+   "end": 5710,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 6388,
+   "end": 6420,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 6507,
+   "end": 6525,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6637,
+   "end": 6649,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 20,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

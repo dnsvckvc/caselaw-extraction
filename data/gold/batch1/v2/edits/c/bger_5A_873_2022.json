@@ -1,0 +1,15 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  6
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 6",
+   "label": "BARE_ARTICLE",
+   "occurrence": 1
+  }
+ ],
+ "comment": "#6: federal ordinance (VFRR) given as title, not a private instrument -> BARE_ARTICLE Art. 6 (first occurrence, before the two STATUTE spans Art. 6 VFRR)."
+}

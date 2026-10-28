@@ -1,0 +1,14 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  8
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 29. Abs. 2 BV",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "#8: Art. 29. Abs. 2 BV has a stray full stop after the number but names BV, so STATUTE as written (typo rule) instead of BARE_ARTICLE Art. 29; guideline does not settle a stray dot inside a reference"
+}

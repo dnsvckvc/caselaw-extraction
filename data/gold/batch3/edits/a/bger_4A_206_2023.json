@@ -1,0 +1,12 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "100 Millionen Dollar",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "added AMOUNT 100 Millionen Dollar (currency word in another language). Not labelled: 1 500 Bitcoins (crypto, not a currency token under the guideline, unsettled); ca. yyy Millionen USD (anonymised number)"
+}

@@ -1,0 +1,7 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "all pre-annotations correct; HE240218-O is a cantonal file number (no span)"
+}

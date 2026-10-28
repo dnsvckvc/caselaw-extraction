@@ -1,0 +1,12 @@
+{
+  "outcome": "inadmissible",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 17SchKG",
+      "label": "STATUTE"
+    }
+  ],
+  "comment": "Added Art. 17SchKG from the metadata header line (written without a space between number and abbreviation); judgment call, remove if header lines are out of scope."
+}

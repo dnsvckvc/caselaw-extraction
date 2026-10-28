@@ -1,0 +1,7 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "E. 3 has \"Artikel 104 BGG\" (word spelled out, not Art.). The rule says spans start at Art., so I left it unlabelled."
+}

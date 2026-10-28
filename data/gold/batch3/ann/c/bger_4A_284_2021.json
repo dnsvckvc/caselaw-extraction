@@ -1,0 +1,163 @@
+{
+ "decision_id": "bger_4A_284_2021",
+ "task_index": 51,
+ "pass": "c",
+ "outcome": "moot",
+ "comment": "",
+ "spans": [
+  {
+   "start": 675,
+   "end": 691,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 774,
+   "end": 792,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 3684,
+   "end": 3709,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4130,
+   "end": 4141,
+   "label": "STATUTE",
+   "text": "Art. 71 BGG"
+  },
+  {
+   "start": 4149,
+   "end": 4160,
+   "label": "STATUTE",
+   "text": "Art. 72 BZP"
+  },
+  {
+   "start": 4205,
+   "end": 4218,
+   "label": "BGE",
+   "text": "BGE 142 I 135"
+  },
+  {
+   "start": 4251,
+   "end": 4262,
+   "label": "DOCKET",
+   "text": "4A_287/2019"
+  },
+  {
+   "start": 4292,
+   "end": 4302,
+   "label": "DOCKET",
+   "text": "4A_56/2018"
+  },
+  {
+   "start": 4331,
+   "end": 4342,
+   "label": "DOCKET",
+   "text": "4A_426/2017"
+  },
+  {
+   "start": 4772,
+   "end": 4785,
+   "label": "BGE",
+   "text": "BGE 142 I 135"
+  },
+  {
+   "start": 4803,
+   "end": 4814,
+   "label": "DOCKET",
+   "text": "4A_287/2019"
+  },
+  {
+   "start": 4967,
+   "end": 4985,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 5044,
+   "end": 5068,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 5193,
+   "end": 5211,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 5444,
+   "end": 5459,
+   "label": "BGE",
+   "text": "BGE 138 III 537"
+  },
+  {
+   "start": 5468,
+   "end": 5478,
+   "label": "BGE",
+   "text": "135 III 46"
+  },
+  {
+   "start": 5485,
+   "end": 5495,
+   "label": "BGE",
+   "text": "133 II 353"
+  },
+  {
+   "start": 5509,
+   "end": 5520,
+   "label": "DOCKET",
+   "text": "5A_273/2020"
+  },
+  {
+   "start": 5707,
+   "end": 5718,
+   "label": "DOCKET",
+   "text": "5A_273/2020"
+  },
+  {
+   "start": 6833,
+   "end": 6851,
+   "label": "STATUTE",
+   "text": "Art. 32 Abs. 2 BGG"
+  },
+  {
+   "start": 7081,
+   "end": 7118,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 3 und\nArt. 68 Abs. 4 BGG"
+  },
+  {
+   "start": 7513,
+   "end": 7533,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1-3 BGG"
+  },
+  {
+   "start": 7777,
+   "end": 7795,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 7935,
+   "end": 7947,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 8079,
+   "end": 8091,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 25,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

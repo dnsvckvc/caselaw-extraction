@@ -1,0 +1,139 @@
+{
+ "decision_id": "bger_4D_2_2020",
+ "task_index": 3,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "No negative references. \"SIA-Bestimmungen\" and \"Reglement der Stockwerkeigentuemergemeinschaft\" are instrument names without clause numbers, not spans.",
+ "spans": [
+  {
+   "start": 493,
+   "end": 511,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 581,
+   "end": 597,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 948,
+   "end": 961,
+   "label": "AMOUNT",
+   "text": "Fr. 16'528.40"
+  },
+  {
+   "start": 1535,
+   "end": 1560,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 1633,
+   "end": 1645,
+   "label": "STATUTE",
+   "text": "Art. 113 BGG"
+  },
+  {
+   "start": 1747,
+   "end": 1759,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 1876,
+   "end": 1891,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 1905,
+   "end": 1915,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 2078,
+   "end": 2102,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 2105,
+   "end": 2120,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 2337,
+   "end": 2356,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2375,
+   "end": 2387,
+   "label": "STATUTE",
+   "text": "Art. 117 BGG"
+  },
+  {
+   "start": 2492,
+   "end": 2511,
+   "label": "STATUTE",
+   "text": "Art. 118 Abs. 1 BGG"
+  },
+  {
+   "start": 2652,
+   "end": 2684,
+   "label": "STATUTE",
+   "text": "Art. 118 Abs. 2 und\nArt. 116 BGG"
+  },
+  {
+   "start": 2778,
+   "end": 2791,
+   "label": "BGE",
+   "text": "BGE 136 I 332"
+  },
+  {
+   "start": 2800,
+   "end": 2811,
+   "label": "BGE",
+   "text": "133 III 439"
+  },
+  {
+   "start": 3100,
+   "end": 3114,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 3297,
+   "end": 3311,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 4352,
+   "end": 4378,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4570,
+   "end": 4588,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 4730,
+   "end": 4740,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 21,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

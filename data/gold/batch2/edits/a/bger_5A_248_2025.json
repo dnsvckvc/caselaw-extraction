@@ -1,0 +1,12 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 8 Ziff. 1 und Ziff. 2 EMRK",
+      "label": "STATUTE"
+    }
+  ],
+  "comment": "Added missed STATUTE at end of chain in E. 5.2 (after Art. 13 Abs. 1 und Art. 14 BV sowie ...)."
+}

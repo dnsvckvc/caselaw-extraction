@@ -1,0 +1,9 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {"text": "Fr, 6'000.--", "label": "AMOUNT"}
+  ],
+  "comment": "Gerichtskosten written as 'Fr, 6'000.--' (comma typo instead of dot); added as AMOUNT since 'Fr' without dot counts as currency token. Guideline does not settle the comma case."
+}

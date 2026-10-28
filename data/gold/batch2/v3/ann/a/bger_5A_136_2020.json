@@ -1,0 +1,397 @@
+{
+ "decision_id": "bger_5A_136_2020",
+ "task_index": 4,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "v3 pass a, task 4: rule 3: Ziffer 9/4 des Vertrags, Ziffer 9 des Mortgage Loan Agreement, Ziffer 13 der AGB (span ends at AGB) all correct CONTRACT_ARTICLE; no rule-1 cases",
+ "spans": [
+  {
+   "start": 689,
+   "end": 705,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 808,
+   "end": 826,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1549,
+   "end": 1565,
+   "label": "AMOUNT",
+   "text": "Fr. 8'542'000.--"
+  },
+  {
+   "start": 1861,
+   "end": 1882,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 9 des Vertrags"
+  },
+  {
+   "start": 1976,
+   "end": 1993,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 13 der AGB"
+  },
+  {
+   "start": 3409,
+   "end": 3425,
+   "label": "AMOUNT",
+   "text": "Fr. 8'542'000.--"
+  },
+  {
+   "start": 3539,
+   "end": 3553,
+   "label": "AMOUNT",
+   "text": "Fr. 685'762.40"
+  },
+  {
+   "start": 5040,
+   "end": 5076,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 Bst. a, 75 und 90 BGG"
+  },
+  {
+   "start": 5116,
+   "end": 5129,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 5131,
+   "end": 5156,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 Bst. b BGG"
+  },
+  {
+   "start": 5193,
+   "end": 5222,
+   "label": "STATUTE",
+   "text": "Art. 100 i.V.m. 45 Abs. 1 BGG"
+  },
+  {
+   "start": 5377,
+   "end": 5391,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 5472,
+   "end": 5491,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 5655,
+   "end": 5674,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5807,
+   "end": 5825,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 5858,
+   "end": 5873,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 5889,
+   "end": 5900,
+   "label": "BGE",
+   "text": "135 III 127"
+  },
+  {
+   "start": 5988,
+   "end": 5999,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 6006,
+   "end": 6023,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 6029,
+   "end": 6039,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 6058,
+   "end": 6069,
+   "label": "DOCKET",
+   "text": "5A_374/2010"
+  },
+  {
+   "start": 6234,
+   "end": 6252,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 6255,
+   "end": 6267,
+   "label": "BGE",
+   "text": "BGE 135 I 19"
+  },
+  {
+   "start": 7401,
+   "end": 7437,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 9 des Mortgage Loan Agreement"
+  },
+  {
+   "start": 8796,
+   "end": 8811,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 6 der AGB"
+  },
+  {
+   "start": 8884,
+   "end": 8919,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 9 des Mortgage Loan Agreement"
+  },
+  {
+   "start": 8989,
+   "end": 9006,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 13 der AGB"
+  },
+  {
+   "start": 10238,
+   "end": 10274,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 9 des Mortgage Loan Agreement"
+  },
+  {
+   "start": 11330,
+   "end": 11346,
+   "label": "AMOUNT",
+   "text": "Fr. 8'542'000.--"
+  },
+  {
+   "start": 11363,
+   "end": 11384,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 4 des Vertrags"
+  },
+  {
+   "start": 11898,
+   "end": 11934,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 9 des Mortgage Loan Agreement"
+  },
+  {
+   "start": 12839,
+   "end": 12851,
+   "label": "STATUTE",
+   "text": "Art. 326 ZPO"
+  },
+  {
+   "start": 13078,
+   "end": 13114,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 9 des Mortgage Loan Agreement"
+  },
+  {
+   "start": 15348,
+   "end": 15384,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 9 des Mortgage Loan Agreement"
+  },
+  {
+   "start": 15605,
+   "end": 15625,
+   "label": "STATUTE",
+   "text": "Art. 82 Abs. 1 SchKG"
+  },
+  {
+   "start": 15832,
+   "end": 15847,
+   "label": "BGE",
+   "text": "BGE 142 III 720"
+  },
+  {
+   "start": 15866,
+   "end": 15877,
+   "label": "BGE",
+   "text": "133 III 645"
+  },
+  {
+   "start": 16331,
+   "end": 16347,
+   "label": "STATUTE",
+   "text": "Art. 81 f. SchKG"
+  },
+  {
+   "start": 16520,
+   "end": 16535,
+   "label": "BGE",
+   "text": "BGE 132 III 140"
+  },
+  {
+   "start": 16557,
+   "end": 16565,
+   "label": "BGE",
+   "text": "58 I 363"
+  },
+  {
+   "start": 16680,
+   "end": 16699,
+   "label": "STATUTE",
+   "text": "Art. 251 Bst. a ZPO"
+  },
+  {
+   "start": 17023,
+   "end": 17038,
+   "label": "BGE",
+   "text": "BGE 136 III 566"
+  },
+  {
+   "start": 17054,
+   "end": 17065,
+   "label": "BGE",
+   "text": "133 III 399"
+  },
+  {
+   "start": 17273,
+   "end": 17283,
+   "label": "DOCKET",
+   "text": "5A_99/2017"
+  },
+  {
+   "start": 17450,
+   "end": 17463,
+   "label": "BGE",
+   "text": "BGE 84 II 645"
+  },
+  {
+   "start": 17549,
+   "end": 17564,
+   "label": "BGE",
+   "text": "BGE 129 III 535"
+  },
+  {
+   "start": 18280,
+   "end": 18291,
+   "label": "DOCKET",
+   "text": "5D_168/2019"
+  },
+  {
+   "start": 18326,
+   "end": 18337,
+   "label": "DOCKET",
+   "text": "5A_695/2017"
+  },
+  {
+   "start": 19275,
+   "end": 19295,
+   "label": "STATUTE",
+   "text": "Art. 82 Abs. 1 SchKG"
+  },
+  {
+   "start": 20144,
+   "end": 20158,
+   "label": "BGE",
+   "text": "BGE 134 III 71"
+  },
+  {
+   "start": 21541,
+   "end": 21557,
+   "label": "AMOUNT",
+   "text": "Fr. 8'542'000.--"
+  },
+  {
+   "start": 22796,
+   "end": 22812,
+   "label": "AMOUNT",
+   "text": "Fr. 8'542'000.--"
+  },
+  {
+   "start": 24367,
+   "end": 24385,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 24388,
+   "end": 24403,
+   "label": "BGE",
+   "text": "BGE 133 III 393"
+  },
+  {
+   "start": 24520,
+   "end": 24539,
+   "label": "STATUTE",
+   "text": "Art. 326 Abs. 1 ZPO"
+  },
+  {
+   "start": 24978,
+   "end": 25008,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 9 des besagten Vertrags"
+  },
+  {
+   "start": 26493,
+   "end": 26508,
+   "label": "BGE",
+   "text": "BGE 136 III 627"
+  },
+  {
+   "start": 27031,
+   "end": 27051,
+   "label": "STATUTE",
+   "text": "Art. 82 Abs. 1 SchKG"
+  },
+  {
+   "start": 27437,
+   "end": 27453,
+   "label": "AMOUNT",
+   "text": "Fr. 8'542'000.--"
+  },
+  {
+   "start": 27511,
+   "end": 27547,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 9 des Mortgage Loan Agreement"
+  },
+  {
+   "start": 27592,
+   "end": 27609,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 13 der AGB"
+  },
+  {
+   "start": 28475,
+   "end": 28500,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 Satz 1 BGG"
+  },
+  {
+   "start": 28778,
+   "end": 28791,
+   "label": "AMOUNT",
+   "text": "Fr. 35'000.--"
+  },
+  {
+   "start": 28923,
+   "end": 28933,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 64,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

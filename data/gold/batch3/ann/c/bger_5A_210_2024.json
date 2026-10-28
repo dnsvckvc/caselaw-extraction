@@ -1,0 +1,73 @@
+{
+ "decision_id": "bger_5A_210_2024",
+ "task_index": 128,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 250,
+   "end": 266,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 338,
+   "end": 354,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 644,
+   "end": 657,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 2516,
+   "end": 2534,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2613,
+   "end": 2628,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 2635,
+   "end": 2646,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4292,
+   "end": 4318,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4519,
+   "end": 4537,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 4650,
+   "end": 4668,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 4844,
+   "end": 4856,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 10,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

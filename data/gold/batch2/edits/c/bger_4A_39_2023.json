@@ -1,0 +1,7 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "Dispositiv header is \"Das Bundesgericht erkennt:\" without \"Demnach\"; item 1 reads \"abgewiesen, soweit darauf einzutreten ist\". Pre-annotated outcome was unknown."
+}

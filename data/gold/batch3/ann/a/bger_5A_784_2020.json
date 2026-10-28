@@ -1,0 +1,355 @@
+{
+ "decision_id": "bger_5A_784_2020",
+ "task_index": 53,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "#33/#35 ZR 113, ZR 200 were parts of BGH file numbers (XI ZR 113/06): deleted, foreign file numbers get no span. #44/#47 CONTRACT_ARTICLE on EU regulations replaced by BARE_ARTICLE Art. 3 / Art. 1 (act given as title). #45/#46 extended to OTHER_LAW Art. 1 EuroVO II / Art. 14 EuroVO II (EU regulation under court-defined abbreviation; unsettled whether such an ad-hoc abbreviation counts). #22 extended to OTHER_LAW § 794 Abs. 1 Nr. 5 dt. ZPO (unsettled whether the qualifier dt. belongs inside). #52 extended to ZR 114/2015 Nr. 12. Added BGHZ 99 274 as JOURNAL_REF (foreign case collection). Left unlabelled: Entscheidungen des Bundesgerichtshofes in Zivilsachen [BGHZ] 185 133 (bracketed abbreviation inside the reference), Jusletter vom 7. November 2011 (journal cited by date only), DM 1,95583 = 1 Euro (exchange rate), RT140106 (cantonal file number). Kept #30 §§ 1191 ff. BGB with ff. inside because the abbreviation follows, by analogy with Art. 319 ff. ZPO.",
+ "spans": [
+  {
+   "start": 632,
+   "end": 648,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 714,
+   "end": 732,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1007,
+   "end": 1020,
+   "label": "AMOUNT",
+   "text": "Fr. 79'074.76"
+  },
+  {
+   "start": 1359,
+   "end": 1372,
+   "label": "AMOUNT",
+   "text": "Fr. 79'074.76"
+  },
+  {
+   "start": 1395,
+   "end": 1408,
+   "label": "AMOUNT",
+   "text": "Fr. 77'943.86"
+  },
+  {
+   "start": 2269,
+   "end": 2326,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 1 lit. b,\nArt. 75 BGG"
+  },
+  {
+   "start": 2417,
+   "end": 2431,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 2457,
+   "end": 2472,
+   "label": "BGE",
+   "text": "BGE 133 III 399"
+  },
+  {
+   "start": 2552,
+   "end": 2571,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 2683,
+   "end": 2707,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 2710,
+   "end": 2722,
+   "label": "BGE",
+   "text": "BGE 145 V 57"
+  },
+  {
+   "start": 3608,
+   "end": 3622,
+   "label": "AMOUNT",
+   "text": "EUR 135'830.43"
+  },
+  {
+   "start": 3804,
+   "end": 3817,
+   "label": "AMOUNT",
+   "text": "EUR 69'422.39"
+  },
+  {
+   "start": 3931,
+   "end": 3944,
+   "label": "AMOUNT",
+   "text": "Fr. 79'074.76"
+  },
+  {
+   "start": 4218,
+   "end": 4238,
+   "label": "STATUTE",
+   "text": "Art. 81 Abs. 1 SchKG"
+  },
+  {
+   "start": 4743,
+   "end": 4756,
+   "label": "AMOUNT",
+   "text": "EUR 69'442.39"
+  },
+  {
+   "start": 4834,
+   "end": 4847,
+   "label": "AMOUNT",
+   "text": "Fr. 79'074.76"
+  },
+  {
+   "start": 4929,
+   "end": 4942,
+   "label": "STATUTE",
+   "text": "Art. 80 SchKG"
+  },
+  {
+   "start": 5420,
+   "end": 5444,
+   "label": "STATUTE",
+   "text": "Art. 63 Abs. 1 LugÜ 2007"
+  },
+  {
+   "start": 5466,
+   "end": 5486,
+   "label": "STATUTE",
+   "text": "Art. 50 Abs. 1 aLugÜ"
+  },
+  {
+   "start": 5643,
+   "end": 5660,
+   "label": "STATUTE",
+   "text": "Art. 31 ff. aLugÜ"
+  },
+  {
+   "start": 5774,
+   "end": 5800,
+   "label": "OTHER_LAW",
+   "text": "§ 794 Abs. 1 Nr. 5 dt. ZPO"
+  },
+  {
+   "start": 6613,
+   "end": 6637,
+   "label": "STATUTE",
+   "text": "Art. 57 Abs. 4 LugÜ 2007"
+  },
+  {
+   "start": 7687,
+   "end": 7707,
+   "label": "STATUTE",
+   "text": "Art. 50 Abs. 1 aLugÜ"
+  },
+  {
+   "start": 7975,
+   "end": 7999,
+   "label": "STATUTE",
+   "text": "Art. 57 Abs. 4 LugÜ 2007"
+  },
+  {
+   "start": 9846,
+   "end": 9873,
+   "label": "STATUTE",
+   "text": "Art. 50 Abs. 1 Satz 2 aLugÜ"
+  },
+  {
+   "start": 10251,
+   "end": 10266,
+   "label": "BGE",
+   "text": "BGE 143 III 404"
+  },
+  {
+   "start": 10554,
+   "end": 10565,
+   "label": "DOCKET",
+   "text": "5A_935/2015"
+  },
+  {
+   "start": 11572,
+   "end": 11583,
+   "label": "BARE_ARTICLE",
+   "text": "§§ 780, 781"
+  },
+  {
+   "start": 11822,
+   "end": 11837,
+   "label": "OTHER_LAW",
+   "text": "§§ 1191 ff. BGB"
+  },
+  {
+   "start": 11944,
+   "end": 11954,
+   "label": "OTHER_LAW",
+   "text": "§ 1191 BGB"
+  },
+  {
+   "start": 11973,
+   "end": 11984,
+   "label": "DOCKET",
+   "text": "5A_131/2018"
+  },
+  {
+   "start": 12665,
+   "end": 12669,
+   "label": "BARE_ARTICLE",
+   "text": "§ 15"
+  },
+  {
+   "start": 14092,
+   "end": 14103,
+   "label": "JOURNAL_REF",
+   "text": "BGHZ 99 274"
+  },
+  {
+   "start": 15194,
+   "end": 15208,
+   "label": "BGE",
+   "text": "BGE 137 III 87"
+  },
+  {
+   "start": 15498,
+   "end": 15529,
+   "label": "STATUTE",
+   "text": "Art. 80 Abs. 2 Ziff. 1bis SchKG"
+  },
+  {
+   "start": 15532,
+   "end": 15548,
+   "label": "STATUTE",
+   "text": "Art. 347 ff. ZPO"
+  },
+  {
+   "start": 15620,
+   "end": 15623,
+   "label": "BARE_ARTICLE",
+   "text": "§ 9"
+  },
+  {
+   "start": 15690,
+   "end": 15703,
+   "label": "STATUTE",
+   "text": "Art. 81 SchKG"
+  },
+  {
+   "start": 16027,
+   "end": 16040,
+   "label": "AMOUNT",
+   "text": "EUR 54'383.63"
+  },
+  {
+   "start": 16467,
+   "end": 16479,
+   "label": "AMOUNT",
+   "text": "EUR 4'651.46"
+  },
+  {
+   "start": 16731,
+   "end": 16746,
+   "label": "BGE",
+   "text": "BGE 143 III 404"
+  },
+  {
+   "start": 17006,
+   "end": 17019,
+   "label": "AMOUNT",
+   "text": "DM 300'000.--"
+  },
+  {
+   "start": 17177,
+   "end": 17183,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 3"
+  },
+  {
+   "start": 17486,
+   "end": 17502,
+   "label": "OTHER_LAW",
+   "text": "Art. 1 EuroVO II"
+  },
+  {
+   "start": 17701,
+   "end": 17718,
+   "label": "OTHER_LAW",
+   "text": "Art. 14 EuroVO II"
+  },
+  {
+   "start": 17784,
+   "end": 17790,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 1"
+  },
+  {
+   "start": 18067,
+   "end": 18080,
+   "label": "AMOUNT",
+   "text": "DM 300'000.--"
+  },
+  {
+   "start": 18098,
+   "end": 18112,
+   "label": "AMOUNT",
+   "text": "EUR 153'387.56"
+  },
+  {
+   "start": 18163,
+   "end": 18176,
+   "label": "AMOUNT",
+   "text": "Fr. 79'074.76"
+  },
+  {
+   "start": 18183,
+   "end": 18196,
+   "label": "AMOUNT",
+   "text": "EUR 69'312.08"
+  },
+  {
+   "start": 20184,
+   "end": 20195,
+   "label": "DOCKET",
+   "text": "5A_131/2018"
+  },
+  {
+   "start": 21462,
+   "end": 21480,
+   "label": "JOURNAL_REF",
+   "text": "ZR 114/2015 Nr. 12"
+  },
+  {
+   "start": 22525,
+   "end": 22550,
+   "label": "STATUTE",
+   "text": "Art. 67 und 68 Abs. 5 BGG"
+  },
+  {
+   "start": 22689,
+   "end": 22707,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 22783,
+   "end": 22801,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 22932,
+   "end": 22944,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  }
+ ],
+ "n_pre": 56,
+ "n_deleted": 8,
+ "n_added": 9,
+ "n_relabeled": 0
+}

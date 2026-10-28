@@ -1,0 +1,16 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "134 II 244",
+   "label": "BGE"
+  },
+  {
+   "text": "135 III 397",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Item 1 is Ausstandsbegehren (skipped); item 2 nicht eingetreten."
+}

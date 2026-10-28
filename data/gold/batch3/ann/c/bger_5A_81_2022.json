@@ -1,0 +1,445 @@
+{
+ "decision_id": "bger_5A_81_2022",
+ "task_index": 93,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "Art. 8 NAG relabelled to STATUTE: NAG (1891) is repealed Swiss federal law, not cantonal/foreign. 'N. 18 zu 196-199 IPRG' has no Art., left without span. Item 1 only converts the appeal type; item 2 (abgewiesen) used.",
+ "spans": [
+  {
+   "start": 701,
+   "end": 722,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerinnen"
+  },
+  {
+   "start": 786,
+   "end": 804,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 4583,
+   "end": 4602,
+   "label": "STATUTE",
+   "text": "Art. 32 Abs. 1 IPRG"
+  },
+  {
+   "start": 4802,
+   "end": 4835,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 2 BGG"
+  },
+  {
+   "start": 5172,
+   "end": 5183,
+   "label": "DOCKET",
+   "text": "5A_631/2021"
+  },
+  {
+   "start": 5703,
+   "end": 5728,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5850,
+   "end": 5874,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a und b BGG"
+  },
+  {
+   "start": 6215,
+   "end": 6226,
+   "label": "STATUTE",
+   "text": "Art. 96 BGG"
+  },
+  {
+   "start": 6364,
+   "end": 6375,
+   "label": "DOCKET",
+   "text": "5A_631/2021"
+  },
+  {
+   "start": 6400,
+   "end": 6411,
+   "label": "DOCKET",
+   "text": "5A_519/2008"
+  },
+  {
+   "start": 6552,
+   "end": 6570,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 6573,
+   "end": 6586,
+   "label": "BGE",
+   "text": "BGE 143 I 377"
+  },
+  {
+   "start": 6700,
+   "end": 6719,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 6722,
+   "end": 6737,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 6853,
+   "end": 6872,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 6992,
+   "end": 7010,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 7060,
+   "end": 7073,
+   "label": "BGE",
+   "text": "BGE 148 V 174"
+  },
+  {
+   "start": 7334,
+   "end": 7359,
+   "label": "STATUTE",
+   "text": "Art. 199 und\nArt. 32 IPRG"
+  },
+  {
+   "start": 8077,
+   "end": 8096,
+   "label": "STATUTE",
+   "text": "Art. 73 Abs. 1 IPRG"
+  },
+  {
+   "start": 8376,
+   "end": 8395,
+   "label": "STATUTE",
+   "text": "Art. 27 Abs. 1 IPRG"
+  },
+  {
+   "start": 8589,
+   "end": 8614,
+   "label": "STATUTE",
+   "text": "Art. 13a Abs. 1 SchlT ZGB"
+  },
+  {
+   "start": 9746,
+   "end": 9756,
+   "label": "STATUTE",
+   "text": "Art. 8 NAG"
+  },
+  {
+   "start": 9900,
+   "end": 9918,
+   "label": "STATUTE",
+   "text": "Art. 13a SchlT ZGB"
+  },
+  {
+   "start": 10820,
+   "end": 10833,
+   "label": "STATUTE",
+   "text": "Art. 196 IPRG"
+  },
+  {
+   "start": 10915,
+   "end": 10932,
+   "label": "STATUTE",
+   "text": "Art. 197-199 IPRG"
+  },
+  {
+   "start": 11008,
+   "end": 11025,
+   "label": "STATUTE",
+   "text": "Art. 196-199 IPRG"
+  },
+  {
+   "start": 11036,
+   "end": 11049,
+   "label": "STATUTE",
+   "text": "Art. 199 IPRG"
+  },
+  {
+   "start": 11483,
+   "end": 11500,
+   "label": "STATUTE",
+   "text": "Art. 196-199 IPRG"
+  },
+  {
+   "start": 11593,
+   "end": 11606,
+   "label": "STATUTE",
+   "text": "Art. 199 IPRG"
+  },
+  {
+   "start": 11672,
+   "end": 11685,
+   "label": "STATUTE",
+   "text": "Art. 199 IPRG"
+  },
+  {
+   "start": 11864,
+   "end": 11881,
+   "label": "STATUTE",
+   "text": "Art. 196-199 IPRG"
+  },
+  {
+   "start": 11900,
+   "end": 11912,
+   "label": "STATUTE",
+   "text": "Art. 73 IPRG"
+  },
+  {
+   "start": 11947,
+   "end": 11960,
+   "label": "STATUTE",
+   "text": "Art. 199 IPRG"
+  },
+  {
+   "start": 12151,
+   "end": 12162,
+   "label": "DOCKET",
+   "text": "5A_680/2018"
+  },
+  {
+   "start": 12234,
+   "end": 12245,
+   "label": "DOCKET",
+   "text": "5A_285/2009"
+  },
+  {
+   "start": 12304,
+   "end": 12319,
+   "label": "BGE",
+   "text": "BGE 145 III 109"
+  },
+  {
+   "start": 12702,
+   "end": 12714,
+   "label": "STATUTE",
+   "text": "Art. 32 IPRG"
+  },
+  {
+   "start": 12717,
+   "end": 12743,
+   "label": "STATUTE",
+   "text": "Art. 45 Abs. 2 Ziff. 4 ZGB"
+  },
+  {
+   "start": 12890,
+   "end": 12908,
+   "label": "STATUTE",
+   "text": "Artikel 25-27 IPRG"
+  },
+  {
+   "start": 12967,
+   "end": 12979,
+   "label": "STATUTE",
+   "text": "Art. 73 IPRG"
+  },
+  {
+   "start": 13507,
+   "end": 13519,
+   "label": "STATUTE",
+   "text": "Art. 73 IPRG"
+  },
+  {
+   "start": 13534,
+   "end": 13553,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 IPRG"
+  },
+  {
+   "start": 13755,
+   "end": 13774,
+   "label": "STATUTE",
+   "text": "Art. 73 Abs. 1 IPRG"
+  },
+  {
+   "start": 13841,
+   "end": 13856,
+   "label": "BGE",
+   "text": "BGE 148 III 384"
+  },
+  {
+   "start": 13950,
+   "end": 13962,
+   "label": "STATUTE",
+   "text": "Art. 73 IPRG"
+  },
+  {
+   "start": 14074,
+   "end": 14089,
+   "label": "BGE",
+   "text": "BGE 148 III 384"
+  },
+  {
+   "start": 15344,
+   "end": 15373,
+   "label": "OTHER_LAW",
+   "text": "Art. 12 § 3 Abs. 1\ndt.\nNEhelG"
+  },
+  {
+   "start": 16203,
+   "end": 16222,
+   "label": "JOURNAL_REF",
+   "text": "VPB 44/1980 Nr. 109"
+  },
+  {
+   "start": 17052,
+   "end": 17065,
+   "label": "OTHER_LAW",
+   "text": "Art. 19 EGBGB"
+  },
+  {
+   "start": 17164,
+   "end": 17175,
+   "label": "OTHER_LAW",
+   "text": "§ 1600d BGB"
+  },
+  {
+   "start": 17477,
+   "end": 17496,
+   "label": "STATUTE",
+   "text": "Art. 73 Abs. 1 IPRG"
+  },
+  {
+   "start": 17512,
+   "end": 17524,
+   "label": "STATUTE",
+   "text": "Art. 32 IPRG"
+  },
+  {
+   "start": 17905,
+   "end": 17946,
+   "label": "STATUTE",
+   "text": "Art. 27 Abs. 1 i.V.m.\nArt. 32 Abs. 2 IPRG"
+  },
+  {
+   "start": 17949,
+   "end": 17964,
+   "label": "BGE",
+   "text": "BGE 141 III 328"
+  },
+  {
+   "start": 17988,
+   "end": 17999,
+   "label": "DOCKET",
+   "text": "5A_760/2021"
+  },
+  {
+   "start": 18098,
+   "end": 18110,
+   "label": "STATUTE",
+   "text": "Art. 73 IPRG"
+  },
+  {
+   "start": 19518,
+   "end": 19532,
+   "label": "BGE",
+   "text": "BGE 108 II 527"
+  },
+  {
+   "start": 19764,
+   "end": 19782,
+   "label": "STATUTE",
+   "text": "Art. 13a SchlT ZGB"
+  },
+  {
+   "start": 20004,
+   "end": 20018,
+   "label": "BGE",
+   "text": "BGE 108 II 527"
+  },
+  {
+   "start": 20301,
+   "end": 20314,
+   "label": "BGE",
+   "text": "BGE 124 III 1"
+  },
+  {
+   "start": 20386,
+   "end": 20404,
+   "label": "STATUTE",
+   "text": "Art. 13a SchlT ZGB"
+  },
+  {
+   "start": 21046,
+   "end": 21058,
+   "label": "STATUTE",
+   "text": "Art. 73 IPRG"
+  },
+  {
+   "start": 21493,
+   "end": 21527,
+   "label": "STATUTE",
+   "text": "Art. 32 i.V.m.\nArt. 27 Abs. 1 IPRG"
+  },
+  {
+   "start": 22210,
+   "end": 22225,
+   "label": "BGE",
+   "text": "BGE 126 III 101"
+  },
+  {
+   "start": 22708,
+   "end": 22726,
+   "label": "STATUTE",
+   "text": "Art. 13a SchlT ZGB"
+  },
+  {
+   "start": 22826,
+   "end": 22839,
+   "label": "BGE",
+   "text": "BGE 124 III 1"
+  },
+  {
+   "start": 24340,
+   "end": 24359,
+   "label": "STATUTE",
+   "text": "Art. 73 Abs. 1 IPRG"
+  },
+  {
+   "start": 24662,
+   "end": 24681,
+   "label": "STATUTE",
+   "text": "Art. 27 Abs. 1 IPRG"
+  },
+  {
+   "start": 25002,
+   "end": 25014,
+   "label": "STATUTE",
+   "text": "Art. 39 ZStV"
+  },
+  {
+   "start": 25471,
+   "end": 25522,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und Art. 5,\nArt. 68 Abs. 1 und 4 BGG"
+  },
+  {
+   "start": 25805,
+   "end": 25817,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 25934,
+   "end": 25946,
+   "label": "AMOUNT",
+   "text": "Fr. 2'500.--"
+  }
+ ],
+ "n_pre": 72,
+ "n_deleted": 2,
+ "n_added": 2,
+ "n_relabeled": 1
+}

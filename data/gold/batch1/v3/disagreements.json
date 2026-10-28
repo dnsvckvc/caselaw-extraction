@@ -1,0 +1,602 @@
+{
+ "bger_4A_396_2019": {
+  "decision_id": "bger_4A_396_2019",
+  "task_index": 1,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v0.3 pass a: short BGE proposals checked, no Artikel/Ziffer/Absatz cases.",
+  "comment_b": "",
+  "n_agree": 66,
+  "disputed": []
+ },
+ "bger_5A_121_2020": {
+  "decision_id": "bger_5A_121_2020",
+  "task_index": 2,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 18,
+  "disputed": []
+ },
+ "bger_4A_41_2020": {
+  "decision_id": "bger_4A_41_2020",
+  "task_index": 3,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "v0.3 pass a: rule-1 proposal #42 correct. Rule 3: #18, #75, #76, #79, #80 kept. Open: 'Ziffer 6 ff. und insbesondere Ziffer 8.3 der anwendbaren Tarife' (chain with insbesondere, left as proposed); 'gemaess Ziffer 8.3' alone inside quoted tariff text (2x) left without span, following the batch convention for lone Ziff.",
+  "comment_b": "",
+  "n_agree": 88,
+  "disputed": []
+ },
+ "bger_4A_179_2020": {
+  "decision_id": "bger_4A_179_2020",
+  "task_index": 4,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "v0.3 pass a: short BGE proposals checked, no Artikel/Ziffer/Absatz cases.",
+  "comment_b": "",
+  "n_agree": 84,
+  "disputed": []
+ },
+ "bger_4A_220_2020": {
+  "decision_id": "bger_4A_220_2020",
+  "task_index": 5,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "v0.3 pass a: short BGE proposals checked, no Artikel/Ziffer/Absatz cases.",
+  "comment_b": "",
+  "n_agree": 36,
+  "disputed": []
+ },
+ "bger_5A_229_2020": {
+  "decision_id": "bger_5A_229_2020",
+  "task_index": 6,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 45,
+  "disputed": []
+ },
+ "bger_5A_586_2020": {
+  "decision_id": "bger_5A_586_2020",
+  "task_index": 7,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 20,
+  "disputed": []
+ },
+ "bger_4A_296_2020": {
+  "decision_id": "bger_4A_296_2020",
+  "task_index": 8,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "v0.3 pass a: short BGE proposals checked, no Artikel/Ziffer/Absatz cases.",
+  "comment_b": "",
+  "n_agree": 41,
+  "disputed": []
+ },
+ "bger_5A_859_2019": {
+  "decision_id": "bger_5A_859_2019",
+  "task_index": 9,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 59,
+  "disputed": []
+ },
+ "bger_5A_992_2020": {
+  "decision_id": "bger_5A_992_2020",
+  "task_index": 10,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 13,
+  "disputed": []
+ },
+ "bger_5A_99_2021": {
+  "decision_id": "bger_5A_99_2021",
+  "task_index": 11,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 17,
+  "disputed": []
+ },
+ "bger_4D_17_2021": {
+  "decision_id": "bger_4D_17_2021",
+  "task_index": 12,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 36,
+  "disputed": []
+ },
+ "bger_4A_128_2021": {
+  "decision_id": "bger_4A_128_2021",
+  "task_index": 13,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "v0.3 pass a: short BGE proposals checked, no Artikel/Ziffer/Absatz cases.",
+  "comment_b": "",
+  "n_agree": 74,
+  "disputed": []
+ },
+ "bger_4A_142_2021": {
+  "decision_id": "bger_4A_142_2021",
+  "task_index": 14,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v0.3 pass a: short BGE proposals checked, no Artikel/Ziffer/Absatz cases.",
+  "comment_b": "",
+  "n_agree": 84,
+  "disputed": []
+ },
+ "bger_5A_816_2019": {
+  "decision_id": "bger_5A_816_2019",
+  "task_index": 15,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 82,
+  "disputed": []
+ },
+ "bger_5A_325_2021": {
+  "decision_id": "bger_5A_325_2021",
+  "task_index": 16,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 49,
+  "disputed": []
+ },
+ "bger_5A_544_2021": {
+  "decision_id": "bger_5A_544_2021",
+  "task_index": 17,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v0.3 pass a: #43 ended mid-word ('der Vergleichs|vereinbarung'); replaced by full span. Lone 'Ziffer 1 Absatz 2/3/1', 'Ziffer 2 Absatz 1' (Vergleich named earlier) left without span, as the v0.2 gold does for lone 'Ziff. 1', 'Ziff. 3', 'Ziff. 4', 'Ziff. 7' in this decision.",
+  "comment_b": "",
+  "n_agree": 59,
+  "disputed": []
+ },
+ "bger_4A_349_2021": {
+  "decision_id": "bger_4A_349_2021",
+  "task_index": 18,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "v0.3 pass a: short BGE proposals checked, no Artikel/Ziffer/Absatz cases.",
+  "comment_b": "",
+  "n_agree": 37,
+  "disputed": []
+ },
+ "bger_5A_801_2021": {
+  "decision_id": "bger_5A_801_2021",
+  "task_index": 19,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 23,
+  "disputed": []
+ },
+ "bger_4G_1_2021": {
+  "decision_id": "bger_4G_1_2021",
+  "task_index": 20,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 35,
+  "disputed": []
+ },
+ "bger_4D_67_2021": {
+  "decision_id": "bger_4D_67_2021",
+  "task_index": 21,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "v0.3 pass a: short BGE proposals checked, no Artikel/Ziffer/Absatz cases.",
+  "comment_b": "",
+  "n_agree": 26,
+  "disputed": []
+ },
+ "bger_5D_117_2021": {
+  "decision_id": "bger_5D_117_2021",
+  "task_index": 22,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 59,
+  "disputed": []
+ },
+ "bger_5A_216_2022": {
+  "decision_id": "bger_5A_216_2022",
+  "task_index": 23,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v0.3 pass a: short BGE proposals checked, no Artikel/Ziffer/Absatz cases.",
+  "comment_b": "",
+  "n_agree": 55,
+  "disputed": []
+ },
+ "bger_5A_20_2022": {
+  "decision_id": "bger_5A_20_2022",
+  "task_index": 24,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 29,
+  "disputed": []
+ },
+ "bger_4A_194_2022": {
+  "decision_id": "bger_4A_194_2022",
+  "task_index": 25,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v0.3 pass a: short BGE proposals checked, no Artikel/Ziffer/Absatz cases.",
+  "comment_b": "",
+  "n_agree": 60,
+  "disputed": []
+ },
+ "bger_5A_869_2022": {
+  "decision_id": "bger_5A_869_2022",
+  "task_index": 26,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 15,
+  "disputed": []
+ },
+ "bger_4A_371_2022": {
+  "decision_id": "bger_4A_371_2022",
+  "task_index": 27,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v0.3 pass a: short BGE proposals checked, no Artikel/Ziffer/Absatz cases.",
+  "comment_b": "",
+  "n_agree": 57,
+  "disputed": []
+ },
+ "bger_4A_576_2022": {
+  "decision_id": "bger_4A_576_2022",
+  "task_index": 28,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "v0.3 pass a: short BGE proposals checked, no Artikel/Ziffer/Absatz cases.",
+  "comment_b": "",
+  "n_agree": 28,
+  "disputed": []
+ },
+ "bger_4A_463_2022": {
+  "decision_id": "bger_4A_463_2022",
+  "task_index": 29,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v0.3 pass a: short BGE proposals checked, no Artikel/Ziffer/Absatz cases.",
+  "comment_b": "",
+  "n_agree": 94,
+  "disputed": []
+ },
+ "bger_5A_873_2022": {
+  "decision_id": "bger_5A_873_2022",
+  "task_index": 30,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 15,
+  "disputed": []
+ },
+ "bger_4A_544_2022": {
+  "decision_id": "bger_4A_544_2022",
+  "task_index": 31,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v3 pass a task 31: rule1: #15 115, #23 264, #45 321 all correct; no Artikel/Ziffer/Absatz",
+  "comment_b": "",
+  "n_agree": 66,
+  "disputed": []
+ },
+ "bger_5A_218_2023": {
+  "decision_id": "bger_5A_218_2023",
+  "task_index": 32,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 28,
+  "disputed": []
+ },
+ "bger_4A_153_2023": {
+  "decision_id": "bger_4A_153_2023",
+  "task_index": 33,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v3 pass a task 33: rule1: #19 115 correct; no Artikel/Ziffer/Absatz",
+  "comment_b": "",
+  "n_agree": 70,
+  "disputed": []
+ },
+ "bger_5D_4_2023": {
+  "decision_id": "bger_5D_4_2023",
+  "task_index": 34,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 38,
+  "disputed": []
+ },
+ "bger_5A_954_2022": {
+  "decision_id": "bger_5A_954_2022",
+  "task_index": 35,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 45,
+  "disputed": []
+ },
+ "bger_4A_453_2023": {
+  "decision_id": "bger_4A_453_2023",
+  "task_index": 36,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v3 pass a task 36: rule1: #16 115 correct; no Artikel/Ziffer/Absatz",
+  "comment_b": "",
+  "n_agree": 75,
+  "disputed": []
+ },
+ "bger_4A_37_2024": {
+  "decision_id": "bger_4A_37_2024",
+  "task_index": 37,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "v3 pass a task 37: rule1: #9 and #13 115 correct; no Artikel/Ziffer/Absatz",
+  "comment_b": "",
+  "n_agree": 30,
+  "disputed": []
+ },
+ "bger_5A_122_2023": {
+  "decision_id": "bger_5A_122_2023",
+  "task_index": 38,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v3 pass a task 38: rule1: #10 115 correct; 'Ziffer 21 der Weisung der Dienststelle Oberaufsicht ... Nr. 3' is an administrative directive, no span",
+  "comment_b": "",
+  "n_agree": 26,
+  "disputed": []
+ },
+ "bger_5D_216_2023": {
+  "decision_id": "bger_5D_216_2023",
+  "task_index": 39,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v3 pass a task 39: no short BGE citations; Dispositiv-Ziffer 2 / 3.1 and 'Ziffern 2 ... und 3.1' of the Obergericht ruling are court-document points, no span",
+  "comment_b": "",
+  "n_agree": 76,
+  "disputed": []
+ },
+ "bger_5A_296_2024": {
+  "decision_id": "bger_5A_296_2024",
+  "task_index": 40,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 18,
+  "disputed": []
+ },
+ "bger_4A_325_2024": {
+  "decision_id": "bger_4A_325_2024",
+  "task_index": 41,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "v3 pass a task 41: rule1: #11 86 correct; no Artikel/Ziffer/Absatz",
+  "comment_b": "",
+  "n_agree": 28,
+  "disputed": []
+ },
+ "bger_4A_105_2024": {
+  "decision_id": "bger_4A_105_2024",
+  "task_index": 42,
+  "outcome_a": "approved",
+  "outcome_b": "approved",
+  "comment_a": "v3 pass a task 42: no short BGE citations; 'gemaess Absatz 1' inside quoted contract clause text, bare Absatz without Ziffer/Artikel and without instrument, no span",
+  "comment_b": "",
+  "n_agree": 71,
+  "disputed": []
+ },
+ "bger_5A_257_2024": {
+  "decision_id": "bger_5A_257_2024",
+  "task_index": 43,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 80,
+  "disputed": []
+ },
+ "bger_4A_464_2024": {
+  "decision_id": "bger_4A_464_2024",
+  "task_index": 44,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "v3 pass a task 44: rule1: #7 86 correct; no Artikel/Ziffer/Absatz",
+  "comment_b": "",
+  "n_agree": 16,
+  "disputed": []
+ },
+ "bger_4A_455_2024": {
+  "decision_id": "bger_4A_455_2024",
+  "task_index": 45,
+  "outcome_a": "partial_approval",
+  "outcome_b": "partial_approval",
+  "comment_a": "v3 pass a task 45: rule1: #37 115 after ';' correct; Dispositiv-Ziffern 1 und 2 and 'Ziffern 1 und 2 des erstinstanzlichen Urteilsdispositivs' are court-document points, no span",
+  "comment_b": "",
+  "n_agree": 74,
+  "disputed": []
+ },
+ "bger_4D_180_2024": {
+  "decision_id": "bger_4D_180_2024",
+  "task_index": 46,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "v3 pass a task 46: rule1: #15 645 correct; no Artikel/Ziffer/Absatz",
+  "comment_b": "",
+  "n_agree": 33,
+  "disputed": []
+ },
+ "bger_5A_358_2025": {
+  "decision_id": "bger_5A_358_2025",
+  "task_index": 47,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 42,
+  "disputed": []
+ },
+ "bger_4A_52_2025": {
+  "decision_id": "bger_4A_52_2025",
+  "task_index": 48,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v3 pass a task 48: rule1: #28 167, #33 115 correct; 'Rechtsbegehren Ziffern 1b und 1c der Klage' is a party brief, no span",
+  "comment_b": "",
+  "n_agree": 118,
+  "disputed": []
+ },
+ "bger_4F_7_2025": {
+  "decision_id": "bger_4F_7_2025",
+  "task_index": 49,
+  "outcome_a": "partial_approval",
+  "outcome_b": "partial_approval",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 103,
+  "disputed": []
+ },
+ "bger_5A_709_2025": {
+  "decision_id": "bger_5A_709_2025",
+  "task_index": 50,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 14,
+  "disputed": []
+ },
+ "bger_5A_886_2025": {
+  "decision_id": "bger_5A_886_2025",
+  "task_index": 51,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 23,
+  "disputed": []
+ },
+ "bger_5A_690_2025": {
+  "decision_id": "bger_5A_690_2025",
+  "task_index": 52,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 23,
+  "disputed": []
+ },
+ "bger_4A_669_2025": {
+  "decision_id": "bger_4A_669_2025",
+  "task_index": 53,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 31,
+  "disputed": []
+ },
+ "bger_4A_64_2026": {
+  "decision_id": "bger_4A_64_2026",
+  "task_index": 54,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v3 pass a task 54: rule1: #11 555 correct; no Artikel/Ziffer/Absatz",
+  "comment_b": "",
+  "n_agree": 45,
+  "disputed": []
+ },
+ "bger_5A_28_2026": {
+  "decision_id": "bger_5A_28_2026",
+  "task_index": 55,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 12,
+  "disputed": []
+ },
+ "bger_5A_433_2026": {
+  "decision_id": "bger_5A_433_2026",
+  "task_index": 56,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 22,
+  "disputed": []
+ },
+ "bger_4F_8_2026": {
+  "decision_id": "bger_4F_8_2026",
+  "task_index": 57,
+  "outcome_a": "inadmissible",
+  "outcome_b": "inadmissible",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 40,
+  "disputed": []
+ },
+ "bger_5F_25_2026": {
+  "decision_id": "bger_5F_25_2026",
+  "task_index": 58,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "comment_b": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+  "n_agree": 23,
+  "disputed": []
+ },
+ "bger_4A_231_2026": {
+  "decision_id": "bger_4A_231_2026",
+  "task_index": 59,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v3 pass a task 59: rule1: #35 167, #40 115 correct; no Artikel/Ziffer/Absatz",
+  "comment_b": "",
+  "n_agree": 68,
+  "disputed": []
+ },
+ "bger_5D_29_2026": {
+  "decision_id": "bger_5D_29_2026",
+  "task_index": 60,
+  "outcome_a": "dismissed",
+  "outcome_b": "dismissed",
+  "comment_a": "v3 pass a task 60: no short BGE citations; no Artikel/Ziffer/Absatz",
+  "comment_b": "",
+  "n_agree": 25,
+  "disputed": []
+ }
+}

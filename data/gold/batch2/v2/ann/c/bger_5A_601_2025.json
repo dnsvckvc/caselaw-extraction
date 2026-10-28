@@ -1,0 +1,247 @@
+{
+ "decision_id": "bger_5A_601_2025",
+ "task_index": 75,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 341,
+   "end": 359,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 449,
+   "end": 465,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 3644,
+   "end": 3663,
+   "label": "STATUTE",
+   "text": "Art. 307 Abs. 3 ZGB"
+  },
+  {
+   "start": 4918,
+   "end": 4937,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 5167,
+   "end": 5178,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 5181,
+   "end": 5196,
+   "label": "BGE",
+   "text": "BGE 134 III 426"
+  },
+  {
+   "start": 5240,
+   "end": 5258,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 5332,
+   "end": 5350,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 5569,
+   "end": 5583,
+   "label": "BGE",
+   "text": "BGE 138 III 41"
+  },
+  {
+   "start": 5592,
+   "end": 5603,
+   "label": "BGE",
+   "text": "137 III 424"
+  },
+  {
+   "start": 5757,
+   "end": 5775,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 5843,
+   "end": 5854,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 6061,
+   "end": 6076,
+   "label": "BGE",
+   "text": "BGE 133 III 585"
+  },
+  {
+   "start": 6178,
+   "end": 6197,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 6647,
+   "end": 6659,
+   "label": "BGE",
+   "text": "BGE 141 I 36"
+  },
+  {
+   "start": 6668,
+   "end": 6679,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 6953,
+   "end": 6973,
+   "label": "STATUTE",
+   "text": "Art. 301a Abs. 1 ZGB"
+  },
+  {
+   "start": 7188,
+   "end": 7207,
+   "label": "STATUTE",
+   "text": "Art. 310 Abs. 1 ZGB"
+  },
+  {
+   "start": 7518,
+   "end": 7529,
+   "label": "DOCKET",
+   "text": "5A_269/2024"
+  },
+  {
+   "start": 7563,
+   "end": 7574,
+   "label": "DOCKET",
+   "text": "5A_388/2022"
+  },
+  {
+   "start": 7605,
+   "end": 7627,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2023 S. 1067"
+  },
+  {
+   "start": 7629,
+   "end": 7640,
+   "label": "DOCKET",
+   "text": "5A_724/2015"
+  },
+  {
+   "start": 7682,
+   "end": 7695,
+   "label": "BGE",
+   "text": "BGE 142 I 188"
+  },
+  {
+   "start": 7993,
+   "end": 8008,
+   "label": "BGE",
+   "text": "BGE 146 III 313"
+  },
+  {
+   "start": 8372,
+   "end": 8397,
+   "label": "STATUTE",
+   "text": "Art. 307 und\nArt. 308 ZGB"
+  },
+  {
+   "start": 8482,
+   "end": 8494,
+   "label": "DOCKET",
+   "text": "5A_1066/2020"
+  },
+  {
+   "start": 12538,
+   "end": 12555,
+   "label": "STATUTE",
+   "text": "Art. 13 Abs. 1 BV"
+  },
+  {
+   "start": 12586,
+   "end": 12596,
+   "label": "STATUTE",
+   "text": "Art. 14 BV"
+  },
+  {
+   "start": 12603,
+   "end": 12621,
+   "label": "STATUTE",
+   "text": "Art. 8 Abs. 1 EMRK"
+  },
+  {
+   "start": 14145,
+   "end": 14157,
+   "label": "STATUTE",
+   "text": "Art. 310 ZGB"
+  },
+  {
+   "start": 14374,
+   "end": 14383,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 14538,
+   "end": 14567,
+   "label": "STATUTE",
+   "text": "Art. 13 Abs. 1 und\nArt. 14 BV"
+  },
+  {
+   "start": 14574,
+   "end": 14585,
+   "label": "STATUTE",
+   "text": "Art. 8 EMRK"
+  },
+  {
+   "start": 14655,
+   "end": 14674,
+   "label": "STATUTE",
+   "text": "Art. 310 Abs. 1 ZGB"
+  },
+  {
+   "start": 14708,
+   "end": 14719,
+   "label": "DOCKET",
+   "text": "5A_779/2024"
+  },
+  {
+   "start": 16376,
+   "end": 16387,
+   "label": "DOCKET",
+   "text": "5A_718/2024"
+  },
+  {
+   "start": 17622,
+   "end": 17640,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 17737,
+   "end": 17761,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 18098,
+   "end": 18110,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 39,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

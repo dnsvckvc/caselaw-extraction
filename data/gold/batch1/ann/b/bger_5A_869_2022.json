@@ -1,0 +1,103 @@
+{
+ "decision_id": "bger_5A_869_2022",
+ "task_index": 26,
+ "pass": "b",
+ "outcome": "inadmissible",
+ "comment": "BGE list item 140 III 115 added.",
+ "spans": [
+  {
+   "start": 613,
+   "end": 629,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 716,
+   "end": 732,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1253,
+   "end": 1267,
+   "label": "AMOUNT",
+   "text": "Fr. 460'000.--"
+  },
+  {
+   "start": 2211,
+   "end": 2229,
+   "label": "STATUTE",
+   "text": "Art. 40 Abs. 1 BGG"
+  },
+  {
+   "start": 2326,
+   "end": 2344,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 5 BGG"
+  },
+  {
+   "start": 2374,
+   "end": 2392,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2731,
+   "end": 2745,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 2752,
+   "end": 2763,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 3649,
+   "end": 3667,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 4070,
+   "end": 4089,
+   "label": "STATUTE",
+   "text": "Art. 117 lit. b ZPO"
+  },
+  {
+   "start": 4147,
+   "end": 4166,
+   "label": "STATUTE",
+   "text": "Art. 117 lit. a ZPO"
+  },
+  {
+   "start": 4993,
+   "end": 5019,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5110,
+   "end": 5128,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5359,
+   "end": 5377,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 5497,
+   "end": 5509,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 14,
+ "n_deleted": 0,
+ "n_added": 1,
+ "n_relabeled": 0
+}

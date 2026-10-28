@@ -1,0 +1,121 @@
+{
+ "decision_id": "bger_5A_296_2024",
+ "task_index": 40,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 342,
+   "end": 358,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 423,
+   "end": 441,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 979,
+   "end": 991,
+   "label": "AMOUNT",
+   "text": "Fr. 4'200.--"
+  },
+  {
+   "start": 2244,
+   "end": 2256,
+   "label": "AMOUNT",
+   "text": "Fr. 4'200.--"
+  },
+  {
+   "start": 2310,
+   "end": 2323,
+   "label": "AMOUNT",
+   "text": "Fr. 15'178.--"
+  },
+  {
+   "start": 4881,
+   "end": 4899,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 BGG"
+  },
+  {
+   "start": 5018,
+   "end": 5033,
+   "label": "BGE",
+   "text": "BGE 137 III 324"
+  },
+  {
+   "start": 5042,
+   "end": 5052,
+   "label": "BGE",
+   "text": "141 III 80"
+  },
+  {
+   "start": 5061,
+   "end": 5071,
+   "label": "BGE",
+   "text": "141 IV 289"
+  },
+  {
+   "start": 5324,
+   "end": 5335,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 5338,
+   "end": 5353,
+   "label": "BGE",
+   "text": "BGE 133 III 393"
+  },
+  {
+   "start": 5362,
+   "end": 5372,
+   "label": "BGE",
+   "text": "147 III 81"
+  },
+  {
+   "start": 5509,
+   "end": 5530,
+   "label": "STATUTE",
+   "text": "Art. 9, 29 und 29a BV"
+  },
+  {
+   "start": 5541,
+   "end": 5560,
+   "label": "STATUTE",
+   "text": "Art. 6 Ziff. 1 EMRK"
+  },
+  {
+   "start": 6863,
+   "end": 6882,
+   "label": "STATUTE",
+   "text": "Art. 314 Abs. 2 ZPO"
+  },
+  {
+   "start": 7260,
+   "end": 7286,
+   "label": "STATUTE",
+   "text": "Art. 313 Abs. 2 lit. c ZPO"
+  },
+  {
+   "start": 8048,
+   "end": 8066,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 8274,
+   "end": 8286,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 18,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

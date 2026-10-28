@@ -1,0 +1,247 @@
+{
+ "decision_id": "bger_5A_1021_2020",
+ "task_index": 55,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "#32 BARE_ARTICLE Art. 79 extended to Art. 79/80 (N. 53 ff. zu Art. 79/80). Added JOURNAL_REF ST 2003 S. 1098 (Der Schweizer Treuhaender, f. excluded). Cantonal number AB.2020.37-AS and Police Nr. xxx left unlabelled.",
+ "spans": [
+  {
+   "start": 345,
+   "end": 361,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 1089,
+   "end": 1103,
+   "label": "STATUTE",
+   "text": "Art. 228 SchKG"
+  },
+  {
+   "start": 2419,
+   "end": 2432,
+   "label": "STATUTE",
+   "text": "Art. 19 SchKG"
+  },
+  {
+   "start": 2440,
+   "end": 2465,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 2677,
+   "end": 2702,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 2812,
+   "end": 2857,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 und\nArt. 100 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 2964,
+   "end": 2982,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a BGG"
+  },
+  {
+   "start": 3093,
+   "end": 3111,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 3114,
+   "end": 3128,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 3207,
+   "end": 3226,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3272,
+   "end": 3287,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 3404,
+   "end": 3416,
+   "label": "STATUTE",
+   "text": "Art. 105 BGG"
+  },
+  {
+   "start": 3524,
+   "end": 3542,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 3662,
+   "end": 3673,
+   "label": "STATUTE",
+   "text": "Art. 80 VVG"
+  },
+  {
+   "start": 4318,
+   "end": 4332,
+   "label": "STATUTE",
+   "text": "Art. 224 SchKG"
+  },
+  {
+   "start": 4429,
+   "end": 4440,
+   "label": "STATUTE",
+   "text": "Art. 80 VVG"
+  },
+  {
+   "start": 4443,
+   "end": 4463,
+   "label": "STATUTE",
+   "text": "Art. 92 Abs. 4 SchKG"
+  },
+  {
+   "start": 4819,
+   "end": 4830,
+   "label": "STATUTE",
+   "text": "Art. 80 VVG"
+  },
+  {
+   "start": 4857,
+   "end": 4868,
+   "label": "STATUTE",
+   "text": "Art. 80 VVG"
+  },
+  {
+   "start": 4931,
+   "end": 4944,
+   "label": "BGE",
+   "text": "BGE 41 III 57"
+  },
+  {
+   "start": 5062,
+   "end": 5080,
+   "label": "STATUTE",
+   "text": "Art. 79 Abs. 1 VVG"
+  },
+  {
+   "start": 5360,
+   "end": 5375,
+   "label": "BGE",
+   "text": "BGE 105 III 122"
+  },
+  {
+   "start": 5389,
+   "end": 5400,
+   "label": "DOCKET",
+   "text": "4A_586/2009"
+  },
+  {
+   "start": 5526,
+   "end": 5533,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 80"
+  },
+  {
+   "start": 5882,
+   "end": 5889,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 80"
+  },
+  {
+   "start": 5952,
+   "end": 5963,
+   "label": "STATUTE",
+   "text": "Art. 80 VVG"
+  },
+  {
+   "start": 6323,
+   "end": 6330,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 80"
+  },
+  {
+   "start": 6425,
+   "end": 6440,
+   "label": "JOURNAL_REF",
+   "text": "ST 2003 S. 1098"
+  },
+  {
+   "start": 7008,
+   "end": 7022,
+   "label": "BGE",
+   "text": "BGE 53 III 162"
+  },
+  {
+   "start": 8768,
+   "end": 8779,
+   "label": "STATUTE",
+   "text": "Art. 80 VVG"
+  },
+  {
+   "start": 9094,
+   "end": 9108,
+   "label": "BGE",
+   "text": "BGE 53 III 162"
+  },
+  {
+   "start": 9140,
+   "end": 9151,
+   "label": "STATUTE",
+   "text": "Art. 80 VVG"
+  },
+  {
+   "start": 9922,
+   "end": 9932,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 79/80"
+  },
+  {
+   "start": 10132,
+   "end": 10149,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 10185,
+   "end": 10195,
+   "label": "STATUTE",
+   "text": "Art. 30 BV"
+  },
+  {
+   "start": 10416,
+   "end": 10427,
+   "label": "STATUTE",
+   "text": "Art. 80 VVG"
+  },
+  {
+   "start": 11356,
+   "end": 11374,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 11452,
+   "end": 11470,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 11670,
+   "end": 11680,
+   "label": "AMOUNT",
+   "text": "Fr. 800.--"
+  }
+ ],
+ "n_pre": 38,
+ "n_deleted": 1,
+ "n_added": 2,
+ "n_relabeled": 0
+}

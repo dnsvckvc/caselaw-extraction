@@ -1,0 +1,22 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    2
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c, Art. 75, Art. 76, Art. 90, Art. 100 Abs. 2 lit. a BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "140 III 115",
+      "label": "BGE"
+    },
+    {
+      "text": "B.101/1991",
+      "label": "DOCKET"
+    }
+  ],
+  "comment": "Chain #2 extended to the six-article chain. BGE list item added. 'B.101/1991' is an old-format Federal Supreme Court docket (SchK-Kammer), added as DOCKET. 'Art. 6 der Verordnung ... (VFRR; SR 281.31)' has no abbreviation directly after the article, so no span."
+}

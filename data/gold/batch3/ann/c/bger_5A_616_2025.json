@@ -1,0 +1,139 @@
+{
+ "decision_id": "bger_5A_616_2025",
+ "task_index": 165,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 249,
+   "end": 265,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 336,
+   "end": 354,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1162,
+   "end": 1174,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 1266,
+   "end": 1276,
+   "label": "AMOUNT",
+   "text": "Fr. 100.--"
+  },
+  {
+   "start": 1330,
+   "end": 1340,
+   "label": "AMOUNT",
+   "text": "Fr. 100.--"
+  },
+  {
+   "start": 1419,
+   "end": 1429,
+   "label": "AMOUNT",
+   "text": "Fr. 400.--"
+  },
+  {
+   "start": 1454,
+   "end": 1464,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  },
+  {
+   "start": 1490,
+   "end": 1500,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  },
+  {
+   "start": 1737,
+   "end": 1747,
+   "label": "AMOUNT",
+   "text": "Fr. 400.--"
+  },
+  {
+   "start": 2606,
+   "end": 2619,
+   "label": "BGE",
+   "text": "BGE 134 I 159"
+  },
+  {
+   "start": 2628,
+   "end": 2638,
+   "label": "BGE",
+   "text": "138 III 94"
+  },
+  {
+   "start": 2655,
+   "end": 2666,
+   "label": "DOCKET",
+   "text": "4A_630/2020"
+  },
+  {
+   "start": 2691,
+   "end": 2701,
+   "label": "DOCKET",
+   "text": "5D_78/2022"
+  },
+  {
+   "start": 2832,
+   "end": 2843,
+   "label": "DOCKET",
+   "text": "5A_888/2017"
+  },
+  {
+   "start": 2931,
+   "end": 2968,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 und\nArt. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 3126,
+   "end": 3144,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3223,
+   "end": 3238,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 3245,
+   "end": 3256,
+   "label": "BGE",
+   "text": "142 III 364"
+  },
+  {
+   "start": 4700,
+   "end": 4726,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4795,
+   "end": 4813,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 4925,
+   "end": 4935,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 21,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

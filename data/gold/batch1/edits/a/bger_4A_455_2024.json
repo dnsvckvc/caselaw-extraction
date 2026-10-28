@@ -1,0 +1,43 @@
+{
+  "outcome": "partial_approval",
+  "delete": [
+    63
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 66 Abs. 1 und 5 sowie Art. 68 Abs. 2 und 4 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "148 IV 155",
+      "label": "BGE"
+    },
+    {
+      "text": "143 III 140",
+      "label": "BGE"
+    },
+    {
+      "text": "134 III 379",
+      "label": "BGE"
+    },
+    {
+      "text": "133 III 489",
+      "label": "BGE"
+    },
+    {
+      "text": "142 III 521",
+      "label": "BGE",
+      "all": true
+    },
+    {
+      "text": "140 III 221",
+      "label": "BGE"
+    },
+    {
+      "text": "134 III 151",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Extended chain #63 ('sowie' with one trailing BGG). '115 E. 2' after BGE 140 III 86 E. 2 treated as a second page reference per guideline, not a span. Pre-annotation #7 'Fr. 1'594.--' is followed by a stray '-' in the source; kept as is."
+}

@@ -1,0 +1,64 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  48,
+  52
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 117 in Verbindung mit Art. 106 Abs. 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 118 Abs. 2 und Art. 116 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 62 ff. OR",
+   "label": "STATUTE",
+   "all": true
+  },
+  {
+   "text": "134 III 267",
+   "label": "BGE"
+  },
+  {
+   "text": "135 III 1",
+   "label": "BGE",
+   "all": true
+  },
+  {
+   "text": "141 III 159",
+   "label": "BGE"
+  },
+  {
+   "text": "140 III 501",
+   "label": "BGE",
+   "occurrence": 3
+  },
+  {
+   "text": "139 II 340",
+   "label": "BGE",
+   "occurrence": 1
+  },
+  {
+   "text": "134 I 83",
+   "label": "BGE"
+  },
+  {
+   "text": "133 III 439",
+   "label": "BGE"
+  },
+  {
+   "text": "108 Ia 293",
+   "label": "BGE"
+  },
+  {
+   "text": "114 Ia 97",
+   "label": "BGE",
+   "occurrence": 2
+  }
+ ],
+ "comment": "Item 1: Beschwerde in Zivilsachen nicht eingetreten (inadmissible); item 2: subsidiaere Verfassungsbeschwerde abgewiesen, soweit einzutreten (dismissed). Took item 1. '2.2 Mio. Mieterhaushalte' is not money."
+}

@@ -1,0 +1,16 @@
+{
+  "outcome": "inadmissible",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "134 II 244",
+      "label": "BGE"
+    },
+    {
+      "text": "135 III 397",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Item 1 of dispositiv concerns the Ausstandsbegehren (nicht eingetreten); item 2 also nicht eingetreten. '86 E. 2' after BGE 140 III 115 is a second page of the same decision, not a span."
+}

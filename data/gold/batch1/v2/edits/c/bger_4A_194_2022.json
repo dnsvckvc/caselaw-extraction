@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  50
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 51",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "#50 Art. 51 der spanischen Zivilprozessordnung: foreign statute, not a contract, given as a title -> BARE_ARTICLE Art. 51 by analogy to the cantonal-title rule (guideline does not state the foreign-title case)."
+}

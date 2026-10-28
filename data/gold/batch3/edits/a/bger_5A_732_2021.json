@@ -1,0 +1,12 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 450 bis 450e ZGB",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Added STATUTE Art. 450 bis 450e ZGB (range written with bis, shares one abbreviation; missed by the pre-annotator). Kept #44 OTHER_LAW \u00a7 25 Abs. 1 VRPG (cantonal act of Basel-Stadt cited by abbreviation without a canton suffix)."
+}

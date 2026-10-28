@@ -1,0 +1,469 @@
+{
+ "decision_id": "bger_4A_236_2023",
+ "task_index": 108,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "All 76 pre-annotations checked; none wrong, none missing. ZB.2022.29 cantonal, no span.",
+ "spans": [
+  {
+   "start": 593,
+   "end": 611,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 711,
+   "end": 727,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1072,
+   "end": 1088,
+   "label": "AMOUNT",
+   "text": "EUR 1'810'000.--"
+  },
+  {
+   "start": 1304,
+   "end": 1317,
+   "label": "AMOUNT",
+   "text": "EUR 80'000.--"
+  },
+  {
+   "start": 1761,
+   "end": 1777,
+   "label": "AMOUNT",
+   "text": "EUR 1'810'000.--"
+  },
+  {
+   "start": 2135,
+   "end": 2146,
+   "label": "AMOUNT",
+   "text": "EUR 184'124"
+  },
+  {
+   "start": 2872,
+   "end": 2886,
+   "label": "AMOUNT",
+   "text": "EUR 495'872.--"
+  },
+  {
+   "start": 3029,
+   "end": 3043,
+   "label": "AMOUNT",
+   "text": "EUR 495'872.--"
+  },
+  {
+   "start": 3183,
+   "end": 3197,
+   "label": "AMOUNT",
+   "text": "Fr. 557'360.15"
+  },
+  {
+   "start": 3567,
+   "end": 3581,
+   "label": "AMOUNT",
+   "text": "EUR 366'552.--"
+  },
+  {
+   "start": 3986,
+   "end": 3997,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 4030,
+   "end": 4041,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 4084,
+   "end": 4109,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4138,
+   "end": 4151,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 4326,
+   "end": 4345,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 4565,
+   "end": 4579,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 4771,
+   "end": 4782,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 4792,
+   "end": 4811,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 4873,
+   "end": 4888,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 4895,
+   "end": 4906,
+   "label": "BGE",
+   "text": "135 III 397"
+  },
+  {
+   "start": 5013,
+   "end": 5031,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 5163,
+   "end": 5181,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 5357,
+   "end": 5371,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5629,
+   "end": 5643,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 6005,
+   "end": 6020,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 6029,
+   "end": 6039,
+   "label": "BGE",
+   "text": "135 II 356"
+  },
+  {
+   "start": 6373,
+   "end": 6388,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 6397,
+   "end": 6408,
+   "label": "BGE",
+   "text": "137 III 226"
+  },
+  {
+   "start": 6417,
+   "end": 6428,
+   "label": "BGE",
+   "text": "136 III 552"
+  },
+  {
+   "start": 6548,
+   "end": 6562,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 6837,
+   "end": 6852,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 6861,
+   "end": 6870,
+   "label": "BGE",
+   "text": "116 Ia 85"
+  },
+  {
+   "start": 7695,
+   "end": 7720,
+   "label": "STATUTE",
+   "text": "Art. 60 sowie\nArt. 85 ZPO"
+  },
+  {
+   "start": 7775,
+   "end": 7825,
+   "label": "STATUTE",
+   "text": "Art. 221 Abs. 1 lit. b,\nArt. 244 Abs. 1 lit. b ZPO"
+  },
+  {
+   "start": 7905,
+   "end": 7923,
+   "label": "STATUTE",
+   "text": "Art. 84 Abs. 2 ZPO"
+  },
+  {
+   "start": 8179,
+   "end": 8197,
+   "label": "STATUTE",
+   "text": "Art. 85 Abs. 1 ZPO"
+  },
+  {
+   "start": 8246,
+   "end": 8257,
+   "label": "STATUTE",
+   "text": "Art. 85 ZPO"
+  },
+  {
+   "start": 8727,
+   "end": 8742,
+   "label": "BGE",
+   "text": "BGE 148 III 322"
+  },
+  {
+   "start": 8759,
+   "end": 8770,
+   "label": "BGE",
+   "text": "140 III 409"
+  },
+  {
+   "start": 8851,
+   "end": 8865,
+   "label": "AMOUNT",
+   "text": "EUR 184'124.--"
+  },
+  {
+   "start": 9031,
+   "end": 9042,
+   "label": "STATUTE",
+   "text": "Art. 85 ZPO"
+  },
+  {
+   "start": 9569,
+   "end": 9585,
+   "label": "AMOUNT",
+   "text": "EUR 1'810'000.--"
+  },
+  {
+   "start": 10834,
+   "end": 10850,
+   "label": "AMOUNT",
+   "text": "EUR 1'810'000.--"
+  },
+  {
+   "start": 10930,
+   "end": 10944,
+   "label": "AMOUNT",
+   "text": "EUR 531'468.--"
+  },
+  {
+   "start": 11255,
+   "end": 11269,
+   "label": "AMOUNT",
+   "text": "EUR 184'124.--"
+  },
+  {
+   "start": 11672,
+   "end": 11686,
+   "label": "AMOUNT",
+   "text": "EUR 184'124.--"
+  },
+  {
+   "start": 11691,
+   "end": 11705,
+   "label": "AMOUNT",
+   "text": "EUR 531'468.--"
+  },
+  {
+   "start": 12056,
+   "end": 12070,
+   "label": "AMOUNT",
+   "text": "EUR 184'124.--"
+  },
+  {
+   "start": 12075,
+   "end": 12089,
+   "label": "AMOUNT",
+   "text": "EUR 531'468.--"
+  },
+  {
+   "start": 13420,
+   "end": 13434,
+   "label": "AMOUNT",
+   "text": "EUR 184'124.--"
+  },
+  {
+   "start": 13439,
+   "end": 13453,
+   "label": "AMOUNT",
+   "text": "EUR 531'468.--"
+  },
+  {
+   "start": 13896,
+   "end": 13915,
+   "label": "STATUTE",
+   "text": "Art. 227 Abs. 3 ZPO"
+  },
+  {
+   "start": 13938,
+   "end": 13964,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 1 lit. a ZPO"
+  },
+  {
+   "start": 14000,
+   "end": 14018,
+   "label": "STATUTE",
+   "text": "Art. 85 Abs. 1 ZPO"
+  },
+  {
+   "start": 14024,
+   "end": 14039,
+   "label": "BGE",
+   "text": "BGE 148 III 322"
+  },
+  {
+   "start": 14211,
+   "end": 14225,
+   "label": "AMOUNT",
+   "text": "EUR 526'187.55"
+  },
+  {
+   "start": 14281,
+   "end": 14295,
+   "label": "AMOUNT",
+   "text": "EUR 531'468.--"
+  },
+  {
+   "start": 15112,
+   "end": 15130,
+   "label": "STATUTE",
+   "text": "Art. 85 Abs. 1 ZPO"
+  },
+  {
+   "start": 15475,
+   "end": 15491,
+   "label": "AMOUNT",
+   "text": "EUR 1'810'000.--"
+  },
+  {
+   "start": 16533,
+   "end": 16552,
+   "label": "STATUTE",
+   "text": "Art. 311 Abs. 1 ZPO"
+  },
+  {
+   "start": 16669,
+   "end": 16684,
+   "label": "BGE",
+   "text": "BGE 141 III 569"
+  },
+  {
+   "start": 16695,
+   "end": 16706,
+   "label": "BGE",
+   "text": "138 III 374"
+  },
+  {
+   "start": 16725,
+   "end": 16736,
+   "label": "DOCKET",
+   "text": "4A_185/2023"
+  },
+  {
+   "start": 16764,
+   "end": 16775,
+   "label": "DOCKET",
+   "text": "4A_555/2022"
+  },
+  {
+   "start": 17037,
+   "end": 17054,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 17057,
+   "end": 17075,
+   "label": "STATUTE",
+   "text": "Art. 53 Abs. 1 ZPO"
+  },
+  {
+   "start": 17393,
+   "end": 17407,
+   "label": "AMOUNT",
+   "text": "USD 620'000.--"
+  },
+  {
+   "start": 17594,
+   "end": 17608,
+   "label": "AMOUNT",
+   "text": "USD 800'000.--"
+  },
+  {
+   "start": 18200,
+   "end": 18219,
+   "label": "STATUTE",
+   "text": "Art. 317 Abs. 1 ZPO"
+  },
+  {
+   "start": 19035,
+   "end": 19054,
+   "label": "STATUTE",
+   "text": "Art. 317 Abs. 1 ZPO"
+  },
+  {
+   "start": 19454,
+   "end": 19505,
+   "label": "STATUTE",
+   "text": "Art. 398 in Verbindung mit\nArt. 100 und\nArt. 422 OR"
+  },
+  {
+   "start": 19897,
+   "end": 19910,
+   "label": "AMOUNT",
+   "text": "EUR 80'000.--"
+  },
+  {
+   "start": 20341,
+   "end": 20354,
+   "label": "AMOUNT",
+   "text": "EUR 80'000.--"
+  },
+  {
+   "start": 21278,
+   "end": 21321,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 21452,
+   "end": 21464,
+   "label": "AMOUNT",
+   "text": "Fr. 8'000.--"
+  },
+  {
+   "start": 21598,
+   "end": 21610,
+   "label": "AMOUNT",
+   "text": "Fr. 9'000.--"
+  }
+ ],
+ "n_pre": 76,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

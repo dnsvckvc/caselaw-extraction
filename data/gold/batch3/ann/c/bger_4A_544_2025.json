@@ -1,0 +1,595 @@
+{
+ "decision_id": "bger_4A_544_2025",
+ "task_index": 175,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "Art. 24.x GAV spans were cut at Art. 24 as BARE_ARTICLE; GAV is a contract. Art. 15 (GAV named before the number) kept as BARE_ARTICLE. Two appeals: Beschwerde in Zivilsachen nicht eingetreten (item 1), subsidiaere Verfassungsbeschwerde abgewiesen (item 2); first taken.",
+ "spans": [
+  {
+   "start": 408,
+   "end": 424,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 452,
+   "end": 470,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1538,
+   "end": 1550,
+   "label": "AMOUNT",
+   "text": "Fr. 1'140.--"
+  },
+  {
+   "start": 1580,
+   "end": 1592,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  },
+  {
+   "start": 1635,
+   "end": 1647,
+   "label": "AMOUNT",
+   "text": "Fr. 4'164.--"
+  },
+  {
+   "start": 1812,
+   "end": 1822,
+   "label": "AMOUNT",
+   "text": "Fr. 585.--"
+  },
+  {
+   "start": 2069,
+   "end": 2081,
+   "label": "AMOUNT",
+   "text": "Fr. 2'070.--"
+  },
+  {
+   "start": 2323,
+   "end": 2335,
+   "label": "AMOUNT",
+   "text": "Fr. 2'306.80"
+  },
+  {
+   "start": 2670,
+   "end": 2688,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 2691,
+   "end": 2706,
+   "label": "BGE",
+   "text": "BGE 141 III 395"
+  },
+  {
+   "start": 2778,
+   "end": 2789,
+   "label": "STATUTE",
+   "text": "Art. 72 BGG"
+  },
+  {
+   "start": 2834,
+   "end": 2845,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 2928,
+   "end": 2946,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 BGG"
+  },
+  {
+   "start": 3048,
+   "end": 3073,
+   "label": "STATUTE",
+   "text": "Art. 51 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 3099,
+   "end": 3111,
+   "label": "AMOUNT",
+   "text": "Fr. 8'719.--"
+  },
+  {
+   "start": 3167,
+   "end": 3192,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 3700,
+   "end": 3711,
+   "label": "DOCKET",
+   "text": "4A_535/2009"
+  },
+  {
+   "start": 3740,
+   "end": 3755,
+   "label": "BGE",
+   "text": "BGE 140 III 391"
+  },
+  {
+   "start": 3772,
+   "end": 3783,
+   "label": "DOCKET",
+   "text": "4A_360/2022"
+  },
+  {
+   "start": 3810,
+   "end": 3820,
+   "label": "DOCKET",
+   "text": "4A_81/2021"
+  },
+  {
+   "start": 3859,
+   "end": 3869,
+   "label": "DOCKET",
+   "text": "4A_53/2022"
+  },
+  {
+   "start": 3961,
+   "end": 3974,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 3977,
+   "end": 4002,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4057,
+   "end": 4082,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 4483,
+   "end": 4498,
+   "label": "BGE",
+   "text": "BGE 144 III 164"
+  },
+  {
+   "start": 4505,
+   "end": 4516,
+   "label": "BGE",
+   "text": "141 III 159"
+  },
+  {
+   "start": 4525,
+   "end": 4536,
+   "label": "BGE",
+   "text": "139 III 209"
+  },
+  {
+   "start": 4774,
+   "end": 4799,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 Satz 2 BGG"
+  },
+  {
+   "start": 5093,
+   "end": 5108,
+   "label": "BGE",
+   "text": "BGE 140 III 501"
+  },
+  {
+   "start": 5117,
+   "end": 5126,
+   "label": "BGE",
+   "text": "135 III 1"
+  },
+  {
+   "start": 5289,
+   "end": 5323,
+   "label": "STATUTE",
+   "text": "Art. 247 Abs. 2 lit. b Ziff. 2 ZPO"
+  },
+  {
+   "start": 6014,
+   "end": 6048,
+   "label": "STATUTE",
+   "text": "Art. 247 Abs. 2 lit. b Ziff. 2 ZPO"
+  },
+  {
+   "start": 6117,
+   "end": 6151,
+   "label": "STATUTE",
+   "text": "Art. 247 Abs. 2 lit. b Ziff. 2 ZPO"
+  },
+  {
+   "start": 6914,
+   "end": 6930,
+   "label": "STATUTE",
+   "text": "Art. 113-119 BGG"
+  },
+  {
+   "start": 7054,
+   "end": 7066,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 7299,
+   "end": 7334,
+   "label": "STATUTE",
+   "text": "Art. 117 i.V.m.\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 7512,
+   "end": 7527,
+   "label": "BGE",
+   "text": "BGE 135 III 232"
+  },
+  {
+   "start": 7537,
+   "end": 7545,
+   "label": "BGE",
+   "text": "134 I 83"
+  },
+  {
+   "start": 7691,
+   "end": 7710,
+   "label": "STATUTE",
+   "text": "Art. 118 Abs. 1 BGG"
+  },
+  {
+   "start": 7949,
+   "end": 7963,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 8103,
+   "end": 8122,
+   "label": "STATUTE",
+   "text": "Art. 118 Abs. 2 BGG"
+  },
+  {
+   "start": 8125,
+   "end": 8138,
+   "label": "BGE",
+   "text": "BGE 136 I 332"
+  },
+  {
+   "start": 8147,
+   "end": 8158,
+   "label": "BGE",
+   "text": "133 III 393"
+  },
+  {
+   "start": 8346,
+   "end": 8360,
+   "label": "BGE",
+   "text": "BGE 134 II 349"
+  },
+  {
+   "start": 8368,
+   "end": 8375,
+   "label": "BGE",
+   "text": "133 I 1"
+  },
+  {
+   "start": 8776,
+   "end": 8791,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 8800,
+   "end": 8810,
+   "label": "BGE",
+   "text": "140 III 16"
+  },
+  {
+   "start": 9228,
+   "end": 9242,
+   "label": "BGE",
+   "text": "BGE 141 III 28"
+  },
+  {
+   "start": 9253,
+   "end": 9262,
+   "label": "BGE",
+   "text": "139 V 496"
+  },
+  {
+   "start": 9272,
+   "end": 9281,
+   "label": "BGE",
+   "text": "138 I 232"
+  },
+  {
+   "start": 9344,
+   "end": 9363,
+   "label": "STATUTE",
+   "text": "Art. 357b Abs. 1 OR"
+  },
+  {
+   "start": 9817,
+   "end": 9849,
+   "label": "STATUTE",
+   "text": "Art. 357b Abs. 1 lit. a und c OR"
+  },
+  {
+   "start": 10101,
+   "end": 10113,
+   "label": "AMOUNT",
+   "text": "Fr. 1'076.40"
+  },
+  {
+   "start": 10630,
+   "end": 10640,
+   "label": "AMOUNT",
+   "text": "Fr. 570.--"
+  },
+  {
+   "start": 10721,
+   "end": 10734,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 24.7 GAV"
+  },
+  {
+   "start": 10801,
+   "end": 10814,
+   "label": "AMOUNT",
+   "text": "Fr. 12'383.40"
+  },
+  {
+   "start": 10944,
+   "end": 10956,
+   "label": "AMOUNT",
+   "text": "Fr. 1'076.40"
+  },
+  {
+   "start": 11042,
+   "end": 11054,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 11222,
+   "end": 11235,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 24.6 GAV"
+  },
+  {
+   "start": 11881,
+   "end": 11891,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 4 GAV"
+  },
+  {
+   "start": 12094,
+   "end": 12117,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 und 2 BV"
+  },
+  {
+   "start": 12451,
+   "end": 12460,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 12520,
+   "end": 12536,
+   "label": "STATUTE",
+   "text": "Art. 5 Abs. 3 BV"
+  },
+  {
+   "start": 12756,
+   "end": 12766,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 4 GAV"
+  },
+  {
+   "start": 12898,
+   "end": 12907,
+   "label": "AMOUNT",
+   "text": "Fr. 25.--"
+  },
+  {
+   "start": 13517,
+   "end": 13527,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 4 GAV"
+  },
+  {
+   "start": 13948,
+   "end": 13962,
+   "label": "BGE",
+   "text": "BGE 116 II 302"
+  },
+  {
+   "start": 14091,
+   "end": 14105,
+   "label": "BGE",
+   "text": "BGE 116 II 302"
+  },
+  {
+   "start": 14313,
+   "end": 14343,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 sowie\nArt. 9 BV"
+  },
+  {
+   "start": 14448,
+   "end": 14458,
+   "label": "AMOUNT",
+   "text": "Fr. 928.80"
+  },
+  {
+   "start": 14806,
+   "end": 14818,
+   "label": "STATUTE",
+   "text": "Art. 329d OR"
+  },
+  {
+   "start": 15013,
+   "end": 15020,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 15"
+  },
+  {
+   "start": 15217,
+   "end": 15229,
+   "label": "STATUTE",
+   "text": "Art. 329d OR"
+  },
+  {
+   "start": 15482,
+   "end": 15506,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 5.2 und 5.3 des GAV"
+  },
+  {
+   "start": 15825,
+   "end": 15835,
+   "label": "AMOUNT",
+   "text": "Fr. 928.80"
+  },
+  {
+   "start": 16096,
+   "end": 16108,
+   "label": "AMOUNT",
+   "text": "Fr. 1'076.40"
+  },
+  {
+   "start": 16118,
+   "end": 16130,
+   "label": "AMOUNT",
+   "text": "Fr. 1'153.40"
+  },
+  {
+   "start": 16288,
+   "end": 16339,
+   "label": "STATUTE",
+   "text": "Art. 5 Abs. 3, Art. 9 sowie\nArt. 29 Abs. 1 und 2 BV"
+  },
+  {
+   "start": 16371,
+   "end": 16384,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 24.8 GAV"
+  },
+  {
+   "start": 17718,
+   "end": 17735,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 18086,
+   "end": 18099,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 24.7 GAV"
+  },
+  {
+   "start": 18139,
+   "end": 18156,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 18207,
+   "end": 18224,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BV"
+  },
+  {
+   "start": 18253,
+   "end": 18262,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 18316,
+   "end": 18329,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 24.7 GAV"
+  },
+  {
+   "start": 18501,
+   "end": 18513,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 18722,
+   "end": 18734,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 18888,
+   "end": 18900,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 19781,
+   "end": 19794,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 24.6 GAV"
+  },
+  {
+   "start": 19902,
+   "end": 19911,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 19918,
+   "end": 19941,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 und 2 BV"
+  },
+  {
+   "start": 19978,
+   "end": 19995,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 20409,
+   "end": 20426,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BV"
+  },
+  {
+   "start": 20608,
+   "end": 20621,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. 24.6 GAV"
+  },
+  {
+   "start": 21143,
+   "end": 21161,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 21336,
+   "end": 21354,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 21576,
+   "end": 21588,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 97,
+ "n_deleted": 8,
+ "n_added": 8,
+ "n_relabeled": 0
+}

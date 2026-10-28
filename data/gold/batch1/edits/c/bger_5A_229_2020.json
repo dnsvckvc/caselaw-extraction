@@ -1,0 +1,16 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "137 III 424",
+   "label": "BGE"
+  },
+  {
+   "text": "138 IV 81",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Pre-annotated outcome 'moot' was wrong: item 1 annuls the lower ruling and remands (aufgehoben, zurueckgewiesen) -> approved. The 'gegenstandslos' is in item 2.1 (legal aid)."
+}

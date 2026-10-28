@@ -1,0 +1,16 @@
+{
+ "outcome": "partial_approval",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "sic! 6/2014 S. 367",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "5F_37 /2020",
+   "label": "DOCKET"
+  }
+ ],
+ "comment": "Added JOURNAL_REF sic! 6/2014 S. 367 and DOCKET 5F_37 /2020 (file number written with a stray space; guideline gap). Reglement SR 173.110.210.3 cited without Art., no span. Art. 29 Abs. 2 ZPO kept as STATUTE though the court probably meant BV. Ziffer 1.1 / Ziffern 3 und 4 of the lower decision are numbered points."
+}

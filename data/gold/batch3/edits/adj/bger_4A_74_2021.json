@@ -1,0 +1,6 @@
+{
+ "keep": [
+  "a1"
+ ],
+ "comment": "A bracketed remark breaks the chain; the first element has no code after it and is BARE_ARTICLE. A STATUTE span must contain its code."
+}

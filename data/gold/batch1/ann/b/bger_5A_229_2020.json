@@ -1,0 +1,283 @@
+{
+ "decision_id": "bger_5A_229_2020",
+ "task_index": 6,
+ "pass": "b",
+ "outcome": "approved",
+ "comment": "Pre-annotated outcome 'moot' was wrong: item 1 annuls the cantonal Verfuegung and remands (Art. 112 Abs. 3 BGG) without the word 'gutgeheissen'; this is a de-facto approval. 'gegenstandslos' appears only in item 2.1 (legal aid), which does not count. Two BGE list items added.",
+ "spans": [
+  {
+   "start": 659,
+   "end": 675,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 746,
+   "end": 764,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 3555,
+   "end": 3566,
+   "label": "DOCKET",
+   "text": "5A_153/2020"
+  },
+  {
+   "start": 3747,
+   "end": 3758,
+   "label": "DOCKET",
+   "text": "5A_152/2020"
+  },
+  {
+   "start": 4973,
+   "end": 4992,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 5059,
+   "end": 5077,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 5288,
+   "end": 5306,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 BGG"
+  },
+  {
+   "start": 5366,
+   "end": 5380,
+   "label": "BGE",
+   "text": "BGE 138 III 41"
+  },
+  {
+   "start": 5389,
+   "end": 5400,
+   "label": "BGE",
+   "text": "137 III 424"
+  },
+  {
+   "start": 5490,
+   "end": 5501,
+   "label": "DOCKET",
+   "text": "5A_813/2017"
+  },
+  {
+   "start": 5698,
+   "end": 5723,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 Bst. a BGG"
+  },
+  {
+   "start": 5773,
+   "end": 5787,
+   "label": "BGE",
+   "text": "BGE 141 III 80"
+  },
+  {
+   "start": 5864,
+   "end": 5879,
+   "label": "BGE",
+   "text": "BGE 137 III 380"
+  },
+  {
+   "start": 6069,
+   "end": 6087,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 6118,
+   "end": 6129,
+   "label": "DOCKET",
+   "text": "5A_306/2019"
+  },
+  {
+   "start": 6259,
+   "end": 6277,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 6390,
+   "end": 6409,
+   "label": "STATUTE",
+   "text": "Art. 112 Abs. 1 BGG"
+  },
+  {
+   "start": 7031,
+   "end": 7050,
+   "label": "STATUTE",
+   "text": "Art. 112 Abs. 3 BGG"
+  },
+  {
+   "start": 7234,
+   "end": 7253,
+   "label": "STATUTE",
+   "text": "Art. 112 Abs. 3 BGG"
+  },
+  {
+   "start": 7398,
+   "end": 7412,
+   "label": "BGE",
+   "text": "BGE 141 IV 244"
+  },
+  {
+   "start": 7423,
+   "end": 7432,
+   "label": "BGE",
+   "text": "138 IV 81"
+  },
+  {
+   "start": 7448,
+   "end": 7459,
+   "label": "DOCKET",
+   "text": "5A_222/2019"
+  },
+  {
+   "start": 7500,
+   "end": 7532,
+   "label": "STATUTE",
+   "text": "Art. 112 Abs. 1 Bst. a und b BGG"
+  },
+  {
+   "start": 7776,
+   "end": 7790,
+   "label": "BGE",
+   "text": "BGE 141 IV 244"
+  },
+  {
+   "start": 8080,
+   "end": 8091,
+   "label": "DOCKET",
+   "text": "5A_955/2019"
+  },
+  {
+   "start": 8117,
+   "end": 8129,
+   "label": "DOCKET",
+   "text": "5A_1016/2018"
+  },
+  {
+   "start": 8211,
+   "end": 8222,
+   "label": "DOCKET",
+   "text": "5A_913/2018"
+  },
+  {
+   "start": 8298,
+   "end": 8309,
+   "label": "DOCKET",
+   "text": "5A_984/2016"
+  },
+  {
+   "start": 9172,
+   "end": 9198,
+   "label": "STATUTE",
+   "text": "Art. 112 Abs. 1 Bst. c BGG"
+  },
+  {
+   "start": 9699,
+   "end": 9709,
+   "label": "DOCKET",
+   "text": "2C_51/2016"
+  },
+  {
+   "start": 9714,
+   "end": 9724,
+   "label": "DOCKET",
+   "text": "2C_52/2016"
+  },
+  {
+   "start": 11214,
+   "end": 11233,
+   "label": "STATUTE",
+   "text": "Art. 112 Abs. 1 BGG"
+  },
+  {
+   "start": 11425,
+   "end": 11444,
+   "label": "STATUTE",
+   "text": "Art. 112 Abs. 3 BGG"
+  },
+  {
+   "start": 11543,
+   "end": 11561,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 3 BGG"
+  },
+  {
+   "start": 11572,
+   "end": 11583,
+   "label": "DOCKET",
+   "text": "5A_955/2019"
+  },
+  {
+   "start": 11607,
+   "end": 11619,
+   "label": "DOCKET",
+   "text": "5A_1016/2018"
+  },
+  {
+   "start": 11660,
+   "end": 11671,
+   "label": "DOCKET",
+   "text": "5A_884/2012"
+  },
+  {
+   "start": 11904,
+   "end": 11922,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 4 BGG"
+  },
+  {
+   "start": 12482,
+   "end": 12506,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 12913,
+   "end": 12931,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 4 BGG"
+  },
+  {
+   "start": 13601,
+   "end": 13613,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 13675,
+   "end": 13685,
+   "label": "AMOUNT",
+   "text": "Fr. 250.--"
+  },
+  {
+   "start": 13821,
+   "end": 13831,
+   "label": "AMOUNT",
+   "text": "Fr. 250.--"
+  },
+  {
+   "start": 13941,
+   "end": 13953,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 14113,
+   "end": 14125,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 43,
+ "n_deleted": 0,
+ "n_added": 2,
+ "n_relabeled": 0
+}

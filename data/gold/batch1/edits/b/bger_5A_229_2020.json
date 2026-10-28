@@ -1,0 +1,16 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "137 III 424",
+   "label": "BGE"
+  },
+  {
+   "text": "138 IV 81",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Pre-annotated outcome 'moot' was wrong: item 1 annuls the cantonal Verfuegung and remands (Art. 112 Abs. 3 BGG) without the word 'gutgeheissen'; this is a de-facto approval. 'gegenstandslos' appears only in item 2.1 (legal aid), which does not count. Two BGE list items added."
+}

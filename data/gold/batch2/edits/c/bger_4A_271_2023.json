@@ -1,0 +1,12 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 87 aVVG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Art. A4 Ziff. 2 AVB and Art. B8 Ziff. 1 f. AVB not labelled: AVB are contract terms, not a law. BGE 138 III 2 E. 1.2.2; 799 and 140 III 115 E. 2; 264 treated as second page numbers per the rule."
+}

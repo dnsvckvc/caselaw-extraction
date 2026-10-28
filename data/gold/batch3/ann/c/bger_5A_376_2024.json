@@ -1,0 +1,661 @@
+{
+ "decision_id": "bger_5A_376_2024",
+ "task_index": 137,
+ "pass": "c",
+ "outcome": "partial_approval",
+ "comment": "Added two BGE list items missed after 'BGE 136 III 636 3;' (the court omitted 'E.' before 3). #66 'Art. 85 der Verordnung' (KOV, SR 281.32) is an act given as title: BARE_ARTICLE 'Art. 85'.",
+ "spans": [
+  {
+   "start": 400,
+   "end": 421,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerinnen"
+  },
+  {
+   "start": 528,
+   "end": 549,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 1317,
+   "end": 1330,
+   "label": "AMOUNT",
+   "text": "Fr. 50'000.--"
+  },
+  {
+   "start": 1651,
+   "end": 1665,
+   "label": "AMOUNT",
+   "text": "Fr. 200'000.--"
+  },
+  {
+   "start": 1984,
+   "end": 1992,
+   "label": "AMOUNT",
+   "text": "Fr. 0.--"
+  },
+  {
+   "start": 2011,
+   "end": 2019,
+   "label": "AMOUNT",
+   "text": "Fr. 1.--"
+  },
+  {
+   "start": 2049,
+   "end": 2062,
+   "label": "AMOUNT",
+   "text": "Fr. 12'000.--"
+  },
+  {
+   "start": 2383,
+   "end": 2399,
+   "label": "STATUTE",
+   "text": "Art. 319 ff. ZPO"
+  },
+  {
+   "start": 2781,
+   "end": 2795,
+   "label": "AMOUNT",
+   "text": "Fr. 200'000.--"
+  },
+  {
+   "start": 3229,
+   "end": 3250,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 3298,
+   "end": 3312,
+   "label": "AMOUNT",
+   "text": "Fr. 100'000.--"
+  },
+  {
+   "start": 3687,
+   "end": 3695,
+   "label": "AMOUNT",
+   "text": "Fr. 0.--"
+  },
+  {
+   "start": 3714,
+   "end": 3722,
+   "label": "AMOUNT",
+   "text": "Fr. 1.--"
+  },
+  {
+   "start": 3752,
+   "end": 3765,
+   "label": "AMOUNT",
+   "text": "Fr. 12'000.--"
+  },
+  {
+   "start": 4568,
+   "end": 4589,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 4670,
+   "end": 4687,
+   "label": "STATUTE",
+   "text": "Art. 17 ff. SchKG"
+  },
+  {
+   "start": 4714,
+   "end": 4729,
+   "label": "BGE",
+   "text": "BGE 141 III 590"
+  },
+  {
+   "start": 4740,
+   "end": 4750,
+   "label": "BGE",
+   "text": "130 III 90"
+  },
+  {
+   "start": 4900,
+   "end": 4913,
+   "label": "STATUTE",
+   "text": "Art. 19 SchKG"
+  },
+  {
+   "start": 4921,
+   "end": 5020,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c,\nArt. 75,\nArt. 76,\nArt. 90,\nArt. 100 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 5196,
+   "end": 5210,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 5221,
+   "end": 5232,
+   "label": "BGE",
+   "text": "138 III 252"
+  },
+  {
+   "start": 5241,
+   "end": 5251,
+   "label": "BGE",
+   "text": "133 II 396"
+  },
+  {
+   "start": 5267,
+   "end": 5278,
+   "label": "DOCKET",
+   "text": "5A_250/2024"
+  },
+  {
+   "start": 5367,
+   "end": 5382,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 5661,
+   "end": 5675,
+   "label": "AMOUNT",
+   "text": "Fr. 232'500.--"
+  },
+  {
+   "start": 5733,
+   "end": 5745,
+   "label": "AMOUNT",
+   "text": "Fr. 2'500.--"
+  },
+  {
+   "start": 5768,
+   "end": 5781,
+   "label": "AMOUNT",
+   "text": "Fr. 50'000.--"
+  },
+  {
+   "start": 5810,
+   "end": 5823,
+   "label": "AMOUNT",
+   "text": "Fr. 45'000.--"
+  },
+  {
+   "start": 5839,
+   "end": 5853,
+   "label": "AMOUNT",
+   "text": "Fr. 135'000.--"
+  },
+  {
+   "start": 5931,
+   "end": 5945,
+   "label": "AMOUNT",
+   "text": "Fr. 130'000.--"
+  },
+  {
+   "start": 5957,
+   "end": 5971,
+   "label": "AMOUNT",
+   "text": "Fr. 100'000.--"
+  },
+  {
+   "start": 6020,
+   "end": 6033,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 6468,
+   "end": 6482,
+   "label": "AMOUNT",
+   "text": "Fr. 100'000.--"
+  },
+  {
+   "start": 6900,
+   "end": 6914,
+   "label": "AMOUNT",
+   "text": "Fr. 100'000.--"
+  },
+  {
+   "start": 6945,
+   "end": 6959,
+   "label": "BGE",
+   "text": "BGE 130 III 90"
+  },
+  {
+   "start": 7050,
+   "end": 7067,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 7344,
+   "end": 7359,
+   "label": "STATUTE",
+   "text": "Art. 230a SchKG"
+  },
+  {
+   "start": 7899,
+   "end": 7916,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 8400,
+   "end": 8414,
+   "label": "BGE",
+   "text": "BGE 146 II 335"
+  },
+  {
+   "start": 9037,
+   "end": 9052,
+   "label": "STATUTE",
+   "text": "Art. 230a SchKG"
+  },
+  {
+   "start": 9268,
+   "end": 9282,
+   "label": "STATUTE",
+   "text": "Art. 230 SchKG"
+  },
+  {
+   "start": 9335,
+   "end": 9350,
+   "label": "STATUTE",
+   "text": "Art. 230a SchKG"
+  },
+  {
+   "start": 9442,
+   "end": 9457,
+   "label": "BGE",
+   "text": "BGE 140 III 462"
+  },
+  {
+   "start": 9466,
+   "end": 9477,
+   "label": "BGE",
+   "text": "130 III 481"
+  },
+  {
+   "start": 9486,
+   "end": 9496,
+   "label": "BGE",
+   "text": "71 III 167"
+  },
+  {
+   "start": 9624,
+   "end": 9645,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 10256,
+   "end": 10270,
+   "label": "AMOUNT",
+   "text": "Fr. 135'000.--"
+  },
+  {
+   "start": 11629,
+   "end": 11643,
+   "label": "AMOUNT",
+   "text": "Fr. 100'000.--"
+  },
+  {
+   "start": 11687,
+   "end": 11708,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 11850,
+   "end": 11864,
+   "label": "BGE",
+   "text": "BGE 117 III 67"
+  },
+  {
+   "start": 11872,
+   "end": 11881,
+   "label": "BGE",
+   "text": "51 III 83"
+  },
+  {
+   "start": 11924,
+   "end": 11938,
+   "label": "STATUTE",
+   "text": "Art. 230 SchKG"
+  },
+  {
+   "start": 12119,
+   "end": 12133,
+   "label": "BGE",
+   "text": "BGE 130 III 90"
+  },
+  {
+   "start": 12823,
+   "end": 12837,
+   "label": "BGE",
+   "text": "BGE 145 III 49"
+  },
+  {
+   "start": 12846,
+   "end": 12857,
+   "label": "BGE",
+   "text": "143 III 261"
+  },
+  {
+   "start": 12868,
+   "end": 12879,
+   "label": "BGE",
+   "text": "142 III 336"
+  },
+  {
+   "start": 12890,
+   "end": 12901,
+   "label": "BGE",
+   "text": "136 III 636"
+  },
+  {
+   "start": 12905,
+   "end": 12916,
+   "label": "BGE",
+   "text": "134 III 323"
+  },
+  {
+   "start": 12923,
+   "end": 12933,
+   "label": "BGE",
+   "text": "130 III 90"
+  },
+  {
+   "start": 13103,
+   "end": 13116,
+   "label": "BGE",
+   "text": "BGE 55 III 92"
+  },
+  {
+   "start": 13147,
+   "end": 13168,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 13476,
+   "end": 13497,
+   "label": "STATUTE",
+   "text": "Art. 262 Abs. 1 SchKG"
+  },
+  {
+   "start": 13620,
+   "end": 13634,
+   "label": "STATUTE",
+   "text": "Art. 262 SchKG"
+  },
+  {
+   "start": 13868,
+   "end": 13882,
+   "label": "STATUTE",
+   "text": "Art. 198 SchKG"
+  },
+  {
+   "start": 14089,
+   "end": 14104,
+   "label": "BGE",
+   "text": "BGE 138 III 628"
+  },
+  {
+   "start": 14296,
+   "end": 14317,
+   "label": "STATUTE",
+   "text": "Art. 262 Abs. 2 SchKG"
+  },
+  {
+   "start": 14320,
+   "end": 14327,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 85"
+  },
+  {
+   "start": 14423,
+   "end": 14438,
+   "label": "BGE",
+   "text": "BGE 138 III 628"
+  },
+  {
+   "start": 14640,
+   "end": 14655,
+   "label": "BGE",
+   "text": "BGE 138 III 628"
+  },
+  {
+   "start": 14768,
+   "end": 14779,
+   "label": "STATUTE",
+   "text": "Art. 39 KOV"
+  },
+  {
+   "start": 14823,
+   "end": 14837,
+   "label": "STATUTE",
+   "text": "Art. 262 SchKG"
+  },
+  {
+   "start": 14995,
+   "end": 15013,
+   "label": "STATUTE",
+   "text": "Art. 39 Abs. 1 KOV"
+  },
+  {
+   "start": 15030,
+   "end": 15044,
+   "label": "STATUTE",
+   "text": "Art. 262 SchKG"
+  },
+  {
+   "start": 15051,
+   "end": 15062,
+   "label": "STATUTE",
+   "text": "Art. 85 KOV"
+  },
+  {
+   "start": 15097,
+   "end": 15108,
+   "label": "STATUTE",
+   "text": "Art. 39 KOV"
+  },
+  {
+   "start": 15226,
+   "end": 15240,
+   "label": "STATUTE",
+   "text": "Art. 262 SchKG"
+  },
+  {
+   "start": 15449,
+   "end": 15467,
+   "label": "STATUTE",
+   "text": "Art. 39 Abs. 1 KOV"
+  },
+  {
+   "start": 15890,
+   "end": 15908,
+   "label": "STATUTE",
+   "text": "Art. 39 Abs. 1 KOV"
+  },
+  {
+   "start": 15913,
+   "end": 15927,
+   "label": "STATUTE",
+   "text": "Art. 262 SchKG"
+  },
+  {
+   "start": 16192,
+   "end": 16210,
+   "label": "STATUTE",
+   "text": "Art. 39 Abs. 2 KOV"
+  },
+  {
+   "start": 16254,
+   "end": 16268,
+   "label": "STATUTE",
+   "text": "Art. 262 SchKG"
+  },
+  {
+   "start": 16393,
+   "end": 16414,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 1 SchKG"
+  },
+  {
+   "start": 16501,
+   "end": 16522,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 17014,
+   "end": 17035,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 17045,
+   "end": 17066,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 17288,
+   "end": 17309,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 17490,
+   "end": 17504,
+   "label": "BGE",
+   "text": "BGE 71 III 153"
+  },
+  {
+   "start": 17586,
+   "end": 17607,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 18045,
+   "end": 18066,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 18242,
+   "end": 18284,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 4 und\nArt. 230a Abs. 2 SchKG"
+  },
+  {
+   "start": 18532,
+   "end": 18546,
+   "label": "STATUTE",
+   "text": "Art. 262 SchKG"
+  },
+  {
+   "start": 18551,
+   "end": 18562,
+   "label": "STATUTE",
+   "text": "Art. 85 KOV"
+  },
+  {
+   "start": 18641,
+   "end": 18662,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 20506,
+   "end": 20516,
+   "label": "AMOUNT",
+   "text": "Fr. 200.--"
+  },
+  {
+   "start": 20700,
+   "end": 20710,
+   "label": "AMOUNT",
+   "text": "Fr. 400.--"
+  },
+  {
+   "start": 20812,
+   "end": 20826,
+   "label": "AMOUNT",
+   "text": "Fr. 135'000.--"
+  },
+  {
+   "start": 21837,
+   "end": 21848,
+   "label": "STATUTE",
+   "text": "Art. 27 KOV"
+  },
+  {
+   "start": 22205,
+   "end": 22219,
+   "label": "AMOUNT",
+   "text": "Fr. 135'000.--"
+  },
+  {
+   "start": 22286,
+   "end": 22307,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 22728,
+   "end": 22742,
+   "label": "BGE",
+   "text": "BGE 130 III 90"
+  },
+  {
+   "start": 23132,
+   "end": 23146,
+   "label": "BGE",
+   "text": "BGE 130 III 90"
+  },
+  {
+   "start": 23227,
+   "end": 23241,
+   "label": "BGE",
+   "text": "BGE 130 III 90"
+  },
+  {
+   "start": 23957,
+   "end": 23971,
+   "label": "AMOUNT",
+   "text": "Fr. 100'000.--"
+  },
+  {
+   "start": 24860,
+   "end": 24881,
+   "label": "STATUTE",
+   "text": "Art. 230 Abs. 2 SchKG"
+  },
+  {
+   "start": 25671,
+   "end": 25689,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 25797,
+   "end": 25815,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 26272,
+   "end": 26284,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  }
+ ],
+ "n_pre": 106,
+ "n_deleted": 1,
+ "n_added": 3,
+ "n_relabeled": 0
+}

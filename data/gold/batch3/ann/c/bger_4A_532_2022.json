@@ -1,0 +1,289 @@
+{
+ "decision_id": "bger_4A_532_2022",
+ "task_index": 88,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "AVB clauses 'H2 (Verhalten im Schadenfall) Ziff. 1, 4 und 5 in den AVB Personenversicherung Professional' and the D2 counterpart: span starts at Ziff. because the parenthesis separates H2/D2; qualifier after AVB excluded. 'H2 Ziff. 5 bzw. D2 Ziff. 4' without instrument and without Art./Para sign: no span.",
+ "spans": [
+  {
+   "start": 590,
+   "end": 606,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 671,
+   "end": 689,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1175,
+   "end": 1189,
+   "label": "AMOUNT",
+   "text": "Fr. 150'000.--"
+  },
+  {
+   "start": 5535,
+   "end": 5549,
+   "label": "AMOUNT",
+   "text": "Fr. 145'068.20"
+  },
+  {
+   "start": 5965,
+   "end": 5979,
+   "label": "AMOUNT",
+   "text": "Fr. 137'667.20"
+  },
+  {
+   "start": 6907,
+   "end": 6921,
+   "label": "AMOUNT",
+   "text": "Fr. 137'667.20"
+  },
+  {
+   "start": 7167,
+   "end": 7180,
+   "label": "AMOUNT",
+   "text": "Fr. 13'674.35"
+  },
+  {
+   "start": 7599,
+   "end": 7612,
+   "label": "BGE",
+   "text": "BGE 142 V 448"
+  },
+  {
+   "start": 7672,
+   "end": 7685,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 2 Abs. 2"
+  },
+  {
+   "start": 8023,
+   "end": 8038,
+   "label": "STATUTE",
+   "text": "Art. 72 ff. BGG"
+  },
+  {
+   "start": 8059,
+   "end": 8072,
+   "label": "BGE",
+   "text": "BGE 138 III 2"
+  },
+  {
+   "start": 8324,
+   "end": 8343,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 8427,
+   "end": 8451,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 8741,
+   "end": 8755,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 8762,
+   "end": 8765,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 8900,
+   "end": 8918,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 9338,
+   "end": 9352,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 9466,
+   "end": 9485,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 9705,
+   "end": 9719,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 9911,
+   "end": 9922,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 9932,
+   "end": 9951,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 10013,
+   "end": 10028,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 10035,
+   "end": 10046,
+   "label": "BGE",
+   "text": "135 III 397"
+  },
+  {
+   "start": 10153,
+   "end": 10171,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 10303,
+   "end": 10321,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 10404,
+   "end": 10423,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 10426,
+   "end": 10441,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 10637,
+   "end": 10651,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 10909,
+   "end": 10923,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 11100,
+   "end": 11114,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 11492,
+   "end": 11507,
+   "label": "BGE",
+   "text": "BGE 141 III 564"
+  },
+  {
+   "start": 11516,
+   "end": 11526,
+   "label": "BGE",
+   "text": "140 III 16"
+  },
+  {
+   "start": 11535,
+   "end": 11545,
+   "label": "BGE",
+   "text": "135 II 356"
+  },
+  {
+   "start": 11879,
+   "end": 11894,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 11903,
+   "end": 11914,
+   "label": "BGE",
+   "text": "137 III 226"
+  },
+  {
+   "start": 11923,
+   "end": 11934,
+   "label": "BGE",
+   "text": "136 III 552"
+  },
+  {
+   "start": 12054,
+   "end": 12069,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 12078,
+   "end": 12088,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 12363,
+   "end": 12378,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 13743,
+   "end": 13794,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Art. H2 Ziff. 4 der Allgemeinen Vertragsbedingungen"
+  },
+  {
+   "start": 15452,
+   "end": 15479,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 1, 4 und 5 in den AVB"
+  },
+  {
+   "start": 15615,
+   "end": 15642,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziff. 1, 3 und 4 in den AVB"
+  },
+  {
+   "start": 24672,
+   "end": 24683,
+   "label": "DOCKET",
+   "text": "4A_542/2020"
+  },
+  {
+   "start": 25019,
+   "end": 25037,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 25105,
+   "end": 25123,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 25562,
+   "end": 25574,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  }
+ ],
+ "n_pre": 44,
+ "n_deleted": 1,
+ "n_added": 3,
+ "n_relabeled": 0
+}

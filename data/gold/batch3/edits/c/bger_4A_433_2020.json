@@ -1,0 +1,12 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Fr, 6'000.--",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "Dispositiv item 2 writes 'Fr, 6'000.--' with a comma typo; labelled as AMOUNT including the comma token."
+}

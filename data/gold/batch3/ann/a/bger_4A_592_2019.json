@@ -1,0 +1,265 @@
+{
+ "decision_id": "bger_4A_592_2019",
+ "task_index": 1,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "All 42 pre-annotations verified; nothing missing.",
+ "spans": [
+  {
+   "start": 357,
+   "end": 375,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 445,
+   "end": 461,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1905,
+   "end": 1918,
+   "label": "AMOUNT",
+   "text": "Fr. 22'221.55"
+  },
+  {
+   "start": 2643,
+   "end": 2655,
+   "label": "AMOUNT",
+   "text": "Fr. 4'581.30"
+  },
+  {
+   "start": 3203,
+   "end": 3214,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3247,
+   "end": 3258,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 3314,
+   "end": 3327,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 3335,
+   "end": 3360,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3430,
+   "end": 3455,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 3913,
+   "end": 3928,
+   "label": "BGE",
+   "text": "BGE 144 III 164"
+  },
+  {
+   "start": 3942,
+   "end": 3953,
+   "label": "BGE",
+   "text": "141 III 159"
+  },
+  {
+   "start": 3962,
+   "end": 3973,
+   "label": "BGE",
+   "text": "139 III 209"
+  },
+  {
+   "start": 4307,
+   "end": 4320,
+   "label": "BGE",
+   "text": "BGE 135 III 1"
+  },
+  {
+   "start": 4588,
+   "end": 4602,
+   "label": "BGE",
+   "text": "BGE 139 II 340"
+  },
+  {
+   "start": 4819,
+   "end": 4844,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 Satz 2 BGG"
+  },
+  {
+   "start": 7181,
+   "end": 7199,
+   "label": "STATUTE",
+   "text": "Art. 394 Abs. 3 OR"
+  },
+  {
+   "start": 7216,
+   "end": 7231,
+   "label": "BGE",
+   "text": "BGE 127 III 421"
+  },
+  {
+   "start": 7472,
+   "end": 7488,
+   "label": "STATUTE",
+   "text": "Art. 113-119 BGG"
+  },
+  {
+   "start": 7600,
+   "end": 7612,
+   "label": "STATUTE",
+   "text": "Art. 116 BGG"
+  },
+  {
+   "start": 7845,
+   "end": 7891,
+   "label": "STATUTE",
+   "text": "Art. 117 in Verbindung mit\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 8069,
+   "end": 8084,
+   "label": "BGE",
+   "text": "BGE 135 III 232"
+  },
+  {
+   "start": 8094,
+   "end": 8102,
+   "label": "BGE",
+   "text": "134 I 83"
+  },
+  {
+   "start": 8838,
+   "end": 8855,
+   "label": "STATUTE",
+   "text": "Art. 30 Abs. 1 BV"
+  },
+  {
+   "start": 8900,
+   "end": 8911,
+   "label": "DOCKET",
+   "text": "4A_149/2018"
+  },
+  {
+   "start": 9596,
+   "end": 9609,
+   "label": "BGE",
+   "text": "BGE 140 I 240"
+  },
+  {
+   "start": 9618,
+   "end": 9629,
+   "label": "BGE",
+   "text": "139 III 120"
+  },
+  {
+   "start": 9654,
+   "end": 9665,
+   "label": "DOCKET",
+   "text": "4A_370/2019"
+  },
+  {
+   "start": 9742,
+   "end": 9753,
+   "label": "DOCKET",
+   "text": "5A_738/2017"
+  },
+  {
+   "start": 10040,
+   "end": 10057,
+   "label": "STATUTE",
+   "text": "Art. 62 Abs. 1 OR"
+  },
+  {
+   "start": 10320,
+   "end": 10337,
+   "label": "STATUTE",
+   "text": "Art. 63 Abs. 1 OR"
+  },
+  {
+   "start": 11460,
+   "end": 11470,
+   "label": "STATUTE",
+   "text": "Art. 62 OR"
+  },
+  {
+   "start": 11569,
+   "end": 11586,
+   "label": "STATUTE",
+   "text": "Art. 63 Abs. 1 OR"
+  },
+  {
+   "start": 11706,
+   "end": 11723,
+   "label": "STATUTE",
+   "text": "Art. 63 Abs. 1 OR"
+  },
+  {
+   "start": 12191,
+   "end": 12200,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 12518,
+   "end": 12535,
+   "label": "STATUTE",
+   "text": "Art. 63 Abs. 1 OR"
+  },
+  {
+   "start": 12561,
+   "end": 12571,
+   "label": "DOCKET",
+   "text": "5C.51/2004"
+  },
+  {
+   "start": 12737,
+   "end": 12754,
+   "label": "STATUTE",
+   "text": "Art. 63 Abs. 1 OR"
+  },
+  {
+   "start": 13448,
+   "end": 13459,
+   "label": "DOCKET",
+   "text": "4A_665/2018"
+  },
+  {
+   "start": 15434,
+   "end": 15447,
+   "label": "STATUTE",
+   "text": "Art. 317 StGB"
+  },
+  {
+   "start": 15737,
+   "end": 15755,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 15859,
+   "end": 15877,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 16032,
+   "end": 16044,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 42,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

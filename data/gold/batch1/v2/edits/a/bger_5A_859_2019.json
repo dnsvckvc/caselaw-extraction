@@ -1,0 +1,9 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {"text": "Art. 27 Abs. 3 VSB 2020", "label": "CONTRACT_ARTICLE"}
+  ],
+  "comment": "All 17 proposals correct. Added 'Art. 27 Abs. 3 VSB 2020' (Sorgfaltspflichtvereinbarung der Banken, a private self-regulation agreement) as CONTRACT_ARTICLE. 'VSB 2008' alone has no article, no span. #43 'BlSchK 1981 S. 133' is followed by ', 137' (second page) which stays outside the span."
+}

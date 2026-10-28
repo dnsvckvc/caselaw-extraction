@@ -1,0 +1,91 @@
+{
+ "decision_id": "bger_4A_37_2020",
+ "task_index": 14,
+ "pass": "c",
+ "outcome": "moot",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 613,
+   "end": 631,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 759,
+   "end": 777,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1184,
+   "end": 1195,
+   "label": "DOCKET",
+   "text": "4A_613/2019"
+  },
+  {
+   "start": 2049,
+   "end": 2060,
+   "label": "DOCKET",
+   "text": "4A_613/2019"
+  },
+  {
+   "start": 2416,
+   "end": 2427,
+   "label": "DOCKET",
+   "text": "4A_613/2019"
+  },
+  {
+   "start": 2569,
+   "end": 2580,
+   "label": "DOCKET",
+   "text": "4A_613/2019"
+  },
+  {
+   "start": 2928,
+   "end": 2939,
+   "label": "DOCKET",
+   "text": "4A_613/2019"
+  },
+  {
+   "start": 3223,
+   "end": 3241,
+   "label": "STATUTE",
+   "text": "Art. 32 Abs. 2 BGG"
+  },
+  {
+   "start": 3438,
+   "end": 3475,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 3 und\nArt. 68 Abs. 4 BGG"
+  },
+  {
+   "start": 4260,
+   "end": 4278,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 4283,
+   "end": 4296,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 8 Abs. 3"
+  },
+  {
+   "start": 4592,
+   "end": 4602,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  },
+  {
+   "start": 4738,
+   "end": 4748,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 13,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

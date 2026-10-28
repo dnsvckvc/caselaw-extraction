@@ -1,0 +1,18 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    5
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Fr. 30'0 00.00",
+      "label": "AMOUNT"
+    },
+    {
+      "text": "Art. 336c Abs. 2 i.V.m. Abs. 1 lit. b OR",
+      "label": "STATUTE"
+    }
+  ],
+  "comment": "deleted truncated AMOUNT #5 (Fr. 30) and re-added the full garbled token Fr. 30'0 00.00 (stray space from text extraction). Added missed Art. 336c Abs. 2 i.V.m. Abs. 1 lit. b OR (E. 6). Left F r. 30'000.00 in the quoted dispositiv unlabelled: currency token broken (F r.), rules do not cover it."
+}

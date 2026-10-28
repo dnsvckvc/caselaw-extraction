@@ -1,0 +1,18 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  4
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c und Art. 75 Abs. 1 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "133 III 489",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Extended the chain Art. 72 Abs. 2 lit. a, Art. 74 Abs. 2 lit. c und Art. 75 Abs. 1 BGG (Art. 19 SchKG before it is its own span). Added one BGE list item. Left unlabelled: 'Art. 6 der Verordnung vom 5. Juni 1996 ... (VFRR; SR 281.31)', because the abbreviation follows the full law name, a date and a bracket. The later short form Art. 6 VFRR is labelled."
+}

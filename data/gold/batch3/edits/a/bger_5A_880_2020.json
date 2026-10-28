@@ -1,0 +1,21 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  44,
+  45,
+  56
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 134 mit Art. 315a/b ZGB",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 10",
+   "label": "BARE_ARTICLE",
+   "occurrence": 4
+  }
+ ],
+ "comment": "#56 CONTRACT_ARTICLE Art. 10 des Reglements replaced by BARE_ARTICLE Art. 10: the Reglement carries SR 173.110.210.3 and is an act. #44 BARE_ARTICLE Art. 134 and #45 BARE_ARTICLE Art. 315a (which cut off /b ZGB) replaced by one STATUTE span Art. 134 mit Art. 315a/b ZGB, reading mit like in Verbindung mit so both articles share the trailing ZGB (unsettled: guideline lists comma, bzw., sowie, i.V.m. but not a bare mit). Lone Abs. 1/2/3 after Art. 134 ZGB, cantonal number 400 19 244 wik and Rz.-only book citations left unlabelled."
+}

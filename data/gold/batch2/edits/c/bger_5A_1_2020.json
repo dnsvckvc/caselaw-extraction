@@ -1,0 +1,7 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "Header lists no role word for the opposing parties (Betreibungsamt, Kanton und Stadt Zuerich), so only one PARTY_ROLE."
+}

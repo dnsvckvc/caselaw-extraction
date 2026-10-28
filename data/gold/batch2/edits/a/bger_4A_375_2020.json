@@ -1,0 +1,16 @@
+{
+  "outcome": "inadmissible",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art 113 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "I 302/96",
+      "label": "DOCKET"
+    }
+  ],
+  "comment": "Two appeals with different results: item 1 subsidiaere Verfassungsbeschwerde nicht eingetreten (taken), item 2 Beschwerde in Zivilsachen abgewiesen soweit darauf einzutreten. Added Art 113 BGG (source lacks the dot after Art). Added I 302/96 (old-format EVG file number cited as Urteil). Left BGE 142 II [recte: III] 798 unlabelled because the key contains a bracketed correction; rules do not cover this. #26 and #32 second page numbers (115 E. 2; 264 E. 2.3) left unlabelled per rule although they are different decisions."
+}

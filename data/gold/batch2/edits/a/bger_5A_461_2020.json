@@ -1,0 +1,7 @@
+{
+  "outcome": "inadmissible",
+  "delete": [],
+  "relabel": [],
+  "add": [],
+  "comment": "All 41 pre-annotations correct. #40 text has a missing space (Art. 68Abs. 1 und 2 BGG) in the source; span kept."
+}

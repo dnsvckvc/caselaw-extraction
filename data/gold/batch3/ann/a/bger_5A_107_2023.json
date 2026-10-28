@@ -1,0 +1,859 @@
+{
+ "decision_id": "bger_5A_107_2023",
+ "task_index": 106,
+ "pass": "a",
+ "outcome": "partial_approval",
+ "comment": "all 141 pre-annotations confirmed; bracketed bare-number calculations such as [438.50 - 123.35] have no currency token and are not spans",
+ "spans": [
+  {
+   "start": 356,
+   "end": 374,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 445,
+   "end": 461,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1134,
+   "end": 1146,
+   "label": "STATUTE",
+   "text": "Art. 112 ZGB"
+  },
+  {
+   "start": 1947,
+   "end": 1957,
+   "label": "AMOUNT",
+   "text": "Fr. 438.50"
+  },
+  {
+   "start": 1959,
+   "end": 1969,
+   "label": "AMOUNT",
+   "text": "Fr. 438.--"
+  },
+  {
+   "start": 1987,
+   "end": 1997,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  },
+  {
+   "start": 1999,
+   "end": 2009,
+   "label": "AMOUNT",
+   "text": "Fr. 140.--"
+  },
+  {
+   "start": 2076,
+   "end": 2086,
+   "label": "AMOUNT",
+   "text": "Fr. 512.--"
+  },
+  {
+   "start": 2088,
+   "end": 2098,
+   "label": "AMOUNT",
+   "text": "Fr. 516.--"
+  },
+  {
+   "start": 2116,
+   "end": 2126,
+   "label": "AMOUNT",
+   "text": "Fr. 438.--"
+  },
+  {
+   "start": 2128,
+   "end": 2138,
+   "label": "AMOUNT",
+   "text": "Fr. 202.--"
+  },
+  {
+   "start": 2208,
+   "end": 2218,
+   "label": "AMOUNT",
+   "text": "Fr. 455.--"
+  },
+  {
+   "start": 2220,
+   "end": 2230,
+   "label": "AMOUNT",
+   "text": "Fr. 573.--"
+  },
+  {
+   "start": 2248,
+   "end": 2258,
+   "label": "AMOUNT",
+   "text": "Fr. 581.--"
+  },
+  {
+   "start": 2260,
+   "end": 2270,
+   "label": "AMOUNT",
+   "text": "Fr. 259.--"
+  },
+  {
+   "start": 2272,
+   "end": 2281,
+   "label": "AMOUNT",
+   "text": "Fr. 59.--"
+  },
+  {
+   "start": 2359,
+   "end": 2369,
+   "label": "AMOUNT",
+   "text": "Fr. 532.--"
+  },
+  {
+   "start": 2371,
+   "end": 2381,
+   "label": "AMOUNT",
+   "text": "Fr. 118.--"
+  },
+  {
+   "start": 2399,
+   "end": 2409,
+   "label": "AMOUNT",
+   "text": "Fr. 522.--"
+  },
+  {
+   "start": 2411,
+   "end": 2421,
+   "label": "AMOUNT",
+   "text": "Fr. 118.--"
+  },
+  {
+   "start": 2559,
+   "end": 2569,
+   "label": "AMOUNT",
+   "text": "Fr. 505.--"
+  },
+  {
+   "start": 2571,
+   "end": 2581,
+   "label": "AMOUNT",
+   "text": "Fr. 145.--"
+  },
+  {
+   "start": 2599,
+   "end": 2609,
+   "label": "AMOUNT",
+   "text": "Fr. 505.--"
+  },
+  {
+   "start": 2611,
+   "end": 2621,
+   "label": "AMOUNT",
+   "text": "Fr. 145.--"
+  },
+  {
+   "start": 2990,
+   "end": 3000,
+   "label": "AMOUNT",
+   "text": "Fr. 123.35"
+  },
+  {
+   "start": 3002,
+   "end": 3012,
+   "label": "AMOUNT",
+   "text": "Fr. 315.15"
+  },
+  {
+   "start": 3048,
+   "end": 3058,
+   "label": "AMOUNT",
+   "text": "Fr. 124.85"
+  },
+  {
+   "start": 3060,
+   "end": 3070,
+   "label": "AMOUNT",
+   "text": "Fr. 515.15"
+  },
+  {
+   "start": 3159,
+   "end": 3169,
+   "label": "AMOUNT",
+   "text": "Fr. 175.--"
+  },
+  {
+   "start": 3171,
+   "end": 3181,
+   "label": "AMOUNT",
+   "text": "Fr. 339.--"
+  },
+  {
+   "start": 3217,
+   "end": 3227,
+   "label": "AMOUNT",
+   "text": "Fr. 101.--"
+  },
+  {
+   "start": 3229,
+   "end": 3239,
+   "label": "AMOUNT",
+   "text": "Fr. 539.--"
+  },
+  {
+   "start": 3320,
+   "end": 3330,
+   "label": "AMOUNT",
+   "text": "Fr. 110.--"
+  },
+  {
+   "start": 3332,
+   "end": 3342,
+   "label": "AMOUNT",
+   "text": "Fr. 404.--"
+  },
+  {
+   "start": 3378,
+   "end": 3388,
+   "label": "AMOUNT",
+   "text": "Fr. 236.--"
+  },
+  {
+   "start": 3390,
+   "end": 3400,
+   "label": "AMOUNT",
+   "text": "Fr. 604.--"
+  },
+  {
+   "start": 3477,
+   "end": 3487,
+   "label": "AMOUNT",
+   "text": "Fr. 110.--"
+  },
+  {
+   "start": 3489,
+   "end": 3499,
+   "label": "AMOUNT",
+   "text": "Fr. 404.--"
+  },
+  {
+   "start": 3534,
+   "end": 3544,
+   "label": "AMOUNT",
+   "text": "Fr. 236.--"
+  },
+  {
+   "start": 3546,
+   "end": 3556,
+   "label": "AMOUNT",
+   "text": "Fr. 404.--"
+  },
+  {
+   "start": 3634,
+   "end": 3644,
+   "label": "AMOUNT",
+   "text": "Fr. 162.--"
+  },
+  {
+   "start": 3646,
+   "end": 3656,
+   "label": "AMOUNT",
+   "text": "Fr. 488.--"
+  },
+  {
+   "start": 3692,
+   "end": 3702,
+   "label": "AMOUNT",
+   "text": "Fr. 152.--"
+  },
+  {
+   "start": 3704,
+   "end": 3714,
+   "label": "AMOUNT",
+   "text": "Fr. 488.--"
+  },
+  {
+   "start": 3855,
+   "end": 3865,
+   "label": "AMOUNT",
+   "text": "Fr. 108.--"
+  },
+  {
+   "start": 3867,
+   "end": 3877,
+   "label": "AMOUNT",
+   "text": "Fr. 542.--"
+  },
+  {
+   "start": 3913,
+   "end": 3923,
+   "label": "AMOUNT",
+   "text": "Fr. 108.--"
+  },
+  {
+   "start": 3925,
+   "end": 3935,
+   "label": "AMOUNT",
+   "text": "Fr. 542.--"
+  },
+  {
+   "start": 4316,
+   "end": 4328,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  },
+  {
+   "start": 5207,
+   "end": 5218,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 5256,
+   "end": 5267,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 5383,
+   "end": 5401,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 5545,
+   "end": 5559,
+   "label": "BGE",
+   "text": "BGE 137 III 47"
+  },
+  {
+   "start": 5639,
+   "end": 5664,
+   "label": "STATUTE",
+   "text": "Art. 51 Abs. 1 Bst. a BGG"
+  },
+  {
+   "start": 5963,
+   "end": 5976,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 5978,
+   "end": 6003,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 Bst. b BGG"
+  },
+  {
+   "start": 6112,
+   "end": 6130,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 6170,
+   "end": 6189,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 6197,
+   "end": 6222,
+   "label": "STATUTE",
+   "text": "Art. 46 Abs. 1 Bst. c BGG"
+  },
+  {
+   "start": 6302,
+   "end": 6316,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 6406,
+   "end": 6425,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 6808,
+   "end": 6823,
+   "label": "BGE",
+   "text": "BGE 141 III 426"
+  },
+  {
+   "start": 7045,
+   "end": 7063,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 7230,
+   "end": 7249,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 7353,
+   "end": 7368,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 7485,
+   "end": 7503,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 7633,
+   "end": 7648,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 7736,
+   "end": 7751,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 7760,
+   "end": 7771,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 7894,
+   "end": 7913,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 8058,
+   "end": 8067,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 8070,
+   "end": 8085,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 8158,
+   "end": 8169,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 8176,
+   "end": 8193,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 8199,
+   "end": 8209,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 8376,
+   "end": 8394,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 8397,
+   "end": 8412,
+   "label": "BGE",
+   "text": "BGE 137 III 226"
+  },
+  {
+   "start": 8459,
+   "end": 8478,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 8686,
+   "end": 8700,
+   "label": "BGE",
+   "text": "BGE 141 IV 317"
+  },
+  {
+   "start": 8709,
+   "end": 8720,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 8903,
+   "end": 8914,
+   "label": "DOCKET",
+   "text": "5A_907/2019"
+  },
+  {
+   "start": 9420,
+   "end": 9434,
+   "label": "BGE",
+   "text": "BGE 144 II 281"
+  },
+  {
+   "start": 9445,
+   "end": 9456,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 9617,
+   "end": 9631,
+   "label": "BGE",
+   "text": "BGE 144 II 281"
+  },
+  {
+   "start": 9642,
+   "end": 9652,
+   "label": "BGE",
+   "text": "142 II 433"
+  },
+  {
+   "start": 9816,
+   "end": 9834,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 10029,
+   "end": 10044,
+   "label": "BGE",
+   "text": "BGE 139 III 120"
+  },
+  {
+   "start": 10062,
+   "end": 10073,
+   "label": "DOCKET",
+   "text": "5A_121/2022"
+  },
+  {
+   "start": 10255,
+   "end": 10268,
+   "label": "BGE",
+   "text": "BGE 143 I 344"
+  },
+  {
+   "start": 10991,
+   "end": 11006,
+   "label": "BGE",
+   "text": "BGE 134 III 332"
+  },
+  {
+   "start": 11154,
+   "end": 11168,
+   "label": "BGE",
+   "text": "BGE 142 IV 129"
+  },
+  {
+   "start": 11177,
+   "end": 11188,
+   "label": "BGE",
+   "text": "140 III 456"
+  },
+  {
+   "start": 11199,
+   "end": 11210,
+   "label": "BGE",
+   "text": "136 III 502"
+  },
+  {
+   "start": 11882,
+   "end": 11897,
+   "label": "BGE",
+   "text": "BGE 144 III 481"
+  },
+  {
+   "start": 11915,
+   "end": 11925,
+   "label": "DOCKET",
+   "text": "5A_98/2016"
+  },
+  {
+   "start": 12099,
+   "end": 12111,
+   "label": "AMOUNT",
+   "text": "Fr. 4'560.--"
+  },
+  {
+   "start": 13153,
+   "end": 13165,
+   "label": "AMOUNT",
+   "text": "Fr. 4'211.34"
+  },
+  {
+   "start": 13188,
+   "end": 13200,
+   "label": "AMOUNT",
+   "text": "Fr. 2'447.20"
+  },
+  {
+   "start": 13224,
+   "end": 13236,
+   "label": "AMOUNT",
+   "text": "Fr. 2'864.72"
+  },
+  {
+   "start": 13260,
+   "end": 13272,
+   "label": "AMOUNT",
+   "text": "Fr. 2'447.20"
+  },
+  {
+   "start": 13320,
+   "end": 13333,
+   "label": "AMOUNT",
+   "text": "Fr. 33'027.16"
+  },
+  {
+   "start": 13382,
+   "end": 13394,
+   "label": "AMOUNT",
+   "text": "Fr. 3'669.70"
+  },
+  {
+   "start": 13502,
+   "end": 13514,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  },
+  {
+   "start": 15506,
+   "end": 15518,
+   "label": "AMOUNT",
+   "text": "Fr. 4'560.--"
+  },
+  {
+   "start": 15865,
+   "end": 15877,
+   "label": "AMOUNT",
+   "text": "Fr. 6'479.--"
+  },
+  {
+   "start": 15887,
+   "end": 15899,
+   "label": "AMOUNT",
+   "text": "Fr. 5'500.--"
+  },
+  {
+   "start": 17511,
+   "end": 17526,
+   "label": "BGE",
+   "text": "BGE 143 III 233"
+  },
+  {
+   "start": 17535,
+   "end": 17546,
+   "label": "BGE",
+   "text": "137 III 118"
+  },
+  {
+   "start": 17952,
+   "end": 17964,
+   "label": "STATUTE",
+   "text": "Art. 151 ZPO"
+  },
+  {
+   "start": 18225,
+   "end": 18234,
+   "label": "DOCKET",
+   "text": "5A_7/2021"
+  },
+  {
+   "start": 18287,
+   "end": 18301,
+   "label": "BGE",
+   "text": "BGE 143 IV 380"
+  },
+  {
+   "start": 18312,
+   "end": 18322,
+   "label": "BGE",
+   "text": "135 III 88"
+  },
+  {
+   "start": 18391,
+   "end": 18404,
+   "label": "BGE",
+   "text": "BGE 128 III 4"
+  },
+  {
+   "start": 18422,
+   "end": 18434,
+   "label": "DOCKET",
+   "text": "5A_1048/2019"
+  },
+  {
+   "start": 18581,
+   "end": 18592,
+   "label": "DOCKET",
+   "text": "5A_812/2022"
+  },
+  {
+   "start": 19156,
+   "end": 19175,
+   "label": "STATUTE",
+   "text": "Art. 296 Abs. 1 ZPO"
+  },
+  {
+   "start": 19178,
+   "end": 19193,
+   "label": "BGE",
+   "text": "BGE 148 III 270"
+  },
+  {
+   "start": 19607,
+   "end": 19620,
+   "label": "BGE",
+   "text": "BGE 130 I 180"
+  },
+  {
+   "start": 19629,
+   "end": 19640,
+   "label": "BGE",
+   "text": "128 III 411"
+  },
+  {
+   "start": 19658,
+   "end": 19669,
+   "label": "DOCKET",
+   "text": "5A_463/2022"
+  },
+  {
+   "start": 20037,
+   "end": 20049,
+   "label": "AMOUNT",
+   "text": "Fr. 4'560.--"
+  },
+  {
+   "start": 20374,
+   "end": 20386,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  },
+  {
+   "start": 21214,
+   "end": 21233,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 1 BGG"
+  },
+  {
+   "start": 21410,
+   "end": 21425,
+   "label": "BGE",
+   "text": "BGE 135 III 334"
+  },
+  {
+   "start": 21506,
+   "end": 21518,
+   "label": "STATUTE",
+   "text": "Art. 107 BGG"
+  },
+  {
+   "start": 21601,
+   "end": 21613,
+   "label": "STATUTE",
+   "text": "Art. 107 BGG"
+  },
+  {
+   "start": 22644,
+   "end": 22654,
+   "label": "AMOUNT",
+   "text": "Fr. 438.50"
+  },
+  {
+   "start": 22809,
+   "end": 22819,
+   "label": "AMOUNT",
+   "text": "Fr. 877.--"
+  },
+  {
+   "start": 22942,
+   "end": 22954,
+   "label": "AMOUNT",
+   "text": "Fr. 3'500.--"
+  },
+  {
+   "start": 23808,
+   "end": 23828,
+   "label": "STATUTE",
+   "text": "Art. 287a Bst. c ZGB"
+  },
+  {
+   "start": 23833,
+   "end": 23853,
+   "label": "STATUTE",
+   "text": "Art. 301a Bst. c ZPO"
+  },
+  {
+   "start": 23866,
+   "end": 23881,
+   "label": "BGE",
+   "text": "BGE 147 III 265"
+  },
+  {
+   "start": 24347,
+   "end": 24357,
+   "label": "AMOUNT",
+   "text": "Fr. 438.50"
+  },
+  {
+   "start": 25077,
+   "end": 25088,
+   "label": "DOCKET",
+   "text": "5A_737/2018"
+  },
+  {
+   "start": 25728,
+   "end": 25765,
+   "label": "STATUTE",
+   "text": "Art. 65 Abs. 1 und\nArt. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 25920,
+   "end": 25938,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 26098,
+   "end": 26116,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 2 BGG"
+  },
+  {
+   "start": 26305,
+   "end": 26323,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 4 BGG"
+  },
+  {
+   "start": 27189,
+   "end": 27201,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  },
+  {
+   "start": 27384,
+   "end": 27396,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  },
+  {
+   "start": 27483,
+   "end": 27495,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  }
+ ],
+ "n_pre": 141,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

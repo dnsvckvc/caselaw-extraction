@@ -1,0 +1,18 @@
+{
+ "outcome": "approved",
+ "delete": [
+  4,
+  41,
+  42,
+  43,
+  44
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 20 der zwischen den Parteien geltenden Allgemeinen Versicherungsbedingungen für die kollektive Taggeldversicherung nach VVG",
+   "label": "CONTRACT_ARTICLE"
+  }
+ ],
+ "comment": "#4: long-form AVB reference is CONTRACT_ARTICLE up to the instrument name, stop before (AVB); included nach VVG since it precedes the bracket. #41-44: clause headings (Art. 11, 20, 23, 24) inside the quoted AVB text are labels, no span. #45 Art. 20 - 23 inside the quote is a reference, kept as BARE_ARTICLE. Same-volume short citations 799, 115, 264 kept as BGE. ZV.2020.18 cantonal, SR numbers: no span."
+}

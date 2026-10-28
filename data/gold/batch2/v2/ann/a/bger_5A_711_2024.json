@@ -1,0 +1,115 @@
+{
+ "decision_id": "bger_5A_711_2024",
+ "task_index": 65,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 252,
+   "end": 268,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 955,
+   "end": 967,
+   "label": "STATUTE",
+   "text": "Art. 394 ZGB"
+  },
+  {
+   "start": 1381,
+   "end": 1393,
+   "label": "STATUTE",
+   "text": "Art. 395 ZGB"
+  },
+  {
+   "start": 1592,
+   "end": 1611,
+   "label": "STATUTE",
+   "text": "Art. 394 Abs. 2 ZGB"
+  },
+  {
+   "start": 2161,
+   "end": 2173,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  },
+  {
+   "start": 2625,
+   "end": 2643,
+   "label": "STATUTE",
+   "text": "Art. 41 Abs. 1 BGG"
+  },
+  {
+   "start": 3266,
+   "end": 3284,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3623,
+   "end": 3637,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 3644,
+   "end": 3655,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 3763,
+   "end": 3782,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 3959,
+   "end": 3970,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 4068,
+   "end": 4086,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 4190,
+   "end": 4209,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4212,
+   "end": 4226,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 4237,
+   "end": 4248,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 7442,
+   "end": 7474,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 7571,
+   "end": 7589,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  }
+ ],
+ "n_pre": 17,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

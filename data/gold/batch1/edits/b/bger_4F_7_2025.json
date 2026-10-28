@@ -1,0 +1,28 @@
+{
+ "outcome": "partial_approval",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 121-123 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 42 Abs. 1 und Abs. 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 121 lit. b-d BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "134 III 379",
+   "label": "BGE"
+  },
+  {
+   "text": "Fr 6'000.--",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "Added three missing statutes (ranges and 'Abs. 1 und Abs. 2'). Added one BGE list item. Added 'Fr 6'000.--' (currency token written without the dot in the source). EGMR application number 4976/20 and cantonal OG.2012.00042 are not dockets."
+}

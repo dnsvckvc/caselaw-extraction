@@ -1,0 +1,45 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Ziff. 1 der Vereinbarung",
+      "label": "CONTRACT_ARTICLE"
+    },
+    {
+      "text": "Ziff. 5 des Vergleichs",
+      "label": "CONTRACT_ARTICLE"
+    },
+    {
+      "text": "Ziff. 2 i.V.m. Ziff. 6 des Vergleichs",
+      "label": "CONTRACT_ARTICLE"
+    },
+    {
+      "text": "Ziff. 1 des Vergleichs",
+      "label": "CONTRACT_ARTICLE"
+    },
+    {
+      "text": "Ziffer 1 des Vergleichs",
+      "label": "CONTRACT_ARTICLE",
+      "all": true
+    },
+    {
+      "text": "Ziffer 1 Absatz 1 des Vergleichs",
+      "label": "CONTRACT_ARTICLE"
+    },
+    {
+      "text": "Ziffer 2 der Vergleichsvereinbarung",
+      "label": "CONTRACT_ARTICLE"
+    },
+    {
+      "text": "Ziffer 1 Absatz 2 des Vergleichs",
+      "label": "CONTRACT_ARTICLE"
+    },
+    {
+      "text": "Ziffer 2 des Vergleichs",
+      "label": "CONTRACT_ARTICLE"
+    }
+  ],
+  "comment": "Court settlement (Vergleich) treated as private instrument. Spelled-out Ziffer treated like Ziff. (guideline lists only Ziff.). Bare Ziff./Ziffer without instrument (e.g. Ziffer 1 Absatz 2, Ziff. 3) left without span: BARE_ARTICLE covers only Art./§."
+}

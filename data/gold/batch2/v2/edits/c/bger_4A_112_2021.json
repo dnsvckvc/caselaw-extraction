@@ -1,0 +1,31 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  55,
+  56
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "SZIER 2013, S. 555",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "Revue de l'Arbitrage, 2008, S. 768",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "SRIEL 2017, S. 456",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "ZBJV 2009, S. 382",
+   "label": "JOURNAL_REF"
+  },
+  {
+   "text": "Revue de l'arbitrage, 2016, S. 1187",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "Journal proposals #55/#56 stopped before the page; redrawn to include page. Revue de l'Arbitrage cited by full title (no abbreviation) added as JOURNAL_REF. 'Artikel 22' (spelled out, Konsortialvertrag named earlier) left without span."
+}

@@ -1,0 +1,13 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  56
+ ],
+ "add": [
+  {
+   "text": "Art. 71 Abs. 1 der ZPO",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "#56 'Art. 71 Abs. 1 der ZPO': the code is named by abbreviation after 'der'; labelled STATUTE including 'der ZPO'. Guideline does not settle 'der <abbr>' forms."
+}

@@ -1,0 +1,379 @@
+{
+ "decision_id": "bger_5A_164_2023",
+ "task_index": 97,
+ "pass": "c",
+ "outcome": "approved",
+ "comment": "Both Reglemente have SR numbers, so BARE_ARTICLE. 'Jusletter vom 25. April 2005, Rz.8' left without span (no page/number).",
+ "spans": [
+  {
+   "start": 330,
+   "end": 348,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 420,
+   "end": 436,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1268,
+   "end": 1280,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  },
+  {
+   "start": 1865,
+   "end": 1878,
+   "label": "AMOUNT",
+   "text": "Fr. 10'000.--"
+  },
+  {
+   "start": 2006,
+   "end": 2019,
+   "label": "AMOUNT",
+   "text": "Fr. 10'000.--"
+  },
+  {
+   "start": 2990,
+   "end": 3002,
+   "label": "AMOUNT",
+   "text": "Fr. 5'000.--"
+  },
+  {
+   "start": 3668,
+   "end": 3679,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 3972,
+   "end": 3983,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 3993,
+   "end": 4004,
+   "label": "DOCKET",
+   "text": "5A_292/2021"
+  },
+  {
+   "start": 4182,
+   "end": 4193,
+   "label": "DOCKET",
+   "text": "5A_174/2016"
+  },
+  {
+   "start": 4438,
+   "end": 4456,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 4507,
+   "end": 4522,
+   "label": "BGE",
+   "text": "BGE 137 III 380"
+  },
+  {
+   "start": 4627,
+   "end": 4645,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 4 BGG"
+  },
+  {
+   "start": 4703,
+   "end": 4728,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 4 lit. b BGG"
+  },
+  {
+   "start": 4736,
+   "end": 4749,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 3 Abs. 1"
+  },
+  {
+   "start": 4995,
+   "end": 5013,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 5045,
+   "end": 5064,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 5209,
+   "end": 5223,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 5334,
+   "end": 5353,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 5466,
+   "end": 5477,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 5486,
+   "end": 5497,
+   "label": "DOCKET",
+   "text": "5A_294/2021"
+  },
+  {
+   "start": 5541,
+   "end": 5555,
+   "label": "BGE",
+   "text": "BGE 148 III 95"
+  },
+  {
+   "start": 5563,
+   "end": 5578,
+   "label": "BGE",
+   "text": "BGE 133 III 393"
+  },
+  {
+   "start": 6055,
+   "end": 6071,
+   "label": "STATUTE",
+   "text": "Art. 117 ff. ZPO"
+  },
+  {
+   "start": 6116,
+   "end": 6133,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 3 BV"
+  },
+  {
+   "start": 6151,
+   "end": 6166,
+   "label": "BGE",
+   "text": "BGE 142 III 131"
+  },
+  {
+   "start": 6196,
+   "end": 6208,
+   "label": "STATUTE",
+   "text": "Art. 117 ZPO"
+  },
+  {
+   "start": 6238,
+   "end": 6255,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 3 BV"
+  },
+  {
+   "start": 6274,
+   "end": 6285,
+   "label": "DOCKET",
+   "text": "4A_384/2015"
+  },
+  {
+   "start": 6353,
+   "end": 6370,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 3 BV"
+  },
+  {
+   "start": 6384,
+   "end": 6399,
+   "label": "BGE",
+   "text": "BGE 142 III 131"
+  },
+  {
+   "start": 6463,
+   "end": 6480,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 3 BV"
+  },
+  {
+   "start": 7320,
+   "end": 7332,
+   "label": "STATUTE",
+   "text": "Art. 119 ZPO"
+  },
+  {
+   "start": 7608,
+   "end": 7621,
+   "label": "BGE",
+   "text": "BGE 131 I 113"
+  },
+  {
+   "start": 7820,
+   "end": 7835,
+   "label": "BGE",
+   "text": "BGE 147 III 419"
+  },
+  {
+   "start": 7844,
+   "end": 7854,
+   "label": "BGE",
+   "text": "140 II 298"
+  },
+  {
+   "start": 7955,
+   "end": 7966,
+   "label": "STATUTE",
+   "text": "Art. 62 ZPO"
+  },
+  {
+   "start": 8082,
+   "end": 8094,
+   "label": "STATUTE",
+   "text": "Art. 119 ZPO"
+  },
+  {
+   "start": 8177,
+   "end": 8189,
+   "label": "STATUTE",
+   "text": "Art. 119 ZPO"
+  },
+  {
+   "start": 9243,
+   "end": 9254,
+   "label": "DOCKET",
+   "text": "5A_843/2009"
+  },
+  {
+   "start": 10926,
+   "end": 10937,
+   "label": "DOCKET",
+   "text": "5A_843/2009"
+  },
+  {
+   "start": 11393,
+   "end": 11402,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 11459,
+   "end": 11468,
+   "label": "STATUTE",
+   "text": "Art. 5 BV"
+  },
+  {
+   "start": 11510,
+   "end": 11521,
+   "label": "DOCKET",
+   "text": "5A_843/2009"
+  },
+  {
+   "start": 13598,
+   "end": 13612,
+   "label": "BGE",
+   "text": "BGE 148 III 21"
+  },
+  {
+   "start": 13885,
+   "end": 13900,
+   "label": "BGE",
+   "text": "BGE 139 III 334"
+  },
+  {
+   "start": 14412,
+   "end": 14425,
+   "label": "BGE",
+   "text": "BGE 122 I 322"
+  },
+  {
+   "start": 14935,
+   "end": 14945,
+   "label": "DOCKET",
+   "text": "6F_20/2019"
+  },
+  {
+   "start": 14971,
+   "end": 14980,
+   "label": "DOCKET",
+   "text": "5G_1/2015"
+  },
+  {
+   "start": 15006,
+   "end": 15025,
+   "label": "STATUTE",
+   "text": "Art. 119 Abs. 1 ZPO"
+  },
+  {
+   "start": 15808,
+   "end": 15821,
+   "label": "BGE",
+   "text": "BGE 122 I 322"
+  },
+  {
+   "start": 16115,
+   "end": 16132,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 3 BV"
+  },
+  {
+   "start": 17034,
+   "end": 17052,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 4 BGG"
+  },
+  {
+   "start": 17161,
+   "end": 17185,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 17262,
+   "end": 17273,
+   "label": "DOCKET",
+   "text": "5A_734/2015"
+  },
+  {
+   "start": 17318,
+   "end": 17332,
+   "label": "BGE",
+   "text": "BGE 142 III 36"
+  },
+  {
+   "start": 17531,
+   "end": 17543,
+   "label": "AMOUNT",
+   "text": "Fr. 3'600.--"
+  },
+  {
+   "start": 17589,
+   "end": 17599,
+   "label": "AMOUNT",
+   "text": "Fr. 180.--"
+  },
+  {
+   "start": 17822,
+   "end": 17828,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 6"
+  },
+  {
+   "start": 18015,
+   "end": 18027,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  },
+  {
+   "start": 18474,
+   "end": 18486,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 61,
+ "n_deleted": 2,
+ "n_added": 2,
+ "n_relabeled": 0
+}

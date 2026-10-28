@@ -1,0 +1,187 @@
+{
+ "decision_id": "bger_4A_180_2021",
+ "task_index": 43,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "'vgl. auch BGE 143 III 111 f.' looks truncated in the source; kept as BGE span.",
+ "spans": [
+  {
+   "start": 262,
+   "end": 278,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 346,
+   "end": 362,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 747,
+   "end": 760,
+   "label": "AMOUNT",
+   "text": "Fr. 16'800.--"
+  },
+  {
+   "start": 877,
+   "end": 890,
+   "label": "AMOUNT",
+   "text": "Fr. 42'000.--"
+  },
+  {
+   "start": 1588,
+   "end": 1606,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 1898,
+   "end": 1917,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 2154,
+   "end": 2166,
+   "label": "BGE",
+   "text": "BGE 141 IV 1"
+  },
+  {
+   "start": 2180,
+   "end": 2190,
+   "label": "BGE",
+   "text": "133 II 353"
+  },
+  {
+   "start": 2204,
+   "end": 2207,
+   "label": "BGE",
+   "text": "400"
+  },
+  {
+   "start": 2324,
+   "end": 2342,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 1 BGG"
+  },
+  {
+   "start": 2626,
+   "end": 2645,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 2648,
+   "end": 2663,
+   "label": "BGE",
+   "text": "BGE 134 III 379"
+  },
+  {
+   "start": 2672,
+   "end": 2683,
+   "label": "BGE",
+   "text": "133 III 489"
+  },
+  {
+   "start": 3126,
+   "end": 3141,
+   "label": "BGE",
+   "text": "BGE 143 III 111"
+  },
+  {
+   "start": 3150,
+   "end": 3161,
+   "label": "BGE",
+   "text": "134 III 235"
+  },
+  {
+   "start": 3200,
+   "end": 3215,
+   "label": "BGE",
+   "text": "BGE 143 III 111"
+  },
+  {
+   "start": 3390,
+   "end": 3403,
+   "label": "BGE",
+   "text": "BGE 136 V 131"
+  },
+  {
+   "start": 3419,
+   "end": 3430,
+   "label": "BGE",
+   "text": "134 III 379"
+  },
+  {
+   "start": 3446,
+   "end": 3457,
+   "label": "BGE",
+   "text": "133 III 489"
+  },
+  {
+   "start": 4049,
+   "end": 4062,
+   "label": "AMOUNT",
+   "text": "Fr. 16'800.--"
+  },
+  {
+   "start": 4087,
+   "end": 4100,
+   "label": "AMOUNT",
+   "text": "Fr. 42'000.--"
+  },
+  {
+   "start": 4496,
+   "end": 4509,
+   "label": "AMOUNT",
+   "text": "Fr. 56'000.--"
+  },
+  {
+   "start": 4522,
+   "end": 4535,
+   "label": "AMOUNT",
+   "text": "CHF 42'000.00"
+  },
+  {
+   "start": 4547,
+   "end": 4559,
+   "label": "AMOUNT",
+   "text": "CHF 3'000.00"
+  },
+  {
+   "start": 4598,
+   "end": 4611,
+   "label": "AMOUNT",
+   "text": "CHF 11'000.00"
+  },
+  {
+   "start": 5199,
+   "end": 5225,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 5330,
+   "end": 5348,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 5504,
+   "end": 5522,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 5639,
+   "end": 5649,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 29,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

@@ -1,0 +1,34 @@
+{
+  "outcome": "inadmissible",
+  "delete": [
+    2
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 72 Abs. 2 lit. b Ziff. 6, Art. 75 Abs. 1 und Art. 100 Abs. 1 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "141 III 80",
+      "label": "BGE"
+    },
+    {
+      "text": "141 IV 289",
+      "label": "BGE"
+    },
+    {
+      "text": "136 V 362",
+      "label": "BGE"
+    },
+    {
+      "text": "142 I 155",
+      "label": "BGE"
+    },
+    {
+      "text": "140 III 385",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Extended statute chain in E. 1; added five BGE list items without the BGE word."
+}

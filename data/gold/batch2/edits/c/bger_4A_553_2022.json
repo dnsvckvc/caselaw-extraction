@@ -1,0 +1,22 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  5
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 336c Abs. 2 i.V.m. Abs. 1 lit. b OR",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Fr. 30'0 00.00",
+   "label": "AMOUNT"
+  },
+  {
+   "text": "F r. 30'000.00",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "Two amounts in quoted dispositive text have extraction artefacts: \"F r. 30'000.00\" (space inside Fr.) and \"Fr. 30'0 00.00\" (space inside the number). I labelled both full amounts; pre-annotation #5 covered only \"Fr. 30\"."
+}

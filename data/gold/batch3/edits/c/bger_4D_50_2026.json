@@ -1,0 +1,12 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 66 Abs. 1 BGG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Art. 66 Abs. 1 BGG is glued to the preceding word (vonArt.) in the source text."
+}

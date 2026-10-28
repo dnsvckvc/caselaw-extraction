@@ -1,0 +1,16 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "135 III 66",
+   "label": "BGE"
+  },
+  {
+   "text": "132 III 770",
+   "label": "BGE"
+  }
+ ],
+ "comment": "added two BGE list items after BGE 148 III 270; French book title Commentaire des articles 79 à 84 LP left without span (title, not a reference)"
+}

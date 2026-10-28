@@ -1,0 +1,26 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  8
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "145 I 121",
+   "label": "BGE"
+  },
+  {
+   "text": "143 III 140",
+   "label": "BGE"
+  },
+  {
+   "text": "Art. 42 Abs. 2 und Art. 106 Abs. 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "140 III 115",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Extended one statute chain; added three BGE list items without the BGE word."
+}

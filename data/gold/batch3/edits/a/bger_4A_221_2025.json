@@ -1,0 +1,16 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  58,
+  71
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 324a/b OR",
+   "label": "STATUTE",
+   "all": true
+  }
+ ],
+ "comment": "#58 and #71 cut at Art. 324a; the full reference Art. 324a/b OR names the code, so STATUTE (same as Art. 315a/b ZGB in the clarifications)."
+}

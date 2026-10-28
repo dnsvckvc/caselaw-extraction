@@ -1,0 +1,313 @@
+{
+ "decision_id": "bger_5A_547_2025",
+ "task_index": 164,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "All pre-annotations checked, none wrong, nothing missing. Cantonal file number ZK 25 222 has no span.",
+ "spans": [
+  {
+   "start": 380,
+   "end": 398,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 488,
+   "end": 504,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1061,
+   "end": 1078,
+   "label": "AMOUNT",
+   "text": "Fr. 11'420'000.--"
+  },
+  {
+   "start": 1416,
+   "end": 1430,
+   "label": "AMOUNT",
+   "text": "Fr. 300'000.--"
+  },
+  {
+   "start": 1792,
+   "end": 1806,
+   "label": "AMOUNT",
+   "text": "Fr. 150'000.--"
+  },
+  {
+   "start": 1915,
+   "end": 1929,
+   "label": "AMOUNT",
+   "text": "Fr. 150'000.--"
+  },
+  {
+   "start": 1987,
+   "end": 2001,
+   "label": "AMOUNT",
+   "text": "Fr. 300'000.--"
+  },
+  {
+   "start": 2516,
+   "end": 2527,
+   "label": "STATUTE",
+   "text": "Art. 92 BGG"
+  },
+  {
+   "start": 2570,
+   "end": 2581,
+   "label": "STATUTE",
+   "text": "Art. 93 BGG"
+  },
+  {
+   "start": 2718,
+   "end": 2743,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 2746,
+   "end": 2761,
+   "label": "BGE",
+   "text": "BGE 142 III 798"
+  },
+  {
+   "start": 2781,
+   "end": 2792,
+   "label": "DOCKET",
+   "text": "5A_597/2023"
+  },
+  {
+   "start": 2819,
+   "end": 2830,
+   "label": "DOCKET",
+   "text": "5A_517/2017"
+  },
+  {
+   "start": 2878,
+   "end": 2903,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3143,
+   "end": 3158,
+   "label": "BGE",
+   "text": "BGE 144 III 475"
+  },
+  {
+   "start": 3167,
+   "end": 3178,
+   "label": "BGE",
+   "text": "143 III 416"
+  },
+  {
+   "start": 3187,
+   "end": 3197,
+   "label": "BGE",
+   "text": "141 III 80"
+  },
+  {
+   "start": 3319,
+   "end": 3334,
+   "label": "BGE",
+   "text": "BGE 141 III 395"
+  },
+  {
+   "start": 3445,
+   "end": 3460,
+   "label": "BGE",
+   "text": "BGE 147 III 159"
+  },
+  {
+   "start": 3469,
+   "end": 3480,
+   "label": "BGE",
+   "text": "144 III 475"
+  },
+  {
+   "start": 3489,
+   "end": 3500,
+   "label": "BGE",
+   "text": "142 III 798"
+  },
+  {
+   "start": 3686,
+   "end": 3701,
+   "label": "BGE",
+   "text": "BGE 147 III 159"
+  },
+  {
+   "start": 3710,
+   "end": 3718,
+   "label": "BGE",
+   "text": "142 V 26"
+  },
+  {
+   "start": 3956,
+   "end": 3981,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 4118,
+   "end": 4133,
+   "label": "BGE",
+   "text": "BGE 142 III 798"
+  },
+  {
+   "start": 4510,
+   "end": 4525,
+   "label": "BGE",
+   "text": "BGE 150 III 248"
+  },
+  {
+   "start": 4534,
+   "end": 4545,
+   "label": "BGE",
+   "text": "142 III 798"
+  },
+  {
+   "start": 4618,
+   "end": 4629,
+   "label": "DOCKET",
+   "text": "5A_597/2023"
+  },
+  {
+   "start": 4645,
+   "end": 4656,
+   "label": "DOCKET",
+   "text": "4A_309/2023"
+  },
+  {
+   "start": 4780,
+   "end": 4805,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5082,
+   "end": 5093,
+   "label": "DOCKET",
+   "text": "4A_226/2014"
+  },
+  {
+   "start": 5173,
+   "end": 5188,
+   "label": "BGE",
+   "text": "BGE 142 III 798"
+  },
+  {
+   "start": 5480,
+   "end": 5491,
+   "label": "DOCKET",
+   "text": "5A_772/2016"
+  },
+  {
+   "start": 5711,
+   "end": 5725,
+   "label": "AMOUNT",
+   "text": "Fr. 300'000.--"
+  },
+  {
+   "start": 6119,
+   "end": 6130,
+   "label": "DOCKET",
+   "text": "5A_653/2020"
+  },
+  {
+   "start": 6135,
+   "end": 6146,
+   "label": "DOCKET",
+   "text": "5A_832/2024"
+  },
+  {
+   "start": 6294,
+   "end": 6308,
+   "label": "AMOUNT",
+   "text": "Fr. 750'000.--"
+  },
+  {
+   "start": 6529,
+   "end": 6543,
+   "label": "AMOUNT",
+   "text": "Fr. 300'000.--"
+  },
+  {
+   "start": 6828,
+   "end": 6842,
+   "label": "AMOUNT",
+   "text": "Fr. 750'000.--"
+  },
+  {
+   "start": 7016,
+   "end": 7030,
+   "label": "AMOUNT",
+   "text": "Fr. 300'000.--"
+  },
+  {
+   "start": 7287,
+   "end": 7302,
+   "label": "BGE",
+   "text": "BGE 142 III 798"
+  },
+  {
+   "start": 7535,
+   "end": 7560,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 7963,
+   "end": 7974,
+   "label": "DOCKET",
+   "text": "5A_597/2023"
+  },
+  {
+   "start": 7988,
+   "end": 7998,
+   "label": "DOCKET",
+   "text": "4A_14/2016"
+  },
+  {
+   "start": 8045,
+   "end": 8060,
+   "label": "BGE",
+   "text": "BGE 142 III 798"
+  },
+  {
+   "start": 8130,
+   "end": 8148,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 8300,
+   "end": 8318,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 8406,
+   "end": 8424,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 3 BGG"
+  },
+  {
+   "start": 8663,
+   "end": 8677,
+   "label": "AMOUNT",
+   "text": "Fr. 300'000.--"
+  },
+  {
+   "start": 8718,
+   "end": 8730,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  }
+ ],
+ "n_pre": 50,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

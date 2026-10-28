@@ -1,0 +1,349 @@
+{
+ "decision_id": "bger_4A_500_2022",
+ "task_index": 91,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 652,
+   "end": 670,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 733,
+   "end": 749,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 3182,
+   "end": 3201,
+   "label": "STATUTE",
+   "text": "Art. 2 lit. a MSchG"
+  },
+  {
+   "start": 3811,
+   "end": 3844,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 2 BGG"
+  },
+  {
+   "start": 3965,
+   "end": 3983,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 4053,
+   "end": 4064,
+   "label": "STATUTE",
+   "text": "Art. 73 BGG"
+  },
+  {
+   "start": 4279,
+   "end": 4310,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 4463,
+   "end": 4474,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 4556,
+   "end": 4581,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4589,
+   "end": 4604,
+   "label": "BGE",
+   "text": "BGE 133 III 490"
+  },
+  {
+   "start": 4702,
+   "end": 4719,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 5115,
+   "end": 5129,
+   "label": "BGE",
+   "text": "BGE 148 III 30"
+  },
+  {
+   "start": 5191,
+   "end": 5210,
+   "label": "STATUTE",
+   "text": "Art. 2 lit. a MSchG"
+  },
+  {
+   "start": 5233,
+   "end": 5260,
+   "label": "STATUTE",
+   "text": "Art. 30 Abs. 2 lit. c MSchG"
+  },
+  {
+   "start": 5352,
+   "end": 5371,
+   "label": "STATUTE",
+   "text": "Art. 2 lit. a MSchG"
+  },
+  {
+   "start": 6383,
+   "end": 6398,
+   "label": "BGE",
+   "text": "BGE 148 III 257"
+  },
+  {
+   "start": 6409,
+   "end": 6420,
+   "label": "BGE",
+   "text": "145 III 178"
+  },
+  {
+   "start": 7102,
+   "end": 7117,
+   "label": "BGE",
+   "text": "BGE 145 III 178"
+  },
+  {
+   "start": 7138,
+   "end": 7149,
+   "label": "DOCKET",
+   "text": "4A_158/2022"
+  },
+  {
+   "start": 7720,
+   "end": 7735,
+   "label": "BGE",
+   "text": "BGE 148 III 257"
+  },
+  {
+   "start": 7746,
+   "end": 7757,
+   "label": "BGE",
+   "text": "145 III 178"
+  },
+  {
+   "start": 7887,
+   "end": 7898,
+   "label": "DOCKET",
+   "text": "4A_492/2022"
+  },
+  {
+   "start": 7948,
+   "end": 7963,
+   "label": "BGE",
+   "text": "BGE 145 III 178"
+  },
+  {
+   "start": 8204,
+   "end": 8216,
+   "label": "STATUTE",
+   "text": "Art. 2 MSchG"
+  },
+  {
+   "start": 8457,
+   "end": 8468,
+   "label": "DOCKET",
+   "text": "4A_158/2022"
+  },
+  {
+   "start": 8776,
+   "end": 8791,
+   "label": "BGE",
+   "text": "BGE 148 III 257"
+  },
+  {
+   "start": 8802,
+   "end": 8813,
+   "label": "BGE",
+   "text": "145 III 178"
+  },
+  {
+   "start": 9935,
+   "end": 9945,
+   "label": "DOCKET",
+   "text": "4A_65/2022"
+  },
+  {
+   "start": 10306,
+   "end": 10317,
+   "label": "DOCKET",
+   "text": "4A_158/2022"
+  },
+  {
+   "start": 10346,
+   "end": 10356,
+   "label": "DOCKET",
+   "text": "4A_65/2022"
+  },
+  {
+   "start": 10381,
+   "end": 10392,
+   "label": "DOCKET",
+   "text": "4A_528/2013"
+  },
+  {
+   "start": 10437,
+   "end": 10452,
+   "label": "BGE",
+   "text": "BGE 140 III 109"
+  },
+  {
+   "start": 10455,
+   "end": 10464,
+   "label": "DOCKET",
+   "text": "4A_6/2013"
+  },
+  {
+   "start": 16140,
+   "end": 16155,
+   "label": "BGE",
+   "text": "BGE 145 III 178"
+  },
+  {
+   "start": 16166,
+   "end": 16177,
+   "label": "BGE",
+   "text": "125 III 193"
+  },
+  {
+   "start": 16207,
+   "end": 16217,
+   "label": "DOCKET",
+   "text": "4A_65/2022"
+  },
+  {
+   "start": 16244,
+   "end": 16255,
+   "label": "DOCKET",
+   "text": "4A_528/2013"
+  },
+  {
+   "start": 16302,
+   "end": 16317,
+   "label": "BGE",
+   "text": "BGE 140 III 109"
+  },
+  {
+   "start": 16320,
+   "end": 16331,
+   "label": "DOCKET",
+   "text": "4A_619/2012"
+  },
+  {
+   "start": 16373,
+   "end": 16388,
+   "label": "BGE",
+   "text": "BGE 139 III 176"
+  },
+  {
+   "start": 16391,
+   "end": 16402,
+   "label": "DOCKET",
+   "text": "4A_455/2008"
+  },
+  {
+   "start": 16432,
+   "end": 16443,
+   "label": "DOCKET",
+   "text": "4A_265/2007"
+  },
+  {
+   "start": 16475,
+   "end": 16484,
+   "label": "DOCKET",
+   "text": "4A.5/2004"
+  },
+  {
+   "start": 16513,
+   "end": 16522,
+   "label": "DOCKET",
+   "text": "4A.5/2003"
+  },
+  {
+   "start": 17234,
+   "end": 17249,
+   "label": "BGE",
+   "text": "BGE 145 III 178"
+  },
+  {
+   "start": 21074,
+   "end": 21083,
+   "label": "DOCKET",
+   "text": "4A.5/2003"
+  },
+  {
+   "start": 23215,
+   "end": 23234,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 23586,
+   "end": 23601,
+   "label": "BGE",
+   "text": "BGE 147 III 326"
+  },
+  {
+   "start": 23610,
+   "end": 23621,
+   "label": "BGE",
+   "text": "140 III 297"
+  },
+  {
+   "start": 23754,
+   "end": 23769,
+   "label": "BGE",
+   "text": "BGE 136 III 474"
+  },
+  {
+   "start": 23778,
+   "end": 23789,
+   "label": "BGE",
+   "text": "130 III 113"
+  },
+  {
+   "start": 23798,
+   "end": 23809,
+   "label": "BGE",
+   "text": "129 III 225"
+  },
+  {
+   "start": 23998,
+   "end": 24017,
+   "label": "STATUTE",
+   "text": "Art. 2 lit. a MSchG"
+  },
+  {
+   "start": 24130,
+   "end": 24148,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 24241,
+   "end": 24259,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 3 BGG"
+  },
+  {
+   "start": 24359,
+   "end": 24371,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  }
+ ],
+ "n_pre": 56,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

@@ -1,0 +1,14 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  25
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 3 Abs. 1 lit. a",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "EFD ordinance given as title -> BARE_ARTICLE"
+}

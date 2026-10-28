@@ -1,0 +1,493 @@
+{
+ "decision_id": "bger_5A_257_2024",
+ "task_index": 43,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 352,
+   "end": 368,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 440,
+   "end": 458,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 1415,
+   "end": 1427,
+   "label": "STATUTE",
+   "text": "Art. 114 ZGB"
+  },
+  {
+   "start": 4023,
+   "end": 4035,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  },
+  {
+   "start": 4293,
+   "end": 4331,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 und\nArt. 45 Abs. 1 BGG"
+  },
+  {
+   "start": 4369,
+   "end": 4380,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 4383,
+   "end": 4398,
+   "label": "BGE",
+   "text": "BGE 134 III 426"
+  },
+  {
+   "start": 4487,
+   "end": 4498,
+   "label": "STATUTE",
+   "text": "Art. 75 BGG"
+  },
+  {
+   "start": 4680,
+   "end": 4699,
+   "label": "STATUTE",
+   "text": "Art. 276 Abs. 2 ZPO"
+  },
+  {
+   "start": 4707,
+   "end": 4726,
+   "label": "STATUTE",
+   "text": "Art. 179 Abs. 1 ZGB"
+  },
+  {
+   "start": 4779,
+   "end": 4797,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 1 BGG"
+  },
+  {
+   "start": 4840,
+   "end": 4851,
+   "label": "DOCKET",
+   "text": "5A_672/2023"
+  },
+  {
+   "start": 4953,
+   "end": 4978,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 Bst. a BGG"
+  },
+  {
+   "start": 5099,
+   "end": 5124,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 Bst. b BGG"
+  },
+  {
+   "start": 5172,
+   "end": 5187,
+   "label": "BGE",
+   "text": "BGE 143 III 578"
+  },
+  {
+   "start": 5600,
+   "end": 5619,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 5708,
+   "end": 5727,
+   "label": "STATUTE",
+   "text": "Art. 296 Abs. 3 ZPO"
+  },
+  {
+   "start": 5801,
+   "end": 5816,
+   "label": "BGE",
+   "text": "BGE 145 III 393"
+  },
+  {
+   "start": 6273,
+   "end": 6288,
+   "label": "BGE",
+   "text": "BGE 146 III 313"
+  },
+  {
+   "start": 6299,
+   "end": 6310,
+   "label": "BGE",
+   "text": "142 III 612"
+  },
+  {
+   "start": 6496,
+   "end": 6535,
+   "label": "STATUTE",
+   "text": "Art. 296 Abs. 1 und\nArt. 301 Abs. 1 ZGB"
+  },
+  {
+   "start": 6538,
+   "end": 6553,
+   "label": "BGE",
+   "text": "BGE 146 III 313"
+  },
+  {
+   "start": 6571,
+   "end": 6582,
+   "label": "DOCKET",
+   "text": "5A_742/2021"
+  },
+  {
+   "start": 6617,
+   "end": 6638,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2022 S. 700"
+  },
+  {
+   "start": 7050,
+   "end": 7083,
+   "label": "STATUTE",
+   "text": "Art. 159 Abs. 3 bzw.\nArt. 163 ZGB"
+  },
+  {
+   "start": 7086,
+   "end": 7100,
+   "label": "BGE",
+   "text": "BGE 148 III 21"
+  },
+  {
+   "start": 7188,
+   "end": 7203,
+   "label": "BGE",
+   "text": "BGE 143 III 617"
+  },
+  {
+   "start": 7332,
+   "end": 7343,
+   "label": "DOCKET",
+   "text": "5A_673/2022"
+  },
+  {
+   "start": 7423,
+   "end": 7435,
+   "label": "STATUTE",
+   "text": "Art. 276 ZPO"
+  },
+  {
+   "start": 7457,
+   "end": 7468,
+   "label": "STATUTE",
+   "text": "Art. 98 BGG"
+  },
+  {
+   "start": 7477,
+   "end": 7488,
+   "label": "DOCKET",
+   "text": "5A_872/2023"
+  },
+  {
+   "start": 7591,
+   "end": 7606,
+   "label": "BGE",
+   "text": "BGE 137 III 193"
+  },
+  {
+   "start": 7772,
+   "end": 7787,
+   "label": "BGE",
+   "text": "BGE 133 III 585"
+  },
+  {
+   "start": 7834,
+   "end": 7853,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 8247,
+   "end": 8261,
+   "label": "BGE",
+   "text": "BGE 142 II 369"
+  },
+  {
+   "start": 8270,
+   "end": 8281,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 8680,
+   "end": 8698,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 8701,
+   "end": 8716,
+   "label": "BGE",
+   "text": "BGE 149 III 465"
+  },
+  {
+   "start": 8727,
+   "end": 8738,
+   "label": "BGE",
+   "text": "139 III 120"
+  },
+  {
+   "start": 9021,
+   "end": 9039,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 9150,
+   "end": 9168,
+   "label": "STATUTE",
+   "text": "Art. 99 Abs. 1 BGG"
+  },
+  {
+   "start": 9302,
+   "end": 9314,
+   "label": "BGE",
+   "text": "BGE 143 V 19"
+  },
+  {
+   "start": 9514,
+   "end": 9549,
+   "label": "STATUTE",
+   "text": "Art. 176 Abs. 3 i.V.m.\nArt. 273 ZGB"
+  },
+  {
+   "start": 12430,
+   "end": 12439,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 12999,
+   "end": 13013,
+   "label": "BGE",
+   "text": "BGE 142 II 433"
+  },
+  {
+   "start": 13063,
+   "end": 13082,
+   "label": "STATUTE",
+   "text": "Art. 150 Abs. 1 ZPO"
+  },
+  {
+   "start": 13118,
+   "end": 13132,
+   "label": "BGE",
+   "text": "BGE 144 III 67"
+  },
+  {
+   "start": 13238,
+   "end": 13252,
+   "label": "BGE",
+   "text": "BGE 123 III 35"
+  },
+  {
+   "start": 13267,
+   "end": 13278,
+   "label": "DOCKET",
+   "text": "5A_733/2009"
+  },
+  {
+   "start": 13329,
+   "end": 13344,
+   "label": "BGE",
+   "text": "BGE 136 III 209"
+  },
+  {
+   "start": 13392,
+   "end": 13402,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 13458,
+   "end": 13477,
+   "label": "STATUTE",
+   "text": "Art. 296 Abs. 3 ZPO"
+  },
+  {
+   "start": 13665,
+   "end": 13676,
+   "label": "DOCKET",
+   "text": "5A_178/2024"
+  },
+  {
+   "start": 13731,
+   "end": 13742,
+   "label": "DOCKET",
+   "text": "5A_975/2022"
+  },
+  {
+   "start": 13775,
+   "end": 13796,
+   "label": "JOURNAL_REF",
+   "text": "FamPra.ch 2024 S. 252"
+  },
+  {
+   "start": 13874,
+   "end": 13886,
+   "label": "STATUTE",
+   "text": "Art. 296 ZPO"
+  },
+  {
+   "start": 13928,
+   "end": 13940,
+   "label": "STATUTE",
+   "text": "Art. 296 ZPO"
+  },
+  {
+   "start": 14056,
+   "end": 14075,
+   "label": "STATUTE",
+   "text": "Art. 276 Abs. 2 ZPO"
+  },
+  {
+   "start": 14083,
+   "end": 14102,
+   "label": "STATUTE",
+   "text": "Art. 179 Abs. 1 ZGB"
+  },
+  {
+   "start": 14728,
+   "end": 14743,
+   "label": "BGE",
+   "text": "BGE 143 III 617"
+  },
+  {
+   "start": 14752,
+   "end": 14763,
+   "label": "BGE",
+   "text": "141 III 376"
+  },
+  {
+   "start": 14791,
+   "end": 14802,
+   "label": "DOCKET",
+   "text": "5A_929/2022"
+  },
+  {
+   "start": 14982,
+   "end": 14997,
+   "label": "BGE",
+   "text": "BGE 138 III 289"
+  },
+  {
+   "start": 15012,
+   "end": 15024,
+   "label": "STATUTE",
+   "text": "Art. 129 ZGB"
+  },
+  {
+   "start": 15028,
+   "end": 15039,
+   "label": "BGE",
+   "text": "137 III 604"
+  },
+  {
+   "start": 15053,
+   "end": 15072,
+   "label": "STATUTE",
+   "text": "Art. 286 Abs. 2 ZGB"
+  },
+  {
+   "start": 16326,
+   "end": 16337,
+   "label": "DOCKET",
+   "text": "5A_177/2022"
+  },
+  {
+   "start": 16646,
+   "end": 16665,
+   "label": "STATUTE",
+   "text": "Art. 307 Abs. 1 ZGB"
+  },
+  {
+   "start": 17155,
+   "end": 17168,
+   "label": "BGE",
+   "text": "BGE 148 I 127"
+  },
+  {
+   "start": 21029,
+   "end": 21043,
+   "label": "BGE",
+   "text": "BGE 148 III 95"
+  },
+  {
+   "start": 23868,
+   "end": 23880,
+   "label": "BGE",
+   "text": "BGE 136 I 49"
+  },
+  {
+   "start": 23891,
+   "end": 23901,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 24344,
+   "end": 24355,
+   "label": "DOCKET",
+   "text": "5A_529/2014"
+  },
+  {
+   "start": 24485,
+   "end": 24503,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 24815,
+   "end": 24839,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 25122,
+   "end": 25146,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 und 2 BGG"
+  },
+  {
+   "start": 25437,
+   "end": 25455,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 4 BGG"
+  },
+  {
+   "start": 26047,
+   "end": 26057,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  },
+  {
+   "start": 26104,
+   "end": 26116,
+   "label": "AMOUNT",
+   "text": "Fr. 3'000.--"
+  },
+  {
+   "start": 26279,
+   "end": 26289,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 80,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

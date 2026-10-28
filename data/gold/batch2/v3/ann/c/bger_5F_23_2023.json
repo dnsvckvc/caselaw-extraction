@@ -1,0 +1,151 @@
+{
+ "decision_id": "bger_5F_23_2023",
+ "task_index": 51,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "out of v3 scope: no short-citation, Artikel or Ziffer/Absatz pattern in the text (identity edit written by the orchestrator)",
+ "spans": [
+  {
+   "start": 285,
+   "end": 298,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsteller"
+  },
+  {
+   "start": 321,
+   "end": 336,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsgegnerin"
+  },
+  {
+   "start": 611,
+   "end": 622,
+   "label": "DOCKET",
+   "text": "5A_983/2018"
+  },
+  {
+   "start": 791,
+   "end": 802,
+   "label": "DOCKET",
+   "text": "5A_983/2018"
+  },
+  {
+   "start": 1259,
+   "end": 1275,
+   "label": "STATUTE",
+   "text": "Art. 328 ff. ZPO"
+  },
+  {
+   "start": 1481,
+   "end": 1500,
+   "label": "STATUTE",
+   "text": "Art. 328 Abs. 1 ZPO"
+  },
+  {
+   "start": 1536,
+   "end": 1547,
+   "label": "DOCKET",
+   "text": "5A_983/2018"
+  },
+  {
+   "start": 1761,
+   "end": 1773,
+   "label": "STATUTE",
+   "text": "Art. 328 ZPO"
+  },
+  {
+   "start": 1827,
+   "end": 1839,
+   "label": "STATUTE",
+   "text": "Art. 328 ZPO"
+  },
+  {
+   "start": 1919,
+   "end": 1930,
+   "label": "DOCKET",
+   "text": "5A_983/2018"
+  },
+  {
+   "start": 2194,
+   "end": 2213,
+   "label": "STATUTE",
+   "text": "Art. 329 Abs. 1 ZPO"
+  },
+  {
+   "start": 2568,
+   "end": 2584,
+   "label": "STATUTE",
+   "text": "Art. 121 ff. BGG"
+  },
+  {
+   "start": 2715,
+   "end": 2733,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 2904,
+   "end": 2914,
+   "label": "DOCKET",
+   "text": "5F_36/2022"
+  },
+  {
+   "start": 3220,
+   "end": 3230,
+   "label": "DOCKET",
+   "text": "5A_18/2017"
+  },
+  {
+   "start": 3423,
+   "end": 3433,
+   "label": "DOCKET",
+   "text": "5F_22/2023"
+  },
+  {
+   "start": 3817,
+   "end": 3836,
+   "label": "STATUTE",
+   "text": "Art. 122 lit. b BGG"
+  },
+  {
+   "start": 4187,
+   "end": 4206,
+   "label": "STATUTE",
+   "text": "Art. 123 Abs. 1 BGG"
+  },
+  {
+   "start": 4396,
+   "end": 4407,
+   "label": "DOCKET",
+   "text": "5A_983/2018"
+  },
+  {
+   "start": 4538,
+   "end": 4564,
+   "label": "STATUTE",
+   "text": "Art. 124 Abs. 1 lit. d BGG"
+  },
+  {
+   "start": 4695,
+   "end": 4706,
+   "label": "DOCKET",
+   "text": "5A_983/2018"
+  },
+  {
+   "start": 4885,
+   "end": 4903,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 4999,
+   "end": 5010,
+   "label": "DOCKET",
+   "text": "5A_983/2018"
+  }
+ ],
+ "n_pre": 23,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

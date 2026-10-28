@@ -1,0 +1,27 @@
+{
+ "outcome": "dismissed",
+ "delete": [
+  52
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "R$ 84'894.--",
+   "label": "AMOUNT"
+  },
+  {
+   "text": "Art. 17 EuGVÜ/LugÜ",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 5 Nr. 1 lit. b LugÜ",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 5 Nr. 1 LugÜ",
+   "label": "STATUTE",
+   "all": true
+  }
+ ],
+ "comment": "Unsettled: R$ 84'894.-- (Brazilian real) added as AMOUNT since it is a sum with a currency token. Unsettled: Art. 17 EuGVÜ/LugÜ inside a book title had BARE_ARTICLE on Art. 17 although an abbreviation follows; relabelled as STATUTE over the compound abbreviation. 'In Ziffer 7 heisst es': no instrument named after the number, no span. Three LugÜ citations (Art. 5 Nr. 1 [lit. b] LugÜ) were missed by the pre-annotator."
+}

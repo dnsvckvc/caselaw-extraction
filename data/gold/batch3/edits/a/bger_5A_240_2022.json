@@ -1,0 +1,7 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [],
+  "comment": "All 45 pre-annotations checked, none changed. Open point: #11 BARE_ARTICLE covers the chain 'Art. 10 Abs. 1, Art. 12 Abs. 1 und Art. 13 Abs. 1' (one shared treaty title, HKsUe with SR number). Kept as one span by analogy to the STATUTE chain rule; the BARE_ARTICLE rule does not say whether a chain is one span or three."
+}

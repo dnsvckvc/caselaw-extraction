@@ -1,0 +1,11 @@
+{
+ "outcome": "approved",
+ "delete": [],
+ "add": [
+  {
+   "text": "ZZZ 2019, S. 121",
+   "label": "JOURNAL_REF"
+  }
+ ],
+ "comment": "'Art. xxx GB' is a land-register parcel, not a law: no span."
+}

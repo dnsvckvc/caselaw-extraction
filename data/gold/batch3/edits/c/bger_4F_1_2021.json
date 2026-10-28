@@ -1,0 +1,12 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 121 - 123 BGG",
+   "label": "STATUTE"
+  }
+ ],
+ "comment": "Revisionsgesuch abgewiesen soweit einzutreten. #52 '4A_252/2020' is probably a typo for 4A_251/2020; kept as DOCKET."
+}

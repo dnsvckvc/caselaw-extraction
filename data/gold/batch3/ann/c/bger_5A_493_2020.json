@@ -1,0 +1,61 @@
+{
+ "decision_id": "bger_5A_493_2020",
+ "task_index": 26,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "Item 1 dismisses the Fristwiederherstellungsgesuch (restoration of time limit), a side request not listed in the guideline; item 2 rules on the appeal: nicht eingetreten.",
+ "spans": [
+  {
+   "start": 575,
+   "end": 593,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 1355,
+   "end": 1373,
+   "label": "STATUTE",
+   "text": "Art. 47 Abs. 1 BGG"
+  },
+  {
+   "start": 1464,
+   "end": 1475,
+   "label": "STATUTE",
+   "text": "Art. 50 BGG"
+  },
+  {
+   "start": 2048,
+   "end": 2066,
+   "label": "STATUTE",
+   "text": "Art. 50 Abs. 1 BGG"
+  },
+  {
+   "start": 4094,
+   "end": 4135,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 2 lit. a i.V.m.\nArt. 45 BGG"
+  },
+  {
+   "start": 4824,
+   "end": 4842,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4971,
+   "end": 4997,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 5096,
+   "end": 5114,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  }
+ ],
+ "n_pre": 8,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

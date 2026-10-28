@@ -1,0 +1,14 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  14
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 2 lit. c",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "Reglement des Bundesgerichts has an SR number (SR 173.110.29) and is cited by title: BARE_ARTICLE, not CONTRACT_ARTICLE."
+}

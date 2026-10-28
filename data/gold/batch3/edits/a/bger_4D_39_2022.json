@@ -1,0 +1,14 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  4
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Fr. 5'400--",
+   "label": "AMOUNT"
+  }
+ ],
+ "comment": "Extended Fr. 5400 to include the trailing -- (cents marker written without the dot). Guideline gap: amount with -- but no dot. #22 (86) is a same-volume short citation, kept."
+}

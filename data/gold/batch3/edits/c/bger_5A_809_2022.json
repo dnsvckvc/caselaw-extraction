@@ -1,0 +1,19 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "RUB 35'151'779.58",
+   "label": "AMOUNT"
+  },
+  {
+   "text": "RUB 2.95 Mio.",
+   "label": "AMOUNT"
+  },
+  {
+   "text": "AJP 11/2022, S. 1176",
+   "label": "JOURNAL_REF"
+  }
+ ]
+}

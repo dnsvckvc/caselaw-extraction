@@ -1,0 +1,175 @@
+{
+ "decision_id": "bger_4D_15_2025",
+ "task_index": 147,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "No change. 'Ziffer 1 der Vereinbarung' (out-of-court settlement) stays CONTRACT_ARTICLE. 'Dispositiv-Ziffer 1' and 'Ruegen I, IV, V und IX' get no span.",
+ "spans": [
+  {
+   "start": 248,
+   "end": 264,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 287,
+   "end": 303,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 3406,
+   "end": 3424,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 3788,
+   "end": 3814,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 4092,
+   "end": 4110,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4113,
+   "end": 4127,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 4134,
+   "end": 4137,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 4351,
+   "end": 4370,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4408,
+   "end": 4446,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 und\nArt. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 4858,
+   "end": 4872,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 4879,
+   "end": 4882,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 4997,
+   "end": 5016,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5236,
+   "end": 5250,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 5478,
+   "end": 5489,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 5499,
+   "end": 5518,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 5611,
+   "end": 5629,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 5829,
+   "end": 5843,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6101,
+   "end": 6115,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 6292,
+   "end": 6306,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 6753,
+   "end": 6765,
+   "label": "STATUTE",
+   "text": "Art. 326 ZPO"
+  },
+  {
+   "start": 7912,
+   "end": 7937,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 1 der Vereinbarung"
+  },
+  {
+   "start": 9772,
+   "end": 9798,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 10023,
+   "end": 10041,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 10146,
+   "end": 10156,
+   "label": "DOCKET",
+   "text": "4A_20/2011"
+  },
+  {
+   "start": 10288,
+   "end": 10306,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 10457,
+   "end": 10475,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 10886,
+   "end": 10896,
+   "label": "AMOUNT",
+   "text": "Fr. 500.--"
+  }
+ ],
+ "n_pre": 27,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

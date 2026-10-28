@@ -1,0 +1,15 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "add": [
+  {
+   "text": "Art. E 6.3 der Allgemeinen Versicherungsbedingungen",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Art. E6.3 AVB",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  }
+ ]
+}

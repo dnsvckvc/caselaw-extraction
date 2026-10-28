@@ -1,0 +1,19 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    1,
+    4,
+    5,
+    26,
+    35,
+    12
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 100 Abs. 1 i.V.m. Art. 46 Abs. 1 lit. c BGG",
+      "label": "STATUTE"
+    }
+  ],
+  "comment": "Joined proceedings 4A_669/2025 and 4A_671/2025: both are the decision's own numbers (header, item 1 of the dispositiv), so I deleted all DOCKET spans on 4A_671/2025. Extended the chain Art. 100 Abs. 1 i.V.m. Art. 46 Abs. 1 lit. c BGG. Item 1 only joins; outcome from item 2."
+}

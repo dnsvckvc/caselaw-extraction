@@ -1,0 +1,14 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  5
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 33",
+   "label": "BARE_ARTICLE"
+  }
+ ],
+ "comment": "BGerR is a Reglement with SR number: BARE_ARTICLE, not CONTRACT_ARTICLE."
+}

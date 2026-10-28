@@ -1,0 +1,21 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "4A_174/ 2019",
+   "label": "DOCKET"
+  },
+  {
+   "text": "135 V 141",
+   "label": "BGE"
+  },
+  {
+   "text": "133 III 629",
+   "label": "BGE",
+   "occurrence": 1
+  }
+ ],
+ "comment": "Added docket 4A_174/ 2019 (typographic space inside the number in the source text). Added BGE list items 135 V 141 and 133 III 629 (E. 5) without BGE word. Art. 2 lit. c des Reglements (ReRBGer) left unlabelled: no abbreviation directly after the article."
+}

@@ -1,0 +1,13 @@
+{
+  "outcome": "dismissed",
+  "delete": [
+    43
+  ],
+  "add": [
+    {
+      "text": "Ziffer 2 der Vergleichsvereinbarung",
+      "label": "CONTRACT_ARTICLE"
+    }
+  ],
+  "comment": "v0.3 pass a: #43 ended mid-word ('der Vergleichs|vereinbarung'); replaced by full span. Lone 'Ziffer 1 Absatz 2/3/1', 'Ziffer 2 Absatz 1' (Vergleich named earlier) left without span, as the v0.2 gold does for lone 'Ziff. 1', 'Ziff. 3', 'Ziff. 4', 'Ziff. 7' in this decision."
+}

@@ -1,0 +1,169 @@
+{
+ "decision_id": "bger_5A_122_2023",
+ "task_index": 38,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 286,
+   "end": 302,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 325,
+   "end": 341,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 2416,
+   "end": 2429,
+   "label": "STATUTE",
+   "text": "Art. 19 SchKG"
+  },
+  {
+   "start": 2437,
+   "end": 2504,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a,\nArt. 74 Abs. 2 lit. c und\nArt. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 2677,
+   "end": 2703,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 2795,
+   "end": 2809,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 2818,
+   "end": 2829,
+   "label": "BGE",
+   "text": "133 III 489"
+  },
+  {
+   "start": 2845,
+   "end": 2863,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3202,
+   "end": 3216,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 3223,
+   "end": 3226,
+   "label": "BGE",
+   "text": "115"
+  },
+  {
+   "start": 3683,
+   "end": 3701,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3806,
+   "end": 3825,
+   "label": "STATUTE",
+   "text": "Art. 2 Abs. 1 SchKG"
+  },
+  {
+   "start": 4276,
+   "end": 4295,
+   "label": "STATUTE",
+   "text": "Art. 2 Abs. 1 SchKG"
+  },
+  {
+   "start": 4441,
+   "end": 4451,
+   "label": "DOCKET",
+   "text": "5A_30/2023"
+  },
+  {
+   "start": 4479,
+   "end": 4490,
+   "label": "DOCKET",
+   "text": "5A_873/2022"
+  },
+  {
+   "start": 4517,
+   "end": 4527,
+   "label": "DOCKET",
+   "text": "1C_38/2023"
+  },
+  {
+   "start": 5058,
+   "end": 5064,
+   "label": "BARE_ARTICLE",
+   "text": "Art. 6"
+  },
+  {
+   "start": 5539,
+   "end": 5550,
+   "label": "STATUTE",
+   "text": "Art. 6 VFRR"
+  },
+  {
+   "start": 5607,
+   "end": 5618,
+   "label": "DOCKET",
+   "text": "5A_980/2023"
+  },
+  {
+   "start": 5647,
+   "end": 5657,
+   "label": "DOCKET",
+   "text": "5A_30/2023"
+  },
+  {
+   "start": 5685,
+   "end": 5696,
+   "label": "DOCKET",
+   "text": "5A_873/2022"
+  },
+  {
+   "start": 5994,
+   "end": 6023,
+   "label": "STATUTE",
+   "text": "Art. 20a Abs. 2 Ziff. 5 SchKG"
+  },
+  {
+   "start": 6033,
+   "end": 6045,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 6752,
+   "end": 6770,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 6820,
+   "end": 6838,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 6974,
+   "end": 6986,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 26,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

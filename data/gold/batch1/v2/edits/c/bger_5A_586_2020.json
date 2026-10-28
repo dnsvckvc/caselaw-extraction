@@ -1,0 +1,13 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  9
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "§ 66 Abs. 1 EG ZGB/BL",
+   "label": "OTHER_LAW"
+  }
+ ]
+}

@@ -1,0 +1,361 @@
+{
+ "decision_id": "bger_5A_743_2021",
+ "task_index": 83,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 649,
+   "end": 667,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 760,
+   "end": 776,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1254,
+   "end": 1268,
+   "label": "AMOUNT",
+   "text": "Fr. 848'585.--"
+  },
+  {
+   "start": 2576,
+   "end": 2594,
+   "label": "STATUTE",
+   "text": "Art. 106 ff. SchKG"
+  },
+  {
+   "start": 2659,
+   "end": 2684,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 2694,
+   "end": 2705,
+   "label": "DOCKET",
+   "text": "5A_113/2018"
+  },
+  {
+   "start": 2811,
+   "end": 2829,
+   "label": "STATUTE",
+   "text": "Art. 76 Abs. 1 BGG"
+  },
+  {
+   "start": 2982,
+   "end": 2995,
+   "label": "BGE",
+   "text": "BGE 89 II 192"
+  },
+  {
+   "start": 3016,
+   "end": 3030,
+   "label": "AMOUNT",
+   "text": "Fr. 848'585.--"
+  },
+  {
+   "start": 3098,
+   "end": 3123,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 3213,
+   "end": 3231,
+   "label": "STATUTE",
+   "text": "Art. 95 lit. a BGG"
+  },
+  {
+   "start": 3289,
+   "end": 3300,
+   "label": "STATUTE",
+   "text": "Art. 96 BGG"
+  },
+  {
+   "start": 3397,
+   "end": 3416,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 3521,
+   "end": 3539,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3542,
+   "end": 3555,
+   "label": "BGE",
+   "text": "BGE 143 I 377"
+  },
+  {
+   "start": 3636,
+   "end": 3655,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3693,
+   "end": 3707,
+   "label": "BGE",
+   "text": "BGE 143 II 283"
+  },
+  {
+   "start": 3806,
+   "end": 3825,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 3931,
+   "end": 3942,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 4020,
+   "end": 4038,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 4114,
+   "end": 4129,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 4234,
+   "end": 4252,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 4530,
+   "end": 4541,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 4556,
+   "end": 4570,
+   "label": "BGE",
+   "text": "BGE 136 II 508"
+  },
+  {
+   "start": 4579,
+   "end": 4589,
+   "label": "BGE",
+   "text": "133 II 249"
+  },
+  {
+   "start": 4600,
+   "end": 4611,
+   "label": "BGE",
+   "text": "133 III 462"
+  },
+  {
+   "start": 5681,
+   "end": 5698,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 5701,
+   "end": 5719,
+   "label": "STATUTE",
+   "text": "Art. 53 Abs. 1 ZPO"
+  },
+  {
+   "start": 6553,
+   "end": 6567,
+   "label": "BGE",
+   "text": "BGE 148 III 30"
+  },
+  {
+   "start": 6576,
+   "end": 6586,
+   "label": "BGE",
+   "text": "143 III 65"
+  },
+  {
+   "start": 6595,
+   "end": 6605,
+   "label": "BGE",
+   "text": "141 III 28"
+  },
+  {
+   "start": 6776,
+   "end": 6803,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 15 dieses Agreements"
+  },
+  {
+   "start": 7245,
+   "end": 7262,
+   "label": "STATUTE",
+   "text": "Art. 2 Abs. 2 ZGB"
+  },
+  {
+   "start": 7336,
+   "end": 7348,
+   "label": "STATUTE",
+   "text": "Art. 18 IPRG"
+  },
+  {
+   "start": 10341,
+   "end": 10353,
+   "label": "BGE",
+   "text": "BGE 141 I 60"
+  },
+  {
+   "start": 10363,
+   "end": 10372,
+   "label": "BGE",
+   "text": "140 I 285"
+  },
+  {
+   "start": 10383,
+   "end": 10394,
+   "label": "BGE",
+   "text": "138 III 374"
+  },
+  {
+   "start": 11721,
+   "end": 11742,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Ziffer 4 des Vertrags"
+  },
+  {
+   "start": 12859,
+   "end": 12875,
+   "label": "AMOUNT",
+   "text": "USD 1'049'101.51"
+  },
+  {
+   "start": 12877,
+   "end": 12886,
+   "label": "AMOUNT",
+   "text": "EUR 37.16"
+  },
+  {
+   "start": 12888,
+   "end": 12904,
+   "label": "AMOUNT",
+   "text": "USD 3'715'163.77"
+  },
+  {
+   "start": 12909,
+   "end": 12926,
+   "label": "AMOUNT",
+   "text": "EUR 14'756'804.89"
+  },
+  {
+   "start": 13107,
+   "end": 13124,
+   "label": "AMOUNT",
+   "text": "EUR 38'675'740.25"
+  },
+  {
+   "start": 13225,
+   "end": 13238,
+   "label": "AMOUNT",
+   "text": "EUR 17.6 Mio."
+  },
+  {
+   "start": 15072,
+   "end": 15087,
+   "label": "BGE",
+   "text": "BGE 128 III 201"
+  },
+  {
+   "start": 15102,
+   "end": 15113,
+   "label": "DOCKET",
+   "text": "4A_446/2018"
+  },
+  {
+   "start": 15155,
+   "end": 15170,
+   "label": "BGE",
+   "text": "BGE 145 III 303"
+  },
+  {
+   "start": 16294,
+   "end": 16309,
+   "label": "BGE",
+   "text": "BGE 126 III 375"
+  },
+  {
+   "start": 16320,
+   "end": 16329,
+   "label": "BGE",
+   "text": "97 II 201"
+  },
+  {
+   "start": 16336,
+   "end": 16345,
+   "label": "BGE",
+   "text": "96 II 145"
+  },
+  {
+   "start": 16353,
+   "end": 16361,
+   "label": "BGE",
+   "text": "19 I 888"
+  },
+  {
+   "start": 16375,
+   "end": 16386,
+   "label": "DOCKET",
+   "text": "4A_551/2014"
+  },
+  {
+   "start": 17353,
+   "end": 17371,
+   "label": "STATUTE",
+   "text": "Art. 62 Abs. 2 BGG"
+  },
+  {
+   "start": 17522,
+   "end": 17540,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 17715,
+   "end": 17733,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 17851,
+   "end": 17891,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 4 i.V.m.\nArt. 66 Abs. 3 BGG"
+  },
+  {
+   "start": 17901,
+   "end": 17911,
+   "label": "DOCKET",
+   "text": "4A_65/2017"
+  },
+  {
+   "start": 18069,
+   "end": 18082,
+   "label": "AMOUNT",
+   "text": "Fr. 12'000.--"
+  }
+ ],
+ "n_pre": 55,
+ "n_deleted": 0,
+ "n_added": 3,
+ "n_relabeled": 0
+}

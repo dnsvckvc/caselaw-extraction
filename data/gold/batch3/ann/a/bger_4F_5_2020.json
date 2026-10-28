@@ -1,0 +1,373 @@
+{
+ "decision_id": "bger_4F_5_2020",
+ "task_index": 31,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "Added JPY amounts (currency token JPY, missed by pre-annotator). Added docket 4A_540/2 019 written with a stray space in the source text (E. B.b.c); it is the same case as 4A_540/2019 - guideline does not say whether a docket broken by a typo is a span.",
+ "spans": [
+  {
+   "start": 413,
+   "end": 426,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsteller"
+  },
+  {
+   "start": 527,
+   "end": 542,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsgegnerin"
+  },
+  {
+   "start": 672,
+   "end": 683,
+   "label": "DOCKET",
+   "text": "4A_540/2019"
+  },
+  {
+   "start": 1493,
+   "end": 1504,
+   "label": "AMOUNT",
+   "text": "Fr. 42 Mio."
+  },
+  {
+   "start": 1568,
+   "end": 1580,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  },
+  {
+   "start": 1860,
+   "end": 1871,
+   "label": "AMOUNT",
+   "text": "USD 20 Mio."
+  },
+  {
+   "start": 2114,
+   "end": 2134,
+   "label": "AMOUNT",
+   "text": "JPY 3'091'220'814.--"
+  },
+  {
+   "start": 2341,
+   "end": 2357,
+   "label": "AMOUNT",
+   "text": "USD 5'593'000.--"
+  },
+  {
+   "start": 2456,
+   "end": 2470,
+   "label": "AMOUNT",
+   "text": "Fr. 282'200.--"
+  },
+  {
+   "start": 2700,
+   "end": 2717,
+   "label": "AMOUNT",
+   "text": "EUR 14'384'000.--"
+  },
+  {
+   "start": 2781,
+   "end": 2795,
+   "label": "AMOUNT",
+   "text": "EUR 150'947.66"
+  },
+  {
+   "start": 2797,
+   "end": 2811,
+   "label": "AMOUNT",
+   "text": "USD 118'918.60"
+  },
+  {
+   "start": 2816,
+   "end": 2832,
+   "label": "AMOUNT",
+   "text": "JPY 6'357'307.--"
+  },
+  {
+   "start": 3395,
+   "end": 3412,
+   "label": "AMOUNT",
+   "text": "EUR 14'293'200.--"
+  },
+  {
+   "start": 3754,
+   "end": 3771,
+   "label": "AMOUNT",
+   "text": "EUR 28'001'783.50"
+  },
+  {
+   "start": 3773,
+   "end": 3789,
+   "label": "AMOUNT",
+   "text": "USD 6'135'525.27"
+  },
+  {
+   "start": 3796,
+   "end": 3812,
+   "label": "AMOUNT",
+   "text": "JPY 6'357'307.--"
+  },
+  {
+   "start": 4097,
+   "end": 4117,
+   "label": "AMOUNT",
+   "text": "JPY 3'091'220'814.--"
+  },
+  {
+   "start": 4292,
+   "end": 4309,
+   "label": "STATUTE",
+   "text": "Art. 84 Abs. 1 OR"
+  },
+  {
+   "start": 4893,
+   "end": 4904,
+   "label": "DOCKET",
+   "text": "4A_540/2019"
+  },
+  {
+   "start": 5641,
+   "end": 5652,
+   "label": "AMOUNT",
+   "text": "USD 20 Mio."
+  },
+  {
+   "start": 6375,
+   "end": 6386,
+   "label": "DOCKET",
+   "text": "4A_540/2019"
+  },
+  {
+   "start": 7464,
+   "end": 7484,
+   "label": "AMOUNT",
+   "text": "JPY 3'091'220'814.--"
+  },
+  {
+   "start": 7769,
+   "end": 7780,
+   "label": "DOCKET",
+   "text": "4A_540/2019"
+  },
+  {
+   "start": 8114,
+   "end": 8134,
+   "label": "AMOUNT",
+   "text": "JPY 3'091'220'814.--"
+  },
+  {
+   "start": 8289,
+   "end": 8300,
+   "label": "DOCKET",
+   "text": "4A_540/2019"
+  },
+  {
+   "start": 8470,
+   "end": 8481,
+   "label": "DOCKET",
+   "text": "4A_540/2019"
+  },
+  {
+   "start": 10491,
+   "end": 10502,
+   "label": "DOCKET",
+   "text": "4A_540/2019"
+  },
+  {
+   "start": 11568,
+   "end": 11586,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 11729,
+   "end": 11748,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 11782,
+   "end": 11794,
+   "label": "DOCKET",
+   "text": "4A_540/2 019"
+  },
+  {
+   "start": 11905,
+   "end": 11916,
+   "label": "DOCKET",
+   "text": "4A_540/2019"
+  },
+  {
+   "start": 12124,
+   "end": 12135,
+   "label": "DOCKET",
+   "text": "4A_540/2019"
+  },
+  {
+   "start": 12230,
+   "end": 12249,
+   "label": "STATUTE",
+   "text": "Art. 121 lit. d BGG"
+  },
+  {
+   "start": 12464,
+   "end": 12483,
+   "label": "STATUTE",
+   "text": "Art. 121 lit. d BGG"
+  },
+  {
+   "start": 12833,
+   "end": 12846,
+   "label": "BGE",
+   "text": "BGE 122 II 17"
+  },
+  {
+   "start": 12862,
+   "end": 12872,
+   "label": "BGE",
+   "text": "115 II 399"
+  },
+  {
+   "start": 12907,
+   "end": 12916,
+   "label": "DOCKET",
+   "text": "2F_3/2020"
+  },
+  {
+   "start": 12943,
+   "end": 12953,
+   "label": "DOCKET",
+   "text": "2F_20/2012"
+  },
+  {
+   "start": 13274,
+   "end": 13283,
+   "label": "DOCKET",
+   "text": "2F_3/2020"
+  },
+  {
+   "start": 13365,
+   "end": 13378,
+   "label": "BGE",
+   "text": "BGE 122 II 17"
+  },
+  {
+   "start": 13406,
+   "end": 13416,
+   "label": "DOCKET",
+   "text": "2F_20/2012"
+  },
+  {
+   "start": 13432,
+   "end": 13441,
+   "label": "DOCKET",
+   "text": "5F_7/2012"
+  },
+  {
+   "start": 13549,
+   "end": 13559,
+   "label": "DOCKET",
+   "text": "2F_20/2012"
+  },
+  {
+   "start": 13580,
+   "end": 13589,
+   "label": "DOCKET",
+   "text": "4F_1/2007"
+  },
+  {
+   "start": 15203,
+   "end": 15214,
+   "label": "DOCKET",
+   "text": "4A_540/2019"
+  },
+  {
+   "start": 15325,
+   "end": 15344,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 15514,
+   "end": 15525,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 15535,
+   "end": 15554,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 2 BGG"
+  },
+  {
+   "start": 15616,
+   "end": 15631,
+   "label": "BGE",
+   "text": "BGE 140 III 115"
+  },
+  {
+   "start": 15645,
+   "end": 15648,
+   "label": "BGE",
+   "text": "264"
+  },
+  {
+   "start": 15744,
+   "end": 15763,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 15766,
+   "end": 15781,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 15984,
+   "end": 15998,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 16127,
+   "end": 16145,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 16318,
+   "end": 16332,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 16760,
+   "end": 16778,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 22001,
+   "end": 22013,
+   "label": "STATUTE",
+   "text": "Art. 178 ZPO"
+  },
+  {
+   "start": 22969,
+   "end": 22980,
+   "label": "DOCKET",
+   "text": "4A_540/2019"
+  },
+  {
+   "start": 23026,
+   "end": 23039,
+   "label": "AMOUNT",
+   "text": "Fr. 90'000.--"
+  }
+ ],
+ "n_pre": 53,
+ "n_deleted": 0,
+ "n_added": 7,
+ "n_relabeled": 0
+}

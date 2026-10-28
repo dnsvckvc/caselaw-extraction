@@ -1,0 +1,403 @@
+{
+ "decision_id": "bger_4A_660_2020",
+ "task_index": 39,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 415,
+   "end": 433,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 503,
+   "end": 519,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 5702,
+   "end": 5716,
+   "label": "AMOUNT",
+   "text": "USD 246'000.--"
+  },
+  {
+   "start": 5784,
+   "end": 5796,
+   "label": "AMOUNT",
+   "text": "USD 6'000.--"
+  },
+  {
+   "start": 5821,
+   "end": 5834,
+   "label": "AMOUNT",
+   "text": "USD 96'000.--"
+  },
+  {
+   "start": 5871,
+   "end": 5880,
+   "label": "BARE_ARTICLE",
+   "text": "Artikel 2"
+  },
+  {
+   "start": 6326,
+   "end": 6340,
+   "label": "AMOUNT",
+   "text": "USD 246'000.--"
+  },
+  {
+   "start": 6347,
+   "end": 6359,
+   "label": "AMOUNT",
+   "text": "EUR 6'000.--"
+  },
+  {
+   "start": 6775,
+   "end": 6789,
+   "label": "AMOUNT",
+   "text": "USD 246'000.--"
+  },
+  {
+   "start": 7373,
+   "end": 7403,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Artikel 16 des Arbeitsvertrags"
+  },
+  {
+   "start": 7568,
+   "end": 7598,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Artikel 16 des Arbeitsvertrags"
+  },
+  {
+   "start": 7767,
+   "end": 7778,
+   "label": "STATUTE",
+   "text": "Art. 163 OR"
+  },
+  {
+   "start": 7831,
+   "end": 7845,
+   "label": "AMOUNT",
+   "text": "USD 246'000.--"
+  },
+  {
+   "start": 8402,
+   "end": 8420,
+   "label": "STATUTE",
+   "text": "Art. 54 Abs. 1 BGG"
+  },
+  {
+   "start": 8862,
+   "end": 8877,
+   "label": "BGE",
+   "text": "BGE 142 III 521"
+  },
+  {
+   "start": 9008,
+   "end": 9025,
+   "label": "STATUTE",
+   "text": "Art. 190-192 IPRG"
+  },
+  {
+   "start": 9046,
+   "end": 9071,
+   "label": "STATUTE",
+   "text": "Art. 77 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 9283,
+   "end": 9303,
+   "label": "STATUTE",
+   "text": "Art. 176 Abs. 1 IPRG"
+  },
+  {
+   "start": 9451,
+   "end": 9471,
+   "label": "STATUTE",
+   "text": "Art. 176 Abs. 2 IPRG"
+  },
+  {
+   "start": 9509,
+   "end": 9527,
+   "label": "STATUTE",
+   "text": "Art. 77 Abs. 1 BGG"
+  },
+  {
+   "start": 9647,
+   "end": 9665,
+   "label": "STATUTE",
+   "text": "Art. 77 Abs. 2 BGG"
+  },
+  {
+   "start": 9694,
+   "end": 9713,
+   "label": "STATUTE",
+   "text": "Art. 107 Abs. 2 BGG"
+  },
+  {
+   "start": 10117,
+   "end": 10132,
+   "label": "BGE",
+   "text": "BGE 136 III 605"
+  },
+  {
+   "start": 10275,
+   "end": 10286,
+   "label": "DOCKET",
+   "text": "4A_124/2020"
+  },
+  {
+   "start": 10317,
+   "end": 10328,
+   "label": "DOCKET",
+   "text": "4A_418/2019"
+  },
+  {
+   "start": 10354,
+   "end": 10365,
+   "label": "DOCKET",
+   "text": "4A_294/2019"
+  },
+  {
+   "start": 10526,
+   "end": 10544,
+   "label": "STATUTE",
+   "text": "Art. 77 Abs. 3 BGG"
+  },
+  {
+   "start": 10607,
+   "end": 10627,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 IPRG"
+  },
+  {
+   "start": 10660,
+   "end": 10675,
+   "label": "BGE",
+   "text": "BGE 134 III 186"
+  },
+  {
+   "start": 10689,
+   "end": 10699,
+   "label": "BGE",
+   "text": "128 III 50"
+  },
+  {
+   "start": 10713,
+   "end": 10724,
+   "label": "BGE",
+   "text": "127 III 279"
+  },
+  {
+   "start": 10745,
+   "end": 10763,
+   "label": "STATUTE",
+   "text": "Art. 77 Abs. 3 BGG"
+  },
+  {
+   "start": 10887,
+   "end": 10906,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 11015,
+   "end": 11030,
+   "label": "BGE",
+   "text": "BGE 134 III 186"
+  },
+  {
+   "start": 11097,
+   "end": 11112,
+   "label": "BGE",
+   "text": "BGE 134 III 565"
+  },
+  {
+   "start": 11128,
+   "end": 11138,
+   "label": "BGE",
+   "text": "119 II 380"
+  },
+  {
+   "start": 11260,
+   "end": 11287,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 lit. e IPRG"
+  },
+  {
+   "start": 11489,
+   "end": 11504,
+   "label": "BGE",
+   "text": "BGE 121 III 331"
+  },
+  {
+   "start": 11850,
+   "end": 11865,
+   "label": "BGE",
+   "text": "BGE 144 III 120"
+  },
+  {
+   "start": 12172,
+   "end": 12190,
+   "label": "STATUTE",
+   "text": "Art. 27 Abs. 2 ZGB"
+  },
+  {
+   "start": 12512,
+   "end": 12527,
+   "label": "BGE",
+   "text": "BGE 144 III 120"
+  },
+  {
+   "start": 12543,
+   "end": 12554,
+   "label": "BGE",
+   "text": "138 III 322"
+  },
+  {
+   "start": 12752,
+   "end": 12767,
+   "label": "BGE",
+   "text": "BGE 144 III 120"
+  },
+  {
+   "start": 12783,
+   "end": 12794,
+   "label": "BGE",
+   "text": "138 III 322"
+  },
+  {
+   "start": 12824,
+   "end": 12835,
+   "label": "BGE",
+   "text": "132 III 389"
+  },
+  {
+   "start": 12923,
+   "end": 12953,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Artikel 16 des Arbeitsvertrags"
+  },
+  {
+   "start": 13269,
+   "end": 13279,
+   "label": "BARE_ARTICLE",
+   "text": "Artikel 16"
+  },
+  {
+   "start": 13784,
+   "end": 13814,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Artikel 16 des Arbeitsvertrags"
+  },
+  {
+   "start": 13924,
+   "end": 13951,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 lit. e IPRG"
+  },
+  {
+   "start": 14058,
+   "end": 14085,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 lit. e IPRG"
+  },
+  {
+   "start": 15080,
+   "end": 15091,
+   "label": "DOCKET",
+   "text": "4A_346/2020"
+  },
+  {
+   "start": 15121,
+   "end": 15131,
+   "label": "DOCKET",
+   "text": "4A_70/2020"
+  },
+  {
+   "start": 15160,
+   "end": 15171,
+   "label": "DOCKET",
+   "text": "4A_532/2016"
+  },
+  {
+   "start": 15395,
+   "end": 15425,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Artikel 16 des Arbeitsvertrags"
+  },
+  {
+   "start": 15864,
+   "end": 15894,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Artikel 16 des Arbeitsvertrags"
+  },
+  {
+   "start": 16090,
+   "end": 16108,
+   "label": "STATUTE",
+   "text": "Art. 27 Abs. 2 ZGB"
+  },
+  {
+   "start": 16416,
+   "end": 16426,
+   "label": "BARE_ARTICLE",
+   "text": "Artikel 16"
+  },
+  {
+   "start": 16777,
+   "end": 16807,
+   "label": "CONTRACT_ARTICLE",
+   "text": "Artikel 16 des Arbeitsvertrags"
+  },
+  {
+   "start": 17325,
+   "end": 17338,
+   "label": "AMOUNT",
+   "text": "USD 60'000.--"
+  },
+  {
+   "start": 17394,
+   "end": 17408,
+   "label": "AMOUNT",
+   "text": "USD 246'000.--"
+  },
+  {
+   "start": 18181,
+   "end": 18196,
+   "label": "BGE",
+   "text": "BGE 138 III 322"
+  },
+  {
+   "start": 18336,
+   "end": 18363,
+   "label": "STATUTE",
+   "text": "Art. 190 Abs. 2 lit. e IPRG"
+  },
+  {
+   "start": 18634,
+   "end": 18652,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 18796,
+   "end": 18814,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 18950,
+   "end": 18962,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  }
+ ],
+ "n_pre": 64,
+ "n_deleted": 0,
+ "n_added": 1,
+ "n_relabeled": 0
+}

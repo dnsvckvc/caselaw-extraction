@@ -1,0 +1,157 @@
+{
+ "decision_id": "bger_5A_497_2026",
+ "task_index": 88,
+ "pass": "c",
+ "outcome": "inadmissible",
+ "comment": "",
+ "spans": [
+  {
+   "start": 316,
+   "end": 334,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 1211,
+   "end": 1221,
+   "label": "AMOUNT",
+   "text": "Fr. 300.--"
+  },
+  {
+   "start": 1546,
+   "end": 1556,
+   "label": "AMOUNT",
+   "text": "Fr. 800.--"
+  },
+  {
+   "start": 2341,
+   "end": 2352,
+   "label": "STATUTE",
+   "text": "Art. 57 BGG"
+  },
+  {
+   "start": 2388,
+   "end": 2399,
+   "label": "STATUTE",
+   "text": "Art. 58 BGG"
+  },
+  {
+   "start": 3414,
+   "end": 3432,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3771,
+   "end": 3785,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 3792,
+   "end": 3803,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 3865,
+   "end": 3884,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 3887,
+   "end": 3902,
+   "label": "BGE",
+   "text": "BGE 142 III 364"
+  },
+  {
+   "start": 3911,
+   "end": 3921,
+   "label": "BGE",
+   "text": "149 III 81"
+  },
+  {
+   "start": 4015,
+   "end": 4033,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 4054,
+   "end": 4068,
+   "label": "BGE",
+   "text": "BGE 140 III 16"
+  },
+  {
+   "start": 4079,
+   "end": 4090,
+   "label": "BGE",
+   "text": "140 III 264"
+  },
+  {
+   "start": 4492,
+   "end": 4502,
+   "label": "STATUTE",
+   "text": "Art. 9 ZGB"
+  },
+  {
+   "start": 4818,
+   "end": 4829,
+   "label": "DOCKET",
+   "text": "5A_742/2025"
+  },
+  {
+   "start": 4861,
+   "end": 4870,
+   "label": "DOCKET",
+   "text": "5F_5/2026"
+  },
+  {
+   "start": 4989,
+   "end": 5002,
+   "label": "STATUTE",
+   "text": "Art. 22 SchKG"
+  },
+  {
+   "start": 5105,
+   "end": 5118,
+   "label": "STATUTE",
+   "text": "Art. 22 SchKG"
+  },
+  {
+   "start": 5443,
+   "end": 5454,
+   "label": "DOCKET",
+   "text": "5A_742/2025"
+  },
+  {
+   "start": 6117,
+   "end": 6136,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 BGG"
+  },
+  {
+   "start": 6273,
+   "end": 6310,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1, Abs. 3 und Abs. 5 BGG"
+  },
+  {
+   "start": 6461,
+   "end": 6479,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 6773,
+   "end": 6785,
+   "label": "AMOUNT",
+   "text": "Fr. 1'500.--"
+  }
+ ],
+ "n_pre": 24,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

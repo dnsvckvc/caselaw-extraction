@@ -1,0 +1,295 @@
+{
+ "decision_id": "bger_5A_214_2022",
+ "task_index": 70,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "Eleven OTHER_LAW pre-annotations stopped after EG and left out the act abbreviation ZPO/GL or ZGB/GL. Deleted them and re-added the full spans (guideline example: § 66 Abs. 1 EG ZGB/BL). Boundary fix only, 11 deleted and 11 added.",
+ "spans": [
+  {
+   "start": 283,
+   "end": 299,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 397,
+   "end": 418,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerinnen"
+  },
+  {
+   "start": 1502,
+   "end": 1554,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 lit. b Ziff. 5 und\nArt. 75 Abs. 1 BGG"
+  },
+  {
+   "start": 1842,
+   "end": 1853,
+   "label": "DOCKET",
+   "text": "5A_395/2010"
+  },
+  {
+   "start": 1885,
+   "end": 1896,
+   "label": "DOCKET",
+   "text": "5A_940/2018"
+  },
+  {
+   "start": 2006,
+   "end": 2019,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 2133,
+   "end": 2146,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 2162,
+   "end": 2187,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 2229,
+   "end": 2248,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 2303,
+   "end": 2318,
+   "label": "STATUTE",
+   "text": "Art. 517 f. ZGB"
+  },
+  {
+   "start": 2347,
+   "end": 2366,
+   "label": "STATUTE",
+   "text": "Art. 554 Abs. 2 ZGB"
+  },
+  {
+   "start": 2497,
+   "end": 2514,
+   "label": "STATUTE",
+   "text": "Art. 1 lit. a ZPO"
+  },
+  {
+   "start": 2638,
+   "end": 2649,
+   "label": "DOCKET",
+   "text": "5A_195/2013"
+  },
+  {
+   "start": 2806,
+   "end": 2823,
+   "label": "STATUTE",
+   "text": "Art. 1 lit. a ZPO"
+  },
+  {
+   "start": 2903,
+   "end": 2913,
+   "label": "STATUTE",
+   "text": "Art. 3 ZPO"
+  },
+  {
+   "start": 3336,
+   "end": 3351,
+   "label": "BGE",
+   "text": "BGE 139 III 225"
+  },
+  {
+   "start": 3360,
+   "end": 3371,
+   "label": "BGE",
+   "text": "139 III 252"
+  },
+  {
+   "start": 3380,
+   "end": 3391,
+   "label": "BGE",
+   "text": "140 III 385"
+  },
+  {
+   "start": 3400,
+   "end": 3410,
+   "label": "BGE",
+   "text": "142 II 369"
+  },
+  {
+   "start": 3647,
+   "end": 3677,
+   "label": "OTHER_LAW",
+   "text": "Art. 7 Abs. 1 lit. b EG ZPO/GL"
+  },
+  {
+   "start": 3825,
+   "end": 3848,
+   "label": "OTHER_LAW",
+   "text": "Art. 7 Abs. 1 EG ZPO/GL"
+  },
+  {
+   "start": 4290,
+   "end": 4313,
+   "label": "OTHER_LAW",
+   "text": "Art. 7 Abs. 1 EG ZPO/GL"
+  },
+  {
+   "start": 4589,
+   "end": 4613,
+   "label": "OTHER_LAW",
+   "text": "Art. 9a Abs. 4 EG ZGB/GL"
+  },
+  {
+   "start": 4716,
+   "end": 4746,
+   "label": "OTHER_LAW",
+   "text": "Art. 7 Abs. 1 lit. b EG ZPO/GL"
+  },
+  {
+   "start": 4926,
+   "end": 4951,
+   "label": "STATUTE",
+   "text": "Art. 595 Abs. 1 und 3 ZGB"
+  },
+  {
+   "start": 5117,
+   "end": 5147,
+   "label": "OTHER_LAW",
+   "text": "Art. 7 Abs. 1 lit. b EG ZPO/GL"
+  },
+  {
+   "start": 5316,
+   "end": 5346,
+   "label": "OTHER_LAW",
+   "text": "Art. 7 Abs. 1 lit. b EG ZPO/GL"
+  },
+  {
+   "start": 5364,
+   "end": 5380,
+   "label": "STATUTE",
+   "text": "Art. 593 ff. ZGB"
+  },
+  {
+   "start": 5454,
+   "end": 5473,
+   "label": "STATUTE",
+   "text": "Art. 595 Abs. 3 ZGB"
+  },
+  {
+   "start": 5560,
+   "end": 5579,
+   "label": "STATUTE",
+   "text": "Art. 518 Abs. 1 ZGB"
+  },
+  {
+   "start": 5584,
+   "end": 5603,
+   "label": "STATUTE",
+   "text": "Art. 595 Abs. 3 ZGB"
+  },
+  {
+   "start": 5797,
+   "end": 5839,
+   "label": "STATUTE",
+   "text": "Art. 518 Abs. 1 i.V.m.\nArt. 595 Abs. 3 ZGB"
+  },
+  {
+   "start": 5844,
+   "end": 5874,
+   "label": "OTHER_LAW",
+   "text": "Art. 7 Abs. 1 lit. b EG ZPO/GL"
+  },
+  {
+   "start": 5969,
+   "end": 5994,
+   "label": "OTHER_LAW",
+   "text": "Art. 108 Abs. 2 EG ZGB/GL"
+  },
+  {
+   "start": 6349,
+   "end": 6382,
+   "label": "OTHER_LAW",
+   "text": "Art. 19 und\nArt. 106 Abs. 1 KV/GL"
+  },
+  {
+   "start": 7068,
+   "end": 7082,
+   "label": "BGE",
+   "text": "BGE 139 IV 179"
+  },
+  {
+   "start": 7098,
+   "end": 7108,
+   "label": "BGE",
+   "text": "141 III 28"
+  },
+  {
+   "start": 7125,
+   "end": 7135,
+   "label": "BGE",
+   "text": "141 IV 249"
+  },
+  {
+   "start": 7642,
+   "end": 7665,
+   "label": "OTHER_LAW",
+   "text": "Art. 7 Abs. 1 EG ZPO/GL"
+  },
+  {
+   "start": 7740,
+   "end": 7764,
+   "label": "OTHER_LAW",
+   "text": "Art. 9a Abs. 4 EG ZGB/GL"
+  },
+  {
+   "start": 8463,
+   "end": 8477,
+   "label": "BGE",
+   "text": "BGE 142 II 369"
+  },
+  {
+   "start": 8487,
+   "end": 8496,
+   "label": "BGE",
+   "text": "144 I 113"
+  },
+  {
+   "start": 9382,
+   "end": 9402,
+   "label": "OTHER_LAW",
+   "text": "Art. 16 Abs. 1 KV/GL"
+  },
+  {
+   "start": 9407,
+   "end": 9427,
+   "label": "OTHER_LAW",
+   "text": "Art. 30 Abs. 1 KV/GL"
+  },
+  {
+   "start": 9453,
+   "end": 9470,
+   "label": "STATUTE",
+   "text": "Art. 30 Abs. 1 BV"
+  },
+  {
+   "start": 9741,
+   "end": 9759,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 9895,
+   "end": 9907,
+   "label": "AMOUNT",
+   "text": "Fr. 4'000.--"
+  }
+ ],
+ "n_pre": 47,
+ "n_deleted": 11,
+ "n_added": 11,
+ "n_relabeled": 0
+}

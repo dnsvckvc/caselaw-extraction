@@ -1,0 +1,133 @@
+{
+ "decision_id": "bger_5A_206_2020",
+ "task_index": 6,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "No changes. Appellationsgericht is listed as Beschwerdegegner in the header; kept.",
+ "spans": [
+  {
+   "start": 269,
+   "end": 287,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 342,
+   "end": 358,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 803,
+   "end": 813,
+   "label": "AMOUNT",
+   "text": "Fr. 300.--"
+  },
+  {
+   "start": 3951,
+   "end": 3977,
+   "label": "STATUTE",
+   "text": "Art. 138 Abs. 3 lit. a ZPO"
+  },
+  {
+   "start": 3980,
+   "end": 3998,
+   "label": "STATUTE",
+   "text": "Art. 44 Abs. 2 BGG"
+  },
+  {
+   "start": 4306,
+   "end": 4316,
+   "label": "DOCKET",
+   "text": "4A_53/2019"
+  },
+  {
+   "start": 5333,
+   "end": 5358,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 6568,
+   "end": 6587,
+   "label": "STATUTE",
+   "text": "Art. 148 Abs. 1 ZPO"
+  },
+  {
+   "start": 7116,
+   "end": 7135,
+   "label": "STATUTE",
+   "text": "Art. 119 Abs. 6 ZPO"
+  },
+  {
+   "start": 7626,
+   "end": 7645,
+   "label": "STATUTE",
+   "text": "Art. 119 Abs. 6 ZPO"
+  },
+  {
+   "start": 7886,
+   "end": 7901,
+   "label": "BGE",
+   "text": "BGE 137 III 470"
+  },
+  {
+   "start": 8254,
+   "end": 8272,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 8288,
+   "end": 8302,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 8318,
+   "end": 8329,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 8538,
+   "end": 8552,
+   "label": "BGE",
+   "text": "BGE 134 II 244"
+  },
+  {
+   "start": 8795,
+   "end": 8827,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. a und b BGG"
+  },
+  {
+   "start": 9035,
+   "end": 9053,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 9259,
+   "end": 9277,
+   "label": "STATUTE",
+   "text": "Art. 64 Abs. 1 BGG"
+  },
+  {
+   "start": 9350,
+   "end": 9368,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 1 BGG"
+  },
+  {
+   "start": 9613,
+   "end": 9625,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 20,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

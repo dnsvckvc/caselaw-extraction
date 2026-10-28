@@ -1,0 +1,15 @@
+{
+ "outcome": "approved",
+ "delete": [
+  4
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 2 Abs. 2",
+   "label": "BARE_ARTICLE",
+   "occurrence": 1
+  }
+ ],
+ "comment": "#4: Postverordnung (VPG; SR 783.01) is an act with SR number, so BARE_ARTICLE not CONTRACT_ARTICLE. Kept #5 'Art. 1 und Art. 32' (des Postgesetzes) as one BARE span; #34 'Artikel 43' followed by editorial [VPG] kept as BARE_ARTICLE."
+}

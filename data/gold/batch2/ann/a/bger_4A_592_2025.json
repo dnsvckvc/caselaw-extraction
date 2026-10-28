@@ -1,0 +1,253 @@
+{
+ "decision_id": "bger_4A_592_2025",
+ "task_index": 83,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "Added missed BGE list item '137 III 324' (first occurrence, after 'BGE 138 III 76 E. 1.2, 333 E. 1.2;'). '333 E. 1.2' and '346 E. 1.3.3' left unlabelled per second-page rule. 'Art. 19 des Bundesgesetzes ... (AVG; SR 823.11)' not labelled: no abbreviation directly after the article. 'Präsidialverfügung 4A_592/2025' is the decision's own number, not labelled.",
+ "spans": [
+  {
+   "start": 397,
+   "end": 415,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 519,
+   "end": 537,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 3720,
+   "end": 3733,
+   "label": "STATUTE",
+   "text": "Art. 292 StGB"
+  },
+  {
+   "start": 3758,
+   "end": 3771,
+   "label": "AMOUNT",
+   "text": "Fr. 10'000.--"
+  },
+  {
+   "start": 5292,
+   "end": 5310,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 BGG"
+  },
+  {
+   "start": 5313,
+   "end": 5328,
+   "label": "BGE",
+   "text": "BGE 150 III 248"
+  },
+  {
+   "start": 5335,
+   "end": 5346,
+   "label": "BGE",
+   "text": "149 III 277"
+  },
+  {
+   "start": 5356,
+   "end": 5365,
+   "label": "BGE",
+   "text": "145 I 121"
+  },
+  {
+   "start": 5767,
+   "end": 5778,
+   "label": "STATUTE",
+   "text": "Art. 93 BGG"
+  },
+  {
+   "start": 5785,
+   "end": 5800,
+   "label": "BGE",
+   "text": "BGE 151 III 227"
+  },
+  {
+   "start": 5809,
+   "end": 5820,
+   "label": "BGE",
+   "text": "144 III 475"
+  },
+  {
+   "start": 5831,
+   "end": 5841,
+   "label": "BGE",
+   "text": "138 III 76"
+  },
+  {
+   "start": 5862,
+   "end": 5873,
+   "label": "BGE",
+   "text": "137 III 324"
+  },
+  {
+   "start": 5995,
+   "end": 6010,
+   "label": "BGE",
+   "text": "BGE 151 III 227"
+  },
+  {
+   "start": 6091,
+   "end": 6102,
+   "label": "STATUTE",
+   "text": "Art. 90 BGG"
+  },
+  {
+   "start": 6523,
+   "end": 6534,
+   "label": "STATUTE",
+   "text": "Art. 93 BGG"
+  },
+  {
+   "start": 6678,
+   "end": 6703,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 6994,
+   "end": 7009,
+   "label": "BGE",
+   "text": "BGE 151 III 227"
+  },
+  {
+   "start": 7018,
+   "end": 7029,
+   "label": "BGE",
+   "text": "150 III 248"
+  },
+  {
+   "start": 7038,
+   "end": 7048,
+   "label": "BGE",
+   "text": "149 II 476"
+  },
+  {
+   "start": 7323,
+   "end": 7338,
+   "label": "BGE",
+   "text": "BGE 151 III 227"
+  },
+  {
+   "start": 7347,
+   "end": 7358,
+   "label": "BGE",
+   "text": "150 III 248"
+  },
+  {
+   "start": 7575,
+   "end": 7587,
+   "label": "BGE",
+   "text": "BGE 134 I 83"
+  },
+  {
+   "start": 7915,
+   "end": 7930,
+   "label": "BGE",
+   "text": "BGE 151 III 227"
+  },
+  {
+   "start": 7939,
+   "end": 7950,
+   "label": "BGE",
+   "text": "144 III 475"
+  },
+  {
+   "start": 7959,
+   "end": 7970,
+   "label": "BGE",
+   "text": "137 III 324"
+  },
+  {
+   "start": 8546,
+   "end": 8559,
+   "label": "AMOUNT",
+   "text": "Fr. 87'783.75"
+  },
+  {
+   "start": 11108,
+   "end": 11121,
+   "label": "AMOUNT",
+   "text": "Fr. 32'359.80"
+  },
+  {
+   "start": 11379,
+   "end": 11392,
+   "label": "AMOUNT",
+   "text": "Fr. 51'136.50"
+  },
+  {
+   "start": 11497,
+   "end": 11511,
+   "label": "AMOUNT",
+   "text": "Fr. 100'000.--"
+  },
+  {
+   "start": 11628,
+   "end": 11653,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 11866,
+   "end": 11881,
+   "label": "BGE",
+   "text": "BGE 138 III 333"
+  },
+  {
+   "start": 11892,
+   "end": 11903,
+   "label": "BGE",
+   "text": "137 III 637"
+  },
+  {
+   "start": 11920,
+   "end": 11931,
+   "label": "DOCKET",
+   "text": "4A_312/2025"
+  },
+  {
+   "start": 11963,
+   "end": 11974,
+   "label": "DOCKET",
+   "text": "4A_567/2023"
+  },
+  {
+   "start": 12001,
+   "end": 12012,
+   "label": "DOCKET",
+   "text": "4A_403/2020"
+  },
+  {
+   "start": 12318,
+   "end": 12343,
+   "label": "STATUTE",
+   "text": "Art. 93 Abs. 1 lit. a BGG"
+  },
+  {
+   "start": 12568,
+   "end": 12605,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 2 BGG"
+  },
+  {
+   "start": 12721,
+   "end": 12733,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  },
+  {
+   "start": 12834,
+   "end": 12846,
+   "label": "AMOUNT",
+   "text": "Fr. 7'000.--"
+  }
+ ],
+ "n_pre": 39,
+ "n_deleted": 0,
+ "n_added": 1,
+ "n_relabeled": 0
+}

@@ -1,0 +1,19 @@
+{
+  "outcome": "approved",
+  "delete": [
+    70,
+    80
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "§ 25",
+      "label": "BARE_ARTICLE"
+    },
+    {
+      "text": "SJZ 1943, S. 389",
+      "label": "JOURNAL_REF"
+    }
+  ],
+  "comment": "#70: cantonal act given as a title (EG ZPO/AG abbreviation only later in brackets) -> BARE_ARTICLE § 25, not CONTRACT_ARTICLE. #80: SJZ 1943 cut before page; re-drawn as SJZ 1943, S. 389 (second page ref \"und 405 ff.\" left out). Ziff. 3.1 / Ziff. 4.5 refer to a court procedural order, not a private instrument: no span."
+}

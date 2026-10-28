@@ -1,0 +1,85 @@
+{
+ "decision_id": "bger_5A_381_2026",
+ "task_index": 187,
+ "pass": "a",
+ "outcome": "inadmissible",
+ "comment": "All 12 pre-annotations checked; none wrong, none missing. Own number 5A_381/2026 correctly unlabelled; the three parallel dossiers are DOCKET. PS260097-O/U is a cantonal file number.",
+ "spans": [
+  {
+   "start": 245,
+   "end": 263,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 1878,
+   "end": 1889,
+   "label": "DOCKET",
+   "text": "5A_392/2026"
+  },
+  {
+   "start": 1891,
+   "end": 1902,
+   "label": "DOCKET",
+   "text": "5A_393/2026"
+  },
+  {
+   "start": 1907,
+   "end": 1918,
+   "label": "DOCKET",
+   "text": "5A_394/2026"
+  },
+  {
+   "start": 2250,
+   "end": 2268,
+   "label": "STATUTE",
+   "text": "Art. 48 Abs. 3 BGG"
+  },
+  {
+   "start": 3459,
+   "end": 3477,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 3816,
+   "end": 3830,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 3837,
+   "end": 3848,
+   "label": "BGE",
+   "text": "140 III 115"
+  },
+  {
+   "start": 3989,
+   "end": 4008,
+   "label": "STATUTE",
+   "text": "Art. 238 lit. h ZPO"
+  },
+  {
+   "start": 4206,
+   "end": 4227,
+   "label": "STATUTE",
+   "text": "Art. 20a Abs. 3 SchKG"
+  },
+  {
+   "start": 4742,
+   "end": 4768,
+   "label": "STATUTE",
+   "text": "Art. 108 Abs. 1 lit. b BGG"
+  },
+  {
+   "start": 4865,
+   "end": 4883,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  }
+ ],
+ "n_pre": 12,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

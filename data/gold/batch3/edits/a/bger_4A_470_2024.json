@@ -1,0 +1,17 @@
+{
+ "outcome": "dismissed",
+ "delete": [],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. E 6.3 der Allgemeinen Versicherungsbedingungen",
+   "label": "CONTRACT_ARTICLE"
+  },
+  {
+   "text": "Art. E6.3 AVB",
+   "label": "CONTRACT_ARTICLE",
+   "all": true
+  }
+ ],
+ "comment": "Added the AVB clause references (CONTRACT_ARTICLE); the long form stops before '(AVB)'. #10 'Art. 2 Abs. 2' of the KVAG given as a title stays BARE_ARTICLE."
+}

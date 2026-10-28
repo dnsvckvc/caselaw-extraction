@@ -1,0 +1,469 @@
+{
+ "decision_id": "bger_5A_393_2021",
+ "task_index": 59,
+ "pass": "a",
+ "outcome": "dismissed",
+ "comment": "#52 JOURNAL_REF Pra 107 extended to Pra 107 [2018] Nr. 86: the year bracket sits inside the reference between volume and number (unsettled: guideline forbids brackets but only the surrounding kind is illustrated). Left unlabelled: Randziffer 16 der Klageantwort, SR 0.274.131, AS 1991 2436, Haager Uebereinkommen cited without Art., cantonal number RT200056-O/U.",
+ "spans": [
+  {
+   "start": 344,
+   "end": 362,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführerin"
+  },
+  {
+   "start": 430,
+   "end": 448,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegnerin"
+  },
+  {
+   "start": 761,
+   "end": 775,
+   "label": "AMOUNT",
+   "text": "Fr. 180'880.--"
+  },
+  {
+   "start": 780,
+   "end": 794,
+   "label": "AMOUNT",
+   "text": "Fr. 445'970.--"
+  },
+  {
+   "start": 973,
+   "end": 987,
+   "label": "AMOUNT",
+   "text": "EUR 467'000.--"
+  },
+  {
+   "start": 1777,
+   "end": 1791,
+   "label": "AMOUNT",
+   "text": "Fr. 183'954.90"
+  },
+  {
+   "start": 2113,
+   "end": 2123,
+   "label": "AMOUNT",
+   "text": "Fr. 203.30"
+  },
+  {
+   "start": 2230,
+   "end": 2244,
+   "label": "AMOUNT",
+   "text": "Fr. 183'954.90"
+  },
+  {
+   "start": 3499,
+   "end": 3535,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 Bst. a, 75 und 90 BGG"
+  },
+  {
+   "start": 3575,
+   "end": 3588,
+   "label": "AMOUNT",
+   "text": "Fr. 30'000.--"
+  },
+  {
+   "start": 3590,
+   "end": 3615,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 1 Bst. b BGG"
+  },
+  {
+   "start": 3653,
+   "end": 3672,
+   "label": "STATUTE",
+   "text": "Art. 100 Abs. 1 BGG"
+  },
+  {
+   "start": 3821,
+   "end": 3835,
+   "label": "STATUTE",
+   "text": "Art. 95 f. BGG"
+  },
+  {
+   "start": 4107,
+   "end": 4125,
+   "label": "STATUTE",
+   "text": "Art. 96 Bst. b BGG"
+  },
+  {
+   "start": 4270,
+   "end": 4285,
+   "label": "BGE",
+   "text": "BGE 135 III 670"
+  },
+  {
+   "start": 4294,
+   "end": 4305,
+   "label": "BGE",
+   "text": "133 III 446"
+  },
+  {
+   "start": 4369,
+   "end": 4380,
+   "label": "DOCKET",
+   "text": "5A_389/2010"
+  },
+  {
+   "start": 4499,
+   "end": 4518,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 1 BGG"
+  },
+  {
+   "start": 4748,
+   "end": 4763,
+   "label": "BGE",
+   "text": "BGE 137 III 580"
+  },
+  {
+   "start": 4882,
+   "end": 4900,
+   "label": "STATUTE",
+   "text": "Art. 42 Abs. 2 BGG"
+  },
+  {
+   "start": 4903,
+   "end": 4917,
+   "label": "BGE",
+   "text": "BGE 140 III 86"
+  },
+  {
+   "start": 5266,
+   "end": 5278,
+   "label": "BGE",
+   "text": "BGE 142 I 99"
+  },
+  {
+   "start": 5289,
+   "end": 5299,
+   "label": "BGE",
+   "text": "140 III 86"
+  },
+  {
+   "start": 5406,
+   "end": 5425,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 5428,
+   "end": 5441,
+   "label": "BGE",
+   "text": "BGE 145 V 304"
+  },
+  {
+   "start": 5450,
+   "end": 5460,
+   "label": "BGE",
+   "text": "133 II 249"
+  },
+  {
+   "start": 5590,
+   "end": 5609,
+   "label": "STATUTE",
+   "text": "Art. 105 Abs. 1 BGG"
+  },
+  {
+   "start": 5742,
+   "end": 5760,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 5793,
+   "end": 5808,
+   "label": "BGE",
+   "text": "BGE 140 III 264"
+  },
+  {
+   "start": 5817,
+   "end": 5828,
+   "label": "BGE",
+   "text": "135 III 127"
+  },
+  {
+   "start": 5909,
+   "end": 5920,
+   "label": "STATUTE",
+   "text": "Art. 95 BGG"
+  },
+  {
+   "start": 5927,
+   "end": 5944,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 5950,
+   "end": 5960,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 5979,
+   "end": 5990,
+   "label": "DOCKET",
+   "text": "5A_374/2010"
+  },
+  {
+   "start": 6155,
+   "end": 6173,
+   "label": "STATUTE",
+   "text": "Art. 97 Abs. 1 BGG"
+  },
+  {
+   "start": 6176,
+   "end": 6188,
+   "label": "BGE",
+   "text": "BGE 135 I 19"
+  },
+  {
+   "start": 6309,
+   "end": 6328,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 6754,
+   "end": 6768,
+   "label": "BGE",
+   "text": "BGE 137 II 353"
+  },
+  {
+   "start": 6777,
+   "end": 6787,
+   "label": "BGE",
+   "text": "134 II 244"
+  },
+  {
+   "start": 6796,
+   "end": 6806,
+   "label": "BGE",
+   "text": "133 II 249"
+  },
+  {
+   "start": 7483,
+   "end": 7503,
+   "label": "STATUTE",
+   "text": "Art. 50 Abs. 1 aLugÜ"
+  },
+  {
+   "start": 11631,
+   "end": 11645,
+   "label": "AMOUNT",
+   "text": "EUR 167'903.33"
+  },
+  {
+   "start": 12431,
+   "end": 12445,
+   "label": "AMOUNT",
+   "text": "EUR 168'137.56"
+  },
+  {
+   "start": 13547,
+   "end": 13562,
+   "label": "BGE",
+   "text": "BGE 140 III 372"
+  },
+  {
+   "start": 14279,
+   "end": 14294,
+   "label": "BGE",
+   "text": "BGE 140 III 372"
+  },
+  {
+   "start": 14330,
+   "end": 14343,
+   "label": "STATUTE",
+   "text": "Art. 84 SchKG"
+  },
+  {
+   "start": 14849,
+   "end": 14864,
+   "label": "BGE",
+   "text": "BGE 140 III 372"
+  },
+  {
+   "start": 15416,
+   "end": 15436,
+   "label": "STATUTE",
+   "text": "Art. 81 Abs. 1 SchKG"
+  },
+  {
+   "start": 15583,
+   "end": 15603,
+   "label": "STATUTE",
+   "text": "Art. 81 Abs. 2 SchKG"
+  },
+  {
+   "start": 16000,
+   "end": 16026,
+   "label": "STATUTE",
+   "text": "Art. 85a und\nArt. 86 SchKG"
+  },
+  {
+   "start": 16059,
+   "end": 16074,
+   "label": "BGE",
+   "text": "BGE 143 III 404"
+  },
+  {
+   "start": 16111,
+   "end": 16132,
+   "label": "JOURNAL_REF",
+   "text": "Pra 107 [2018] Nr. 86"
+  },
+  {
+   "start": 16426,
+   "end": 16446,
+   "label": "STATUTE",
+   "text": "Art. 81 Abs. 2 SchKG"
+  },
+  {
+   "start": 16534,
+   "end": 16554,
+   "label": "STATUTE",
+   "text": "Art. 81 Abs. 1 SchKG"
+  },
+  {
+   "start": 16673,
+   "end": 16693,
+   "label": "STATUTE",
+   "text": "Art. 50 Abs. 1 aLugÜ"
+  },
+  {
+   "start": 16879,
+   "end": 16896,
+   "label": "STATUTE",
+   "text": "Art. 31 ff. aLugÜ"
+  },
+  {
+   "start": 17058,
+   "end": 17078,
+   "label": "STATUTE",
+   "text": "Art. 81 Abs. 1 SchKG"
+  },
+  {
+   "start": 17218,
+   "end": 17232,
+   "label": "BGE",
+   "text": "BGE 137 III 87"
+  },
+  {
+   "start": 17817,
+   "end": 17822,
+   "label": "BARE_ARTICLE",
+   "text": "§ 780"
+  },
+  {
+   "start": 17918,
+   "end": 17927,
+   "label": "OTHER_LAW",
+   "text": "§ 781 BGB"
+  },
+  {
+   "start": 18532,
+   "end": 18545,
+   "label": "OTHER_LAW",
+   "text": "§§ 780 f. BGB"
+  },
+  {
+   "start": 22364,
+   "end": 22373,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 23742,
+   "end": 23762,
+   "label": "STATUTE",
+   "text": "Art. 80 Abs. 1 SchKG"
+  },
+  {
+   "start": 23767,
+   "end": 23777,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 25255,
+   "end": 25269,
+   "label": "BGE",
+   "text": "BGE 133 IV 119"
+  },
+  {
+   "start": 25411,
+   "end": 25426,
+   "label": "BGE",
+   "text": "BGE 133 III 221"
+  },
+  {
+   "start": 25433,
+   "end": 25444,
+   "label": "BGE",
+   "text": "130 III 321"
+  },
+  {
+   "start": 25960,
+   "end": 25980,
+   "label": "STATUTE",
+   "text": "Art. 80 Abs. 1 SchKG"
+  },
+  {
+   "start": 25985,
+   "end": 25995,
+   "label": "STATUTE",
+   "text": "Art. 8 ZGB"
+  },
+  {
+   "start": 26258,
+   "end": 26275,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 2 BV"
+  },
+  {
+   "start": 26760,
+   "end": 26775,
+   "label": "BGE",
+   "text": "BGE 145 III 324"
+  },
+  {
+   "start": 26785,
+   "end": 26793,
+   "label": "BGE",
+   "text": "134 I 83"
+  },
+  {
+   "start": 26802,
+   "end": 26813,
+   "label": "BGE",
+   "text": "133 III 439"
+  },
+  {
+   "start": 27717,
+   "end": 27742,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 Satz 1 BGG"
+  },
+  {
+   "start": 27991,
+   "end": 28031,
+   "label": "STATUTE",
+   "text": "Art. 68 Abs. 4 i.V.m.\nArt. 66 Abs. 3 BGG"
+  },
+  {
+   "start": 28167,
+   "end": 28179,
+   "label": "AMOUNT",
+   "text": "Fr. 6'000.--"
+  }
+ ],
+ "n_pre": 76,
+ "n_deleted": 1,
+ "n_added": 1,
+ "n_relabeled": 0
+}

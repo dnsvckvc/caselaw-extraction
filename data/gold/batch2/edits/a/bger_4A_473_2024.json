@@ -1,0 +1,23 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 271a Abs. 2 OR",
+      "label": "STATUTE",
+      "occurrence": 1
+    },
+    {
+      "text": "Art. 271a Abs. 1 lit. e Ziff. 4 i.V.m. Abs. 2 OR",
+      "label": "STATUTE",
+      "all": true
+    },
+    {
+      "text": "Art. 271a Abs. 1 lit. e i.V.m. Abs. 2 OR",
+      "label": "STATUTE",
+      "all": true
+    }
+  ],
+  "comment": "Gegenstand line cites Art. 271a Abs. 2 OR split across a blank line; pre-annotator missed it and the four i.V.m. Abs. 2 OR chains in C, 3.2 and 3.6."
+}

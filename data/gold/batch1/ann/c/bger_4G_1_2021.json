@@ -1,0 +1,223 @@
+{
+ "decision_id": "bger_4G_1_2021",
+ "task_index": 20,
+ "pass": "c",
+ "outcome": "approved",
+ "comment": "Erlaeuterungs-/Berichtigungsgesuch (4G). Dispositiv item 1 corrects judgment 4A_294/2020 as requested (antragsgemaess), without the word gutgeheissen; labelled approved. Pre-annotated outcome was unknown. All Mio. amounts were cut before the multiplier (and 3.241 split at 3.24).",
+ "spans": [
+  {
+   "start": 614,
+   "end": 627,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsteller"
+  },
+  {
+   "start": 734,
+   "end": 749,
+   "label": "PARTY_ROLE",
+   "text": "Gesuchsgegnerin"
+  },
+  {
+   "start": 909,
+   "end": 920,
+   "label": "DOCKET",
+   "text": "4A_294/2020"
+  },
+  {
+   "start": 1251,
+   "end": 1261,
+   "label": "AMOUNT",
+   "text": "Fr. 3 Mio."
+  },
+  {
+   "start": 1516,
+   "end": 1534,
+   "label": "STATUTE",
+   "text": "Art. 83 Abs. 1 ZPO"
+  },
+  {
+   "start": 1907,
+   "end": 1918,
+   "label": "DOCKET",
+   "text": "4A_294/2020"
+  },
+  {
+   "start": 2084,
+   "end": 2098,
+   "label": "AMOUNT",
+   "text": "Fr. 3.241 Mio."
+  },
+  {
+   "start": 2116,
+   "end": 2126,
+   "label": "AMOUNT",
+   "text": "EUR 2 Mio."
+  },
+  {
+   "start": 2344,
+   "end": 2358,
+   "label": "AMOUNT",
+   "text": "Fr. 3.241 Mio."
+  },
+  {
+   "start": 2495,
+   "end": 2513,
+   "label": "STATUTE",
+   "text": "Art. 754 Abs. 1 OR"
+  },
+  {
+   "start": 3282,
+   "end": 3293,
+   "label": "DOCKET",
+   "text": "4A_294/2020"
+  },
+  {
+   "start": 4038,
+   "end": 4057,
+   "label": "STATUTE",
+   "text": "Art. 129 Abs. 1 BGG"
+  },
+  {
+   "start": 4386,
+   "end": 4405,
+   "label": "STATUTE",
+   "text": "Art. 129 Abs. 1 BGG"
+  },
+  {
+   "start": 4729,
+   "end": 4744,
+   "label": "BGE",
+   "text": "BGE 143 III 420"
+  },
+  {
+   "start": 4753,
+   "end": 4762,
+   "label": "BGE",
+   "text": "110 V 222"
+  },
+  {
+   "start": 4777,
+   "end": 4786,
+   "label": "DOCKET",
+   "text": "4G_1/2019"
+  },
+  {
+   "start": 4814,
+   "end": 4823,
+   "label": "DOCKET",
+   "text": "4G_1/2016"
+  },
+  {
+   "start": 4850,
+   "end": 4859,
+   "label": "DOCKET",
+   "text": "4G_2/2013"
+  },
+  {
+   "start": 4886,
+   "end": 4895,
+   "label": "DOCKET",
+   "text": "4G_1/2013"
+  },
+  {
+   "start": 5242,
+   "end": 5252,
+   "label": "AMOUNT",
+   "text": "Fr. 6 Mio."
+  },
+  {
+   "start": 5301,
+   "end": 5311,
+   "label": "AMOUNT",
+   "text": "Fr. 3 Mio."
+  },
+  {
+   "start": 5562,
+   "end": 5572,
+   "label": "AMOUNT",
+   "text": "Fr. 3 Mio."
+  },
+  {
+   "start": 5781,
+   "end": 5795,
+   "label": "AMOUNT",
+   "text": "Fr. 3.241 Mio."
+  },
+  {
+   "start": 6214,
+   "end": 6224,
+   "label": "AMOUNT",
+   "text": "Fr. 3 Mio."
+  },
+  {
+   "start": 6403,
+   "end": 6422,
+   "label": "STATUTE",
+   "text": "Art. 121 lit. b BGG"
+  },
+  {
+   "start": 6650,
+   "end": 6669,
+   "label": "STATUTE",
+   "text": "Art. 121 lit. d BGG"
+  },
+  {
+   "start": 6929,
+   "end": 6943,
+   "label": "AMOUNT",
+   "text": "Fr. 3.241 Mio."
+  },
+  {
+   "start": 7000,
+   "end": 7019,
+   "label": "STATUTE",
+   "text": "Art. 121 lit. b BGG"
+  },
+  {
+   "start": 7433,
+   "end": 7444,
+   "label": "DOCKET",
+   "text": "4A_294/2020"
+  },
+  {
+   "start": 7606,
+   "end": 7624,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 BGG"
+  },
+  {
+   "start": 7723,
+   "end": 7732,
+   "label": "DOCKET",
+   "text": "4G_1/2019"
+  },
+  {
+   "start": 7789,
+   "end": 7800,
+   "label": "DOCKET",
+   "text": "4A_294/2020"
+  },
+  {
+   "start": 7987,
+   "end": 7997,
+   "label": "AMOUNT",
+   "text": "Fr. 3 Mio."
+  },
+  {
+   "start": 8134,
+   "end": 8152,
+   "label": "STATUTE",
+   "text": "Art. 754 Abs. 1 OR"
+  },
+  {
+   "start": 8869,
+   "end": 8881,
+   "label": "AMOUNT",
+   "text": "Fr. 1'000.--"
+  }
+ ],
+ "n_pre": 34,
+ "n_deleted": 11,
+ "n_added": 12,
+ "n_relabeled": 0
+}

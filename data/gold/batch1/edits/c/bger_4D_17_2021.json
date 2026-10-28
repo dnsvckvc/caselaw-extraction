@@ -1,0 +1,52 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  11,
+  14,
+  16,
+  21
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 72 ff. BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 74 Abs. 1 und Art. 51 Abs. 1 lit. a BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 113 ff. BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 42 Abs. 2 und Art. 106 Abs. 2 in Verbindung mit Art. 117 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 42 Abs. 2 und Art. 106 Abs. 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "Art. 117 in Verbindung mit Art. 106 Abs. 2 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "134 II 349",
+   "label": "BGE"
+  },
+  {
+   "text": "133 I 1",
+   "label": "BGE"
+  },
+  {
+   "text": "133 III 393",
+   "label": "BGE"
+  },
+  {
+   "text": "133 III 439",
+   "label": "BGE"
+  }
+ ]
+}

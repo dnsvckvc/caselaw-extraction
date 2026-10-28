@@ -1,0 +1,18 @@
+{
+ "outcome": "inadmissible",
+ "delete": [
+  18
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Art. 51 Abs. 1 Bst. a und Abs. 4 sowie Art. 52 BGG",
+   "label": "STATUTE"
+  },
+  {
+   "text": "116 II 220",
+   "label": "BGE"
+  }
+ ],
+ "comment": "Extended chain Art. 51 ... sowie Art. 52 BGG; added BGE list item 116 II 220 without BGE word."
+}

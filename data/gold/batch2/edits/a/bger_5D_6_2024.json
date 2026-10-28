@@ -1,0 +1,7 @@
+{
+  "outcome": "dismissed",
+  "delete": [],
+  "relabel": [],
+  "add": [],
+  "comment": "All 39 pre-annotations correct. Dispositiv item 1 rules on Ausstandsgesuche (recusal, side request); item 2 dismisses the appeal, so outcome = dismissed. Docket 5D_6/2023 is a different case from the own number 5D_6/2024 and is correctly labelled. Cantonal number ZKBES.2023.55 left unlabelled."
+}

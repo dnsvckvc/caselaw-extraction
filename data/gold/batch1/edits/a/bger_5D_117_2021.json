@@ -1,0 +1,47 @@
+{
+  "outcome": "approved",
+  "delete": [
+    9,
+    14,
+    21
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 72 Abs. 2 lit. a, Art. 75 und Art. 90 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 117 i.V.m. Art. 100 Abs. 1 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 117 i.V.m. Art. 106 Abs. 2 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "133 II 396",
+      "label": "BGE"
+    },
+    {
+      "text": "138 I 484",
+      "label": "BGE",
+      "occurrence": 1
+    },
+    {
+      "text": "137 I 195",
+      "label": "BGE",
+      "occurrence": 2
+    },
+    {
+      "text": "133 I 100",
+      "label": "BGE",
+      "occurrence": 1
+    },
+    {
+      "text": "138 III 252",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Extended three chains (#9, #14, #21); added five BGE list items without the BGE word."
+}

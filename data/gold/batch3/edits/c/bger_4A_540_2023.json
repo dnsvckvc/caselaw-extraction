@@ -1,0 +1,24 @@
+{
+ "outcome": "partial_approval",
+ "delete": [
+  1,
+  2,
+  3,
+  5,
+  6
+ ],
+ "relabel": [],
+ "add": [
+  {
+   "text": "Beschwerdeführerin",
+   "label": "PARTY_ROLE",
+   "occurrence": 1
+  },
+  {
+   "text": "Beschwerdegegnerin",
+   "label": "PARTY_ROLE",
+   "occurrence": 1
+  }
+ ],
+ "comment": "Header block has no Verfahrensbeteiligte/Gegenstand labels; I treated the party listing after the Besetzung as the header block. Body PARTY_ROLE spans deleted. Dispositiv item 1 uses In teilweiser Gutheissung -> partial_approval."
+}

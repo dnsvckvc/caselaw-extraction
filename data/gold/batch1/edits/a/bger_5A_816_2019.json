@@ -1,0 +1,35 @@
+{
+  "outcome": "approved",
+  "delete": [
+    10,
+    63
+  ],
+  "relabel": [],
+  "add": [
+    {
+      "text": "Art. 74 Abs. 1 lit. b i.V.m. Art. 51 Abs. 1 lit. a und Abs. 4 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 100 Abs. 1 i.V.m. Art. 45 Abs. 1 BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 95 f. BGG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 36 Abs. 2bis DBG",
+      "label": "STATUTE"
+    },
+    {
+      "text": "Art. 176 und Art. 285 ZGB",
+      "label": "STATUTE"
+    },
+    {
+      "text": "141 III 97",
+      "label": "BGE"
+    }
+  ],
+  "comment": "Added the unannotated chain Art. 74 Abs. 1 lit. b i.V.m. Art. 51 ... BGG, extended two chains, added Art. 95 f. BGG and Art. 36 Abs. 2bis DBG, added one BGE list item. Art. 3 Abs. 1 des Steuerharmonisierungsgesetzes ... [StHG] left unlabelled (no direct abbreviation)."
+}

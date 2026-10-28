@@ -1,0 +1,433 @@
+{
+ "decision_id": "bger_4A_171_2022",
+ "task_index": 40,
+ "pass": "c",
+ "outcome": "dismissed",
+ "comment": "",
+ "spans": [
+  {
+   "start": 583,
+   "end": 599,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdeführer"
+  },
+  {
+   "start": 665,
+   "end": 681,
+   "label": "PARTY_ROLE",
+   "text": "Beschwerdegegner"
+  },
+  {
+   "start": 1226,
+   "end": 1239,
+   "label": "AMOUNT",
+   "text": "Fr. 24'465.24"
+  },
+  {
+   "start": 2052,
+   "end": 2064,
+   "label": "AMOUNT",
+   "text": "Fr. 3'932.--"
+  },
+  {
+   "start": 2082,
+   "end": 2092,
+   "label": "AMOUNT",
+   "text": "Fr. 220.--"
+  },
+  {
+   "start": 2503,
+   "end": 2513,
+   "label": "AMOUNT",
+   "text": "Fr. 220.--"
+  },
+  {
+   "start": 3022,
+   "end": 3047,
+   "label": "STATUTE",
+   "text": "Art. 72 Abs. 2 Bst. b BGG"
+  },
+  {
+   "start": 3134,
+   "end": 3159,
+   "label": "STATUTE",
+   "text": "Art. 75 Abs. 2 lit. a BGG"
+  },
+  {
+   "start": 3234,
+   "end": 3259,
+   "label": "STATUTE",
+   "text": "Art. 74 Abs. 2 lit. b BGG"
+  },
+  {
+   "start": 3292,
+   "end": 3307,
+   "label": "BGE",
+   "text": "BGE 138 III 799"
+  },
+  {
+   "start": 3443,
+   "end": 3454,
+   "label": "DOCKET",
+   "text": "4A_456/2021"
+  },
+  {
+   "start": 3457,
+   "end": 3468,
+   "label": "DOCKET",
+   "text": "4A_458/2021"
+  },
+  {
+   "start": 5439,
+   "end": 5465,
+   "label": "STATUTE",
+   "text": "Art. 122 Abs. 1 lit. a ZPO"
+  },
+  {
+   "start": 5538,
+   "end": 5549,
+   "label": "STATUTE",
+   "text": "Art. 96 ZPO"
+  },
+  {
+   "start": 5791,
+   "end": 5801,
+   "label": "DOCKET",
+   "text": "5D_11/2022"
+  },
+  {
+   "start": 5828,
+   "end": 5838,
+   "label": "DOCKET",
+   "text": "4D_37/2018"
+  },
+  {
+   "start": 5863,
+   "end": 5873,
+   "label": "DOCKET",
+   "text": "5A_10/2018"
+  },
+  {
+   "start": 6144,
+   "end": 6159,
+   "label": "BGE",
+   "text": "BGE 137 III 185"
+  },
+  {
+   "start": 6622,
+   "end": 6635,
+   "label": "BGE",
+   "text": "BGE 141 I 124"
+  },
+  {
+   "start": 6652,
+   "end": 6662,
+   "label": "DOCKET",
+   "text": "5D_11/2022"
+  },
+  {
+   "start": 6689,
+   "end": 6699,
+   "label": "DOCKET",
+   "text": "5A_10/2018"
+  },
+  {
+   "start": 6731,
+   "end": 6741,
+   "label": "DOCKET",
+   "text": "5A_75/2017"
+  },
+  {
+   "start": 6770,
+   "end": 6781,
+   "label": "DOCKET",
+   "text": "5A_868/2016"
+  },
+  {
+   "start": 6808,
+   "end": 6819,
+   "label": "DOCKET",
+   "text": "5A_209/2016"
+  },
+  {
+   "start": 7053,
+   "end": 7079,
+   "label": "STATUTE",
+   "text": "Art. 122 Abs. 1 lit. a ZPO"
+  },
+  {
+   "start": 7171,
+   "end": 7197,
+   "label": "STATUTE",
+   "text": "Art. 122 Abs. 1 lit. a ZPO"
+  },
+  {
+   "start": 7622,
+   "end": 7635,
+   "label": "BGE",
+   "text": "BGE 141 I 124"
+  },
+  {
+   "start": 7652,
+   "end": 7663,
+   "label": "DOCKET",
+   "text": "5D_118/2021"
+  },
+  {
+   "start": 7695,
+   "end": 7705,
+   "label": "DOCKET",
+   "text": "4D_37/2018"
+  },
+  {
+   "start": 7730,
+   "end": 7741,
+   "label": "DOCKET",
+   "text": "5A_209/2016"
+  },
+  {
+   "start": 7767,
+   "end": 7778,
+   "label": "DOCKET",
+   "text": "5A_157/2015"
+  },
+  {
+   "start": 8504,
+   "end": 8513,
+   "label": "STATUTE",
+   "text": "Art. 9 BV"
+  },
+  {
+   "start": 8535,
+   "end": 8545,
+   "label": "DOCKET",
+   "text": "5D_11/2022"
+  },
+  {
+   "start": 8572,
+   "end": 8584,
+   "label": "DOCKET",
+   "text": "5A_1002/2018"
+  },
+  {
+   "start": 8612,
+   "end": 8622,
+   "label": "DOCKET",
+   "text": "4D_37/2018"
+  },
+  {
+   "start": 8647,
+   "end": 8657,
+   "label": "DOCKET",
+   "text": "5A_10/2018"
+  },
+  {
+   "start": 8689,
+   "end": 8699,
+   "label": "DOCKET",
+   "text": "5D_14/2017"
+  },
+  {
+   "start": 8726,
+   "end": 8737,
+   "label": "DOCKET",
+   "text": "4A_382/2015"
+  },
+  {
+   "start": 8740,
+   "end": 8751,
+   "label": "DOCKET",
+   "text": "4A_404/2015"
+  },
+  {
+   "start": 9112,
+   "end": 9122,
+   "label": "DOCKET",
+   "text": "5D_11/2022"
+  },
+  {
+   "start": 9149,
+   "end": 9159,
+   "label": "DOCKET",
+   "text": "4D_37/2018"
+  },
+  {
+   "start": 9184,
+   "end": 9194,
+   "label": "DOCKET",
+   "text": "5A_10/2018"
+  },
+  {
+   "start": 9226,
+   "end": 9237,
+   "label": "DOCKET",
+   "text": "4A_382/2015"
+  },
+  {
+   "start": 9240,
+   "end": 9251,
+   "label": "DOCKET",
+   "text": "4A_404/2015"
+  },
+  {
+   "start": 10950,
+   "end": 10963,
+   "label": "AMOUNT",
+   "text": "Fr. 81'005.79"
+  },
+  {
+   "start": 11029,
+   "end": 11042,
+   "label": "AMOUNT",
+   "text": "Fr. 24'465.24"
+  },
+  {
+   "start": 12162,
+   "end": 12173,
+   "label": "DOCKET",
+   "text": "5D_118/2021"
+  },
+  {
+   "start": 12203,
+   "end": 12213,
+   "label": "DOCKET",
+   "text": "4D_37/2018"
+  },
+  {
+   "start": 12237,
+   "end": 12248,
+   "label": "DOCKET",
+   "text": "4A_171/2017"
+  },
+  {
+   "start": 12280,
+   "end": 12291,
+   "label": "DOCKET",
+   "text": "4A_382/2015"
+  },
+  {
+   "start": 12294,
+   "end": 12305,
+   "label": "DOCKET",
+   "text": "4A_404/2015"
+  },
+  {
+   "start": 12462,
+   "end": 12473,
+   "label": "DOCKET",
+   "text": "8C_278/2020"
+  },
+  {
+   "start": 12502,
+   "end": 12513,
+   "label": "DOCKET",
+   "text": "8C_880/2018"
+  },
+  {
+   "start": 13349,
+   "end": 13362,
+   "label": "BGE",
+   "text": "BGE 122 I 203"
+  },
+  {
+   "start": 13377,
+   "end": 13388,
+   "label": "DOCKET",
+   "text": "4A_492/2020"
+  },
+  {
+   "start": 13745,
+   "end": 13757,
+   "label": "AMOUNT",
+   "text": "Fr. 3'300.--"
+  },
+  {
+   "start": 13912,
+   "end": 13921,
+   "label": "AMOUNT",
+   "text": "Fr. 62.05"
+  },
+  {
+   "start": 14006,
+   "end": 14016,
+   "label": "AMOUNT",
+   "text": "Fr. 180.--"
+  },
+  {
+   "start": 14233,
+   "end": 14247,
+   "label": "BGE",
+   "text": "BGE 143 IV 453"
+  },
+  {
+   "start": 14594,
+   "end": 14604,
+   "label": "AMOUNT",
+   "text": "Fr. 220.--"
+  },
+  {
+   "start": 14709,
+   "end": 14735,
+   "label": "STATUTE",
+   "text": "Art. 122 Abs. 1 lit. a ZPO"
+  },
+  {
+   "start": 14863,
+   "end": 14873,
+   "label": "AMOUNT",
+   "text": "Fr. 180.--"
+  },
+  {
+   "start": 14998,
+   "end": 15021,
+   "label": "STATUTE",
+   "text": "Art. 29 Abs. 1 und 3 BV"
+  },
+  {
+   "start": 15024,
+   "end": 15043,
+   "label": "STATUTE",
+   "text": "Art. 6 Ziff. 1 EMRK"
+  },
+  {
+   "start": 15803,
+   "end": 15814,
+   "label": "STATUTE",
+   "text": "Art. 190 BV"
+  },
+  {
+   "start": 15877,
+   "end": 15896,
+   "label": "STATUTE",
+   "text": "Art. 106 Abs. 2 BGG"
+  },
+  {
+   "start": 16083,
+   "end": 16109,
+   "label": "STATUTE",
+   "text": "Art. 122 Abs. 1 lit. a ZPO"
+  },
+  {
+   "start": 16249,
+   "end": 16261,
+   "label": "AMOUNT",
+   "text": "Fr. 3'932.--"
+  },
+  {
+   "start": 16458,
+   "end": 16495,
+   "label": "STATUTE",
+   "text": "Art. 66 Abs. 1 und\nArt. 68 Abs. 3 BGG"
+  },
+  {
+   "start": 16626,
+   "end": 16638,
+   "label": "AMOUNT",
+   "text": "Fr. 2'000.--"
+  }
+ ],
+ "n_pre": 70,
+ "n_deleted": 0,
+ "n_added": 0,
+ "n_relabeled": 0
+}

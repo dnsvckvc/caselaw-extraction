@@ -1,0 +1,7 @@
+{
+ "outcome": "inadmissible",
+ "delete": [],
+ "relabel": [],
+ "add": [],
+ "comment": "No change. Two different role words in the header (Beschwerdegegnerin 1, Beschwerdegegner 2) each keep one span. 'Betreibung Nr. xxx' and 'HURNI ... Rz. 494 f.' get no span."
+}
