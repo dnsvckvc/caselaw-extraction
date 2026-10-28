@@ -1,0 +1,16 @@
+services:
+  labelstudio:
+    image: heartexlabs/label-studio:1.17.0
+    container_name: caselaw-labelstudio
+    ports:
+      - "8080:8080"
+    environment:
+      # Local single-user instance. Change the password if the port is ever exposed.
+      LABEL_STUDIO_USERNAME: annotator@local.test
+      LABEL_STUDIO_PASSWORD: caselaw-local-2026
+      LABEL_STUDIO_USER_TOKEN: caselaw-local-dev-token-0001
+      LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED: "true"
+      LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT: /label-studio/files
+    volumes:
+      - ./data:/label-studio/data
+      - ./tasks:/label-studio/files:ro

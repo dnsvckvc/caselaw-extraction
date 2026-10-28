@@ -1,0 +1,24 @@
+<View>
+  <Header value="$docket_number — $decision_date — $chamber"/>
+  <Choices name="outcome" toName="text" choice="single" showInline="true" required="true">
+    <Choice value="approved"/>
+    <Choice value="partial_approval"/>
+    <Choice value="dismissed"/>
+    <Choice value="inadmissible"/>
+    <Choice value="moot"/>
+    <Choice value="unknown"/>
+  </Choices>
+  <Labels name="label" toName="text">
+    <Label value="STATUTE" background="#1f77b4" hotkey="1"/>
+    <Label value="BGE" background="#2ca02c" hotkey="2"/>
+    <Label value="DOCKET" background="#ff7f0e" hotkey="3"/>
+    <Label value="AMOUNT" background="#d62728" hotkey="4"/>
+    <Label value="PARTY_ROLE" background="#9467bd" hotkey="5"/>
+    <Label value="CONTRACT_ARTICLE" background="#8c564b" hotkey="6"/>
+    <Label value="BARE_ARTICLE" background="#7f7f7f" hotkey="7"/>
+    <Label value="OTHER_LAW" background="#bcbd22" hotkey="8"/>
+    <Label value="JOURNAL_REF" background="#17becf" hotkey="9"/>
+  </Labels>
+  <Text name="text" value="$text" granularity="symbol"/>
+  <TextArea name="comment" toName="text" placeholder="Comment (optional)" maxSubmissions="1"/>
+</View>
