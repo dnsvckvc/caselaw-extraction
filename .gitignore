@@ -18,3 +18,9 @@ mlflow.db
 labeling/tasks/
 data/runs/demo/
 data/runs/smoke20/
+infra/terraform/.terraform/
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.*
+infra/terraform/*.tfplan
+infra/terraform/*.tfvars
+!infra/terraform/terraform.tfvars.example

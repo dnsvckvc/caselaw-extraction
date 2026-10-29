@@ -1,0 +1,44 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: caselaw
+          POSTGRES_PASSWORD: caselaw
+          POSTGRES_DB: caselaw
+        ports: ["5433:5432"]
+        options: >-
+          --health-cmd "pg_isready -U caselaw -d caselaw"
+          --health-interval 5s --health-timeout 3s --health-retries 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - name: Install (core + dev; the ml extra is not needed by the tests)
+        run: uv sync --extra dev
+      - name: Lint
+        run: |
+          uv run ruff check src tests scripts
+          uv run ruff format --check src tests scripts
+      - name: Test (the Postgres tests run against the service container)
+        run: uv run pytest
+      - name: Build the API image
+        run: docker build -t caselaw-api .
+      - name: Terraform format and validate
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_wrapper: false
+      - run: |
+          terraform -chdir=infra/terraform fmt -check -recursive
+          terraform -chdir=infra/terraform init -backend=false -input=false
+          terraform -chdir=infra/terraform validate

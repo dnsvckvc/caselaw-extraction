@@ -1,0 +1,478 @@
+{
+ "run_id": "regex-v0.4",
+ "period": "month",
+ "a": "2026-08",
+ "b": "2026-09",
+ "decisions_a": 94,
+ "decisions_b": 95,
+ "kinds": {
+  "statute": {
+   "js_distance": 0.445,
+   "total_variation": 0.3332,
+   "distinct_a": 230,
+   "distinct_b": 134,
+   "new_in_b": 57,
+   "gone_in_b": 153,
+   "movers": [
+    {
+     "key": "BGG 72",
+     "n_a": 38,
+     "n_b": 22,
+     "share_a": 40.43,
+     "share_b": 23.16,
+     "delta": -17.27
+    },
+    {
+     "key": "BGG 100",
+     "n_a": 31,
+     "n_b": 15,
+     "share_a": 32.98,
+     "share_b": 15.79,
+     "delta": -17.19
+    },
+    {
+     "key": "BGG 108",
+     "n_a": 54,
+     "n_b": 70,
+     "share_a": 57.45,
+     "share_b": 73.68,
+     "delta": 16.24
+    },
+    {
+     "key": "BV 29",
+     "n_a": 27,
+     "n_b": 12,
+     "share_a": 28.72,
+     "share_b": 12.63,
+     "delta": -16.09
+    },
+    {
+     "key": "BV 9",
+     "n_a": 21,
+     "n_b": 7,
+     "share_a": 22.34,
+     "share_b": 7.37,
+     "delta": -14.97
+    },
+    {
+     "key": "BGG 42",
+     "n_a": 58,
+     "n_b": 72,
+     "share_a": 61.7,
+     "share_b": 75.79,
+     "delta": 14.09
+    },
+    {
+     "key": "BGG 75",
+     "n_a": 33,
+     "n_b": 22,
+     "share_a": 35.11,
+     "share_b": 23.16,
+     "delta": -11.95
+    },
+    {
+     "key": "BGG 93",
+     "n_a": 15,
+     "n_b": 4,
+     "share_a": 15.96,
+     "share_b": 4.21,
+     "delta": -11.75
+    },
+    {
+     "key": "BGG 76",
+     "n_a": 22,
+     "n_b": 12,
+     "share_a": 23.4,
+     "share_b": 12.63,
+     "delta": -10.77
+    },
+    {
+     "key": "BGG 95",
+     "n_a": 19,
+     "n_b": 10,
+     "share_a": 20.21,
+     "share_b": 10.53,
+     "delta": -9.69
+    }
+   ]
+  },
+  "bge": {
+   "js_distance": 0.6391,
+   "total_variation": 0.5428,
+   "distinct_a": 315,
+   "distinct_b": 158,
+   "new_in_b": 76,
+   "gone_in_b": 233,
+   "movers": [
+    {
+     "key": "BGE 140 III 115",
+     "n_a": 37,
+     "n_b": 49,
+     "share_a": 39.36,
+     "share_b": 51.58,
+     "delta": 12.22
+    },
+    {
+     "key": "BGE 142 III 364",
+     "n_a": 41,
+     "n_b": 50,
+     "share_a": 43.62,
+     "share_b": 52.63,
+     "delta": 9.01
+    },
+    {
+     "key": "BGE 140 III 16",
+     "n_a": 21,
+     "n_b": 13,
+     "share_a": 22.34,
+     "share_b": 13.68,
+     "delta": -8.66
+    },
+    {
+     "key": "BGE 143 II 283",
+     "n_a": 14,
+     "n_b": 6,
+     "share_a": 14.89,
+     "share_b": 6.32,
+     "delta": -8.58
+    },
+    {
+     "key": "BGE 134 II 244",
+     "n_a": 11,
+     "n_b": 3,
+     "share_a": 11.7,
+     "share_b": 3.16,
+     "delta": -8.54
+    },
+    {
+     "key": "BGE 140 III 264",
+     "n_a": 19,
+     "n_b": 12,
+     "share_a": 20.21,
+     "share_b": 12.63,
+     "delta": -7.58
+    },
+    {
+     "key": "BGE 133 III 585",
+     "n_a": 8,
+     "n_b": 1,
+     "share_a": 8.51,
+     "share_b": 1.05,
+     "delta": -7.46
+    },
+    {
+     "key": "BGE 133 III 393",
+     "n_a": 7,
+     "n_b": 0,
+     "share_a": 7.45,
+     "share_b": 0.0,
+     "delta": -7.45
+    },
+    {
+     "key": "BGE 137 III 226",
+     "n_a": 9,
+     "n_b": 3,
+     "share_a": 9.57,
+     "share_b": 3.16,
+     "delta": -6.42
+    },
+    {
+     "key": "BGE 143 III 140",
+     "n_a": 7,
+     "n_b": 1,
+     "share_a": 7.45,
+     "share_b": 1.05,
+     "delta": -6.39
+    }
+   ]
+  },
+  "docket": {
+   "js_distance": 0.9349,
+   "total_variation": 0.9025,
+   "distinct_a": 251,
+   "distinct_b": 142,
+   "new_in_b": 120,
+   "gone_in_b": 229,
+   "movers": [
+    {
+     "key": "5A_27_2013",
+     "n_a": 0,
+     "n_b": 4,
+     "share_a": 0.0,
+     "share_b": 4.21,
+     "delta": 4.21
+    },
+    {
+     "key": "4A_20_2011",
+     "n_a": 5,
+     "n_b": 2,
+     "share_a": 5.32,
+     "share_b": 2.11,
+     "delta": -3.21
+    },
+    {
+     "key": "5A_145_2025",
+     "n_a": 3,
+     "n_b": 0,
+     "share_a": 3.19,
+     "share_b": 0.0,
+     "delta": -3.19
+    },
+    {
+     "key": "5A_176_2023",
+     "n_a": 3,
+     "n_b": 0,
+     "share_a": 3.19,
+     "share_b": 0.0,
+     "delta": -3.19
+    },
+    {
+     "key": "5A_232_2017",
+     "n_a": 3,
+     "n_b": 0,
+     "share_a": 3.19,
+     "share_b": 0.0,
+     "delta": -3.19
+    },
+    {
+     "key": "5A_456_2019",
+     "n_a": 3,
+     "n_b": 0,
+     "share_a": 3.19,
+     "share_b": 0.0,
+     "delta": -3.19
+    },
+    {
+     "key": "5A_178_2026",
+     "n_a": 2,
+     "n_b": 0,
+     "share_a": 2.13,
+     "share_b": 0.0,
+     "delta": -2.13
+    },
+    {
+     "key": "5A_456_2020",
+     "n_a": 2,
+     "n_b": 0,
+     "share_a": 2.13,
+     "share_b": 0.0,
+     "delta": -2.13
+    },
+    {
+     "key": "5A_504_2025",
+     "n_a": 2,
+     "n_b": 0,
+     "share_a": 2.13,
+     "share_b": 0.0,
+     "delta": -2.13
+    },
+    {
+     "key": "5A_758_2020",
+     "n_a": 2,
+     "n_b": 0,
+     "share_a": 2.13,
+     "share_b": 0.0,
+     "delta": -2.13
+    }
+   ]
+  },
+  "code": {
+   "js_distance": 0.2298,
+   "total_variation": 0.1965,
+   "distinct_a": 16,
+   "distinct_b": 12,
+   "new_in_b": 0,
+   "gone_in_b": 4,
+   "movers": [
+    {
+     "key": "ZPO",
+     "n_a": 29,
+     "n_b": 7,
+     "share_a": 30.85,
+     "share_b": 7.37,
+     "delta": -23.48
+    },
+    {
+     "key": "BV",
+     "n_a": 31,
+     "n_b": 17,
+     "share_a": 32.98,
+     "share_b": 17.89,
+     "delta": -15.08
+    },
+    {
+     "key": "OR",
+     "n_a": 7,
+     "n_b": 1,
+     "share_a": 7.45,
+     "share_b": 1.05,
+     "delta": -6.39
+    },
+    {
+     "key": "SchKG",
+     "n_a": 10,
+     "n_b": 15,
+     "share_a": 10.64,
+     "share_b": 15.79,
+     "delta": 5.15
+    },
+    {
+     "key": "ZGB",
+     "n_a": 21,
+     "n_b": 19,
+     "share_a": 22.34,
+     "share_b": 20.0,
+     "delta": -2.34
+    },
+    {
+     "key": "BZP",
+     "n_a": 5,
+     "n_b": 3,
+     "share_a": 5.32,
+     "share_b": 3.16,
+     "delta": -2.16
+    },
+    {
+     "key": "VwVG",
+     "n_a": 2,
+     "n_b": 0,
+     "share_a": 2.13,
+     "share_b": 0.0,
+     "delta": -2.13
+    },
+    {
+     "key": "StGB",
+     "n_a": 2,
+     "n_b": 1,
+     "share_a": 2.13,
+     "share_b": 1.05,
+     "delta": -1.08
+    },
+    {
+     "key": "DSG",
+     "n_a": 1,
+     "n_b": 0,
+     "share_a": 1.06,
+     "share_b": 0.0,
+     "delta": -1.06
+    },
+    {
+     "key": "HKs\u00dc",
+     "n_a": 1,
+     "n_b": 0,
+     "share_a": 1.06,
+     "share_b": 0.0,
+     "delta": -1.06
+    }
+   ]
+  },
+  "outcome": {
+   "js_distance": 0.1686,
+   "total_variation": 0.1083,
+   "distinct_a": 5,
+   "distinct_b": 4,
+   "new_in_b": 1,
+   "gone_in_b": 2,
+   "movers": [
+    {
+     "key": "inadmissible",
+     "n_a": 63,
+     "n_b": 72,
+     "share_a": 67.02,
+     "share_b": 75.79,
+     "delta": 8.77
+    },
+    {
+     "key": "dismissed",
+     "n_a": 24,
+     "n_b": 17,
+     "share_a": 25.53,
+     "share_b": 17.89,
+     "delta": -7.64
+    },
+    {
+     "key": "partial_approval",
+     "n_a": 2,
+     "n_b": 0,
+     "share_a": 2.13,
+     "share_b": 0.0,
+     "delta": -2.13
+    },
+    {
+     "key": "approved",
+     "n_a": 1,
+     "n_b": 0,
+     "share_a": 1.06,
+     "share_b": 0.0,
+     "delta": -1.06
+    },
+    {
+     "key": "unknown",
+     "n_a": 0,
+     "n_b": 1,
+     "share_a": 0.0,
+     "share_b": 1.05,
+     "delta": 1.05
+    },
+    {
+     "key": "moot",
+     "n_a": 4,
+     "n_b": 5,
+     "share_a": 4.26,
+     "share_b": 5.26,
+     "delta": 1.01
+    }
+   ]
+  },
+  "label": {
+   "js_distance": 0.0524,
+   "total_variation": 0.0384,
+   "distinct_a": 5,
+   "distinct_b": 5,
+   "new_in_b": 0,
+   "gone_in_b": 0,
+   "movers": [
+    {
+     "key": "BGE",
+     "n_a": 754,
+     "n_b": 448,
+     "share_a": 26.33,
+     "share_b": 23.19,
+     "delta": -3.14
+    },
+    {
+     "key": "PARTY_ROLE",
+     "n_a": 159,
+     "n_b": 158,
+     "share_a": 5.55,
+     "share_b": 8.18,
+     "delta": 2.63
+    },
+    {
+     "key": "DOCKET",
+     "n_a": 332,
+     "n_b": 241,
+     "share_a": 11.59,
+     "share_b": 12.47,
+     "delta": 0.88
+    },
+    {
+     "key": "AMOUNT",
+     "n_a": 315,
+     "n_b": 199,
+     "share_a": 11.0,
+     "share_b": 10.3,
+     "delta": -0.7
+    },
+    {
+     "key": "STATUTE",
+     "n_a": 1304,
+     "n_b": 886,
+     "share_a": 45.53,
+     "share_b": 45.86,
+     "delta": 0.33
+    }
+   ]
+  }
+ }
+}

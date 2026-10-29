@@ -13,7 +13,7 @@ from typing import Annotated, Any
 from fastapi import Depends, FastAPI, HTTPException, Query, Request
 from pydantic import BaseModel, Field
 
-from caselaw_extraction import graph
+from caselaw_extraction import drift, graph
 from caselaw_extraction.store import Store, open_store
 
 API_VERSION = "0.1.0"
@@ -283,6 +283,33 @@ def statutes_codes(store: StoreDep, limit: int = Query(20, ge=1, le=500)) -> lis
 def trends_years(store: StoreDep) -> list[YearTrend]:
     """Citations per decision by kind and the age of the cited BGE volumes, per year."""
     return [YearTrend(**r) for r in graph.trend_by_year(store)]
+
+
+@app.get("/drift/series", response_model=list[dict[str, Any]])
+def drift_series(
+    store: StoreDep,
+    period: str = Query("month", pattern="^(month|year)$"),
+    kind: str = Query("statute", pattern="^(statute|bge|docket|code|outcome|label)$"),
+) -> list[dict[str, Any]]:
+    """Drift check: Jensen-Shannon and total-variation distance between each period and the
+    one before it, over the whole run. The noise level for an alarm threshold."""
+    return drift.drift_series(store, period, kind)
+
+
+@app.get("/drift", response_model=dict[str, Any])
+def drift_report(
+    store: StoreDep,
+    a: str = Query(description="first period, `2025-09` or `2025`"),
+    b: str = Query(description="second period"),
+    period: str = Query("month", pattern="^(month|year)$"),
+    top: int = Query(10, ge=1, le=100),
+) -> dict[str, Any]:
+    """Drift check: entity-frequency distributions of period `a` against period `b`, per kind,
+    with the keys whose share of decisions moved most."""
+    try:
+        return drift.drift_report(store, a, b, period, top=top)
+    except ValueError as e:
+        raise HTTPException(404, str(e)) from e
 
 
 @app.get("/trends/code-share", response_model=list[dict[str, Any]])

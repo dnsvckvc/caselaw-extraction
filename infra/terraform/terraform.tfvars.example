@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars (ignored by git) and edit.
+region      = "eu-central-1"
+run_id      = "regex-v0.4"
+alarm_email = ""                 # e-mail for the alarm topic; confirm the subscription mail
+github_repo = ""                 # "owner/name" to create the OIDC deploy role for GitHub Actions
+# db_publicly_accessible = true  # with db_allowed_cidrs, to load from a laptop instead of the Fargate task
+# db_allowed_cidrs       = ["203.0.113.4/32"]

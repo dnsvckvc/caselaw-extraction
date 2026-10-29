@@ -232,26 +232,18 @@ name = "caselaw-extraction"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
-    { name = "accelerate" },
     { name = "dask", extra = ["distributed"] },
     { name = "duckdb" },
     { name = "fastapi" },
     { name = "httpx" },
-    { name = "mlflow" },
     { name = "networkx" },
     { name = "polars" },
-    { name = "protobuf" },
     { name = "psycopg", extra = ["binary"] },
     { name = "pyarrow" },
     { name = "pydantic" },
     { name = "pyvis" },
     { name = "regex" },
     { name = "rich" },
-    { name = "scikit-learn" },
-    { name = "sentencepiece" },
-    { name = "spacy" },
-    { name = "torch" },
-    { name = "transformers" },
     { name = "typer" },
     { name = "uvicorn" },
 ]
@@ -264,6 +256,16 @@ dev = [
     { name = "pytest-cov" },
     { name = "ruff" },
 ]
+ml = [
+    { name = "accelerate" },
+    { name = "mlflow" },
+    { name = "protobuf" },
+    { name = "scikit-learn" },
+    { name = "sentencepiece" },
+    { name = "spacy" },
+    { name = "torch" },
+    { name = "transformers" },
+]
 
 [package.dev-dependencies]
 dev = [
@@ -272,17 +274,17 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "accelerate", specifier = ">=1.0" },
+    { name = "accelerate", marker = "extra == 'ml'", specifier = ">=1.0" },
     { name = "dask", extras = ["distributed"], specifier = ">=2024.10" },
     { name = "duckdb", specifier = ">=1.1" },
     { name = "fastapi", specifier = ">=0.115" },
     { name = "httpx", specifier = ">=0.27" },
     { name = "hypothesis", marker = "extra == 'dev'", specifier = ">=6.112" },
-    { name = "mlflow", specifier = ">=2.17" },
+    { name = "mlflow", marker = "extra == 'ml'", specifier = ">=2.17" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.11" },
     { name = "networkx", specifier = ">=3.3" },
     { name = "polars", specifier = ">=1.10" },
-    { name = "protobuf", specifier = ">=7.36.2" },
+    { name = "protobuf", marker = "extra == 'ml'", specifier = ">=7.36.2" },
     { name = "psycopg", extras = ["binary"], specifier = ">=3.2" },
     { name = "pyarrow", specifier = ">=17" },
     { name = "pydantic", specifier = ">=2.9" },
@@ -292,15 +294,15 @@ requires-dist = [
     { name = "regex", specifier = ">=2024.9" },
     { name = "rich", specifier = ">=13" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.7" },
-    { name = "scikit-learn", specifier = ">=1.5" },
-    { name = "sentencepiece", specifier = ">=0.2.2" },
-    { name = "spacy", specifier = ">=3.8" },
-    { name = "torch", specifier = ">=2.5" },
-    { name = "transformers", specifier = ">=4.45" },
+    { name = "scikit-learn", marker = "extra == 'ml'", specifier = ">=1.5" },
+    { name = "sentencepiece", marker = "extra == 'ml'", specifier = ">=0.2.2" },
+    { name = "spacy", marker = "extra == 'ml'", specifier = ">=3.8" },
+    { name = "torch", marker = "extra == 'ml'", specifier = ">=2.5" },
+    { name = "transformers", marker = "extra == 'ml'", specifier = ">=4.45" },
     { name = "typer", specifier = ">=0.12" },
     { name = "uvicorn", specifier = ">=0.30" },
 ]
-provides-extras = ["dev"]
+provides-extras = ["ml", "dev"]
 
 [package.metadata.requires-dev]
 dev = [{ name = "markdown", specifier = ">=3.11.2" }]

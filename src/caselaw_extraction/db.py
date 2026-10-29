@@ -1,6 +1,8 @@
-"""Load a run directory into Postgres with COPY. Schema: `db/schema.sql`.
+"""Load a run directory into Postgres with COPY. Schema: `sql/schema.sql` in this package.
 
-A run is loaded as a whole and replaces an earlier load of the same run_id. The Fedlex code map
+A run is loaded as a whole and replaces an earlier load of the same run_id. The run directory
+is a local path or an `s3://bucket/prefix` (week 4: the loader runs as a Fargate task and reads
+the Parquet from S3 through pyarrow's filesystem layer). The Fedlex code map
 fills the `statute` table (abbreviation, SR number) so that the API can name an act.
 """
 
@@ -12,11 +14,12 @@ from pathlib import Path
 from typing import Any
 
 import pyarrow.parquet as pq
+from pyarrow import fs as pafs
 
 from caselaw_extraction.corpus_run import RUNS_DIR
 from caselaw_extraction.store import DEFAULT_DSN
 
-SCHEMA_SQL = Path(__file__).resolve().parents[2] / "db" / "schema.sql"
+SCHEMA_SQL = Path(__file__).resolve().parent / "sql" / "schema.sql"
 
 # (table, parquet file, parquet column -> db column)
 _LOADS = (
@@ -101,10 +104,24 @@ def _copy_rows(cur, table: str, columns: list[str], rows: list[tuple]) -> int:
     return len(rows)
 
 
-def load_run(name: str, dsn: str = DEFAULT_DSN, runs_dir: Path = RUNS_DIR) -> dict[str, int]:
+def open_run(runs_dir: Path | str, name: str) -> tuple[pafs.FileSystem, str]:
+    """Filesystem and base path of `<runs_dir>/<name>`: a local directory or `s3://bucket/prefix`."""
+    uri = f"{str(runs_dir).rstrip('/')}/{name}"
+    if "://" in uri:
+        fs, base = pafs.FileSystem.from_uri(uri)
+        return fs, base.rstrip("/")
+    return pafs.LocalFileSystem(), str(Path(uri).resolve())
+
+
+def _exists(fs: pafs.FileSystem, path: str) -> bool:
+    return fs.get_file_info(path).type != pafs.FileType.NotFound
+
+
+def load_run(name: str, dsn: str = DEFAULT_DSN, runs_dir: Path | str = RUNS_DIR) -> dict[str, int]:
     """Load one run (replacing an earlier load of the same run_id). Returns rows per table."""
-    run_dir = runs_dir / name
-    meta = json.loads((run_dir / "run.json").read_text())
+    fs, base = open_run(runs_dir, name)
+    with fs.open_input_file(f"{base}/run.json") as f:
+        meta = json.loads(f.read())
     counts: dict[str, int] = {}
     with connect(dsn) as con:
         create_schema(con)
@@ -129,10 +146,10 @@ def load_run(name: str, dsn: str = DEFAULT_DSN, runs_dir: Path = RUNS_DIR) -> di
                 ),
             )
             for table, fname, mapping in _LOADS:
-                path = run_dir / fname
-                if not path.exists():
+                path = f"{base}/{fname}"
+                if not _exists(fs, path):
                     continue
-                tbl = pq.read_table(path, columns=list(mapping))
+                tbl = pq.read_table(path, columns=list(mapping), filesystem=fs)
                 rows = [
                     (name, *vals)
                     for vals in zip(*(tbl.column(c).to_pylist() for c in mapping), strict=True)

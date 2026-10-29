@@ -1,6 +1,8 @@
-import torch
+import pytest
 
-from caselaw_extraction.transformer_extractor import bio_transition_mask, viterbi_decode
+torch = pytest.importorskip("torch")  # the `ml` extra; CI installs the core set only
+
+from caselaw_extraction.transformer_extractor import bio_transition_mask, viterbi_decode  # noqa: E402
 
 TAGS = ["O", "B-X", "I-X", "B-Y", "I-Y"]
 

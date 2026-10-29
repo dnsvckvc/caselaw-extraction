@@ -777,7 +777,7 @@ the regex column is the one the graph uses, and the dataset column is kept besid
 ### 7.2 Postgres
 
 `make db-up` starts Postgres 16 in Docker (port 5433; `infra/docker-compose.yml`), `make
-db-load` creates the schema (`db/schema.sql`: `extraction_run`, `decision`, `span`,
+db-load` creates the schema (`src/caselaw_extraction/sql/schema.sql`: `extraction_run`, `decision`, `span`,
 `citation`, `centrality`, `statute`) and loads a run with COPY. Every record row carries its
 `run_id`, so several runs live side by side and a reload replaces a run instead of
 duplicating it. The regex run loads in 6 seconds: 7,999 decisions, 294,884 spans, 249,762

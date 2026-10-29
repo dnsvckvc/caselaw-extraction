@@ -80,6 +80,8 @@ def test_openapi_contract(client):
         "/statutes/codes",
         "/trends/years",
         "/trends/code-share",
+        "/drift",
+        "/drift/series",
     }
     schemas = spec["components"]["schemas"]
     assert {
@@ -91,3 +93,16 @@ def test_openapi_contract(client):
         "CentralNode",
     } <= set(schemas)
     assert schemas["CitationOut"]["required"] == ["kind", "key", "span"]
+
+
+def test_drift_endpoints(client):
+    r = client.get("/drift", params={"a": "2021", "b": "2022", "period": "year"})
+    assert r.status_code == 200
+    body = r.json()
+    assert body["decisions_a"] == 1 and "statute" in body["kinds"]
+    assert (
+        client.get("/drift", params={"a": "2021", "b": "1999", "period": "year"}).status_code == 404
+    )
+    series = client.get("/drift/series", params={"period": "year"}).json()
+    assert len(series) == 2 and set(series[0]) >= {"from", "to", "js_distance"}
+    assert client.get("/drift/series", params={"period": "week"}).status_code == 422

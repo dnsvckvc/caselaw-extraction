@@ -477,19 +477,25 @@ def corpus_run_dir(name: str) -> Path:
 
 @app.command(name="db-load")
 def db_load_cmd(
-    run: str = typer.Option("regex-v0.4", help="run name under data/runs/"),
+    run: str = typer.Option("regex-v0.4", help="run name under the runs directory"),
     dsn: str = typer.Option("", help="Postgres DSN (default: $CASELAW_DSN or the local compose)"),
+    runs_dir: str = typer.Option(
+        "", help="directory or s3://bucket/prefix holding <run>/ (default data/runs)"
+    ),
+    statutes: bool = typer.Option(True, help="also fill the statute table from the Fedlex list"),
 ) -> None:
     """Week 3: load a run (decisions, spans, citations, centrality) and the statute list into
-    Postgres (`make db-up` starts it)."""
+    Postgres (`make db-up` starts it). Week 4: the same command runs as a Fargate task with
+    `--runs-dir s3://<bucket>/runs` against RDS."""
     import os
 
     from caselaw_extraction import db
+    from caselaw_extraction.corpus_run import RUNS_DIR
     from caselaw_extraction.store import DEFAULT_DSN
 
     dsn = dsn or os.environ.get("CASELAW_DSN") or DEFAULT_DSN
-    counts = db.load_run(run, dsn)
-    n_statutes = db.load_statutes(load_code_map(), dsn)
+    counts = db.load_run(run, dsn, runs_dir or RUNS_DIR)
+    n_statutes = db.load_statutes(load_code_map(), dsn) if statutes else 0
     rprint(f"[green]loaded[/green] run {run}: " + ", ".join(f"{k} {v}" for k, v in counts.items()))
     rprint(f"  statute table: {n_statutes} acts; database: {db.table_counts(dsn)}")
 
@@ -511,6 +517,50 @@ def api_cmd(
     if run:
         os.environ["CASELAW_RUN"] = run
     uvicorn.run("caselaw_extraction.api:app", host=host, port=port)
+
+
+@app.command(name="drift")
+def drift_cmd(
+    a: str = typer.Option("", "--a", help="first period, `2025-09` or `2025` (default: 2nd last)"),
+    b: str = typer.Option("", "--b", help="second period (default: the last period)"),
+    period: str = typer.Option("month", help="month | year"),
+    run: str = typer.Option("", help="run name (default: $CASELAW_RUN or regex-v0.4)"),
+    backend: str = typer.Option("", help="duckdb | postgres (default: $CASELAW_BACKEND)"),
+    series: bool = typer.Option(False, help="print the period-to-period series instead"),
+    kind: str = typer.Option("statute", help="kind for --series: statute | bge | docket | code"),
+    top: int = typer.Option(10, help="movers to list per kind"),
+    fail_above: float = typer.Option(
+        0.0, help="exit 1 if the statute Jensen-Shannon distance exceeds this (0 = never)"
+    ),
+    out: str = typer.Option("", help="write the report as JSON to this path"),
+) -> None:
+    """Week 4: compare the entity-frequency distributions of two periods (drift check)."""
+    import json
+
+    from caselaw_extraction import drift
+    from caselaw_extraction.store import open_store
+
+    store = open_store(backend or None, run or None)
+    try:
+        if series:
+            rows = drift.drift_series(store, period, kind)
+            print(drift.format_series(rows, kind))
+            if out:
+                Path(out).write_text(json.dumps(rows, indent=1))
+            return
+        if not a or not b:
+            periods = sorted(drift.decisions_per_period(store, period))
+            a, b = a or periods[-2], b or periods[-1]
+        report = drift.drift_report(store, a, b, period, top=top)
+    finally:
+        store.close()
+    print(drift.format_drift(report))
+    if out:
+        Path(out).write_text(json.dumps(report, indent=1))
+    js = report["kinds"]["statute"]["js_distance"]
+    if fail_above and js > fail_above:
+        rprint(f"[red]drift[/red]: statute JS distance {js:.3f} > {fail_above}")
+        raise typer.Exit(1)
 
 
 @app.command()

@@ -13,14 +13,6 @@ dependencies = [
     "typer>=0.12",
     "rich>=13",
     "regex>=2024.9",
-    "spacy>=3.8",
-    "transformers>=4.45",
-    "torch>=2.5",
-    "mlflow>=2.17",
-    "scikit-learn>=1.5",
-    "accelerate>=1.0",
-    "sentencepiece>=0.2.2",
-    "protobuf>=7.36.2",
     "dask[distributed]>=2024.10",
     "psycopg[binary]>=3.2",
     "fastapi>=0.115",
@@ -30,6 +22,17 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+# The learned extractors and experiment tracking. The API image installs the core set only.
+ml = [
+    "spacy>=3.8",
+    "transformers>=4.45",
+    "torch>=2.5",
+    "mlflow>=2.17",
+    "scikit-learn>=1.5",
+    "accelerate>=1.0",
+    "sentencepiece>=0.2.2",
+    "protobuf>=7.36.2",
+]
 dev = [
     "pytest>=8",
     "pytest-cov>=5",
