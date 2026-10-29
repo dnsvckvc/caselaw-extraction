@@ -98,9 +98,9 @@ footer { grid-column: 1 / -1; border-top: 1px solid var(--rule); margin-top: 24p
 <header class="masthead">
   <p class="eyebrow">Project 1 of 4 · report</p>
   <h1>Project 1: Case-Law Extraction Pipeline — report</h1>
-  <p class="status">weeks 1 to 3 of 4 complete. Week 1: corpus of 7,999 decisions, schema, Label Studio, first gold batch. Week 2: gold set of 350 decisions over three batches (guideline v0.3, nine classes), five extractors compared, entity-linking stage, learning curve, models retrained on 260 decisions. Week 3 (2026-10-28): full-corpus run under Dask, Postgres, citation graph with the three headline analyses, FastAPI service, regex graph compared with the gbert graph. Week 4 (AWS deployment, monitoring, drift check) not started. Last updated 2026-10-28.</p>
+  <p class="status">weeks 1 to 3 of 4 complete, week 4 in progress. Week 1: corpus of 7,999 decisions, schema, Label Studio, first gold batch. Week 2: gold set of 350 decisions over three batches (guideline v0.3, nine classes), five extractors compared, entity-linking stage, learning curve, models retrained on 260 decisions. Week 3 (2026-10-28): full-corpus run under Dask, Postgres, citation graph with the three headline analyses, FastAPI service, regex graph compared with the gbert graph. Week 4 (2026-10-29): drift check, API image, Terraform stack for S3, RDS, Fargate and CloudWatch, GitHub Actions; the stack is validated and not yet applied (section 8). Last updated 2026-10-29.</p>
 </header>
-<nav class="toc" aria-label="Contents"><p class="eyebrow">Contents</p><ol><li><a href="#management-summary">Management summary</a><ol><li><a href="#what-was-built">What was built</a></li><li><a href="#results">Results</a></li><li><a href="#decision">Decision</a></li><li><a href="#key-figures">Key figures</a></li><li><a href="#risks-and-limits">Risks and limits</a></li><li><a href="#next-step">Next step</a></li></ol></li><li><a href="#1-problem">1. Problem</a></li><li><a href="#2-data">2. Data</a><ol><li><a href="#data-quality-findings-week-1">Data-quality findings (week 1)</a></li></ol></li><li><a href="#3-architecture">3. Architecture</a></li><li><a href="#4-gold-set">4. Gold set</a><ol><li><a href="#how-batch-1-was-labelled-model-labelled-three-passes-adjudicated">How batch 1 was labelled (model-labelled, three passes, adjudicated)</a></li><li><a href="#batch-2-week-2-held-out">Batch 2 (week 2, held out)</a></li><li><a href="#guideline-v02-round-2026-10-23-four-negative-classes-on-both-batches">Guideline v0.2 round (2026-10-23): four negative classes on both batches</a></li><li><a href="#guideline-v03-round-2026-10-2324-short-bge-citations-and-written-out-forms">Guideline v0.3 round (2026-10-23/24): short BGE citations and written-out forms</a></li><li><a href="#batch-3-2026-10-25-to-2026-10-28-200-decisions-half-of-them-targeted">Batch 3 (2026-10-25 to 2026-10-28): 200 decisions, half of them targeted</a></li></ol></li><li><a href="#5-extractors-compared">5. Extractors compared</a></li><li><a href="#6-results">6. Results</a><ol><li><a href="#61-regex-extractor-coverage-on-the-full-corpus-week-1-not-yet-scored-against-gold">6.1 Regex extractor coverage on the full corpus (week 1, not yet scored against gold)</a></li><li><a href="#62-regex-v01-the-pre-annotator-against-batch-1-gold">6.2 Regex v0.1 (the pre-annotator) against batch 1 gold</a></li><li><a href="#63-regex-v02-against-batch-1-gold-development-set-tuned-on-it">6.3 Regex v0.2 against batch 1 gold (development set, tuned on it)</a></li><li><a href="#64-regex-v02-on-batch-2-held-out">6.4 Regex v0.2 on batch 2 (held out)</a></li><li><a href="#65-all-extractors-on-batch-2-held-out">6.5 All extractors on batch 2 (held out)</a></li><li><a href="#66-regex-v03-what-batch-2-taught-the-rules-not-held-out">6.6 Regex v0.3: what batch 2 taught the rules (not held out)</a></li><li><a href="#67-what-the-learned-models-would-need-to-beat-the-rules">6.7 What the learned models would need to beat the rules</a></li><li><a href="#68-entity-linking-every-extractor-before-and-after-batch-2-held-out">6.8 Entity linking: every extractor before and after (batch 2, held out)</a></li><li><a href="#69-decoding-argmax-vs-bio-constrained-viterbi-gbert-batch-2">6.9 Decoding: argmax vs BIO-constrained Viterbi (gbert, batch 2)</a></li><li><a href="#610-guideline-v02-do-the-models-learn-the-negative-classes-batch-2-one-seed">6.10 Guideline v0.2: do the models learn the negative classes? (batch 2, one seed)</a></li><li><a href="#611-everything-re-scored-on-gold-v03-batch-2-2026-10-24">6.11 Everything re-scored on gold v0.3 (batch 2, 2026-10-24)</a></li><li><a href="#612-learning-curve-how-much-gold-do-the-span-models-need-2026-10-2425">6.12 Learning curve: how much gold do the span models need? (2026-10-24/25)</a></li><li><a href="#613-trained-on-260-decisions-batches-1-and-3-against-batch-2-2026-10-28">6.13 Trained on 260 decisions: batches 1 and 3 against batch 2 (2026-10-28)</a></li></ol></li><li><a href="#7-full-corpus-run-and-citation-graph-week-3-2026-10-28">7. Full-corpus run and citation graph (week 3, 2026-10-28)</a><ol><li><a href="#71-the-run">7.1 The run</a></li><li><a href="#72-postgres">7.2 Postgres</a></li><li><a href="#73-the-citation-graph-and-the-three-headline-analyses">7.3 The citation graph and the three headline analyses</a></li><li><a href="#74-the-api">7.4 The API</a></li><li><a href="#75-cost-of-the-full-corpus-run">7.5 Cost of the full-corpus run</a></li><li><a href="#76-regex-graph-against-gbert-graph-what-the-rules-lose">7.6 Regex graph against gbert graph: what the rules lose</a></li></ol></li><li><a href="#8-deployment-and-monitoring">8. Deployment and monitoring</a></li><li><a href="#9-what-did-not-work">9. What did not work</a></li><li><a href="#10-next-steps-week-4">10. Next steps (week 4)</a><ol><li><a href="#previous-next-steps-week-3-done">Previous next steps (week 3, done)</a></li><li><a href="#previous-next-steps-week-2-done">Previous next steps (week 2, done)</a></li></ol></li></ol></nav>
+<nav class="toc" aria-label="Contents"><p class="eyebrow">Contents</p><ol><li><a href="#management-summary">Management summary</a><ol><li><a href="#what-was-built">What was built</a></li><li><a href="#results">Results</a></li><li><a href="#decision">Decision</a></li><li><a href="#key-figures">Key figures</a></li><li><a href="#risks-and-limits">Risks and limits</a></li><li><a href="#next-step">Next step</a></li></ol></li><li><a href="#1-problem">1. Problem</a></li><li><a href="#2-data">2. Data</a><ol><li><a href="#data-quality-findings-week-1">Data-quality findings (week 1)</a></li></ol></li><li><a href="#3-architecture">3. Architecture</a></li><li><a href="#4-gold-set">4. Gold set</a><ol><li><a href="#how-batch-1-was-labelled-model-labelled-three-passes-adjudicated">How batch 1 was labelled (model-labelled, three passes, adjudicated)</a></li><li><a href="#batch-2-week-2-held-out">Batch 2 (week 2, held out)</a></li><li><a href="#guideline-v02-round-2026-10-23-four-negative-classes-on-both-batches">Guideline v0.2 round (2026-10-23): four negative classes on both batches</a></li><li><a href="#guideline-v03-round-2026-10-2324-short-bge-citations-and-written-out-forms">Guideline v0.3 round (2026-10-23/24): short BGE citations and written-out forms</a></li><li><a href="#batch-3-2026-10-25-to-2026-10-28-200-decisions-half-of-them-targeted">Batch 3 (2026-10-25 to 2026-10-28): 200 decisions, half of them targeted</a></li></ol></li><li><a href="#5-extractors-compared">5. Extractors compared</a></li><li><a href="#6-results">6. Results</a><ol><li><a href="#61-regex-extractor-coverage-on-the-full-corpus-week-1-not-yet-scored-against-gold">6.1 Regex extractor coverage on the full corpus (week 1, not yet scored against gold)</a></li><li><a href="#62-regex-v01-the-pre-annotator-against-batch-1-gold">6.2 Regex v0.1 (the pre-annotator) against batch 1 gold</a></li><li><a href="#63-regex-v02-against-batch-1-gold-development-set-tuned-on-it">6.3 Regex v0.2 against batch 1 gold (development set, tuned on it)</a></li><li><a href="#64-regex-v02-on-batch-2-held-out">6.4 Regex v0.2 on batch 2 (held out)</a></li><li><a href="#65-all-extractors-on-batch-2-held-out">6.5 All extractors on batch 2 (held out)</a></li><li><a href="#66-regex-v03-what-batch-2-taught-the-rules-not-held-out">6.6 Regex v0.3: what batch 2 taught the rules (not held out)</a></li><li><a href="#67-what-the-learned-models-would-need-to-beat-the-rules">6.7 What the learned models would need to beat the rules</a></li><li><a href="#68-entity-linking-every-extractor-before-and-after-batch-2-held-out">6.8 Entity linking: every extractor before and after (batch 2, held out)</a></li><li><a href="#69-decoding-argmax-vs-bio-constrained-viterbi-gbert-batch-2">6.9 Decoding: argmax vs BIO-constrained Viterbi (gbert, batch 2)</a></li><li><a href="#610-guideline-v02-do-the-models-learn-the-negative-classes-batch-2-one-seed">6.10 Guideline v0.2: do the models learn the negative classes? (batch 2, one seed)</a></li><li><a href="#611-everything-re-scored-on-gold-v03-batch-2-2026-10-24">6.11 Everything re-scored on gold v0.3 (batch 2, 2026-10-24)</a></li><li><a href="#612-learning-curve-how-much-gold-do-the-span-models-need-2026-10-2425">6.12 Learning curve: how much gold do the span models need? (2026-10-24/25)</a></li><li><a href="#613-trained-on-260-decisions-batches-1-and-3-against-batch-2-2026-10-28">6.13 Trained on 260 decisions: batches 1 and 3 against batch 2 (2026-10-28)</a></li></ol></li><li><a href="#7-full-corpus-run-and-citation-graph-week-3-2026-10-28">7. Full-corpus run and citation graph (week 3, 2026-10-28)</a><ol><li><a href="#71-the-run">7.1 The run</a></li><li><a href="#72-postgres">7.2 Postgres</a></li><li><a href="#73-the-citation-graph-and-the-three-headline-analyses">7.3 The citation graph and the three headline analyses</a></li><li><a href="#74-the-api">7.4 The API</a></li><li><a href="#75-cost-of-the-full-corpus-run">7.5 Cost of the full-corpus run</a></li><li><a href="#76-regex-graph-against-gbert-graph-what-the-rules-lose">7.6 Regex graph against gbert graph: what the rules lose</a></li></ol></li><li><a href="#8-deployment-and-monitoring-week-4-2026-10-29">8. Deployment and monitoring (week 4, 2026-10-29)</a><ol><li><a href="#81-what-goes-to-aws">8.1 What goes to AWS</a></li><li><a href="#82-monitoring">8.2 Monitoring</a></li><li><a href="#83-drift-check">8.3 Drift check</a></li><li><a href="#84-cost-of-the-deployment-estimate-to-be-replaced-by-the-bill">8.4 Cost of the deployment (estimate, to be replaced by the bill)</a></li><li><a href="#85-open-before-the-apply">8.5 Open before the apply</a></li></ol></li><li><a href="#9-what-did-not-work">9. What did not work</a></li><li><a href="#10-next-steps">10. Next steps</a><ol><li><a href="#previous-next-steps-week-4-plan-of-2026-10-28">Previous next steps (week 4 plan of 2026-10-28)</a></li><li><a href="#previous-next-steps-week-3-done">Previous next steps (week 3, done)</a></li><li><a href="#previous-next-steps-week-2-done">Previous next steps (week 2, done)</a></li></ol></li></ol></nav>
 <main>
 
 <section class="summary"><h2 id="management-summary">Management summary</h2>
@@ -136,6 +136,11 @@ footer { grid-column: 1 / -1; border-top: 1px solid var(--rule); margin-top: 24p
 <td>What does the graph show?</td>
 <td>The court cites its own procedure act in every decision. Three leading cases on the duty to substantiate an appeal are cited in four of ten decisions. The share of decisions citing the Civil Procedure Code fell from 35 to 25 percent in 2025 and 2026.</td>
 <td>7.3</td>
+</tr>
+<tr>
+<td>Does the extraction drift over time?</td>
+<td>The month-to-month distance of the statute distribution has a median of 0.45 and a 95th percentile of 0.49 over 81 months. September 2026 is the first month the check flags: shorter decisions, three quarters of them inadmissibility rulings, half the usual number of distinct articles.</td>
+<td>8.3</td>
 </tr>
 <tr>
 <td>How reliable is the gold set?</td>
@@ -185,11 +190,11 @@ footer { grid-column: 1 / -1; border-top: 1px solid var(--rule); margin-top: 24p
 </tr>
 <tr>
 <td>API</td>
-<td>9 read-only endpoints, 5 ms per decision on Postgres</td>
+<td>11 read-only endpoints, 5 ms per decision on Postgres</td>
 </tr>
 <tr>
 <td>tests</td>
-<td>83, all passing</td>
+<td>87, all passing</td>
 </tr>
 <tr>
 <td>experiment runs tracked</td>
@@ -202,11 +207,11 @@ footer { grid-column: 1 / -1; border-top: 1px solid var(--rule); margin-top: 24p
 <li>The gold set was labelled by language-model agents, not by legal professionals. One human check covers 10 of 350 decisions. The agents corrected proposals from the rules, so the gold set favours the rules in every comparison.</li>
 <li>The dataset&rsquo;s own outcome label disagrees with the extractor in 1,179 of 5,806 decisions. Sampling shows the dataset label is the one in error. The analyses use the extractor&rsquo;s outcome.</li>
 <li>The AWS costs are estimates from local run times and public price pages. Week 4 measures them.</li>
-<li>Nothing is deployed yet. The API runs locally on Docker Postgres.</li>
+<li>Nothing is deployed yet. The Terraform stack, the image and the pipelines are written and validated; the apply waits for an AWS session and the approval of about USD 50 per month. The API runs locally on Docker Postgres.</li>
 <li>The corpus is one language, one court and one branch of law. The rules do not cover French or Italian.</li>
 </ul>
 <h3 id="next-step">Next step</h3>
-<p>Week 4: Terraform for S3, RDS Postgres and ECS Fargate, a CloudWatch dashboard with alarms, GitHub Actions for test and deploy, a drift check between months, the final report and a five-minute recording.</p>
+<p>Apply the Terraform stack (section 8.1), load the run into RDS, measure latency and cost on the real deployment, record the five-minute demo. Then Project 2.</p>
 </section>
 <section><h2 id="1-problem">1. Problem</h2>
 <p>Legal professionals need to know which statutes and prior decisions a court relies on.
@@ -1726,7 +1731,7 @@ the regex outcome is right in 97 to 100 percent of the cases (sections 6.4, 6.11
 the regex column is the one the graph uses, and the dataset column is kept beside it.</p>
 <h3 id="72-postgres">7.2 Postgres</h3>
 <p><code>make db-up</code> starts Postgres 16 in Docker (port 5433; <code>infra/docker-compose.yml</code>), <code>make
-db-load</code> creates the schema (<code>db/schema.sql</code>: <code>extraction_run</code>, <code>decision</code>, <code>span</code>,
+db-load</code> creates the schema (<code>src/caselaw_extraction/sql/schema.sql</code>: <code>extraction_run</code>, <code>decision</code>, <code>span</code>,
 <code>citation</code>, <code>centrality</code>, <code>statute</code>) and loads a run with COPY. Every record row carries its
 <code>run_id</code>, so several runs live side by side and a reload replaces a run instead of
 duplicating it. The regex run loads in 6 seconds: 7,999 decisions, 294,884 spans, 249,762
@@ -2205,8 +2210,318 @@ model&rsquo;s value is elsewhere: it is the extractor that reads the forms the r
 instead of 350, and it is what the pipeline will need for the languages and courts for which
 nobody has written the rules yet.</p>
 </section>
-<section><h2 id="8-deployment-and-monitoring">8. Deployment and monitoring</h2>
-<p><em>AWS, Terraform, CloudWatch, drift check. TBD week 4.</em></p>
+<section><h2 id="8-deployment-and-monitoring-week-4-2026-10-29">8. Deployment and monitoring (week 4, 2026-10-29)</h2>
+<p>Everything in this section is written, tested locally and validated. <strong>It is not applied to
+AWS yet</strong>: the apply needs a live AWS session and the approval of the monthly cost in 8.4.
+The numbers that only the real deployment can give (latency through the load balancer,
+the bill) are marked as pending.</p>
+<h3 id="81-what-goes-to-aws">8.1 What goes to AWS</h3>
+<p><code>infra/terraform/</code> describes the deployment; <code>terraform validate</code> passes and the CI job
+checks it on every push.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>component</th>
+<th>resource</th>
+<th>why this one</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>run tables</td>
+<td>S3 bucket <code>caselaw-runs-&lt;account&gt;</code>, private, SSE-S3; <code>runs/&lt;run_id&gt;/*.parquet</code> and <code>run.json</code></td>
+<td>the Parquet of a run is the handover between the pipeline and the database; 9 MB per run</td>
+</tr>
+<tr>
+<td>image</td>
+<td>ECR repository <code>caselaw-api</code>, scan on push, keep 10 images</td>
+<td>one image for the API and the loader, 211 MB, core dependencies only (torch, spaCy and MLflow moved to the <code>ml</code> extra)</td>
+</tr>
+<tr>
+<td>database</td>
+<td>RDS Postgres 16, <code>db.t4g.micro</code>, 20 GB gp3, single AZ, not public, security group admits the API tasks only</td>
+<td>the schema of section 7.2 unchanged; the connection string lives in one SSM SecureString and reaches the tasks as a secret</td>
+</tr>
+<tr>
+<td>API</td>
+<td>ECS Fargate service, 1 task of 0.25 vCPU and 512 MB, behind an application load balancer on port 80, health check <code>/health</code>, circuit breaker with rollback</td>
+<td>the FastAPI app of 7.4 with <code>CASELAW_BACKEND=postgres</code>; Fargate because the API is one container with no state</td>
+</tr>
+<tr>
+<td>loader</td>
+<td>ECS task definition <code>caselaw-load</code>, 1 vCPU and 2 GB, same image, command <code>caselaw db-load --runs-dir s3://...</code></td>
+<td>the database is private, so the load runs inside the VPC; the loader reads the Parquet from S3 through pyarrow&rsquo;s filesystem layer and COPYs into RDS</td>
+</tr>
+<tr>
+<td>logs and metrics</td>
+<td>CloudWatch log group (14 days), dashboard with nine widgets, eight alarms on an SNS topic (optional e-mail)</td>
+<td>section 8.2</td>
+</tr>
+<tr>
+<td>deploy</td>
+<td>GitHub OIDC provider and a role that may push the image and restart the service, nothing else</td>
+<td>no long-lived AWS key in GitHub</td>
+</tr>
+</tbody>
+</table></div>
+<p>Decisions worth stating. The stack uses the default VPC and public subnets, and the tasks get
+a public IP: a NAT gateway would cost more per month than everything else together, and the
+API is public and read-only. The load balancer serves HTTP only, because there is no domain
+and therefore no certificate; the report says so instead of pretending. The Terraform state is
+local to the laptop (a second operator would need an S3 backend). Every resource is tagged
+<code>Project=caselaw</code>, and <code>make tf-destroy</code> removes all of them, the database included.</p>
+<p>The first deployment runs in one command, <code>make aws-bootstrap</code>: apply with zero API tasks
+(the image does not exist yet), build and push the image for <code>linux/amd64</code>, upload the run,
+run the loader task and wait for it, apply again with one task, smoke-test the URL. Later
+image changes go through GitHub Actions (<code>.github/workflows/deploy.yml</code>): after a green <code>ci</code>
+run on <code>main</code>, build, push with the commit hash and <code>latest</code>, force a new deployment, wait
+until the service is stable, call <code>/health</code>. <code>ci.yml</code> runs ruff, the test suite against a
+Postgres service container (so the four Postgres tests no longer skip), the image build and
+<code>terraform validate</code>.</p>
+<p>Verified locally on 2026-10-29: the image answers <code>/health</code>, <code>/statutes/top</code> and <code>/drift</code>
+against the Docker Postgres of week 3; <code>caselaw db-load</code> and <code>caselaw drift</code> run inside the
+image; <code>terraform init</code> and <code>validate</code> pass; 87 tests pass.</p>
+<h3 id="82-monitoring">8.2 Monitoring</h3>
+<p>The dashboard shows, from the load balancer, requests per minute, responses by class (2xx,
+4xx, 5xx from the target and from the balancer) and the p50, p95 and p99 response time with
+the alarm line; from ECS, the task&rsquo;s CPU and memory; from RDS, CPU, connections, free storage
+and read and write latency; and the last twenty log lines. The alarms:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>alarm</th>
+<th>metric</th>
+<th>condition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>caselaw-api-5xx</code></td>
+<td>target 5xx count</td>
+<td>5 or more in 5 minutes</td>
+</tr>
+<tr>
+<td><code>caselaw-api-latency-p95</code></td>
+<td>target response time p95</td>
+<td>above 1 s in 2 of 3 five-minute windows</td>
+</tr>
+<tr>
+<td><code>caselaw-api-unhealthy-target</code></td>
+<td>unhealthy targets</td>
+<td>1 or more for 3 minutes</td>
+</tr>
+<tr>
+<td><code>caselaw-api-no-healthy-target</code></td>
+<td>healthy targets</td>
+<td>below 1 for 3 minutes (missing data counts as breaching)</td>
+</tr>
+<tr>
+<td><code>caselaw-api-cpu</code>, <code>caselaw-api-memory</code></td>
+<td>ECS service CPU, memory</td>
+<td>above 80 percent for 15 minutes</td>
+</tr>
+<tr>
+<td><code>caselaw-db-cpu</code></td>
+<td>RDS CPU</td>
+<td>above 80 percent for 15 minutes</td>
+</tr>
+<tr>
+<td><code>caselaw-db-free-storage</code></td>
+<td>RDS free storage</td>
+<td>below 2 GB</td>
+</tr>
+</tbody>
+</table></div>
+<p>The thresholds are starting points. The latency threshold of 1 s is ten times the local p95
+of the slowest endpoint; the first week of real traffic will say whether it is right.</p>
+<h3 id="83-drift-check">8.3 Drift check</h3>
+<p><code>caselaw drift</code> (<code>drift.py</code>; <code>GET /drift</code>, <code>GET /drift/series</code>) compares the
+entity-frequency distributions of two periods of decision dates, months or years. For the
+citation kinds the distribution is the number of decisions that cite each key (article,
+BGE, file number, act); for the outcome, decisions per class; for the span labels, spans per
+class. Two periods are compared with the Jensen-Shannon distance (0 identical, 1 disjoint)
+and the total variation distance, and the keys whose share of decisions moved most are
+listed. The check runs on DuckDB and on Postgres with the same SQL, so it works on a laptop
+against a run directory and in the cloud against RDS.</p>
+<p>A threshold needs a noise level, so the series over the 81 month-to-month steps of the corpus
+comes first (<code>caselaw drift --series</code>):</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>kind</th>
+<th>median JS distance</th>
+<th>95th percentile</th>
+<th>maximum</th>
+<th>usable month to month?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>statute article</td>
+<td>0.448</td>
+<td>0.491</td>
+<td>0.515</td>
+<td>yes; about 250 distinct articles per month of 100 to 150 decisions, so the tail is noisy and the level is high</td>
+</tr>
+<tr>
+<td>act (<code>code</code>)</td>
+<td>0.227</td>
+<td>0.278</td>
+<td>0.322</td>
+<td>yes, the most stable citation signal</td>
+</tr>
+<tr>
+<td>BGE</td>
+<td>0.620</td>
+<td>0.669</td>
+<td>0.682</td>
+<td>marginal; 300 to 450 distinct leading cases per month</td>
+</tr>
+<tr>
+<td>outcome</td>
+<td>0.140</td>
+<td>0.225</td>
+<td>0.273</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>file number</td>
+<td>about 0.93</td>
+<td>–</td>
+<td>–</td>
+<td>no; file numbers rarely repeat between months</td>
+</tr>
+</tbody>
+</table></div>
+<p>The proposed rule is one alarm per kind at the 95th percentile of its own series (statute
+0.49, act 0.28, outcome 0.23), with <code>caselaw drift --fail-above</code> as the check. The last
+complete step, August to September 2026, stays under every threshold (statute 0.445, act
+0.230, outcome 0.169), and it is still the step the check points at: the number of distinct
+articles halves (230 to 134), the share of inadmissibility rulings rises from 67 to 76
+percent, the share of decisions citing the ZPO falls from 31 to 7 percent, and BGE 140 III
+115 and 142 III 364, the two substantiation precedents, gain 9 and 12 points. The decisions
+themselves explain it: the mean text length of a September 2026 decision is 6,900 characters
+against 10,700 in August and 11,000 to 13,000 in spring, and spans per decision drop from 30
+to 20. Either the court&rsquo;s September output was unusually short, or the dataset&rsquo;s most recent
+month is not complete yet and the long decisions arrive later; the next dataset release will
+tell. This is what the check is for: it names the month and the keys, and a reader with the
+texts can decide.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>month</th>
+<th>decisions</th>
+<th>mean text length</th>
+<th>spans per decision</th>
+<th>inadmissible</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2026-05</td>
+<td>130</td>
+<td>11,833</td>
+<td>35.8</td>
+<td>61.5 %</td>
+</tr>
+<tr>
+<td>2026-06</td>
+<td>128</td>
+<td>10,979</td>
+<td>32.1</td>
+<td>56.3 %</td>
+</tr>
+<tr>
+<td>2026-07</td>
+<td>104</td>
+<td>9,166</td>
+<td>28.6</td>
+<td>61.5 %</td>
+</tr>
+<tr>
+<td>2026-08</td>
+<td>94</td>
+<td>10,716</td>
+<td>30.5</td>
+<td>67.0 %</td>
+</tr>
+<tr>
+<td>2026-09</td>
+<td>95</td>
+<td>6,901</td>
+<td>20.3</td>
+<td>75.8 %</td>
+</tr>
+<tr>
+<td>2026-10 (7 days)</td>
+<td>7</td>
+<td>6,705</td>
+<td>17.0</td>
+<td>85.7 %</td>
+</tr>
+</tbody>
+</table></div>
+<p>The year-to-year check (2024 against 2025) repeats the trend of section 7.3 in one table:
+Art. 108 BGG, the summary-inadmissibility article, gains 11 points of decisions, every
+substantive BGG article loses 8 to 10, the ZPO loses 8 and BGE 150 III 248, a 2024 decision,
+enters at 6 percent. What is not built: a schedule that runs the check in the cloud. It
+would be one EventBridge rule starting the loader task definition with the <code>drift</code> command
+and <code>--fail-above</code>, and one alarm on the task&rsquo;s exit code; the JSON output
+(<code>data/runs/regex-v0.4/drift-*.json</code>) is ready for it.</p>
+<h3 id="84-cost-of-the-deployment-estimate-to-be-replaced-by-the-bill">8.4 Cost of the deployment (estimate, to be replaced by the bill)</h3>
+<p>Prices for eu-central-1 on 2026-10-29 from third-party price pages where the AWS page did
+not show the region in the search results: load balancer USD 0.027 per hour, RDS
+<code>db.t4g.micro</code> USD 0.019 per hour, gp3 storage about USD 0.14 per GB-month; Fargate at the
+us-east-1 rates of section 7.5 (Frankfurt is a few percent higher); alarms USD 0.10 each; the
+dashboard, SSM, the log volume and the ECR storage are inside the free allowances at this size.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>item</th>
+<th>monthly estimate (USD)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>application load balancer, 730 h</td>
+<td>19.7</td>
+</tr>
+<tr>
+<td>Fargate, 0.25 vCPU and 0.5 GB, 730 h</td>
+<td>about 9</td>
+</tr>
+<tr>
+<td>RDS <code>db.t4g.micro</code>, 730 h, 20 GB gp3</td>
+<td>about 16.5</td>
+</tr>
+<tr>
+<td>8 alarms</td>
+<td>0.8</td>
+</tr>
+<tr>
+<td>S3, ECR, logs, SSM</td>
+<td>under 0.5</td>
+</tr>
+<tr>
+<td><strong>total, API up all month</strong></td>
+<td><strong>about 47, that is USD 1.60 per day</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>The load balancer is the largest item and buys a stable URL and the health checks; a task
+without it would be cheaper and would change its address at every deployment. The full-corpus
+extraction itself stays under one cent (section 7.5). <code>make tf-destroy</code> stops the cost
+entirely; the run Parquet and the image are rebuilt in minutes.</p>
+<h3 id="85-open-before-the-apply">8.5 Open before the apply</h3>
+<ul>
+<li>An AWS session: the CLI profile on this machine has an expired session, and it logs in
+  as the account root. The apply should run as an IAM user or an Identity Center user with
+  administrator rights for this account, not as root.</li>
+<li>The approval of the cost in 8.4.</li>
+<li>A GitHub repository for the deploy pipeline (the OIDC role is created when <code>github_repo</code>
+  is set in <code>terraform.tfvars</code>). Until then <code>make aws-push</code> and <code>make aws-deploy</code> do the same
+  from the laptop.</li>
+</ul>
 </section>
 <section><h2 id="9-what-did-not-work">9. What did not work</h2>
 <p><em>Running log.</em></p>
@@ -2256,21 +2571,27 @@ nobody has written the rules yet.</p>
   4) is the only independent signal available; it found no error in 358 spans.</li>
 </ul>
 </section>
-<section><h2 id="10-next-steps-week-4">10. Next steps (week 4)</h2>
+<section><h2 id="10-next-steps">10. Next steps</h2>
+<ol>
+<li>Apply the stack (<code>make tf-init</code>, <code>make tf-plan</code>, <code>make aws-bootstrap</code>), then replace the
+   estimates of 8.4 with the bill and add the measured latency through the load balancer
+   (<code>make aws-measure</code>) to 7.4.</li>
+<li>Record the five-minute demo (<code>docs/recording-script.md</code>).</li>
+<li>If time remains: the scheduled drift task (8.3); a third gbert seed on 260 decisions; a
+   CRF head; a human spot check of batch 3; French and Italian decisions, which need their own
+   regex and their own gold.</li>
+</ol>
+<h3 id="previous-next-steps-week-4-plan-of-2026-10-28">Previous next steps (week 4 plan of 2026-10-28)</h3>
 <ol>
 <li>Done 2026-10-28 (week 3): full-corpus run under Dask with regex v0.4 and the linking stage,
    the same run with gbert on 260 decisions on the GPU, Postgres schema and loader, the
    citation graph with the three headline analyses, the FastAPI service on both backends,
    <code>make demo</code>, 19 new tests (section 7).</li>
-<li>Week 4 as planned: Terraform for S3 (the run Parquet), RDS Postgres (the schema of 7.2),
-   ECS Fargate for the API, CloudWatch dashboard and alarms, GitHub Actions for test and
-   deploy; a drift check that compares the entity-frequency distributions of two months of
-   decisions (the <code>citations</code> table by month gives it directly); the report and the recording.</li>
-<li>Open from week 3: the cost table (7.5) holds estimates for AWS; week 4 replaces them with
-   measured numbers. The graph HTML shows 150 nodes; a reader who wants the whole graph gets
-   the <code>centrality</code> table and the <code>citations</code> table instead.</li>
-<li>If time remains: a third gbert seed on 260 decisions; a CRF head; a human spot check of
-   batch 3; French and Italian decisions, which need their own regex and their own gold.</li>
+<li>Done 2026-10-29 except the apply: Terraform for S3, RDS Postgres, ECS Fargate, CloudWatch
+   dashboard and alarms, GitHub Actions for test and deploy, the drift check between months
+   (section 8).</li>
+<li>Open from week 3: the cost table (7.5) holds estimates for AWS; the deployment replaces
+   them with measured numbers.</li>
 </ol>
 <h3 id="previous-next-steps-week-3-done">Previous next steps (week 3, done)</h3>
 <ol>
@@ -2303,7 +2624,7 @@ nobody has written the rules yet.</p>
 <li>A human spot check of 10 batch-2 decisions, to put a number on the model-labelled gold.</li>
 </ol></section>
 </main>
-<footer>Rendered from docs/report.md on 2026-10-28. Repository: caselaw-extraction.</footer>
+<footer>Rendered from docs/report.md on 2026-10-29. Repository: caselaw-extraction.</footer>
 </div>
 </body>
 </html>

@@ -1,6 +1,6 @@
 # Project 1: Case-Law Extraction Pipeline — report
 
-Status: weeks 1 to 3 of 4 complete. Week 1: corpus of 7,999 decisions, schema, Label Studio, first gold batch. Week 2: gold set of 350 decisions over three batches (guideline v0.3, nine classes), five extractors compared, entity-linking stage, learning curve, models retrained on 260 decisions. Week 3 (2026-10-28): full-corpus run under Dask, Postgres, citation graph with the three headline analyses, FastAPI service, regex graph compared with the gbert graph. Week 4 (AWS deployment, monitoring, drift check) not started. Last updated 2026-10-28.
+Status: weeks 1 to 3 of 4 complete, week 4 in progress. Week 1: corpus of 7,999 decisions, schema, Label Studio, first gold batch. Week 2: gold set of 350 decisions over three batches (guideline v0.3, nine classes), five extractors compared, entity-linking stage, learning curve, models retrained on 260 decisions. Week 3 (2026-10-28): full-corpus run under Dask, Postgres, citation graph with the three headline analyses, FastAPI service, regex graph compared with the gbert graph. Week 4 (2026-10-29): drift check, API image, Terraform stack for S3, RDS, Fargate and CloudWatch, GitHub Actions; the stack is validated and not yet applied (section 8). Last updated 2026-10-29.
 
 ## Management summary
 
@@ -18,6 +18,7 @@ The pipeline reads the 7,999 German-language civil decisions that the Swiss Fede
 | Does the choice of extractor change the result? | No. The rule-based graph and the model-based graph agree on 97 to 99 percent of edges, and their top-20 lists are identical. | 7.6 |
 | What does the full run cost? | The rules take 10 seconds on one core, under one cent on AWS. The model takes 30 minutes on a GPU, about USD 0.63. An LLM would cost about USD 140 per run. | 7.1, 7.5 |
 | What does the graph show? | The court cites its own procedure act in every decision. Three leading cases on the duty to substantiate an appeal are cited in four of ten decisions. The share of decisions citing the Civil Procedure Code fell from 35 to 25 percent in 2025 and 2026. | 7.3 |
+| Does the extraction drift over time? | The month-to-month distance of the statute distribution has a median of 0.45 and a 95th percentile of 0.49 over 81 months. September 2026 is the first month the check flags: shorter decisions, three quarters of them inadmissibility rulings, half the usual number of distinct articles. | 8.3 |
 | How reliable is the gold set? | 350 decisions and 16,783 spans, labelled by two different language models and adjudicated. A human check of 10 decisions found 0 errors in 358 spans. | 4 |
 
 ### Decision
@@ -35,8 +36,8 @@ The rule-based extractor goes to AWS in week 4. On this corpus the learned model
 | full-corpus run | 294,884 spans, 249,762 linked citations |
 | citation graph | 19,622 nodes, 86,365 edges |
 | agreement of the two graphs | Jaccard 0.994 (statutes), 0.991 (BGE), 0.974 (file numbers) |
-| API | 9 read-only endpoints, 5 ms per decision on Postgres |
-| tests | 83, all passing |
+| API | 11 read-only endpoints, 5 ms per decision on Postgres |
+| tests | 87, all passing |
 | experiment runs tracked | 127 in MLflow |
 
 ### Risks and limits
@@ -44,12 +45,12 @@ The rule-based extractor goes to AWS in week 4. On this corpus the learned model
 - The gold set was labelled by language-model agents, not by legal professionals. One human check covers 10 of 350 decisions. The agents corrected proposals from the rules, so the gold set favours the rules in every comparison.
 - The dataset's own outcome label disagrees with the extractor in 1,179 of 5,806 decisions. Sampling shows the dataset label is the one in error. The analyses use the extractor's outcome.
 - The AWS costs are estimates from local run times and public price pages. Week 4 measures them.
-- Nothing is deployed yet. The API runs locally on Docker Postgres.
+- Nothing is deployed yet. The Terraform stack, the image and the pipelines are written and validated; the apply waits for an AWS session and the approval of about USD 50 per month. The API runs locally on Docker Postgres.
 - The corpus is one language, one court and one branch of law. The rules do not cover French or Italian.
 
 ### Next step
 
-Week 4: Terraform for S3, RDS Postgres and ECS Fargate, a CloudWatch dashboard with alarms, GitHub Actions for test and deploy, a drift check between months, the final report and a five-minute recording.
+Apply the Terraform stack (section 8.1), load the run into RDS, measure latency and cost on the real deployment, record the five-minute demo. Then Project 2.
 
 ## 1. Problem
 
@@ -956,9 +957,152 @@ model's value is elsewhere: it is the extractor that reads the forms the rules d
 instead of 350, and it is what the pipeline will need for the languages and courts for which
 nobody has written the rules yet.
 
-## 8. Deployment and monitoring
+## 8. Deployment and monitoring (week 4, 2026-10-29)
 
-_AWS, Terraform, CloudWatch, drift check. TBD week 4._
+Everything in this section is written, tested locally and validated. **It is not applied to
+AWS yet**: the apply needs a live AWS session and the approval of the monthly cost in 8.4.
+The numbers that only the real deployment can give (latency through the load balancer,
+the bill) are marked as pending.
+
+### 8.1 What goes to AWS
+
+`infra/terraform/` describes the deployment; `terraform validate` passes and the CI job
+checks it on every push.
+
+| component | resource | why this one |
+|---|---|---|
+| run tables | S3 bucket `caselaw-runs-<account>`, private, SSE-S3; `runs/<run_id>/*.parquet` and `run.json` | the Parquet of a run is the handover between the pipeline and the database; 9 MB per run |
+| image | ECR repository `caselaw-api`, scan on push, keep 10 images | one image for the API and the loader, 211 MB, core dependencies only (torch, spaCy and MLflow moved to the `ml` extra) |
+| database | RDS Postgres 16, `db.t4g.micro`, 20 GB gp3, single AZ, not public, security group admits the API tasks only | the schema of section 7.2 unchanged; the connection string lives in one SSM SecureString and reaches the tasks as a secret |
+| API | ECS Fargate service, 1 task of 0.25 vCPU and 512 MB, behind an application load balancer on port 80, health check `/health`, circuit breaker with rollback | the FastAPI app of 7.4 with `CASELAW_BACKEND=postgres`; Fargate because the API is one container with no state |
+| loader | ECS task definition `caselaw-load`, 1 vCPU and 2 GB, same image, command `caselaw db-load --runs-dir s3://...` | the database is private, so the load runs inside the VPC; the loader reads the Parquet from S3 through pyarrow's filesystem layer and COPYs into RDS |
+| logs and metrics | CloudWatch log group (14 days), dashboard with nine widgets, eight alarms on an SNS topic (optional e-mail) | section 8.2 |
+| deploy | GitHub OIDC provider and a role that may push the image and restart the service, nothing else | no long-lived AWS key in GitHub |
+
+Decisions worth stating. The stack uses the default VPC and public subnets, and the tasks get
+a public IP: a NAT gateway would cost more per month than everything else together, and the
+API is public and read-only. The load balancer serves HTTP only, because there is no domain
+and therefore no certificate; the report says so instead of pretending. The Terraform state is
+local to the laptop (a second operator would need an S3 backend). Every resource is tagged
+`Project=caselaw`, and `make tf-destroy` removes all of them, the database included.
+
+The first deployment runs in one command, `make aws-bootstrap`: apply with zero API tasks
+(the image does not exist yet), build and push the image for `linux/amd64`, upload the run,
+run the loader task and wait for it, apply again with one task, smoke-test the URL. Later
+image changes go through GitHub Actions (`.github/workflows/deploy.yml`): after a green `ci`
+run on `main`, build, push with the commit hash and `latest`, force a new deployment, wait
+until the service is stable, call `/health`. `ci.yml` runs ruff, the test suite against a
+Postgres service container (so the four Postgres tests no longer skip), the image build and
+`terraform validate`.
+
+Verified locally on 2026-10-29: the image answers `/health`, `/statutes/top` and `/drift`
+against the Docker Postgres of week 3; `caselaw db-load` and `caselaw drift` run inside the
+image; `terraform init` and `validate` pass; 87 tests pass.
+
+### 8.2 Monitoring
+
+The dashboard shows, from the load balancer, requests per minute, responses by class (2xx,
+4xx, 5xx from the target and from the balancer) and the p50, p95 and p99 response time with
+the alarm line; from ECS, the task's CPU and memory; from RDS, CPU, connections, free storage
+and read and write latency; and the last twenty log lines. The alarms:
+
+| alarm | metric | condition |
+|---|---|---|
+| `caselaw-api-5xx` | target 5xx count | 5 or more in 5 minutes |
+| `caselaw-api-latency-p95` | target response time p95 | above 1 s in 2 of 3 five-minute windows |
+| `caselaw-api-unhealthy-target` | unhealthy targets | 1 or more for 3 minutes |
+| `caselaw-api-no-healthy-target` | healthy targets | below 1 for 3 minutes (missing data counts as breaching) |
+| `caselaw-api-cpu`, `caselaw-api-memory` | ECS service CPU, memory | above 80 percent for 15 minutes |
+| `caselaw-db-cpu` | RDS CPU | above 80 percent for 15 minutes |
+| `caselaw-db-free-storage` | RDS free storage | below 2 GB |
+
+The thresholds are starting points. The latency threshold of 1 s is ten times the local p95
+of the slowest endpoint; the first week of real traffic will say whether it is right.
+
+### 8.3 Drift check
+
+`caselaw drift` (`drift.py`; `GET /drift`, `GET /drift/series`) compares the
+entity-frequency distributions of two periods of decision dates, months or years. For the
+citation kinds the distribution is the number of decisions that cite each key (article,
+BGE, file number, act); for the outcome, decisions per class; for the span labels, spans per
+class. Two periods are compared with the Jensen-Shannon distance (0 identical, 1 disjoint)
+and the total variation distance, and the keys whose share of decisions moved most are
+listed. The check runs on DuckDB and on Postgres with the same SQL, so it works on a laptop
+against a run directory and in the cloud against RDS.
+
+A threshold needs a noise level, so the series over the 81 month-to-month steps of the corpus
+comes first (`caselaw drift --series`):
+
+| kind | median JS distance | 95th percentile | maximum | usable month to month? |
+|---|---|---|---|---|
+| statute article | 0.448 | 0.491 | 0.515 | yes; about 250 distinct articles per month of 100 to 150 decisions, so the tail is noisy and the level is high |
+| act (`code`) | 0.227 | 0.278 | 0.322 | yes, the most stable citation signal |
+| BGE | 0.620 | 0.669 | 0.682 | marginal; 300 to 450 distinct leading cases per month |
+| outcome | 0.140 | 0.225 | 0.273 | yes |
+| file number | about 0.93 | – | – | no; file numbers rarely repeat between months |
+
+The proposed rule is one alarm per kind at the 95th percentile of its own series (statute
+0.49, act 0.28, outcome 0.23), with `caselaw drift --fail-above` as the check. The last
+complete step, August to September 2026, stays under every threshold (statute 0.445, act
+0.230, outcome 0.169), and it is still the step the check points at: the number of distinct
+articles halves (230 to 134), the share of inadmissibility rulings rises from 67 to 76
+percent, the share of decisions citing the ZPO falls from 31 to 7 percent, and BGE 140 III
+115 and 142 III 364, the two substantiation precedents, gain 9 and 12 points. The decisions
+themselves explain it: the mean text length of a September 2026 decision is 6,900 characters
+against 10,700 in August and 11,000 to 13,000 in spring, and spans per decision drop from 30
+to 20. Either the court's September output was unusually short, or the dataset's most recent
+month is not complete yet and the long decisions arrive later; the next dataset release will
+tell. This is what the check is for: it names the month and the keys, and a reader with the
+texts can decide.
+
+| month | decisions | mean text length | spans per decision | inadmissible |
+|---|---|---|---|---|
+| 2026-05 | 130 | 11,833 | 35.8 | 61.5 % |
+| 2026-06 | 128 | 10,979 | 32.1 | 56.3 % |
+| 2026-07 | 104 | 9,166 | 28.6 | 61.5 % |
+| 2026-08 | 94 | 10,716 | 30.5 | 67.0 % |
+| 2026-09 | 95 | 6,901 | 20.3 | 75.8 % |
+| 2026-10 (7 days) | 7 | 6,705 | 17.0 | 85.7 % |
+
+The year-to-year check (2024 against 2025) repeats the trend of section 7.3 in one table:
+Art. 108 BGG, the summary-inadmissibility article, gains 11 points of decisions, every
+substantive BGG article loses 8 to 10, the ZPO loses 8 and BGE 150 III 248, a 2024 decision,
+enters at 6 percent. What is not built: a schedule that runs the check in the cloud. It
+would be one EventBridge rule starting the loader task definition with the `drift` command
+and `--fail-above`, and one alarm on the task's exit code; the JSON output
+(`data/runs/regex-v0.4/drift-*.json`) is ready for it.
+
+### 8.4 Cost of the deployment (estimate, to be replaced by the bill)
+
+Prices for eu-central-1 on 2026-10-29 from third-party price pages where the AWS page did
+not show the region in the search results: load balancer USD 0.027 per hour, RDS
+`db.t4g.micro` USD 0.019 per hour, gp3 storage about USD 0.14 per GB-month; Fargate at the
+us-east-1 rates of section 7.5 (Frankfurt is a few percent higher); alarms USD 0.10 each; the
+dashboard, SSM, the log volume and the ECR storage are inside the free allowances at this size.
+
+| item | monthly estimate (USD) |
+|---|---|
+| application load balancer, 730 h | 19.7 |
+| Fargate, 0.25 vCPU and 0.5 GB, 730 h | about 9 |
+| RDS `db.t4g.micro`, 730 h, 20 GB gp3 | about 16.5 |
+| 8 alarms | 0.8 |
+| S3, ECR, logs, SSM | under 0.5 |
+| **total, API up all month** | **about 47, that is USD 1.60 per day** |
+
+The load balancer is the largest item and buys a stable URL and the health checks; a task
+without it would be cheaper and would change its address at every deployment. The full-corpus
+extraction itself stays under one cent (section 7.5). `make tf-destroy` stops the cost
+entirely; the run Parquet and the image are rebuilt in minutes.
+
+### 8.5 Open before the apply
+
+- An AWS session: the CLI profile on this machine has an expired session, and it logs in
+  as the account root. The apply should run as an IAM user or an Identity Center user with
+  administrator rights for this account, not as root.
+- The approval of the cost in 8.4.
+- A GitHub repository for the deploy pipeline (the OIDC role is created when `github_repo`
+  is set in `terraform.tfvars`). Until then `make aws-push` and `make aws-deploy` do the same
+  from the laptop.
 
 ## 9. What did not work
 
@@ -1005,21 +1149,27 @@ _Running log._
   independent annotators either; the pre-annotation anchors both. The human spot check (section
   4) is the only independent signal available; it found no error in 358 spans.
 
-## 10. Next steps (week 4)
+## 10. Next steps
+
+1. Apply the stack (`make tf-init`, `make tf-plan`, `make aws-bootstrap`), then replace the
+   estimates of 8.4 with the bill and add the measured latency through the load balancer
+   (`make aws-measure`) to 7.4.
+2. Record the five-minute demo (`docs/recording-script.md`).
+3. If time remains: the scheduled drift task (8.3); a third gbert seed on 260 decisions; a
+   CRF head; a human spot check of batch 3; French and Italian decisions, which need their own
+   regex and their own gold.
+
+### Previous next steps (week 4 plan of 2026-10-28)
 
 1. Done 2026-10-28 (week 3): full-corpus run under Dask with regex v0.4 and the linking stage,
    the same run with gbert on 260 decisions on the GPU, Postgres schema and loader, the
    citation graph with the three headline analyses, the FastAPI service on both backends,
    `make demo`, 19 new tests (section 7).
-2. Week 4 as planned: Terraform for S3 (the run Parquet), RDS Postgres (the schema of 7.2),
-   ECS Fargate for the API, CloudWatch dashboard and alarms, GitHub Actions for test and
-   deploy; a drift check that compares the entity-frequency distributions of two months of
-   decisions (the `citations` table by month gives it directly); the report and the recording.
-3. Open from week 3: the cost table (7.5) holds estimates for AWS; week 4 replaces them with
-   measured numbers. The graph HTML shows 150 nodes; a reader who wants the whole graph gets
-   the `centrality` table and the `citations` table instead.
-4. If time remains: a third gbert seed on 260 decisions; a CRF head; a human spot check of
-   batch 3; French and Italian decisions, which need their own regex and their own gold.
+2. Done 2026-10-29 except the apply: Terraform for S3, RDS Postgres, ECS Fargate, CloudWatch
+   dashboard and alarms, GitHub Actions for test and deploy, the drift check between months
+   (section 8).
+3. Open from week 3: the cost table (7.5) holds estimates for AWS; the deployment replaces
+   them with measured numbers.
 
 ### Previous next steps (week 3, done)
 
