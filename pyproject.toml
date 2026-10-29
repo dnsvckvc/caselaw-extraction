@@ -66,3 +66,8 @@ addopts = "-q"
 [tool.mypy]
 python_version = "3.12"
 strict = true
+
+[dependency-groups]
+dev = [
+    "markdown>=3.11.2",
+]

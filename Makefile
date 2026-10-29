@@ -1,4 +1,4 @@
-.PHONY: setup lint test ingest sample labelstudio-up labelstudio-down tasks predict-regex score score-silver train-spacy train-transformer llm-collect mlflow-ui gold-agreement gold-finalize link predict-transformer gold-round gold-round-agreement gold-round-finalize learning-curve run-corpus run-corpus-gbert graph compare-runs db-up db-down db-load api demo
+.PHONY: setup lint test ingest sample labelstudio-up labelstudio-down tasks predict-regex score score-silver train-spacy train-transformer llm-collect mlflow-ui gold-agreement gold-finalize link predict-transformer gold-round gold-round-agreement gold-round-finalize learning-curve run-corpus run-corpus-gbert graph compare-runs db-up db-down db-load api demo report-html
 
 setup:
 	uv sync --all-extras
@@ -119,3 +119,6 @@ api:  ## usage: make api BACKEND=postgres|duckdb  (http://127.0.0.1:8000/docs)
 
 demo:  ## the pipeline on a 100-decision sample without Postgres or cloud
 	uv run caselaw demo --n 100
+
+report-html:
+	uv run python scripts/build_report_html.py

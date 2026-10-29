@@ -1,6 +1,55 @@
 # Project 1: Case-Law Extraction Pipeline — report
 
-Status: week 2 complete (batch 2 held-out gold set, five extractors compared); 2026-10-23/24 addendum: entity-linking stage, guideline v0.2 (negative classes) and v0.3 (short BGE citations, written-out forms), gold relabelled twice, all extractors re-scored; 2026-10-28: batch 3 (200 decisions, half targeted) labelled, gold set 350 decisions, models retrained on 260. Week 3 (full-corpus run, graph, API) not started. Last updated 2026-10-28.
+Status: weeks 1 to 3 of 4 complete. Week 1: corpus of 7,999 decisions, schema, Label Studio, first gold batch. Week 2: gold set of 350 decisions over three batches (guideline v0.3, nine classes), five extractors compared, entity-linking stage, learning curve, models retrained on 260 decisions. Week 3 (2026-10-28): full-corpus run under Dask, Postgres, citation graph with the three headline analyses, FastAPI service, regex graph compared with the gbert graph. Week 4 (AWS deployment, monitoring, drift check) not started. Last updated 2026-10-28.
+
+## Management summary
+
+This section is for readers who need the result and the decision, not the method. Every number in it appears again in the numbered sections, with its caveats.
+
+### What was built
+
+The pipeline reads the 7,999 German-language civil decisions that the Swiss Federal Supreme Court published from January 2020 to October 2026. For each decision it extracts the cited statute articles, the cited leading cases (BGE), the cited file numbers, the amounts in dispute, the party roles and the outcome. It links each citation to a canonical key (the Fedlex act and article, the BGE volume and page, the normalised file number). The linked citations form a citation graph of 19,622 nodes and 86,365 edges. A read-only API serves the decisions, the citations and the three headline analyses (most-cited articles, trend by year, most central decisions) from Postgres. The same code runs on a laptop without a database in under two seconds on a 100-decision sample.
+
+### Results
+
+| question | answer | where |
+|---|---|---|
+| How good is the extraction? | The rules reach span F1 0.985 on a held-out batch and 0.999 after tuning. A fine-tuned German BERT trained on 260 gold decisions reaches 0.993 held out and gets all 90 held-out outcomes right. | 6.4, 6.11, 6.13 |
+| Does the choice of extractor change the result? | No. The rule-based graph and the model-based graph agree on 97 to 99 percent of edges, and their top-20 lists are identical. | 7.6 |
+| What does the full run cost? | The rules take 10 seconds on one core, under one cent on AWS. The model takes 30 minutes on a GPU, about USD 0.63. An LLM would cost about USD 140 per run. | 7.1, 7.5 |
+| What does the graph show? | The court cites its own procedure act in every decision. Three leading cases on the duty to substantiate an appeal are cited in four of ten decisions. The share of decisions citing the Civil Procedure Code fell from 35 to 25 percent in 2025 and 2026. | 7.3 |
+| How reliable is the gold set? | 350 decisions and 16,783 spans, labelled by two different language models and adjudicated. A human check of 10 decisions found 0 errors in 358 spans. | 4 |
+
+### Decision
+
+The rule-based extractor goes to AWS in week 4. On this corpus the learned model buys no change in any analysis at 185 times the compute. The model is kept for the cases where the rules stop: citation forms nobody has written a rule for, cantonal file numbers, and the French and Italian decisions.
+
+### Key figures
+
+| figure | value |
+|---|---|
+| corpus | 7,999 decisions, 2020-01-06 to 2026-10-07 |
+| gold set | 350 decisions, 16,783 spans, 9 span classes, 5 outcome classes |
+| extractors compared | 5 (rules, the dataset's own graph, spaCy, German BERT, LLM) |
+| best held-out span F1 | 0.993 (German BERT on 260 decisions); frozen rules 0.985 |
+| full-corpus run | 294,884 spans, 249,762 linked citations |
+| citation graph | 19,622 nodes, 86,365 edges |
+| agreement of the two graphs | Jaccard 0.994 (statutes), 0.991 (BGE), 0.974 (file numbers) |
+| API | 9 read-only endpoints, 5 ms per decision on Postgres |
+| tests | 83, all passing |
+| experiment runs tracked | 127 in MLflow |
+
+### Risks and limits
+
+- The gold set was labelled by language-model agents, not by legal professionals. One human check covers 10 of 350 decisions. The agents corrected proposals from the rules, so the gold set favours the rules in every comparison.
+- The dataset's own outcome label disagrees with the extractor in 1,179 of 5,806 decisions. Sampling shows the dataset label is the one in error. The analyses use the extractor's outcome.
+- The AWS costs are estimates from local run times and public price pages. Week 4 measures them.
+- Nothing is deployed yet. The API runs locally on Docker Postgres.
+- The corpus is one language, one court and one branch of law. The rules do not cover French or Italian.
+
+### Next step
+
+Week 4: Terraform for S3, RDS Postgres and ECS Fargate, a CloudWatch dashboard with alarms, GitHub Actions for test and deploy, a drift check between months, the final report and a five-minute recording.
 
 ## 1. Problem
 
@@ -494,8 +543,6 @@ sequences. Result: +0.001 to +0.002 span F1 on every seed (s0 0.984 → 0.986, s
 s2 0.986 → 0.986), DOCKET gains most (0.962 → 0.963/0.969). Most fragments the model emits
 (`Art`, `8`) are *valid* BIO sequences, so the constraint rarely fires. A CRF head or more
 training data would be the next step; neither is done.
-
-### 6.10 Guideline v0.2: negative classes (relabel in progress, 2026-10-23)
 
 ### 6.10 Guideline v0.2: do the models learn the negative classes? (batch 2, one seed)
 

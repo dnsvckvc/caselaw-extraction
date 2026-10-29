@@ -1,0 +1,2309 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Case-Law Extraction Pipeline</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column of about 70 characters, a sticky table of contents to the left on wide
+   screens, tables allowed to run wider than the column inside their own scroll box. */
+:root {
+  --bg: #f7f8f9;
+  --paper: #ffffff;
+  --fg: #1c2128;
+  --muted: #5b6672;
+  --rule: #d6dbe0;
+  --accent: #9b1c2e;
+  --accent-soft: #f6e9eb;
+  --code-bg: #eef1f4;
+  --th-bg: #eef1f4;
+  --summary-bg: #ffffff;
+  --font-body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15181c; --paper: #1c2026; --fg: #e4e8ec; --muted: #9aa5b1; --rule: #343b44;
+    --accent: #e0697a; --accent-soft: #3a2228; --code-bg: #242a31; --th-bg: #242a31;
+    --summary-bg: #1c2026; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15181c; --paper: #1c2026; --fg: #e4e8ec; --muted: #9aa5b1; --rule: #343b44;
+  --accent: #e0697a; --accent-soft: #3a2228; --code-bg: #242a31; --th-bg: #242a31;
+  --summary-bg: #1c2026; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font-body);
+  font-size: 16px; line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 48px;
+}
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.page { max-width: 1180px; margin: 0 auto; display: grid; grid-template-columns: 1fr; gap: 0 48px; }
+@media (min-width: 1000px) { .page { grid-template-columns: 240px minmax(0, 1fr); } }
+header.masthead {
+  grid-column: 1 / -1; padding-block: 40px 24px; border-bottom: 1px solid var(--rule); margin-bottom: 24px;
+}
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+header h1 { font-size: clamp(28px, 4vw, 40px); line-height: 1.1; margin: 0 0 12px; letter-spacing: -.01em; text-wrap: balance; font-weight: 600; }
+.status { color: var(--muted); max-width: 72ch; margin: 0; font-size: 15px; }
+nav.toc { display: none; }
+@media (min-width: 1000px) {
+  nav.toc { display: block; position: sticky; top: 24px; align-self: start; max-height: calc(100vh - 48px); overflow-y: auto; font-size: 13.5px; padding-right: 8px; }
+}
+nav.toc .eyebrow { margin-bottom: 10px; }
+nav.toc ol { list-style: none; margin: 0; padding: 0; }
+nav.toc li { margin: 0; }
+nav.toc a { display: block; color: var(--fg); text-decoration: none; padding: 3px 0 3px 10px; border-left: 2px solid var(--rule); }
+nav.toc a:hover { color: var(--accent); border-left-color: var(--accent); }
+nav.toc ol ol a { padding-left: 22px; color: var(--muted); font-size: 12.5px; }
+main { min-width: 0; max-width: 78ch; }
+main > section { padding-block: 8px 24px; }
+main > section + section { border-top: 1px solid var(--rule); padding-top: 28px; }
+h2 { font-size: 26px; line-height: 1.2; margin: 0 0 16px; letter-spacing: -.01em; font-weight: 600; text-wrap: balance; }
+h3 { font-size: 18.5px; line-height: 1.3; margin: 32px 0 10px; font-weight: 600; text-wrap: balance; }
+h4 { font-size: 16px; margin: 24px 0 8px; font-weight: 600; }
+p, ul, ol { margin: 0 0 14px; }
+li { margin-bottom: 6px; }
+li > p { margin-bottom: 6px; }
+strong { font-weight: 600; }
+em { color: var(--muted); }
+code { font-family: var(--font-mono); font-size: .88em; background: var(--code-bg); padding: 1px 5px; border-radius: 3px; }
+pre { font-family: var(--font-mono); font-size: 12.5px; line-height: 1.45; background: var(--code-bg); padding: 14px 16px; border-radius: 4px; overflow-x: auto; margin: 0 0 16px; }
+pre code { background: none; padding: 0; font-size: inherit; }
+.tw { overflow-x: auto; margin: 0 0 18px; border: 1px solid var(--rule); border-radius: 4px; background: var(--paper); }
+table { border-collapse: collapse; font-size: 13.5px; min-width: 100%; font-variant-numeric: tabular-nums; }
+th, td { padding: 7px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; text-align: left; }
+tr:last-child td { border-bottom: 0; }
+th { background: var(--th-bg); font-weight: 600; white-space: nowrap; }
+td code { white-space: nowrap; }
+section.summary { background: var(--summary-bg); border: 1px solid var(--rule); border-top: 3px solid var(--accent); border-radius: 4px; padding: 24px 28px 8px !important; margin-bottom: 24px; }
+section.summary + section { border-top: 0; }
+section.summary h2 { color: var(--accent); }
+section.summary h3 { margin-top: 24px; font-size: 16px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+section.summary .tw { border-color: var(--rule); }
+section.summary td:first-child { font-weight: 600; width: 32%; }
+footer { grid-column: 1 / -1; border-top: 1px solid var(--rule); margin-top: 24px; padding-top: 16px; color: var(--muted); font-size: 13px; font-family: var(--font-mono); }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+@media (max-width: 600px) { section.summary { padding: 18px 16px 4px !important; } h2 { font-size: 23px; } }
+</style>
+</head>
+<body>
+<div class="page">
+<header class="masthead">
+  <p class="eyebrow">Project 1 of 4 · report</p>
+  <h1>Project 1: Case-Law Extraction Pipeline — report</h1>
+  <p class="status">weeks 1 to 3 of 4 complete. Week 1: corpus of 7,999 decisions, schema, Label Studio, first gold batch. Week 2: gold set of 350 decisions over three batches (guideline v0.3, nine classes), five extractors compared, entity-linking stage, learning curve, models retrained on 260 decisions. Week 3 (2026-10-28): full-corpus run under Dask, Postgres, citation graph with the three headline analyses, FastAPI service, regex graph compared with the gbert graph. Week 4 (AWS deployment, monitoring, drift check) not started. Last updated 2026-10-28.</p>
+</header>
+<nav class="toc" aria-label="Contents"><p class="eyebrow">Contents</p><ol><li><a href="#management-summary">Management summary</a><ol><li><a href="#what-was-built">What was built</a></li><li><a href="#results">Results</a></li><li><a href="#decision">Decision</a></li><li><a href="#key-figures">Key figures</a></li><li><a href="#risks-and-limits">Risks and limits</a></li><li><a href="#next-step">Next step</a></li></ol></li><li><a href="#1-problem">1. Problem</a></li><li><a href="#2-data">2. Data</a><ol><li><a href="#data-quality-findings-week-1">Data-quality findings (week 1)</a></li></ol></li><li><a href="#3-architecture">3. Architecture</a></li><li><a href="#4-gold-set">4. Gold set</a><ol><li><a href="#how-batch-1-was-labelled-model-labelled-three-passes-adjudicated">How batch 1 was labelled (model-labelled, three passes, adjudicated)</a></li><li><a href="#batch-2-week-2-held-out">Batch 2 (week 2, held out)</a></li><li><a href="#guideline-v02-round-2026-10-23-four-negative-classes-on-both-batches">Guideline v0.2 round (2026-10-23): four negative classes on both batches</a></li><li><a href="#guideline-v03-round-2026-10-2324-short-bge-citations-and-written-out-forms">Guideline v0.3 round (2026-10-23/24): short BGE citations and written-out forms</a></li><li><a href="#batch-3-2026-10-25-to-2026-10-28-200-decisions-half-of-them-targeted">Batch 3 (2026-10-25 to 2026-10-28): 200 decisions, half of them targeted</a></li></ol></li><li><a href="#5-extractors-compared">5. Extractors compared</a></li><li><a href="#6-results">6. Results</a><ol><li><a href="#61-regex-extractor-coverage-on-the-full-corpus-week-1-not-yet-scored-against-gold">6.1 Regex extractor coverage on the full corpus (week 1, not yet scored against gold)</a></li><li><a href="#62-regex-v01-the-pre-annotator-against-batch-1-gold">6.2 Regex v0.1 (the pre-annotator) against batch 1 gold</a></li><li><a href="#63-regex-v02-against-batch-1-gold-development-set-tuned-on-it">6.3 Regex v0.2 against batch 1 gold (development set, tuned on it)</a></li><li><a href="#64-regex-v02-on-batch-2-held-out">6.4 Regex v0.2 on batch 2 (held out)</a></li><li><a href="#65-all-extractors-on-batch-2-held-out">6.5 All extractors on batch 2 (held out)</a></li><li><a href="#66-regex-v03-what-batch-2-taught-the-rules-not-held-out">6.6 Regex v0.3: what batch 2 taught the rules (not held out)</a></li><li><a href="#67-what-the-learned-models-would-need-to-beat-the-rules">6.7 What the learned models would need to beat the rules</a></li><li><a href="#68-entity-linking-every-extractor-before-and-after-batch-2-held-out">6.8 Entity linking: every extractor before and after (batch 2, held out)</a></li><li><a href="#69-decoding-argmax-vs-bio-constrained-viterbi-gbert-batch-2">6.9 Decoding: argmax vs BIO-constrained Viterbi (gbert, batch 2)</a></li><li><a href="#610-guideline-v02-do-the-models-learn-the-negative-classes-batch-2-one-seed">6.10 Guideline v0.2: do the models learn the negative classes? (batch 2, one seed)</a></li><li><a href="#611-everything-re-scored-on-gold-v03-batch-2-2026-10-24">6.11 Everything re-scored on gold v0.3 (batch 2, 2026-10-24)</a></li><li><a href="#612-learning-curve-how-much-gold-do-the-span-models-need-2026-10-2425">6.12 Learning curve: how much gold do the span models need? (2026-10-24/25)</a></li><li><a href="#613-trained-on-260-decisions-batches-1-and-3-against-batch-2-2026-10-28">6.13 Trained on 260 decisions: batches 1 and 3 against batch 2 (2026-10-28)</a></li></ol></li><li><a href="#7-full-corpus-run-and-citation-graph-week-3-2026-10-28">7. Full-corpus run and citation graph (week 3, 2026-10-28)</a><ol><li><a href="#71-the-run">7.1 The run</a></li><li><a href="#72-postgres">7.2 Postgres</a></li><li><a href="#73-the-citation-graph-and-the-three-headline-analyses">7.3 The citation graph and the three headline analyses</a></li><li><a href="#74-the-api">7.4 The API</a></li><li><a href="#75-cost-of-the-full-corpus-run">7.5 Cost of the full-corpus run</a></li><li><a href="#76-regex-graph-against-gbert-graph-what-the-rules-lose">7.6 Regex graph against gbert graph: what the rules lose</a></li></ol></li><li><a href="#8-deployment-and-monitoring">8. Deployment and monitoring</a></li><li><a href="#9-what-did-not-work">9. What did not work</a></li><li><a href="#10-next-steps-week-4">10. Next steps (week 4)</a><ol><li><a href="#previous-next-steps-week-3-done">Previous next steps (week 3, done)</a></li><li><a href="#previous-next-steps-week-2-done">Previous next steps (week 2, done)</a></li></ol></li></ol></nav>
+<main>
+
+<section class="summary"><h2 id="management-summary">Management summary</h2>
+<p>This section is for readers who need the result and the decision, not the method. Every number in it appears again in the numbered sections, with its caveats.</p>
+<h3 id="what-was-built">What was built</h3>
+<p>The pipeline reads the 7,999 German-language civil decisions that the Swiss Federal Supreme Court published from January 2020 to October 2026. For each decision it extracts the cited statute articles, the cited leading cases (BGE), the cited file numbers, the amounts in dispute, the party roles and the outcome. It links each citation to a canonical key (the Fedlex act and article, the BGE volume and page, the normalised file number). The linked citations form a citation graph of 19,622 nodes and 86,365 edges. A read-only API serves the decisions, the citations and the three headline analyses (most-cited articles, trend by year, most central decisions) from Postgres. The same code runs on a laptop without a database in under two seconds on a 100-decision sample.</p>
+<h3 id="results">Results</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>question</th>
+<th>answer</th>
+<th>where</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>How good is the extraction?</td>
+<td>The rules reach span F1 0.985 on a held-out batch and 0.999 after tuning. A fine-tuned German BERT trained on 260 gold decisions reaches 0.993 held out and gets all 90 held-out outcomes right.</td>
+<td>6.4, 6.11, 6.13</td>
+</tr>
+<tr>
+<td>Does the choice of extractor change the result?</td>
+<td>No. The rule-based graph and the model-based graph agree on 97 to 99 percent of edges, and their top-20 lists are identical.</td>
+<td>7.6</td>
+</tr>
+<tr>
+<td>What does the full run cost?</td>
+<td>The rules take 10 seconds on one core, under one cent on AWS. The model takes 30 minutes on a GPU, about USD 0.63. An LLM would cost about USD 140 per run.</td>
+<td>7.1, 7.5</td>
+</tr>
+<tr>
+<td>What does the graph show?</td>
+<td>The court cites its own procedure act in every decision. Three leading cases on the duty to substantiate an appeal are cited in four of ten decisions. The share of decisions citing the Civil Procedure Code fell from 35 to 25 percent in 2025 and 2026.</td>
+<td>7.3</td>
+</tr>
+<tr>
+<td>How reliable is the gold set?</td>
+<td>350 decisions and 16,783 spans, labelled by two different language models and adjudicated. A human check of 10 decisions found 0 errors in 358 spans.</td>
+<td>4</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="decision">Decision</h3>
+<p>The rule-based extractor goes to AWS in week 4. On this corpus the learned model buys no change in any analysis at 185 times the compute. The model is kept for the cases where the rules stop: citation forms nobody has written a rule for, cantonal file numbers, and the French and Italian decisions.</p>
+<h3 id="key-figures">Key figures</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>figure</th>
+<th>value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>corpus</td>
+<td>7,999 decisions, 2020-01-06 to 2026-10-07</td>
+</tr>
+<tr>
+<td>gold set</td>
+<td>350 decisions, 16,783 spans, 9 span classes, 5 outcome classes</td>
+</tr>
+<tr>
+<td>extractors compared</td>
+<td>5 (rules, the dataset&rsquo;s own graph, spaCy, German BERT, LLM)</td>
+</tr>
+<tr>
+<td>best held-out span F1</td>
+<td>0.993 (German BERT on 260 decisions); frozen rules 0.985</td>
+</tr>
+<tr>
+<td>full-corpus run</td>
+<td>294,884 spans, 249,762 linked citations</td>
+</tr>
+<tr>
+<td>citation graph</td>
+<td>19,622 nodes, 86,365 edges</td>
+</tr>
+<tr>
+<td>agreement of the two graphs</td>
+<td>Jaccard 0.994 (statutes), 0.991 (BGE), 0.974 (file numbers)</td>
+</tr>
+<tr>
+<td>API</td>
+<td>9 read-only endpoints, 5 ms per decision on Postgres</td>
+</tr>
+<tr>
+<td>tests</td>
+<td>83, all passing</td>
+</tr>
+<tr>
+<td>experiment runs tracked</td>
+<td>127 in MLflow</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="risks-and-limits">Risks and limits</h3>
+<ul>
+<li>The gold set was labelled by language-model agents, not by legal professionals. One human check covers 10 of 350 decisions. The agents corrected proposals from the rules, so the gold set favours the rules in every comparison.</li>
+<li>The dataset&rsquo;s own outcome label disagrees with the extractor in 1,179 of 5,806 decisions. Sampling shows the dataset label is the one in error. The analyses use the extractor&rsquo;s outcome.</li>
+<li>The AWS costs are estimates from local run times and public price pages. Week 4 measures them.</li>
+<li>Nothing is deployed yet. The API runs locally on Docker Postgres.</li>
+<li>The corpus is one language, one court and one branch of law. The rules do not cover French or Italian.</li>
+</ul>
+<h3 id="next-step">Next step</h3>
+<p>Week 4: Terraform for S3, RDS Postgres and ECS Fargate, a CloudWatch dashboard with alarms, GitHub Actions for test and deploy, a drift check between months, the final report and a five-minute recording.</p>
+</section>
+<section><h2 id="1-problem">1. Problem</h2>
+<p>Legal professionals need to know which statutes and prior decisions a court relies on.
+This project extracts statute citations, prior-decision citations, header facts, amounts and
+outcomes from Swiss Federal Supreme Court (BGer) decisions, evaluates several extractors
+against a hand-labelled gold set, runs the best one over the corpus, and builds a citation graph.</p>
+</section>
+<section><h2 id="2-data">2. Data</h2>
+<ul>
+<li>Source: <code>voilaj/swiss-caselaw</code> on Hugging Face, CC0-1.0, built by the <code>opencaselaw</code> project
+  from entscheidsuche.ch. Court decisions are official works and not subject to copyright
+  (URG Art. 5).</li>
+<li>Scope for this project: BGer, German, civil-law branch (<code>branch = 'zivil'</code>),
+  decisions from 2020-01-01 with full text. Corpus size: <strong>7,999 decisions</strong>
+  (2020-01-06 to 2026-10-07), about 1,100 per year, 25 MB as zstd Parquet.</li>
+<li>Ingest: the 920 MB <code>bger.parquet</code> is downloaded once, then filtered with DuckDB.</li>
+</ul>
+<h3 id="data-quality-findings-week-1">Data-quality findings (week 1)</h3>
+<ul>
+<li>13 rows tagged <code>language = 'de'</code> are French or Italian (all from 2026). The ingest filter
+  now checks the text header (<code>Arrêt du</code>, <code>Sentenza del</code>) and drops them.</li>
+<li>12 rows carry <code>chamber = 'II. Öffentlich-rechtliche Abteilung'</code> although the text header
+  says a civil chamber. The corpus derives <code>chamber_text</code> from the header instead.</li>
+<li>The dataset&rsquo;s <code>outcome</code> column is missing for 2,193 of 7,999 decisions (27%).</li>
+<li>Where the dataset has an outcome, the regex extractor disagrees in 1,117 of 5,806 cases.
+  The largest group (951 cases) is <code>dataset = dismissed</code>, <code>regex = inadmissible</code>. In every
+  sampled case the first dispositiv item reads &ldquo;Auf die Beschwerde wird nicht eingetreten&rdquo; and a
+  later item rejects a legal-aid request (&ldquo;wird abgewiesen&rdquo;). The dataset label appears to pick
+  up the later item. The gold set will settle this; the working assumption is that the silver
+  outcome label has an error rate near 16%.</li>
+<li>The dataset ships its own citation graph (<code>graph/citations.parquet</code>,
+  <code>graph/statute_references.parquet</code>). This project treats it as a <strong>silver baseline</strong>
+  and measures it against the gold set like any other extractor.</li>
+</ul>
+</section>
+<section><h2 id="3-architecture">3. Architecture</h2>
+<pre><code> Hugging Face (CC0)        ingest (DuckDB)           gold set (Label Studio, agents, adjudication)
+ bger.parquet 920 MB  --&gt;  corpus Parquet 7,999  --&gt;  350 decisions, guideline v0.3, nine classes
+                                 |                               |
+                                 |              train / evaluate (MLflow, 125 runs)
+                                 v                               v
+                     corpus run (Dask or GPU)  &lt;--  extractor: regex v0.4 | gbert-b13 | spaCy | LLM
+                       + entity linking (Fedlex, BGE key, file number)
+                                 |
+                                 v
+                  data/runs/&lt;name&gt;/  decisions | spans | citations  (Parquet)
+                        |                    |                   |
+                        v                    v                   v
+                   Postgres (COPY)     citation graph       make demo (DuckDB only)
+                        |             (NetworkX: centrality,
+                        v              trend, top statutes)
+                  FastAPI (/decisions, /statutes, /trends, /decisions/central)
+</code></pre>
+<p>Two stages are deliberately separate: extraction reads only the text; linking holds the
+knowledge that is not in the text (the Fedlex list, the decision&rsquo;s own file number) and
+applies to every extractor alike (section 6.8). Week 4 moves the Parquet to S3, the
+database to RDS and the API to Fargate without changing the tables.</p>
+</section>
+<section><h2 id="4-gold-set">4. Gold set</h2>
+<ul>
+<li>Target: 150 decisions (60 in week 1, 150 by end of week 2). Stratified by year and chamber.</li>
+<li>Batch 1: 60 decisions, 4 or 5 per (year x chamber) stratum over 2020-2026 and the two civil
+  chambers, text length 5,000 to 30,000 characters (ids in <code>data/gold/batch1.ids.json</code>).
+  The length cap is a known bias: very long decisions are under-represented in the gold set.</li>
+<li>Tool: Label Studio 1.17 in Docker with regex pre-annotation (<code>model_version = regex-v0.1</code>).
+  The annotator corrects rather than draws. The first task carries 59 pre-annotations.</li>
+</ul>
+<h3 id="how-batch-1-was-labelled-model-labelled-three-passes-adjudicated">How batch 1 was labelled (model-labelled, three passes, adjudicated)</h3>
+<p>Batch 1 was labelled by language-model agents, not by a human. This is a weaker form of gold
+than human labels, and the numbers below must be read with that in mind.</p>
+<ul>
+<li>Each agent received a decision with numbered regex pre-annotations
+  (<code>scripts/gold/render_task.py</code>), wrote an edits file (delete, relabel, add by exact text), and
+  ran a checker that refuses overlaps and unmatched text (<code>scripts/gold/apply_edits.py</code>).
+  Agents never computed character offsets themselves.</li>
+<li>Pass a and pass b: six Claude Fable agents each, ten decisions per agent, independent.
+  Result: identical edits on all 60 decisions (2,650 spans, 60 outcomes). Two runs of the same
+  model with the same brief are not independent evidence. Pass b was discarded.</li>
+<li>Pass c: six Claude Opus agents, same brief. Agreement with pass a: 2,650 of 2,650 pass-a spans
+  reproduced, 2 extra spans in pass c, outcomes 60 of 60. The two extra spans
+  (<code>Art. 27 Abs. 3 VSB</code>, a banking self-regulation; <code>Art. 93 VE-ZPO</code>, a draft code) were dropped
+  under the rule that STATUTE requires a law in force.</li>
+<li>Rules clarified during labelling and added to the guideline: a chain of articles sharing one
+  abbreviation is one span (also with commas, <code>bzw.</code>, <code>sowie</code>, <code>in Verbindung mit</code>); ranges and
+  <code>f.</code>/<code>ff.</code> forms are spans; <code>Mio.</code> belongs to the amount; a second own docket number in joined
+  proceedings is not a DOCKET; the outcome comes from the first dispositiv item that rules on the
+  appeal itself, skipping side requests (Sistierung, Ausstand, legal aid); annul-and-remand and
+  Berichtigung count as approved.</li>
+<li>Final gold: <code>data/gold/batch1.gold.jsonl</code>, also imported into Label Studio as ground truth so
+  that any decision can be spot-checked in the browser.</li>
+<li><strong>Batch 1 is the development set.</strong> The regex extractor was improved against it (section 6.3).
+  Batch 2 (90 decisions, week 2) is the held-out test set. Regex v0.2 and every learned model
+  were frozen before anyone looked at it; only regex v0.3 (section 6.6) was tuned after.</li>
+</ul>
+<h3 id="batch-2-week-2-held-out">Batch 2 (week 2, held out)</h3>
+<ul>
+<li>90 decisions, same stratification (<code>caselaw sample --n 90 --seed 2 --name batch2</code>), no
+  overlap with batch 1. Pre-annotations from regex v0.2.</li>
+<li>Labelled with the same toolchain: pass a (nine Fable agents), pass c (nine Opus agents),
+  ten decisions each. Agreement a vs c: 3,571 spans in both, 0 only in a, 2 only in c;
+  outcomes 90 of 90. Adjudication dropped <code>Art. 90 BG</code> (typo, unknown abbreviation) and kept
+  <code>F r. 30'000.00</code> (a sum whose currency token the text extraction broke). Final: 3,572 spans
+  (STATUTE 1,594, BGE 1,056, DOCKET 344, AMOUNT 414, PARTY_ROLE 164); outcomes: dismissed 43,
+  inadmissible 43, approved 2, moot 2. <strong>No partial approval occurs in batch 2</strong>, so that class
+  is untested.</li>
+<li>The agents changed little: in 68 of 90 decisions they accepted every pre-annotation. Where
+  they edited, the causes were BGE list items after a same-volume short citation, chains with a
+  bare <code>Abs.</code> element, amounts with a decimal comma, and typos in the source.</li>
+<li>The agents raised 16 points the guideline does not settle. They are listed with a proposed
+  v0.2 rule in <code>docs/guideline-open-questions.md</code>. Two of them change the gold set: same-volume
+  short citations (<code>BGE 140 III 86 E. 2, 115 E. 2</code>, where <code>115</code> is a different decision) and
+  <code>Artikel</code> written out. Both batches were labelled the v0.1 way, so the comparison below is
+  consistent, but the citation graph (week 3) must resolve short citations separately.</li>
+<li>Gold: <code>data/gold/batch2.gold.jsonl</code>, also in Label Studio project 1 as ground truth.</li>
+<li>Human spot check (2026-10-22): Denis read 10 batch-2 decisions (seed 7 sample, ids in
+  <code>data/gold/batch2/spot_check.ids.json</code>) in Label Studio with the gold spans shown. Result: 358
+  gold spans, 0 wrong, 0 missed; 10 of 10 outcomes right (<code>data/gold/batch2/spot_check.md</code>).
+  This is the first quality number for the gold set that does not come from a model. It covers
+  10% of the spans in batch 2, so it bounds the error rate at roughly below 1% rather than
+  proving zero.</li>
+<li>Labels: STATUTE, BGE, DOCKET, AMOUNT, PARTY_ROLE spans; outcome as a document label.</li>
+</ul>
+<h3 id="guideline-v02-round-2026-10-23-four-negative-classes-on-both-batches">Guideline v0.2 round (2026-10-23): four negative classes on both batches</h3>
+<ul>
+<li>Why: the learned models&rsquo; false positives were references that look like citations and are
+  not (contract clauses, commentary article numbers, foreign law, journal references). Under
+  v0.1 these had no span, so the models saw them only as background and the scorer could only
+  count them as errors. v0.2 gives them classes CONTRACT_ARTICLE, BARE_ARTICLE, OTHER_LAW and
+  JOURNAL_REF (<code>docs/annotation-guideline.md</code>, section &ldquo;Negative classes&rdquo;), so the models can
+  learn them from data and the scorer can show the confusion. None of the four is linked.</li>
+<li>How: a <em>round</em> over the finished batches. The task file carries the v0.1 gold as locked
+  pre-annotations plus proposals from a wide-recall pre-annotator (<code>negatives.py</code>:
+  18 + 40 CONTRACT_ARTICLE, 22 + 40 BARE_ARTICLE, 4 + 7 OTHER_LAW, 13 + 12 JOURNAL_REF
+  proposals for batch 1 + batch 2). Ten Fable agents (pass a) and ten Opus agents (pass c)
+  corrected the proposals, 15 decisions each, following <code>docs/agent-negatives-brief.md</code>. The
+  citation gold was not theirs to change, and no agent changed it.</li>
+<li>Agreement on the negative spans: batch 1, 69 agreed, 5 only in pass a (one decision);
+  batch 2, 100 agreed, 1 only in each pass (one decision). All citation spans and all outcomes
+  identical in both passes.</li>
+<li>Adjudication (five files under <code>data/gold/&lt;batch&gt;/v2/edits/adj/</code>): the five disputed spans
+  of batch 1 and six agreed spans of another decision were spelled-out <code>Ziffer ...</code> clauses,
+  which v0.2 leaves unlabelled until open question 6 (<code>Artikel</code>/<code>Ziffer</code> written out) is
+  decided for all classes; the batch-2 dispute went to CONTRACT_ARTICLE with the long
+  instrument name; two references inside a quoted party title were added as BARE_ARTICLE after
+  a contradictory sentence in the first v0.2 draft was removed; one batch-1 span,
+  <code>Art. 117 GOG/ZH</code>, was relabelled from STATUTE to OTHER_LAW (cantonal law). That relabel is
+  the only change to the citation gold.</li>
+<li>Result: <code>data/gold/batch1.gold.jsonl</code> (2,649 citation spans + 64 negative spans in 17
+  decisions) and <code>data/gold/batch2.gold.jsonl</code> (3,572 + 103 in 24 decisions). The v0.1 files
+  are kept as <code>data/gold/&lt;batch&gt;.gold.v0.1.jsonl</code>. Label Studio project 1 holds the v0.2
+  ground truth (nine labels). The 23 guideline gaps the agents raised, and the decision on
+  each, are in the guideline and in <code>docs/guideline-open-questions.md</code> (items 17 to 23).</li>
+<li>Scores on the five citation classes are unchanged by the round, except that every extractor
+  gains one span on batch 1 (the relabelled <code>GOG/ZH</code> is no longer a STATUTE miss).</li>
+</ul>
+<h3 id="guideline-v03-round-2026-10-2324-short-bge-citations-and-written-out-forms">Guideline v0.3 round (2026-10-23/24): short BGE citations and written-out forms</h3>
+<ul>
+<li>Why: Denis accepted every proposed rule in <code>docs/guideline-open-questions.md</code>. Two of them
+  change the citation gold: same-volume short BGE citations (<code>BGE 140 III 86 E. 2, 115 E. 2</code>
+  → <code>115</code> is a span, question 1) and <code>Artikel</code>/<code>Artikeln</code> written out (question 6). A third
+  extends the written-out forms to the negative classes (question 17).</li>
+<li>How: the same round mechanism as v0.2 (<code>GOLD_ROUND=v3</code>), with proposals from regex v0.4
+  (which implements the two citation rules) and from the extended negative pre-annotator, on
+  top of the locked v0.2 gold. Only decisions whose text contains one of the three patterns
+  went to the agents: 30 of 60 in batch 1 and 46 of 90 in batch 2; the other 74 received an
+  identity edit from the orchestrator. Five Fable agents (pass a) and five Opus agents (pass c),
+  brief <code>docs/agent-v3-brief.md</code>.</li>
+<li>Agreement: identical in both passes on every span and outcome of both batches (2,767 and
+  3,757 spans). The agents changed three proposals in total: one boundary (<code>Ziffer 2 der
+  Vergleichsvereinbarung</code>), one missed short citation (<code>155</code> in <code>BGE 141 III 554, E. 2.5.1,
+  155 E. 4.3</code>, found by both passes), and nothing else. No adjudication was needed.</li>
+<li>Result: batch 1 gained 42 BGE, 11 CONTRACT_ARTICLE and 1 OTHER_LAW spans; batch 2 gained
+  59 BGE, 2 STATUTE (<code>Artikel 104 BGG</code>, <code>Artikeln 35a und 35b VVG</code>), 17 CONTRACT_ARTICLE,
+  3 BARE_ARTICLE and 1 OTHER_LAW. Nothing was removed. The gold is now
+  <code>data/gold/&lt;batch&gt;.gold.jsonl</code> = v0.3 (2,767 and 3,757 spans); v0.1 and v0.2 are kept
+  beside it (<code>*.gold.v0.1.jsonl</code>, <code>*.gold.v2.jsonl</code>). Label Studio holds the v0.3 ground truth.</li>
+<li>Open cases the agents raised and the rule now applied: a lone <code>Absatz 2</code> referring back to a
+  statute, a lone <code>Ziffer 1 Absatz 2</code> of a settlement named earlier, <code>Randziffer 26</code> of a
+  brief, <code>Dispositivziffer 1-4</code> of an authority&rsquo;s order: no span (a reference needs <code>Art.</code>,
+  <code>Artikel</code> or <code>§</code> for BARE_ARTICLE, and points of court or authority documents and briefs are
+  never spans).</li>
+<li>Entity level: a short citation&rsquo;s key is resolved from the nearest full citation before it
+  (<code>evaluate.bge_key</code>), both in the scorer and in the linking stage, so <code>115</code> after
+  <code>BGE 140 III 86</code> links to <code>BGE 140 III 115</code>.</li>
+</ul>
+<h3 id="batch-3-2026-10-25-to-2026-10-28-200-decisions-half-of-them-targeted">Batch 3 (2026-10-25 to 2026-10-28): 200 decisions, half of them targeted</h3>
+<ul>
+<li>Why: the learning curve (6.12) said the span models gain about 0.002 F1 per 15 random
+  decisions beyond 60, and the negative classes and rare outcomes have too few examples to be
+  learned at all. Denis asked for 200 more decisions. Random sampling would supply contract
+  clauses at about 0.6 per decision and partial approvals at 2 per 100, so half of the batch
+  was drawn on purpose.</li>
+<li>Sampling (<code>caselaw sample --n 200 --targeted 100 --seed 3</code>, <code>sample.pick_targeted</code>): 100
+  decisions from the unused civil-chamber pool (4,101 decisions of 5,000 to 30,000 characters)
+  that match a rare-class pattern or a rare outcome, with quotas filled from the rarest group
+  up: foreign law 15, partial approval 15, moot 8, approved 27, contract clauses 36, journal
+  references 36 (a decision can count for several groups; <code>data/gold/batch3.groups.json</code>). The
+  other 100 are stratified by year and chamber like batches 1 and 2.</li>
+<li>Pre-annotation: regex v0.4 for the citation classes and the negative-class pre-annotator in
+  one task file (<code>labelstudio.to_task</code>), 10,101 proposals, about 50 per decision.</li>
+<li>Labelling: two windows of 100 decisions, each with ten Fable agents (pass a) and ten Opus
+  agents (pass c), ten decisions per agent, brief <code>docs/agent-labelling-brief.md</code> (v0.3
+  edition, nine classes). The windows were separated by a usage-limit reset; a credit cut-off
+  stopped ten Fable agents of the second window part-way, and three fresh agents finished the
+  27 missing decisions two days later. Nothing was lost: every finished decision is a file.</li>
+<li>Agreement over the 200 decisions: 10,230 spans agreed, 22 only in pass a, 28 only in pass c
+  (F1 0.998); outcomes 200 of 200 identical. The 50 disputed spans in 14 decisions were
+  adjudicated by me (<code>data/gold/batch3/edits/adj/</code>); the new rules they needed are in the
+  guideline under &ldquo;Clarifications from batch 3&rdquo; (bracketed corrections inside a reference,
+  <code>und/oder</code> as a joiner, foreign currency words, yearbooks and newsletters, quoted clause
+  headings, treaties named by a short title).</li>
+<li>What the targeted half exposed in the pre-annotator: cantonal abbreviations cut after <code>EG</code>
+  (<code>EG ZPO/GL</code>), contract clauses cut at the first number (<code>Art. 36</code> for <code>Art. 36.2 AVB</code>), the
+  revised judgment&rsquo;s file number missed in revision cases (<code>5A_89/2020</code>, 20 mentions), amounts
+  cut inside the number (<code>Fr. 100</code> for <code>Fr. 1000.--</code>), and <code>Reglement</code>/<code>Verordnung</code> with an SR
+  number proposed as CONTRACT_ARTICLE. The agents corrected all of these.</li>
+<li>Result: <code>data/gold/batch3.gold.jsonl</code>, 10,259 spans (STATUTE 4,161, BGE 2,672, AMOUNT 1,462,
+  DOCKET 1,059, PARTY_ROLE 376, CONTRACT_ARTICLE 223, BARE_ARTICLE 124, JOURNAL_REF 98,
+  OTHER_LAW 84), outcomes dismissed 75, inadmissible 70, approved 29, partial approval 17,
+  moot 9. The gold set is now 350 decisions. Label Studio project 1 holds all 350 as ground
+  truth.</li>
+<li>Regex v0.4 against batch 3 (its own pre-annotations corrected): span F1 0.991, recall 0.983,
+  outcome 194 of 200. This is the lowest regex number in the report, because the targeted
+  half contains the forms the rules do not cover (<code>5D_</code> dockets, <code>lit a</code> without the dot,
+  <code>GebV SchKG</code>, line breaks inside citations) and because batch 3 is not a random sample.</li>
+<li>Annotation guideline: <code>docs/annotation-guideline.md</code>.</li>
+</ul>
+</section>
+<section><h2 id="5-extractors-compared">5. Extractors compared</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Extractor</th>
+<th>Type</th>
+<th>Training data</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>regex v0.2</td>
+<td>hand-written rules + Fedlex abbreviation list</td>
+<td>none (tuned on batch 1)</td>
+<td>also the batch-2 pre-annotator; <code>src/caselaw_extraction/regex_extractor.py</code></td>
+</tr>
+<tr>
+<td>regex v0.3</td>
+<td>same, 12 more rules</td>
+<td>tuned after seeing batch 2</td>
+<td>not a held-out number</td>
+</tr>
+<tr>
+<td>regex v0.4</td>
+<td>same, plus guideline v0.3 (short BGE citations as spans, <code>Artikel</code> written out) and the <code>EPÜ 2000</code> lookup fix</td>
+<td>tuned on both batches</td>
+<td>not a held-out number; the pre-annotator of the v0.3 round</td>
+</tr>
+<tr>
+<td>opencaselaw silver graph</td>
+<td>third-party rules</td>
+<td>none</td>
+<td><code>graph/*.parquet</code> shipped with the dataset; entity level only (no offsets)</td>
+</tr>
+<tr>
+<td>spaCy NER + textcat</td>
+<td>hash embeddings + CNN, transition-based NER; bag-of-words textcat</td>
+<td>batch 1 (631 windows, 2,650 spans; 60 rulings)</td>
+<td>trained from zero on CPU; <code>spacy_extractor.py</code></td>
+</tr>
+<tr>
+<td>gbert-base token + sequence classifier</td>
+<td><code>deepset/gbert-base</code> (110 M) fine-tuned, BIO tags; second head on the ruling section</td>
+<td>batch 1 (794 windows of 1,200 characters; 60 rulings)</td>
+<td>PyTorch on Apple MPS; <code>transformer_extractor.py</code></td>
+</tr>
+<tr>
+<td>LLM structured output</td>
+<td>Claude Haiku agents, zero-shot prompt with a JSON schema, no pre-annotations</td>
+<td>none</td>
+<td>different model and prompt than the labelling agents; texts resolved to offsets by <code>scripts/llm/apply_output.py</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>Since 2026-10-23 every extractor&rsquo;s output goes through one more stage, <strong>entity linking</strong>
+(<code>caselaw link</code>, <code>src/caselaw_extraction/linking.py</code>): STATUTE spans are resolved to a Fedlex
+act and article, BGE spans to <code>BGE volume part page</code>, DOCKET spans to a normalised file number;
+a span that resolves to nothing (a code that is not a federal act, a BGE fragment, the
+decision&rsquo;s own file number) is dropped. The stage holds the two facts no span model can read
+from the text, the Fedlex list and the own file number, and it applies to the regex and the
+LLM exactly as to the learned models. It never moves a boundary and never adds a span. Scores
+are reported <strong>before and after</strong> linking (section 6.8), so that a learning failure that the
+linking removes stays visible in the &ldquo;before&rdquo; column.</p>
+<p>All extractors write the same prediction format (<code>data/pred/&lt;batch&gt;/&lt;name&gt;.jsonl</code>) and are
+scored by one command (<code>caselaw score &lt;file&gt; --batch batch2 --name &lt;run&gt;</code>), which also logs
+parameters, metrics and the prediction file to MLflow (<code>sqlite:///mlflow.db</code>, experiment
+<code>caselaw-extraction</code>). Every number below is in MLflow.</p>
+</section>
+<section><h2 id="6-results">6. Results</h2>
+<h3 id="61-regex-extractor-coverage-on-the-full-corpus-week-1-not-yet-scored-against-gold">6.1 Regex extractor coverage on the full corpus (week 1, not yet scored against gold)</h3>
+<p>Runtime: 5.5 s for 7,999 decisions on a laptop (about 1,450 decisions per second).</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Label</th>
+<th>Spans</th>
+<th>Decisions with at least one span</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>STATUTE</td>
+<td>121,232</td>
+<td>7,998 / 7,999</td>
+</tr>
+<tr>
+<td>BGE</td>
+<td>51,436</td>
+<td>6,854 / 7,999</td>
+</tr>
+<tr>
+<td>DOCKET</td>
+<td>31,960</td>
+<td>4,523 / 7,999</td>
+</tr>
+<tr>
+<td>AMOUNT</td>
+<td>43,190</td>
+<td>7,036 / 7,999</td>
+</tr>
+<tr>
+<td>PARTY_ROLE</td>
+<td>14,470</td>
+<td>7,993 / 7,999</td>
+</tr>
+</tbody>
+</table></div>
+<p>Header fields found: docket 7,998; date 7,985; chamber 7,997; appealed court 1,425 (the
+appeal sentence has more variants than the current pattern covers).</p>
+<p>Outcome: the regex assigns an outcome to 7,943 of 7,999 decisions (56 unknown). It agrees with
+the dataset label in 4,672 of 5,806 cases and fills 2,154 of the 2,193 missing ones.
+See the data-quality note in section 2 for the disagreements.</p>
+<p>Most-cited codes by raw span count: BGG 70,182; ZPO 12,374; ZGB 9,935; BV 6,872; OR 6,318;
+SchKG 6,274; IPRG 2,213; EMRK 1,103.</p>
+<h3 id="62-regex-v01-the-pre-annotator-against-batch-1-gold">6.2 Regex v0.1 (the pre-annotator) against batch 1 gold</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Label</th>
+<th>Gold</th>
+<th>Pred</th>
+<th>P (exact)</th>
+<th>R (exact)</th>
+<th>F1 (exact)</th>
+<th>F1 (overlap)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>STATUTE</td>
+<td>1,098</td>
+<td>1,056</td>
+<td>0.917</td>
+<td>0.882</td>
+<td>0.899</td>
+<td>0.981</td>
+</tr>
+<tr>
+<td>BGE</td>
+<td>759</td>
+<td>516</td>
+<td>1.000</td>
+<td>0.680</td>
+<td>0.809</td>
+<td>0.809</td>
+</tr>
+<tr>
+<td>DOCKET</td>
+<td>328</td>
+<td>332</td>
+<td>0.985</td>
+<td>0.997</td>
+<td>0.991</td>
+<td>0.991</td>
+</tr>
+<tr>
+<td>AMOUNT</td>
+<td>353</td>
+<td>352</td>
+<td>0.957</td>
+<td>0.955</td>
+<td>0.956</td>
+<td>0.999</td>
+</tr>
+<tr>
+<td>PARTY_ROLE</td>
+<td>112</td>
+<td>112</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td><strong>all (micro)</strong></td>
+<td>2,650</td>
+<td>2,368</td>
+<td>0.954</td>
+<td>0.853</td>
+<td><strong>0.901</strong></td>
+<td>0.942</td>
+</tr>
+</tbody>
+</table></div>
+<p>Outcome accuracy 57/60. Errors: approved labelled moot (legal-aid item), approved labelled
+unknown (Berichtigung), inadmissible labelled dismissed (Sistierungsgesuch in item 1).</p>
+<p>Causes, in order of size: BGE list items without the word <code>BGE</code> after a line break (243 missed);
+statute chains cut to the last article because the source wraps citations onto new lines
+(130 missed, 88 partial spans counted as wrong); <code>Mio.</code> cut off amounts (16); a second own docket
+number in joined proceedings (5).</p>
+<h3 id="63-regex-v02-against-batch-1-gold-development-set-tuned-on-it">6.3 Regex v0.2 against batch 1 gold (development set, tuned on it)</h3>
+<p>Changes: whitespace inside citations may include line breaks; article ranges, <code>f.</code>/<code>ff.</code>,
+ordinal <code>Satz</code>, <code>SchlT</code> prefix; <code>Mio.</code>/<code>Mrd.</code> multipliers and <code>Fr</code> without dot; old-format
+dockets; all header dockets count as own numbers; side-request items skipped in the dispositiv;
+annul-and-remand and Berichtigung count as approved.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Label</th>
+<th>Gold</th>
+<th>Pred</th>
+<th>P (exact)</th>
+<th>R (exact)</th>
+<th>F1 (exact)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>STATUTE</td>
+<td>1,098</td>
+<td>1,095</td>
+<td>1.000</td>
+<td>0.997</td>
+<td>0.999</td>
+</tr>
+<tr>
+<td>BGE</td>
+<td>759</td>
+<td>752</td>
+<td>1.000</td>
+<td>0.991</td>
+<td>0.995</td>
+</tr>
+<tr>
+<td>DOCKET</td>
+<td>328</td>
+<td>328</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td>AMOUNT</td>
+<td>353</td>
+<td>353</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td>PARTY_ROLE</td>
+<td>112</td>
+<td>112</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td><strong>all (micro)</strong></td>
+<td>2,650</td>
+<td>2,640</td>
+<td>1.000</td>
+<td>0.996</td>
+<td><strong>0.998</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>Outcome accuracy 60/60. These numbers are optimistic because the rules were written while
+looking at these decisions. The honest number comes from batch 2.</p>
+<h3 id="64-regex-v02-on-batch-2-held-out">6.4 Regex v0.2 on batch 2 (held out)</h3>
+<p>The first honest number. Nothing in v0.2 had seen these decisions.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Label</th>
+<th>Gold</th>
+<th>Pred</th>
+<th>P (exact)</th>
+<th>R (exact)</th>
+<th>F1 (exact)</th>
+<th>F1 (overlap)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>STATUTE</td>
+<td>1,594</td>
+<td>1,576</td>
+<td>0.999</td>
+<td>0.987</td>
+<td>0.993</td>
+<td>0.994</td>
+</tr>
+<tr>
+<td>BGE</td>
+<td>1,056</td>
+<td>1,045</td>
+<td>1.000</td>
+<td>0.990</td>
+<td>0.995</td>
+<td>0.995</td>
+</tr>
+<tr>
+<td>DOCKET</td>
+<td>344</td>
+<td>342</td>
+<td>1.000</td>
+<td>0.994</td>
+<td>0.997</td>
+<td>0.997</td>
+</tr>
+<tr>
+<td>AMOUNT</td>
+<td>414</td>
+<td>413</td>
+<td>0.990</td>
+<td>0.988</td>
+<td>0.989</td>
+<td>0.999</td>
+</tr>
+<tr>
+<td>PARTY_ROLE</td>
+<td>164</td>
+<td>164</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td><strong>all (micro)</strong></td>
+<td>3,572</td>
+<td>3,540</td>
+<td>0.998</td>
+<td>0.989</td>
+<td><strong>0.994</strong></td>
+<td>0.996</td>
+</tr>
+</tbody>
+</table></div>
+<p>Outcome 88/90 (macro-F1 0.991). The two errors: a ruling header <code>Das Bundesgericht erkennt:</code>
+without <code>Demnach</code> (unknown), and a request to restore a time limit in item 1 that the
+side-request list did not know (dismissed instead of inadmissible). The drop from 0.998 on
+batch 1 to 0.994 on batch 2 is the development-set optimism; it is small because the citation
+forms are highly regular.</p>
+<p>Caveat: batch 2 was labelled by correcting regex v0.2 pre-annotations. The agents accepted every
+pre-annotation in 68 of 90 decisions, so the gold set is anchored on the regex. Precision near
+1.000 is partly a consequence of that anchoring; the recall number is the informative one.</p>
+<h3 id="65-all-extractors-on-batch-2-held-out">6.5 All extractors on batch 2 (held out)</h3>
+<p>Span level: exact match of (start, end, label). Entity level: normalised keys
+(<code>BGG 42</code>, <code>BGE 140 III 86</code>, <code>4A_12_2020</code>) per decision, which is what the citation graph
+needs. Outcome: accuracy over 90 decisions and macro-F1 over the four classes present.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Extractor</th>
+<th>span F1 exact</th>
+<th>span F1 overlap</th>
+<th>entity F1</th>
+<th>outcome</th>
+<th>outcome macro-F1</th>
+<th>train</th>
+<th>predict (90 dec.)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>regex v0.2</td>
+<td><strong>0.994</strong></td>
+<td>0.996</td>
+<td>0.994</td>
+<td>88/90</td>
+<td>0.991</td>
+<td>–</td>
+<td>&lt; 1 s</td>
+</tr>
+<tr>
+<td>opencaselaw silver graph</td>
+<td>–</td>
+<td>–</td>
+<td>0.948</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr>
+<td>spaCy (seed 0)</td>
+<td>0.982</td>
+<td>0.991</td>
+<td>0.989</td>
+<td>82/90</td>
+<td>0.596</td>
+<td>292 s CPU</td>
+<td>7 s</td>
+</tr>
+<tr>
+<td>gbert-base (seed 0)</td>
+<td>0.984</td>
+<td>0.987</td>
+<td>0.989</td>
+<td>85/90</td>
+<td>0.586</td>
+<td>191 s + 40 s MPS</td>
+<td>12 s</td>
+</tr>
+<tr>
+<td>LLM Haiku, raw texts</td>
+<td>0.936</td>
+<td>0.987</td>
+<td><strong>0.996</strong></td>
+<td><strong>90/90</strong></td>
+<td><strong>1.000</strong></td>
+<td>–</td>
+<td>about 25 min wall (9 agents)</td>
+</tr>
+<tr>
+<td>LLM Haiku, resolver keeps <code>BGE</code> prefix</td>
+<td>0.985</td>
+<td>0.987</td>
+<td>0.996</td>
+<td>90/90</td>
+<td>1.000</td>
+<td>–</td>
+<td>same</td>
+</tr>
+<tr>
+<td>regex v0.3 (tuned on batch 2, not held out)</td>
+<td>0.998</td>
+<td>0.999</td>
+<td>0.999</td>
+<td>90/90</td>
+<td>1.000</td>
+<td>–</td>
+<td>&lt; 1 s</td>
+</tr>
+</tbody>
+</table></div>
+<p>Per label, span F1 exact:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Extractor</th>
+<th>STATUTE</th>
+<th>BGE</th>
+<th>DOCKET</th>
+<th>AMOUNT</th>
+<th>PARTY_ROLE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>regex v0.2</td>
+<td>0.993</td>
+<td>0.995</td>
+<td>0.997</td>
+<td>0.989</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td>spaCy (seed 0)</td>
+<td>0.982</td>
+<td>0.998</td>
+<td>0.961</td>
+<td>0.956</td>
+<td>0.997</td>
+</tr>
+<tr>
+<td>gbert-base (seed 0)</td>
+<td>0.978</td>
+<td>0.996</td>
+<td>0.962</td>
+<td>0.995</td>
+<td>0.991</td>
+</tr>
+<tr>
+<td>LLM Haiku (resolved)</td>
+<td>0.994</td>
+<td>0.996</td>
+<td>0.958</td>
+<td>0.989</td>
+<td>0.885</td>
+</tr>
+</tbody>
+</table></div>
+<p>Seed variance (same data, different random seed; the tables above show seed 0):</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Model</th>
+<th>seeds</th>
+<th>span F1 exact</th>
+<th>outcome accuracy (of 90)</th>
+<th>outcome macro-F1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>spaCy</td>
+<td>0, 1, 2</td>
+<td>0.982, 0.979, 0.980</td>
+<td>82, 81, 88</td>
+<td>0.60, 0.55, 0.67</td>
+</tr>
+<tr>
+<td>gbert-base spans</td>
+<td>0, 1, 2</td>
+<td>0.984, 0.983, 0.986</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr>
+<td>gbert-base outcome head</td>
+<td>0, 1, 2, 3, 4</td>
+<td>–</td>
+<td>85, 87, 79, 87, 82</td>
+<td>0.59, 0.74, 0.61, 0.74, 0.59</td>
+</tr>
+</tbody>
+</table></div>
+<p>The span models are stable to within 0.003 F1. The outcome classifiers swing by up to nine
+decisions between seeds, which is what 60 training labels buy; a single-seed outcome number
+from either model should not be quoted.</p>
+<p><strong>Reading the table.</strong></p>
+<ul>
+<li>The regex wins span-level extraction, as expected for a formal citation language, and it is
+  the only extractor that knows which abbreviations are laws (through the Fedlex list). Both
+  learned models label articles of general insurance conditions (<code>Art. 13 Ziff. 2 lit. a AVB</code>)
+  and commentary references (<code>N. 17 zu Art. 109</code>) as statutes, and both label the decision&rsquo;s
+  own file number when a joined proceeding repeats it in the body. Those are the three largest
+  false-positive classes of spaCy and gbert. A learned model cannot know the own number or the
+  Fedlex list; a hybrid (model spans, regex-style post-filters) would remove most of them.</li>
+<li>gbert has the highest recall of all extractors (0.997 at span level) with 60 training
+  decisions and three minutes of fine-tuning. Its precision (0.972) is the problem. spaCy is
+  close behind at a hundredth of the parameters and no GPU.</li>
+<li>The LLM is the best extractor at entity level (0.996) and on the outcome (90/90, including
+  both moot cases), and the worst at exact span boundaries in its raw form. 177 of its BGE
+  spans lacked the leading <code>BGE</code> because the agents wrote list items in the bare form the
+  prompt showed for continuation items. That is a prompt and resolver matter, not an extraction
+  failure; with the resolver restoring the prefix the span F1 rises to 0.985. Its remaining
+  misses are repeated docket mentions it listed once and role words it matched in the body.</li>
+<li>The dataset&rsquo;s own silver graph reaches entity F1 0.948: BGE 0.994 and DOCKET 0.987, but
+  STATUTE recall only 0.826. Our regex finds about 17% more statute references than the
+  dataset authors&rsquo; extractor on the same decisions.</li>
+<li>Outcome: the two learned classifiers trained on 60 rulings cannot separate the rare classes.
+  spaCy confuses dismissed/inadmissible when a legal-aid item precedes the ruling item; gbert
+  predicts the common classes well (85/90) but misses both moot cases. The regex procedure
+  (last ruling header, skip side requests, ordered rules) and the LLM, which reads the ruling,
+  are the only ones with a usable macro-F1. More outcome labels, not a bigger model, is the fix.</li>
+</ul>
+<h3 id="66-regex-v03-what-batch-2-taught-the-rules-not-held-out">6.6 Regex v0.3: what batch 2 taught the rules (not held out)</h3>
+<p>After scoring, the 22 misses and 2 false positives of v0.2 on batch 2 were read one by one.
+Twelve rules were added or widened: a chain element may be a bare <code>Abs. 2</code> after <code>und</code> or
+<code>i.V.m.</code>; <code>Abs.</code> ranges (<code>Abs. 1-3</code>); <code>Ziff.</code>/<code>Bst.</code> may repeat inside a letter list; the
+<code>i.Vm.</code> typo; <code>Art</code> without the dot and a missing space before the code; <code>lit. gbis</code>; an <code>a</code>
+prefix on the code (<code>aVVG</code>) and a year after it (<code>EPÜ 2000</code>); a decimal comma before <code>Mio.</code>;
+a space after the slash in a docket; BGE chains continue past a same-volume short citation
+(<code>E. 1.2, 333 E. 1.2; 137 III 324</code>); the header <code>Das Bundesgericht erkennt:</code>; and restoration
+of a time limit as a side request.</p>
+<p>Result on batch 2: span F1 0.998, outcome 90/90. On batch 1 it stays at 0.998/0.999 and 60/60,
+so nothing regressed. <strong>This is a development number</strong>: v0.3 has now seen both batches. The
+six remaining misses are source typos (<code>BGE 142 IIII 758</code>, <code>F r.</code>, a garbled <code>BGE 141 III 1 .2</code>)
+and one old Federal Insurance Court number (<code>I 302/96</code>); none is worth a rule.</p>
+<p>Addendum 2026-10-23: the three <code>EPÜ 2000</code> citations in batch 2 were a v0.3 miss too, for a
+reason worth recording. Fedlex lists the European Patent Convention under the abbreviation
+<em>with</em> the year (<code>EPÜ 2000</code>), the regex stripped the year before the lookup, and the code
+pattern tried a single trailing digit before a four-digit year, so the match ended at <code>EPÜ 2</code>.
+Both are fixed (<code>fedlex.resolve_code</code> tries the full form first; the pattern tries the year
+first). v0.3 now scores span F1 0.999 / entity 0.999 on batch 2 and 0.999 / 0.999 on batch 1.
+The week-2 table above keeps the 0.998 it reported at the time.</p>
+<h3 id="67-what-the-learned-models-would-need-to-beat-the-rules">6.7 What the learned models would need to beat the rules</h3>
+<ul>
+<li>Labels: 60 decisions give 2,650 spans but only 60 outcome labels in four classes. The outcome
+  classifiers are data-starved; 500 agent-labelled outcomes would cost about an hour.</li>
+<li>Knowledge the text does not contain: the Fedlex abbreviation list and the decision&rsquo;s own
+  file number. These now live in the entity-linking stage (section 6.8), which every extractor
+  passes through. They are architecture, not a model improvement, and the report does not
+  count them as one.</li>
+<li>Learning failures that the linking stage must not hide: commentary references
+  (<code>N. 6 zu Art. 242</code>), contract clauses (<code>Art. 13 Ziff. 2 lit. a AVB</code>) and fragments (<code>Art</code>,
+  <code>8</code>). Guideline v0.2 gives the first two their own classes so the model can learn them and the
+  scorer can show the confusion (section 6.10); the fragments are a decoding matter (6.9).</li>
+<li>Where they could win: text the regex has not seen (new citation forms, broken tokens such as
+  <code>F r. 30'000.00</code>, which gbert found and the regex did not) and languages (the French and
+  Italian decisions are out of scope of every rule written so far).</li>
+</ul>
+<h3 id="68-entity-linking-every-extractor-before-and-after-batch-2-held-out">6.8 Entity linking: every extractor before and after (batch 2, held out)</h3>
+<p>The linking stage is applied to every prediction file of section 6.5 with one command. The
+&ldquo;before&rdquo; column is the number from 6.5; &ldquo;after&rdquo; is the same spans minus the unlinkable ones.
+The drop columns say <em>why</em> spans went: the own file number, a code that is not a federal act,
+a span without an article number, a BGE without volume/part/page.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Extractor</th>
+<th>span F1 before</th>
+<th>span F1 after</th>
+<th>entity F1 before</th>
+<th>entity F1 after</th>
+<th>own docket</th>
+<th>unknown code</th>
+<th>no article</th>
+<th>no BGE key</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>regex v0.2</td>
+<td>0.994</td>
+<td>0.994</td>
+<td>0.994</td>
+<td>0.994</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>regex v0.3 (not held out)</td>
+<td>0.999</td>
+<td>0.999</td>
+<td>0.999</td>
+<td>0.999</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>spaCy s0</td>
+<td>0.982</td>
+<td>0.988</td>
+<td>0.988</td>
+<td>0.994</td>
+<td>17</td>
+<td>21</td>
+<td>0</td>
+<td>4</td>
+</tr>
+<tr>
+<td>spaCy s1</td>
+<td>0.979</td>
+<td>0.986</td>
+<td>0.981</td>
+<td>0.993</td>
+<td>16</td>
+<td>33</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>spaCy s2</td>
+<td>0.980</td>
+<td>0.984</td>
+<td>0.986</td>
+<td>0.992</td>
+<td>15</td>
+<td>17</td>
+<td>0</td>
+<td>3</td>
+</tr>
+<tr>
+<td>gbert-base s0</td>
+<td>0.984</td>
+<td><strong>0.994</strong></td>
+<td>0.989</td>
+<td><strong>0.996</strong></td>
+<td>13</td>
+<td>55</td>
+<td>9</td>
+<td>7</td>
+</tr>
+<tr>
+<td>gbert-base s1</td>
+<td>0.983</td>
+<td>0.994</td>
+<td>0.988</td>
+<td>0.995</td>
+<td>15</td>
+<td>61</td>
+<td>8</td>
+<td>6</td>
+</tr>
+<tr>
+<td>gbert-base s2</td>
+<td>0.986</td>
+<td>0.995</td>
+<td>0.989</td>
+<td>0.996</td>
+<td>15</td>
+<td>57</td>
+<td>5</td>
+<td>2</td>
+</tr>
+<tr>
+<td>LLM Haiku (resolved)</td>
+<td>0.985</td>
+<td>0.985</td>
+<td>0.996</td>
+<td>0.996</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>2</td>
+</tr>
+</tbody>
+</table></div>
+<p>Reading the table honestly:</p>
+<ul>
+<li>The regex and the LLM lose nothing, because they already carry the knowledge (the regex has
+  the list; the LLM has read a lot of Swiss law). The learned models gain 0.004 to 0.010 span
+  F1 and reach the regex&rsquo;s entity F1 at 0.995/0.996. <strong>This is not learning.</strong> The &ldquo;unknown
+  code&rdquo; column is the model labelling <code>AVB</code> clauses, <code>§ 133 BGB</code> and commentary references as
+  statutes; the &ldquo;no article&rdquo; column is fragments (<code>Art</code>). Both are failures the model still
+  has after linking; the table merely stops counting them.</li>
+<li>What the linked number <em>is</em> good for: it is the quality of the citation graph input,
+  because the graph is built from linked keys. For that purpose gbert after linking and the
+  regex are now within 0.003 of each other on a held-out batch.</li>
+<li>The linking rules were written from the schema (a STATUTE links to Fedlex; a DOCKET is not
+  the own number; a BGE has three numbers), not from batch-2 errors. The gold set, however,
+  was anchored on regex pre-annotations in both batches, so every gold span boundary is one
+  the regex can produce. That anchoring favours the regex in every comparison in this report
+  and is a larger threat to the comparison than any linking rule. The human spot check
+  (section 4) bounds the gold error rate, not the anchoring bias.</li>
+</ul>
+<h3 id="69-decoding-argmax-vs-bio-constrained-viterbi-gbert-batch-2">6.9 Decoding: argmax vs BIO-constrained Viterbi (gbert, batch 2)</h3>
+<p>The token classifier predicts each token independently, so <code>O, I-STATUTE</code> sequences occur.
+A Viterbi pass over the same logits with hard BIO constraints (no learned transitions, no
+retraining; <code>transformer_extractor.viterbi_decode</code>) is the principled fix for invalid
+sequences. Result: +0.001 to +0.002 span F1 on every seed (s0 0.984 → 0.986, s1 0.983 → 0.985,
+s2 0.986 → 0.986), DOCKET gains most (0.962 → 0.963/0.969). Most fragments the model emits
+(<code>Art</code>, <code>8</code>) are <em>valid</em> BIO sequences, so the constraint rarely fires. A CRF head or more
+training data would be the next step; neither is done.</p>
+<h3 id="610-guideline-v02-do-the-models-learn-the-negative-classes-batch-2-one-seed">6.10 Guideline v0.2: do the models learn the negative classes? (batch 2, one seed)</h3>
+<p>Both learned models were retrained from zero on batch 1 under v0.2 (nine classes, same
+hyper-parameters and seed 0 as in 6.5) and evaluated on batch 2. The training set holds
+16 CONTRACT_ARTICLE, 29 BARE_ARTICLE, 4 OTHER_LAW and 15 JOURNAL_REF spans, against 2,649
+citation spans. Batch 2 holds 38, 44, 6 and 15.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Model</th>
+<th>citation span F1, v0.1 gold (6.5)</th>
+<th>citation span F1, v0.2 training</th>
+<th>after linking</th>
+<th>CONTRACT_ARTICLE F1 exact / overlap</th>
+<th>BARE_ARTICLE</th>
+<th>OTHER_LAW</th>
+<th>JOURNAL_REF</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>spaCy s0</td>
+<td>0.982</td>
+<td>0.978</td>
+<td>0.986</td>
+<td>0.13 / 0.35</td>
+<td>0.24 / 0.24</td>
+<td>0.00 / 0.50</td>
+<td>0.48 / 0.48</td>
+</tr>
+<tr>
+<td>gbert-base s0</td>
+<td>0.984</td>
+<td>0.980</td>
+<td>0.995</td>
+<td>0.03 / 0.29</td>
+<td>0.17 / 0.60</td>
+<td>0.00 / 0.25</td>
+<td>0.31 / 0.75</td>
+</tr>
+</tbody>
+</table></div>
+<p>What the confusion table (overlapping spans, logged with every run) shows for the two
+classes that matter most:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>gold class → predicted as</th>
+<th>regex v0.3</th>
+<th>LLM Haiku</th>
+<th>spaCy v0.1</th>
+<th>spaCy v0.2</th>
+<th>gbert v0.1</th>
+<th>gbert v0.2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONTRACT_ARTICLE (38) → STATUTE</td>
+<td>0</td>
+<td>0</td>
+<td>13</td>
+<td>25</td>
+<td>32</td>
+<td>35</td>
+</tr>
+<tr>
+<td>CONTRACT_ARTICLE → own class</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>11</td>
+<td>–</td>
+<td>9</td>
+</tr>
+<tr>
+<td>BARE_ARTICLE (44) → STATUTE</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+<td>20</td>
+<td>22</td>
+<td>37</td>
+</tr>
+<tr>
+<td>BARE_ARTICLE → own class</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>6</td>
+<td>–</td>
+<td>25</td>
+</tr>
+</tbody>
+</table></div>
+<p>(Cells count overlapping span pairs, so a gold span split into two predictions counts twice;
+the v0.2 models produce more such splits, which is why their rows add up to more than the
+gold count.)</p>
+<p>Reading:</p>
+<ul>
+<li><strong>The classes are measurable now, and they are not learned yet.</strong> With 16 and 29 training
+  examples, gbert recognises a quarter of the contract clauses and about half of the bare
+  articles at the overlap level, and almost none at exact boundaries. spaCy is similar. The
+  model has started to put the right label on the right place, and still labels most of these
+  references STATUTE as well. More labels, not a different model, is the fix: the corpus has
+  thousands of such references, and the v0.2 pre-annotator finds candidate decisions cheaply.</li>
+<li><strong>Citation-class F1 fell by 0.004 for both models.</strong> This is one seed and the seed spread in
+  6.5 was 0.003, so it may be noise. The mechanism is plausible, though: the new classes take
+  probability mass from <code>O</code>, and a model that is unsure between STATUTE and CONTRACT_ARTICLE
+  now emits more STATUTE spans on contract clauses than one that never saw the class.</li>
+<li><strong>The linking stage removes the same errors as before</strong> (62 unknown codes, 30 spans without
+  an article for gbert), and the linked numbers are unchanged at 0.995 and 0.986. That is the
+  point of reporting both: the linked column says what the citation graph receives; the
+  confusion table says what the model has not learned.</li>
+<li>The regex and the LLM have no row in the own-class columns because neither predicts the
+  negative classes. Their zero confusion is the Fedlex list and world knowledge respectively.</li>
+</ul>
+<p>Not done: more seeds, a batch 3 aimed at the negative classes, and a CRF head. Each is a
+measured gap, not a guess, which is what the v0.2 round was for.</p>
+<h3 id="611-everything-re-scored-on-gold-v03-batch-2-2026-10-24">6.11 Everything re-scored on gold v0.3 (batch 2, 2026-10-24)</h3>
+<p>Gold v0.3 adds 59 short BGE citations and 2 written-out statutes to batch 2, so every
+extractor that does not produce them loses recall. The table shows each extractor against the
+v0.3 gold on the five citation classes; the models marked v3 were retrained on the v0.3 gold of
+batch 1 (one seed).</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Extractor</th>
+<th>trained / tuned on</th>
+<th>span F1 exact</th>
+<th>BGE F1</th>
+<th>entity F1</th>
+<th>after linking</th>
+<th>outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>regex v0.2 (frozen before batch 2)</td>
+<td>v0.1 rules</td>
+<td>0.985</td>
+<td>0.968</td>
+<td>0.989</td>
+<td>0.985</td>
+<td>88/90</td>
+</tr>
+<tr>
+<td>regex v0.3</td>
+<td>v0.1 rules, batch-2 fixes</td>
+<td>0.990</td>
+<td>0.971</td>
+<td>0.993</td>
+<td>0.990</td>
+<td>90/90</td>
+</tr>
+<tr>
+<td>regex v0.4</td>
+<td>v0.3 rules</td>
+<td>0.999</td>
+<td>0.998</td>
+<td>0.999</td>
+<td>0.999</td>
+<td>90/90</td>
+</tr>
+<tr>
+<td>spaCy s0 (week 2)</td>
+<td>gold v0.1</td>
+<td>0.974</td>
+<td>0.971</td>
+<td>–</td>
+<td>–</td>
+<td>82/90</td>
+</tr>
+<tr>
+<td>spaCy v3 s0</td>
+<td>gold v0.3</td>
+<td>0.978</td>
+<td>0.999</td>
+<td>0.984</td>
+<td>0.986</td>
+<td>83/90</td>
+</tr>
+<tr>
+<td>gbert s0 (week 2)</td>
+<td>gold v0.1</td>
+<td>0.977</td>
+<td>0.972</td>
+<td>0.983</td>
+<td>–</td>
+<td>85/90</td>
+</tr>
+<tr>
+<td>gbert v3 s0</td>
+<td>gold v0.3</td>
+<td>0.979</td>
+<td>0.998</td>
+<td>0.982</td>
+<td>0.993</td>
+<td>85/90</td>
+</tr>
+<tr>
+<td>LLM Haiku (week 2 prompt)</td>
+<td>–</td>
+<td>0.978</td>
+<td>0.969</td>
+<td>–</td>
+<td>–</td>
+<td>90/90</td>
+</tr>
+<tr>
+<td>LLM Haiku, v0.3 prompt (re-run, 9 agents)</td>
+<td>–</td>
+<td>0.985</td>
+<td>0.999</td>
+<td>0.999</td>
+<td>0.985</td>
+<td>90/90</td>
+</tr>
+</tbody>
+</table></div>
+<p>Reading:</p>
+<ul>
+<li><strong>The short citations are learnable, and were learned.</strong> Batch 1 holds 42 of them. Both
+  models trained on v0.3 find the 59 in batch 2 almost completely (BGE F1 0.998 and 0.999,
+  from 0.971). The week-2 models, which never saw a labelled short citation, miss 56 of 59.
+  This is the clearest case in the report of a rule that a learned model picks up from a few
+  dozen examples, because the pattern is local and regular.</li>
+<li><strong>The negative classes are still not learned, with one exception.</strong> On v0.3 gold spaCy
+  reaches BARE_ARTICLE F1 0.72 (exact) and finds 6 of 7 OTHER_LAW spans at the overlap level;
+  gbert stays at 0.17 to 0.19 exact on CONTRACT_ARTICLE and BARE_ARTICLE and 0.41 on
+  JOURNAL_REF. The confusion tables (in every run) still show 29 to 35 contract clauses
+  predicted as STATUTE. Training data for these classes is 27, 29, 5 and 15 spans.</li>
+<li><strong>Regex v0.4 is a development number twice over</strong>: it implements the v0.3 rules and it was
+  the pre-annotator of the round that produced the v0.3 gold. Its 0.999 says the rules are
+  consistent with the gold, not that the regex generalises.</li>
+<li>The LLM with the week-2 prompt drops to 0.978 because the prompt told it that short
+  citations are not citations. With one sentence changed in the prompt it finds all 59
+  (BGE F1 0.999) and is back at span F1 0.985 and entity F1 0.999, the best entity-level
+  number of any extractor except regex v0.4, which is not held out. Its remaining misses are
+  the same as in week 2: amounts it skipped (27) and role words in the header block it did not
+  list (25). The LLM needs no training data for a new rule, only the rule.</li>
+</ul>
+<p>The anchoring caveat from 6.8 holds for all of this, now three rounds deep: every round
+corrected machine proposals, and both passes agreed on every span in the v0.3 round. Two
+models agreeing on proposals they did not generate is consistency, not independent truth.</p>
+<h3 id="612-learning-curve-how-much-gold-do-the-span-models-need-2026-10-2425">6.12 Learning curve: how much gold do the span models need? (2026-10-24/25)</h3>
+<p><code>scripts/learning_curve.py</code> trains the span models (no outcome head) on growing subsets of
+gold v0.3 and scores the five citation classes on batch 2. Main curve: the first N decisions of
+a seeded shuffle of batch 1, evaluated on all 90 decisions of batch 2, three seeds. Extended
+curve: all of batch 1 plus the first K decisions of a fixed 45-decision pool from batch 2,
+evaluated on the other 45 decisions of batch 2 only, two seeds; the 60-point is in both curves
+to connect them. 40 runs, all in MLflow with tag <code>learning_curve</code>.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>training decisions</th>
+<th>spaCy, full batch 2</th>
+<th>gbert, full batch 2</th>
+<th>spaCy, 45-decision half</th>
+<th>gbert, 45-decision half</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15</td>
+<td>0.954 (0.946 to 0.970)</td>
+<td>0.922 (0.917 to 0.931)</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr>
+<td>30</td>
+<td>0.970 (0.965 to 0.973)</td>
+<td>0.962 (0.953 to 0.971)</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr>
+<td>45</td>
+<td>0.976 (0.973 to 0.979)</td>
+<td>0.977 (0.975 to 0.980)</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr>
+<td>60</td>
+<td>0.977 (0.973 to 0.981)</td>
+<td>0.979 (0.978 to 0.980)</td>
+<td>0.976 (0.972 to 0.980)</td>
+<td>0.977 (0.977 to 0.977)</td>
+</tr>
+<tr>
+<td>75</td>
+<td>–</td>
+<td>–</td>
+<td>0.976 (0.975 to 0.977)</td>
+<td>0.980 (0.979 to 0.980)</td>
+</tr>
+<tr>
+<td>90</td>
+<td>–</td>
+<td>–</td>
+<td>0.983 (0.982 to 0.983)</td>
+<td>0.982 (0.981 to 0.982)</td>
+</tr>
+<tr>
+<td>105</td>
+<td>–</td>
+<td>–</td>
+<td>0.977 (0.976 to 0.978)</td>
+<td>0.983 (0.982 to 0.984)</td>
+</tr>
+</tbody>
+</table></div>
+<p>Span F1 exact, mean over seeds with the range in brackets. Reference on the same gold: regex
+v0.2 (frozen before batch 2) 0.985, regex v0.4 0.999 (development number).</p>
+<p>Reading:</p>
+<ul>
+<li><strong>The steep part ends at 45 decisions.</strong> From 15 to 45 both models gain 0.02 to 0.05. From
+  45 to 60 they gain 0.001 to 0.002, within the seed spread. gbert needs more data than spaCy
+  at the small end (0.922 against 0.954 at 15 decisions) and overtakes it at 45.</li>
+<li><strong>Beyond 60, gbert gains about 0.002 per 15 decisions</strong>, 0.977 → 0.983 from 60 to 105 on the
+  half set, with non-overlapping seed ranges at each step. Extrapolated at that rate, parity
+  with regex v0.2 at 0.985 would come at roughly 120 to 150 decisions, and the rate is
+  falling, so the estimate of 300 to 400 decisions given before the curve was run is too
+  pessimistic for the citation classes as a whole and the true figure is probably 150 to 250.
+  The curve cannot say where the gain stops, and the remaining gap is concentrated in the error
+  classes of 6.8, which more decisions of the same kind feed only slowly.</li>
+<li><strong>spaCy does not improve beyond 60 in a way the curve can resolve.</strong> 0.976, 0.976, 0.983,
+  0.977: the 90-point is the only one above the 60-point by more than the seed spread, and the
+  105-point falls back. spaCy&rsquo;s hash-embedding model has less capacity to absorb more examples
+  than the transformer, which is the expected shape.</li>
+<li><strong>The extended points are not held out in the week-2 sense.</strong> They train on half of batch 2
+  and test on the other half, 45 decisions, so each point rests on about 1,900 gold spans and
+  the test half was chosen once with seed 7. They are comparable with each other, not with the
+  full-batch numbers above them.</li>
+</ul>
+<p>What the curve does not measure: the negative classes (5 to 29 training examples in total; the
+curve would be noise), the outcome classifier (60 labels, discussed in 6.5), and the own-docket
+errors, which no amount of windowed training data removes.</p>
+<h3 id="613-trained-on-260-decisions-batches-1-and-3-against-batch-2-2026-10-28">6.13 Trained on 260 decisions: batches 1 and 3 against batch 2 (2026-10-28)</h3>
+<p>Both span models were retrained from zero on batches 1 and 3 together (260 decisions, 13,026
+spans, 260 outcome labels with 46 approved, 19 partial approvals and 11 moot) and evaluated on
+batch 2, which stays held out. Same hyper-parameters as in 6.5; gbert with two seeds.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Model</th>
+<th>training decisions</th>
+<th>citation span F1</th>
+<th>after linking</th>
+<th>outcome</th>
+<th>outcome macro-F1</th>
+<th>CONTRACT_ARTICLE F1</th>
+<th>BARE_ARTICLE</th>
+<th>OTHER_LAW</th>
+<th>JOURNAL_REF</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>spaCy s0</td>
+<td>60 (v0.3 gold)</td>
+<td>0.978</td>
+<td>0.986</td>
+<td>83/90</td>
+<td>0.62</td>
+<td>0.11</td>
+<td>0.72</td>
+<td>0.00</td>
+<td>0.50</td>
+</tr>
+<tr>
+<td>spaCy s0</td>
+<td>260</td>
+<td>0.985</td>
+<td>0.989</td>
+<td>89/90</td>
+<td>0.95</td>
+<td>0.47</td>
+<td>0.69</td>
+<td>0.67</td>
+<td>0.89</td>
+</tr>
+<tr>
+<td>gbert s0</td>
+<td>60 (v0.3 gold)</td>
+<td>0.979</td>
+<td>0.993</td>
+<td>85/90</td>
+<td>0.59</td>
+<td>0.19</td>
+<td>0.17</td>
+<td>0.00</td>
+<td>0.41</td>
+</tr>
+<tr>
+<td>gbert s0</td>
+<td>260</td>
+<td><strong>0.993</strong></td>
+<td><strong>0.996</strong></td>
+<td><strong>90/90</strong></td>
+<td><strong>1.00</strong></td>
+<td>0.85</td>
+<td>0.89</td>
+<td>0.86</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>gbert s1</td>
+<td>260</td>
+<td>0.991</td>
+<td>0.994</td>
+<td>90/90</td>
+<td>1.00</td>
+<td>0.84</td>
+<td>0.85</td>
+<td>0.75</td>
+<td>0.90</td>
+</tr>
+<tr>
+<td>regex v0.2, frozen before batch 2</td>
+<td>–</td>
+<td>0.985</td>
+<td>0.985</td>
+<td>88/90</td>
+<td>0.99</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr>
+<td>regex v0.4, tuned on all batches</td>
+<td>–</td>
+<td>0.999</td>
+<td>0.999</td>
+<td>90/90</td>
+<td>1.00</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+</tr>
+</tbody>
+</table></div>
+<p>Reading:</p>
+<ul>
+<li><strong>gbert on 260 decisions passes the frozen regex on the held-out batch</strong>: 0.993 and 0.991
+  against 0.985 for regex v0.2, without the linking stage. After linking it reaches 0.996. The
+  learning curve of 6.12 predicted parity at 150 to 250 decisions; the targeted half of batch 3
+  got it there at 260, and the remaining 0.006 to regex v0.4 is the development number of rules
+  that saw every batch, including the one they were scored on.</li>
+<li><strong>The negative classes are learned now.</strong> Contract clauses go from 0.19 to 0.85 (0.95 at the
+  overlap level), bare articles from 0.17 to 0.89, journal references from 0.41 to 0.97, with 150
+  to 220 training examples each instead of 16 to 29. The confusion table shows <strong>0 of 55
+  contract clauses labelled STATUTE</strong> by gbert s0, down from 32 in week 2. The linking stage
+  now drops 4 unknown-code spans from gbert instead of 62: the model has absorbed most of what
+  the Fedlex list used to supply.</li>
+<li><strong>The outcome classifier is fixed by data alone.</strong> 260 labels with 46 approved, 19 partial
+  approvals and 11 moot decisions take gbert from 85 of 90 with a macro-F1 of 0.59 to 90 of 90
+  on both seeds, and spaCy to 89 of 90. The week-2 diagnosis (data-starved, not model-limited)
+  holds.</li>
+<li>spaCy gains less (0.978 → 0.985) and stays at the frozen-regex level; its outcome head gains
+  as much as gbert&rsquo;s. The gap between the two models on the negative classes is capacity.</li>
+</ul>
+<p>What this does and does not show. Batch 2 was never used for training or tuning of these
+models, so the comparison with regex v0.2 is held out on both sides. Batch 3 is not a random
+sample: half of it was chosen because it contains the rare classes, which is why the negative
+classes rise so much. The anchoring caveat still holds for every batch, and more strongly for
+batch 3, whose pre-annotator was regex v0.4 plus the negative pre-annotator, both corrected by
+model agents. Two seeds are the minimum; the spread between them (0.002 on spans, 0.11 on
+OTHER_LAW with 7 test spans) is the uncertainty to keep in mind.</p>
+</section>
+<section><h2 id="7-full-corpus-run-and-citation-graph-week-3-2026-10-28">7. Full-corpus run and citation graph (week 3, 2026-10-28)</h2>
+<h3 id="71-the-run">7.1 The run</h3>
+<p><code>caselaw run-corpus</code> sends every decision of the corpus through one extractor and the
+entity-linking stage and writes three tables, <code>decisions</code>, <code>spans</code> and <code>citations</code>, as Parquet
+into <code>data/runs/&lt;name&gt;/</code> (<code>src/caselaw_extraction/corpus_run.py</code>). A statute chain span yields
+one citation row per article; a docket citation whose file number is a decision of this corpus
+carries that decision&rsquo;s id as <code>target_decision_id</code>. The regex runs under Dask: the client
+splits the corpus into partition files once (72 files for 18 workers), each task reads its own
+file in the worker, and the task graph carries paths, not texts. The gbert model runs in one
+process on the GPU, because a token classifier gains nothing from CPU processes. Both
+extractors write the same tables, so the graph, the database loader and the API never know
+which extractor made a run.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>run</th>
+<th>extractor</th>
+<th>decisions</th>
+<th>spans before linking</th>
+<th>spans after</th>
+<th>dropped</th>
+<th>wall time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>regex-v0.4</code></td>
+<td>regex v0.4, Dask, 18 worker processes</td>
+<td>7,999</td>
+<td>294,885</td>
+<td>294,884</td>
+<td>1 own file number</td>
+<td>4.4 s (3.8 s from partitioning to results; partition files 0.3 s, the rest mostly cluster start)</td>
+</tr>
+<tr>
+<td><code>regex-v0.4-8w</code></td>
+<td>same, 8 workers</td>
+<td>7,999</td>
+<td>294,885</td>
+<td>294,884</td>
+<td>1</td>
+<td>4.2 s</td>
+</tr>
+<tr>
+<td><code>regex-v0.4-4w</code></td>
+<td>same, 4 workers</td>
+<td>7,999</td>
+<td>294,885</td>
+<td>294,884</td>
+<td>1</td>
+<td>5.3 s</td>
+</tr>
+<tr>
+<td><code>regex-v0.4-1proc</code></td>
+<td>same, one process, no cluster</td>
+<td>7,999</td>
+<td>294,885</td>
+<td>294,884</td>
+<td>1</td>
+<td>11.1 s (9.7 s extraction)</td>
+</tr>
+<tr>
+<td><code>gbert-b13-s0</code></td>
+<td>gbert on 260 decisions, Viterbi decoding, outcome head, one process on Apple MPS</td>
+<td>7,999</td>
+<td>310,538</td>
+<td>307,075</td>
+<td>3,463 (2,264 unknown code, 810 own file number, 285 BGE without key, 104 no article)</td>
+<td>1,795 s (30 min)</td>
+</tr>
+</tbody>
+</table></div>
+<p>The regex is cheap enough that Dask does not pay off on this corpus: 9.7 seconds in one
+process, 3.8 seconds with 18 workers, and most of the parallel time is spent starting the
+cluster, not extracting. Dask is in the pipeline for the corpus that
+the posting has in mind (all courts, all languages, about 100 times this one) and for the
+extractors that cost seconds per decision; the gbert run below is the case in point.</p>
+<p>Spans of the regex run by class: STATUTE 125,566, BGE 80,703, AMOUNT 43,229, DOCKET 30,916,
+PARTY_ROLE 14,470; 36.9 spans per decision on average (median 22, maximum 437); one decision
+has no span at all. Linked citations: 138,143 statute citations to 3,413 distinct articles of
+145 acts, 80,703 BGE citations to 4,758 distinct leading cases, 30,916 file-number citations
+to 9,996 distinct decisions, of which 12,753 citations (3,131 distinct) point at decisions
+inside the corpus. The linking stage dropped one span in 294,885: the regex already removes
+the own file number and only emits codes from the Fedlex list, so there was nothing left to
+drop; the stage matters for the learned models (section 6.8).</p>
+<p>Outcomes of the regex run: dismissed 2,515, inadmissible 4,644, approved 256, partial approval
+196, moot 336, unknown 52. Where the dataset ships its own label (5,806 decisions), the two
+agree in 4,627 cases and disagree in 1,179; 975 of the disagreements are <code>dataset = dismissed</code>,
+<code>regex = inadmissible</code>, the pattern found in week 1 (section 2): the first ruling item is
+&ldquo;nicht eingetreten&rdquo; and a later item dismisses a legal-aid request. On the 350 gold decisions
+the regex outcome is right in 97 to 100 percent of the cases (sections 6.4, 6.11, 6.13), so
+the regex column is the one the graph uses, and the dataset column is kept beside it.</p>
+<h3 id="72-postgres">7.2 Postgres</h3>
+<p><code>make db-up</code> starts Postgres 16 in Docker (port 5433; <code>infra/docker-compose.yml</code>), <code>make
+db-load</code> creates the schema (<code>db/schema.sql</code>: <code>extraction_run</code>, <code>decision</code>, <code>span</code>,
+<code>citation</code>, <code>centrality</code>, <code>statute</code>) and loads a run with COPY. Every record row carries its
+<code>run_id</code>, so several runs live side by side and a reload replaces a run instead of
+duplicating it. The regex run loads in 6 seconds: 7,999 decisions, 294,884 spans, 249,762
+citations, 19,622 centrality rows, 1,505 acts from the Fedlex list; the database is 130 MB.
+Decision texts stay in Parquet; the database holds offsets and span texts.</p>
+<h3 id="73-the-citation-graph-and-the-three-headline-analyses">7.3 The citation graph and the three headline analyses</h3>
+<p><code>caselaw graph</code> builds the decision-to-decision graph with NetworkX (<code>graph.py</code>): the nodes
+are the 7,999 corpus decisions, the 4,758 cited BGE and the 6,865 cited file numbers that are
+not in the corpus; an edge is &ldquo;A cites B&rdquo;, one per pair. The regex graph has 19,622 nodes and
+86,365 edges. The centrality table (in-degree = number of citing decisions, PageRank) is
+written next to the run tables and loaded into Postgres, and <code>graph.html</code> shows the 150 most
+central nodes (pyvis). The analyses are SQL over the run tables through one store layer
+(<code>store.py</code>) that serves DuckDB over Parquet and Postgres with the same statements, which is
+what makes <code>make demo</code> work without a database.</p>
+<p><strong>Most-cited statute articles</strong> (by number of citing decisions; <code>GET /statutes/top</code>):</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>article</th>
+<th>decisions</th>
+<th>mentions</th>
+<th></th>
+<th>article</th>
+<th>decisions</th>
+<th>mentions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Art. 66 BGG (costs)</td>
+<td>7,791</td>
+<td>8,020</td>
+<td></td>
+<td>Art. 97 BGG (facts, appeal ground)</td>
+<td>2,374</td>
+<td>2,793</td>
+</tr>
+<tr>
+<td>Art. 42 BGG (form of the appeal)</td>
+<td>5,325</td>
+<td>7,438</td>
+<td></td>
+<td>Art. 95 BGG (law, appeal ground)</td>
+<td>2,158</td>
+<td>3,323</td>
+</tr>
+<tr>
+<td>Art. 106 BGG (application of law, duty to substantiate)</td>
+<td>4,528</td>
+<td>7,412</td>
+<td></td>
+<td>Art. 100 BGG (deadline)</td>
+<td>2,027</td>
+<td>2,128</td>
+</tr>
+<tr>
+<td>Art. 108 BGG (summary inadmissibility)</td>
+<td>4,030</td>
+<td>4,419</td>
+<td></td>
+<td>Art. 90 BGG (final decisions)</td>
+<td>2,010</td>
+<td>2,090</td>
+</tr>
+<tr>
+<td>Art. 68 BGG (party costs)</td>
+<td>3,980</td>
+<td>4,311</td>
+<td></td>
+<td>Art. 76 BGG (standing)</td>
+<td>1,767</td>
+<td>2,078</td>
+</tr>
+<tr>
+<td>Art. 75 BGG (previous instance)</td>
+<td>2,926</td>
+<td>3,425</td>
+<td></td>
+<td>Art. 64 BGG (legal aid)</td>
+<td>1,745</td>
+<td>1,950</td>
+</tr>
+<tr>
+<td>Art. 74 BGG (minimum amount)</td>
+<td>2,880</td>
+<td>3,879</td>
+<td></td>
+<td>Art. 29 BV (procedural guarantees)</td>
+<td>1,733</td>
+<td>3,340</td>
+</tr>
+<tr>
+<td>Art. 72 BGG (civil matters)</td>
+<td>2,715</td>
+<td>2,856</td>
+<td></td>
+<td>Art. 99 BGG (new facts)</td>
+<td>1,502</td>
+<td>1,819</td>
+</tr>
+<tr>
+<td>Art. 105 BGG (facts, binding)</td>
+<td>2,614</td>
+<td>4,315</td>
+<td></td>
+<td>Art. 9 BV (arbitrariness)</td>
+<td>1,319</td>
+<td>2,108</td>
+</tr>
+</tbody>
+</table></div>
+<p>The first substantive article outside the court&rsquo;s own procedure act and the constitution is
+Art. 18 OR (interpretation of contracts, 158 decisions), then Art. 257d OR (rent default, 50)
+and Art. 42 OR (damages, 45). By act: BGG is cited in 7,994 of 7,999 decisions (81,806
+mentions, 138 distinct articles), ZPO in 2,490 (365 articles), BV in 2,399, ZGB in 2,039 (687
+articles), SchKG in 1,172, OR in 1,037 (606 articles), EMRK in 552, StGB in 301, BZP in 287,
+IPRG in 238. The counts are what a reader of civil appeals expects: the court cites its own
+procedure in every decision, and the two civil chambers split between family and debt
+enforcement law (II) and contract law (I).</p>
+<p><strong>Trend by year</strong> (<code>GET /trends/years</code>, <code>GET /trends/code-share</code>):</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>year</th>
+<th>decisions</th>
+<th>statute citations per decision</th>
+<th>BGE per decision</th>
+<th>file numbers per decision</th>
+<th>distinct BGE cited</th>
+<th>mean age of cited BGE volume (years)</th>
+<th>share citing ZPO</th>
+<th>share citing OR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2020</td>
+<td>1,165</td>
+<td>17.3</td>
+<td>9.5</td>
+<td>3.9</td>
+<td>1,735</td>
+<td>10.8</td>
+<td>35.0 %</td>
+<td>15.3 %</td>
+</tr>
+<tr>
+<td>2021</td>
+<td>1,084</td>
+<td>17.7</td>
+<td>10.2</td>
+<td>4.4</td>
+<td>1,809</td>
+<td>11.4</td>
+<td>34.6 %</td>
+<td>14.6 %</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>1,139</td>
+<td>17.6</td>
+<td>10.2</td>
+<td>4.1</td>
+<td>1,749</td>
+<td>11.2</td>
+<td>35.2 %</td>
+<td>13.4 %</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>1,143</td>
+<td>17.2</td>
+<td>10.1</td>
+<td>3.5</td>
+<td>1,719</td>
+<td>12.0</td>
+<td>31.3 %</td>
+<td>13.5 %</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>1,075</td>
+<td>19.6</td>
+<td>12.2</td>
+<td>4.1</td>
+<td>1,788</td>
+<td>11.9</td>
+<td>32.8 %</td>
+<td>14.0 %</td>
+</tr>
+<tr>
+<td>2025</td>
+<td>1,347</td>
+<td>16.4</td>
+<td>9.4</td>
+<td>3.5</td>
+<td>1,606</td>
+<td>12.2</td>
+<td>25.0 %</td>
+<td>10.2 %</td>
+</tr>
+<tr>
+<td>2026</td>
+<td>1,046</td>
+<td>15.3</td>
+<td>9.3</td>
+<td>3.7</td>
+<td>1,428</td>
+<td>12.8</td>
+<td>24.7 %</td>
+<td>10.0 %</td>
+</tr>
+</tbody>
+</table></div>
+<p>Three readings. The citation density is stable at about 17 statute and 10 BGE citations per
+decision; 2024 is the one denser year. The cited BGE volumes age by about two years over the
+period (volume 146 is 2020; the mean cited volume sits around 2009 to 2013), that is, the
+court keeps citing the same leading cases while the years pass. The share of decisions that
+cite the ZPO or the OR drops by ten and five points in 2025 and 2026, together with a jump in
+the number of decisions (1,347 in 2025) and a lower citation density: the last two years hold
+more short inadmissibility rulings, in which only the BGG is cited. The 2026 row covers
+January to early October.</p>
+<p><strong>Most central decisions</strong> (<code>GET /decisions/central</code>; PageRank over the whole graph,
+in-degree in brackets):</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>rank</th>
+<th>node</th>
+<th>cited by</th>
+<th>topic (from the court&rsquo;s standard formulas)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>BGE 140 III 115</td>
+<td>3,335</td>
+<td>duty to substantiate an appeal (Art. 42 Abs. 2 BGG)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>BGE 142 III 364</td>
+<td>3,167</td>
+<td>duty to substantiate constitutional complaints (Art. 106 Abs. 2 BGG)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>BGE 140 III 86</td>
+<td>2,750</td>
+<td>requirements on the statement of grounds</td>
+</tr>
+<tr>
+<td>4</td>
+<td>BGE 140 III 264</td>
+<td>1,900</td>
+<td>arbitrary assessment of facts</td>
+</tr>
+<tr>
+<td>5</td>
+<td>BGE 133 II 396</td>
+<td>584</td>
+<td>constitutional complaints, substantiation</td>
+</tr>
+<tr>
+<td>6</td>
+<td>BGE 140 III 16</td>
+<td>1,926</td>
+<td>arbitrariness standard</td>
+</tr>
+<tr>
+<td>7</td>
+<td>BGE 134 II 244</td>
+<td>1,156</td>
+<td>substantiation of appeal grounds</td>
+</tr>
+<tr>
+<td>8</td>
+<td>BGE 135 II 38</td>
+<td>341</td>
+<td>(topic not checked)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>BGE 139 II 233</td>
+<td>349</td>
+<td>(topic not checked)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>BGE 143 II 283</td>
+<td>995</td>
+<td>(topic not checked)</td>
+</tr>
+<tr>
+<td>19</td>
+<td>4A_20/2011 (not in the corpus)</td>
+<td>210</td>
+<td>the only file number in the top 20</td>
+</tr>
+</tbody>
+</table></div>
+<p>The top of the list is the court&rsquo;s own procedural case law, cited in roughly four of ten
+decisions; it is the list any Swiss litigator would predict, which is the point of the check.
+PageRank and in-degree disagree where a node is cited by decisions that are themselves much
+cited (BGE 133 II 396 is 9th by in-degree and 5th by PageRank). Inside the corpus, the most
+cited decisions are <code>5F_36/2022</code> (56 citing decisions) and <code>5F_12/2022</code> (49), two revision
+rulings of the II. chamber that a chain of later revision requests by the same party cites;
+<code>5A_85/2021</code> (46) and <code>5A_176/2023</code> (39) follow. The dataset&rsquo;s own citation graph covers the
+same decisions with 2,170 fewer BGE edges and 453 fewer file-number edges than the regex run
+(BGE: 59,687 edges in both, 2,994 regex only, 824 silver only; file numbers: 22,382 in both,
+1,302 regex only, 849 silver only; plus 4,040 silver edges to cantonal decisions outside this
+corpus). On the gold set the regex was the more precise of the two at entity level (section
+6.5, 0.994 against 0.948), so the differences are mostly the silver graph&rsquo;s.</p>
+<h3 id="74-the-api">7.4 The API</h3>
+<p><code>caselaw api</code> serves the run through FastAPI (<code>api.py</code>; OpenAPI at <code>/docs</code>), read-only:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>endpoint</th>
+<th>what it returns</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>GET /health</code>, <code>GET /runs</code></td>
+<td>backend, run id, loaded runs</td>
+</tr>
+<tr>
+<td><code>GET /decisions/{id}</code></td>
+<td>one decision with its linked citations (kind, key, Fedlex SR number, article, target decision, span) and all spans</td>
+</tr>
+<tr>
+<td><code>GET /decisions?statute=ZGB 8&amp;bge=BGE 140 III 86&amp;docket=4A_12/2020&amp;year=&amp;outcome=&amp;chamber=</code></td>
+<td>decisions filtered by what they cite and by metadata, paginated</td>
+</tr>
+<tr>
+<td><code>GET /statutes/top?limit=&amp;year=&amp;code=</code>, <code>GET /statutes/codes</code></td>
+<td>the most-cited articles and acts</td>
+</tr>
+<tr>
+<td><code>GET /trends/years</code>, <code>GET /trends/code-share</code></td>
+<td>the trend tables above</td>
+</tr>
+<tr>
+<td><code>GET /decisions/central?by=pagerank|in_degree&amp;kind=</code></td>
+<td>the centrality table</td>
+</tr>
+</tbody>
+</table></div>
+<p>The same app runs on Postgres (<code>CASELAW_BACKEND=postgres</code>) and on DuckDB over a run directory
+(<code>CASELAW_BACKEND=duckdb</code>, the default for <code>make demo</code>); the smoke run returned identical
+numbers on both. Single-decision lookups answer in 5 ms on Postgres and 140 ms on DuckDB
+(the Parquet scan); the aggregate endpoints answer in 10 to 100 ms on either. The contract
+test (<code>tests/test_api.py</code>) pins the set of paths, the response schemas and the filters on a
+synthetic three-decision corpus, so it runs without data and without a database.</p>
+<h3 id="75-cost-of-the-full-corpus-run">7.5 Cost of the full-corpus run</h3>
+<p>Measured on the MacBook (M5 Pro, 18 cores, 48 GB). AWS prices, checked on 2026-10-28 on
+third-party price pages: Fargate Linux/x86 USD 0.04048 per vCPU-hour and 0.004445 per GB-hour
+in us-east-1 (the Frankfurt rate is a few percent higher; the AWS page shows it per region),
+g5.xlarge (one A10G) USD 1.258 per hour in eu-central-1. The AWS costs are estimates from the
+local times; week 4 measures them on the real deployment.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>extractor</th>
+<th>local time for 7,999 decisions</th>
+<th>AWS target</th>
+<th>estimated AWS cost per full run</th>
+<th>cost per 1,000 decisions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>regex v0.4 (one process)</td>
+<td>9.7 s</td>
+<td>1 Fargate task, 1 vCPU, 2 GB</td>
+<td>&lt; USD 0.01</td>
+<td>&lt; USD 0.01</td>
+</tr>
+<tr>
+<td>regex v0.4 (Dask, 18 processes)</td>
+<td>3.8 s</td>
+<td>not worth a cluster at this size</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>gbert-b13-s0 (GPU)</td>
+<td>1,795 s</td>
+<td>1 g5.xlarge (A10G), assumed as fast as the laptop GPU</td>
+<td>about USD 0.63</td>
+<td>about USD 0.08</td>
+</tr>
+<tr>
+<td>LLM extractor (Claude Haiku, section 6.5)</td>
+<td>not run on the corpus</td>
+<td>API</td>
+<td>about 100 M input tokens and 8 M output tokens at USD 1 / 5 per M: about USD 140</td>
+<td>about USD 17</td>
+</tr>
+</tbody>
+</table></div>
+<p>The regex is free at any corpus size that fits a laptop; the learned model costs about eight
+cents per thousand decisions on a rented GPU, plus the half hour of wall time; the LLM costs dollars per thousand and is, on the
+held-out batch, the least exact of the three at span level (section 6.5). Week 4 adds the
+monthly cost of keeping the API and the database up.</p>
+<h3 id="76-regex-graph-against-gbert-graph-what-the-rules-lose">7.6 Regex graph against gbert graph: what the rules lose</h3>
+<p>The question behind the week-2 and week-3 model work was whether a learned extractor would
+change the result. Both runs cover the same 7,999 decisions, so the answer is an edge-level
+comparison (<code>caselaw compare-runs</code>, <code>data/runs/regex-v0.4/compare-gbert-b13-s0.json</code>); an
+edge is one (decision, linked key) pair.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>kind</th>
+<th>in both runs</th>
+<th>regex only</th>
+<th>gbert only</th>
+<th>Jaccard</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>statute article</td>
+<td>90,116</td>
+<td>243</td>
+<td>346</td>
+<td>0.994</td>
+</tr>
+<tr>
+<td>BGE</td>
+<td>62,679</td>
+<td>2</td>
+<td>577</td>
+<td>0.991</td>
+</tr>
+<tr>
+<td>file number</td>
+<td>23,498</td>
+<td>186</td>
+<td>433</td>
+<td>0.974</td>
+</tr>
+</tbody>
+</table></div>
+<p>The two graphs are the same graph for every question this report asks. The 20 most-cited
+articles are the same 20 in the same order. The 20 most central nodes are the same 20 (the
+first two swap places: PageRank puts BGE 142 III 364 first in the gbert graph and BGE 140
+III 115 first in the regex graph, with 3,170 against 3,348 citing decisions). The trend
+tables differ in the second decimal. The outcomes agree on 7,840 of 7,999 decisions; the
+model fills the 52 decisions the rules leave <code>unknown</code>, and the largest disagreement (65
+decisions, rules <code>dismissed</code>, model <code>inadmissible</code>) is the same formula problem as between
+the rules and the dataset label. Against the dataset label the two extractors agree equally
+often (4,627 and 4,611 of 5,806).</p>
+<p>Where they differ, the samples show both sides. The gbert-only BGE citations are real
+citations written without the <code>BGE</code> prefix or across a line break that the regex does not
+accept (<code>BGE 119 II 249</code>, <code>BGE 137 III 4</code>). The gbert-only file numbers include cantonal and
+foreign numbers that the regex pattern excludes on purpose (<code>13Y_2_2021</code>, <code>O2017_025</code>,
+<code>B25_96</code>): the linking stage normalises a file number but does not know which courts exist,
+which is a week-4 item for the <code>statute</code>-like lookup table of courts. The regex-only file
+numbers are mostly <code>5D_</code> numbers of joined proceedings, rare in the training data even after
+the targeted batch. The regex-only statute citations are the long chains where the model
+cut a span short (<code>BGG 66</code> at the end of a costs chain) and codes the model never saw
+(<code>BauAV</code>, <code>FINMAG</code>). The linking stage dropped 3,463 model spans and one regex span: 2,264
+model spans named a code that is not a federal act (contract clauses and cantonal acts the
+model still labels STATUTE in a small share of cases, see 6.13), and 810 were the decision&rsquo;s
+own file number, which no span model can know (section 6.8). The model also labelled 10,119
+spans in the four negative classes (contract clauses 2,693, bare article numbers 3,539,
+other law 1,504, journal references 2,383), which the regex does not produce; they are kept
+in the <code>spans</code> table and are not citations.</p>
+<p>The deployment decision follows: the rules go to AWS. On this corpus the learned model buys
+an agreement of 0.99 with itself at 185 times the single-process compute (30 minutes on a GPU against 10 seconds on one core) and no change in any analysis. The
+model&rsquo;s value is elsewhere: it is the extractor that reads the forms the rules do not list
+(the prefix-less BGE, the cantonal file numbers), it measures the rules on 7,999 decisions
+instead of 350, and it is what the pipeline will need for the languages and courts for which
+nobody has written the rules yet.</p>
+</section>
+<section><h2 id="8-deployment-and-monitoring">8. Deployment and monitoring</h2>
+<p><em>AWS, Terraform, CloudWatch, drift check. TBD week 4.</em></p>
+</section>
+<section><h2 id="9-what-did-not-work">9. What did not work</h2>
+<p><em>Running log.</em></p>
+<ul>
+<li>2026-10-20: <code>timeout</code> is not available on macOS by default; use the tool timeout instead.</li>
+<li>2026-10-20: Label Studio 1.17 rejects legacy API tokens by default. The helper in
+  <code>scripts/labelstudio_api.py</code> logs in through the session form instead.</li>
+<li>2026-10-20: DuckDB Python UDFs need numpy; chamber normalisation moved into SQL.</li>
+<li>2026-10-21: two independent passes of the same model (Fable) with the same brief produced
+  byte-identical edits on all 60 decisions. A second pass only adds information with a different
+  model.</li>
+<li>2026-10-21: agents cannot compute character offsets reliably. Letting them name spans by exact
+  text and resolving offsets in a checker worked on the first try for all 180 agent-decisions.</li>
+<li>
+<p>2026-10-20: the first dispositiv pattern only matched &ldquo;Demnach erkennt das Bundesgericht&rdquo;
+  and left 54% of outcomes unknown. Single-judge rulings use &ldquo;der Präsident&rdquo;, &ldquo;die Präsidentin&rdquo;,
+  &ldquo;das präsidierende Mitglied&rdquo;, &ldquo;der Einzelrichter&rdquo;, and short rulings drop &ldquo;Demnach&rdquo; entirely.</p>
+</li>
+<li>
+<p>2026-10-21: transformers 5 cannot load <code>deepset/gbert-base</code> through <code>AutoTokenizer</code> or
+  <code>AutoConfig</code> (vocab.txt-only checkpoint without <code>model_type</code>). <code>BertTokenizerFast</code> and
+  <code>BertConfig</code> load it; the extractor falls back to them.</p>
+</li>
+<li>2026-10-21: the dataset&rsquo;s silver graph stores BGE citations under <code>match_type = docket_norm</code>;
+  only the <code>target_decision_id</code> prefix (<code>bge_</code>, <code>bger_</code>) tells the two apart. Reading it by match
+  type gave a docket precision of 0.42; reading it by target prefix gives 0.996.</li>
+<li>2026-10-21: the guideline example &ldquo;a second page number is not a span&rdquo;
+  (<code>BGE 140 III 86 E. 2 S. 89, 115 E. 2</code>) is factually wrong in most occurrences: <code>115</code> is
+  BGE 140 III 115, a different decision. Every agent followed the example and flagged it. Both
+  batches are therefore consistent and both miss these citations. Logged as question 1 in
+  <code>docs/guideline-open-questions.md</code>.</li>
+<li>2026-10-21: the LLM agents wrote BGE list items in the bare form (<code>140 III 86</code>) even where the
+  text has <code>BGE 140 III 86</code>, because the prompt showed the bare form for continuation items.
+  The resolver now restores the prefix. A prompt example shapes output form more than a rule does.</li>
+<li>2026-10-23: a post-filter on model output (Fedlex list, own docket, BGE shape) raised gbert
+  from 0.984 to 0.992 in an afternoon. It was not added as a model improvement, because it
+  hides learning failures and because its rules were designed by reading the batch-2 errors.
+  It became the entity-linking stage that every extractor passes through (section 6.8), with
+  before/after reported, and the hidden failures became classes (guideline v0.2).</li>
+<li>2026-10-23: Fedlex keys the European Patent Convention as <code>EPÜ 2000</code>, with the year. The
+  regex, the entity-key parser and the first draft of the linker all stripped the year before
+  the lookup, and the regex&rsquo;s code pattern tried a single digit before a four-digit year. Three
+  gold spans were lost to this in every extractor that uses the list.</li>
+<li>2026-10-21: pass a (Fable) and pass c (Opus) agreed on 3,571 of 3,573 spans in batch 2, as in
+  batch 1. Two different models with the same brief and the same pre-annotations are not two
+  independent annotators either; the pre-annotation anchors both. The human spot check (section
+  4) is the only independent signal available; it found no error in 358 spans.</li>
+</ul>
+</section>
+<section><h2 id="10-next-steps-week-4">10. Next steps (week 4)</h2>
+<ol>
+<li>Done 2026-10-28 (week 3): full-corpus run under Dask with regex v0.4 and the linking stage,
+   the same run with gbert on 260 decisions on the GPU, Postgres schema and loader, the
+   citation graph with the three headline analyses, the FastAPI service on both backends,
+   <code>make demo</code>, 19 new tests (section 7).</li>
+<li>Week 4 as planned: Terraform for S3 (the run Parquet), RDS Postgres (the schema of 7.2),
+   ECS Fargate for the API, CloudWatch dashboard and alarms, GitHub Actions for test and
+   deploy; a drift check that compares the entity-frequency distributions of two months of
+   decisions (the <code>citations</code> table by month gives it directly); the report and the recording.</li>
+<li>Open from week 3: the cost table (7.5) holds estimates for AWS; week 4 replaces them with
+   measured numbers. The graph HTML shows 150 nodes; a reader who wants the whole graph gets
+   the <code>centrality</code> table and the <code>citations</code> table instead.</li>
+<li>If time remains: a third gbert seed on 260 decisions; a CRF head; a human spot check of
+   batch 3; French and Italian decisions, which need their own regex and their own gold.</li>
+</ol>
+<h3 id="previous-next-steps-week-3-done">Previous next steps (week 3, done)</h3>
+<ol>
+<li>Done 2026-10-22: human spot check of 10 batch-2 decisions, 0 errors in 358 spans
+   (<code>data/gold/batch2/spot_check.md</code>).</li>
+<li>Done 2026-10-23: entity-linking stage for every extractor, before/after scores (6.8);
+   BIO-constrained decoding measured (6.9); guideline v0.2 with four negative classes, relabel
+   round over both batches, retrained models with confusion tables (6.10).</li>
+<li>Done 2026-10-24: Denis decided all open guideline questions; v0.3 round over both batches
+   (short BGE citations, written-out forms), regex v0.4, every extractor re-scored, both models
+   retrained (6.11). No guideline question is open.</li>
+<li>Done 2026-10-28: learning curve (6.12); batch 3 with 200 decisions, half targeted; models
+   retrained on 260 decisions (6.13). gbert now beats the frozen regex on the held-out batch and
+   gets every outcome right.</li>
+<li>Full-corpus run with Dask, load into Postgres, citation graph and the three headline
+   analyses, FastAPI service (plan week 3). Extractor choice for the run: regex v0.4 remains the
+   cheapest at under a second per 90 decisions; gbert on 260 is the better model on held-out
+   data and costs about 12 seconds per 90 decisions on the GPU. The report will run both and
+   compare the graphs.</li>
+<li>If time remains: a third seed for gbert on 260; a CRF head; a human spot check of batch 3.</li>
+</ol>
+<h3 id="previous-next-steps-week-2-done">Previous next steps (week 2, done)</h3>
+<ol>
+<li>Sample batch 2 (90 decisions, <code>caselaw sample --n 90 --seed 2 --name batch2</code>) and label it
+   with the same toolchain: pass a (Fable), pass c (Opus), adjudication. Keep it held out.</li>
+<li>Score regex v0.2 and the opencaselaw silver graph (<code>graph/*.parquet</code>) on batch 2.</li>
+<li>Train spaCy NER and a German transformer on batch 1, evaluate on batch 2.</li>
+<li>LLM structured-output extractor with a different prompt and a different model than the
+   labelling agents, evaluated on batch 2.</li>
+<li>A human spot check of 10 batch-2 decisions, to put a number on the model-labelled gold.</li>
+</ol></section>
+</main>
+<footer>Rendered from docs/report.md on 2026-10-28. Repository: caselaw-extraction.</footer>
+</div>
+</body>
+</html>
