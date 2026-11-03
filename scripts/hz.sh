@@ -47,7 +47,8 @@ case "$cmd" in
     sshc 'sudo install -m 0640 -o root -g caselaw /dev/stdin /etc/caselaw/caselaw.env' <<< "$rendered"
     echo "wrote /etc/caselaw/caselaw.env ($(grep -c '=.\+' <<< "$rendered") values set)" ;;
   deploy)
-    rsync -az --delete -e "ssh ${SSH_OPTS[*]}" \
+    # --inplace keeps the inode of files that Compose bind-mounts (Caddyfile, config.alloy).
+    rsync -az --delete --inplace -e "ssh ${SSH_OPTS[*]}" \
       --exclude .git --exclude .venv --exclude data --exclude models --exclude mlruns --exclude mlflow.db \
       --exclude labeling/data --exclude labeling/tasks --exclude '__pycache__' --exclude .pytest_cache \
       --exclude .ruff_cache --exclude 'infra/terraform/.terraform' --exclude 'infra/hetzner/.terraform' \
@@ -56,6 +57,9 @@ case "$cmd" in
     [ -f "$ROOT/docs/report.html" ] && scp "${SSH_OPTS[@]}" -q "$ROOT/docs/report.html" "caselaw@$(ip):/opt/caselaw/site/index.html"
     [ -f "$ROOT/data/runs/regex-v0.4/graph.html" ] && scp "${SSH_OPTS[@]}" -q "$ROOT/data/runs/regex-v0.4/graph.html" "caselaw@$(ip):/opt/caselaw/site/graph.html"
     sshc "$COMPOSE build api && $COMPOSE $(profile) up -d --remove-orphans"
+    # up -d does not notice content changes of bind-mounted files: reload Caddy, restart Alloy.
+    sshc "$COMPOSE exec -T caddy caddy reload --config /etc/caddy/Caddyfile 2>&1 | grep -v 'not formatted' | tail -1"
+    [ -n "$(profile)" ] && sshc "$COMPOSE restart alloy" || true
     sshc 'sudo install -m 0644 /dev/stdin /etc/cron.d/caselaw-backup' <<< "30 3 * * * caselaw /opt/caselaw/repo/infra/hetzner/backup.sh >> /var/lib/caselaw/backups/backup.log 2>&1"
     echo "deployed; $0 status" ;;
   sync)

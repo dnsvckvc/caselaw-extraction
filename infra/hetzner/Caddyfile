@@ -1,15 +1,16 @@
-# Two hosts, both with automatic Let's Encrypt certificates. Caddy's metrics endpoint on
-# :2019 (inside the Docker network only) gives the Grafana agent request counts, status codes
-# and latency histograms per host, the role the AWS load balancer metrics had.
+# Two hosts, both with automatic Let's Encrypt certificates. Caddy's metrics on :2020 (inside
+# the Docker network only; the admin API stays on localhost) give the Grafana agent request
+# counts, status codes and latency histograms per host, the role the AWS load balancer metrics had.
 {
-    servers {
-        metrics
-    }
+    metrics
+}
+
+:2020 {
+    metrics
 }
 
 {$API_HOST} {
     reverse_proxy api:8000 {
-        header_up X-Forwarded-Proto {scheme}
     }
     encode zstd gzip
     header {

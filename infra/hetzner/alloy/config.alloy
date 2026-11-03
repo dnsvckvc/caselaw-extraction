@@ -68,7 +68,7 @@ discovery.relabel "postgres" {
 }
 
 discovery.relabel "caddy" {
-  targets = [{"__address__" = "caddy:2019"}]
+  targets = [{"__address__" = "caddy:2020"}]
   rule {
     target_label = "job"
     replacement  = "integrations/caddy"
