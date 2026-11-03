@@ -99,19 +99,23 @@ serves both DuckDB over the Parquet run and Postgres. Results: `docs/report.md`,
 
 ## Deployment, monitoring, drift check (week 4)
 
-The API ships as one image (`Dockerfile`, core dependencies only; `uv sync --extra ml` adds
-the learned extractors) and runs on AWS from `infra/terraform/`: the run Parquet in S3, RDS
-Postgres 16, the API on ECS Fargate behind a load balancer, a CloudWatch dashboard with
-alarms, and a GitHub OIDC role for the deploy workflow. The loader is the same image run once
-as a Fargate task, reading the run from S3.
+Live: the API at <https://api.caselaw.inat.io/docs>, the report and the graph at
+<https://caselaw.inat.io>. One Hetzner server, created by Terraform (`infra/hetzner/`:
+server, firewall, SSH key, a Cloudflare R2 bucket, two DNS records at Njalla), running
+Postgres 16, the API image, Caddy with Let's Encrypt, a Grafana Alloy agent and a nightly
+backup to R2 under Docker Compose. Terraform credentials come from 1Password through
+`op run`; the database password is generated on the server and reaches the containers as a
+secret file. The equivalent AWS stack (`infra/terraform/`: S3, RDS, Fargate, CloudWatch) is
+validated in CI and documented in the report as the second target; it was not applied.
 
 ```bash
+make hz-plan && make hz-apply          # Terraform (op run injects the tokens from 1Password)
+make hz-bootstrap                      # first deployment: wait, secrets, deploy, sync, load, smoke
+make hz-deploy                         # rsync the repo and the site, rebuild the image, restart
+make hz-sync RUN=gbert-b13-s0 && make hz-load RUN=gbert-b13-s0   # a second run side by side
+make hz-measure                        # p50 / p95 per endpoint over HTTPS
+make hz-destroy                        # remove the server, the bucket and the records
 make docker-build && make docker-run   # the image against the local Postgres
-make tf-init && make tf-plan           # infra/terraform (copy terraform.tfvars.example first)
-make aws-bootstrap                     # apply, push image, upload run, load RDS, apply, smoke test
-make aws-deploy                        # restart the service on a newly pushed image
-make aws-measure                       # p50 / p95 per endpoint through the load balancer
-make tf-destroy                        # remove everything
 make drift A=2026-08 B=2026-09         # entity-frequency drift between two months
 make drift-series KIND=code            # month-to-month distances over the whole run
 ```
@@ -120,5 +124,4 @@ make drift-series KIND=code            # month-to-month distances over the whole
 outcomes and span labels between two months or years (Jensen-Shannon and total variation
 distance, largest movers) and serves the same through `GET /drift` and `GET /drift/series`.
 CI (`.github/workflows/ci.yml`) runs ruff, the tests against a Postgres service, the image
-build and `terraform validate`; `deploy.yml` pushes the image and restarts the service after
-a green run on `main`. Results and the cost estimate: `docs/report.md`, section 8.
+build and `terraform validate`. Results, latency and cost: `docs/report.md`, section 8.

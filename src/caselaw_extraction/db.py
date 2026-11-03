@@ -166,6 +166,10 @@ def load_run(name: str, dsn: str = DEFAULT_DSN, runs_dir: Path | str = RUNS_DIR)
                 ]
                 counts[table] = _copy_rows(cur, table, ["run_id", *mapping.values()], rows)
         con.commit()
+        # Fresh statistics after a bulk COPY; without them the planner scans the citation
+        # table sequentially for the aggregate endpoints (seen on the first deployment).
+        con.execute("ANALYZE")
+        con.commit()
     return counts
 
 

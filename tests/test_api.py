@@ -106,3 +106,10 @@ def test_drift_endpoints(client):
     series = client.get("/drift/series", params={"period": "year"}).json()
     assert len(series) == 2 and set(series[0]) >= {"from", "to", "js_distance"}
     assert client.get("/drift/series", params={"period": "week"}).status_code == 422
+
+
+def test_aggregate_endpoints_are_cacheable(client):
+    r = client.get("/statutes/top?limit=5")
+    assert r.status_code == 200 and r.headers["cache-control"] == "public, max-age=3600"
+    assert client.get("/statutes/top?limit=5").json() == r.json()
+    assert "cache-control" not in client.get("/decisions?limit=1").headers

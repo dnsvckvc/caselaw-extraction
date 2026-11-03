@@ -9,6 +9,9 @@ services:
   postgres:
     image: postgres:16-alpine
     restart: unless-stopped
+    # Tuned for a 4 GB server (the defaults assume 128 MB); the aggregate endpoints sort
+    # 140,000 citation rows per request.
+    command: ["postgres", "-c", "shared_buffers=512MB", "-c", "work_mem=32MB", "-c", "effective_cache_size=2GB", "-c", "random_page_cost=1.1"]
     environment:
       POSTGRES_USER: caselaw
       POSTGRES_DB: caselaw

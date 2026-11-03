@@ -7,10 +7,13 @@ the run's Parquet files for `make demo` and for the contract test. The backend i
 
 from __future__ import annotations
 
+import contextlib
+from collections import OrderedDict
+from collections.abc import Callable
 from contextlib import asynccontextmanager
 from typing import Annotated, Any
 
-from fastapi import Depends, FastAPI, HTTPException, Query, Request
+from fastapi import Depends, FastAPI, HTTPException, Query, Request, Response
 from pydantic import BaseModel, Field
 
 from caselaw_extraction import drift, graph
@@ -123,6 +126,7 @@ class CentralNode(BaseModel):
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     app.state.store = open_store()
+    warm_cache(app.state.store)
     yield
     app.state.store.close()
 
@@ -146,6 +150,50 @@ def get_store(request: Request) -> Store:
 StoreDep = Annotated[Store, Depends(get_store)]
 
 
+# The aggregate endpoints read a run that never changes while the service runs, so their
+# results are cached in the process (the top-statutes aggregate costs about one second on a
+# small server) and marked cacheable for clients and proxies.
+_CACHE: OrderedDict[tuple, Any] = OrderedDict()
+CACHE_MAX = 512
+CACHE_CONTROL = "public, max-age=3600"
+
+
+def _get_or_compute(store: Store, key: tuple, compute: Callable[[], Any]) -> Any:
+    full = (store.backend, store.run_id, *key)
+    if full in _CACHE:
+        _CACHE.move_to_end(full)
+        return _CACHE[full]
+    value = compute()
+    _CACHE[full] = value
+    if len(_CACHE) > CACHE_MAX:
+        _CACHE.popitem(last=False)
+    return value
+
+
+def cached(store: Store, response: Response, key: tuple, compute: Callable[[], Any]) -> Any:
+    response.headers["Cache-Control"] = CACHE_CONTROL
+    return _get_or_compute(store, key, compute)
+
+
+def warm_cache(store: Store) -> None:
+    """Fill the cache with the default views at startup, so the first visitor does not pay
+    for the aggregates (about one second each on a small server). Off with CASELAW_WARM=0."""
+    import os
+
+    if os.environ.get("CASELAW_WARM", "1") == "0":
+        return
+    jobs: list[tuple[tuple, Callable[[], Any]]] = [
+        (("statutes_top", 20, None, None), lambda: graph.top_statutes(store, 20, None, None)),
+        (("codes", 20), lambda: graph.top_codes(store, 20)),
+        (("trend_years",), lambda: graph.trend_by_year(store)),
+        (("central", 20, "pagerank", None), lambda: graph.central_decisions(store, 20)),
+    ]
+    for key, compute in jobs:
+        # a warm-up failure must not stop the service
+        with contextlib.suppress(Exception):
+            _get_or_compute(store, key, compute)
+
+
 def _date(v: Any) -> str | None:
     return None if v is None else str(v)
 
@@ -167,13 +215,20 @@ def runs(store: StoreDep) -> list[RunOut]:
 @app.get("/decisions/central", response_model=list[CentralNode])
 def central(
     store: StoreDep,
+    response: Response,
     limit: int = Query(20, ge=1, le=200),
     by: str = Query("pagerank", pattern="^(pagerank|in_degree)$"),
     kind: str | None = Query(None, pattern="^(decision|bge|docket)$"),
 ) -> list[CentralNode]:
     """Most central nodes of the citation graph: cited BGE, cited file numbers and corpus
     decisions, by PageRank or by the number of citing decisions."""
-    return [CentralNode(**r) for r in graph.central_decisions(store, limit, by, kind)]
+    rows = cached(
+        store,
+        response,
+        ("central", limit, by, kind),
+        lambda: graph.central_decisions(store, limit, by, kind),
+    )
+    return [CentralNode(**r) for r in rows]
 
 
 @app.get("/decisions/{decision_id}", response_model=DecisionOut)
@@ -265,40 +320,58 @@ def decisions(
 @app.get("/statutes/top", response_model=list[StatuteCount])
 def statutes_top(
     store: StoreDep,
+    response: Response,
     limit: int = Query(20, ge=1, le=500),
     year: int | None = None,
     code: str | None = Query(None, description="restrict to one act, by abbreviation or SR"),
 ) -> list[StatuteCount]:
     """Most-cited statute articles, by the number of citing decisions."""
-    return [StatuteCount(**r) for r in graph.top_statutes(store, limit, year, code)]
+    rows = cached(
+        store,
+        response,
+        ("statutes_top", limit, year, code),
+        lambda: graph.top_statutes(store, limit, year, code),
+    )
+    return [StatuteCount(**r) for r in rows]
 
 
 @app.get("/statutes/codes", response_model=list[CodeCount])
-def statutes_codes(store: StoreDep, limit: int = Query(20, ge=1, le=500)) -> list[CodeCount]:
+def statutes_codes(
+    store: StoreDep, response: Response, limit: int = Query(20, ge=1, le=500)
+) -> list[CodeCount]:
     """Most-cited acts."""
-    return [CodeCount(**r) for r in graph.top_codes(store, limit)]
+    rows = cached(store, response, ("codes", limit), lambda: graph.top_codes(store, limit))
+    return [CodeCount(**r) for r in rows]
 
 
 @app.get("/trends/years", response_model=list[YearTrend])
-def trends_years(store: StoreDep) -> list[YearTrend]:
+def trends_years(store: StoreDep, response: Response) -> list[YearTrend]:
     """Citations per decision by kind and the age of the cited BGE volumes, per year."""
-    return [YearTrend(**r) for r in graph.trend_by_year(store)]
+    rows = cached(store, response, ("trend_years",), lambda: graph.trend_by_year(store))
+    return [YearTrend(**r) for r in rows]
 
 
 @app.get("/drift/series", response_model=list[dict[str, Any]])
 def drift_series(
     store: StoreDep,
+    response: Response,
     period: str = Query("month", pattern="^(month|year)$"),
     kind: str = Query("statute", pattern="^(statute|bge|docket|code|outcome|label)$"),
 ) -> list[dict[str, Any]]:
     """Drift check: Jensen-Shannon and total-variation distance between each period and the
     one before it, over the whole run. The noise level for an alarm threshold."""
-    return drift.drift_series(store, period, kind)
+    return cached(
+        store,
+        response,
+        ("drift_series", period, kind),
+        lambda: drift.drift_series(store, period, kind),
+    )
 
 
 @app.get("/drift", response_model=dict[str, Any])
 def drift_report(
     store: StoreDep,
+    response: Response,
     a: str = Query(description="first period, `2025-09` or `2025`"),
     b: str = Query(description="second period"),
     period: str = Query("month", pattern="^(month|year)$"),
@@ -307,15 +380,25 @@ def drift_report(
     """Drift check: entity-frequency distributions of period `a` against period `b`, per kind,
     with the keys whose share of decisions moved most."""
     try:
-        return drift.drift_report(store, a, b, period, top=top)
+        return cached(
+            store,
+            response,
+            ("drift", a, b, period, top),
+            lambda: drift.drift_report(store, a, b, period, top=top),
+        )
     except ValueError as e:
         raise HTTPException(404, str(e)) from e
 
 
 @app.get("/trends/code-share", response_model=list[dict[str, Any]])
-def trends_code_share(store: StoreDep) -> list[dict[str, Any]]:
+def trends_code_share(store: StoreDep, response: Response) -> list[dict[str, Any]]:
     """Share of each year's decisions that cite BGG, ZPO, ZGB, OR, SchKG and BV, in percent."""
-    return [
-        {k: (float(v) if k not in ("year", "decisions") else int(v)) for k, v in r.items()}
-        for r in graph.code_share_by_year(store)
-    ]
+    return cached(
+        store,
+        response,
+        ("code_share",),
+        lambda: [
+            {k: (float(v) if k not in ("year", "decisions") else int(v)) for k, v in r.items()}
+            for r in graph.code_share_by_year(store)
+        ],
+    )

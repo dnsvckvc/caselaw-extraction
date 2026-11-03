@@ -98,9 +98,9 @@ footer { grid-column: 1 / -1; border-top: 1px solid var(--rule); margin-top: 24p
 <header class="masthead">
   <p class="eyebrow">Project 1 of 4 · report</p>
   <h1>Project 1: Case-Law Extraction Pipeline — report</h1>
-  <p class="status">weeks 1 to 3 of 4 complete, week 4 in progress. Week 1: corpus of 7,999 decisions, schema, Label Studio, first gold batch. Week 2: gold set of 350 decisions over three batches (guideline v0.3, nine classes), five extractors compared, entity-linking stage, learning curve, models retrained on 260 decisions. Week 3 (2026-10-28): full-corpus run under Dask, Postgres, citation graph with the three headline analyses, FastAPI service, regex graph compared with the gbert graph. Week 4 (2026-10-29): drift check, API image, Terraform stack for S3, RDS, Fargate and CloudWatch, GitHub Actions; the stack is validated and not yet applied (section 8). Last updated 2026-10-29.</p>
+  <p class="status">weeks 1 to 4 complete except the recording. Week 1: corpus of 7,999 decisions, schema, Label Studio, first gold batch. Week 2: gold set of 350 decisions over three batches (guideline v0.3, nine classes), five extractors compared, entity-linking stage, learning curve, models retrained on 260 decisions. Week 3 (2026-10-28): full-corpus run under Dask, Postgres, citation graph with the three headline analyses, FastAPI service, regex graph compared with the gbert graph. Week 4 (2026-11-03): drift check, API image, deployment on one Hetzner server with Terraform (API at <code>https://api.caselaw.inat.io</code>, this report at <code>https://caselaw.inat.io</code>), monitoring and backups prepared; the AWS stack validated as the second target (section 8). Last updated 2026-11-03.</p>
 </header>
-<nav class="toc" aria-label="Contents"><p class="eyebrow">Contents</p><ol><li><a href="#management-summary">Management summary</a><ol><li><a href="#what-was-built">What was built</a></li><li><a href="#results">Results</a></li><li><a href="#decision">Decision</a></li><li><a href="#key-figures">Key figures</a></li><li><a href="#risks-and-limits">Risks and limits</a></li><li><a href="#next-step">Next step</a></li></ol></li><li><a href="#1-problem">1. Problem</a></li><li><a href="#2-data">2. Data</a><ol><li><a href="#data-quality-findings-week-1">Data-quality findings (week 1)</a></li></ol></li><li><a href="#3-architecture">3. Architecture</a></li><li><a href="#4-gold-set">4. Gold set</a><ol><li><a href="#how-batch-1-was-labelled-model-labelled-three-passes-adjudicated">How batch 1 was labelled (model-labelled, three passes, adjudicated)</a></li><li><a href="#batch-2-week-2-held-out">Batch 2 (week 2, held out)</a></li><li><a href="#guideline-v02-round-2026-10-23-four-negative-classes-on-both-batches">Guideline v0.2 round (2026-10-23): four negative classes on both batches</a></li><li><a href="#guideline-v03-round-2026-10-2324-short-bge-citations-and-written-out-forms">Guideline v0.3 round (2026-10-23/24): short BGE citations and written-out forms</a></li><li><a href="#batch-3-2026-10-25-to-2026-10-28-200-decisions-half-of-them-targeted">Batch 3 (2026-10-25 to 2026-10-28): 200 decisions, half of them targeted</a></li></ol></li><li><a href="#5-extractors-compared">5. Extractors compared</a></li><li><a href="#6-results">6. Results</a><ol><li><a href="#61-regex-extractor-coverage-on-the-full-corpus-week-1-not-yet-scored-against-gold">6.1 Regex extractor coverage on the full corpus (week 1, not yet scored against gold)</a></li><li><a href="#62-regex-v01-the-pre-annotator-against-batch-1-gold">6.2 Regex v0.1 (the pre-annotator) against batch 1 gold</a></li><li><a href="#63-regex-v02-against-batch-1-gold-development-set-tuned-on-it">6.3 Regex v0.2 against batch 1 gold (development set, tuned on it)</a></li><li><a href="#64-regex-v02-on-batch-2-held-out">6.4 Regex v0.2 on batch 2 (held out)</a></li><li><a href="#65-all-extractors-on-batch-2-held-out">6.5 All extractors on batch 2 (held out)</a></li><li><a href="#66-regex-v03-what-batch-2-taught-the-rules-not-held-out">6.6 Regex v0.3: what batch 2 taught the rules (not held out)</a></li><li><a href="#67-what-the-learned-models-would-need-to-beat-the-rules">6.7 What the learned models would need to beat the rules</a></li><li><a href="#68-entity-linking-every-extractor-before-and-after-batch-2-held-out">6.8 Entity linking: every extractor before and after (batch 2, held out)</a></li><li><a href="#69-decoding-argmax-vs-bio-constrained-viterbi-gbert-batch-2">6.9 Decoding: argmax vs BIO-constrained Viterbi (gbert, batch 2)</a></li><li><a href="#610-guideline-v02-do-the-models-learn-the-negative-classes-batch-2-one-seed">6.10 Guideline v0.2: do the models learn the negative classes? (batch 2, one seed)</a></li><li><a href="#611-everything-re-scored-on-gold-v03-batch-2-2026-10-24">6.11 Everything re-scored on gold v0.3 (batch 2, 2026-10-24)</a></li><li><a href="#612-learning-curve-how-much-gold-do-the-span-models-need-2026-10-2425">6.12 Learning curve: how much gold do the span models need? (2026-10-24/25)</a></li><li><a href="#613-trained-on-260-decisions-batches-1-and-3-against-batch-2-2026-10-28">6.13 Trained on 260 decisions: batches 1 and 3 against batch 2 (2026-10-28)</a></li></ol></li><li><a href="#7-full-corpus-run-and-citation-graph-week-3-2026-10-28">7. Full-corpus run and citation graph (week 3, 2026-10-28)</a><ol><li><a href="#71-the-run">7.1 The run</a></li><li><a href="#72-postgres">7.2 Postgres</a></li><li><a href="#73-the-citation-graph-and-the-three-headline-analyses">7.3 The citation graph and the three headline analyses</a></li><li><a href="#74-the-api">7.4 The API</a></li><li><a href="#75-cost-of-the-full-corpus-run">7.5 Cost of the full-corpus run</a></li><li><a href="#76-regex-graph-against-gbert-graph-what-the-rules-lose">7.6 Regex graph against gbert graph: what the rules lose</a></li></ol></li><li><a href="#8-deployment-and-monitoring-week-4-2026-10-29">8. Deployment and monitoring (week 4, 2026-10-29)</a><ol><li><a href="#81-what-goes-to-aws">8.1 What goes to AWS</a></li><li><a href="#82-monitoring">8.2 Monitoring</a></li><li><a href="#83-drift-check">8.3 Drift check</a></li><li><a href="#84-cost-of-the-deployment-estimate-to-be-replaced-by-the-bill">8.4 Cost of the deployment (estimate, to be replaced by the bill)</a></li><li><a href="#85-open-before-the-apply">8.5 Open before the apply</a></li></ol></li><li><a href="#9-what-did-not-work">9. What did not work</a></li><li><a href="#10-next-steps">10. Next steps</a><ol><li><a href="#previous-next-steps-week-4-plan-of-2026-10-28">Previous next steps (week 4 plan of 2026-10-28)</a></li><li><a href="#previous-next-steps-week-3-done">Previous next steps (week 3, done)</a></li><li><a href="#previous-next-steps-week-2-done">Previous next steps (week 2, done)</a></li></ol></li></ol></nav>
+<nav class="toc" aria-label="Contents"><p class="eyebrow">Contents</p><ol><li><a href="#management-summary">Management summary</a><ol><li><a href="#what-was-built">What was built</a></li><li><a href="#results">Results</a></li><li><a href="#decision">Decision</a></li><li><a href="#key-figures">Key figures</a></li><li><a href="#risks-and-limits">Risks and limits</a></li><li><a href="#next-step">Next step</a></li></ol></li><li><a href="#1-problem">1. Problem</a></li><li><a href="#2-data">2. Data</a><ol><li><a href="#data-quality-findings-week-1">Data-quality findings (week 1)</a></li></ol></li><li><a href="#3-architecture">3. Architecture</a></li><li><a href="#4-gold-set">4. Gold set</a><ol><li><a href="#how-batch-1-was-labelled-model-labelled-three-passes-adjudicated">How batch 1 was labelled (model-labelled, three passes, adjudicated)</a></li><li><a href="#batch-2-week-2-held-out">Batch 2 (week 2, held out)</a></li><li><a href="#guideline-v02-round-2026-10-23-four-negative-classes-on-both-batches">Guideline v0.2 round (2026-10-23): four negative classes on both batches</a></li><li><a href="#guideline-v03-round-2026-10-2324-short-bge-citations-and-written-out-forms">Guideline v0.3 round (2026-10-23/24): short BGE citations and written-out forms</a></li><li><a href="#batch-3-2026-10-25-to-2026-10-28-200-decisions-half-of-them-targeted">Batch 3 (2026-10-25 to 2026-10-28): 200 decisions, half of them targeted</a></li></ol></li><li><a href="#5-extractors-compared">5. Extractors compared</a></li><li><a href="#6-results">6. Results</a><ol><li><a href="#61-regex-extractor-coverage-on-the-full-corpus-week-1-not-yet-scored-against-gold">6.1 Regex extractor coverage on the full corpus (week 1, not yet scored against gold)</a></li><li><a href="#62-regex-v01-the-pre-annotator-against-batch-1-gold">6.2 Regex v0.1 (the pre-annotator) against batch 1 gold</a></li><li><a href="#63-regex-v02-against-batch-1-gold-development-set-tuned-on-it">6.3 Regex v0.2 against batch 1 gold (development set, tuned on it)</a></li><li><a href="#64-regex-v02-on-batch-2-held-out">6.4 Regex v0.2 on batch 2 (held out)</a></li><li><a href="#65-all-extractors-on-batch-2-held-out">6.5 All extractors on batch 2 (held out)</a></li><li><a href="#66-regex-v03-what-batch-2-taught-the-rules-not-held-out">6.6 Regex v0.3: what batch 2 taught the rules (not held out)</a></li><li><a href="#67-what-the-learned-models-would-need-to-beat-the-rules">6.7 What the learned models would need to beat the rules</a></li><li><a href="#68-entity-linking-every-extractor-before-and-after-batch-2-held-out">6.8 Entity linking: every extractor before and after (batch 2, held out)</a></li><li><a href="#69-decoding-argmax-vs-bio-constrained-viterbi-gbert-batch-2">6.9 Decoding: argmax vs BIO-constrained Viterbi (gbert, batch 2)</a></li><li><a href="#610-guideline-v02-do-the-models-learn-the-negative-classes-batch-2-one-seed">6.10 Guideline v0.2: do the models learn the negative classes? (batch 2, one seed)</a></li><li><a href="#611-everything-re-scored-on-gold-v03-batch-2-2026-10-24">6.11 Everything re-scored on gold v0.3 (batch 2, 2026-10-24)</a></li><li><a href="#612-learning-curve-how-much-gold-do-the-span-models-need-2026-10-2425">6.12 Learning curve: how much gold do the span models need? (2026-10-24/25)</a></li><li><a href="#613-trained-on-260-decisions-batches-1-and-3-against-batch-2-2026-10-28">6.13 Trained on 260 decisions: batches 1 and 3 against batch 2 (2026-10-28)</a></li></ol></li><li><a href="#7-full-corpus-run-and-citation-graph-week-3-2026-10-28">7. Full-corpus run and citation graph (week 3, 2026-10-28)</a><ol><li><a href="#71-the-run">7.1 The run</a></li><li><a href="#72-postgres">7.2 Postgres</a></li><li><a href="#73-the-citation-graph-and-the-three-headline-analyses">7.3 The citation graph and the three headline analyses</a></li><li><a href="#74-the-api">7.4 The API</a></li><li><a href="#75-cost-of-the-full-corpus-run">7.5 Cost of the full-corpus run</a></li><li><a href="#76-regex-graph-against-gbert-graph-what-the-rules-lose">7.6 Regex graph against gbert graph: what the rules lose</a></li></ol></li><li><a href="#8-deployment-and-monitoring-week-4-2026-11-03">8. Deployment and monitoring (week 4, 2026-11-03)</a><ol><li><a href="#81-what-runs-where">8.1 What runs where</a></li><li><a href="#82-measured-on-the-deployment">8.2 Measured on the deployment</a></li><li><a href="#83-monitoring-alarms-and-backups">8.3 Monitoring, alarms and backups</a></li><li><a href="#84-drift-check">8.4 Drift check</a></li><li><a href="#85-cost">8.5 Cost</a></li><li><a href="#86-the-aws-design-written-and-validated-not-applied">8.6 The AWS design (written and validated, not applied)</a></li></ol></li><li><a href="#9-what-did-not-work">9. What did not work</a></li><li><a href="#10-next-steps">10. Next steps</a><ol><li><a href="#previous-next-steps-week-4-plan-of-2026-10-28">Previous next steps (week 4 plan of 2026-10-28)</a></li><li><a href="#previous-next-steps-week-3-done">Previous next steps (week 3, done)</a></li><li><a href="#previous-next-steps-week-2-done">Previous next steps (week 2, done)</a></li></ol></li></ol></nav>
 <main>
 
 <section class="summary"><h2 id="management-summary">Management summary</h2>
@@ -129,8 +129,13 @@ footer { grid-column: 1 / -1; border-top: 1px solid var(--rule); margin-top: 24p
 </tr>
 <tr>
 <td>What does the full run cost?</td>
-<td>The rules take 10 seconds on one core, under one cent on AWS. The model takes 30 minutes on a GPU, about USD 0.63. An LLM would cost about USD 140 per run.</td>
+<td>The rules take 10 seconds on one core, under one cent. The model takes 30 minutes on a GPU, about USD 0.63. An LLM would cost about USD 140 per run.</td>
 <td>7.1, 7.5</td>
+</tr>
+<tr>
+<td>What does it cost to serve?</td>
+<td>Under EUR 6 per month on one Hetzner server with HTTPS, against about USD 47 for the equivalent AWS stack, which was written and validated but not applied.</td>
+<td>8.5, 8.6</td>
 </tr>
 <tr>
 <td>What does the graph show?</td>
@@ -190,7 +195,11 @@ footer { grid-column: 1 / -1; border-top: 1px solid var(--rule); margin-top: 24p
 </tr>
 <tr>
 <td>API</td>
-<td>11 read-only endpoints, 5 ms per decision on Postgres</td>
+<td>11 read-only endpoints; 5 ms per decision on the laptop, about 100 ms end to end over HTTPS from Switzerland</td>
+</tr>
+<tr>
+<td>deployment</td>
+<td><code>https://api.caselaw.inat.io</code>, one Hetzner server, Terraform, under EUR 6 per month</td>
 </tr>
 <tr>
 <td>tests</td>
@@ -207,11 +216,11 @@ footer { grid-column: 1 / -1; border-top: 1px solid var(--rule); margin-top: 24p
 <li>The gold set was labelled by language-model agents, not by legal professionals. One human check covers 10 of 350 decisions. The agents corrected proposals from the rules, so the gold set favours the rules in every comparison.</li>
 <li>The dataset&rsquo;s own outcome label disagrees with the extractor in 1,179 of 5,806 decisions. Sampling shows the dataset label is the one in error. The analyses use the extractor&rsquo;s outcome.</li>
 <li>The AWS costs are estimates from local run times and public price pages. Week 4 measures them.</li>
-<li>Nothing is deployed yet. The Terraform stack, the image and the pipelines are written and validated; the apply waits for an AWS session and the approval of about USD 50 per month. The API runs locally on Docker Postgres.</li>
+<li>The deployment is one server without a load balancer or a managed database. A nightly dump to object storage and a six-second rebuild from Parquet are the recovery path. Monitoring and the backup cron are configured and start when the Grafana Cloud and R2 credentials are set.</li>
 <li>The corpus is one language, one court and one branch of law. The rules do not cover French or Italian.</li>
 </ul>
 <h3 id="next-step">Next step</h3>
-<p>Apply the Terraform stack (section 8.1), load the run into RDS, measure latency and cost on the real deployment, record the five-minute demo. Then Project 2.</p>
+<p>Switch on monitoring and backups with the two remaining credentials, record the five-minute demo. Then Project 2, which builds on this API and corpus.</p>
 </section>
 <section><h2 id="1-problem">1. Problem</h2>
 <p>Legal professionals need to know which statutes and prior decisions a court relies on.
@@ -2210,131 +2219,227 @@ model&rsquo;s value is elsewhere: it is the extractor that reads the forms the r
 instead of 350, and it is what the pipeline will need for the languages and courts for which
 nobody has written the rules yet.</p>
 </section>
-<section><h2 id="8-deployment-and-monitoring-week-4-2026-10-29">8. Deployment and monitoring (week 4, 2026-10-29)</h2>
-<p>Everything in this section is written, tested locally and validated. <strong>It is not applied to
-AWS yet</strong>: the apply needs a live AWS session and the approval of the monthly cost in 8.4.
-The numbers that only the real deployment can give (latency through the load balancer,
-the bill) are marked as pending.</p>
-<h3 id="81-what-goes-to-aws">8.1 What goes to AWS</h3>
-<p><code>infra/terraform/</code> describes the deployment; <code>terraform validate</code> passes and the CI job
-checks it on every push.</p>
+<section><h2 id="8-deployment-and-monitoring-week-4-2026-11-03">8. Deployment and monitoring (week 4, 2026-11-03)</h2>
+<p>The service is live: the API at <code>https://api.caselaw.inat.io</code> (OpenAPI at <code>/docs</code>), this
+report and the graph at <code>https://caselaw.inat.io</code>. It runs on one Hetzner server for under
+EUR 6 per month. The AWS stack of the first design (8.6) was written and validated on
+2026-10-29 and not applied: it would have cost about USD 47 per month for the same public,
+read-only API, most of it for the load balancer and the managed database, and the project
+already runs a second service on the same providers (Hetzner, Cloudflare, Njalla). What the
+cheaper design gives up is a managed database with snapshots, a load balancer with its
+metrics, and the AWS name on the stack; what replaces each of them is listed in 8.3.</p>
+<h3 id="81-what-runs-where">8.1 What runs where</h3>
+<p>Terraform (<code>infra/hetzner/</code>, three providers) creates everything outside the server, and the
+server&rsquo;s first boot (cloud-init) prepares it for Docker Compose:</p>
 <div class="tw"><table>
 <thead>
 <tr>
-<th>component</th>
+<th>layer</th>
 <th>resource</th>
-<th>why this one</th>
+<th>detail</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>run tables</td>
-<td>S3 bucket <code>caselaw-runs-&lt;account&gt;</code>, private, SSE-S3; <code>runs/&lt;run_id&gt;/*.parquet</code> and <code>run.json</code></td>
-<td>the Parquet of a run is the handover between the pipeline and the database; 9 MB per run</td>
+<td>server</td>
+<td>Hetzner <code>cx23</code> (2 shared vCPU, 4 GB, 40 GB), Nuremberg, Ubuntu 24.04</td>
+<td>cloud-init creates the <code>caselaw</code> user, installs Docker, ufw (22, 80, 443), unattended upgrades with a nightly reboot window, rclone</td>
 </tr>
 <tr>
-<td>image</td>
-<td>ECR repository <code>caselaw-api</code>, scan on push, keep 10 images</td>
-<td>one image for the API and the loader, 211 MB, core dependencies only (torch, spaCy and MLflow moved to the <code>ml</code> extra)</td>
+<td>network</td>
+<td>Hetzner firewall: 22, 80, 443 and ping inbound</td>
+<td>ufw repeats the rule on the host</td>
+</tr>
+<tr>
+<td>DNS</td>
+<td>two A records at Njalla, <code>caselaw.inat.io</code> and <code>api.caselaw.inat.io</code>, TTL 300</td>
+<td>the community provider <code>Sighery/njalla</code>; the zone stays where the domain is registered</td>
+</tr>
+<tr>
+<td>object storage</td>
+<td>Cloudflare R2 bucket <code>caselaw-runs</code>, Western Europe</td>
+<td>run Parquet and the nightly dumps; 8 MB per run, inside the free tier</td>
 </tr>
 <tr>
 <td>database</td>
-<td>RDS Postgres 16, <code>db.t4g.micro</code>, 20 GB gp3, single AZ, not public, security group admits the API tasks only</td>
-<td>the schema of section 7.2 unchanged; the connection string lives in one SSM SecureString and reaches the tasks as a secret</td>
+<td>Postgres 16 container, <code>shared_buffers</code> 512 MB, <code>work_mem</code> 32 MB</td>
+<td>the schema of 7.2, loaded with <code>caselaw db-load</code> from the run directory; 276 MB with two runs</td>
 </tr>
 <tr>
 <td>API</td>
-<td>ECS Fargate service, 1 task of 0.25 vCPU and 512 MB, behind an application load balancer on port 80, health check <code>/health</code>, circuit breaker with rollback</td>
-<td>the FastAPI app of 7.4 with <code>CASELAW_BACKEND=postgres</code>; Fargate because the API is one container with no state</td>
+<td>the image of the week-4 Dockerfile, built on the server, 2 uvicorn workers</td>
+<td><code>CASELAW_BACKEND=postgres</code>, the connection string from a secret file</td>
 </tr>
 <tr>
-<td>loader</td>
-<td>ECS task definition <code>caselaw-load</code>, 1 vCPU and 2 GB, same image, command <code>caselaw db-load --runs-dir s3://...</code></td>
-<td>the database is private, so the load runs inside the VPC; the loader reads the Parquet from S3 through pyarrow&rsquo;s filesystem layer and COPYs into RDS</td>
+<td>TLS and routing</td>
+<td>Caddy, Let&rsquo;s Encrypt, HTTP redirected to HTTPS with code 308</td>
+<td>one host for the API, one for the static site; the metrics endpoint of Caddy stays inside the Docker network</td>
 </tr>
 <tr>
-<td>logs and metrics</td>
-<td>CloudWatch log group (14 days), dashboard with nine widgets, eight alarms on an SNS topic (optional e-mail)</td>
-<td>section 8.2</td>
+<td>monitoring</td>
+<td>Grafana Alloy container under a Compose profile</td>
+<td>8.3</td>
 </tr>
 <tr>
-<td>deploy</td>
-<td>GitHub OIDC provider and a role that may push the image and restart the service, nothing else</td>
-<td>no long-lived AWS key in GitHub</td>
+<td>backups</td>
+<td>cron 03:30, <code>pg_dump</code> and the run directory to R2, 14 days retention</td>
+<td>8.3</td>
 </tr>
 </tbody>
 </table></div>
-<p>Decisions worth stating. The stack uses the default VPC and public subnets, and the tasks get
-a public IP: a NAT gateway would cost more per month than everything else together, and the
-API is public and read-only. The load balancer serves HTTP only, because there is no domain
-and therefore no certificate; the report says so instead of pretending. The Terraform state is
-local to the laptop (a second operator would need an S3 backend). Every resource is tagged
-<code>Project=caselaw</code>, and <code>make tf-destroy</code> removes all of them, the database included.</p>
-<p>The first deployment runs in one command, <code>make aws-bootstrap</code>: apply with zero API tasks
-(the image does not exist yet), build and push the image for <code>linux/amd64</code>, upload the run,
-run the loader task and wait for it, apply again with one task, smoke-test the URL. Later
-image changes go through GitHub Actions (<code>.github/workflows/deploy.yml</code>): after a green <code>ci</code>
-run on <code>main</code>, build, push with the commit hash and <code>latest</code>, force a new deployment, wait
-until the service is stable, call <code>/health</code>. <code>ci.yml</code> runs ruff, the test suite against a
-Postgres service container (so the four Postgres tests no longer skip), the image build and
-<code>terraform validate</code>.</p>
-<p>Verified locally on 2026-10-29: the image answers <code>/health</code>, <code>/statutes/top</code> and <code>/drift</code>
-against the Docker Postgres of week 3; <code>caselaw db-load</code> and <code>caselaw drift</code> run inside the
-image; <code>terraform init</code> and <code>validate</code> pass; 87 tests pass.</p>
-<h3 id="82-monitoring">8.2 Monitoring</h3>
-<p>The dashboard shows, from the load balancer, requests per minute, responses by class (2xx,
-4xx, 5xx from the target and from the balancer) and the p50, p95 and p99 response time with
-the alarm line; from ECS, the task&rsquo;s CPU and memory; from RDS, CPU, connections, free storage
-and read and write latency; and the last twenty log lines. The alarms:</p>
+<p>Secrets. The Postgres password and the connection string are generated on the server by
+cloud-init and never leave it; they reach the containers as Compose secret files
+(<code>POSTGRES_PASSWORD_FILE</code>, <code>CASELAW_DSN_FILE</code>), not as environment variables, so they appear
+in no <code>docker inspect</code> output. The Terraform tokens for Hetzner, Cloudflare and Njalla live in
+1Password; <code>op run</code> injects them into the single Terraform process from a committed file of
+references (<code>terraform.op.env</code>), and no token is written to disk on the laptop. The runtime
+values that come from other providers (the R2 key for the backups, the Grafana Cloud key) go
+to <code>/etc/caselaw/caselaw.env</code> on the server, owned by root, group <code>caselaw</code>, mode 640, outside
+the repository checkout.</p>
+<p>Deployment. <code>make hz-bootstrap</code> runs the sequence once: <code>terraform apply</code> (30 seconds, the
+server in 24), wait for cloud-init (about two minutes), write the env file, rsync the
+repository and build the image on the server, upload the run Parquet, run the loader inside
+the API image, smoke-test the URL. Later changes are <code>make hz-deploy</code>. Two things were found
+and fixed on the first run: the host group <code>caselaw</code> had gid 1001 (Docker took 1000), so the
+API container joins that group to read its secret file; and the loader wrote the Fedlex
+cache into a read-only working directory. Both are in git with the reason.</p>
+<h3 id="82-measured-on-the-deployment">8.2 Measured on the deployment</h3>
+<p>Latency from a laptop in Switzerland over HTTPS, each request a new TLS connection; &ldquo;first&rdquo;
+is the first request after a restart, &ldquo;warm&rdquo; the median of nine more:</p>
 <div class="tw"><table>
 <thead>
 <tr>
-<th>alarm</th>
-<th>metric</th>
-<th>condition</th>
+<th>endpoint</th>
+<th>first</th>
+<th>warm</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>caselaw-api-5xx</code></td>
-<td>target 5xx count</td>
-<td>5 or more in 5 minutes</td>
+<td><code>/health</code></td>
+<td>177 ms</td>
+<td>101 ms</td>
 </tr>
 <tr>
-<td><code>caselaw-api-latency-p95</code></td>
-<td>target response time p95</td>
-<td>above 1 s in 2 of 3 five-minute windows</td>
+<td><code>/decisions/{id}</code></td>
+<td>123 ms</td>
+<td>104 ms</td>
 </tr>
 <tr>
-<td><code>caselaw-api-unhealthy-target</code></td>
-<td>unhealthy targets</td>
-<td>1 or more for 3 minutes</td>
+<td><code>/decisions?statute=BGG 42&amp;limit=50</code></td>
+<td>262 ms</td>
+<td>174 ms</td>
 </tr>
 <tr>
-<td><code>caselaw-api-no-healthy-target</code></td>
-<td>healthy targets</td>
-<td>below 1 for 3 minutes (missing data counts as breaching)</td>
+<td><code>/statutes/top?limit=20</code></td>
+<td>1,267 ms</td>
+<td>101 ms</td>
 </tr>
 <tr>
-<td><code>caselaw-api-cpu</code>, <code>caselaw-api-memory</code></td>
-<td>ECS service CPU, memory</td>
-<td>above 80 percent for 15 minutes</td>
+<td><code>/statutes/codes</code></td>
+<td>883 ms</td>
+<td>102 ms</td>
 </tr>
 <tr>
-<td><code>caselaw-db-cpu</code></td>
-<td>RDS CPU</td>
-<td>above 80 percent for 15 minutes</td>
+<td><code>/trends/years</code></td>
+<td>843 ms</td>
+<td>101 ms</td>
 </tr>
 <tr>
-<td><code>caselaw-db-free-storage</code></td>
-<td>RDS free storage</td>
-<td>below 2 GB</td>
+<td><code>/decisions/central?limit=20</code></td>
+<td>110 ms</td>
+<td>100 ms</td>
+</tr>
+<tr>
+<td><code>/drift?a=2026-08&amp;b=2026-09</code></td>
+<td>322 ms</td>
+<td>103 ms</td>
+</tr>
+<tr>
+<td><code>/drift/series?kind=code</code></td>
+<td>1,042 ms</td>
+<td>119 ms</td>
 </tr>
 </tbody>
 </table></div>
-<p>The thresholds are starting points. The latency threshold of 1 s is ten times the local p95
-of the slowest endpoint; the first week of real traffic will say whether it is right.</p>
-<h3 id="83-drift-check">8.3 Drift check</h3>
+<p>The 100 ms floor is the network: the TLS handshake alone took 50 to 500 ms in the samples,
+and the server answers <code>/health</code> in under a millisecond. The aggregate endpoints are the
+story. On the laptop they answered in 10 to 100 ms (7.4); on the 2 vCPU server the
+top-statutes aggregate took 1.1 seconds in <code>EXPLAIN ANALYZE</code>, an index scan over 138,143
+citation rows followed by a sort for <code>count(DISTINCT)</code>, and the first measurement before
+<code>ANALYZE</code> had run was 1.3 seconds. A run never changes while the service runs, so the API
+now keeps the aggregate results in the process (a 512-entry LRU keyed by backend, run and
+parameters), sends <code>Cache-Control: public, max-age=3600</code>, and fills the four default views
+at startup; the warm column is the result. The drift report dropped from 2.9 seconds to 0.3
+by counting only the two periods under comparison instead of all 81 months.</p>
+<p>Resources after the load: the API container uses 213 MB, Postgres 178 MB, Caddy 19 MB; the
+server has 980 MB of 3.8 GB in use and 7 GB of 38 GB on disk. The image built for x86 is
+965 MB against 211 MB on the laptop&rsquo;s ARM build, because the x86 wheels of pyarrow (156 MB),
+polars (179 MB) and DuckDB (58 MB) bundle their libraries; polars and DuckDB are not needed
+by the API against Postgres and are a slimming item in section 10.</p>
+<h3 id="83-monitoring-alarms-and-backups">8.3 Monitoring, alarms and backups</h3>
+<p>What the AWS design got from the load balancer, ECS and RDS, the server gets from one Grafana
+Alloy container that ships to Grafana Cloud&rsquo;s free tier: host CPU, memory, disk and network
+(<code>node_exporter</code> collectors), container CPU and memory (cAdvisor), Postgres connections,
+transactions, cache hits and database size (<code>postgres_exporter</code>, reading the DSN from a secret
+file), and Caddy&rsquo;s request counts, status codes and latency histograms per host, which is
+exactly the role of the balancer metrics. Every container&rsquo;s log goes to Loki. The agent is
+configured (<code>infra/hetzner/alloy/config.alloy</code>) and starts with <code>--profile monitoring</code> as
+soon as the Grafana Cloud credentials are in the env file; at the time of writing the
+account is not created yet, so the dashboard and the alert rules below are the plan, not a
+screenshot.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>alert</th>
+<th>condition</th>
+<th>from</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>API down</td>
+<td>Caddy reports no 2xx for 3 minutes, or the probe of <code>/health</code> fails</td>
+<td>Caddy metrics, Grafana synthetic check</td>
+</tr>
+<tr>
+<td>5xx</td>
+<td>5 or more 5xx responses in 5 minutes</td>
+<td>Caddy metrics</td>
+</tr>
+<tr>
+<td>latency</td>
+<td>p95 of the API host above 1 s in 2 of 3 five-minute windows</td>
+<td>Caddy histogram</td>
+</tr>
+<tr>
+<td>disk</td>
+<td>root filesystem above 85 percent</td>
+<td>node collectors</td>
+</tr>
+<tr>
+<td>memory</td>
+<td>less than 300 MB available for 15 minutes</td>
+<td>node collectors</td>
+</tr>
+<tr>
+<td>database</td>
+<td><code>pg_up</code> 0, or connections above 40</td>
+<td>postgres exporter</td>
+</tr>
+<tr>
+<td>backup</td>
+<td>healthchecks.io ping missing after 03:30</td>
+<td>the backup cron</td>
+</tr>
+</tbody>
+</table></div>
+<p>Without the agent the server still has: Compose health checks on Postgres and the API with
+<code>restart: unless-stopped</code>, Caddy&rsquo;s own certificate renewal, unattended security upgrades, and
+the nightly backup cron, which needs the scoped R2 key and runs as soon as it is set. The
+backup copies the dump and the run Parquet with rclone configured from environment variables,
+so no rclone configuration file holds a key.</p>
+<h3 id="84-drift-check">8.4 Drift check</h3>
 <p><code>caselaw drift</code> (<code>drift.py</code>; <code>GET /drift</code>, <code>GET /drift/series</code>) compares the
 entity-frequency distributions of two periods of decision dates, months or years. For the
 citation kinds the distribution is the number of decisions that cite each key (article,
@@ -2464,11 +2569,162 @@ texts can decide.</p>
 <p>The year-to-year check (2024 against 2025) repeats the trend of section 7.3 in one table:
 Art. 108 BGG, the summary-inadmissibility article, gains 11 points of decisions, every
 substantive BGG article loses 8 to 10, the ZPO loses 8 and BGE 150 III 248, a 2024 decision,
-enters at 6 percent. What is not built: a schedule that runs the check in the cloud. It
-would be one EventBridge rule starting the loader task definition with the <code>drift</code> command
-and <code>--fail-above</code>, and one alarm on the task&rsquo;s exit code; the JSON output
-(<code>data/runs/regex-v0.4/drift-*.json</code>) is ready for it.</p>
-<h3 id="84-cost-of-the-deployment-estimate-to-be-replaced-by-the-bill">8.4 Cost of the deployment (estimate, to be replaced by the bill)</h3>
+enters at 6 percent. What is not built: a schedule that runs the check on the server. It would be one cron line
+running <code>caselaw drift --fail-above 0.49</code> in the API image and one healthchecks.io ping; the
+JSON output (<code>data/runs/regex-v0.4/drift-*.json</code>) is ready for it.</p>
+<h3 id="85-cost">8.5 Cost</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>item</th>
+<th>per month</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hetzner <code>cx23</code> with an IPv4 address</td>
+<td>about EUR 5 (the list price at creation; Hetzner&rsquo;s shared Intel line was renamed and repriced in 2025 and 2026, so the console is the source)</td>
+</tr>
+<tr>
+<td>Cloudflare R2, 20 MB stored, a few hundred requests</td>
+<td>EUR 0, inside the free tier (10 GB)</td>
+</tr>
+<tr>
+<td>Njalla DNS</td>
+<td>included in the domain</td>
+</tr>
+<tr>
+<td>Grafana Cloud free tier, Let&rsquo;s Encrypt</td>
+<td>EUR 0</td>
+</tr>
+<tr>
+<td><strong>total</strong></td>
+<td><strong>under EUR 6</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>The AWS design would have cost about USD 47 for the same service (8.6). The full-corpus
+extraction itself stays under one cent per run (7.5). <code>make hz-destroy</code> removes the server,
+the bucket and the two records; the state file on the laptop is the only trace.</p>
+<h3 id="86-the-aws-design-written-and-validated-not-applied">8.6 The AWS design (written and validated, not applied)</h3>
+<p>Kept as the second target in <code>infra/terraform/</code>, with <code>terraform validate</code> in CI. It is the
+stack to apply if a reader wants the managed variant.</p>
+<p><code>infra/terraform/</code> describes the deployment; <code>terraform validate</code> passes and the CI job
+checks it on every push.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>component</th>
+<th>resource</th>
+<th>why this one</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>run tables</td>
+<td>S3 bucket <code>caselaw-runs-&lt;account&gt;</code>, private, SSE-S3; <code>runs/&lt;run_id&gt;/*.parquet</code> and <code>run.json</code></td>
+<td>the Parquet of a run is the handover between the pipeline and the database; 9 MB per run</td>
+</tr>
+<tr>
+<td>image</td>
+<td>ECR repository <code>caselaw-api</code>, scan on push, keep 10 images</td>
+<td>one image for the API and the loader, 211 MB, core dependencies only (torch, spaCy and MLflow moved to the <code>ml</code> extra)</td>
+</tr>
+<tr>
+<td>database</td>
+<td>RDS Postgres 16, <code>db.t4g.micro</code>, 20 GB gp3, single AZ, not public, security group admits the API tasks only</td>
+<td>the schema of section 7.2 unchanged; the connection string lives in one SSM SecureString and reaches the tasks as a secret</td>
+</tr>
+<tr>
+<td>API</td>
+<td>ECS Fargate service, 1 task of 0.25 vCPU and 512 MB, behind an application load balancer on port 80, health check <code>/health</code>, circuit breaker with rollback</td>
+<td>the FastAPI app of 7.4 with <code>CASELAW_BACKEND=postgres</code>; Fargate because the API is one container with no state</td>
+</tr>
+<tr>
+<td>loader</td>
+<td>ECS task definition <code>caselaw-load</code>, 1 vCPU and 2 GB, same image, command <code>caselaw db-load --runs-dir s3://...</code></td>
+<td>the database is private, so the load runs inside the VPC; the loader reads the Parquet from S3 through pyarrow&rsquo;s filesystem layer and COPYs into RDS</td>
+</tr>
+<tr>
+<td>logs and metrics</td>
+<td>CloudWatch log group (14 days), dashboard with nine widgets, eight alarms on an SNS topic (optional e-mail)</td>
+<td>section 8.2</td>
+</tr>
+<tr>
+<td>deploy</td>
+<td>GitHub OIDC provider and a role that may push the image and restart the service, nothing else</td>
+<td>no long-lived AWS key in GitHub</td>
+</tr>
+</tbody>
+</table></div>
+<p>Decisions worth stating. The stack uses the default VPC and public subnets, and the tasks get
+a public IP: a NAT gateway would cost more per month than everything else together, and the
+API is public and read-only. The load balancer serves HTTP only, because there is no domain
+and therefore no certificate; the report says so instead of pretending. The Terraform state is
+local to the laptop (a second operator would need an S3 backend). Every resource is tagged
+<code>Project=caselaw</code>, and <code>make tf-destroy</code> removes all of them, the database included.</p>
+<p>The first deployment runs in one command, <code>make aws-bootstrap</code>: apply with zero API tasks
+(the image does not exist yet), build and push the image for <code>linux/amd64</code>, upload the run,
+run the loader task and wait for it, apply again with one task, smoke-test the URL. Later
+image changes go through GitHub Actions (<code>.github/workflows/deploy.yml</code>): after a green <code>ci</code>
+run on <code>main</code>, build, push with the commit hash and <code>latest</code>, force a new deployment, wait
+until the service is stable, call <code>/health</code>. <code>ci.yml</code> runs ruff, the test suite against a
+Postgres service container (so the four Postgres tests no longer skip), the image build and
+<code>terraform validate</code>.</p>
+<h4 id="dashboard-and-alarms">Dashboard and alarms</h4>
+<p>The dashboard shows, from the load balancer, requests per minute, responses by class (2xx,
+4xx, 5xx from the target and from the balancer) and the p50, p95 and p99 response time with
+the alarm line; from ECS, the task&rsquo;s CPU and memory; from RDS, CPU, connections, free storage
+and read and write latency; and the last twenty log lines. The alarms:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>alarm</th>
+<th>metric</th>
+<th>condition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>caselaw-api-5xx</code></td>
+<td>target 5xx count</td>
+<td>5 or more in 5 minutes</td>
+</tr>
+<tr>
+<td><code>caselaw-api-latency-p95</code></td>
+<td>target response time p95</td>
+<td>above 1 s in 2 of 3 five-minute windows</td>
+</tr>
+<tr>
+<td><code>caselaw-api-unhealthy-target</code></td>
+<td>unhealthy targets</td>
+<td>1 or more for 3 minutes</td>
+</tr>
+<tr>
+<td><code>caselaw-api-no-healthy-target</code></td>
+<td>healthy targets</td>
+<td>below 1 for 3 minutes (missing data counts as breaching)</td>
+</tr>
+<tr>
+<td><code>caselaw-api-cpu</code>, <code>caselaw-api-memory</code></td>
+<td>ECS service CPU, memory</td>
+<td>above 80 percent for 15 minutes</td>
+</tr>
+<tr>
+<td><code>caselaw-db-cpu</code></td>
+<td>RDS CPU</td>
+<td>above 80 percent for 15 minutes</td>
+</tr>
+<tr>
+<td><code>caselaw-db-free-storage</code></td>
+<td>RDS free storage</td>
+<td>below 2 GB</td>
+</tr>
+</tbody>
+</table></div>
+<p>The thresholds are starting points. The latency threshold of 1 s is ten times the local p95
+of the slowest endpoint; the first week of real traffic will say whether it is right.</p>
+<h4 id="cost-estimate">Cost estimate</h4>
 <p>Prices for eu-central-1 on 2026-10-29 from third-party price pages where the AWS page did
 not show the region in the search results: load balancer USD 0.027 per hour, RDS
 <code>db.t4g.micro</code> USD 0.019 per hour, gp3 storage about USD 0.14 per GB-month; Fargate at the
@@ -2512,16 +2768,6 @@ dashboard, SSM, the log volume and the ECR storage are inside the free allowance
 without it would be cheaper and would change its address at every deployment. The full-corpus
 extraction itself stays under one cent (section 7.5). <code>make tf-destroy</code> stops the cost
 entirely; the run Parquet and the image are rebuilt in minutes.</p>
-<h3 id="85-open-before-the-apply">8.5 Open before the apply</h3>
-<ul>
-<li>An AWS session: the CLI profile on this machine has an expired session, and it logs in
-  as the account root. The apply should run as an IAM user or an Identity Center user with
-  administrator rights for this account, not as root.</li>
-<li>The approval of the cost in 8.4.</li>
-<li>A GitHub repository for the deploy pipeline (the OIDC role is created when <code>github_repo</code>
-  is set in <code>terraform.tfvars</code>). Until then <code>make aws-push</code> and <code>make aws-deploy</code> do the same
-  from the laptop.</li>
-</ul>
 </section>
 <section><h2 id="9-what-did-not-work">9. What did not work</h2>
 <p><em>Running log.</em></p>
@@ -2573,13 +2819,17 @@ entirely; the run Parquet and the image are rebuilt in minutes.</p>
 </section>
 <section><h2 id="10-next-steps">10. Next steps</h2>
 <ol>
-<li>Apply the stack (<code>make tf-init</code>, <code>make tf-plan</code>, <code>make aws-bootstrap</code>), then replace the
-   estimates of 8.4 with the bill and add the measured latency through the load balancer
-   (<code>make aws-measure</code>) to 7.4.</li>
+<li>Switch on what is configured: the scoped R2 key for the backup cron and the loader, the
+   Grafana Cloud credentials for the Alloy agent (<code>make hz-secrets</code>, <code>make hz-deploy</code>), then
+   the dashboard and the seven alert rules of 8.3.</li>
+<li>A GitHub repository, so that <code>ci.yml</code> runs and a deploy job over SSH replaces
+   <code>make hz-deploy</code> from the laptop.</li>
 <li>Record the five-minute demo (<code>docs/recording-script.md</code>).</li>
-<li>If time remains: the scheduled drift task (8.3); a third gbert seed on 260 decisions; a
-   CRF head; a human spot check of batch 3; French and Italian decisions, which need their own
-   regex and their own gold.</li>
+<li>Slim the x86 image: the API against Postgres needs neither polars nor DuckDB; moving them
+   to an extra cuts about 240 MB.</li>
+<li>If time remains: the scheduled drift check (8.4); a day on the AWS stack (8.6) for a
+   measured comparison; a third gbert seed; a CRF head; a human spot check of batch 3; French
+   and Italian decisions.</li>
 </ol>
 <h3 id="previous-next-steps-week-4-plan-of-2026-10-28">Previous next steps (week 4 plan of 2026-10-28)</h3>
 <ol>
@@ -2624,7 +2874,7 @@ entirely; the run Parquet and the image are rebuilt in minutes.</p>
 <li>A human spot check of 10 batch-2 decisions, to put a number on the model-labelled gold.</li>
 </ol></section>
 </main>
-<footer>Rendered from docs/report.md on 2026-10-29. Repository: caselaw-extraction.</footer>
+<footer>Rendered from docs/report.md on 2026-11-03. Repository: caselaw-extraction.</footer>
 </div>
 </body>
 </html>

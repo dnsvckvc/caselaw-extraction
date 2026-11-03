@@ -32,37 +32,44 @@ def _period_sql(period: str) -> str:
     raise ValueError(f"period must be one of {PERIODS}, not {period!r}")
 
 
-def _counts_sql(kind: str, period: str) -> str:
+def _counts_sql(kind: str, period: str, n_periods: int = 0) -> str:
+    """Counts per (period, key). With `n_periods` > 0 the query takes that many period
+    values as extra parameters and restricts itself to them (the two-period report)."""
     p = _period_sql(period)
     join = "JOIN decision d ON d.run_id = x.run_id AND d.decision_id = x.decision_id"
+    only = f" AND {p} IN ({', '.join('?' * n_periods)})" if n_periods else ""
     if kind in ("statute", "bge", "docket"):
         return (
             f"SELECT {p} AS period, x.key AS k, count(DISTINCT x.decision_id) AS n "
-            f"FROM citation x {join} WHERE x.run_id = ? AND x.kind = '{kind}' GROUP BY 1, 2"
+            f"FROM citation x {join} WHERE x.run_id = ? AND x.kind = '{kind}'{only} "
+            "GROUP BY 1, 2"
         )
     if kind == "code":
         return (
             f"SELECT {p} AS period, x.code AS k, count(DISTINCT x.decision_id) AS n "
             f"FROM citation x {join} WHERE x.run_id = ? AND x.kind = 'statute' "
-            "AND x.code IS NOT NULL GROUP BY 1, 2"
+            f"AND x.code IS NOT NULL{only} GROUP BY 1, 2"
         )
     if kind == "outcome":
         return (
             f"SELECT {p} AS period, coalesce(d.outcome, 'unknown') AS k, count(*) AS n "
-            "FROM decision d WHERE d.run_id = ? GROUP BY 1, 2"
+            f"FROM decision d WHERE d.run_id = ?{only} GROUP BY 1, 2"
         )
     if kind == "label":
         return (
             f"SELECT {p} AS period, x.label AS k, count(*) AS n "
-            f"FROM span x {join} WHERE x.run_id = ? GROUP BY 1, 2"
+            f"FROM span x {join} WHERE x.run_id = ?{only} GROUP BY 1, 2"
         )
     raise ValueError(f"kind must be one of {KINDS}, not {kind!r}")
 
 
-def period_counts(store: Store, kind: str, period: str = "month") -> dict[str, dict[str, int]]:
-    """{period: {key: count}} for one kind over the whole run."""
+def period_counts(
+    store: Store, kind: str, period: str = "month", periods: tuple[str, ...] = ()
+) -> dict[str, dict[str, int]]:
+    """{period: {key: count}} for one kind, over the whole run or over `periods` only."""
     out: dict[str, dict[str, int]] = {}
-    for r in store.query(_counts_sql(kind, period), (store.run_id,)):
+    sql = _counts_sql(kind, period, len(periods))
+    for r in store.query(sql, (store.run_id, *periods)):
         if r["period"] is None:
             continue
         out.setdefault(str(r["period"]), {})[str(r["k"])] = int(r["n"])
@@ -152,7 +159,7 @@ def drift_report(
             raise ValueError(f"no decisions in {period} {x!r} of run {store.run_id}")
     kinds_out = {}
     for kind in kinds:
-        pc = period_counts(store, kind, period)
+        pc = period_counts(store, kind, period, (a, b))
         base_a = base_b = None
         if kind == "label":
             base_a, base_b = sum(pc.get(a, {}).values()), sum(pc.get(b, {}).values())
