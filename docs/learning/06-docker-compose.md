@@ -247,7 +247,7 @@ string. Compose also expands `$` inside values, so `hz.sh secrets` refuses such 
 The `alloy` service carries `profiles: [monitoring]`. `docker compose up -d` without
 `--profile monitoring` ignores it. The `profile` function in `scripts/hz.sh` looks for a
 non-empty `GCLOUD_RW_API_KEY` in `caselaw.env` and adds the flag only then. The stack can
-therefore run without a Grafana account. `docs/learning/grafana.md`, section 4.1, explains
+therefore run without a Grafana account. `docs/learning/12-grafana.md`, section 4.1, explains
 `privileged: true`, `pid: host` and the host mounts of the `alloy` service.
 
 ### 5.6 Named volumes and bind mounts

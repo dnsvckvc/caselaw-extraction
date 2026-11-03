@@ -394,4 +394,4 @@ output must show `caddy_http_requests_total` with `code="308"` and `code="200"`.
 | `infra/hetzner/cloud-init.yaml` | `/etc/caselaw/hosts.env` and the `ufw` rules |
 | `scripts/hz.sh` | `deploy` copies the site files and reloads Caddy; `smoke` and `measure` test over HTTPS |
 | `docs/report.md`, section 8.1 | the TLS and DNS rows of the deployment table |
-| `docs/learning/grafana.md` | the scrape of `caddy:2020` and the Caddy dashboard |
+| `docs/learning/12-grafana.md` | the scrape of `caddy:2020` and the Caddy dashboard |

@@ -197,7 +197,7 @@ and logs mask it (`infra/hetzner/alloy/config.alloy`). The file holds the same u
 repository. The one difference is `?sslmode=disable`. The container Postgres has no TLS, and
 the Go driver of the exporter would otherwise try to negotiate it. The exporter gives the
 PostgreSQL dashboard its connections, transactions, cache hit ratio and database size
-(report 8.3). `docs/learning/grafana.md` covers the dashboard side.
+(report 8.3). `docs/learning/12-grafana.md` covers the dashboard side.
 
 ### 4.6 Backups
 
