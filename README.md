@@ -99,6 +99,10 @@ serves both DuckDB over the Parquet run and Postgres. Results: `docs/report.md`,
 
 ## Deployment, monitoring, drift check (week 4)
 
+Learning notes, one per tool or layer (Terraform, Hetzner and cloud-init, Docker Compose, Caddy,
+Postgres, R2, secrets, FastAPI, Grafana, CI and the AWS design, Dask, MLflow and Label Studio,
+the extractors and their evaluation): [`docs/learning/`](docs/learning/README.md).
+
 Live: the API at <https://api.caselaw.inat.io/docs>, the report and the graph at
 <https://caselaw.inat.io>. One Hetzner server, created by Terraform (`infra/hetzner/`:
 server, firewall, SSH key, a Cloudflare R2 bucket, two DNS records at Njalla), running

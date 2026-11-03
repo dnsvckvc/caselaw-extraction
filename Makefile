@@ -1,4 +1,4 @@
-.PHONY: setup lint test ingest sample labelstudio-up labelstudio-down tasks predict-regex score score-silver train-spacy train-transformer llm-collect mlflow-ui gold-agreement gold-finalize link predict-transformer gold-round gold-round-agreement gold-round-finalize learning-curve run-corpus run-corpus-gbert graph compare-runs db-up db-down db-load api demo report-html
+.PHONY: setup lint test ingest sample labelstudio-up labelstudio-down tasks predict-regex score score-silver train-spacy train-transformer llm-collect mlflow-ui gold-agreement gold-finalize link predict-transformer gold-round gold-round-agreement gold-round-finalize learning-curve run-corpus run-corpus-gbert graph compare-runs db-up db-down db-load api demo report-html docker-build docker-run drift drift-series tf-init tf-plan tf-apply tf-destroy tf-validate aws-push aws-sync aws-load aws-deploy aws-smoke aws-measure aws-bootstrap
 
 setup:
 	uv sync --all-extras
@@ -122,6 +122,32 @@ demo:  ## the pipeline on a 100-decision sample without Postgres or cloud
 
 report-html:
 	uv run python scripts/build_report_html.py
+
+docker-build:  ## the API image (core dependencies only)
+	docker build -t caselaw-api:latest .
+
+docker-run:  ## the image against the local Postgres on :5433 (http://127.0.0.1:8000/docs)
+	docker run --rm -p 8000:8000 -e CASELAW_DSN=postgresql://caselaw:caselaw@host.docker.internal:5433/caselaw caselaw-api:latest
+
+drift:  ## usage: make drift A=2026-08 B=2026-09 [PERIOD=month|year] [RUN=regex-v0.4] [BACKEND=duckdb|postgres]
+	uv run caselaw drift --a "$(A)" --b "$(B)" --period $(or $(PERIOD),month) $(if $(RUN),--run $(RUN)) $(if $(BACKEND),--backend $(BACKEND))
+
+drift-series:  ## usage: make drift-series KIND=statute|bge|docket|code [PERIOD=month|year]
+	uv run caselaw drift --series --kind $(or $(KIND),statute) --period $(or $(PERIOD),month) $(if $(RUN),--run $(RUN)) $(if $(BACKEND),--backend $(BACKEND))
+
+# --- week 4: AWS stack (infra/terraform; validated, not applied) ---------------------------------
+tf-init:      ; terraform -chdir=infra/terraform init
+tf-plan:      ; terraform -chdir=infra/terraform plan
+tf-apply:     ; terraform -chdir=infra/terraform apply
+tf-destroy:   ; terraform -chdir=infra/terraform destroy
+tf-validate:  ; terraform -chdir=infra/terraform fmt -check -recursive && terraform -chdir=infra/terraform validate
+aws-push:     ; scripts/aws.sh push
+aws-sync:     ; scripts/aws.sh sync $(RUN)
+aws-load:     ; scripts/aws.sh load $(RUN)
+aws-deploy:   ; scripts/aws.sh deploy
+aws-smoke:    ; scripts/aws.sh smoke
+aws-measure:  ; scripts/aws.sh measure
+aws-bootstrap: ; scripts/aws.sh bootstrap $(RUN)
 
 # --- week 4: Hetzner + Cloudflare R2 + Njalla DNS (the deployment in use) --------------------------
 # Terraform credentials come from 1Password through `op run` (infra/hetzner/terraform.op.env).

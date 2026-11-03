@@ -54,7 +54,7 @@ runcmd:
   - systemctl enable --now docker
   # Secrets: directory readable by root and the caselaw group only; the files are bind-mounted
   # into the containers (Postgres reads its password as root before dropping privileges, the
-  # API reads the DSN as uid 1000, which is the caselaw group on the host).
+  # API reads the DSN as uid 1000 and joins the caselaw group through CASELAW_GID in hosts.env).
   - install -d -m 0750 -o root -g caselaw /etc/caselaw/secrets
   - sh -c 'umask 022; openssl rand -hex 24 > /etc/caselaw/secrets/postgres_password'
   - sh -c 'umask 022; printf "postgresql://caselaw:%s@postgres:5432/caselaw" "$(cat /etc/caselaw/secrets/postgres_password)" > /etc/caselaw/secrets/caselaw_dsn'
