@@ -12,6 +12,7 @@
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 HZ="$ROOT/infra/hetzner"
+export OP_BIOMETRIC_UNLOCK_ENABLED="${OP_BIOMETRIC_UNLOCK_ENABLED:-true}"  # 1Password app integration (Touch ID)
 KEY="${CASELAW_SSH_KEY:-$HOME/.ssh/caselaw-prod}"
 tf() { op run --env-file "$HZ/terraform.op.env" -- terraform -chdir="$HZ" "$@"; }
 out() { terraform -chdir="$HZ" output -raw "$1"; }
@@ -39,9 +40,12 @@ case "$cmd" in
   secrets)
     f="$HZ/runtime.secrets"
     [ -f "$f" ] || { echo "missing $f (copy runtime.secrets.example)" >&2; exit 1; }
-    grep -q '\$' "$f" && { echo "a value in $f contains \$, which Compose would expand" >&2; exit 1; }
-    sshc 'sudo install -m 0640 -o root -g caselaw /dev/stdin /etc/caselaw/caselaw.env' < "$f"
-    echo "wrote /etc/caselaw/caselaw.env ($(grep -c '=.\+' "$f") values set)" ;;
+    # op:// references are resolved by 1Password at send time, so no real value sits on this disk.
+    if grep -q 'op://' "$f"; then rendered=$(op inject -i "$f"); else rendered=$(cat "$f"); fi
+    grep -q 'op://' <<< "$rendered" && { echo "unresolved op:// reference in $f" >&2; exit 1; }
+    grep -v '^#' <<< "$rendered" | grep -q '\$' && { echo "a value in $f contains \$, which Compose would expand" >&2; exit 1; }
+    sshc 'sudo install -m 0640 -o root -g caselaw /dev/stdin /etc/caselaw/caselaw.env' <<< "$rendered"
+    echo "wrote /etc/caselaw/caselaw.env ($(grep -c '=.\+' <<< "$rendered") values set)" ;;
   deploy)
     rsync -az --delete -e "ssh ${SSH_OPTS[*]}" \
       --exclude .git --exclude .venv --exclude data --exclude models --exclude mlruns --exclude mlflow.db \
