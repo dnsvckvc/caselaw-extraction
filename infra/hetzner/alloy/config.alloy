@@ -156,7 +156,8 @@ discovery.relabel "containers" {
 loki.source.docker "containers" {
   host       = "unix:///var/run/docker.sock"
   targets    = discovery.relabel.containers.output
-  labels     = {host = "caselaw"}
+  // job/instance as the Grafana Docker integration expects them for its log panels.
+  labels     = {host = "caselaw", job = "integrations/docker", instance = "caselaw"}
   forward_to = [loki.write.cloud.receiver]
 }
 
