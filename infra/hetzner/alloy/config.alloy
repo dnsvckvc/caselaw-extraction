@@ -1,0 +1,99 @@
+// Grafana Alloy: host, container, Postgres and Caddy metrics to Grafana Cloud Prometheus,
+// every container's log to Grafana Cloud Loki. Credentials come from the environment
+// (GCLOUD_* in /etc/caselaw/caselaw.env), the Postgres DSN from a Compose secret file.
+
+prometheus.exporter.unix "host" {
+  rootfs_path = "/rootfs"
+  procfs_path = "/rootfs/proc"
+  sysfs_path  = "/rootfs/sys"
+  set_collectors = ["cpu", "meminfo", "filesystem", "loadavg", "netdev", "diskstats", "uname", "time"]
+  filesystem {
+    mount_points_exclude = "^/(rootfs/)?(dev|proc|run|sys|var/lib/docker/.+)($|/)"
+  }
+}
+
+prometheus.exporter.cadvisor "containers" {
+  docker_host      = "unix:///var/run/docker.sock"
+  storage_duration = "1m"
+}
+
+local.file "exporter_dsn" {
+  filename  = "/run/secrets/exporter_dsn"
+  is_secret = true
+}
+
+prometheus.exporter.postgres "db" {
+  data_source_names = [local.file.exporter_dsn.content]
+  autodiscovery {
+    enabled = false
+  }
+}
+
+prometheus.scrape "host" {
+  job_name        = "host"
+  targets         = prometheus.exporter.unix.host.targets
+  scrape_interval = "30s"
+  forward_to      = [prometheus.remote_write.cloud.receiver]
+}
+
+prometheus.scrape "containers" {
+  job_name        = "containers"
+  targets         = prometheus.exporter.cadvisor.containers.targets
+  scrape_interval = "30s"
+  forward_to      = [prometheus.remote_write.cloud.receiver]
+}
+
+prometheus.scrape "postgres" {
+  job_name        = "postgres"
+  targets         = prometheus.exporter.postgres.db.targets
+  scrape_interval = "30s"
+  forward_to      = [prometheus.remote_write.cloud.receiver]
+}
+
+prometheus.scrape "caddy" {
+  job_name        = "caddy"
+  targets         = [{"__address__" = "caddy:2019"}]
+  scrape_interval = "30s"
+  forward_to      = [prometheus.remote_write.cloud.receiver]
+}
+
+prometheus.remote_write "cloud" {
+  external_labels = {host = "caselaw"}
+  endpoint {
+    url = sys.env("GCLOUD_HOSTED_METRICS_URL")
+    basic_auth {
+      username = sys.env("GCLOUD_HOSTED_METRICS_ID")
+      password = sys.env("GCLOUD_RW_API_KEY")
+    }
+  }
+}
+
+discovery.docker "containers" {
+  host = "unix:///var/run/docker.sock"
+}
+
+discovery.relabel "containers" {
+  targets = discovery.docker.containers.targets
+  rule {
+    source_labels = ["__meta_docker_container_name"]
+    regex         = "/(.*)"
+    target_label  = "container"
+  }
+}
+
+loki.source.docker "containers" {
+  host       = "unix:///var/run/docker.sock"
+  targets    = discovery.relabel.containers.output
+  labels     = {host = "caselaw"}
+  forward_to = [loki.write.cloud.receiver]
+}
+
+loki.write "cloud" {
+  endpoint {
+    url = sys.env("GCLOUD_HOSTED_LOGS_URL")
+    basic_auth {
+      username = sys.env("GCLOUD_HOSTED_LOGS_ID")
+      password = sys.env("GCLOUD_RW_API_KEY")
+    }
+  }
+}

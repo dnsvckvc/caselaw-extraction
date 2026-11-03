@@ -487,13 +487,12 @@ def db_load_cmd(
     """Week 3: load a run (decisions, spans, citations, centrality) and the statute list into
     Postgres (`make db-up` starts it). Week 4: the same command runs as a Fargate task with
     `--runs-dir s3://<bucket>/runs` against RDS."""
-    import os
 
     from caselaw_extraction import db
     from caselaw_extraction.corpus_run import RUNS_DIR
-    from caselaw_extraction.store import DEFAULT_DSN
+    from caselaw_extraction.store import DEFAULT_DSN, dsn_from_env
 
-    dsn = dsn or os.environ.get("CASELAW_DSN") or DEFAULT_DSN
+    dsn = dsn or dsn_from_env() or DEFAULT_DSN
     counts = db.load_run(run, dsn, runs_dir or RUNS_DIR)
     n_statutes = db.load_statutes(load_code_map(), dsn) if statutes else 0
     rprint(f"[green]loaded[/green] run {run}: " + ", ".join(f"{k} {v}" for k, v in counts.items()))

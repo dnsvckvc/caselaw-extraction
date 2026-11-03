@@ -1,0 +1,30 @@
+# Two hosts, both with automatic Let's Encrypt certificates. Caddy's metrics endpoint on
+# :2019 (inside the Docker network only) gives the Grafana agent request counts, status codes
+# and latency histograms per host, the role the AWS load balancer metrics had.
+{
+    servers {
+        metrics
+    }
+}
+
+{$API_HOST} {
+    reverse_proxy api:8000 {
+        header_up X-Forwarded-Proto {scheme}
+    }
+    encode zstd gzip
+    header {
+        Strict-Transport-Security "max-age=31536000"
+        X-Content-Type-Options nosniff
+        Access-Control-Allow-Origin *
+    }
+}
+
+{$SITE_HOST} {
+    root * /srv/site
+    file_server
+    encode zstd gzip
+    header {
+        Strict-Transport-Security "max-age=31536000"
+        X-Content-Type-Options nosniff
+    }
+}

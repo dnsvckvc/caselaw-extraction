@@ -1,0 +1,61 @@
+#cloud-config
+# First boot of the caselaw server. Mirrors section 2.1 of the PodBrief runbook, as code:
+# user, Docker, firewall, unattended upgrades, and the two secret files that never leave the
+# machine (the Postgres password and the connection string built from it).
+package_update: true
+package_upgrade: true
+packages:
+  - docker.io
+  - docker-compose-v2
+  - ufw
+  - unattended-upgrades
+  - rclone
+  - rsync
+  - curl
+  - jq
+
+users:
+  - name: caselaw
+    groups: [sudo, docker]
+    shell: /bin/bash
+    sudo: "ALL=(ALL) NOPASSWD:ALL"
+    lock_passwd: true
+    ssh_authorized_keys:
+      - "${ssh_public_key}"
+
+ssh_pwauth: false
+
+write_files:
+  - path: /etc/caselaw/hosts.env
+    permissions: "0644"
+    content: |
+      SITE_HOST=${site_host}
+      API_HOST=${api_host}
+  - path: /etc/apt/apt.conf.d/52caselaw-unattended
+    permissions: "0644"
+    content: |
+      Unattended-Upgrade::Remove-Unused-Dependencies "true";
+      Unattended-Upgrade::Automatic-Reboot "true";
+      Unattended-Upgrade::Automatic-Reboot-Time "04:30";
+
+runcmd:
+  - ufw default deny incoming
+  - ufw default allow outgoing
+  - ufw allow 22/tcp
+  - ufw allow 80/tcp
+  - ufw allow 443/tcp
+  - ufw --force enable
+  - systemctl enable --now docker
+  # Secrets: directory readable by root and the caselaw group only; the files are bind-mounted
+  # into the containers (Postgres reads its password as root before dropping privileges, the
+  # API reads the DSN as uid 1000, which is the caselaw group on the host).
+  - install -d -m 0750 -o root -g caselaw /etc/caselaw/secrets
+  - sh -c 'umask 022; openssl rand -hex 24 > /etc/caselaw/secrets/postgres_password'
+  - sh -c 'umask 022; printf "postgresql://caselaw:%s@postgres:5432/caselaw" "$(cat /etc/caselaw/secrets/postgres_password)" > /etc/caselaw/secrets/caselaw_dsn'
+  - sh -c 'umask 022; printf "postgresql://caselaw:%s@postgres:5432/caselaw?sslmode=disable" "$(cat /etc/caselaw/secrets/postgres_password)" > /etc/caselaw/secrets/exporter_dsn'
+  - chmod 0640 /etc/caselaw/secrets/*
+  - chgrp caselaw /etc/caselaw/secrets/*
+  - install -m 0640 -o root -g caselaw /dev/null /etc/caselaw/caselaw.env
+  - install -d -m 0755 -o caselaw -g caselaw /opt/caselaw /opt/caselaw/site /var/lib/caselaw /var/lib/caselaw/runs /var/lib/caselaw/backups
+  - dpkg-reconfigure -f noninteractive unattended-upgrades
+  - touch /etc/caselaw/.provisioned

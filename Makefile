@@ -122,3 +122,19 @@ demo:  ## the pipeline on a 100-decision sample without Postgres or cloud
 
 report-html:
 	uv run python scripts/build_report_html.py
+
+# --- week 4: Hetzner + Cloudflare R2 + Njalla DNS (the deployment in use) --------------------------
+# Terraform credentials come from 1Password through `op run` (infra/hetzner/terraform.op.env).
+hz-init:      ; scripts/hz.sh init
+hz-plan:      ; scripts/hz.sh plan
+hz-apply:     ; scripts/hz.sh apply
+hz-destroy:   ; scripts/hz.sh destroy
+hz-secrets:   ; scripts/hz.sh secrets
+hz-deploy:    ; scripts/hz.sh deploy
+hz-sync:      ; scripts/hz.sh sync $(RUN)
+hz-load:      ; scripts/hz.sh load $(RUN)
+hz-smoke:     ; scripts/hz.sh smoke
+hz-measure:   ; scripts/hz.sh measure
+hz-status:    ; scripts/hz.sh status
+hz-ssh:       ; scripts/hz.sh ssh
+hz-bootstrap: ; scripts/hz.sh bootstrap $(RUN)

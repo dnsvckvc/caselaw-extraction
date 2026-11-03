@@ -1,0 +1,104 @@
+# Production stack on the Hetzner server. Run from /opt/caselaw/repo/infra/hetzner as the
+# `caselaw` user:
+#   docker compose --env-file /etc/caselaw/caselaw.env --env-file /etc/caselaw/hosts.env up -d
+# scripts/hz.sh wraps every command. Secrets reach the containers as files (Compose secrets),
+# not as environment variables; the two files were generated on the server by cloud-init.
+# The Grafana agent runs only with `--profile monitoring`, when the GCLOUD_* values exist.
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: caselaw
+      POSTGRES_DB: caselaw
+      POSTGRES_PASSWORD_FILE: /run/secrets/postgres_password
+    secrets: [postgres_password]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U caselaw -d caselaw"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: ../..
+      dockerfile: Dockerfile
+    image: caselaw-api:latest
+    restart: unless-stopped
+    environment:
+      CASELAW_BACKEND: postgres
+      CASELAW_RUN: ${CASELAW_RUN:-regex-v0.4}
+      CASELAW_DSN_FILE: /run/secrets/caselaw_dsn
+      # The loader may read a run from R2: `caselaw db-load --runs-dir s3://caselaw-runs/runs`.
+      AWS_ACCESS_KEY_ID: ${R2_ACCESS_KEY_ID:-}
+      AWS_SECRET_ACCESS_KEY: ${R2_SECRET_ACCESS_KEY:-}
+      AWS_ENDPOINT_URL_S3: ${R2_ENDPOINT:-}
+      AWS_REGION: auto
+    secrets: [caselaw_dsn]
+    volumes:
+      - /var/lib/caselaw/runs:/data/runs:ro
+    depends_on:
+      postgres: { condition: service_healthy }
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://localhost:8000/health', timeout=3).status == 200 else 1)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      SITE_HOST: ${SITE_HOST:?SITE_HOST required}
+      API_HOST: ${API_HOST:?API_HOST required}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - /opt/caselaw/site:/srv/site:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      api: { condition: service_healthy }
+
+  alloy:
+    image: grafana/alloy:v1.10.0
+    profiles: [monitoring]
+    restart: unless-stopped
+    command: ["run", "--server.http.listen-addr=127.0.0.1:12345", "--storage.path=/var/lib/alloy/data", "/etc/alloy/config.alloy"]
+    environment:
+      GCLOUD_HOSTED_METRICS_URL: ${GCLOUD_HOSTED_METRICS_URL:?}
+      GCLOUD_HOSTED_METRICS_ID: ${GCLOUD_HOSTED_METRICS_ID:?}
+      GCLOUD_HOSTED_LOGS_URL: ${GCLOUD_HOSTED_LOGS_URL:?}
+      GCLOUD_HOSTED_LOGS_ID: ${GCLOUD_HOSTED_LOGS_ID:?}
+      GCLOUD_RW_API_KEY: ${GCLOUD_RW_API_KEY:?}
+    secrets: [exporter_dsn]
+    volumes:
+      - ./alloy/config.alloy:/etc/alloy/config.alloy:ro
+      - alloy_data:/var/lib/alloy/data
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /:/rootfs:ro
+      - /sys:/sys:ro
+      - /var/lib/docker:/var/lib/docker:ro
+    privileged: true # cAdvisor needs cgroup access; the container has no exposed port
+    pid: host
+    depends_on: [caddy]
+
+secrets:
+  postgres_password:
+    file: /etc/caselaw/secrets/postgres_password
+  caselaw_dsn:
+    file: /etc/caselaw/secrets/caselaw_dsn
+  exporter_dsn:
+    file: /etc/caselaw/secrets/exporter_dsn
+
+volumes:
+  pgdata:
+  caddy_data:
+  caddy_config:
+  alloy_data:

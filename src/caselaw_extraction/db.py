@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import io
 import json
+import os
 from pathlib import Path
 from typing import Any
 
@@ -107,6 +108,15 @@ def _copy_rows(cur, table: str, columns: list[str], rows: list[tuple]) -> int:
 def open_run(runs_dir: Path | str, name: str) -> tuple[pafs.FileSystem, str]:
     """Filesystem and base path of `<runs_dir>/<name>`: a local directory or `s3://bucket/prefix`."""
     uri = f"{str(runs_dir).rstrip('/')}/{name}"
+    if uri.startswith("s3://"):
+        # An S3-compatible store (Cloudflare R2, MinIO) is selected by AWS_ENDPOINT_URL_S3 or
+        # AWS_ENDPOINT_URL, as the AWS CLI does; credentials come from the usual AWS variables.
+        endpoint = os.environ.get("AWS_ENDPOINT_URL_S3") or os.environ.get("AWS_ENDPOINT_URL")
+        if endpoint:
+            fs = pafs.S3FileSystem(
+                endpoint_override=endpoint, region=os.environ.get("AWS_REGION", "auto")
+            )
+            return fs, uri[len("s3://") :].rstrip("/")
     if "://" in uri:
         fs, base = pafs.FileSystem.from_uri(uri)
         return fs, base.rstrip("/")

@@ -100,17 +100,25 @@ def _extractor_of(run_dir: Path) -> str:
     return json.loads(meta.read_text())["extractor"] if meta.exists() else "unknown"
 
 
+def dsn_from_env() -> str | None:
+    """`CASELAW_DSN`, else the content of the file named by `CASELAW_DSN_FILE` (a Compose or
+    Docker secret, so the connection string is not in the environment), else None."""
+    if os.environ.get("CASELAW_DSN"):
+        return os.environ["CASELAW_DSN"]
+    path = os.environ.get("CASELAW_DSN_FILE")
+    if path:
+        return Path(path).read_text().strip()
+    return None
+
+
 def open_store(backend: str | None = None, run: str | None = None, dsn: str | None = None) -> Store:
     """Pick the backend from the arguments, else from `CASELAW_BACKEND`, `CASELAW_RUN` and
-    `CASELAW_DSN` (and `CASELAW_RUNS_DIR` for the Parquet runs); without any of them, DuckDB
-    over `data/runs/regex-v0.4`."""
-    backend = (
-        backend
-        or os.environ.get("CASELAW_BACKEND")
-        or ("postgres" if os.environ.get("CASELAW_DSN") else "duckdb")
-    )
+    `CASELAW_DSN` / `CASELAW_DSN_FILE` (and `CASELAW_RUNS_DIR` for the Parquet runs); without
+    any of them, DuckDB over `data/runs/regex-v0.4`."""
+    env_dsn = dsn_from_env()
+    backend = backend or os.environ.get("CASELAW_BACKEND") or ("postgres" if env_dsn else "duckdb")
     run = run or os.environ.get("CASELAW_RUN") or "regex-v0.4"
     if backend == "postgres":
-        return PostgresStore(dsn or os.environ.get("CASELAW_DSN") or DEFAULT_DSN, run)
+        return PostgresStore(dsn or env_dsn or DEFAULT_DSN, run)
     runs_dir = Path(os.environ.get("CASELAW_RUNS_DIR") or RUNS_DIR)
     return DuckDBStore(runs_dir / run)

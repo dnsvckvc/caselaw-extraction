@@ -24,3 +24,9 @@ infra/terraform/*.tfstate.*
 infra/terraform/*.tfplan
 infra/terraform/*.tfvars
 !infra/terraform/terraform.tfvars.example
+infra/hetzner/terraform.env
+infra/hetzner/runtime.secrets
+infra/hetzner/.terraform/
+infra/hetzner/*.tfstate
+infra/hetzner/*.tfstate.*
+caselaw.env
