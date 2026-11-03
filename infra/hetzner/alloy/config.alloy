@@ -79,6 +79,28 @@ discovery.relabel "caddy" {
   }
 }
 
+// Alloy's own metrics: the Grafana "Test Alloy connection" step looks for alloy_build_info
+// with job="integrations/alloy"; the Alloy health dashboard uses the same series.
+prometheus.exporter.self "alloy" {}
+
+discovery.relabel "alloy" {
+  targets = prometheus.exporter.self.alloy.targets
+  rule {
+    target_label = "job"
+    replacement  = "integrations/alloy"
+  }
+  rule {
+    target_label = "instance"
+    replacement  = "caselaw"
+  }
+}
+
+prometheus.scrape "alloy" {
+  targets         = discovery.relabel.alloy.output
+  scrape_interval = "60s"
+  forward_to      = [prometheus.remote_write.cloud.receiver]
+}
+
 prometheus.scrape "host" {
   job_name        = "host"
   targets         = discovery.relabel.host.output
