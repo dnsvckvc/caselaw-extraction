@@ -58,4 +58,5 @@ runcmd:
   - install -m 0640 -o root -g caselaw /dev/null /etc/caselaw/caselaw.env
   - install -d -m 0755 -o caselaw -g caselaw /opt/caselaw /opt/caselaw/site /var/lib/caselaw /var/lib/caselaw/runs /var/lib/caselaw/backups
   - dpkg-reconfigure -f noninteractive unattended-upgrades
+  - sh -c 'printf "CASELAW_GID=%s\n" "$(getent group caselaw | cut -d: -f3)" >> /etc/caselaw/hosts.env'
   - touch /etc/caselaw/.provisioned

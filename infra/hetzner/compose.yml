@@ -38,6 +38,9 @@ services:
       AWS_ENDPOINT_URL_S3: ${R2_ENDPOINT:-}
       AWS_REGION: auto
     secrets: [caselaw_dsn]
+    # The image runs as uid 1000; the secret files belong to the host group `caselaw`, whose
+    # gid cloud-init writes into hosts.env.
+    group_add: ["${CASELAW_GID:-1001}"]
     volumes:
       - /var/lib/caselaw/runs:/data/runs:ro
     depends_on:
@@ -72,11 +75,11 @@ services:
     restart: unless-stopped
     command: ["run", "--server.http.listen-addr=127.0.0.1:12345", "--storage.path=/var/lib/alloy/data", "/etc/alloy/config.alloy"]
     environment:
-      GCLOUD_HOSTED_METRICS_URL: ${GCLOUD_HOSTED_METRICS_URL:?}
-      GCLOUD_HOSTED_METRICS_ID: ${GCLOUD_HOSTED_METRICS_ID:?}
-      GCLOUD_HOSTED_LOGS_URL: ${GCLOUD_HOSTED_LOGS_URL:?}
-      GCLOUD_HOSTED_LOGS_ID: ${GCLOUD_HOSTED_LOGS_ID:?}
-      GCLOUD_RW_API_KEY: ${GCLOUD_RW_API_KEY:?}
+      GCLOUD_HOSTED_METRICS_URL: ${GCLOUD_HOSTED_METRICS_URL:-}
+      GCLOUD_HOSTED_METRICS_ID: ${GCLOUD_HOSTED_METRICS_ID:-}
+      GCLOUD_HOSTED_LOGS_URL: ${GCLOUD_HOSTED_LOGS_URL:-}
+      GCLOUD_HOSTED_LOGS_ID: ${GCLOUD_HOSTED_LOGS_ID:-}
+      GCLOUD_RW_API_KEY: ${GCLOUD_RW_API_KEY:-}
     secrets: [exporter_dsn]
     volumes:
       - ./alloy/config.alloy:/etc/alloy/config.alloy:ro

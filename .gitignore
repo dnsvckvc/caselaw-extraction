@@ -30,3 +30,4 @@ infra/hetzner/.terraform/
 infra/hetzner/*.tfstate
 infra/hetzner/*.tfstate.*
 caselaw.env
+infra/hetzner/*.tfplan

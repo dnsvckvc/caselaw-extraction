@@ -131,10 +131,13 @@ def load_code_map(cache: Path = CACHE, refresh: bool = False) -> dict[str, str]:
     if refresh or not cache.exists():
         try:
             fedlex = fetch_abbreviations()
-            cache.parent.mkdir(parents=True, exist_ok=True)
-            cache.write_text(json.dumps(fedlex, ensure_ascii=False, indent=1))
         except httpx.HTTPError:
             fedlex = {}
+        try:
+            cache.parent.mkdir(parents=True, exist_ok=True)
+            cache.write_text(json.dumps(fedlex, ensure_ascii=False, indent=1))
+        except OSError:
+            pass  # read-only working directory (the API image); the cache is a convenience
     else:
         fedlex = json.loads(cache.read_text())
     merged = {k: v["sr"] for k, v in fedlex.items()}
