@@ -2,6 +2,8 @@
 # Nightly backup on the server (installed as /etc/cron.d/caselaw-backup by scripts/hz.sh):
 # pg_dump of the database and a copy of the run Parquet to the R2 bucket, 14 days retention.
 # rclone is configured through environment variables, so no rclone.conf exists on disk.
+# --s3-no-head: R2 returns a version id on PUT and rclone 1.60 (Ubuntu 24.04) then sends
+# HEAD ?versionId=..., which R2 answers with 501. The upload itself is verified by Content-MD5.
 # Optional: BACKUP_HEALTHCHECKS_URL in /etc/caselaw/caselaw.env pings healthchecks.io.
 set -euo pipefail
 ENV_FILE=/etc/caselaw/caselaw.env
@@ -17,8 +19,8 @@ hc /start
 stamp=$(date -u +%Y%m%dT%H%M%SZ)
 out=/var/lib/caselaw/backups/caselaw-$stamp.dump
 "${COMPOSE[@]}" exec -T postgres pg_dump -U caselaw -Fc caselaw > "$out"
-rclone copy "$out" "r2:$R2_BUCKET/backups/" --s3-no-check-bucket
-rclone sync /var/lib/caselaw/runs "r2:$R2_BUCKET/runs/" --s3-no-check-bucket
+rclone copy "$out" "r2:$R2_BUCKET/backups/" --s3-no-check-bucket --s3-no-head
+rclone sync /var/lib/caselaw/runs "r2:$R2_BUCKET/runs/" --s3-no-check-bucket --s3-no-head
 rclone delete "r2:$R2_BUCKET/backups/" --min-age 14d
 find /var/lib/caselaw/backups -name '*.dump' -mtime +3 -delete
 echo "backup ok $stamp $(du -h "$out" | cut -f1)"
