@@ -29,30 +29,80 @@ prometheus.exporter.postgres "db" {
   }
 }
 
+// Job and instance labels follow the Grafana Cloud integrations (Linux Server, Docker,
+// PostgreSQL, Caddy), so their "Test connection", dashboards and alert rules match.
+discovery.relabel "host" {
+  targets = prometheus.exporter.unix.host.targets
+  rule {
+    target_label = "job"
+    replacement  = "integrations/node_exporter"
+  }
+  rule {
+    target_label = "instance"
+    replacement  = "caselaw"
+  }
+}
+
+discovery.relabel "cadvisor" {
+  targets = prometheus.exporter.cadvisor.containers.targets
+  rule {
+    target_label = "job"
+    replacement  = "integrations/docker"
+  }
+  rule {
+    target_label = "instance"
+    replacement  = "caselaw"
+  }
+}
+
+discovery.relabel "postgres" {
+  targets = prometheus.exporter.postgres.db.targets
+  rule {
+    target_label = "job"
+    replacement  = "integrations/postgres_exporter"
+  }
+  rule {
+    target_label = "instance"
+    replacement  = "caselaw"
+  }
+}
+
+discovery.relabel "caddy" {
+  targets = [{"__address__" = "caddy:2019"}]
+  rule {
+    target_label = "job"
+    replacement  = "integrations/caddy"
+  }
+  rule {
+    target_label = "instance"
+    replacement  = "caselaw"
+  }
+}
+
 prometheus.scrape "host" {
   job_name        = "host"
-  targets         = prometheus.exporter.unix.host.targets
+  targets         = discovery.relabel.host.output
   scrape_interval = "30s"
   forward_to      = [prometheus.remote_write.cloud.receiver]
 }
 
 prometheus.scrape "containers" {
   job_name        = "containers"
-  targets         = prometheus.exporter.cadvisor.containers.targets
+  targets         = discovery.relabel.cadvisor.output
   scrape_interval = "30s"
   forward_to      = [prometheus.remote_write.cloud.receiver]
 }
 
 prometheus.scrape "postgres" {
   job_name        = "postgres"
-  targets         = prometheus.exporter.postgres.db.targets
+  targets         = discovery.relabel.postgres.output
   scrape_interval = "30s"
   forward_to      = [prometheus.remote_write.cloud.receiver]
 }
 
 prometheus.scrape "caddy" {
   job_name        = "caddy"
-  targets         = [{"__address__" = "caddy:2019"}]
+  targets         = discovery.relabel.caddy.output
   scrape_interval = "30s"
   forward_to      = [prometheus.remote_write.cloud.receiver]
 }

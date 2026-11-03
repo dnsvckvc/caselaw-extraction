@@ -26,6 +26,12 @@ users:
 ssh_pwauth: false
 
 write_files:
+  # Classic overlay2 graph driver instead of the containerd image store (Docker >= 29 default):
+  # cAdvisor (Grafana Alloy) reads the container layer ids from /var/lib/docker/image/overlay2.
+  - path: /etc/docker/daemon.json
+    permissions: "0644"
+    content: |
+      {"features": {"containerd-snapshotter": false}, "storage-driver": "overlay2"}
   - path: /etc/caselaw/hosts.env
     permissions: "0644"
     content: |
