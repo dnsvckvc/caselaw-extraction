@@ -18,6 +18,7 @@ dependencies = [
     "fastapi>=0.115",
     "uvicorn>=0.30",
     "networkx>=3.3",
+    "scipy>=1.14",  # networkx pagerank (graph.py) has no pure-Python path in 3.x
     "pyvis>=0.3.2",
 ]
 

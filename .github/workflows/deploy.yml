@@ -34,7 +34,7 @@ jobs:
           aws-region: ${{ env.AWS_REGION }}
       - id: ecr
         uses: aws-actions/amazon-ecr-login@v2
-      - name: Build and push (tags: git sha and latest)
+      - name: "Build and push (tags: git sha and latest)"
         env:
           REGISTRY: ${{ steps.ecr.outputs.registry }}
         run: |
