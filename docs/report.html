@@ -98,7 +98,7 @@ footer { grid-column: 1 / -1; border-top: 1px solid var(--rule); margin-top: 24p
 <header class="masthead">
   <p class="eyebrow">Project 1 of 4 · report</p>
   <h1>Project 1: Case-Law Extraction Pipeline — report</h1>
-  <p class="status">weeks 1 to 4 complete except the recording. Week 1: corpus of 7,999 decisions, schema, Label Studio, first gold batch. Week 2: gold set of 350 decisions over three batches (guideline v0.3, nine classes), five extractors compared, entity-linking stage, learning curve, models retrained on 260 decisions. Week 3 (2026-10-28): full-corpus run under Dask, Postgres, citation graph with the three headline analyses, FastAPI service, regex graph compared with the gbert graph. Week 4 (2026-11-03): drift check, API image, deployment on one Hetzner server with Terraform (API at <code>https://api.caselaw.inat.io</code>, this report at <code>https://caselaw.inat.io</code>), monitoring and backups prepared; the AWS stack validated as the second target (section 8). Last updated 2026-11-03.</p>
+  <p class="status">weeks 1 to 4 complete except the recording. Week 1: corpus of 7,999 decisions, schema, Label Studio, first gold batch. Week 2: gold set of 350 decisions over three batches (guideline v0.3, nine classes), five extractors compared, entity-linking stage, learning curve, models retrained on 260 decisions. Week 3 (2026-10-28): full-corpus run under Dask, Postgres, citation graph with the three headline analyses, FastAPI service, regex graph compared with the gbert graph. Week 4 (2026-11-03): drift check, API image, deployment on one Hetzner server with Terraform (API at <code>https://api.caselaw.inat.io</code>, this report at <code>https://caselaw.inat.io</code>), nightly backups to Cloudflare R2 and Grafana Cloud monitoring in operation since 2026-11-03; the AWS stack validated as the second target (section 8). Last updated 2026-11-04.</p>
 </header>
 <nav class="toc" aria-label="Contents"><p class="eyebrow">Contents</p><ol><li><a href="#management-summary">Management summary</a><ol><li><a href="#what-was-built">What was built</a></li><li><a href="#results">Results</a></li><li><a href="#decision">Decision</a></li><li><a href="#key-figures">Key figures</a></li><li><a href="#risks-and-limits">Risks and limits</a></li><li><a href="#next-step">Next step</a></li></ol></li><li><a href="#1-problem">1. Problem</a></li><li><a href="#2-data">2. Data</a><ol><li><a href="#data-quality-findings-week-1">Data-quality findings (week 1)</a></li></ol></li><li><a href="#3-architecture">3. Architecture</a></li><li><a href="#4-gold-set">4. Gold set</a><ol><li><a href="#how-batch-1-was-labelled-model-labelled-three-passes-adjudicated">How batch 1 was labelled (model-labelled, three passes, adjudicated)</a></li><li><a href="#batch-2-week-2-held-out">Batch 2 (week 2, held out)</a></li><li><a href="#guideline-v02-round-2026-10-23-four-negative-classes-on-both-batches">Guideline v0.2 round (2026-10-23): four negative classes on both batches</a></li><li><a href="#guideline-v03-round-2026-10-2324-short-bge-citations-and-written-out-forms">Guideline v0.3 round (2026-10-23/24): short BGE citations and written-out forms</a></li><li><a href="#batch-3-2026-10-25-to-2026-10-28-200-decisions-half-of-them-targeted">Batch 3 (2026-10-25 to 2026-10-28): 200 decisions, half of them targeted</a></li></ol></li><li><a href="#5-extractors-compared">5. Extractors compared</a></li><li><a href="#6-results">6. Results</a><ol><li><a href="#61-regex-extractor-coverage-on-the-full-corpus-week-1-not-yet-scored-against-gold">6.1 Regex extractor coverage on the full corpus (week 1, not yet scored against gold)</a></li><li><a href="#62-regex-v01-the-pre-annotator-against-batch-1-gold">6.2 Regex v0.1 (the pre-annotator) against batch 1 gold</a></li><li><a href="#63-regex-v02-against-batch-1-gold-development-set-tuned-on-it">6.3 Regex v0.2 against batch 1 gold (development set, tuned on it)</a></li><li><a href="#64-regex-v02-on-batch-2-held-out">6.4 Regex v0.2 on batch 2 (held out)</a></li><li><a href="#65-all-extractors-on-batch-2-held-out">6.5 All extractors on batch 2 (held out)</a></li><li><a href="#66-regex-v03-what-batch-2-taught-the-rules-not-held-out">6.6 Regex v0.3: what batch 2 taught the rules (not held out)</a></li><li><a href="#67-what-the-learned-models-would-need-to-beat-the-rules">6.7 What the learned models would need to beat the rules</a></li><li><a href="#68-entity-linking-every-extractor-before-and-after-batch-2-held-out">6.8 Entity linking: every extractor before and after (batch 2, held out)</a></li><li><a href="#69-decoding-argmax-vs-bio-constrained-viterbi-gbert-batch-2">6.9 Decoding: argmax vs BIO-constrained Viterbi (gbert, batch 2)</a></li><li><a href="#610-guideline-v02-do-the-models-learn-the-negative-classes-batch-2-one-seed">6.10 Guideline v0.2: do the models learn the negative classes? (batch 2, one seed)</a></li><li><a href="#611-everything-re-scored-on-gold-v03-batch-2-2026-10-24">6.11 Everything re-scored on gold v0.3 (batch 2, 2026-10-24)</a></li><li><a href="#612-learning-curve-how-much-gold-do-the-span-models-need-2026-10-2425">6.12 Learning curve: how much gold do the span models need? (2026-10-24/25)</a></li><li><a href="#613-trained-on-260-decisions-batches-1-and-3-against-batch-2-2026-10-28">6.13 Trained on 260 decisions: batches 1 and 3 against batch 2 (2026-10-28)</a></li></ol></li><li><a href="#7-full-corpus-run-and-citation-graph-week-3-2026-10-28">7. Full-corpus run and citation graph (week 3, 2026-10-28)</a><ol><li><a href="#71-the-run">7.1 The run</a></li><li><a href="#72-postgres">7.2 Postgres</a></li><li><a href="#73-the-citation-graph-and-the-three-headline-analyses">7.3 The citation graph and the three headline analyses</a></li><li><a href="#74-the-api">7.4 The API</a></li><li><a href="#75-cost-of-the-full-corpus-run">7.5 Cost of the full-corpus run</a></li><li><a href="#76-regex-graph-against-gbert-graph-what-the-rules-lose">7.6 Regex graph against gbert graph: what the rules lose</a></li></ol></li><li><a href="#8-deployment-and-monitoring-week-4-2026-11-03">8. Deployment and monitoring (week 4, 2026-11-03)</a><ol><li><a href="#81-what-runs-where">8.1 What runs where</a></li><li><a href="#82-measured-on-the-deployment">8.2 Measured on the deployment</a></li><li><a href="#83-monitoring-alarms-and-backups">8.3 Monitoring, alarms and backups</a></li><li><a href="#84-drift-check">8.4 Drift check</a></li><li><a href="#85-cost">8.5 Cost</a></li><li><a href="#86-the-aws-design-written-and-validated-not-applied">8.6 The AWS design (written and validated, not applied)</a></li></ol></li><li><a href="#9-what-did-not-work">9. What did not work</a></li><li><a href="#10-next-steps">10. Next steps</a><ol><li><a href="#previous-next-steps-week-4-plan-of-2026-10-28">Previous next steps (week 4 plan of 2026-10-28)</a></li><li><a href="#previous-next-steps-week-3-done">Previous next steps (week 3, done)</a></li><li><a href="#previous-next-steps-week-2-done">Previous next steps (week 2, done)</a></li></ol></li></ol></nav>
 <main>
@@ -2372,22 +2372,36 @@ now keeps the aggregate results in the process (a 512-entry LRU keyed by backend
 parameters), sends <code>Cache-Control: public, max-age=3600</code>, and fills the four default views
 at startup; the warm column is the result. The drift report dropped from 2.9 seconds to 0.3
 by counting only the two periods under comparison instead of all 81 months.</p>
-<p>Resources after the load: the API container uses 213 MB, Postgres 178 MB, Caddy 19 MB; the
+<p>Resources after the load: the API container uses 213 MB, Postgres 178 MB, Caddy 19 MB (with monitoring on, 2026-11-04: API 281 MB, Postgres 220 MB, Alloy 132 MB, Caddy 16 MB; 1.2 GB of 3.8 GB in use, 13 of 38 GB disk); the
 server has 980 MB of 3.8 GB in use and 7 GB of 38 GB on disk. The image built for x86 is
 965 MB against 211 MB on the laptop&rsquo;s ARM build, because the x86 wheels of pyarrow (156 MB),
 polars (179 MB) and DuckDB (58 MB) bundle their libraries; polars and DuckDB are not needed
 by the API against Postgres and are a slimming item in section 10.</p>
 <h3 id="83-monitoring-alarms-and-backups">8.3 Monitoring, alarms and backups</h3>
 <p>What the AWS design got from the load balancer, ECS and RDS, the server gets from one Grafana
-Alloy container that ships to Grafana Cloud&rsquo;s free tier: host CPU, memory, disk and network
-(<code>node_exporter</code> collectors), container CPU and memory (cAdvisor), Postgres connections,
-transactions, cache hits and database size (<code>postgres_exporter</code>, reading the DSN from a secret
-file), and Caddy&rsquo;s request counts, status codes and latency histograms per host, which is
-exactly the role of the balancer metrics. Every container&rsquo;s log goes to Loki. The agent is
-configured (<code>infra/hetzner/alloy/config.alloy</code>) and starts with <code>--profile monitoring</code> as
-soon as the Grafana Cloud credentials are in the env file; at the time of writing the
-account is not created yet, so the dashboard and the alert rules below are the plan, not a
-screenshot.</p>
+Alloy container (<code>infra/hetzner/alloy/config.alloy</code>) that ships to Grafana Cloud&rsquo;s free tier
+in Frankfurt: host CPU, memory, disk and network (<code>node_exporter</code> collectors), container CPU
+and memory (cAdvisor), Postgres connections, transactions, cache hits and database size
+(<code>postgres_exporter</code>, reading the DSN from a secret file), Caddy&rsquo;s request counts, status codes
+and latency histograms (the role of the balancer metrics), Alloy&rsquo;s own health, and every
+container&rsquo;s log to Loki. The agent starts with <code>--profile monitoring</code> once the Grafana Cloud
+credentials are in the env file. It has run since 2026-11-03; the Grafana integrations for
+Linux, Docker, PostgreSQL and Caddy are installed, and their dashboards show the server
+(<code>docs/learning/12-grafana.md</code> walks through the setup and the dashboards).</p>
+<p>Getting there took four fixes that a reader with the same stack will meet. The Grafana
+integrations select data by fixed <code>job</code> labels (<code>integrations/node_exporter</code>,
+<code>integrations/docker</code>, &hellip;), so the Alloy config relabels every target to those names and to
+<code>instance=caselaw</code>; before that the data arrived and the dashboards stayed empty. Docker 29
+stores images with the containerd image store by default, and cAdvisor cannot find the
+container layers there, so the server runs Docker on the classic <code>overlay2</code> driver
+(<code>/etc/docker/daemon.json</code>, now in cloud-init). Caddy serves its metrics on the admin
+endpoint, which binds to localhost inside the container, so the Caddyfile has a metrics-only
+site on <code>:2020</code>. And Compose bind-mounts the Caddyfile and the Alloy config as single files,
+which follow the inode: rsync must write in place, and the deploy reloads Caddy and restarts
+Alloy, because <code>compose up -d</code> does not notice a changed file.</p>
+<p>The alert rules are in <code>infra/hetzner/grafana/alert-rules.yml</code>, Prometheus rule-file format,
+imported into Grafana as managed rules (<code>infra/hetzner/grafana/README.md</code> gives the steps and
+the contact point). The metric names were read from the live exporters.</p>
 <div class="tw"><table>
 <thead>
 <tr>
@@ -2398,18 +2412,23 @@ screenshot.</p>
 </thead>
 <tbody>
 <tr>
+<td>server unreachable</td>
+<td>no <code>alloy_build_info</code> for 5 minutes</td>
+<td>Alloy self-metrics</td>
+</tr>
+<tr>
 <td>API down</td>
-<td>Caddy reports no 2xx for 3 minutes, or the probe of <code>/health</code> fails</td>
-<td>Caddy metrics, Grafana synthetic check</td>
+<td>cAdvisor has not seen the API container for 2 minutes, or Caddy&rsquo;s metrics are down</td>
+<td>cAdvisor, Caddy</td>
 </tr>
 <tr>
 <td>5xx</td>
-<td>5 or more 5xx responses in 5 minutes</td>
+<td>5 or more 5xx responses through the reverse proxy in 5 minutes</td>
 <td>Caddy metrics</td>
 </tr>
 <tr>
 <td>latency</td>
-<td>p95 of the API host above 1 s in 2 of 3 five-minute windows</td>
+<td>p95 of proxied requests above 1 s for 10 minutes</td>
 <td>Caddy histogram</td>
 </tr>
 <tr>
@@ -2424,7 +2443,7 @@ screenshot.</p>
 </tr>
 <tr>
 <td>database</td>
-<td><code>pg_up</code> 0, or connections above 40</td>
+<td><code>pg_up</code> 0, or more than 40 connections</td>
 <td>postgres exporter</td>
 </tr>
 <tr>
@@ -2434,11 +2453,19 @@ screenshot.</p>
 </tr>
 </tbody>
 </table></div>
+<p>The nightly backup (<code>infra/hetzner/backup.sh</code>, cron at 03:30) dumps the database with
+<code>pg_dump -Fc</code> (19 MB), copies the dump and the run Parquet to the R2 bucket <code>caselaw-runs</code>
+with rclone configured from environment variables, so no rclone configuration file holds a
+key, and keeps 14 days of dumps. The server holds a scoped R2 key with object rights on that
+one bucket; the account token that created the bucket stays in 1Password. The first runs on
+2026-11-03 showed one trap: R2 returns a version id on every upload, and the rclone that
+Ubuntu 24.04 ships (1.60) then verifies the object with <code>HEAD ?versionId=</code>, which R2 answers
+with 501, so every upload was reported as failed and retried although it was stored.
+<code>--s3-no-head</code> removes the check; <code>Content-MD5</code> still verifies the upload. Two dumps and both
+runs are in the bucket.</p>
 <p>Without the agent the server still has: Compose health checks on Postgres and the API with
 <code>restart: unless-stopped</code>, Caddy&rsquo;s own certificate renewal, unattended security upgrades, and
-the nightly backup cron, which needs the scoped R2 key and runs as soon as it is set. The
-backup copies the dump and the run Parquet with rclone configured from environment variables,
-so no rclone configuration file holds a key.</p>
+the backup cron.</p>
 <h3 id="84-drift-check">8.4 Drift check</h3>
 <p><code>caselaw drift</code> (<code>drift.py</code>; <code>GET /drift</code>, <code>GET /drift/series</code>) compares the
 entity-frequency distributions of two periods of decision dates, months or years. For the
@@ -2819,9 +2846,9 @@ entirely; the run Parquet and the image are rebuilt in minutes.</p>
 </section>
 <section><h2 id="10-next-steps">10. Next steps</h2>
 <ol>
-<li>Switch on what is configured: the scoped R2 key for the backup cron and the loader, the
-   Grafana Cloud credentials for the Alloy agent (<code>make hz-secrets</code>, <code>make hz-deploy</code>), then
-   the dashboard and the seven alert rules of 8.3.</li>
+<li>Done 2026-11-03: the scoped R2 key, the Grafana Cloud credentials, the four Grafana
+   integrations and their dashboards (8.3). Open: import the alert rules file and set the
+   email contact point (<code>infra/hetzner/grafana/README.md</code>).</li>
 <li>A GitHub repository, so that <code>ci.yml</code> runs and a deploy job over SSH replaces
    <code>make hz-deploy</code> from the laptop.</li>
 <li>Record the five-minute demo (<code>docs/recording-script.md</code>).</li>
@@ -2874,7 +2901,7 @@ entirely; the run Parquet and the image are rebuilt in minutes.</p>
 <li>A human spot check of 10 batch-2 decisions, to put a number on the model-labelled gold.</li>
 </ol></section>
 </main>
-<footer>Rendered from docs/report.md on 2026-11-03. Repository: caselaw-extraction.</footer>
+<footer>Rendered from docs/report.md on 2026-11-04. Repository: caselaw-extraction.</footer>
 </div>
 </body>
 </html>

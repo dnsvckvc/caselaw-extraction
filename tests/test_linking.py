@@ -1,3 +1,5 @@
+import json
+
 from caselaw_extraction.fedlex import resolve_code
 from caselaw_extraction.linking import docket_of, link_spans
 
@@ -58,3 +60,38 @@ def test_link_spans_never_changes_boundaries_or_adds():
     spans = [_span(TEXT, "Art. 42 BGG", "STATUTE")]
     kept, _ = link_spans(TEXT, "bger_4A_12_2020", spans, KNOWN)
     assert [(s["start"], s["end"]) for s in kept] == [(spans[0]["start"], spans[0]["end"])]
+
+
+def test_link_file_writes_linked_file_and_counts(tmp_path):
+    from collections import Counter
+
+    from caselaw_extraction.linking import format_drop_table, link_file, linked_name
+
+    pred = tmp_path / "regex.jsonl"
+    rows = [
+        {
+            "decision_id": "bger_4A_12_2020",
+            "outcome": "dismissed",
+            "spans": [
+                _span(TEXT, "Art. 42 BGG", "STATUTE"),
+                _span(TEXT, "Art. 13 Ziff. 2 AVB", "STATUTE"),
+                _span(TEXT, "4A_12/2020", "DOCKET", occurrence=2),
+            ],
+        },
+        {"decision_id": "bger_4A_13_2020", "outcome": "approved", "spans": []},
+    ]
+    pred.write_text("".join(json.dumps(r) + "\n" for r in rows))
+    out, dropped, n_before = link_file(pred, {r["decision_id"]: TEXT for r in rows}, KNOWN)
+    assert out == linked_name(pred) == tmp_path / "regex-linked.jsonl"
+    assert n_before == 3
+    assert dict(dropped) == {"unknown_code": 1, "own_docket": 1}
+    linked = [json.loads(ln) for ln in out.read_text().splitlines()]
+    assert [len(r["spans"]) for r in linked] == [1, 0]
+    assert linked[0]["spans"][0]["link"][0]["sr"] == "173.110"
+    assert linked[0]["outcome"] == "dismissed"  # other fields pass through unchanged
+
+    table = format_drop_table([("regex.jsonl", n_before, dropped), ("empty", 0, Counter())])
+    lines = table.splitlines()
+    assert lines[0].startswith("| prediction file | spans | unknown_code | no_article |")
+    assert lines[2] == "| regex.jsonl | 3 | 1 | 0 | 0 | 1 | 1 |"
+    assert lines[3] == "| empty | 0 | 0 | 0 | 0 | 0 | 0 |"

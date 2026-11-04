@@ -1,0 +1,97 @@
+# Alert rules for the caselaw server, Prometheus rule-file format. Import them in Grafana
+# Cloud as Grafana-managed rules (see README.md in this directory) against the Prometheus
+# data source of the stack. Metric names and labels were read from the live exporters on
+# 2026-11-04; the thresholds are the ones of docs/report.md section 8.3.
+#
+# One rule of the report is not here: the "backup missing" check is a dead-man's switch at
+# healthchecks.io, pinged by infra/hetzner/backup.sh when BACKUP_HEALTHCHECKS_URL is set.
+groups:
+  - name: caselaw
+    interval: 1m
+    rules:
+      - alert: CaselawServerUnreachable
+        expr: absent(alloy_build_info{instance="caselaw"})
+        for: 5m
+        labels:
+          severity: critical
+          service: caselaw
+        annotations:
+          summary: "No metrics from the caselaw server for 5 minutes"
+          description: "Alloy on 2.31.185.103 stopped sending. The server, Docker or the agent is down. Check: make hz-status, make hz-ssh."
+
+      - alert: CaselawApiDown
+        expr: >
+          absent(container_last_seen{name="hetzner-api-1"})
+          or (time() - container_last_seen{name="hetzner-api-1"}) > 120
+          or up{job="integrations/caddy"} == 0
+        for: 3m
+        labels:
+          severity: critical
+          service: caselaw
+        annotations:
+          summary: "The API container or Caddy is down"
+          description: "cAdvisor has not seen hetzner-api-1 for 2 minutes, or Caddy's metrics endpoint stopped answering. Check: make hz-status, scripts/hz.sh logs."
+
+      - alert: CaselawApi5xx
+        expr: sum(increase(caddy_http_requests_total{handler="reverse_proxy",code=~"5.."}[5m])) >= 5
+        for: 0m
+        labels:
+          severity: warning
+          service: caselaw
+        annotations:
+          summary: "5 or more 5xx responses from the API in 5 minutes"
+          description: "Caddy returned {{ $value | printf \"%.0f\" }} server errors for proxied requests. A 502 means the API container did not answer; a 500 is an application error. Check the api container log in Loki."
+
+      - alert: CaselawApiLatencyP95
+        expr: >
+          histogram_quantile(0.95,
+            sum by (le) (rate(caddy_http_request_duration_seconds_bucket{handler="reverse_proxy"}[5m]))) > 1
+        for: 10m
+        labels:
+          severity: warning
+          service: caselaw
+        annotations:
+          summary: "API p95 latency above 1 s for 10 minutes"
+          description: "p95 of proxied requests is {{ $value | printf \"%.2f\" }} s. Cold aggregate queries take 0.8 to 1.3 s on the cx23; sustained values mean the cache is not warm or Postgres is slow."
+
+      - alert: CaselawDiskAbove85Percent
+        expr: >
+          (1 - node_filesystem_avail_bytes{instance="caselaw",mountpoint="/",fstype="ext4"}
+             / node_filesystem_size_bytes{instance="caselaw",mountpoint="/",fstype="ext4"}) > 0.85
+        for: 15m
+        labels:
+          severity: warning
+          service: caselaw
+        annotations:
+          summary: "Root filesystem above 85 percent"
+          description: "{{ $value | humanizePercentage }} of the 38 GB disk is used. Candidates: old Docker images (docker image prune), local backup dumps under /var/lib/caselaw/backups, Postgres bloat."
+
+      - alert: CaselawMemoryLow
+        expr: node_memory_MemAvailable_bytes{instance="caselaw"} < 300e6
+        for: 15m
+        labels:
+          severity: warning
+          service: caselaw
+        annotations:
+          summary: "Less than 300 MB of memory available for 15 minutes"
+          description: "{{ $value | humanize1024 }}B available on the 4 GB server. Usual load is about 1 GB. Check the Docker overview dashboard for the container that grew."
+
+      - alert: CaselawPostgresDown
+        expr: pg_up{instance="caselaw"} == 0 or absent(pg_up{instance="caselaw"})
+        for: 2m
+        labels:
+          severity: critical
+          service: caselaw
+        annotations:
+          summary: "Postgres is not reachable by the exporter"
+          description: "pg_up is 0 or missing. The API's health check fails shortly after. Check: scripts/hz.sh logs, docker compose ps on the server."
+
+      - alert: CaselawPostgresConnectionsHigh
+        expr: sum(pg_stat_activity_count{instance="caselaw",datname="caselaw"}) > 40
+        for: 5m
+        labels:
+          severity: warning
+          service: caselaw
+        annotations:
+          summary: "More than 40 Postgres connections for 5 minutes"
+          description: "{{ $value }} connections on a server whose API holds a handful. A leak in the API or a stuck loader task is the usual cause; max_connections is 100."

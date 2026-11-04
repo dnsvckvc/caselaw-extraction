@@ -1,6 +1,6 @@
 # Project 1: Case-Law Extraction Pipeline — report
 
-Status: weeks 1 to 4 complete except the recording. Week 1: corpus of 7,999 decisions, schema, Label Studio, first gold batch. Week 2: gold set of 350 decisions over three batches (guideline v0.3, nine classes), five extractors compared, entity-linking stage, learning curve, models retrained on 260 decisions. Week 3 (2026-10-28): full-corpus run under Dask, Postgres, citation graph with the three headline analyses, FastAPI service, regex graph compared with the gbert graph. Week 4 (2026-11-03): drift check, API image, deployment on one Hetzner server with Terraform (API at `https://api.caselaw.inat.io`, this report at `https://caselaw.inat.io`), monitoring and backups prepared; the AWS stack validated as the second target (section 8). Last updated 2026-11-03.
+Status: weeks 1 to 4 complete except the recording. Week 1: corpus of 7,999 decisions, schema, Label Studio, first gold batch. Week 2: gold set of 350 decisions over three batches (guideline v0.3, nine classes), five extractors compared, entity-linking stage, learning curve, models retrained on 260 decisions. Week 3 (2026-10-28): full-corpus run under Dask, Postgres, citation graph with the three headline analyses, FastAPI service, regex graph compared with the gbert graph. Week 4 (2026-11-03): drift check, API image, deployment on one Hetzner server with Terraform (API at `https://api.caselaw.inat.io`, this report at `https://caselaw.inat.io`), nightly backups to Cloudflare R2 and Grafana Cloud monitoring in operation since 2026-11-03; the AWS stack validated as the second target (section 8). Last updated 2026-11-04.
 
 ## Management summary
 
@@ -1033,7 +1033,7 @@ parameters), sends `Cache-Control: public, max-age=3600`, and fills the four def
 at startup; the warm column is the result. The drift report dropped from 2.9 seconds to 0.3
 by counting only the two periods under comparison instead of all 81 months.
 
-Resources after the load: the API container uses 213 MB, Postgres 178 MB, Caddy 19 MB; the
+Resources after the load: the API container uses 213 MB, Postgres 178 MB, Caddy 19 MB (with monitoring on, 2026-11-04: API 281 MB, Postgres 220 MB, Alloy 132 MB, Caddy 16 MB; 1.2 GB of 3.8 GB in use, 13 of 38 GB disk); the
 server has 980 MB of 3.8 GB in use and 7 GB of 38 GB on disk. The image built for x86 is
 965 MB against 211 MB on the laptop's ARM build, because the x86 wheels of pyarrow (156 MB),
 polars (179 MB) and DuckDB (58 MB) bundle their libraries; polars and DuckDB are not needed
@@ -1042,31 +1042,57 @@ by the API against Postgres and are a slimming item in section 10.
 ### 8.3 Monitoring, alarms and backups
 
 What the AWS design got from the load balancer, ECS and RDS, the server gets from one Grafana
-Alloy container that ships to Grafana Cloud's free tier: host CPU, memory, disk and network
-(`node_exporter` collectors), container CPU and memory (cAdvisor), Postgres connections,
-transactions, cache hits and database size (`postgres_exporter`, reading the DSN from a secret
-file), and Caddy's request counts, status codes and latency histograms per host, which is
-exactly the role of the balancer metrics. Every container's log goes to Loki. The agent is
-configured (`infra/hetzner/alloy/config.alloy`) and starts with `--profile monitoring` as
-soon as the Grafana Cloud credentials are in the env file; at the time of writing the
-account is not created yet, so the dashboard and the alert rules below are the plan, not a
-screenshot.
+Alloy container (`infra/hetzner/alloy/config.alloy`) that ships to Grafana Cloud's free tier
+in Frankfurt: host CPU, memory, disk and network (`node_exporter` collectors), container CPU
+and memory (cAdvisor), Postgres connections, transactions, cache hits and database size
+(`postgres_exporter`, reading the DSN from a secret file), Caddy's request counts, status codes
+and latency histograms (the role of the balancer metrics), Alloy's own health, and every
+container's log to Loki. The agent starts with `--profile monitoring` once the Grafana Cloud
+credentials are in the env file. It has run since 2026-11-03; the Grafana integrations for
+Linux, Docker, PostgreSQL and Caddy are installed, and their dashboards show the server
+(`docs/learning/12-grafana.md` walks through the setup and the dashboards).
+
+Getting there took four fixes that a reader with the same stack will meet. The Grafana
+integrations select data by fixed `job` labels (`integrations/node_exporter`,
+`integrations/docker`, ...), so the Alloy config relabels every target to those names and to
+`instance=caselaw`; before that the data arrived and the dashboards stayed empty. Docker 29
+stores images with the containerd image store by default, and cAdvisor cannot find the
+container layers there, so the server runs Docker on the classic `overlay2` driver
+(`/etc/docker/daemon.json`, now in cloud-init). Caddy serves its metrics on the admin
+endpoint, which binds to localhost inside the container, so the Caddyfile has a metrics-only
+site on `:2020`. And Compose bind-mounts the Caddyfile and the Alloy config as single files,
+which follow the inode: rsync must write in place, and the deploy reloads Caddy and restarts
+Alloy, because `compose up -d` does not notice a changed file.
+
+The alert rules are in `infra/hetzner/grafana/alert-rules.yml`, Prometheus rule-file format,
+imported into Grafana as managed rules (`infra/hetzner/grafana/README.md` gives the steps and
+the contact point). The metric names were read from the live exporters.
 
 | alert | condition | from |
 |---|---|---|
-| API down | Caddy reports no 2xx for 3 minutes, or the probe of `/health` fails | Caddy metrics, Grafana synthetic check |
-| 5xx | 5 or more 5xx responses in 5 minutes | Caddy metrics |
-| latency | p95 of the API host above 1 s in 2 of 3 five-minute windows | Caddy histogram |
+| server unreachable | no `alloy_build_info` for 5 minutes | Alloy self-metrics |
+| API down | cAdvisor has not seen the API container for 2 minutes, or Caddy's metrics are down | cAdvisor, Caddy |
+| 5xx | 5 or more 5xx responses through the reverse proxy in 5 minutes | Caddy metrics |
+| latency | p95 of proxied requests above 1 s for 10 minutes | Caddy histogram |
 | disk | root filesystem above 85 percent | node collectors |
 | memory | less than 300 MB available for 15 minutes | node collectors |
-| database | `pg_up` 0, or connections above 40 | postgres exporter |
+| database | `pg_up` 0, or more than 40 connections | postgres exporter |
 | backup | healthchecks.io ping missing after 03:30 | the backup cron |
+
+The nightly backup (`infra/hetzner/backup.sh`, cron at 03:30) dumps the database with
+`pg_dump -Fc` (19 MB), copies the dump and the run Parquet to the R2 bucket `caselaw-runs`
+with rclone configured from environment variables, so no rclone configuration file holds a
+key, and keeps 14 days of dumps. The server holds a scoped R2 key with object rights on that
+one bucket; the account token that created the bucket stays in 1Password. The first runs on
+2026-11-03 showed one trap: R2 returns a version id on every upload, and the rclone that
+Ubuntu 24.04 ships (1.60) then verifies the object with `HEAD ?versionId=`, which R2 answers
+with 501, so every upload was reported as failed and retried although it was stored.
+`--s3-no-head` removes the check; `Content-MD5` still verifies the upload. Two dumps and both
+runs are in the bucket.
 
 Without the agent the server still has: Compose health checks on Postgres and the API with
 `restart: unless-stopped`, Caddy's own certificate renewal, unattended security upgrades, and
-the nightly backup cron, which needs the scoped R2 key and runs as soon as it is set. The
-backup copies the dump and the run Parquet with rclone configured from environment variables,
-so no rclone configuration file holds a key.
+the backup cron.
 
 ### 8.4 Drift check
 
@@ -1258,9 +1284,9 @@ _Running log._
 
 ## 10. Next steps
 
-1. Switch on what is configured: the scoped R2 key for the backup cron and the loader, the
-   Grafana Cloud credentials for the Alloy agent (`make hz-secrets`, `make hz-deploy`), then
-   the dashboard and the seven alert rules of 8.3.
+1. Done 2026-11-03: the scoped R2 key, the Grafana Cloud credentials, the four Grafana
+   integrations and their dashboards (8.3). Open: import the alert rules file and set the
+   email contact point (`infra/hetzner/grafana/README.md`).
 2. A GitHub repository, so that `ci.yml` runs and a deploy job over SSH replaces
    `make hz-deploy` from the laptop.
 3. Record the five-minute demo (`docs/recording-script.md`).
