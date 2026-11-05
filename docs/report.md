@@ -1,6 +1,6 @@
 # Project 1: Case-Law Extraction Pipeline — report
 
-Status: weeks 1 to 4 complete except the recording. Week 1: corpus of 7,999 decisions, schema, Label Studio, first gold batch. Week 2: gold set of 350 decisions over three batches (guideline v0.3, nine classes), five extractors compared, entity-linking stage, learning curve, models retrained on 260 decisions. Week 3 (2026-10-28): full-corpus run under Dask, Postgres, citation graph with the three headline analyses, FastAPI service, regex graph compared with the gbert graph. Week 4 (2026-11-03): drift check, API image, deployment on one Hetzner server with Terraform (API at `https://api.caselaw.inat.io`, this report at `https://caselaw.inat.io`), nightly backups to Cloudflare R2 and Grafana Cloud monitoring in operation since 2026-11-03; the AWS stack validated as the second target (section 8). Last updated 2026-11-04.
+Status: Four weeks of project development. Week 1: corpus of 7,999 decisions, schema, Label Studio, first gold batch. Week 2: gold set of 350 decisions over three batches (guideline v0.3, nine classes), five extractors compared, entity-linking stage, learning curve, models retrained on 260 decisions. Week 3 (2026-10-28): full-corpus run under Dask, Postgres, citation graph with the three headline analyses, FastAPI service, regex graph compared with the gbert graph. Week 4 (2026-11-03): drift check, API image, deployment on one Hetzner server with Terraform (API at `https://api.caselaw.inat.io`, this report at `https://caselaw.inat.io`), nightly backups to Cloudflare R2 and Grafana Cloud monitoring in operation since 2026-11-03; the AWS stack validated as the second target (section 8). Last updated 2026-11-04.
 
 ## Management summary
 
@@ -1236,6 +1236,36 @@ The load balancer is the largest item and buys a stable URL and the health check
 without it would be cheaper and would change its address at every deployment. The full-corpus
 extraction itself stays under one cent (section 7.5). `make tf-destroy` stops the cost
 entirely; the run Parquet and the image are rebuilt in minutes.
+
+## 8.7 Project 1.5: the explorer and three more routes (2026-11-05)
+
+Before Project 2, a static front end (`caselaw-explorer`, Vite, React, TypeScript, TanStack
+Query, Observable Plot) was built over this API and is served by the same Caddy under
+`https://caselaw.inat.io/app/`. It has eight pages: an overview, a browse table over
+`/decisions` with facet chips, a decision page that highlights every extracted span in the
+decision text, rankings of articles, acts and central graph nodes (with a PageRank versus
+in-degree scatter), the yearly trends, the drift series with the 95th-percentile alarm level
+and the two-period mover charts, a one-hop view of the citation graph, and an API map that
+shows every route with a live sample and the page that uses it.
+
+Three routes were added for it, all read-only and cached like the other aggregates:
+
+| Route | What it returns | Why the explorer needs it |
+|---|---|---|
+| `GET /decisions/{id}/text` | the full text (CC0 source data) | span offsets index the text; without it, spans could only be listed |
+| `GET /decisions/facets` | counts per year, outcome and chamber under the `/decisions` filters | one request for the facet chips instead of one per value |
+| `GET /graph/neighbors?node=` | the decisions that cite a node and, for a corpus decision, what it cites, with centrality | the centrality table alone has no edges |
+
+The texts are run-independent, so they sit in their own table (`decision_text`, 7,999 rows,
+29 MB as Parquet) and are loaded once with `caselaw db-load-texts`. The DuckDB backend
+serves them from `data/runs/texts.parquet`, so `make demo` and the contract tests cover the
+route too. The `/decisions` filter clause was factored out and is shared with the facets
+route, so the two can never disagree. The neighbour route reuses the node ids of the
+centrality table (`bge:<key>`, `docket:<key>`, a decision id), and its one-hop queries answer
+in about 20 ms on the local Postgres for the most-cited BGE (3,335 citing decisions).
+
+Measured locally against Postgres: facets with a statute filter 10 ms, neighbours of
+BGE 140 III 115 with 3 per side 20 ms, text of one decision under 5 ms.
 
 ## 9. What did not work
 

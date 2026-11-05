@@ -129,3 +129,21 @@ outcomes and span labels between two months or years (Jensen-Shannon and total v
 distance, largest movers) and serves the same through `GET /drift` and `GET /drift/series`.
 CI (`.github/workflows/ci.yml`) runs ruff, the tests against a Postgres service, the image
 build and `terraform validate`. Results, latency and cost: `docs/report.md`, section 8.
+
+## Explorer front end and three more routes (project 1.5)
+
+`caselaw-explorer` (a sibling repository) is a static React front end over this API, served
+by the same Caddy under `https://caselaw.inat.io/app/`. It needed three read-only routes
+that the report's own figures did not: `GET /decisions/{id}/text` (the CC0 decision text,
+so that span offsets can be highlighted), `GET /decisions/facets` (counts per year, outcome
+and chamber under the `/decisions` filters) and `GET /graph/neighbors?node=` (one hop of
+the citation graph around a BGE, a file number or a corpus decision). The texts live in a
+run-independent `decision_text` table; the DuckDB backend reads them from
+`data/runs/texts.parquet`.
+
+```bash
+make texts                             # data/runs/texts.parquet from the interim corpus
+make db-load-texts                     # into the local Postgres
+make hz-sync-texts && make hz-load-texts   # the same on the server
+make hz-site SITE=../caselaw-explorer/dist # copy a built explorer to <site>/app/
+```
