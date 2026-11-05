@@ -499,6 +499,35 @@ def db_load_cmd(
     rprint(f"  statute table: {n_statutes} acts; database: {db.table_counts(dsn)}")
 
 
+TEXTS_CORPUS_OPT = typer.Option(
+    Path("data/interim/bger_de_zivil_2020.parquet"), help="corpus file with the full texts"
+)
+TEXTS_OUT_OPT = typer.Option(Path("data/runs/texts.parquet"), help="output next to the runs")
+
+
+@app.command(name="texts")
+def texts_cmd(corpus: Path = TEXTS_CORPUS_OPT, out: Path = TEXTS_OUT_OPT) -> None:
+    """Project 1.5: write the run-independent decision texts for the API's text endpoint."""
+    from caselaw_extraction.corpus_run import write_texts
+
+    path = write_texts(corpus, out)
+    rprint(f"[green]written[/green] {path} ({path.stat().st_size / 1e6:.1f} MB)")
+
+
+@app.command(name="db-load-texts")
+def db_load_texts_cmd(
+    path: str = typer.Option("data/runs/texts.parquet", help="texts.parquet, local or s3://"),
+    dsn: str = typer.Option("", help="Postgres DSN (default: $CASELAW_DSN or the local compose)"),
+) -> None:
+    """Project 1.5: load the decision texts into Postgres (`decision_text`, run-independent)."""
+    from caselaw_extraction import db
+    from caselaw_extraction.store import DEFAULT_DSN, dsn_from_env
+
+    dsn = dsn or dsn_from_env() or DEFAULT_DSN
+    n = db.load_texts(path, dsn)
+    rprint(f"[green]loaded[/green] {n} decision texts; database: {db.table_counts(dsn)}")
+
+
 @app.command(name="api")
 def api_cmd(
     host: str = typer.Option("127.0.0.1"),

@@ -1,5 +1,6 @@
 -- Extracted records of the case-law extraction pipeline (week 3). One database holds several
--- extraction runs; every record row carries its run_id. Decision texts stay in Parquet.
+-- extraction runs; every record row carries its run_id. Decision texts are run-independent
+-- (`decision_text`, loaded once from the corpus for the text endpoint of the API).
 
 CREATE TABLE IF NOT EXISTS extraction_run (
     run_id            text PRIMARY KEY,
@@ -67,6 +68,11 @@ CREATE TABLE IF NOT EXISTS centrality (
     rank_pagerank  integer NOT NULL,
     rank_in_degree integer NOT NULL,
     PRIMARY KEY (run_id, node)
+);
+
+CREATE TABLE IF NOT EXISTS decision_text (
+    decision_id text PRIMARY KEY,
+    text        text NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS statute (

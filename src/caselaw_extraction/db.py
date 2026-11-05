@@ -195,10 +195,42 @@ def load_statutes(code_map: dict[str, str], dsn: str = DEFAULT_DSN) -> int:
     return len(by_sr)
 
 
+def load_texts(path: Path | str, dsn: str = DEFAULT_DSN) -> int:
+    """Load `texts.parquet` (decision_id, text) into the run-independent `decision_text` table,
+    replacing earlier rows of the same decisions. Local path or s3:// URI, as `load_run`."""
+    uri = str(path)
+    if "://" in uri:
+        fs, base = open_run(uri.rsplit("/", 1)[0], uri.rsplit("/", 1)[1])
+    else:
+        fs, base = pafs.LocalFileSystem(), str(Path(uri).resolve())
+    tbl = pq.read_table(base, columns=["decision_id", "text"], filesystem=fs)
+    ids, texts = tbl.column("decision_id").to_pylist(), tbl.column("text").to_pylist()
+    rows = list(zip(ids, texts, strict=True))
+    with connect(dsn) as con:
+        create_schema(con)
+        with con.cursor() as cur:
+            cur.execute("CREATE TEMP TABLE decision_text_in (LIKE decision_text) ON COMMIT DROP")
+            _copy_rows(cur, "decision_text_in", ["decision_id", "text"], rows)
+            cur.execute(
+                "INSERT INTO decision_text SELECT decision_id, text FROM decision_text_in "
+                "ON CONFLICT (decision_id) DO UPDATE SET text = EXCLUDED.text"
+            )
+        con.commit()
+    return len(rows)
+
+
 def table_counts(dsn: str = DEFAULT_DSN) -> dict[str, Any]:
     with connect(dsn) as con, con.cursor() as cur:
         out: dict[str, Any] = {}
-        for t in ("extraction_run", "decision", "span", "citation", "centrality", "statute"):
+        for t in (
+            "extraction_run",
+            "decision",
+            "span",
+            "citation",
+            "centrality",
+            "decision_text",
+            "statute",
+        ):
             cur.execute(f"SELECT count(*) FROM {t}")
             out[t] = cur.fetchone()[0]
         cur.execute("SELECT pg_size_pretty(pg_database_size(current_database()))")

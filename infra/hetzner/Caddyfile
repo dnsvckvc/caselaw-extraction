@@ -22,6 +22,13 @@
 
 {$SITE_HOST} {
 	root * /srv/site
+	# The explorer (Project 1.5) is a single-page app under /app/: unknown paths fall back to
+	# its index.html so that client-side routes survive a reload.
+	@app path /app /app/*
+	handle @app {
+		try_files {path} /app/index.html
+		file_server
+	}
 	file_server
 	encode zstd gzip
 	header {

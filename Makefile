@@ -1,4 +1,4 @@
-.PHONY: setup lint test ingest sample labelstudio-up labelstudio-down tasks predict-regex score score-silver train-spacy train-transformer llm-collect mlflow-ui gold-agreement gold-finalize link predict-transformer gold-round gold-round-agreement gold-round-finalize learning-curve run-corpus run-corpus-gbert graph compare-runs db-up db-down db-load api demo report-html docker-build docker-run drift drift-series tf-init tf-plan tf-apply tf-destroy tf-validate aws-push aws-sync aws-load aws-deploy aws-smoke aws-measure aws-bootstrap
+.PHONY: setup lint test ingest sample labelstudio-up labelstudio-down tasks predict-regex score score-silver train-spacy train-transformer llm-collect mlflow-ui gold-agreement gold-finalize link predict-transformer gold-round gold-round-agreement gold-round-finalize learning-curve run-corpus run-corpus-gbert graph compare-runs db-up db-down db-load api demo report-html docker-build docker-run drift drift-series tf-init tf-plan tf-apply tf-destroy tf-validate aws-push aws-sync aws-load aws-deploy aws-smoke aws-measure aws-bootstrap texts db-load-texts hz-sync-texts hz-load-texts hz-site
 
 setup:
 	uv sync --all-extras
@@ -164,3 +164,9 @@ hz-measure:   ; scripts/hz.sh measure
 hz-status:    ; scripts/hz.sh status
 hz-ssh:       ; scripts/hz.sh ssh
 hz-bootstrap: ; scripts/hz.sh bootstrap $(RUN)
+# --- project 1.5: decision texts and the explorer front end --------------------------------------
+texts:         ; uv run caselaw texts
+db-load-texts: ; uv run caselaw db-load-texts
+hz-sync-texts: ; scripts/hz.sh sync-texts
+hz-load-texts: ; scripts/hz.sh load-texts
+hz-site:       ; scripts/hz.sh site $(SITE)

@@ -42,3 +42,17 @@ def test_load_run_and_query_matches_duckdb(synthetic_run):
         with db.connect(DEFAULT_DSN) as con:
             con.execute("DELETE FROM extraction_run WHERE run_id = %s", (name,))
             con.commit()
+
+
+def test_load_texts_is_idempotent_and_served(synthetic_run):
+    runs_dir, name = synthetic_run
+    db.load_run(name, DEFAULT_DSN, runs_dir=runs_dir)
+    assert db.load_texts(runs_dir / "texts.parquet", DEFAULT_DSN) == 3
+    assert db.load_texts(runs_dir / "texts.parquet", DEFAULT_DSN) == 3
+    pg = PostgresStore(DEFAULT_DSN, name)
+    try:
+        rows = pg.query("SELECT text FROM decision_text WHERE decision_id = ?", ("bger_4A_1_2021",))
+        assert rows and "Art. 8 ZGB" in rows[0]["text"]
+        assert db.table_counts(DEFAULT_DSN)["decision_text"] >= 3
+    finally:
+        pg.close()

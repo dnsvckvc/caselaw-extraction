@@ -126,4 +126,5 @@ def synthetic_run(synthetic_corpus: Path, tmp_path_factory) -> tuple[Path, str]:
         "synthetic", "regex", scheduler="sync", corpus=synthetic_corpus, runs_dir=runs_dir
     )
     graph.analyse_run("synthetic", runs_dir=runs_dir, html=False)
+    corpus_run.write_texts(synthetic_corpus, runs_dir / "texts.parquet")
     return runs_dir, "synthetic"

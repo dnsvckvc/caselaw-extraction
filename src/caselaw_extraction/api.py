@@ -120,6 +120,43 @@ class CentralNode(BaseModel):
     rank_in_degree: int
 
 
+class FacetCount(BaseModel):
+    value: str | int | None
+    decisions: int
+
+
+class Facets(BaseModel):
+    total: int
+    year: list[FacetCount]
+    outcome: list[FacetCount]
+    chamber: list[FacetCount]
+
+
+class DecisionText(BaseModel):
+    decision_id: str
+    length: int
+    text: str
+
+
+class Neighbor(BaseModel):
+    node: str
+    kind: str = Field(description="decision | bge | docket")
+    key: str
+    decision_id: str | None = None
+    year: int | None = None
+    outcome: str | None = None
+    in_degree: int | None = Field(None, description="from the centrality table, when present")
+    pagerank: float | None = None
+
+
+class Neighbors(BaseModel):
+    node: Neighbor
+    in_degree: int = Field(description="number of citing decisions in the graph")
+    out_degree: int
+    cited_by: list[Neighbor] = Field(description="decisions that cite the node, most central first")
+    cites: list[Neighbor] = Field(description="nodes the decision cites, most central first")
+
+
 # --- app ----------------------------------------------------------------------------------------
 
 
@@ -231,6 +268,79 @@ def central(
     return [CentralNode(**r) for r in rows]
 
 
+def _decision_where(
+    store: Store,
+    statute: str | None,
+    bge: str | None,
+    docket: str | None,
+    year: int | None,
+    outcome: str | None,
+    chamber: str | None,
+) -> tuple[str, list[Any]]:
+    """WHERE clause (alias `d`) and parameters shared by `/decisions` and `/decisions/facets`."""
+    where = ["d.run_id = ?"]
+    params: list[Any] = [store.run_id]
+    for kind, value in (("statute", statute), ("bge", bge), ("docket", docket)):
+        if value:
+            key = value.replace("/", "_").replace(".", "_") if kind == "docket" else value
+            where.append(
+                "EXISTS (SELECT 1 FROM citation c WHERE c.run_id = d.run_id "
+                "AND c.decision_id = d.decision_id AND c.kind = ? AND c.key = ?)"
+            )
+            params += [kind, key]
+    for col, value in (("year", year), ("outcome", outcome), ("chamber", chamber)):
+        if value is not None:
+            where.append(f"d.{col} = ?")
+            params.append(value)
+    return " AND ".join(where), params
+
+
+@app.get("/decisions/facets", response_model=Facets)
+def decision_facets(
+    store: StoreDep,
+    response: Response,
+    statute: str | None = Query(None, description="citation key, e.g. `OR 8` or `BGG 42`"),
+    bge: str | None = Query(None, description="`BGE 140 III 86`"),
+    docket: str | None = Query(None, description="cited file number, `4A_12/2020` or `4A_12_2020`"),
+    year: int | None = None,
+    outcome: str | None = None,
+    chamber: str | None = None,
+) -> Facets:
+    """Decision counts per year, outcome and chamber under the same filters as `/decisions`,
+    for the facet chips of a browse page (one request instead of one per facet value)."""
+    where, params = _decision_where(store, statute, bge, docket, year, outcome, chamber)
+
+    def compute() -> dict[str, Any]:
+        out: dict[str, Any] = {}
+        for col in ("year", "outcome", "chamber"):
+            rows = store.query(
+                f"SELECT d.{col} AS value, count(*) AS decisions FROM decision d WHERE {where} "
+                f"GROUP BY d.{col} ORDER BY d.{col}",
+                tuple(params),
+            )
+            out[col] = [{"value": r["value"], "decisions": int(r["decisions"])} for r in rows]
+        out["total"] = sum(r["decisions"] for r in out["year"])
+        return out
+
+    key = ("facets", statute, bge, docket, year, outcome, chamber)
+    return Facets(**cached(store, response, key, compute))
+
+
+@app.get("/decisions/{decision_id}/text", response_model=DecisionText)
+def decision_text(decision_id: str, store: StoreDep, response: Response) -> DecisionText:
+    """Full text of a decision (CC0 source data); span offsets of `/decisions/{id}` index it."""
+    if not store.query(
+        "SELECT 1 FROM decision WHERE run_id = ? AND decision_id = ?", (store.run_id, decision_id)
+    ):
+        raise HTTPException(404, f"decision {decision_id} is not in run {store.run_id}")
+    rows = store.query("SELECT text FROM decision_text WHERE decision_id = ?", (decision_id,))
+    if not rows:
+        raise HTTPException(404, f"no text loaded for {decision_id} (caselaw db-load-texts)")
+    response.headers["Cache-Control"] = CACHE_CONTROL
+    text = rows[0]["text"]
+    return DecisionText(decision_id=decision_id, length=len(text), text=text)
+
+
 @app.get("/decisions/{decision_id}", response_model=DecisionOut)
 def decision(decision_id: str, store: StoreDep) -> DecisionOut:
     rows = store.query(
@@ -288,26 +398,13 @@ def decisions(
     offset: int = Query(0, ge=0),
 ) -> DecisionPage:
     """Decisions, filtered by what they cite and by their metadata. Newest first."""
-    where = ["d.run_id = ?"]
-    params: list[Any] = [store.run_id]
-    for kind, value in (("statute", statute), ("bge", bge), ("docket", docket)):
-        if value:
-            key = value.replace("/", "_").replace(".", "_") if kind == "docket" else value
-            where.append(
-                "EXISTS (SELECT 1 FROM citation c WHERE c.run_id = d.run_id "
-                "AND c.decision_id = d.decision_id AND c.kind = ? AND c.key = ?)"
-            )
-            params += [kind, key]
-    for col, value in (("year", year), ("outcome", outcome), ("chamber", chamber)):
-        if value is not None:
-            where.append(f"d.{col} = ?")
-            params.append(value)
+    where, params = _decision_where(store, statute, bge, docket, year, outcome, chamber)
     rows = store.query(
         f"""
         SELECT d.decision_id, d.docket_number, d.decision_date, d.year, d.chamber, d.legal_area,
                d.outcome, d.outcome_dataset, d.n_spans, d.source_url, count(*) OVER () AS total
         FROM decision d
-        WHERE {" AND ".join(where)}
+        WHERE {where}
         ORDER BY d.decision_date DESC, d.decision_id
         LIMIT ? OFFSET ?
         """,
@@ -401,4 +498,106 @@ def trends_code_share(store: StoreDep, response: Response) -> list[dict[str, Any
             {k: (float(v) if k not in ("year", "decisions") else int(v)) for k, v in r.items()}
             for r in graph.code_share_by_year(store)
         ],
+    )
+
+
+# --- citation graph -----------------------------------------------------------------------------
+
+_NEIGHBOR_COLS = """
+    n.node, n.kind, n.key, n.decision_id, d.year, d.outcome, c.in_degree, c.pagerank
+"""
+
+
+def _neighbor_rows(store: Store, nodes_sql: str, params: tuple[Any, ...], limit: int) -> list[dict]:
+    """Enrich node ids (`nodes_sql` yields node, kind, key, decision_id) with the decision's
+    year and outcome and the centrality values; most central first."""
+    return store.query(
+        f"""
+        WITH n AS ({nodes_sql})
+        SELECT {_NEIGHBOR_COLS}
+        FROM n
+        LEFT JOIN decision d ON d.run_id = ? AND d.decision_id = n.decision_id
+        LEFT JOIN centrality c ON c.run_id = ? AND c.node = n.node
+        ORDER BY c.pagerank DESC NULLS LAST, n.node
+        LIMIT ?
+        """,
+        (*params, store.run_id, store.run_id, limit),
+    )
+
+
+@app.get("/graph/neighbors", response_model=Neighbors)
+def graph_neighbors(
+    store: StoreDep,
+    response: Response,
+    node: str = Query(
+        description="graph node id: a corpus decision id (`bger_4A_12_2020`), "
+        "`bge:BGE 140 III 115` or `docket:4A_12_2020` (a cited file number outside the corpus)"
+    ),
+    limit: int = Query(50, ge=1, le=500, description="neighbours per direction"),
+) -> Neighbors:
+    """One hop of the citation graph around a node: the decisions that cite it and, for a corpus
+    decision, the BGE, file numbers and corpus decisions it cites. Same node ids as
+    `/decisions/central`."""
+    if node.startswith(("bge:", "docket:")):
+        kind, _, key = node.partition(":")
+    else:
+        kind, key = "decision", node
+    run = store.run_id
+    if kind == "decision":
+        rows = store.query(
+            "SELECT decision_id, year, outcome FROM decision WHERE run_id = ? AND decision_id = ?",
+            (run, node),
+        )
+        if not rows:
+            raise HTTPException(404, f"decision {node} is not in run {run}")
+        cited_by_sql = """
+            SELECT DISTINCT decision_id AS node, 'decision' AS kind, decision_id AS key,
+                   decision_id FROM citation
+            WHERE run_id = ? AND kind = 'docket' AND target_decision_id = ?
+        """
+        cites_sql = """
+            SELECT DISTINCT
+                CASE WHEN kind = 'bge' THEN 'bge:' || key
+                     WHEN target_decision_id IS NOT NULL THEN target_decision_id
+                     ELSE 'docket:' || key END AS node,
+                CASE WHEN kind = 'bge' THEN 'bge'
+                     WHEN target_decision_id IS NOT NULL THEN 'decision'
+                     ELSE 'docket' END AS kind,
+                CASE WHEN target_decision_id IS NOT NULL THEN target_decision_id
+                     ELSE key END AS key,
+                target_decision_id AS decision_id
+            FROM citation
+            WHERE run_id = ? AND decision_id = ? AND kind IN ('bge', 'docket')
+              AND (target_decision_id IS NULL OR target_decision_id <> decision_id)
+        """
+        cites = _neighbor_rows(store, cites_sql, (run, node), limit)
+    else:
+        cited_by_sql = """
+            SELECT DISTINCT decision_id AS node, 'decision' AS kind, decision_id AS key,
+                   decision_id FROM citation
+            WHERE run_id = ? AND kind = ? AND key = ? AND target_decision_id IS NULL
+        """
+        cites = []
+    cited_by = _neighbor_rows(
+        store, cited_by_sql, (run, node) if kind == "decision" else (run, kind, key), limit
+    )
+    central = store.query(
+        "SELECT in_degree, out_degree, pagerank FROM centrality WHERE run_id = ? AND node = ?",
+        (run, node),
+    )
+    if kind != "decision" and not central and not cited_by:
+        raise HTTPException(404, f"node {node} is not in the citation graph of run {run}")
+    me = _neighbor_rows(
+        store,
+        "SELECT ? AS node, ? AS kind, ? AS key, ? AS decision_id",
+        (node, kind, key, node if kind == "decision" else None),
+        1,
+    )[0]
+    response.headers["Cache-Control"] = CACHE_CONTROL
+    return Neighbors(
+        node=Neighbor(**me),
+        in_degree=int(central[0]["in_degree"]) if central else len(cited_by),
+        out_degree=int(central[0]["out_degree"]) if central else len(cites),
+        cited_by=[Neighbor(**r) for r in cited_by],
+        cites=[Neighbor(**r) for r in cites],
     )

@@ -7,6 +7,9 @@
 #   scripts/hz.sh deploy          rsync the repo and the site files, build the image, start the stack
 #   scripts/hz.sh sync [run]      rsync data/runs/<run> (Parquet + run.json) to the server
 #   scripts/hz.sh load [run]      run the loader once against the server's Postgres
+#   scripts/hz.sh sync-texts      rsync data/runs/texts.parquet (decision texts) to the server
+#   scripts/hz.sh load-texts      load the decision texts into Postgres (decision_text table)
+#   scripts/hz.sh site <dir>      copy a built front end (caselaw-explorer/dist) to <site>/app/
 #   scripts/hz.sh smoke | measure | logs | ssh | backup-now | status
 #   scripts/hz.sh bootstrap [run] apply, wait, secrets, deploy, sync, load, smoke
 set -euo pipefail
@@ -70,6 +73,17 @@ case "$cmd" in
   load)
     run=${1:-regex-v0.4}
     sshc "$COMPOSE run --rm --no-deps api caselaw db-load --run $run --runs-dir /data/runs" ;;
+  sync-texts)
+    rsync -az -e "ssh ${SSH_OPTS[*]}" "$ROOT/data/runs/texts.parquet" "caselaw@$(ip):/var/lib/caselaw/runs/texts.parquet"
+    echo "synced data/runs/texts.parquet" ;;
+  load-texts)
+    sshc "$COMPOSE run --rm --no-deps api caselaw db-load-texts --path /data/runs/texts.parquet" ;;
+  site)
+    # The explorer (Project 1.5) is a static build served by Caddy under /app/.
+    dir=${1:?usage: hz.sh site <dist dir>}
+    [ -f "$dir/index.html" ] || { echo "no index.html in $dir (run npm run build first)" >&2; exit 1; }
+    rsync -az --delete -e "ssh ${SSH_OPTS[*]}" "$dir/" "caselaw@$(ip):/opt/caselaw/site/app/"
+    echo "site: $(out site_url)/app/" ;;
   status)  sshc "$COMPOSE ps" ;;
   logs)    sshc "$COMPOSE logs -f --since 10m ${1:-}" ;;
   backup-now) sshc "/opt/caselaw/repo/infra/hetzner/backup.sh" ;;

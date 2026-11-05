@@ -122,6 +122,17 @@ def load_corpus(
     return rows
 
 
+def write_texts(corpus: Path = CORPUS_PATH, out: Path = RUNS_DIR / "texts.parquet") -> Path:
+    """`texts.parquet` (decision_id, text) next to the run directories: the run-independent
+    texts the API serves at `/decisions/{id}/text`. Read by the DuckDB store and the loader."""
+    table = pq.read_table(corpus, columns=["decision_id", "full_text"]).rename_columns(
+        ["decision_id", "text"]
+    )
+    out.parent.mkdir(parents=True, exist_ok=True)
+    pq.write_table(table, out, compression="zstd")
+    return out
+
+
 def decision_id_of_docket(docket_key: str) -> str:
     """`4A_12_2020` (normalised file number) -> `bger_4A_12_2020` (corpus decision id)."""
     return f"bger_{docket_key}"

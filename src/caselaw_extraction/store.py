@@ -15,6 +15,7 @@ from caselaw_extraction.corpus_run import RUNS_DIR
 
 DEFAULT_DSN = "postgresql://caselaw:caselaw@localhost:5433/caselaw"
 RUN_TABLES = ("decision", "span", "citation", "centrality")
+TEXTS_FILE = "texts.parquet"
 _FILES = {
     "decision": "decisions.parquet",
     "span": "spans.parquet",
@@ -62,6 +63,20 @@ class DuckDBStore(Store):
             f"CREATE VIEW extraction_run AS SELECT '{self.run_id}' AS run_id, "
             f"'{extractor}' AS extractor"
         )
+        # Decision texts are run-independent: `<runs_dir>/texts.parquet` (written by
+        # `caselaw texts`), else the run's own copy, else an empty view so the SQL still runs.
+        candidates = (self.run_dir.parent / TEXTS_FILE, self.run_dir / TEXTS_FILE)
+        texts = next((p for p in candidates if p.exists()), None)
+        if texts:
+            self.con.execute(
+                "CREATE VIEW decision_text AS SELECT decision_id, text "
+                f"FROM read_parquet('{texts}')"
+            )
+        else:
+            self.con.execute(
+                "CREATE VIEW decision_text AS SELECT NULL::VARCHAR AS decision_id, "
+                "NULL::VARCHAR AS text WHERE false"
+            )
 
     def query(self, sql: str, params: tuple[Any, ...] = ()) -> list[dict[str, Any]]:
         cur = self.con.execute(sql, list(params))

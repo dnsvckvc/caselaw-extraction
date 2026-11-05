@@ -75,7 +75,10 @@ def test_openapi_contract(client):
         "/runs",
         "/decisions",
         "/decisions/{decision_id}",
+        "/decisions/{decision_id}/text",
+        "/decisions/facets",
         "/decisions/central",
+        "/graph/neighbors",
         "/statutes/top",
         "/statutes/codes",
         "/trends/years",
@@ -113,3 +116,54 @@ def test_aggregate_endpoints_are_cacheable(client):
     assert r.status_code == 200 and r.headers["cache-control"] == "public, max-age=3600"
     assert client.get("/statutes/top?limit=5").json() == r.json()
     assert "cache-control" not in client.get("/decisions?limit=1").headers
+
+
+def test_facets_follow_the_decision_filters(client):
+    f = client.get("/decisions/facets").json()
+    assert f["total"] == 3
+    assert [(r["value"], r["decisions"]) for r in f["year"]] == [(2021, 1), (2022, 1), (2023, 1)]
+    assert sum(r["decisions"] for r in f["outcome"]) == 3
+    assert {r["value"] for r in f["chamber"]} == {
+        "I. zivilrechtliche Abteilung",
+        "II. zivilrechtliche Abteilung",
+    }
+    f = client.get("/decisions/facets", params={"statute": "ZGB 8"}).json()
+    assert f["total"] == client.get("/decisions", params={"statute": "ZGB 8"}).json()["total"]
+    assert [r["value"] for r in f["year"]] == [2021, 2022]
+    assert "cache-control" in client.get("/decisions/facets").headers
+
+
+def test_decision_text_matches_span_offsets(client):
+    d = client.get("/decisions/bger_4A_1_2021").json()
+    t = client.get("/decisions/bger_4A_1_2021/text").json()
+    assert t["decision_id"] == "bger_4A_1_2021" and t["length"] == len(t["text"])
+    for s in d["spans"]:
+        assert t["text"][s["start"] : s["end"]] == s["text"]
+    assert client.get("/decisions/does_not_exist/text").status_code == 404
+
+
+def test_graph_neighbors(client):
+    # 4A_1/2021 is cited by the two later decisions and cites one BGE pair and one file number
+    n = client.get("/graph/neighbors", params={"node": "bger_4A_1_2021"}).json()
+    assert n["node"]["kind"] == "decision" and n["node"]["year"] == 2021
+    assert {r["node"] for r in n["cited_by"]} == {"bger_5A_2_2022", "bger_4A_3_2023"}
+    assert n["in_degree"] == 2
+    cites = {r["node"]: r["kind"] for r in n["cites"]}
+    assert cites["bge:BGE 140 III 86"] == "bge" and cites["docket:4A_12_2020"] == "docket"
+    assert all(r["pagerank"] is not None for r in n["cited_by"])
+    # a BGE node: cited by, nothing cited
+    b = client.get("/graph/neighbors", params={"node": "bge:BGE 142 III 364"}).json()
+    assert b["node"]["kind"] == "bge" and b["cites"] == []
+    assert {r["node"] for r in b["cited_by"]} == {"bger_5A_2_2022", "bger_4A_3_2023"}
+    assert b["in_degree"] == 2
+    # limit applies per direction; unknown nodes are 404
+    assert (
+        len(
+            client.get("/graph/neighbors", params={"node": "bger_4A_1_2021", "limit": 1}).json()[
+                "cited_by"
+            ]
+        )
+        == 1
+    )
+    assert client.get("/graph/neighbors", params={"node": "bge:BGE 1 I 1"}).status_code == 404
+    assert client.get("/graph/neighbors", params={"node": "nope"}).status_code == 404
