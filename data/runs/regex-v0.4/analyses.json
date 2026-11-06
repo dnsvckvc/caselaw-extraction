@@ -6,7 +6,8 @@
    "bge": 4758,
    "decision": 7999,
    "docket": 6865
-  }
+  },
+  "edges_no_routine": 44772
  },
  "top_statutes": [
   {
@@ -422,7 +423,7 @@
    "decision_id": null,
    "in_degree": 3335,
    "out_degree": 0,
-   "pagerank": 0.023088706466949667,
+   "pagerank": 0.023088706466949677,
    "rank_pagerank": 1,
    "rank_in_degree": 1
   },
@@ -433,7 +434,7 @@
    "decision_id": null,
    "in_degree": 3167,
    "out_degree": 0,
-   "pagerank": 0.023082711058095153,
+   "pagerank": 0.02308271105809517,
    "rank_pagerank": 2,
    "rank_in_degree": 2
   },
@@ -444,7 +445,7 @@
    "decision_id": null,
    "in_degree": 2750,
    "out_degree": 0,
-   "pagerank": 0.014505613468461655,
+   "pagerank": 0.014505613468461664,
    "rank_pagerank": 3,
    "rank_in_degree": 3
   },
@@ -455,7 +456,7 @@
    "decision_id": null,
    "in_degree": 1900,
    "out_degree": 0,
-   "pagerank": 0.0057308451430524866,
+   "pagerank": 0.005730845143052499,
    "rank_pagerank": 4,
    "rank_in_degree": 5
   },
@@ -466,7 +467,7 @@
    "decision_id": null,
    "in_degree": 584,
    "out_degree": 0,
-   "pagerank": 0.005716725885460005,
+   "pagerank": 0.005716725885460017,
    "rank_pagerank": 5,
    "rank_in_degree": 9
   },
@@ -477,7 +478,7 @@
    "decision_id": null,
    "in_degree": 1926,
    "out_degree": 0,
-   "pagerank": 0.005686934898643373,
+   "pagerank": 0.0056869348986433805,
    "rank_pagerank": 6,
    "rank_in_degree": 4
   },
@@ -488,7 +489,7 @@
    "decision_id": null,
    "in_degree": 1156,
    "out_degree": 0,
-   "pagerank": 0.004265439989298257,
+   "pagerank": 0.004265439989298275,
    "rank_pagerank": 7,
    "rank_in_degree": 6
   },
@@ -499,7 +500,7 @@
    "decision_id": null,
    "in_degree": 341,
    "out_degree": 0,
-   "pagerank": 0.0025465546477493025,
+   "pagerank": 0.0025465546477493064,
    "rank_pagerank": 8,
    "rank_in_degree": 25
   },
@@ -510,7 +511,7 @@
    "decision_id": null,
    "in_degree": 349,
    "out_degree": 0,
-   "pagerank": 0.002482736142481773,
+   "pagerank": 0.0024827361424817774,
    "rank_pagerank": 9,
    "rank_in_degree": 24
   },
@@ -521,7 +522,7 @@
    "decision_id": null,
    "in_degree": 995,
    "out_degree": 0,
-   "pagerank": 0.0024288426944460767,
+   "pagerank": 0.0024288426944460806,
    "rank_pagerank": 10,
    "rank_in_degree": 7
   },
@@ -532,7 +533,7 @@
    "decision_id": null,
    "in_degree": 358,
    "out_degree": 0,
-   "pagerank": 0.0022303862229398857,
+   "pagerank": 0.0022303862229398953,
    "rank_pagerank": 11,
    "rank_in_degree": 22
   },
@@ -543,7 +544,7 @@
    "decision_id": null,
    "in_degree": 611,
    "out_degree": 0,
-   "pagerank": 0.0017816162059568804,
+   "pagerank": 0.001781616205956883,
    "rank_pagerank": 12,
    "rank_in_degree": 8
   },
@@ -554,7 +555,7 @@
    "decision_id": null,
    "in_degree": 532,
    "out_degree": 0,
-   "pagerank": 0.001554206011753181,
+   "pagerank": 0.0015542060117531827,
    "rank_pagerank": 13,
    "rank_in_degree": 10
   },
@@ -565,7 +566,7 @@
    "decision_id": null,
    "in_degree": 326,
    "out_degree": 0,
-   "pagerank": 0.0014758422096639353,
+   "pagerank": 0.0014758422096639377,
    "rank_pagerank": 14,
    "rank_in_degree": 26
   },
@@ -576,7 +577,7 @@
    "decision_id": null,
    "in_degree": 423,
    "out_degree": 0,
-   "pagerank": 0.0014645419119398621,
+   "pagerank": 0.0014645419119398628,
    "rank_pagerank": 15,
    "rank_in_degree": 15
   },
@@ -587,7 +588,7 @@
    "decision_id": null,
    "in_degree": 370,
    "out_degree": 0,
-   "pagerank": 0.001403781409738477,
+   "pagerank": 0.0014037814097384784,
    "rank_pagerank": 16,
    "rank_in_degree": 21
   },
@@ -598,7 +599,7 @@
    "decision_id": null,
    "in_degree": 446,
    "out_degree": 0,
-   "pagerank": 0.0014006801901074967,
+   "pagerank": 0.0014006801901074982,
    "rank_pagerank": 17,
    "rank_in_degree": 14
   },
@@ -609,7 +610,7 @@
    "decision_id": null,
    "in_degree": 290,
    "out_degree": 0,
-   "pagerank": 0.0013980759674815878,
+   "pagerank": 0.00139807596748159,
    "rank_pagerank": 18,
    "rank_in_degree": 29
   },
@@ -620,7 +621,7 @@
    "decision_id": null,
    "in_degree": 210,
    "out_degree": 0,
-   "pagerank": 0.0013888228936393568,
+   "pagerank": 0.0013888228936393585,
    "rank_pagerank": 19,
    "rank_in_degree": 44
   },
@@ -631,7 +632,7 @@
    "decision_id": null,
    "in_degree": 414,
    "out_degree": 0,
-   "pagerank": 0.0012680657779090875,
+   "pagerank": 0.0012680657779090903,
    "rank_pagerank": 20,
    "rank_in_degree": 16
   }
@@ -644,7 +645,7 @@
    "decision_id": null,
    "in_degree": 3335,
    "out_degree": 0,
-   "pagerank": 0.023088706466949667,
+   "pagerank": 0.023088706466949677,
    "rank_pagerank": 1,
    "rank_in_degree": 1
   },
@@ -655,7 +656,7 @@
    "decision_id": null,
    "in_degree": 3167,
    "out_degree": 0,
-   "pagerank": 0.023082711058095153,
+   "pagerank": 0.02308271105809517,
    "rank_pagerank": 2,
    "rank_in_degree": 2
   },
@@ -666,7 +667,7 @@
    "decision_id": null,
    "in_degree": 2750,
    "out_degree": 0,
-   "pagerank": 0.014505613468461655,
+   "pagerank": 0.014505613468461664,
    "rank_pagerank": 3,
    "rank_in_degree": 3
   },
@@ -677,7 +678,7 @@
    "decision_id": null,
    "in_degree": 1926,
    "out_degree": 0,
-   "pagerank": 0.005686934898643373,
+   "pagerank": 0.0056869348986433805,
    "rank_pagerank": 6,
    "rank_in_degree": 4
   },
@@ -688,7 +689,7 @@
    "decision_id": null,
    "in_degree": 1900,
    "out_degree": 0,
-   "pagerank": 0.0057308451430524866,
+   "pagerank": 0.005730845143052499,
    "rank_pagerank": 4,
    "rank_in_degree": 5
   },
@@ -699,7 +700,7 @@
    "decision_id": null,
    "in_degree": 1156,
    "out_degree": 0,
-   "pagerank": 0.004265439989298257,
+   "pagerank": 0.004265439989298275,
    "rank_pagerank": 7,
    "rank_in_degree": 6
   },
@@ -710,7 +711,7 @@
    "decision_id": null,
    "in_degree": 995,
    "out_degree": 0,
-   "pagerank": 0.0024288426944460767,
+   "pagerank": 0.0024288426944460806,
    "rank_pagerank": 10,
    "rank_in_degree": 7
   },
@@ -721,7 +722,7 @@
    "decision_id": null,
    "in_degree": 611,
    "out_degree": 0,
-   "pagerank": 0.0017816162059568804,
+   "pagerank": 0.001781616205956883,
    "rank_pagerank": 12,
    "rank_in_degree": 8
   },
@@ -732,7 +733,7 @@
    "decision_id": null,
    "in_degree": 584,
    "out_degree": 0,
-   "pagerank": 0.005716725885460005,
+   "pagerank": 0.005716725885460017,
    "rank_pagerank": 5,
    "rank_in_degree": 9
   },
@@ -743,7 +744,7 @@
    "decision_id": null,
    "in_degree": 532,
    "out_degree": 0,
-   "pagerank": 0.001554206011753181,
+   "pagerank": 0.0015542060117531827,
    "rank_pagerank": 13,
    "rank_in_degree": 10
   },
@@ -754,7 +755,7 @@
    "decision_id": null,
    "in_degree": 509,
    "out_degree": 0,
-   "pagerank": 0.0008183431685188691,
+   "pagerank": 0.0008183431685188701,
    "rank_pagerank": 32,
    "rank_in_degree": 11
   },
@@ -765,7 +766,7 @@
    "decision_id": null,
    "in_degree": 493,
    "out_degree": 0,
-   "pagerank": 0.0008182140831859183,
+   "pagerank": 0.0008182140831859194,
    "rank_pagerank": 33,
    "rank_in_degree": 12
   },
@@ -776,7 +777,7 @@
    "decision_id": null,
    "in_degree": 460,
    "out_degree": 0,
-   "pagerank": 0.0009517062999022112,
+   "pagerank": 0.000951706299902212,
    "rank_pagerank": 26,
    "rank_in_degree": 13
   },
@@ -787,7 +788,7 @@
    "decision_id": null,
    "in_degree": 446,
    "out_degree": 0,
-   "pagerank": 0.0014006801901074967,
+   "pagerank": 0.0014006801901074982,
    "rank_pagerank": 17,
    "rank_in_degree": 14
   },
@@ -798,7 +799,7 @@
    "decision_id": null,
    "in_degree": 423,
    "out_degree": 0,
-   "pagerank": 0.0014645419119398621,
+   "pagerank": 0.0014645419119398628,
    "rank_pagerank": 15,
    "rank_in_degree": 15
   },
@@ -809,7 +810,7 @@
    "decision_id": null,
    "in_degree": 414,
    "out_degree": 0,
-   "pagerank": 0.0012680657779090875,
+   "pagerank": 0.0012680657779090903,
    "rank_pagerank": 20,
    "rank_in_degree": 16
   },
@@ -820,7 +821,7 @@
    "decision_id": null,
    "in_degree": 411,
    "out_degree": 0,
-   "pagerank": 0.0009055826825134878,
+   "pagerank": 0.0009055826825134884,
    "rank_pagerank": 28,
    "rank_in_degree": 17
   },
@@ -831,7 +832,7 @@
    "decision_id": null,
    "in_degree": 401,
    "out_degree": 0,
-   "pagerank": 0.0011612406841649359,
+   "pagerank": 0.0011612406841649372,
    "rank_pagerank": 22,
    "rank_in_degree": 18
   },
@@ -842,7 +843,7 @@
    "decision_id": null,
    "in_degree": 386,
    "out_degree": 0,
-   "pagerank": 0.0010542140012425548,
+   "pagerank": 0.0010542140012425557,
    "rank_pagerank": 25,
    "rank_in_degree": 19
   },
@@ -853,7 +854,7 @@
    "decision_id": null,
    "in_degree": 385,
    "out_degree": 0,
-   "pagerank": 0.001158969907382029,
+   "pagerank": 0.0011589699073820314,
    "rank_pagerank": 23,
    "rank_in_degree": 20
   }
@@ -866,7 +867,7 @@
    "decision_id": "bger_5F_36_2022",
    "in_degree": 56,
    "out_degree": 4,
-   "pagerank": 0.0007615472735749811,
+   "pagerank": 0.0007615472735749814,
    "rank_pagerank": 37,
    "rank_in_degree": 166
   },
@@ -877,7 +878,7 @@
    "decision_id": "bger_5F_12_2022",
    "in_degree": 49,
    "out_degree": 3,
-   "pagerank": 0.0006828400199331161,
+   "pagerank": 0.0006828400199331163,
    "rank_pagerank": 42,
    "rank_in_degree": 191
   },
@@ -888,7 +889,7 @@
    "decision_id": "bger_5A_85_2021",
    "in_degree": 46,
    "out_degree": 52,
-   "pagerank": 9.976160607605037e-05,
+   "pagerank": 9.976160607605041e-05,
    "rank_pagerank": 379,
    "rank_in_degree": 204
   },
@@ -921,7 +922,7 @@
    "decision_id": "bger_5A_456_2020",
    "in_degree": 31,
    "out_degree": 28,
-   "pagerank": 8.881890081949151e-05,
+   "pagerank": 8.881890081949153e-05,
    "rank_pagerank": 466,
    "rank_in_degree": 296
   },
@@ -932,7 +933,7 @@
    "decision_id": "bger_5A_311_2019",
    "in_degree": 27,
    "out_degree": 69,
-   "pagerank": 0.0001154451119774688,
+   "pagerank": 0.00011544511197746883,
    "rank_pagerank": 295,
    "rank_in_degree": 331
   },
@@ -943,7 +944,7 @@
    "decision_id": "bger_4A_412_2019",
    "in_degree": 25,
    "out_degree": 34,
-   "pagerank": 6.913824173762792e-05,
+   "pagerank": 6.913824173762794e-05,
    "rank_pagerank": 829,
    "rank_in_degree": 356
   },
@@ -965,9 +966,10 @@
    "decision_id": "bger_4A_446_2022",
    "in_degree": 24,
    "out_degree": 25,
-   "pagerank": 6.979047314293948e-05,
+   "pagerank": 6.97904731429395e-05,
    "rank_pagerank": 757,
    "rank_in_degree": 368
   }
- ]
+ ],
+ "html": "data/runs/regex-v0.4/graph.html"
 }
