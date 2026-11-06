@@ -777,6 +777,15 @@ agree in 4,627 cases and disagree in 1,179; 975 of the disagreements are `datase
 the regex outcome is right in 97 to 100 percent of the cases (sections 6.4, 6.11, 6.13), so
 the regex column is the one the graph uses, and the dataset column is kept beside it.
 
+**Update 2026-11-05 (guideline v0.4).** The outcome rule changed: when one remedy is
+inadmissible and the other is decided, the decided one counts (`docs/annotation-guideline.md`).
+Eight gold labels changed (`data/gold/outcome/gold-relabel-v0.4.jsonl`). Under v0.4 the regex
+outcome is right on 58/60, 89/90 and 189/200 gold decisions (batches 1, 2, 3), and gbert-b13-s0
+on 58/60, 89/90 and 195/200; the per-section numbers below are v0.3. On the 159 decisions
+where the two extractors disagree, the regex outcome is right in only 18.5% of the 151 scored
+cases and gbert-b13-s0 in 76.2% (`docs/jev-outcome.md`), so "regex wins" is the wrong rule for
+these decisions.
+
 ### 7.2 Postgres
 
 `make db-up` starts Postgres 16 in Docker (port 5433; `infra/docker-compose.yml`), `make
@@ -1322,7 +1331,11 @@ _Running log._
 3. Record the five-minute demo (`docs/recording-script.md`).
 4. Slim the x86 image: the API against Postgres needs neither polars nor DuckDB; moving them
    to an extra cuts about 240 MB.
-5. If time remains: the scheduled drift check (8.4); a day on the AWS stack (8.6) for a
+5. Jev 1.14 in the pipeline (`docs/jev-roadmap.md`, from the pilot of 2026-11-05): first an
+   outcome resolver for the decisions where regex and gbert disagree, then a routine filter
+   for citations with a selector in the API and the explorer, then `legal_area` together with
+   TF-IDF.
+6. If time remains: the scheduled drift check (8.4); a day on the AWS stack (8.6) for a
    measured comparison; a third gbert seed; a CRF head; a human spot check of batch 3; French
    and Italian decisions.
 

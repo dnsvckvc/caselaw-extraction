@@ -1,4 +1,8 @@
-# Annotation guideline (v0.3)
+# Annotation guideline (v0.4)
+
+v0.4 (2026-11-05, decided by Denis) changes only the outcome: the appeal that the court
+decides counts, not item 1 taken literally (see "Outcome"). Eight gold labels changed; the list
+is in `data/gold/outcome/gold-relabel-v0.4.jsonl`.
 
 v0.2 (2026-10-23) added the four negative classes in the section "Negative classes" and
 changed nothing in the five citation classes. v0.3 (2026-10-23, decided by Denis on all open
@@ -69,6 +73,17 @@ Read the Dispositiv (section after `Demnach erkennt das Bundesgericht:`).
 - A decision that annuls the lower ruling and remands (aufgehoben, zurückgewiesen) without the
   word gutgeheissen counts as `approved`.
 If several appeals are decided, label the main one and leave a comment.
+
+Rules added in v0.4 (2026-11-05):
+- Two remedies, one inadmissible and the other decided (for example `Auf die Beschwerde in
+  Zivilsachen wird nicht eingetreten. 2. Die subsidiäre Verfassungsbeschwerde wird abgewiesen`):
+  the decided remedy counts → `dismissed`. This holds in either order of the items.
+- Several appellants or joined appeals, one inadmissible and another decided: the decided one
+  counts. If the results include an approval and a dismissal: `partial_approval`.
+- One proceeding or part is struck off as moot and the rest is decided: the rest counts. If the
+  matter itself is moot and only costs are decided: `moot`.
+- A request for revision, interpretation, rectification or restoration of a time limit counts
+  like an appeal.
 
 ## Negative classes (v0.2)
 

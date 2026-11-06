@@ -50,3 +50,36 @@ OTHER_LAW and JOURNAL_REF, without touching the five citation classes. See the g
 The agents also listed citation-gold typos that follow the source text (`BGE 142 IIII 758`,
 `140 IIII 264`, `Art. 47 Abs. 2 BGG` for BGBB, `Art. 308 BGG` for ZGB, `Art. 74 Abs. 1 Bst. b
 ZGB` for BGG, `BGE 140 III 15`). Item 9 covers them: label as written.
+
+## Outcome label v0.4 and the open question of several rulings (2026-11-05)
+
+**When.** 2026-11-05, during subproject 3 of the Jev 1.14 pilot (`docs/jev-outcome.md`). Denis chose
+option A after the test run.
+
+**Why.** Up to v0.3 the gold set read item 1 of the ruling literally. A decision with "1. Auf die
+Beschwerde in Zivilsachen wird nicht eingetreten. 2. Die subsidiäre Verfassungsbeschwerde wird
+abgewiesen" was `inadmissible`, although the court decided the case on the merits through the
+second remedy. While labelling the 153 disputed decisions, Claude used the rule "the remedy that
+the court decides counts" and put it into the Jev 1.14 prompt. The two conventions disagreed on
+8 gold decisions, and these caused 8 of the 10 gold errors of Jev 1.14. Option A keeps the rule
+that describes what the court decided on the merits, so v0.4 adopted it. The 8 changed gold
+labels are in `data/gold/outcome/gold-relabel-v0.4.jsonl` (7 `inadmissible` → `dismissed`,
+1 `moot` → `dismissed`); the rules are in `docs/annotation-guideline.md`, section Outcome.
+
+**Open: one label is too coarse for these decisions.** A decision with several rulings has
+several outcomes: two remedies, several appellants, joined proceedings, a part struck off as
+moot and the rest decided. Any single label loses information, and the choice between
+conventions (item 1 against the decided remedy) is the symptom. About 30 of the 503 labelled
+decisions (8 gold, 17 to 22 disputed) are of this kind. Ideally they get a more granular
+evaluation, in which the label knows that there are several decisions:
+
+- One outcome for each ruling item that decides an appeal or request, with its object (which
+  remedy, which appellant, which proceeding) and its result.
+- A derived document outcome for the analyses, computed from the items by a stated rule, so
+  that the convention is a parameter, not a property of the gold set.
+- Scoring per item and per document, so that an extractor that reads the items correctly is not
+  marked wrong because of the convention.
+
+This needs a schema change (an `outcome_items` list beside `outcome`), a relabel of the affected
+decisions, and extractors that return items (regex v0.4 already finds the items; gbert-b13-s0
+and Jev 1.14 return one label). Not scheduled.
