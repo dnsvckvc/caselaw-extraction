@@ -4,7 +4,7 @@ Facts that later sessions need and that the code does not show. The report (`doc
 
 ## Jev 1.14 (cheap classifier on OpenRouter), pilot of 2026-11-05
 
-- Roadmap: `docs/jev-roadmap.md`. Order: outcome resolver, routine filter, `legal_area` with TF-IDF. None of it is built yet.
+- Roadmap: `docs/jev-roadmap.md`. Order: outcome resolver, routine filter, `legal_area` with TF-IDF. Only the routine filter is built (2026-11-06).
 - Outcome is the strongest case: on decisions where regex v0.4 and gbert-b13-s0 disagree, Jev 1.14 is right in 0.974, gbert in 0.762, regex in 0.185. Do not keep "regex wins" for these decisions.
 - Routine filter: Jev 1.14 `routine_standard` only (user decision 2026-11-06; the "BGG" regex is not used). Selector plan for the API: `docs/plan-routine-selector.md`. Steps 1 to 5 built and the full labelling run done on 2026-11-06 (`caselaw treatment`, `routine=include|exclude`). On Hetzner the order is hz-sync, hz-deploy, hz-load, hz-restart (step 6).
 - `legal_area`: Jev 1.14 alone is not better than TF-IDF. Use it only in combination, after the whole-text check (`docs/jev-legal-area.md`).
