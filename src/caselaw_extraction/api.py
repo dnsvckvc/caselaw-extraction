@@ -19,7 +19,7 @@ from pydantic import BaseModel, Field
 from caselaw_extraction import drift, graph
 from caselaw_extraction.store import Store, open_store
 
-API_VERSION = "0.1.0"
+API_VERSION = "0.2.0"
 
 
 # --- response models -----------------------------------------------------------------------------
@@ -35,6 +35,15 @@ class Health(BaseModel):
 class RunOut(BaseModel):
     run_id: str
     extractor: str
+    treatment_model: str | None = Field(
+        None, description="Jev 1.14 snapshot that labelled the citations, if any"
+    )
+    labelled_share: float = Field(
+        0.0, description="share of bge and docket citations with a treatment label"
+    )
+    routine_share: float = Field(
+        0.0, description="share of bge and docket citations labelled routine_standard"
+    )
 
 
 class SpanOut(BaseModel):
@@ -53,6 +62,12 @@ class CitationOut(BaseModel):
     target_decision_id: str | None = Field(
         None, description="set when the cited file number is a decision of this corpus"
     )
+    treatment: str | None = Field(
+        None,
+        description="Jev 1.14 label of a bge or docket citation, e.g. `routine_standard`; "
+        "null for statutes and unlabelled citations",
+    )
+    treatment_p: float | None = Field(None, description="probability of the treatment label")
     span: SpanOut
 
 
@@ -186,6 +201,17 @@ def get_store(request: Request) -> Store:
 
 StoreDep = Annotated[Store, Depends(get_store)]
 
+# The routine selector: `exclude` leaves out the bge and docket citations that Jev 1.14
+# labelled `routine_standard` (graph.not_routine). Statute citations have no labels yet.
+RoutineParam = Annotated[
+    str,
+    Query(
+        pattern="^(include|exclude)$",
+        description="`exclude`: ignore BGE and file-number citations that Jev 1.14 labelled "
+        "routine standard text; unlabelled citations count as not routine",
+    ),
+]
+
 
 # The aggregate endpoints read a run that never changes while the service runs, so their
 # results are cached in the process (the top-statutes aggregate costs about one second on a
@@ -222,8 +248,15 @@ def warm_cache(store: Store) -> None:
     jobs: list[tuple[tuple, Callable[[], Any]]] = [
         (("statutes_top", 20, None, None), lambda: graph.top_statutes(store, 20, None, None)),
         (("codes", 20), lambda: graph.top_codes(store, 20)),
-        (("trend_years",), lambda: graph.trend_by_year(store)),
-        (("central", 20, "pagerank", None), lambda: graph.central_decisions(store, 20)),
+        (("trend_years", "include"), lambda: graph.trend_by_year(store)),
+        (
+            ("central", 20, "pagerank", None, "include"),
+            lambda: graph.central_decisions(store, 20),
+        ),
+        (
+            ("central", 20, "pagerank", None, "exclude"),
+            lambda: graph.central_decisions(store, 20, variant="no_routine"),
+        ),
     ]
     for key, compute in jobs:
         # a warm-up failure must not stop the service
@@ -245,8 +278,35 @@ def health(store: StoreDep) -> Health:
 
 
 @app.get("/runs", response_model=list[RunOut])
-def runs(store: StoreDep) -> list[RunOut]:
-    return [RunOut(**r) for r in store.query("SELECT run_id, extractor FROM extraction_run")]
+def runs(store: StoreDep, response: Response) -> list[RunOut]:
+    """The loaded runs, with how far Jev 1.14 has labelled their BGE and file-number citations."""
+
+    def compute() -> list[dict[str, Any]]:
+        out = []
+        for r in store.query("SELECT run_id, extractor FROM extraction_run"):
+            t = store.query(
+                """
+                SELECT count(*) AS n, count(t.label) AS labelled,
+                       sum(CASE WHEN t.label = 'routine_standard' THEN 1 ELSE 0 END) AS routine,
+                       max(t.model) AS model
+                FROM citation c LEFT JOIN citation_treatment t
+                     ON t.run_id = c.run_id AND t.span_id = c.span_id
+                WHERE c.run_id = ? AND c.kind IN ('bge', 'docket')
+                """,
+                (r["run_id"],),
+            )[0]
+            n = int(t["n"]) or 1
+            out.append(
+                {
+                    **r,
+                    "treatment_model": t["model"],
+                    "labelled_share": round(int(t["labelled"]) / n, 4),
+                    "routine_share": round(int(t["routine"] or 0) / n, 4),
+                }
+            )
+        return out
+
+    return [RunOut(**r) for r in cached(store, response, ("runs",), compute)]
 
 
 @app.get("/decisions/central", response_model=list[CentralNode])
@@ -256,14 +316,17 @@ def central(
     limit: int = Query(20, ge=1, le=200),
     by: str = Query("pagerank", pattern="^(pagerank|in_degree)$"),
     kind: str | None = Query(None, pattern="^(decision|bge|docket)$"),
+    routine: RoutineParam = "include",
 ) -> list[CentralNode]:
     """Most central nodes of the citation graph: cited BGE, cited file numbers and corpus
-    decisions, by PageRank or by the number of citing decisions."""
+    decisions, by PageRank or by the number of citing decisions. With `routine=exclude`, from
+    the graph without routine citations."""
+    variant = "no_routine" if routine == "exclude" else "all"
     rows = cached(
         store,
         response,
-        ("central", limit, by, kind),
-        lambda: graph.central_decisions(store, limit, by, kind),
+        ("central", limit, by, kind, routine),
+        lambda: graph.central_decisions(store, limit, by, kind, variant),
     )
     return [CentralNode(**r) for r in rows]
 
@@ -276,16 +339,24 @@ def _decision_where(
     year: int | None,
     outcome: str | None,
     chamber: str | None,
+    routine: str = "include",
 ) -> tuple[str, list[Any]]:
-    """WHERE clause (alias `d`) and parameters shared by `/decisions` and `/decisions/facets`."""
+    """WHERE clause (alias `d`) and parameters shared by `/decisions` and `/decisions/facets`.
+    With `routine=exclude`, the bge and docket filters match only citations not labelled
+    routine."""
     where = ["d.run_id = ?"]
     params: list[Any] = [store.run_id]
     for kind, value in (("statute", statute), ("bge", bge), ("docket", docket)):
         if value:
             key = value.replace("/", "_").replace(".", "_") if kind == "docket" else value
+            keep = (
+                f" AND {graph.not_routine('c')}"
+                if routine == "exclude" and kind != "statute"
+                else ""
+            )
             where.append(
                 "EXISTS (SELECT 1 FROM citation c WHERE c.run_id = d.run_id "
-                "AND c.decision_id = d.decision_id AND c.kind = ? AND c.key = ?)"
+                f"AND c.decision_id = d.decision_id AND c.kind = ? AND c.key = ?{keep})"
             )
             params += [kind, key]
     for col, value in (("year", year), ("outcome", outcome), ("chamber", chamber)):
@@ -305,10 +376,11 @@ def decision_facets(
     year: int | None = None,
     outcome: str | None = None,
     chamber: str | None = None,
+    routine: RoutineParam = "include",
 ) -> Facets:
     """Decision counts per year, outcome and chamber under the same filters as `/decisions`,
     for the facet chips of a browse page (one request instead of one per facet value)."""
-    where, params = _decision_where(store, statute, bge, docket, year, outcome, chamber)
+    where, params = _decision_where(store, statute, bge, docket, year, outcome, chamber, routine)
 
     def compute() -> dict[str, Any]:
         out: dict[str, Any] = {}
@@ -322,7 +394,7 @@ def decision_facets(
         out["total"] = sum(r["decisions"] for r in out["year"])
         return out
 
-    key = ("facets", statute, bge, docket, year, outcome, chamber)
+    key = ("facets", statute, bge, docket, year, outcome, chamber, routine)
     return Facets(**cached(store, response, key, compute))
 
 
@@ -363,8 +435,11 @@ def decision(decision_id: str, store: StoreDep) -> DecisionOut:
     by_span = {s["span_id"]: s for s in spans}
     cits = store.query(
         """
-        SELECT span_id, kind, key, code, sr, article, target_decision_id
-        FROM citation WHERE run_id = ? AND decision_id = ?
+        SELECT c.span_id, c.kind, c.key, c.code, c.sr, c.article, c.target_decision_id,
+               t.label AS treatment, t.p AS treatment_p
+        FROM citation c LEFT JOIN citation_treatment t
+             ON t.run_id = c.run_id AND t.span_id = c.span_id
+        WHERE c.run_id = ? AND c.decision_id = ?
         """,
         (store.run_id, decision_id),
     )
@@ -396,9 +471,10 @@ def decisions(
     chamber: str | None = None,
     limit: int = Query(50, ge=1, le=500),
     offset: int = Query(0, ge=0),
+    routine: RoutineParam = "include",
 ) -> DecisionPage:
     """Decisions, filtered by what they cite and by their metadata. Newest first."""
-    where, params = _decision_where(store, statute, bge, docket, year, outcome, chamber)
+    where, params = _decision_where(store, statute, bge, docket, year, outcome, chamber, routine)
     rows = store.query(
         f"""
         SELECT d.decision_id, d.docket_number, d.decision_date, d.year, d.chamber, d.legal_area,
@@ -442,9 +518,17 @@ def statutes_codes(
 
 
 @app.get("/trends/years", response_model=list[YearTrend])
-def trends_years(store: StoreDep, response: Response) -> list[YearTrend]:
-    """Citations per decision by kind and the age of the cited BGE volumes, per year."""
-    rows = cached(store, response, ("trend_years",), lambda: graph.trend_by_year(store))
+def trends_years(
+    store: StoreDep, response: Response, routine: RoutineParam = "include"
+) -> list[YearTrend]:
+    """Citations per decision by kind and the age of the cited BGE volumes, per year. With
+    `routine=exclude`, the BGE and file-number figures leave out routine citations."""
+    rows = cached(
+        store,
+        response,
+        ("trend_years", routine),
+        lambda: graph.trend_by_year(store, exclude_routine=routine == "exclude"),
+    )
     return [YearTrend(**r) for r in rows]
 
 
@@ -508,20 +592,22 @@ _NEIGHBOR_COLS = """
 """
 
 
-def _neighbor_rows(store: Store, nodes_sql: str, params: tuple[Any, ...], limit: int) -> list[dict]:
+def _neighbor_rows(
+    store: Store, nodes_sql: str, params: tuple[Any, ...], limit: int, variant: str = "all"
+) -> list[dict]:
     """Enrich node ids (`nodes_sql` yields node, kind, key, decision_id) with the decision's
-    year and outcome and the centrality values; most central first."""
+    year and outcome and the centrality values of `variant`; most central first."""
     return store.query(
         f"""
         WITH n AS ({nodes_sql})
         SELECT {_NEIGHBOR_COLS}
         FROM n
         LEFT JOIN decision d ON d.run_id = ? AND d.decision_id = n.decision_id
-        LEFT JOIN centrality c ON c.run_id = ? AND c.node = n.node
+        LEFT JOIN centrality c ON c.run_id = ? AND c.variant = ? AND c.node = n.node
         ORDER BY c.pagerank DESC NULLS LAST, n.node
         LIMIT ?
         """,
-        (*params, store.run_id, store.run_id, limit),
+        (*params, store.run_id, store.run_id, variant, limit),
     )
 
 
@@ -534,10 +620,13 @@ def graph_neighbors(
         "`bge:BGE 140 III 115` or `docket:4A_12_2020` (a cited file number outside the corpus)"
     ),
     limit: int = Query(50, ge=1, le=500, description="neighbours per direction"),
+    routine: RoutineParam = "include",
 ) -> Neighbors:
     """One hop of the citation graph around a node: the decisions that cite it and, for a corpus
     decision, the BGE, file numbers and corpus decisions it cites. Same node ids as
-    `/decisions/central`."""
+    `/decisions/central`. With `routine=exclude`, routine citations are not edges."""
+    variant = "no_routine" if routine == "exclude" else "all"
+    keep = f" AND {graph.not_routine('c')}" if routine == "exclude" else ""
     if node.startswith(("bge:", "docket:")):
         kind, _, key = node.partition(":")
     else:
@@ -550,12 +639,12 @@ def graph_neighbors(
         )
         if not rows:
             raise HTTPException(404, f"decision {node} is not in run {run}")
-        cited_by_sql = """
+        cited_by_sql = f"""
             SELECT DISTINCT decision_id AS node, 'decision' AS kind, decision_id AS key,
-                   decision_id FROM citation
-            WHERE run_id = ? AND kind = 'docket' AND target_decision_id = ?
+                   decision_id FROM citation c
+            WHERE run_id = ? AND kind = 'docket' AND target_decision_id = ?{keep}
         """
-        cites_sql = """
+        cites_sql = f"""
             SELECT DISTINCT
                 CASE WHEN kind = 'bge' THEN 'bge:' || key
                      WHEN target_decision_id IS NOT NULL THEN target_decision_id
@@ -566,32 +655,47 @@ def graph_neighbors(
                 CASE WHEN target_decision_id IS NOT NULL THEN target_decision_id
                      ELSE key END AS key,
                 target_decision_id AS decision_id
-            FROM citation
+            FROM citation c
             WHERE run_id = ? AND decision_id = ? AND kind IN ('bge', 'docket')
-              AND (target_decision_id IS NULL OR target_decision_id <> decision_id)
+              AND (target_decision_id IS NULL OR target_decision_id <> decision_id){keep}
         """
-        cites = _neighbor_rows(store, cites_sql, (run, node), limit)
+        cites = _neighbor_rows(store, cites_sql, (run, node), limit, variant)
     else:
-        cited_by_sql = """
+        cited_by_sql = f"""
             SELECT DISTINCT decision_id AS node, 'decision' AS kind, decision_id AS key,
-                   decision_id FROM citation
-            WHERE run_id = ? AND kind = ? AND key = ? AND target_decision_id IS NULL
+                   decision_id FROM citation c
+            WHERE run_id = ? AND kind = ? AND key = ? AND target_decision_id IS NULL{keep}
         """
         cites = []
     cited_by = _neighbor_rows(
-        store, cited_by_sql, (run, node) if kind == "decision" else (run, kind, key), limit
+        store,
+        cited_by_sql,
+        (run, node) if kind == "decision" else (run, kind, key),
+        limit,
+        variant,
     )
     central = store.query(
-        "SELECT in_degree, out_degree, pagerank FROM centrality WHERE run_id = ? AND node = ?",
-        (run, node),
+        "SELECT in_degree, out_degree, pagerank FROM centrality "
+        "WHERE run_id = ? AND variant = ? AND node = ?",
+        (run, variant, node),
     )
-    if kind != "decision" and not central and not cited_by:
+    # a node cited only by routine citations exists, with no edges in the `no_routine` variant
+    if (
+        kind != "decision"
+        and not central
+        and not cited_by
+        and not store.query(
+            "SELECT 1 FROM centrality WHERE run_id = ? AND variant = 'all' AND node = ?",
+            (run, node),
+        )
+    ):
         raise HTTPException(404, f"node {node} is not in the citation graph of run {run}")
     me = _neighbor_rows(
         store,
         "SELECT ? AS node, ? AS kind, ? AS key, ? AS decision_id",
         (node, kind, key, node if kind == "decision" else None),
         1,
+        variant,
     )[0]
     response.headers["Cache-Control"] = CACHE_CONTROL
     return Neighbors(

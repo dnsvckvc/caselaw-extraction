@@ -21,7 +21,10 @@ def client(synthetic_run, monkeypatch):
 def test_health_and_runs(client):
     h = client.get("/health").json()
     assert h["status"] == "ok" and h["backend"] == "duckdb" and h["run_id"] == "synthetic"
-    assert client.get("/runs").json() == [{"run_id": "synthetic", "extractor": "regex"}]
+    runs = client.get("/runs").json()
+    assert [(r["run_id"], r["extractor"]) for r in runs] == [("synthetic", "regex")]
+    assert runs[0]["treatment_model"] == "typesafe/jev-1.14-20261014"
+    assert runs[0]["labelled_share"] == 1.0 and 0 < runs[0]["routine_share"] < 1
 
 
 def test_decision_returns_citations_with_spans(client):
@@ -32,7 +35,17 @@ def test_decision_returns_citations_with_spans(client):
     kinds = {c["kind"] for c in d["citations"]}
     assert kinds == {"statute", "bge", "docket"}
     first = d["citations"][0]
-    assert set(first) == {"kind", "key", "code", "sr", "article", "target_decision_id", "span"}
+    assert set(first) == {
+        "kind",
+        "key",
+        "code",
+        "sr",
+        "article",
+        "target_decision_id",
+        "treatment",
+        "treatment_p",
+        "span",
+    }
     assert set(first["span"]) == {"start", "end", "label", "text"}
     labels = {s["label"] for s in d["spans"]}
     assert "AMOUNT" in labels and "PARTY_ROLE" in labels
@@ -167,3 +180,42 @@ def test_graph_neighbors(client):
     )
     assert client.get("/graph/neighbors", params={"node": "bge:BGE 1 I 1"}).status_code == 404
     assert client.get("/graph/neighbors", params={"node": "nope"}).status_code == 404
+
+
+def test_routine_selector(client):
+    # fake_jev (conftest) labels one citation routine: 5A_2/2022 citing 4A_1/2021
+    cits = client.get("/decisions/bger_5A_2_2022").json()["citations"]
+    by_key = {c["key"]: c for c in cits}
+    assert by_key["4A_1_2021"]["treatment"] == "routine_standard"
+    assert by_key["4A_1_2021"]["treatment_p"] == 0.9
+    assert by_key["BGE 140 III 86"]["treatment"] == "substantive_rule"
+    assert {c["treatment"] for c in cits if c["kind"] == "statute"} == {None}
+
+    def get(path, **params):
+        return client.get(path, params=params).json()
+
+    # the default and `include` give the same answer as before the selector
+    for path, params in (
+        ("/decisions", {"docket": "4A_1/2021"}),
+        ("/decisions/facets", {"docket": "4A_1/2021"}),
+        ("/decisions/central", {"by": "in_degree"}),
+        ("/trends/years", {}),
+        ("/graph/neighbors", {"node": "bger_4A_1_2021"}),
+    ):
+        assert get(path, **params) == get(path, **params, routine="include")
+    assert get("/decisions", docket="4A_1/2021")["total"] == 2
+    assert get("/decisions", docket="4A_1/2021", routine="exclude")["total"] == 1
+    assert get("/decisions/facets", docket="4A_1/2021", routine="exclude")["total"] == 1
+    # statute citations have no labels: the selector does not change them
+    assert get("/decisions", statute="ZGB 8", routine="exclude")["total"] == 2
+    # the graph without the routine edge
+    n = get("/graph/neighbors", node="bger_4A_1_2021", routine="exclude")
+    assert {r["node"] for r in n["cited_by"]} == {"bger_4A_3_2023"} and n["in_degree"] == 1
+    m = get("/graph/neighbors", node="bger_5A_2_2022", routine="exclude")
+    assert "bger_4A_1_2021" not in {r["node"] for r in m["cites"]}
+    central = get("/decisions/central", by="in_degree", kind="decision", routine="exclude")
+    assert {r["node"]: r["in_degree"] for r in central}["bger_4A_1_2021"] == 1
+    years = {y["year"]: y for y in get("/trends/years", routine="exclude")}
+    assert years[2022]["docket_per_decision"] == 0
+    assert {y["year"]: y for y in get("/trends/years")}[2022]["docket_per_decision"] == 1
+    assert client.get("/decisions", params={"routine": "drop"}).status_code == 422

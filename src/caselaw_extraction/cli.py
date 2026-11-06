@@ -453,6 +453,33 @@ def graph_cmd(
     print(graph.format_analyses(a))
 
 
+TREATMENT_TEXTS_OPT = typer.Option(Path("data/runs/texts.parquet"), help="decision texts")
+
+
+@app.command(name="treatment")
+def treatment_cmd(
+    run: str = typer.Option("regex-v0.4", help="run name under data/runs/"),
+    texts: Path = TREATMENT_TEXTS_OPT,
+    max_cost: float = typer.Option(8.0, help="stop when the spend reaches this many USD"),
+    workers: int = typer.Option(8, help="parallel requests"),
+    limit: int = typer.Option(0, help="label at most this many new citations (0: all)"),
+) -> None:
+    """Routine selector: label every BGE and file-number citation of a run with Jev 1.14
+    (frozen prompt 2). Needs OPENROUTER_API_KEY; resumes from <run>/treatment.jsonl and
+    writes <run>/treatment.parquet. Run `caselaw graph` afterwards for the second variant."""
+    import os
+
+    from caselaw_extraction import treatment
+
+    key = os.environ.get("OPENROUTER_API_KEY")
+    if not key:
+        raise typer.BadParameter("OPENROUTER_API_KEY is not set (run it under `op run`)")
+    out = treatment.label_run(
+        corpus_run_dir(run), texts, key, max_cost, workers, limit or None, log=print
+    )
+    rprint(f"[green]done[/green] {out}")
+
+
 @app.command(name="compare-runs")
 def compare_runs_cmd(
     a: str = typer.Argument(..., help="run name"),

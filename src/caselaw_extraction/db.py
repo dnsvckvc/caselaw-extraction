@@ -72,6 +72,7 @@ _LOADS = (
         "centrality",
         "centrality.parquet",
         {
+            "variant": "variant",
             "node": "node",
             "kind": "kind",
             "key": "key",
@@ -83,7 +84,14 @@ _LOADS = (
             "rank_in_degree": "rank_in_degree",
         },
     ),
+    (
+        "citation_treatment",
+        "treatment.parquet",
+        {"span_id": "span_id", "label": "label", "p": "p", "model": "model"},
+    ),
 )
+# Columns that older run files lack, with the value to load instead.
+_DEFAULTS = {"variant": "all"}
 
 
 def connect(dsn: str = DEFAULT_DSN):
@@ -159,11 +167,15 @@ def load_run(name: str, dsn: str = DEFAULT_DSN, runs_dir: Path | str = RUNS_DIR)
                 path = f"{base}/{fname}"
                 if not _exists(fs, path):
                     continue
-                tbl = pq.read_table(path, columns=list(mapping), filesystem=fs)
-                rows = [
-                    (name, *vals)
-                    for vals in zip(*(tbl.column(c).to_pylist() for c in mapping), strict=True)
+                present = set(pq.read_schema(path, filesystem=fs).names)
+                tbl = pq.read_table(
+                    path, columns=[c for c in mapping if c in present], filesystem=fs
+                )
+                cols = [
+                    tbl.column(c).to_pylist() if c in present else [_DEFAULTS[c]] * tbl.num_rows
+                    for c in mapping
                 ]
+                rows = [(name, *vals) for vals in zip(*cols, strict=True)]
                 counts[table] = _copy_rows(cur, table, ["run_id", *mapping.values()], rows)
         con.commit()
         # Fresh statistics after a bulk COPY; without them the planner scans the citation

@@ -31,3 +31,5 @@ infra/hetzner/*.tfstate
 infra/hetzner/*.tfstate.*
 caselaw.env
 infra/hetzner/*.tfplan
+# Jev 1.14 raw answers (47 MB for regex-v0.4); treatment.parquet holds the labels
+data/runs/*/treatment.jsonl

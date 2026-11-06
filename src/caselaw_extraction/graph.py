@@ -8,7 +8,8 @@
 The graph nodes are the corpus decisions, the cited BGE (by `BGE vol part page`) and the cited
 file numbers that are not in the corpus. An edge is "decision A cites B", one per (A, B) pair.
 The centrality table is written next to the run tables so that the API can serve it from
-either backend.
+either backend. It holds two variants of the graph: `all`, and `no_routine` without the
+citations that Jev 1.14 labelled `routine_standard` (`citation_treatment`, see treatment.py).
 """
 
 from __future__ import annotations
@@ -28,8 +29,10 @@ from caselaw_extraction.store import DuckDBStore, Store
 BGE_FIRST_YEAR = 1874  # BGE volume 1 is 1875; volume 146 is 2020
 MAIN_CODES = ("BGG", "ZPO", "ZGB", "OR", "SchKG", "BV")
 
+VARIANTS = ("all", "no_routine")
 CENTRALITY_SCHEMA = pa.schema(
     [
+        ("variant", pa.string()),  # all | no_routine
         ("node", pa.string()),
         ("kind", pa.string()),  # decision | bge | docket
         ("key", pa.string()),
@@ -41,6 +44,15 @@ CENTRALITY_SCHEMA = pa.schema(
         ("rank_in_degree", pa.int32()),
     ]
 )
+
+
+def not_routine(alias: str = "c") -> str:
+    """SQL condition: the citation `alias` is not labelled routine. A citation without a label
+    counts as not routine. The one definition of the API's routine selector."""
+    return (
+        f"NOT EXISTS (SELECT 1 FROM citation_treatment t WHERE t.run_id = {alias}.run_id "
+        f"AND t.span_id = {alias}.span_id AND t.label = 'routine_standard')"
+    )
 
 
 # --- analysis 1: most-cited statutes ----------------------------------------------------------
@@ -90,16 +102,18 @@ def top_codes(store: Store, limit: int = 15) -> list[dict[str, Any]]:
 # --- analysis 2: trend by year ------------------------------------------------------------------
 
 
-def trend_by_year(store: Store) -> list[dict[str, Any]]:
+def trend_by_year(store: Store, exclude_routine: bool = False) -> list[dict[str, Any]]:
     """One row per year: decisions, citations per decision by kind, distinct BGE cited, mean
-    age of the cited BGE volumes (citing year minus volume year)."""
+    age of the cited BGE volumes (citing year minus volume year). With `exclude_routine`, the
+    BGE and file-number figures leave out citations labelled routine."""
+    keep = f" AND {not_routine('c')}" if exclude_routine else ""
     return store.query(
-        """
+        f"""
         WITH per_decision AS (
             SELECT d.decision_id, d.year,
                    sum(CASE WHEN c.kind = 'statute' THEN 1 ELSE 0 END) AS n_statute,
-                   sum(CASE WHEN c.kind = 'bge' THEN 1 ELSE 0 END) AS n_bge,
-                   sum(CASE WHEN c.kind = 'docket' THEN 1 ELSE 0 END) AS n_docket
+                   sum(CASE WHEN c.kind = 'bge'{keep} THEN 1 ELSE 0 END) AS n_bge,
+                   sum(CASE WHEN c.kind = 'docket'{keep} THEN 1 ELSE 0 END) AS n_docket
             FROM decision d LEFT JOIN citation c
                  ON c.run_id = d.run_id AND c.decision_id = d.decision_id
             WHERE d.run_id = ?
@@ -110,7 +124,7 @@ def trend_by_year(store: Store) -> list[dict[str, Any]]:
                    avg(d.year - (cast(split_part(c.key, ' ', 2) AS integer) + ?)) AS mean_bge_age,
                    count(DISTINCT c.key) AS distinct_bge
             FROM citation c JOIN decision d ON d.run_id = c.run_id AND d.decision_id = c.decision_id
-            WHERE c.kind = 'bge' AND c.run_id = ?
+            WHERE c.kind = 'bge' AND c.run_id = ?{keep}
             GROUP BY d.year
         )
         SELECT p.year, count(*) AS decisions,
@@ -149,18 +163,20 @@ def code_share_by_year(store: Store, codes: tuple[str, ...] = MAIN_CODES) -> lis
 # --- analysis 3: most central decisions ---------------------------------------------------------
 
 
-def build_graph(store: Store) -> nx.DiGraph:
+def build_graph(store: Store, exclude_routine: bool = False) -> nx.DiGraph:
     """Decision-to-decision graph. Node ids: a corpus decision id, `bge:<key>` or
-    `docket:<key>` (a cited file number outside the corpus)."""
+    `docket:<key>` (a cited file number outside the corpus). With `exclude_routine`, an edge
+    A -> B exists only if at least one citation from A to B is not labelled routine."""
     g = nx.DiGraph()
     for r in store.query(
         "SELECT decision_id, year, outcome FROM decision WHERE run_id = ?", (store.run_id,)
     ):
         g.add_node(r["decision_id"], kind="decision", key=r["decision_id"], year=r["year"])
+    keep = f" AND {not_routine('c')}" if exclude_routine else ""
     rows = store.query(
-        """
+        f"""
         SELECT DISTINCT decision_id, kind, key, target_decision_id
-        FROM citation WHERE kind IN ('bge', 'docket') AND run_id = ?
+        FROM citation c WHERE kind IN ('bge', 'docket') AND run_id = ?{keep}
         """,
         (store.run_id,),
     )
@@ -178,12 +194,13 @@ def build_graph(store: Store) -> nx.DiGraph:
     return g
 
 
-def centrality_table(g: nx.DiGraph) -> list[dict[str, Any]]:
+def centrality_table(g: nx.DiGraph, variant: str = "all") -> list[dict[str, Any]]:
     pr = nx.pagerank(g, alpha=0.85)
     rows = []
     for node, data in g.nodes(data=True):
         rows.append(
             {
+                "variant": variant,
                 "node": node,
                 "kind": data["kind"],
                 "key": data["key"],
@@ -206,11 +223,15 @@ def write_centrality(run_dir: Path, rows: list[dict[str, Any]]) -> Path:
 
 
 def central_decisions(
-    store: Store, limit: int = 20, by: str = "pagerank", kind: str | None = None
+    store: Store,
+    limit: int = 20,
+    by: str = "pagerank",
+    kind: str | None = None,
+    variant: str = "all",
 ) -> list[dict[str, Any]]:
     order = "pagerank" if by == "pagerank" else "in_degree"
-    where = "WHERE run_id = ?" + (" AND kind = ?" if kind else "")
-    params: tuple[Any, ...] = (store.run_id, kind, limit) if kind else (store.run_id, limit)
+    where = "WHERE run_id = ? AND variant = ?" + (" AND kind = ?" if kind else "")
+    params: tuple[Any, ...] = (store.run_id, variant, *([kind] if kind else []), limit)
     return store.query(
         f"""
         SELECT node, kind, key, decision_id, in_degree, out_degree, pagerank,
@@ -277,7 +298,8 @@ def analyse_run(name: str, runs_dir: Path = RUNS_DIR, html: bool = True) -> dict
     store = DuckDBStore(run_dir)
     g = build_graph(store)
     rows = centrality_table(g)
-    write_centrality(run_dir, rows)
+    g_kept = build_graph(store, exclude_routine=True)
+    write_centrality(run_dir, rows + centrality_table(g_kept, "no_routine"))
     store.close()
     store = DuckDBStore(run_dir)  # pick up the new centrality view
     out: dict[str, Any] = {
@@ -287,6 +309,7 @@ def analyse_run(name: str, runs_dir: Path = RUNS_DIR, html: bool = True) -> dict
             "nodes_by_kind": dict(
                 sorted(Counter(d["kind"] for _, d in g.nodes(data=True)).items())
             ),
+            "edges_no_routine": g_kept.number_of_edges(),
         },
         "top_statutes": top_statutes(store, 20),
         "top_codes": top_codes(store, 15),

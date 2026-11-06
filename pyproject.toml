@@ -62,6 +62,8 @@ select = ["E", "F", "I", "UP", "B", "SIM", "N"]
 [tool.ruff.lint.per-file-ignores]
 "tests/*" = ["E501"]
 "scripts/*" = ["E501"]
+# the frozen Jev 1.14 prompt is kept verbatim, one label description per line
+"src/caselaw_extraction/treatment.py" = ["E501"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

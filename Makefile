@@ -1,4 +1,4 @@
-.PHONY: setup lint test ingest sample labelstudio-up labelstudio-down tasks predict-regex score score-silver train-spacy train-transformer llm-collect mlflow-ui gold-agreement gold-finalize link predict-transformer gold-round gold-round-agreement gold-round-finalize learning-curve run-corpus run-corpus-gbert graph compare-runs db-up db-down db-load api demo report-html docker-build docker-run drift drift-series tf-init tf-plan tf-apply tf-destroy tf-validate aws-push aws-sync aws-load aws-deploy aws-smoke aws-measure aws-bootstrap texts db-load-texts hz-sync-texts hz-load-texts hz-site
+.PHONY: setup lint test ingest sample labelstudio-up labelstudio-down tasks predict-regex score score-silver train-spacy train-transformer llm-collect mlflow-ui gold-agreement gold-finalize link predict-transformer gold-round gold-round-agreement gold-round-finalize learning-curve run-corpus run-corpus-gbert graph treatment compare-runs db-up db-down db-load api demo report-html docker-build docker-run drift drift-series tf-init tf-plan tf-apply tf-destroy tf-validate aws-push aws-sync aws-load aws-deploy aws-smoke aws-measure aws-bootstrap texts db-load-texts hz-sync-texts hz-load-texts hz-site
 
 setup:
 	uv sync --all-extras
@@ -102,6 +102,9 @@ run-corpus-gbert:  ## the 260-decision gbert model over the whole corpus on the 
 graph:  ## citation graph, centrality table, graph.html and the three analyses of a run
 	uv run caselaw graph --run $(RUN)
 
+treatment:  ## Jev 1.14 labels for the routine selector (about USD 5.40); then make graph. LIMIT=200 for a trial
+	op run --env-file scripts/jev/openrouter.op.env -- uv run caselaw treatment --run $(RUN) --limit $(or $(LIMIT),0)
+
 compare-runs:  ## usage: make compare-runs A=regex-v0.4 B=gbert-b13-s0
 	uv run caselaw compare-runs $(A) $(B)
 
@@ -159,6 +162,7 @@ hz-secrets:   ; scripts/hz.sh secrets
 hz-deploy:    ; scripts/hz.sh deploy
 hz-sync:      ; scripts/hz.sh sync $(RUN)
 hz-load:      ; scripts/hz.sh load $(RUN)
+hz-restart:   ; scripts/hz.sh restart
 hz-smoke:     ; scripts/hz.sh smoke
 hz-measure:   ; scripts/hz.sh measure
 hz-status:    ; scripts/hz.sh status

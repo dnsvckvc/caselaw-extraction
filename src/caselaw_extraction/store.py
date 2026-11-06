@@ -2,7 +2,8 @@
 or by Postgres (the loaded database). The graph analyses and the API write their SQL once.
 
 Table names are the same in both backends: `decision`, `span`, `citation`, `centrality`,
-`extraction_run`. Placeholders are written as `?`; the Postgres backend rewrites them to `%s`.
+`citation_treatment`, `extraction_run`. Placeholders are written as `?`; the Postgres backend
+rewrites them to `%s`.
 """
 
 from __future__ import annotations
@@ -21,6 +22,12 @@ _FILES = {
     "span": "spans.parquet",
     "citation": "citations.parquet",
     "centrality": "centrality.parquet",
+    "citation_treatment": "treatment.parquet",
+}
+# Views for tables whose file is optional, so that the SQL runs without them.
+_EMPTY = {
+    "citation_treatment": "SELECT NULL::VARCHAR AS span_id, NULL::VARCHAR AS label, "
+    "NULL::DOUBLE AS p, NULL::VARCHAR AS model WHERE false",
 }
 
 
@@ -50,10 +57,19 @@ class DuckDBStore(Store):
         for table, fname in _FILES.items():
             path = self.run_dir / fname
             if not path.exists():
+                if table in _EMPTY:
+                    self.con.execute(
+                        f"CREATE VIEW {table} AS SELECT '{self.run_id}' AS run_id, * "
+                        f"FROM ({_EMPTY[table]})"
+                    )
                 continue
             cols = "*"
             if table == "span":
                 cols = 'span_id, decision_id, "start" AS start_char, "end" AS end_char, label, text'
+            elif table == "citation_treatment":
+                cols = "span_id, label, p, model"
+            elif table == "centrality" and "variant" not in _columns(path):
+                cols = "'all' AS variant, *"  # written before the routine selector
             self.con.execute(
                 f"CREATE VIEW {table} AS SELECT '{self.run_id}' AS run_id, {cols} "
                 f"FROM read_parquet('{path}')"
@@ -106,6 +122,12 @@ class PostgresStore(Store):
 
     def close(self) -> None:
         self.con.close()
+
+
+def _columns(path: Path) -> list[str]:
+    import pyarrow.parquet as pq
+
+    return pq.read_schema(path).names
 
 
 def _extractor_of(run_dir: Path) -> str:

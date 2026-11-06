@@ -8,7 +8,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 import pytest
 
-from caselaw_extraction import corpus_run, graph
+from caselaw_extraction import corpus_run, graph, treatment
 
 _HEADER = """Bundesgericht
 Tribunal fédéral
@@ -118,13 +118,39 @@ def synthetic_corpus(tmp_path_factory) -> Path:
     return path
 
 
+ROUTINE_CUE = "verweist auf das Urteil [["
+
+
+def fake_jev(window: str, key: str) -> dict:
+    """Stands in for Jev 1.14: only the citation of 4A_1/2021 in 5A_2/2022 is routine."""
+    routine = ROUTINE_CUE in window
+    probs = {
+        "routine_standard": 0.9 if routine else 0.05,
+        "substantive_rule": 0.05 if routine else 0.9,
+    }
+    return {
+        "model": treatment.JEV_SNAPSHOT,
+        "pred": max(probs, key=probs.get),
+        "confidence": 0.9,
+        "probabilities": probs,
+        "input_tokens": 100,
+        "output_tokens": 10,
+        "cost": 0.0001,
+        "latency_s": 0.0,
+    }
+
+
 @pytest.fixture(scope="session")
 def synthetic_run(synthetic_corpus: Path, tmp_path_factory) -> tuple[Path, str]:
-    """(runs_dir, run name) of the regex pipeline over the synthetic corpus, with the graph."""
+    """(runs_dir, run name) of the regex pipeline over the synthetic corpus, with treatment
+    labels from `fake_jev` and the graph."""
     runs_dir = tmp_path_factory.mktemp("runs")
     corpus_run.run_corpus(
         "synthetic", "regex", scheduler="sync", corpus=synthetic_corpus, runs_dir=runs_dir
     )
-    graph.analyse_run("synthetic", runs_dir=runs_dir, html=False)
     corpus_run.write_texts(synthetic_corpus, runs_dir / "texts.parquet")
+    treatment.label_run(
+        runs_dir / "synthetic", runs_dir / "texts.parquet", "no-key", call=fake_jev, log=str
+    )
+    graph.analyse_run("synthetic", runs_dir=runs_dir, html=False)
     return runs_dir, "synthetic"

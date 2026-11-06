@@ -10,6 +10,7 @@
 #   scripts/hz.sh sync-texts      rsync data/runs/texts.parquet (decision texts) to the server
 #   scripts/hz.sh load-texts      load the decision texts into Postgres (decision_text table)
 #   scripts/hz.sh site <dir>      copy a built front end (caselaw-explorer/dist) to <site>/app/
+#   scripts/hz.sh restart         restart the API container (empties its cache, warms it again)
 #   scripts/hz.sh smoke | measure | logs | ssh | backup-now | status
 #   scripts/hz.sh bootstrap [run] apply, wait, secrets, deploy, sync, load, smoke
 set -euo pipefail
@@ -84,6 +85,7 @@ case "$cmd" in
     [ -f "$dir/index.html" ] || { echo "no index.html in $dir (run npm run build first)" >&2; exit 1; }
     rsync -az --delete -e "ssh ${SSH_OPTS[*]}" "$dir/" "caselaw@$(ip):/opt/caselaw/site/app/"
     echo "site: $(out site_url)/app/" ;;
+  restart) sshc "$COMPOSE restart api" ;;
   status)  sshc "$COMPOSE ps" ;;
   logs)    sshc "$COMPOSE logs -f --since 10m ${1:-}" ;;
   backup-now) sshc "/opt/caselaw/repo/infra/hetzner/backup.sh" ;;
@@ -103,5 +105,5 @@ case "$cmd" in
   bootstrap)
     run=${1:-regex-v0.4}
     "$0" apply; "$0" wait; "$0" secrets; "$0" deploy; "$0" sync "$run"; "$0" load "$run"; "$0" smoke ;;
-  *) sed -n '2,13p' "$0" ;;
+  *) sed -n '2,14p' "$0" ;;
 esac

@@ -56,8 +56,11 @@ CREATE TABLE IF NOT EXISTS citation (
     target_decision_id text
 );
 
+-- One row per node and graph variant: `all` (every citation) or `no_routine` (citations that
+-- Jev 1.14 labelled routine_standard left out), for the API's routine selector.
 CREATE TABLE IF NOT EXISTS centrality (
     run_id         text NOT NULL REFERENCES extraction_run(run_id) ON DELETE CASCADE,
+    variant        text NOT NULL DEFAULT 'all',
     node           text NOT NULL,
     kind           text NOT NULL,
     key            text NOT NULL,
@@ -67,7 +70,32 @@ CREATE TABLE IF NOT EXISTS centrality (
     pagerank       double precision NOT NULL,
     rank_pagerank  integer NOT NULL,
     rank_in_degree integer NOT NULL,
-    PRIMARY KEY (run_id, node)
+    PRIMARY KEY (run_id, variant, node)
+);
+
+-- Databases created before the routine selector: add the variant to the centrality key.
+ALTER TABLE centrality ADD COLUMN IF NOT EXISTS variant text NOT NULL DEFAULT 'all';
+DO $$
+BEGIN
+    IF NOT EXISTS (
+        SELECT 1 FROM information_schema.key_column_usage
+        WHERE table_name = 'centrality' AND constraint_name = 'centrality_pkey'
+          AND column_name = 'variant'
+    ) THEN
+        ALTER TABLE centrality DROP CONSTRAINT centrality_pkey;
+        ALTER TABLE centrality ADD PRIMARY KEY (run_id, variant, node);
+    END IF;
+END $$;
+
+-- Citation treatment by Jev 1.14 (`caselaw treatment`), one row per bge/docket citation span.
+-- Loaded later than the run; a citation without a row counts as not routine.
+CREATE TABLE IF NOT EXISTS citation_treatment (
+    run_id   text NOT NULL REFERENCES extraction_run(run_id) ON DELETE CASCADE,
+    span_id  text NOT NULL,
+    label    text NOT NULL,
+    p        double precision,
+    model    text NOT NULL,
+    PRIMARY KEY (run_id, span_id)
 );
 
 CREATE TABLE IF NOT EXISTS decision_text (
@@ -86,4 +114,7 @@ CREATE INDEX IF NOT EXISTS citation_decision_idx ON citation (run_id, decision_i
 CREATE INDEX IF NOT EXISTS citation_target_idx ON citation (run_id, target_decision_id);
 CREATE INDEX IF NOT EXISTS span_decision_idx ON span (run_id, decision_id);
 CREATE INDEX IF NOT EXISTS decision_year_idx ON decision (run_id, year);
-CREATE INDEX IF NOT EXISTS centrality_pagerank_idx ON centrality (run_id, pagerank DESC);
+DROP INDEX IF EXISTS centrality_pagerank_idx;
+CREATE INDEX IF NOT EXISTS centrality_variant_pagerank_idx
+    ON centrality (run_id, variant, pagerank DESC);
+CREATE INDEX IF NOT EXISTS citation_span_idx ON citation (run_id, span_id);

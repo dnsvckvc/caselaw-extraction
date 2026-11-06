@@ -35,6 +35,10 @@ Part 4, automation and the alternative:
 
 13. [CI and the AWS design](13-ci-github-actions-and-aws.md): the GitHub Actions workflows, and the AWS stack kept as the second target.
 
+Part 5, the cheap classifier (pilot of 2026-11-05):
+
+14. [The routine filter explained](14-jev-routine-filter-explained.md): what Jev 1.14 was tested on, and why the regex baseline looks for "BGG".
+
 Two shorter paths:
 
 - For the deployment only, read 6 to 12.
